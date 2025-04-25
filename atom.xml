@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-04-25T04:01:53.311Z</updated>
+  <updated>2025-04-25T08:46:49.942Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,49 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2025四月日志</title>
+    <link href="http://example.com/2025/2025%E5%9B%9B%E6%9C%88%E6%97%A5%E5%BF%97/"/>
+    <id>http://example.com/2025/2025%E5%9B%9B%E6%9C%88%E6%97%A5%E5%BF%97/</id>
+    <published>2025-04-25T06:47:32.000Z</published>
+    <updated>2025-04-25T08:46:49.942Z</updated>
+    
+    
+    <summary type="html">&lt;h3 id=&quot;2025-4-25-工高开班仪式&quot;&gt;&lt;a href=&quot;#2025-4-25-工高开班仪式&quot; class=&quot;headerlink&quot; title=&quot;2025/4/25 工高开班仪式&quot;&gt;&lt;/a&gt;2025/4/25 工高开班仪式&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/pictures/工高签名.jpg&quot; alt=&quot;工高签名&quot; style=&quot;display: block; margin: 0 auto; width: 80%;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;刚开始走错门了，走进了教室才知道到另一头的入口去签名🤣&lt;br&gt;仔细数了一下，发现这届工高班的男女比例达到了惊人的 3:1😋&lt;br&gt;</summary>
+    
+    
+    
+    
+    <category term="个人日志" scheme="http://example.com/tags/%E4%B8%AA%E4%BA%BA%E6%97%A5%E5%BF%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于博主</title>
+    <link href="http://example.com/2025/%E5%85%B3%E4%BA%8E%E5%8D%9A%E4%B8%BB/"/>
+    <id>http://example.com/2025/%E5%85%B3%E4%BA%8E%E5%8D%9A%E4%B8%BB/</id>
+    <published>2025-04-25T05:32:40.000Z</published>
+    <updated>2025-04-25T09:01:27.625Z</updated>
+    
+    
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;浙江大学电气工程学院电子信息工程专业大一学生&lt;/li&gt;
+&lt;li&gt;浙江大学竺可桢学院工程教育高级班 2024 级成员&lt;/li&gt;
+&lt;li&gt;浙江省前 OIer 一枚（估计没机会进 ACM 校队了哭哭）&lt;/li&gt;
+&lt;li&gt;试图记录大学生活，并活得更多姿多彩的理想主义者&lt;/li&gt;
+&lt;li&gt;热爱 JPOP ，喜欢听纯音乐并在咕小提琴的音乐爱好者&lt;/li&gt;
+&lt;li&gt;试图让自己变得更加容易接近的小 i 人&lt;/li&gt;
+&lt;li&gt;在某些场合下可能表现得有些自恋的帅锅 qwq&lt;/li&gt;
+&lt;li&gt;在高中语文老师的启发下正在看书脱离文盲</summary>
+    
+    
+    
+    
+    <category term="个人资料" scheme="http://example.com/tags/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%96%99/"/>
+    
+  </entry>
   
   <entry>
     <title>微积分甲I</title>
