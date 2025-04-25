@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-04-24T15:20:43.941Z</updated>
+  <updated>2025-04-25T01:51:04.901Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://example.com/2025/04/24/%E6%88%91%E7%9A%84%E9%98%BF%E5%8B%92%E6%B3%B0/"/>
     <id>http://example.com/2025/04/24/%E6%88%91%E7%9A%84%E9%98%BF%E5%8B%92%E6%B3%B0/</id>
     <published>2025-04-24T15:15:17.000Z</published>
-    <updated>2025-04-24T15:20:43.941Z</updated>
+    <updated>2025-04-25T01:51:04.901Z</updated>
     
     
       
@@ -36,7 +36,7 @@
     
     
     
-    <category term="文学" scheme="http://example.com/tags/%E6%96%87%E5%AD%A6/"/>
+    <category term="文学观感" scheme="http://example.com/tags/%E6%96%87%E5%AD%A6%E8%A7%82%E6%84%9F/"/>
     
   </entry>
   
