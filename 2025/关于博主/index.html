@@ -92,7 +92,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">159</span>
+            <span class="post-count">174</span>
         </span>
     </span>
 
@@ -122,8 +122,8 @@
 <li>热爱 JPOP ，喜欢听纯音乐并在咕小提琴的音乐爱好者</li>
 <li>试图让自己变得更加容易接近的小 i 人</li>
 <li>在某些场合下可能表现得有些自恋的帅锅 qwq</li>
-<li>在高中语文老师的启发下正在看书脱离文盲<span id="more"></span>
-<img src="/pictures/个人照片.jpg" alt="你浙什么时候改善宿舍环境" style="display: block; margin: 0 auto; width: 30%;"></li>
+<li>在高中语文老师的启发下正在看书脱离文盲状态<span id="more"></span>
+<img src="/pictures/个人照片.jpg" alt="你浙什么时候改善宿舍环境" style="display: block; margin: 0 auto; width: 30%;"><br>其它的暂时懒得写了qwq，咕咕咕</li>
 </ul>
  
       <!-- reward -->
@@ -219,7 +219,55 @@
     
   </nav>
 
-  
+   
+<!-- valine评论 -->
+<div id="vcomments-box">
+  <div id="vcomments"></div>
+</div>
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="https://cdn.staticfile.org/valine/1.4.16/Valine.min.js"></script>
+<script>
+  new Valine({
+    el: "#vcomments",
+    app_id: "4xGlq8XSx3LeY3UnQdUTKPV5-gzGzoHsz",
+    app_key: "Pv5aoLdBvgd2cy18nWkeq7Ai",
+    path: window.location.pathname,
+    avatar: "hide",
+    placeholder: "期待你的精彩评论qwq",
+    recordIP: true,
+  });
+  const infoEle = document.querySelector("#vcomments .info");
+  if (infoEle && infoEle.childNodes && infoEle.childNodes.length > 0) {
+    infoEle.childNodes.forEach(function (item) {
+      item.parentNode.removeChild(item);
+    });
+  }
+</script>
+<style>
+  #vcomments-box {
+    padding: 5px 30px;
+  }
+
+  @media screen and (max-width: 800px) {
+    #vcomments-box {
+      padding: 5px 0px;
+    }
+  }
+
+  #vcomments-box #vcomments {
+    background-color: #fff;
+  }
+
+  .v .vlist .vcard .vh {
+    padding-right: 20px;
+  }
+
+  .v .vlist .vcard {
+    padding-left: 10px;
+  }
+</style>
+
+ 
    
   
    
