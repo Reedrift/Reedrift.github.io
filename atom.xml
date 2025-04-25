@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Reedrift</title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2025-04-25T02:19:17.979Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>Reedrift</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我的阿勒泰</title>
+    <link href="http://example.com/2025/04/25/%E6%88%91%E7%9A%84%E9%98%BF%E5%8B%92%E6%B3%B0/"/>
+    <id>http://example.com/2025/04/25/%E6%88%91%E7%9A%84%E9%98%BF%E5%8B%92%E6%B3%B0/</id>
+    <published>2025-04-25T02:19:03.000Z</published>
+    <updated>2025-04-25T02:19:17.979Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;第一次&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    
+    <category term="文学观感" scheme="http://example.com/tags/%E6%96%87%E5%AD%A6%E8%A7%82%E6%84%9F/"/>
+    
+  </entry>
+  
+</feed>
