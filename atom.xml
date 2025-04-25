@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-04-25T02:19:17.979Z</updated>
+  <updated>2025-04-25T04:01:53.311Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,26 +17,22 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>我的阿勒泰</title>
-    <link href="http://example.com/2025/04/25/2025/%E6%88%91%E7%9A%84%E9%98%BF%E5%8B%92%E6%B3%B0/"/>
-    <id>http://example.com/2025/04/25/2025/%E6%88%91%E7%9A%84%E9%98%BF%E5%8B%92%E6%B3%B0/</id>
-    <published>2025-04-25T02:19:03.000Z</published>
-    <updated>2025-04-25T02:19:17.979Z</updated>
+    <title>微积分甲I</title>
+    <link href="http://example.com/2025/04/25/2025/%E5%BE%AE%E7%A7%AF%E5%88%86%E7%94%B2I/"/>
+    <id>http://example.com/2025/04/25/2025/%E5%BE%AE%E7%A7%AF%E5%88%86%E7%94%B2I/</id>
+    <published>2025-04-25T03:19:42.000Z</published>
+    <updated>2025-04-25T04:01:53.311Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;第一次&lt;/p&gt;
-</summary>
-        
-      
+    <summary type="html">&lt;h3 id=&quot;Chapter-1-数列极限&quot;&gt;&lt;a href=&quot;#Chapter-1-数列极限&quot; class=&quot;headerlink&quot; title=&quot;Chapter-1 数列极限&quot;&gt;&lt;/a&gt;Chapter-1 数列极限&lt;/h3&gt;&lt;h4 id=&quot;数列极限定义&quot;&gt;&lt;a href=&quot;#数列极限定义&quot; class=&quot;headerlink&quot; title=&quot;数列极限定义&quot;&gt;&lt;/a&gt;数列极限定义&lt;/h4&gt;&lt;p&gt;设 $&#92;{a_n&#92;}$ 是 $&#92;mathrm{R}$ 中的一个数列，如果存在 $a&#92;in&#92;mathrm{R}$ 使得 $&#92;forall &#92;varepsilon&amp;gt;0,&#92;exists N&#92;in&#92;mathrm{N_+}$ ，当 $n&#92;geq N$ 时，都有 $|a_n-a|&amp;lt;&#92;varepsilon$ ，就称数列 $&#92;{a_n&#92;}$ 是收敛于 $a$ 的，记为 $&#92;begin{aligned}&#92;lim_{n&#92;rightarrow&#92;infty}a_n=a&#92;end{aligned}$ ,称 $a$ 是数列 $&#92;{a_n&#92;}$ 的极限&lt;/p&gt;
+&lt;h4 id=&quot;数列极限性质&quot;&gt;&lt;a href=&quot;#数列极限性质&quot; class=&quot;headerlink&quot; title=&quot;数列极限性质&quot;&gt;&lt;/a&gt;数列极限性质&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;唯一性&lt;/strong&gt;  如果数列 $&#92;{a_n&#92;}$ 收敛，那么其极限是唯一的&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;有界性&lt;/strong&gt;  如果数列 $&#92;{a_n&#92;}$ 收敛，那么 $&#92;{a_n&#92;}$ 是有界的，即 $&#92;exists M&amp;gt;0,&#92;forall n&#92;in&#92;mathrm{N_+},|a_n|&#92;leq M$&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;保号性&lt;/strong&gt;  如果 $&#92;begin{aligned}&#92;lim_{n&#92;rightarrow&#92;infty}a_n=a&amp;gt;0&#92;end{aligned}$ 那么 $&#92;forall p&#92;in(0,a),&#92;exists N&amp;gt;0$ 当 $n&#92;geq N$ 时 $a_n&amp;gt;p&amp;gt;0$&lt;br&gt;</summary>
     
     
     
     
-    <category term="文学观感" scheme="http://example.com/tags/%E6%96%87%E5%AD%A6%E8%A7%82%E6%84%9F/"/>
+    <category term="课程笔记" scheme="http://example.com/tags/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
