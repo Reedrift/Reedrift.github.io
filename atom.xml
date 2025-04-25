@@ -3,11 +3,11 @@
   <title>Reedrift</title>
   
   
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://reedrift.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://reedrift.github.io/"/>
   <updated>2025-04-25T09:43:49.993Z</updated>
-  <id>http://example.com/</id>
+  <id>https://reedrift.github.io/</id>
   
   <author>
     <name>Reedrift</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>2025四月日志</title>
-    <link href="http://example.com/2025/2025%E5%9B%9B%E6%9C%88%E6%97%A5%E5%BF%97/"/>
-    <id>http://example.com/2025/2025%E5%9B%9B%E6%9C%88%E6%97%A5%E5%BF%97/</id>
+    <link href="https://reedrift.github.io/2025/2025%E5%9B%9B%E6%9C%88%E6%97%A5%E5%BF%97/"/>
+    <id>https://reedrift.github.io/2025/2025%E5%9B%9B%E6%9C%88%E6%97%A5%E5%BF%97/</id>
     <published>2025-04-25T06:47:32.000Z</published>
     <updated>2025-04-25T09:43:49.993Z</updated>
     
@@ -30,14 +30,14 @@
     
     
     
-    <category term="个人日志" scheme="http://example.com/tags/%E4%B8%AA%E4%BA%BA%E6%97%A5%E5%BF%97/"/>
+    <category term="个人日志" scheme="https://reedrift.github.io/tags/%E4%B8%AA%E4%BA%BA%E6%97%A5%E5%BF%97/"/>
     
   </entry>
   
   <entry>
     <title>关于博主</title>
-    <link href="http://example.com/2025/%E5%85%B3%E4%BA%8E%E5%8D%9A%E4%B8%BB/"/>
-    <id>http://example.com/2025/%E5%85%B3%E4%BA%8E%E5%8D%9A%E4%B8%BB/</id>
+    <link href="https://reedrift.github.io/2025/%E5%85%B3%E4%BA%8E%E5%8D%9A%E4%B8%BB/"/>
+    <id>https://reedrift.github.io/2025/%E5%85%B3%E4%BA%8E%E5%8D%9A%E4%B8%BB/</id>
     <published>2025-04-25T05:32:40.000Z</published>
     <updated>2025-04-25T09:38:48.343Z</updated>
     
@@ -55,14 +55,14 @@
     
     
     
-    <category term="个人资料" scheme="http://example.com/tags/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%96%99/"/>
+    <category term="个人资料" scheme="https://reedrift.github.io/tags/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%96%99/"/>
     
   </entry>
   
   <entry>
     <title>微积分甲I</title>
-    <link href="http://example.com/2025/%E5%BE%AE%E7%A7%AF%E5%88%86%E7%94%B2I/"/>
-    <id>http://example.com/2025/%E5%BE%AE%E7%A7%AF%E5%88%86%E7%94%B2I/</id>
+    <link href="https://reedrift.github.io/2025/%E5%BE%AE%E7%A7%AF%E5%88%86%E7%94%B2I/"/>
+    <id>https://reedrift.github.io/2025/%E5%BE%AE%E7%A7%AF%E5%88%86%E7%94%B2I/</id>
     <published>2025-04-25T03:19:42.000Z</published>
     <updated>2025-04-25T04:01:53.311Z</updated>
     
@@ -75,7 +75,7 @@
     
     
     
-    <category term="课程笔记" scheme="http://example.com/tags/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
+    <category term="课程笔记" scheme="https://reedrift.github.io/tags/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
