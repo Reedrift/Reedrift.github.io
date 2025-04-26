@@ -6,7 +6,7 @@
   <link href="https://reedrift.github.io/atom.xml" rel="self"/>
   
   <link href="https://reedrift.github.io/"/>
-  <updated>2025-04-25T13:28:14.452Z</updated>
+  <updated>2025-04-26T11:08:56.249Z</updated>
   <id>https://reedrift.github.io/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>线性代数</title>
+    <link href="https://reedrift.github.io/2025/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/"/>
+    <id>https://reedrift.github.io/2025/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/</id>
+    <published>2025-04-26T11:03:04.000Z</published>
+    <updated>2025-04-26T11:08:56.249Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;几何解释&quot;&gt;&lt;a href=&quot;#几何解释&quot; class=&quot;headerlink&quot; title=&quot;几何解释&quot;&gt;&lt;/a&gt;几何解释&lt;/h2&gt;&lt;h3 id=&quot;方阵乘法的意义&quot;&gt;&lt;a href=&quot;#方阵乘法的意义&quot; class=&quot;headerlink&quot; title=&quot;方阵乘法的意义&quot;&gt;&lt;/a&gt;方阵乘法的意义&lt;/h3&gt;&lt;p&gt;对于方阵 $A,B$ ，表达式 $B(AX)$ 表示在新基 $B$ 下坐标为在新基 $A$ 下坐标为 $X$ 的坐标的坐标&lt;/p&gt;
+&lt;p&gt;$(BA)X$ 表示 $A$ 中的每一个列向量在新基 $B$ 下对应的向量构成的一组基下坐标为 $X$ 的坐标&lt;/p&gt;
+&lt;p&gt;表明矩阵的乘法是线性变换的依次进行的等价线性变换&lt;br&gt;</summary>
+    
+    
+    
+    
+    <category term="课程笔记" scheme="https://reedrift.github.io/tags/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>2025四月日志</title>
