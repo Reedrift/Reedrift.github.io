@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+
+
+<html lang="zh-CN">
+  
+
+    <head>
+      <script>
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?39a1f28ac88bbf4e6501c03d803458fb";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();
+        </script>
+        
+
+      <meta charset="utf-8" />
+        
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1"
+      />
+      <title>大学物理甲I |  Reedrift</title>
+  <meta name="generator" content="hexo-theme-ayer">
+      
+      <link rel="shortcut icon" href="/reedrift.ico" />
+       
+<link rel="stylesheet" href="/dist/main.css">
+
+      
+<link rel="stylesheet" href="/css/fonts/remixicon.css">
+
+      
+<link rel="stylesheet" href="/css/custom.css">
+ 
+      <script src="https://cdn.staticfile.org/pace/1.2.4/pace.min.js"></script>
+       
+ 
+<script>
+var _hmt = _hmt || [];
+(function() {
+	var hm = document.createElement("script");
+	hm.src = "https://hm.baidu.com/hm.js?https://reedrift.github.io";
+	var s = document.getElementsByTagName("script")[0]; 
+	s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+      <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-bulma@5.0.1/bulma.min.css"
+      />
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.min.js"></script>
+
+      <!-- mermaid -->
+      
+      <style>
+        .swal2-styled.swal2-confirm {
+          font-size: 1.6rem;
+        }
+      </style>
+    <link rel="alternate" href="/atom.xml" title="Reedrift" type="application/atom+xml">
+</head>
+  </html>
+</html>
+
+
+<body>
+  <div id="app">
+    
+      <canvas class="fireworks"></canvas>
+      <style>
+        .fireworks {
+          position: fixed;
+          left: 0;
+          top: 0;
+          z-index: 99999;
+          pointer-events: none;
+        }
+      </style>
+      
+      
+    <main class="content on">
+      <section class="outer">
+  <article
+  id="post-大学物理甲I"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h1 class="article-title sea-center" style="border-left:0" itemprop="name">
+  大学物理甲I
+</h1>
+ 
+
+      
+    </header>
+     
+    <div class="article-meta">
+      <a href="/2025/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E7%94%B2I/" class="article-date">
+  <time datetime="2025-04-28T15:00:19.000Z" itemprop="datePublished">2025-04-28</time>
+</a>   
+<div class="word_count">
+    <span class="post-time">
+        <span class="post-meta-item-icon">
+            <i class="ri-quill-pen-line"></i>
+            <span class="post-meta-item-text"> 字数统计:</span>
+            <span class="post-count">4.6k</span>
+        </span>
+    </span>
+
+    <span class="post-time">
+        &nbsp; | &nbsp;
+        <span class="post-meta-item-icon">
+            <i class="ri-book-open-line"></i>
+            <span class="post-meta-item-text"> 阅读时长≈</span>
+            <span class="post-count">20 分钟</span>
+        </span>
+    </span>
+</div>
+ 
+    </div>
+      
+    <div class="tocbot"></div>
+
+
+
+
+  
+    <div class="article-entry" itemprop="articleBody">
+       
+  <h2 id="Chapter-5-机械振动"><a href="#Chapter-5-机械振动" class="headerlink" title="Chapter-5 机械振动"></a>Chapter-5 机械振动</h2><h3 id="简谐振动方程"><a href="#简谐振动方程" class="headerlink" title="简谐振动方程"></a>简谐振动方程</h3><p>简谐振动的微分方程及其解的一般形式为（可以通过常微分方程知识求解）</p>
+<script type="math/tex; mode=display">
+\frac{d^2x}{dt^2}+\omega^2x=0\quad\Rightarrow\quad x=A\cos(\omega t+\varphi)</script><p>已知简谐振动的初始状态 $x_0=A\cos\varphi,\quad v_0=-\omega A\sin\varphi$ 可以求得</p>
+<script type="math/tex; mode=display">
+A=\sqrt{x_0^2+(\frac{v_0}{\omega})^2},
+\quad
+\varphi=\arctan\frac{-v_0}{\omega x_0}</script><span id="more"></span>
+<h3 id="谐振动的能量"><a href="#谐振动的能量" class="headerlink" title="谐振动的能量"></a>谐振动的能量</h3><p>设物体的位移为 $x$ ，速度为 $v$ 时，系统的弹性势能与动能分别为</p>
+<script type="math/tex; mode=display">
+\begin{align}
+&E_p=\frac{1}{2}kx^2=\frac{1}{2}kA^2\cos^2(\omega t+\varphi)
+\quad \omega^2=\frac{k}{m}
+\\
+&E_k=\frac{1}{2}mv^2=\frac{1}{2}m\omega^2A^2\sin^2(\omega t+\varphi)=\frac{1}{2}kA^2\sin^2(\omega t+\varphi)\\
+&E=\frac{1}{2}kx^2+\frac{1}{2}mv^2=\frac{1}{2}kA^2
+\end{align}</script><p>则系统的势能和动能总量守恒，总能量与振幅平方成正比</p>
+<h3 id="稳定平衡位置附近的运动"><a href="#稳定平衡位置附近的运动" class="headerlink" title="稳定平衡位置附近的运动"></a>稳定平衡位置附近的运动</h3><p><strong>单摆的简谐振动</strong></p>
+<script type="math/tex; mode=display">
+m\frac{d^2x}{dt^2}=m\frac{d^2(l\theta)}{dt^2}=-\frac{mg}{l}(l\theta)=-\frac{mg}{l}x=F_t\quad\Rightarrow\quad\frac{d^2\theta}{dt^2}=-\frac{g}{l}\theta</script><p>则当 $\theta$ 角很小时，单摆的运动可以看作谐振动</p>
+<p><strong>复摆的简谐振动</strong></p>
+<script type="math/tex; mode=display">
+-mgl\sin\theta=J\frac{d^2\theta}{dt^2}
+\quad(\sin\theta\approx\theta)
+\quad\Rightarrow\quad
+\frac{d^2\theta}{dt^2}=-\frac{mgl}{J}\theta</script><p>则复摆的振动角频率为 $\begin{align}\omega=\sqrt{\frac{mgl}{J}}\end{align}$ ，单摆可以视为复摆的特例</p>
+<h3 id="阻尼振动"><a href="#阻尼振动" class="headerlink" title="阻尼振动"></a>阻尼振动</h3><p>振动系统收到弹性力和阻力两个力的作用，应用牛顿方程，得到</p>
+<script type="math/tex; mode=display">
+\begin{align}m\frac{d^2x}{dt^2}=-kx-b\frac{dx}{dt}\Rightarrow\frac{d^2x}{dt^2}+\frac{b}{m}\frac{dx}{dt}+\frac{k}{m}x=0\end{align}</script><p>应用常微分方程中的特征方程，得到</p>
+<script type="math/tex; mode=display">
+\begin{align}r^2+\frac{b}{m}r+\frac{k}{m}=0\end{align}</script><p>由于是弱阻尼运动，该方程的解应当反应振幅减弱的情况，则 $\Delta&lt;0$<br>该方程的复数解为</p>
+<script type="math/tex; mode=display">
+\begin{align}
+r=\frac{-\frac{b}{m}\pm\sqrt{\frac{b^2}{m^2}-4\frac{k}{m}}}{2}
+=-\frac{b}{2m}\pm\sqrt{(\frac{b}{2m})^2-\frac{k}{m}}
+=-\frac{b}{2m}\pm\sqrt{\frac{k}{m}-(\frac{b}{2m})^2}\cdot\mathrm{i}
+\end{align}</script><p>根据常微分方程的知识可以得到方程的一个解为</p>
+<script type="math/tex; mode=display">
+\begin{align}
+Ae^{-\frac{b}{2m}t}\cos(\sqrt{\frac{k}{m}-(\frac{b}{2m})^2}\cdot t+\varphi)
+\end{align}</script><p>由无阻尼振动中的 $\begin{align}\omega_0=\sqrt{\frac{k}{m}}\end{align}$ ，令 $\gamma=\frac{b}{2m}$ ，则新的振动方程为</p>
+<script type="math/tex; mode=display">
+\begin{align}Ae^{-\gamma t}\cos(\sqrt{\omega_0^2-\gamma^2}\cdot t+\varphi)\end{align}</script><p><strong>振动能量</strong> $\begin{align}E=E_\theta e^{-2\gamma t}\end{align}$ 振动的能量也随时间作指数衰减</p>
+<p><strong>时间常数</strong> $\begin{align}\tau=\frac{1}{2\gamma}=\frac{m}{b}\end{align}$ 表示能量衰减为原来的 $\begin{align}\frac{1}{e}\end{align}$ 的时间</p>
+<p><strong>品质因数</strong> $\begin{align}Q=2\pi\frac{1}{2\gamma T}=\frac{\omega}{2\gamma}=\omega\tau\end{align}$ 表示阻尼振动在一个时间常数振动对应的相位变化</p>
+<h3 id="受迫振动与共振"><a href="#受迫振动与共振" class="headerlink" title="受迫振动与共振"></a>受迫振动与共振</h3><p>假设驱动力按照余弦规律变化，即 $F=F_0\cos(\omega t)$<br>则物体受弹性力、阻力和驱动力得到牛顿运动方程</p>
+<script type="math/tex; mode=display">
+m\frac{d^2x}{dt^2}=-kx-b\frac{dx}{dt}+F_0\cos\omega t</script><p>在稳态等幅受迫振动中，上述方程的解为 $x=A\cos(\omega t+\varphi)$ ，其中</p>
+<script type="math/tex; mode=display">
+\begin{align}
+&A=\frac{\begin{align}\frac{F_0}{m}\end{align}}{\sqrt{(\omega_0^2-\omega^2)^2+4\gamma^2\omega^2}},\quad\varphi=\arctan\frac{-2\gamma\omega}{\omega_0^2-\omega^2}\\
+&\omega_0^2=\frac{k}{m},\quad\gamma=\frac{b}{2m}
+\end{align}</script><p>当阻尼为 $0$ 时 $\omega_{共振}=\omega_0$ ，当阻尼不为 $0$ 时 $\omega_{共振}=\sqrt{\omega_0^2-2\gamma^2}$</p>
+<h3 id="振动的合成"><a href="#振动的合成" class="headerlink" title="振动的合成"></a>振动的合成</h3><p><strong>同方向同频率谐振动的合成</strong></p>
+<p>设物体沿 $x$ 轴同时参与两个独立振动，分别以 $x_1,x_2$ 表示其位移</p>
+<script type="math/tex; mode=display">
+x_1=A_1\cos(\omega t+\varphi_1),\quad x_2=A_2\cos(\omega t+\varphi_2)</script><p>合振动仍然是谐振动，即 $x=A\cos(\omega t+\varphi)$</p>
+<script type="math/tex; mode=display">
+\begin{align}
+&A=\sqrt{A_1^2+A_2^2+2A_1A_2\cos(\varphi_2-\varphi_1)}\\
+&\varphi=\arctan\frac{A_1\sin\varphi_1+A_2\sin\varphi_2}{A_1\cos\varphi_1+A_2\sin\varphi_2}
+\end{align}</script><p><strong>同方向不同频率谐振动的合成</strong></p>
+<p>设物体沿 $x$ 轴同时参与两个独立振动，简便起见设分振动的初相均为零</p>
+<p>合振幅的大小为 $\begin{aligned}A=\sqrt{A_1^2+A_2^2+2A_1A_2\cos(\omega_2-\omega_1)t}\end{aligned}$</p>
+<p>当 $A_1=A_2$ 时，$\begin{align}x=2A_1\cos(\frac{\omega_2-\omega_1}{2})t\cos(\frac{\omega_1+\omega_2}{2})t\end{align}$<br>在 $\omega_2-\omega_1\ll\omega_1+\omega_2$ 的条件下，振幅随时间周期变化<br>合振动强弱交替变化的现象称为拍，单位时间内振动忽强（或忽弱）的次数称为拍频</p>
+<script type="math/tex; mode=display">
+\begin{align}\nu_{拍}=\frac{\omega_2}{2\pi}-\frac{\omega_1}{2\pi}=\nu_2-\nu_1\end{align}</script><p>拍频是 $\begin{align}\cos(\frac{\omega_2-\omega_1}{2})t\end{align}$ 的振动频率的两倍</p>
+<h2 id="Chapter-6-机械波"><a href="#Chapter-6-机械波" class="headerlink" title="Chapter-6 机械波"></a>Chapter-6 机械波</h2><h3 id="纵波与横波"><a href="#纵波与横波" class="headerlink" title="纵波与横波"></a>纵波与横波</h3><p>当机械波在某媒质中进行传播时，媒质中各质点只在平衡位置附近作振动<br>质点振动方向与波的传播方向垂直的波称为 <strong>横波</strong><br>质点振动方向与波的传播方向平行的波称为 <strong>纵波</strong></p>
+<h3 id="一维波的一般表达式"><a href="#一维波的一般表达式" class="headerlink" title="一维波的一般表达式"></a>一维波的一般表达式</h3><p>假设函数 $f$ 描述波的形状，波的传播速度为 $u$ ，在坐标 $x$ 处的波形可以表示为</p>
+<script type="math/tex; mode=display">
+y(x,0)=f(x),\quad y(x,t)=f(x-ut)</script><h3 id="平面简谐波的波函数"><a href="#平面简谐波的波函数" class="headerlink" title="平面简谐波的波函数"></a>平面简谐波的波函数</h3><script type="math/tex; mode=display">
+\begin{align}
+&y(x,t)=A\cos\omega(t-\frac{x}{u})\\
+&v=-A\omega\sin\omega(t-\frac{x}{u})\\
+
+\end{align}</script><h3 id="一维波的波动微分方程"><a href="#一维波的波动微分方程" class="headerlink" title="一维波的波动微分方程"></a>一维波的波动微分方程</h3><p>讨论平面简谐波满足的微分方程，令 $\begin{align}y(x,t)=A\cos\omega(t-\frac{x}{u})\end{align}$ ，则有</p>
+<script type="math/tex; mode=display">
+\begin{cases}
+\begin{align}
+&\frac{\partial^2y}{\partial x^2}=
+-(\frac{\omega}{u})^2A\cos\omega(t-\frac{x}{u})\\
+&\frac{\partial^2y}{\partial t^2}=
+-\omega^2A\cos\omega(t-\frac{x}{u})
+\end{align}
+\end{cases}
+\Rightarrow
+\frac{\partial^2y}{\partial x^2}=
+\frac{1}{u^2}\frac{\partial^2y}{\partial t^2}</script><p>假设绳上张力为 $F$ ，绳的线密度为 $\mu$ ，在一小段绳上分析，有</p>
+<script type="math/tex; mode=display">
+\begin{align}
+\sum F_y
+&=F(\sin\theta_2-\sin\theta_1)\\
+&=F(\tan\theta_2-\tan\theta_1)\\
+&=F[(\frac{\partial y}{\partial x})_2-(\frac{\partial y}{\partial x})_1]\\
+&\approx F\frac{\partial^2 y}{\partial x^2}\Delta x\\
+\end{align}</script><script type="math/tex; mode=display">
+\begin{align}
+&\sum F_y=ma_y
+\Rightarrow
+F\frac{\partial^2 y}{\partial x^2}\Delta x
+=\mu\Delta x\frac{\partial^2y}{\partial t^2}\\
+&\Rightarrow\frac{\partial^2y}{\partial x^2}=\frac{\mu}{F}\frac{\partial^2 y}{\partial t^2}
+\end{align}</script><p>由此可以得到绳上横波的传播速度为 $\begin{align}u=\sqrt{\frac{F}{\mu}}\end{align}$<br>在棒中纵波的传播速度为 $\begin{align}u=\sqrt{\frac{Y}{\rho}}\end{align}$ 其中 $Y$ 为杨氏模量，反应棒的弹性<br>杨氏模量的定义为 $\begin{align}Y=\frac{(\frac{F}{s})}{\frac{\Delta l}{l_0}}\end{align}$ ，其中 $\begin{align}\frac{F}{s}\end{align}$ 表示应力， $\begin{align}\frac{\Delta l}{l_0}\end{align}$ 表示应变</p>
+<h3 id="波的能量"><a href="#波的能量" class="headerlink" title="波的能量"></a>波的能量</h3><p>线元在 $y$ 方向的振动速度为 $\begin{align}v=\frac{\partial y}{\partial t}\end{align}$ ，其动能为</p>
+<script type="math/tex; mode=display">
+\Delta E_k=\frac{1}{2}\Delta mv^2=\frac{1}{2}\mu\Delta x(\frac{\partial y}{\partial t})^2</script><p>线元的伸长量为 $\delta l=\sqrt{\Delta x^2+\Delta y^2}-\Delta x$ ，在小位移下近似</p>
+<script type="math/tex; mode=display">
+\Delta E_p=F\delta l=F[\sqrt{\Delta x^2+\Delta y^2}-\Delta x]
+\approx F\cdot\frac{1}{2}(\frac{\partial y}{\partial x})^2\Delta x</script><p>将 $y$ 分别对 $t$ 和 $x$ 求一阶偏导，并代入 $F=\mu u^2$</p>
+<script type="math/tex; mode=display">
+E=\mu A^2\omega^2\sin^2\omega(t-\frac{x}{u})\Delta x</script><p>线能量密度的平均值为</p>
+<script type="math/tex; mode=display">
+\overline{(\frac{\Delta E}{\Delta x})}=\mu A^2\omega^2\overline{[\sin\omega(t-\frac{x}{u})]^2}=\frac{1}{2}\mu A^2\omega^2</script><p>如果为三维空间，引入体密度 $\rho$ ，则 $\begin{align}\overline{\omega}=\frac{1}{2}\rho A^2\omega^2\end{align}$</p>
+<h3 id="能流密度"><a href="#能流密度" class="headerlink" title="能流密度"></a>能流密度</h3><p>简谐波所传递的功率为</p>
+<script type="math/tex; mode=display">
+\begin{align}
+&P=u\mu A^2\omega^2\sin^2\omega(t-\frac{x}{u})\\
+&\overline{P}=\frac{1}{2}u\mu A^2\omega^2
+\end{align}</script><p>平均能流密度等于平均能量密度与波速的乘积</p>
+<script type="math/tex; mode=display">
+I=\overline{\omega}u=\frac{1}{2}\rho A^2\omega^2u</script><p>取离波源单位距离处的振幅为 $A_0$ ,则距离波源任一 $r$ 处的振幅为 $\begin{align}A=\frac{A_0}{r}\end{align}$</p>
+<h3 id="叠加原理"><a href="#叠加原理" class="headerlink" title="叠加原理"></a>叠加原理</h3><p>任一处质点的振动是各个波单独在该点产生的振动的合成</p>
+<h3 id="驻波"><a href="#驻波" class="headerlink" title="驻波"></a>驻波</h3><p>当两列振幅相等，沿相反方向传播的相干波叠加时将形成驻波，其表达式为</p>
+<script type="math/tex; mode=display">
+\begin{align}
+&y_1=A\cos(\omega t-\frac{2\pi}{\lambda}x)\\
+&y_2=A\cos(\omega t+\frac{2\pi}{\lambda}x)\\
+&y=y_1+y_2=2A\cos\frac{2\pi}{\lambda}x\cos\omega t
+\end{align}</script><p>其中 $x=k\frac{\lambda}{2}$ 处合振幅最大，这些点称为波腹，$x=(2k+1)\frac{\lambda}{4}$ 处最小，称为波节<br>在相邻波节之间动能和势能的总和保持不变，为 $\frac{1}{2}\mu A^2\omega^2\lambda$</p>
+<p>反射波与入射波叠加的合振动为零，入射波在反射时有 $\pi$ 的突变，称为半波损失</p>
+<p>对于两端固定的绳子，只有特定频率的驻波可以存在，即 $\begin{align}\lambda_n=\frac{4L}{n},n=2,4,6,\cdots\end{align}$<br>对于一端可自由移动的绳子，同理，有 $\begin{align}\lambda_n=\frac{4L}{n},n=1,3,5,\cdots\end{align}$</p>
+<h3 id="多普勒效应"><a href="#多普勒效应" class="headerlink" title="多普勒效应"></a>多普勒效应</h3><p><strong>（1）波源相对媒质静止，观察者以 $v_R$ 向波源运动</strong></p>
+<p>若波长为 $\lambda$ ，波速为 $u$ ，相当于波以速度 $u+v_R$ 向观察者移动<br>则观察者接收到的波的频率为</p>
+<script type="math/tex; mode=display">
+\nu_R=\frac{u+v_R}{\lambda}=(\frac{u+v_R}{u})\nu_s</script><p><strong>（2）观察者相对媒质静止，波源以 $v_s$ 向观察者运动</strong></p>
+<p>波源的运动导致波的波长发生变化，可推导出以下关系</p>
+<script type="math/tex; mode=display">
+\begin{align}
+\lambda'&=\lambda-v_sT_s=(u-v_s)T_s\\
+\nu_R&=\frac{u}{\lambda'}=\frac{u}{(u-v_s)T_s}=\frac{u}{u-v_s}\nu_s
+\end{align}</script><p><strong>（3）波源和观察者在同一直线上同时运动</strong></p>
+<p>综合上述两种情况，可以得到</p>
+<script type="math/tex; mode=display">
+\nu_R=\frac{u+v_R}{u-v_s}\nu_s</script><p>**（4）光波的多普勒效应</p>
+<p>光源与接收器的相对运动速度为 $u$ ，在同一条直线上接收器收到的频率为</p>
+<script type="math/tex; mode=display">
+\nu_R=\sqrt{\frac{c+u}{c-u}}\nu_s</script><h2 id="Chapter-7-气体动理论"><a href="#Chapter-7-气体动理论" class="headerlink" title="Chapter-7 气体动理论"></a>Chapter-7 气体动理论</h2><h3 id="热力学系统"><a href="#热力学系统" class="headerlink" title="热力学系统"></a>热力学系统</h3><p><strong>孤立系统</strong> 系统与外界既无物质交换，也无能量交换<br><strong>封闭系统</strong> 系统与外界无物质交换，但有能量交换<br><strong>开放系统</strong> 系统与外界既有物质交换，又有能量交换</p>
+<h3 id="平衡态"><a href="#平衡态" class="headerlink" title="平衡态"></a>平衡态</h3><p>若封闭系统与外界没有能量交换，系统内部也不发生化学反应或核反应等过程，则经过足够长时间后系统可观测的宏观性质达到稳定，不再随时间而变化，系统这种状态称为平衡态</p>
+<p>当系统与外界交换能量时，系统原来的平衡态就被破坏，能量交换后经过足够时间，系统又达到一个新的平衡态，系统的状态随时间的变化，叫作 <strong>热力学过程</strong></p>
+<h3 id="气体动理论的基本假设"><a href="#气体动理论的基本假设" class="headerlink" title="气体动理论的基本假设"></a>气体动理论的基本假设</h3><p><strong>分子及其运动假设</strong></p>
+<ul>
+<li>气体由大量分子组成</li>
+<li>每个分子都在不停地作无规则运动，并相互频繁碰撞</li>
+</ul>
+<p><strong>统计假设</strong></p>
+<ul>
+<li>气体处于平衡态时，分子的空间分布均匀</li>
+<li>气体处于平衡态时，分子沿各个方向运动的概率相等</li>
+</ul>
+<p><strong>理想气体的微观假设</strong></p>
+<ul>
+<li>理想气体分子本身的体积忽略不计，可视为弹性质点</li>
+<li>分子与分子之间，分子与器壁之间的碰撞是完全弹性碰撞</li>
+<li>除碰撞外，分子之间的相互作用力可以忽略<br>只有压强较低，温度较高的气体才遵守该微观假设</li>
+</ul>
+<h3 id="理想气体的压强公式"><a href="#理想气体的压强公式" class="headerlink" title="理想气体的压强公式"></a>理想气体的压强公式</h3><p>设理想气体由质量为 $\mu$ 的分子组成，处于平衡态，单位体积中的总分子数为 $n$ ，则</p>
+<script type="math/tex; mode=display">
+p=\frac{1}{3}n\mu\bar{v^2}=\frac{2}{3}n\bar{\epsilon_t}</script><p> $\begin{aligned}\bar{v^2}=\frac{\begin{aligned}\sum_in_iv_i^2\end{aligned}}{n}\end{aligned}$ 为气体分子速率二次方的统计平均值<br> $\begin{aligned}\bar{\epsilon_t}=\frac{\begin{aligned}\sum_in_i(\frac{1}{2}\mu v_i^2)\end{aligned}}{n}=\frac{\mu\bar{v^2}}{2}\end{aligned}$ 为平均每一个气体分子所具有的平动动能（平均平动动能）<br><strong>注:</strong> 此处的 $n$ 量纲为 $m^{-3}$ ，因此该压强公式的量纲是正确的</p>
+<h3 id="温度与分子平均平动动能"><a href="#温度与分子平均平动动能" class="headerlink" title="温度与分子平均平动动能"></a>温度与分子平均平动动能</h3><p>系统的温度 $T$ 与分子平均平动动能 $\bar{\epsilon_t}$ 之间存在单值函数关系，两者关系为</p>
+<script type="math/tex; mode=display">
+\bar{\epsilon_t}=\frac{3}{2}kT,\quad k=1.38\times10^{-23}\mathrm{J/K}</script><p>说明系统的温度越高，分子的平均平动动能越大，温度是分子平均平动动能的度量<br><strong>注:</strong> 系统整体运动的动能对温度是无影响的</p>
+<h3 id="气体分子的方均根速率"><a href="#气体分子的方均根速率" class="headerlink" title="气体分子的方均根速率"></a>气体分子的方均根速率</h3><p>气体分子速率二次方统计平均值 $\bar{v^2}$ 的二次方根 $\sqrt{\bar{v^2}}$ 称为气体分子的方均根速率</p>
+<script type="math/tex; mode=display">
+\begin{cases}
+\begin{aligned}
+&\bar{\epsilon_t}=\frac{1}{2}\mu\bar{v^2}\\
+&\bar{\epsilon_t}=\frac{3}{2}kT
+\end{aligned}
+\end{cases}
+\Rightarrow
+\sqrt{\bar{v^2}}=\sqrt{\frac{3kT}{\mu}}</script><p>若以 $N_A$ 表示阿伏伽德罗常数，则有</p>
+<script type="math/tex; mode=display">
+\begin{align}
+R&=N_Ak=(6.02\times10^{23}\times1.38\times10^{-23})\mathrm{J/(mol\cdot K)}\\
+&=8.31\mathrm{J/(mol\cdot K)}
+\end{align}</script><p>$R$ 称为摩尔气体常量，若以 $M$ 表示气体的摩尔质量，则公式可表示为</p>
+<script type="math/tex; mode=display">
+\sqrt{\bar{v^2}}=\sqrt{\frac{3kT}{\mu}}=\sqrt{\frac{3RT}{M}}</script><h3 id="理想气体状态方程"><a href="#理想气体状态方程" class="headerlink" title="理想气体状态方程"></a>理想气体状态方程</h3><p>将温度与分子平均平动动能的关系 $\begin{aligned}\bar{\epsilon_t}=\frac{3}{2}kT\end{aligned}$ 代入理想气体压强公式得到</p>
+<script type="math/tex; mode=display">
+p=nkT</script><p>由于 $\begin{aligned}n=\frac{N}{V},R=N_Ak\end{aligned}$ ，则上式还可以表示为</p>
+<script type="math/tex; mode=display">
+pV=\nu RT</script><p>其中 $\nu$ 表示理想气体的物质的量</p>
+<h3 id="自由度"><a href="#自由度" class="headerlink" title="自由度"></a>自由度</h3><p>确定物体的空间位置所必需的独立坐标数目称为该物体的自由度<br>包含平动自由度、转动自由度、振动自由度等</p>
+<h3 id="能量均分原理"><a href="#能量均分原理" class="headerlink" title="能量均分原理"></a>能量均分原理</h3><script type="math/tex; mode=display">
+\bar{\epsilon_t}
+=\frac{1}{2}\mu\bar{v^2}
+=\frac{1}{2}\mu\bar{v_x^2}
++\frac{1}{2}\mu\bar{v_y^2}
++\frac{1}{2}\mu\bar{v_z^2}
+=\frac{3}{2}kT</script><script type="math/tex; mode=display">
+\bar{v_x^2}=\bar{v_y^2}=\bar{v_z^2}</script><script type="math/tex; mode=display">
+\frac{1}{2}\mu\bar{v_x^2}
+=\frac{1}{2}\mu\bar{v_y^2}
+=\frac{1}{2}\mu\bar{v_z^2}
+=\frac{1}{2}kT</script><p>在平衡态下分子每个自由度的平均能量都相等，称为能量均分原理<br>液体和固体的温度较高时能量均分原理也适用</p>
+<p>平均每一个分子所具有的平动、转动和振动能量的总和称为气体分子的平均能量，用符号 $\bar{\epsilon}$ 表示，根据能量均分原理，若分子的自由度为 $i$ ，则分子的平均能量为</p>
+<script type="math/tex; mode=display">
+\bar{\epsilon}=\frac{i}{2}kT</script><p><strong>注:</strong> 热力学自由度中一个振动包含振动动能和振动势能两个自由度</p>
+<h3 id="理想气体的内能"><a href="#理想气体的内能" class="headerlink" title="理想气体的内能"></a>理想气体的内能</h3><p>与气体内部分子无序运动相联系的能量称为系统的内能（热力学能）</p>
+<p>物质的量为 $\nu$ 的理想气体的内能为</p>
+<script type="math/tex; mode=display">
+E=\nu N_A(\frac{i}{2}kT)=\nu\frac{i}{2}RT</script><p>当理想气体的量一定时，其内能仅决定于气体的温度</p>
+<h3 id="速率分布函数"><a href="#速率分布函数" class="headerlink" title="速率分布函数"></a>速率分布函数</h3><p>气体分子的速率分布函数为</p>
+<script type="math/tex; mode=display">
+f(v)=\frac{dN}{Ndv},\quad \int_0^\infty f(v)dv=1</script><p>速率分布函数 $f(v)$ 表示速率在 $v$ 附近单位速率区间内的分子数占总分子数的比率</p>
+<p><strong>（1）最概然速率</strong></p>
+<p>速率分布函数 $f(v)$ 的极大值对应的速率</p>
+<script type="math/tex; mode=display">
+\begin{align}\frac{df(v)}{dv}\Big{|}_{v_p}=0\end{align}</script><p><strong>（2）平均速率</strong></p>
+<p>大量分子速率的算术平均值，称为气体分子的平均速率</p>
+<script type="math/tex; mode=display">
+\overline{v}=\frac{\begin{align}\int vdN\end{align}}{N}=\int_0^\infty vf(v)dv</script><p><strong>（3）方均根速率</strong></p>
+<p>分子速率二次方统计平均值的二次方根</p>
+<script type="math/tex; mode=display">
+\overline{v^2}=\sqrt{\int_0^\infty v^2f(v)dv}</script><h3 id="麦克斯韦速率分布律"><a href="#麦克斯韦速率分布律" class="headerlink" title="麦克斯韦速率分布律"></a>麦克斯韦速率分布律</h3><p>理想气体处于平衡态时，速率在 $v$ 和 $v+dv$ 区间的分子数占总分子数的比率为</p>
+<script type="math/tex; mode=display">
+\begin{align}
+&\frac{dN}{N}=4\pi(\frac{\mu}{2\pi kT})^{\frac{3}{2}}e^{-\frac{\mu v^2}{2kT}}v^2\\
+&f(v)=\frac{4}{\sqrt{\pi}}e^{-\frac{v^2}{v_p^2}}(\frac{v^2}{v_p^3})
+\end{align}</script><script type="math/tex; mode=display">
+\begin{align}
+最概然速率:v_p=\sqrt{\frac{2kT}{\mu}}=\sqrt{\frac{2RT}{M}}\\
+平均速率:\overline{v}=\sqrt{\frac{8kT}{\pi\mu}}=\sqrt{\frac{8RT}{\pi M}}\\
+方均根速率:\sqrt{\overline{v^2}}=\sqrt{\frac{3kT}{\mu}}=\sqrt{\frac{3RT}{M}}\\
+v_p:\overline{v}:\sqrt{\overline{v^2}}=\sqrt{2}:\frac{8}{\pi}:\sqrt{3}
+\end{align}</script><h3 id="等温气压公式"><a href="#等温气压公式" class="headerlink" title="等温气压公式"></a>等温气压公式</h3><p>对于理想气体，有</p>
+<script type="math/tex; mode=display">
+\begin{cases}
+dp=-\rho gdh\\
+\begin{align}
+\rho=\frac{pM}{RT}
+\end{align}
+\end{cases}
+\Rightarrow
+\frac{dp}{p}=-\frac{Mg}{RT}dh
+\Rightarrow
+p=p_0e^{-\frac{Mgh}{RT}}</script><p>气体分子数密度按高度的分布</p>
+<script type="math/tex; mode=display">
+n=\frac{p_0}{kT}e^{-\frac{Mgh}{RT}}
+=n_0e^{-\frac{\mu gh}{kT}}
+=n_0e^{-\frac{\epsilon_p}{kT}}</script><h3 id="玻尔兹曼分布律"><a href="#玻尔兹曼分布律" class="headerlink" title="玻尔兹曼分布律"></a>玻尔兹曼分布律</h3><script type="math/tex; mode=display">
+dN_{v,r}=n_0(\frac{\mu}{2\pi kT})^{3/2}e^{-\frac{\epsilon}{kT}}
+\cdot dv_x
+\cdot dv_y
+\cdot dv_z
+\cdot dx
+\cdot dy
+\cdot dz</script><p>式中 $\epsilon=\epsilon_p+\epsilon_k$ ，即分子的平动动能和外力场的势能之和<br>$n_0$ 表示势能 $\epsilon_p=0$ 处的分子数密度</p>
+<h3 id="平均碰撞频率"><a href="#平均碰撞频率" class="headerlink" title="平均碰撞频率"></a>平均碰撞频率</h3><p>单位时间内一个分子与其他分子碰撞次数的统计平均值称为分子的平均碰撞频率 </p>
+<script type="math/tex; mode=display">
+\overline{Z}=\sqrt{2}\pi d^2n\overline{v}</script><p>其中 $d$ 为气体分子的有效直径，$n$ 为气体分子的数密度</p>
+<h3 id="平均自由程"><a href="#平均自由程" class="headerlink" title="平均自由程"></a>平均自由程</h3><script type="math/tex; mode=display">
+\overline{\lambda}=\frac{\overline{v}}{\overline{Z}}=\frac{1}{\sqrt{2}\pi d^2n}</script><h3 id="热传导现象"><a href="#热传导现象" class="headerlink" title="热传导现象"></a>热传导现象</h3><p>假设气体温度仅与坐标 $z$ 有关， $dQ$ 表示 $dt$ 内沿 $z$ 轴正方向通过 $dS$ 传递的热量， $\begin{align}\frac{dT}{dz}\end{align}$ 表示 $dS$ 处温度的梯度，则有热传导定律</p>
+<script type="math/tex; mode=display">
+\begin{align}
+dQ&=-\kappa\frac{dT}{dz}dSdt\\
+\kappa&=\frac{1}{6}ikn\overline{v}\overline{\lambda}\\
+\kappa&=\frac{ik}{3\pi d^2}\sqrt{\frac{kT}{\pi\mu}}
+\end{align}</script><p> $\kappa$ 与气体分子的自由度 $i$ 、分子数密度 $n$ 、分子的平均速率 $\overline{v}$ 和平均自由程 $\overline{\lambda}$ 成正比<br>热传导是分子热运动能量的迁移过程</p>
+<h3 id="黏滞现象"><a href="#黏滞现象" class="headerlink" title="黏滞现象"></a>黏滞现象</h3><p>气体各部分流速不同时，各部分气体相互作用使流速趋于一致，这一现象称为粘滞现象</p>
+<script type="math/tex; mode=display">
+f=-\eta\frac{du}{dz}dS</script><p>式中 $\eta$ 表示气体的黏度，上述定理称为黏滞定律</p>
+<script type="math/tex; mode=display">
+dP=-\eta\frac{du}{dz}dSdt</script><p>黏滞现象是气体内部分子定向动量迁移的结果</p>
+<script type="math/tex; mode=display">
+\eta=\frac{1}{3}n\mu\overline{v}\overline{\lambda}
+=\frac{1}{3}\rho\overline{v}\overline{\lambda}</script><h3 id="扩散现象"><a href="#扩散现象" class="headerlink" title="扩散现象"></a>扩散现象</h3><p>考虑纯扩散过程，两种气体的分子量、温度、压强均相等</p>
+<script type="math/tex; mode=display">
+dm=-D\frac{d\rho}{dz}dSdt</script><p>式中 $D$ 表示气体的扩散率，上述定理称为扩散定律</p>
+<script type="math/tex; mode=display">
+D=\frac{1}{3}\overline{v}\overline{\lambda}</script><script type="math/tex; mode=display">
+D=\frac{2}{3\sqrt{\mu}pd^2}(\frac{kT}{\pi})^{3/2}</script><p>扩散是分子质量的迁移过程</p>
+ 
+      <!-- reward -->
+      
+    </div>
+    
+
+    <!-- copyright -->
+    
+    <div class="declare">
+      <ul class="post-copyright">
+        <li>
+          <i class="ri-copyright-line"></i>
+          <strong>版权声明： </strong>
+          
+          本博客所有文章除特别声明外，著作权归作者所有。转载请注明出处！
+          
+        </li>
+      </ul>
+    </div>
+    
+    <footer class="article-footer">
+       
+<div class="share-btn">
+      <span class="share-sns share-outer">
+        <i class="ri-share-forward-line"></i>
+        分享
+      </span>
+      <div class="share-wrap">
+        <i class="arrow"></i>
+        <div class="share-icons">
+          
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="ri-weibo-fill"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="ri-wechat-fill"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="ri-qq-fill"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="ri-douban-line"></i>
+          </a>
+          <!-- <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a> -->
+          
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="ri-facebook-circle-fill"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="ri-twitter-fill"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="ri-google-fill"></i>
+          </a>
+        </div>
+      </div>
+</div>
+
+<div class="wx-share-modal">
+    <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://reedrift.github.io/2025/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E7%94%B2I/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div id="share-mask"></div>  
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/" rel="tag">课程笔记</a></li></ul>
+
+    </footer>
+  </div>
+
+   
+  <nav class="article-nav">
+    
+    
+      <a href="/2025/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/" class="article-nav-link">
+        <strong class="article-nav-caption">下一篇</strong>
+        <div class="article-nav-title">线性代数</div>
+      </a>
+    
+  </nav>
+
+   
+<!-- valine评论 -->
+<div id="vcomments-box">
+  <div id="vcomments"></div>
+</div>
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="https://cdn.staticfile.org/valine/1.4.16/Valine.min.js"></script>
+<script>
+  new Valine({
+    el: "#vcomments",
+    app_id: "4xGlq8XSx3LeY3UnQdUTKPV5-gzGzoHsz",
+    app_key: "Pv5aoLdBvgd2cy18nWkeq7Ai",
+    path: window.location.pathname,
+    avatar: "hide",
+    placeholder: "期待你的精彩评论qwq",
+    recordIP: true,
+  });
+  const infoEle = document.querySelector("#vcomments .info");
+  if (infoEle && infoEle.childNodes && infoEle.childNodes.length > 0) {
+    infoEle.childNodes.forEach(function (item) {
+      item.parentNode.removeChild(item);
+    });
+  }
+</script>
+<style>
+  #vcomments-box {
+    padding: 5px 30px;
+  }
+
+  @media screen and (max-width: 800px) {
+    #vcomments-box {
+      padding: 5px 0px;
+    }
+  }
+
+  #vcomments-box #vcomments {
+    background-color: #fff;
+  }
+
+  .v .vlist .vcard .vh {
+    padding-right: 20px;
+  }
+
+  .v .vlist .vcard {
+    padding-left: 10px;
+  }
+</style>
+
+ 
+   
+  
+   
+    <script src="https://cdn.staticfile.org/twikoo/1.4.18/twikoo.all.min.js"></script>
+    <div id="twikoo" class="twikoo"></div>
+    <script>
+        twikoo.init({
+            envId: ""
+        })
+    </script>
+ 
+</article>
+
+</section>
+      <footer class="footer">
+  <div class="outer">
+    <ul>
+      <li>
+        Copyrights &copy;
+        2025
+        Reedrift
+      </li>
+    </ul>
+    <ul>
+      <li>
+        
+      </li>
+    </ul>
+    <ul>
+      <li>
+        
+        
+        <span>
+  <span><i class="ri-user-3-fill"></i>访问人数:<span id="busuanzi_value_site_uv"></span></span>
+  <span class="division">|</span>
+  <span><i class="ri-eye-fill"></i>浏览次数:<span id="busuanzi_value_page_pv"></span></span>
+</span>
+        
+      </li>
+    </ul>
+    <ul>
+      
+    </ul>
+    <ul>
+      
+    </ul>
+    <ul>
+      <li>
+        <!-- cnzz统计 -->
+        
+      </li>
+    </ul>
+  </div>
+</footer>    
+    </main>
+    <div class="float_btns">
+      <div class="totop" id="totop">
+  <i class="ri-arrow-up-line"></i>
+</div>
+
+<div class="todark" id="todark">
+  <i class="ri-moon-line"></i>
+</div>
+
+    </div>
+    <aside class="sidebar on">
+      <button class="navbar-toggle"></button>
+<nav class="navbar">
+  
+  <div class="logo">
+    <a href="/"><img src="/images/reedrift-side.svg" alt="Reedrift"></a>
+  </div>
+  
+  <ul class="nav nav-main">
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/">所有文章</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/tags/%E4%B8%AA%E4%BA%BA%E6%97%A5%E5%BF%97/">个人日志</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/tags/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/">课程笔记</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/tags">分类标签</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/archives">日志档案</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/friends">友情链接</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/2025/%E5%85%B3%E4%BA%8E%E5%8D%9A%E4%B8%BB">关于博主</a>
+    </li>
+    
+  </ul>
+</nav>
+<nav class="navbar navbar-bottom">
+  <ul class="nav">
+    <li class="nav-item">
+      
+      <a class="nav-item-link nav-item-search"  title="搜索">
+        <i class="ri-search-line"></i>
+      </a>
+      
+      
+    </li>
+  </ul>
+</nav>
+<div class="search-form-wrap">
+  <div class="local-search local-search-plugin">
+  <input type="search" id="local-search-input" class="local-search-input" placeholder="Search...">
+  <div id="local-search-result" class="local-search-result"></div>
+</div>
+</div>
+    </aside>
+    <div id="mask"></div>
+
+<!-- #reward -->
+<div id="reward">
+  <span class="close"><i class="ri-close-line"></i></span>
+  <p class="reward-p"><i class="ri-cup-line"></i></p>
+  <div class="reward-box">
+    
+    
+  </div>
+</div>
+    
+<script src="/js/jquery-3.6.0.min.js"></script>
+ 
+<script src="/js/lazyload.min.js"></script>
+
+<!-- Tocbot -->
+ 
+<script src="/js/tocbot.min.js"></script>
+
+<script>
+  tocbot.init({
+    tocSelector: ".tocbot",
+    contentSelector: ".article-entry",
+    headingSelector: "h1, h2, h3, h4, h5, h6",
+    hasInnerContainers: true,
+    scrollSmooth: true,
+    scrollContainer: "main",
+    positionFixedSelector: ".tocbot",
+    positionFixedClass: "is-position-fixed",
+    fixedSidebarOffset: "auto",
+  });
+</script>
+
+<script src="https://cdn.staticfile.org/jquery-modal/0.9.2/jquery.modal.min.js"></script>
+<link
+  rel="stylesheet"
+  href="https://cdn.staticfile.org/jquery-modal/0.9.2/jquery.modal.min.css"
+/>
+<script src="https://cdn.staticfile.org/justifiedGallery/3.8.1/js/jquery.justifiedGallery.min.js"></script>
+
+<script src="/dist/main.js"></script>
+
+<!-- ImageViewer -->
+ <!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" style="display:none" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<link rel="stylesheet" href="https://cdn.staticfile.org/photoswipe/4.1.3/photoswipe.min.css">
+<link rel="stylesheet" href="https://cdn.staticfile.org/photoswipe/4.1.3/default-skin/default-skin.min.css">
+<script src="https://cdn.staticfile.org/photoswipe/4.1.3/photoswipe.min.js"></script>
+<script src="https://cdn.staticfile.org/photoswipe/4.1.3/photoswipe-ui-default.min.js"></script>
+
+<script>
+    function viewer_init() {
+        let pswpElement = document.querySelectorAll('.pswp')[0];
+        let $imgArr = document.querySelectorAll(('.article-entry img:not(.reward-img)'))
+
+        $imgArr.forEach(($em, i) => {
+            $em.onclick = () => {
+                // slider展开状态
+                // todo: 这样不好，后面改成状态
+                if (document.querySelector('.left-col.show')) return
+                let items = []
+                $imgArr.forEach(($em2, i2) => {
+                    let img = $em2.getAttribute('data-idx', i2)
+                    let src = $em2.getAttribute('data-target') || $em2.getAttribute('src')
+                    let title = $em2.getAttribute('alt')
+                    // 获得原图尺寸
+                    const image = new Image()
+                    image.src = src
+                    items.push({
+                        src: src,
+                        w: image.width || $em2.width,
+                        h: image.height || $em2.height,
+                        title: title
+                    })
+                })
+                var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, {
+                    index: parseInt(i)
+                });
+                gallery.init()
+            }
+        })
+    }
+    viewer_init()
+</script> 
+<!-- MathJax -->
+ <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+      tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+  });
+
+  MathJax.Hub.Queue(function() {
+      var all = MathJax.Hub.getAllJax(), i;
+      for(i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+      }
+  });
+</script>
+
+<script src="https://cdn.staticfile.org/mathjax/2.7.7/MathJax.js"></script>
+<script src="https://cdn.staticfile.org/mathjax/2.7.7/config/TeX-AMS-MML_HTMLorMML-full.js"></script>
+<script>
+  var ayerConfig = {
+    mathjax: true,
+  };
+</script>
+
+<!-- Katex -->
+
+<!-- busuanzi  -->
+ 
+<script src="/js/busuanzi-2.3.pure.min.js"></script>
+ 
+<!-- ClickLove -->
+
+<!-- ClickBoom1 -->
+
+<script src="https://cdn.staticfile.org/animejs/3.2.1/anime.min.js"></script>
+
+<script src="/js/clickBoom1.js"></script>
+ 
+<!-- ClickBoom2 -->
+
+<!-- CodeCopy -->
+ 
+<link rel="stylesheet" href="/css/clipboard.css">
+ <script src="https://cdn.staticfile.org/clipboard.js/2.0.10/clipboard.min.js"></script>
+<script>
+  function wait(callback, seconds) {
+    var timelag = null;
+    timelag = window.setTimeout(callback, seconds);
+  }
+  !function (e, t, a) {
+    var initCopyCode = function(){
+      var copyHtml = '';
+      copyHtml += '<button class="btn-copy" data-clipboard-snippet="">';
+      copyHtml += '<i class="ri-file-copy-2-line"></i><span>COPY</span>';
+      copyHtml += '</button>';
+      $(".highlight .code pre").before(copyHtml);
+      $(".article pre code").before(copyHtml);
+      var clipboard = new ClipboardJS('.btn-copy', {
+        target: function(trigger) {
+          return trigger.nextElementSibling;
+        }
+      });
+      clipboard.on('success', function(e) {
+        let $btn = $(e.trigger);
+        $btn.addClass('copied');
+        let $icon = $($btn.find('i'));
+        $icon.removeClass('ri-file-copy-2-line');
+        $icon.addClass('ri-checkbox-circle-line');
+        let $span = $($btn.find('span'));
+        $span[0].innerText = 'COPIED';
+        
+        wait(function () { // 等待两秒钟后恢复
+          $icon.removeClass('ri-checkbox-circle-line');
+          $icon.addClass('ri-file-copy-2-line');
+          $span[0].innerText = 'COPY';
+        }, 2000);
+      });
+      clipboard.on('error', function(e) {
+        e.clearSelection();
+        let $btn = $(e.trigger);
+        $btn.addClass('copy-failed');
+        let $icon = $($btn.find('i'));
+        $icon.removeClass('ri-file-copy-2-line');
+        $icon.addClass('ri-time-line');
+        let $span = $($btn.find('span'));
+        $span[0].innerText = 'COPY FAILED';
+        
+        wait(function () { // 等待两秒钟后恢复
+          $icon.removeClass('ri-time-line');
+          $icon.addClass('ri-file-copy-2-line');
+          $span[0].innerText = 'COPY';
+        }, 2000);
+      });
+    }
+    initCopyCode();
+  }(window, document);
+</script>
+ 
+<!-- CanvasBackground -->
+
+<script>
+  if (window.mermaid) {
+    mermaid.initialize({ theme: "forest" });
+  }
+</script>
+
+
+    
+    
+
+  </div>
+</body>
+
+</html>

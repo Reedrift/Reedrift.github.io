@@ -173,8 +173,18 @@ var _hmt = _hmt || [];
 <p>$\begin{vmatrix}A_{r\times r}&amp;C_{r\times s}\\O&amp;B_{s\times s}\end{vmatrix}=|A_{r\times r}||B_{s\times s}|$ </p>
 <p>$\begin{vmatrix}O&amp;A_{r\times r}\\B_{s\times s}&amp;C_{s\times r}\end{vmatrix}=\begin{vmatrix}C_{r\times s}&amp;A_{r\times r}\\B_{s\times s}&amp;O\end{vmatrix}=(-1)^{rs}|A_{r\times r}||B_{s\times s}|$</p>
 <p><strong>性质12</strong> 两个 $n$ 阶方阵乘积的行列式等于行列式的乘积，即 $|AB|=|A||B|$</p>
-<p> 证明: $|A||B|=\begin{vmatrix}A&amp;O\-E&amp;B\end{vmatrix}=\begin{vmatrix}A&amp;AB\-E&amp;O\end{vmatrix}=|AB|$</p>
-<p><strong>性质13</strong> 设 $A_1,A_2,\cdots,A_m$ 都是 $n$ 阶方阵，则 $|A_1A_2\cdots A_m|=|A_1||A_2|\cdots|A_m|$</p>
+<p> 证明: </p>
+<script type="math/tex; mode=display">
+|A||B|=
+\begin{vmatrix}
+A&O\\
+-E&B
+\end{vmatrix}
+=\begin{vmatrix}
+A&AB\\
+-E&O
+\end{vmatrix}
+=|AB|</script><p><strong>性质13</strong> 设 $A_1,A_2,\cdots,A_m$ 都是 $n$ 阶方阵，则 $|A_1A_2\cdots A_m|=|A_1||A_2|\cdots|A_m|$</p>
 <h3 id="范德蒙德行列式"><a href="#范德蒙德行列式" class="headerlink" title="范德蒙德行列式"></a>范德蒙德行列式</h3><p>$\begin{aligned}\begin{vmatrix}1&amp;1&amp;\cdots&amp;1\\a_1&amp;a_2&amp;\cdots&amp;a_n\\a_1^2&amp;a_2^2&amp;\cdots&amp;a_n^2\\\vdots&amp;\vdots&amp;&amp;\vdots\\a_1^{n-1}&amp;a_2^{n-1}&amp;\cdots&amp;a_n^{n-1}\end{vmatrix}=\prod_{1\leq i\leq j\leq n}(a_j-a_i)\end{aligned}$</p>
 <hr>
 <h2 id="矩阵"><a href="#矩阵" class="headerlink" title="矩阵"></a>矩阵</h2><h3 id="矩阵的性质"><a href="#矩阵的性质" class="headerlink" title="矩阵的性质"></a>矩阵的性质</h3><p><strong>性质1（转置）</strong> </p>
@@ -261,8 +271,18 @@ var _hmt = _hmt || [];
 <p>$A$ 与对角矩阵相似的充要条件是 $A$ 的特征值重根数之和为 $n$，则 $A$ 有 $n$ 个线性无关的特征向量 $\xi_1,\xi_2,\cdots,\xi_n$ ，若令  $P=\begin{bmatrix}\xi_1&amp;\xi_2&amp;\cdots&amp;\xi_n\end{bmatrix}$ ，则有 $P^{-1}AP=\mathrm{diag}[\lambda_1,\lambda_2,\cdots,\lambda_n]$ 对应</p>
 <p><strong>性质4</strong></p>
 <p>设 $A=[a_{ij}]$  为 $n$ 阶方阵， $A$ 的全部特征值为 $\lambda_1,\lambda_2,\cdots,\lambda_n$</p>
-<p>$\begin{aligned}f(\lambda)&amp;=|\lambda E-A|=\begin{vmatrix}\lambda-a_{11}&amp;-a_{12}&amp;\cdots&amp;-a_{1n}\-a_{21}&amp;\lambda-a_{22}&amp;\cdots&amp;-a_{2n}\\\vdots&amp;\vdots&amp;&amp;\vdots\-a{n1}&amp;-a_{n2}&amp;\cdots&amp;\lambda-a_{nn}\end{vmatrix}\\&amp;=\lambda^n-(a_{11}+a_{22}+\cdots+a_{nn})\lambda^{n-1}+\cdots+(-1)^n|A|\end{aligned}$</p>
-<p>则 $\begin{aligned}\mathrm{tr}(A)=\sum_{i=1}^na_{ii}=\sum_{i=1}^n\lambda_i\end{aligned}\qquad|A|=\lambda_1\lambda_2\cdots\lambda_n$</p>
+<script type="math/tex; mode=display">
+\begin{aligned}
+f(\lambda)&=|
+\lambda E-A|=
+\begin{vmatrix}
+\lambda-a_{11}&-a_{12}&\cdots&-a_{1n}\\
+-a_{21}&\lambda-a_{22}&\cdots&-a_{2n}\\
+\vdots&\vdots&&\vdots\\
+-a{n1}&-a_{n2}&\cdots&\lambda-a_{nn}
+\end{vmatrix}\\
+&=\lambda^n-(a_{11}+a_{22}+\cdots+a_{nn})\lambda^{n-1}+\cdots+(-1)^n|A|
+\end{aligned}</script><p>则 $\begin{aligned}\mathrm{tr}(A)=\sum_{i=1}^na_{ii}=\sum_{i=1}^n\lambda_i\end{aligned}\qquad|A|=\lambda_1\lambda_2\cdots\lambda_n$</p>
 <p><strong>性质5</strong></p>
 <p>设 $f(x)=a_kx^k+\cdots+a_1x+a_0$ 是数域 $P$ 上的一个多项式， $A$ 是一个 $n$ 阶方阵，若 $\xi_0$ 是 $A$ 关于特征值 $\lambda_0$ 的一个特征向量，则 $f(\lambda_0)$ 也是 $f(A)$ 的特征值，$\xi_0$ 是 $f(A)$ 的特征向量</p>
 <p><strong>性质6</strong></p>
@@ -454,6 +474,15 @@ var _hmt = _hmt || [];
 
    
   <nav class="article-nav">
+    
+      <a href="/2025/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E7%94%B2I/" class="article-nav-link">
+        <strong class="article-nav-caption">上一篇</strong>
+        <div class="article-nav-title">
+          
+            大学物理甲I
+          
+        </div>
+      </a>
     
     
       <a href="/2025/2025%E5%9B%9B%E6%9C%88%E6%97%A5%E5%BF%97/" class="article-nav-link">
@@ -899,23 +928,6 @@ var _hmt = _hmt || [];
     
 
   </div>
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        tex2jax: {
-            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
-            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
-            processEscapes: true
-        }
-    });
-    MathJax.Hub.Queue(function() {
-        var all = MathJax.Hub.getAllJax();
-        for (var i = 0; i < all.length; ++i)
-            all[i].SourceElement().parentNode.className += ' has-jax';
-    });
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-<!--script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
 </body>
 
 </html>
