@@ -6,7 +6,7 @@
   <link href="https://reedrift.github.io/atom.xml" rel="self"/>
   
   <link href="https://reedrift.github.io/"/>
-  <updated>2025-04-29T07:21:53.708Z</updated>
+  <updated>2025-04-29T10:59:21.184Z</updated>
   <id>https://reedrift.github.io/</id>
   
   <author>
@@ -21,10 +21,10 @@
     <link href="https://reedrift.github.io/2025/%E5%B8%B8%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/"/>
     <id>https://reedrift.github.io/2025/%E5%B8%B8%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/</id>
     <published>2025-04-29T07:12:47.000Z</published>
-    <updated>2025-04-29T07:21:53.708Z</updated>
+    <updated>2025-04-29T10:59:21.184Z</updated>
     
     
-    <summary type="html">&lt;h3 id=&quot;nth-order-Differential-Equation&quot;&gt;&lt;a href=&quot;#nth-order-Differential-Equation&quot; class=&quot;headerlink&quot; title=&quot;nth-order Differential Equation&quot;&gt;&lt;/a&gt;nth-order Differential Equation&lt;/h3&gt;&lt;p&gt;The most general form of an nth-order differential equation with independent $x$ and unknown function or dependent variable $y=y(x)$ is $F(x,y,y’,y’’,&#92;cdots,y^{(n)})$&lt;br&gt;An nth-order differential equation ordinarily has an n-parameter family of solutions-one involving n different arbitrary constants or parameters.&lt;br&gt;</summary>
+    <summary type="html">已加密，请输入密码</summary>
     
     
     
@@ -38,10 +38,10 @@
     <link href="https://reedrift.github.io/2025/%E5%BE%AE%E7%A7%AF%E5%88%86%E7%94%B2II/"/>
     <id>https://reedrift.github.io/2025/%E5%BE%AE%E7%A7%AF%E5%88%86%E7%94%B2II/</id>
     <published>2025-04-29T06:59:55.000Z</published>
-    <updated>2025-04-29T07:03:57.254Z</updated>
+    <updated>2025-04-29T10:57:26.841Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;Chapter-7-空间曲面方程&quot;&gt;&lt;a href=&quot;#Chapter-7-空间曲面方程&quot; class=&quot;headerlink&quot; title=&quot;Chapter-7 空间曲面方程&quot;&gt;&lt;/a&gt;Chapter-7 空间曲面方程&lt;/h2&gt;&lt;h3 id=&quot;矢量的矢量积&quot;&gt;&lt;a href=&quot;#矢量的矢量积&quot; class=&quot;headerlink&quot; title=&quot;矢量的矢量积&quot;&gt;&lt;/a&gt;矢量的矢量积&lt;/h3&gt;&lt;p&gt;$a&#92;times b=&#92;begin{vmatrix}a_2&amp;amp;a_3&#92;&#92;b_2&amp;amp;b_3&#92;end{vmatrix}i-&#92;begin{vmatrix}a_1&amp;amp;a_3&#92;&#92;b_1&amp;amp;b_3&#92;end{vmatrix}j+&#92;begin{vmatrix}a_1&amp;amp;a_2&#92;&#92;b_1&amp;amp;b_2&#92;end{vmatrix}k=&#92;begin{vmatrix}i&amp;amp;j&amp;amp;k&#92;&#92;a_1&amp;amp;a_2&amp;amp;a_3&#92;&#92;b_1&amp;amp;b_2&amp;amp;b_2&#92;end{vmatrix}$&lt;br&gt;矢量积所得的矢量垂直于 $a,b$ 构成的平面&lt;br&gt;</summary>
+    <summary type="html">已加密，请输入密码</summary>
     
     
     
@@ -55,16 +55,10 @@
     <link href="https://reedrift.github.io/2025/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E7%94%B2I/"/>
     <id>https://reedrift.github.io/2025/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E7%94%B2I/</id>
     <published>2025-04-28T15:00:19.000Z</published>
-    <updated>2025-04-28T15:25:51.487Z</updated>
+    <updated>2025-04-29T11:02:34.820Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;Chapter-5-机械振动&quot;&gt;&lt;a href=&quot;#Chapter-5-机械振动&quot; class=&quot;headerlink&quot; title=&quot;Chapter-5 机械振动&quot;&gt;&lt;/a&gt;Chapter-5 机械振动&lt;/h2&gt;&lt;h3 id=&quot;简谐振动方程&quot;&gt;&lt;a href=&quot;#简谐振动方程&quot; class=&quot;headerlink&quot; title=&quot;简谐振动方程&quot;&gt;&lt;/a&gt;简谐振动方程&lt;/h3&gt;&lt;p&gt;简谐振动的微分方程及其解的一般形式为（可以通过常微分方程知识求解）&lt;/p&gt;
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;
-&#92;frac{d^2x}{dt^2}+&#92;omega^2x=0&#92;quad&#92;Rightarrow&#92;quad x=A&#92;cos(&#92;omega t+&#92;varphi)&lt;/script&gt;&lt;p&gt;已知简谐振动的初始状态 $x_0=A&#92;cos&#92;varphi,&#92;quad v_0=-&#92;omega A&#92;sin&#92;varphi$ 可以求得&lt;/p&gt;
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;
-A=&#92;sqrt{x_0^2+(&#92;frac{v_0}{&#92;omega})^2},
-&#92;quad
-&#92;varphi=&#92;arctan&#92;frac{-v_0}{&#92;omega x_0}&lt;/script&gt;</summary>
+    <summary type="html">已加密，请输入密码</summary>
     
     
     
@@ -115,7 +109,7 @@ A=&#92;sqrt{x_0^2+(&#92;frac{v_0}{&#92;omega})^2},
     <link href="https://reedrift.github.io/2025/%E5%85%B3%E4%BA%8E%E5%8D%9A%E4%B8%BB/"/>
     <id>https://reedrift.github.io/2025/%E5%85%B3%E4%BA%8E%E5%8D%9A%E4%B8%BB/</id>
     <published>2025-04-25T05:32:40.000Z</published>
-    <updated>2025-04-25T11:00:17.036Z</updated>
+    <updated>2025-04-29T11:02:46.792Z</updated>
     
     
     <summary type="html">&lt;ul&gt;
