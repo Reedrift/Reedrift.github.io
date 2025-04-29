@@ -40,6 +40,304 @@
       </tags>
   </entry>
   <entry>
+    <title>常微分方程</title>
+    <url>/2025/%E5%B8%B8%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/</url>
+    <content><![CDATA[<h3 id="nth-order-Differential-Equation"><a href="#nth-order-Differential-Equation" class="headerlink" title="nth-order Differential Equation"></a>nth-order Differential Equation</h3><p>The most general form of an nth-order differential equation with independent $x$ and unknown function or dependent variable $y=y(x)$ is $F(x,y,y’,y’’,\cdots,y^{(n)})$<br>An nth-order differential equation ordinarily has an n-parameter family of solutions-one involving n different arbitrary constants or parameters.<br><span id="more"></span></p>
+<h3 id="Integrals-as-General-and-Particular-Solutions"><a href="#Integrals-as-General-and-Particular-Solutions" class="headerlink" title="Integrals as General and Particular Solutions"></a>Integrals as General and Particular Solutions</h3><p>The first-order equation $\begin{aligned}\frac{\mathrm{d}y}{\mathrm{d}x}=f(x,y)\end{aligned}$ takes an especially simple form if the function $f$ is independent of the dependent variable $y$ , $\begin{aligned}\frac{\mathrm{d}y}{\mathrm{d}x}=f(x)\end{aligned}$ , in this special case only need to integrate both sides $\begin{aligned}y(x)=\int f(x)\mathrm{d}x+C\end{aligned}$</p>
+<h3 id="Existence-and-Uniqueness-of-Solutions"><a href="#Existence-and-Uniqueness-of-Solutions" class="headerlink" title="Existence  and Uniqueness of Solutions"></a>Existence  and Uniqueness of Solutions</h3><p>Suppose that both the function $f(x,y)$ and its partial derivative $D_yf(x,y)$ are continuous on some rectangle $R$ in the xy-plane that contains the point $(a,b)$  in its interior.</p>
+<p>Then, for some open interval $I$ containing the point $a$ , the initial value problem $\begin{aligned}\frac{\mathrm{d}y}{\mathrm{d}x}=f(x,y),\quad y(a)=b\end{aligned}$ has one and only one solution that is defined on the interval $I$ .</p>
+<p>if the function $f(x,y)$ and/or its partial derivative $\begin{aligned}\frac{\partial f}{\partial y}\end{aligned}$ fail to satisfy the continuity hypothesis , then the initial value problem may have either no solution or many (even infinitely many) solutions.</p>
+<h3 id="Separable-Equations"><a href="#Separable-Equations" class="headerlink" title="Separable Equations"></a>Separable Equations</h3><p>The first-order differential equation $\begin{aligned}\frac{\mathrm{d}y}{\mathrm{d}x}=H(x,y)\end{aligned}$  is called separable provided that $H(x,y)$ can be written as the product of a function of $x$ and a function of $y$ : $\begin{aligned}\frac{\mathrm{d}y}{\mathrm{d}x}=g(x)h(y)=\frac{g(x)}{f(y)}\end{aligned}$</p>
+<script type="math/tex; mode=display">\begin{aligned}\int f(y)\mathrm{d}y=\int g(x)\mathrm{d}x+C,\quad F(y)=\int f(y)\mathrm{d}y,\quad G(x)=\int g(x)\mathrm{d}x\end{aligned}</script><h3 id="Singular-Solutions"><a href="#Singular-Solutions" class="headerlink" title="Singular Solutions"></a>Singular Solutions</h3><p>It is common for a nonlinear first-order differential equation to have both a general solution involving a n arbitrary constant $C$ and  one or several particular solutions that cannot be obtained by selecting a value for $C$ . These exceptional solutions are frequently called singular solutions.</p>
+<h3 id="Linear-first-order-Equation"><a href="#Linear-first-order-Equation" class="headerlink" title="Linear first-order Equation"></a>Linear first-order Equation</h3><p>Standard form:<br>    $\begin{aligned}\frac{\mathrm{d}y}{\mathrm{d}x}+P(x)y=Q(x)\end{aligned},\quad \rho(x)=\mathrm{e}^{\int P(x)\mathrm{d}x}$<br>Solution:<br>     $\begin{aligned}&amp;\mathrm{e}^{\int P(x)\mathrm{d}x}\frac{\mathrm{d}y}{\mathrm{d}x}+P(x)\mathrm{e}^{\int P(x)\mathrm{d}x}y=Q(x)\mathrm{e}^{\int P(x)\mathrm{d}x}\\&amp;y(x)=\mathrm{e}^{-\int P(x)\mathrm{d}x}\begin{bmatrix}\begin{aligned}\int(Q(x)\mathrm{e}^{\int P(x)\mathrm{d}x})\end{aligned}\mathrm{d}x+C\end{bmatrix}\end{aligned}$<br>    <strong>1.</strong> Begin by calculating the integrating factor $\rho(x)=e^{\int P(x)\mathrm{d}x}$<br>    <strong>2.</strong> Then multiply both sides of the differential equation by $\rho(x)$<br>    <strong>3.</strong> Next , recognize the left-hand side of the resulting equation as the derivative of a product :<br>        $D_x[\rho(x)y(x)]=\rho(x)Q(x)$<br>    <strong>4.</strong> Finally , integrate this equation<br>        $\begin{aligned}\rho(x)y(x)=\int\rho((x)Q(x)\mathrm{d}x+C\end{aligned}$<br>Properties:<br>    <strong>1.</strong> guarantee only a solution on a possibly smaller interval.<br>    <strong>2.</strong> linear first-order differential equation has no singular solutions.</p>
+<h3 id="Exact-Differential-Equation"><a href="#Exact-Differential-Equation" class="headerlink" title="Exact Differential Equation"></a>Exact Differential Equation</h3><p>A general solution $y(x)$ of a first-order differential equation is often defined implicitly by an equation of the form $F(x,y(x))=C$ ,differentiate each side with respect to $x$ </p>
+<script type="math/tex; mode=display">\begin{aligned}&\frac{\partial F}{\partial x}+\frac{\partial F}{\partial y}\frac{\mathrm{d}y}{\mathrm{d}x}=0\\&\Rightarrow M(x,y)+N(x,y)\frac{\mathrm{d}y}{\mathrm{d}x}=0\\&\Rightarrow M(x,y)\mathrm{d}x+N(x,y)\mathrm{d}y=0\end{aligned}</script><p>If there exists a function $F(x,y)$ such that $\begin{aligned}\frac{\partial F}{\partial x}=M, \quad \frac{\partial F}{\partial y}=N\end{aligned}$ ,then the equation $F(x,y)=C$ implicitly defines a general solution of $M(x,y)\mathrm{d}x+N(x,y)\mathrm{d}y=0$ ,then $M(x,y)\mathrm{d}x+N(x,y)\mathrm{d}y=0$ is called an exact differential equation.</p>
+<p>If $M(x,y)\mathrm{d}x+N(x,y)\mathrm{d}y=0$ is exact and $M$ and $N$ have continuous partial derivatives, it then follows that $\begin{aligned}\frac{\partial M}{\partial y}=F_{xy}=F_{yx}=\frac{\partial N}{\partial x}\end{aligned}$ .<br>Thus the equation $\begin{aligned}\frac{\partial M}{\partial y}=\frac{\partial N}{\partial x}\end{aligned}$ is a necessary condition that the differential equation $M\mathrm{d}x+N\mathrm{d}y=0$ to be exact.</p>
+<p>whether a given differential equation is exact or not is related to the precise form $M\mathrm{d}x+N\mathrm{d}y=0$ in which it is written.<br>    $\begin{aligned}F(x,y)=\int M(x,y)\mathrm{d}x+g(y)\end{aligned}$<br>    $\begin{aligned}N=\frac{\partial F}{\partial y}=\begin{pmatrix}\begin{aligned}\frac{\partial}{\partial y}\int M(x,y)\mathrm{d}x\end{aligned}\end{pmatrix}+g’(y)\end{aligned}$<br>    $\begin{aligned}g’(x)=N-\frac{\partial}{\partial y}\int M(x,y)\mathrm{d}x\end{aligned}$<br>    $\begin{aligned}F(x,y)=\int M(x,y)\mathrm{d}x+\int\begin{pmatrix}\begin{aligned}N(x,y)-\frac{\partial}{\partial y}\int M(x,y)\mathrm{d}x\end{aligned}\end{pmatrix}\mathrm{d}y\end{aligned}$</p>
+<h3 id="Integrating-Factor"><a href="#Integrating-Factor" class="headerlink" title="Integrating Factor"></a>Integrating Factor</h3><p>If the original equation $M(x,y)\mathrm{d}x+N(x,y)\mathrm{d}y=0$ is not exact, we can multiply it by an integrating factor $\mu(x,y)M(x,y)\mathrm{d}x+\mu(x,y)N(x,y)\mathrm{d}y=0$</p>
+<ul>
+<li>Assume the integrating factor $\mu$ depends only on $x$ , $\mu=\mu(x)$ , Then:<br>  $\begin{aligned}\frac{\partial(\mu M)}{\partial y}=\frac{\partial(\mu N)}{\partial x}\end{aligned}$<br>  $\begin{aligned}\Rightarrow\mu\frac{\partial M}{\partial y}=\frac{\partial\mu}{\partial x}N+\mu\frac{\partial N}{\partial x}\end{aligned}$<br>  $\begin{aligned}\Rightarrow\mu(\frac{\partial M}{\partial y}-\frac{\partial N}{\partial x})=\frac{\partial\mu}{\partial x}N\end{aligned}$<br>  $\begin{aligned}\Rightarrow\frac{\mathrm{d}\mu}{\mu}=\frac{1}{N}(\frac{\partial M}{\partial y}-\frac{\partial N}{\partial x})\mathrm{d}x\end{aligned}$<br>  $\begin{aligned}\Rightarrow\ln|\mu|=\int\frac{1}{N}(\frac{\partial M}{\partial y}-\frac{\partial N}{\partial x})\mathrm{d}x+C\end{aligned}$<br>  $\Rightarrow\begin{aligned}\mu=\exp[\int\frac{1}{N}(\frac{\partial M}{\partial y}-\frac{\partial N}{\partial x})\mathrm{d}x+C]\end{aligned}$    </li>
+<li>Assume the integrating factor $\mu$ depends only on $y$ , $\mu=\mu(y)$ , Then:<br>  $\begin{aligned}\frac{\partial(\mu M)}{\partial y}=\frac{\partial(\mu N)}{\partial x}\end{aligned}$<br>  $\Rightarrow\begin{aligned}\frac{\partial\mu}{\partial y}M+\mu\frac{\partial M}{\partial y}=\mu\frac{\partial N}{\partial x}\end{aligned}$<br>  $\Rightarrow\begin{aligned}\mu(\frac{\partial N}{\partial x}-\frac{\partial M}{\partial y})=\frac{\partial\mu}{\partial y}M\end{aligned}$<br>  $\begin{aligned}\Rightarrow\frac{\mathrm{d}\mu}{\mu}=\frac{1}{M}(\frac{\partial N}{\partial x}-\frac{\partial M}{\partial y})\mathrm{d}y\end{aligned}$<br>  $\begin{aligned}\Rightarrow\ln|\mu|=\int\frac{1}{M}(\frac{\partial N}{\partial x}-\frac{\partial M}{\partial y})\mathrm{d}y+C\end{aligned}$<br>  $\Rightarrow\begin{aligned}\mu=\exp[\int\frac{1}{M}(\frac{\partial N}{\partial x}-\frac{\partial M}{\partial y})\mathrm{d}y+C]\end{aligned}$    </li>
+</ul>
+<h3 id="Substitution-Methods"><a href="#Substitution-Methods" class="headerlink" title="Substitution Methods"></a>Substitution Methods</h3><p>e.g.1:<br>    $\begin{aligned}\frac{\mathrm{d}y}{\mathrm{d}x}=f(x,y)\end{aligned}$<br>Solution:<br>    Substitute $v=\alpha(x,y),\quad y=\beta(x,v)$<br>    $\begin{aligned}\frac{\mathrm{d}y}{\mathrm{d}x}=\frac{\partial\beta}{\partial x}\frac{\mathrm{d}x}{\mathrm{d}x}+\frac{\partial\beta}{\partial v}\frac{\mathrm{d}v}{\mathrm{d}x}=\beta_x+\beta_v\frac{\mathrm{d}v}{\mathrm{d}x}\end{aligned}$<br>    $\begin{aligned}\frac{\mathrm{d}v}{\mathrm{d}x}=g(x,v)\end{aligned}$ with new dependent variable v.<br>    Then solve this either separable or linear new equation.</p>
+<p>e.g.2: Bernoulli Equation<br>    $\begin{aligned}\frac{\mathrm{d}y}{\mathrm{d}x}+P(x)y=Q(x)y^n,\quad n\neq0,1\end{aligned}$<br>Solution:<br>    Substitute $v=y^{1-n}$ ，$\begin{aligned}\frac{\mathrm{d}v}{\mathrm{d}x}=(1-n)y^{-n}\frac{\mathrm{d}y}{\mathrm{d}x}\end{aligned}$<br>    $\begin{aligned}y^{-n}\frac{\mathrm{d}y}{\mathrm{d}x}+P(x)y^{1-n}=Q(x)\end{aligned}\quad\Rightarrow\quad\begin{aligned}\frac{1}{1-n}\frac{\mathrm{d}v}{\mathrm{d}x}+P(x)v=Q(x)\end{aligned}$<br>    Then solve this Linear first-order equation.</p>
+<p>e.g.3: Homogeneous Equation<br>    $\begin{aligned}\frac{\mathrm{d}y}{\mathrm{d}x}=F(\frac{y}{x})\end{aligned}$<br>Solution:<br>    Substitute $\begin{aligned}v=\frac{y}{x},\quad y=vx,\quad\frac{\mathrm{d}y}{\mathrm{d}x}=v+x\frac{\mathrm{d}v}{\mathrm{d}x}\end{aligned}$ Then $\begin{aligned}x\frac{\mathrm{d}v}{\mathrm{d}x}=F(v)-v\end{aligned}$<br>    Transformed into the separable equation.</p>
+<p>e.g.4: Reducible 2nd-Order Equation<br>    $\begin{aligned}\frac{\mathrm{d}^2y}{\mathrm{d}x^2}=f(x,y,\frac{\mathrm{d}y}{\mathrm{d}x}),\quad F(x,y,y’,y’’)=0\end{aligned}$<br>Solution:<br>    <strong>1.</strong> If $y$ is missing, then $F(x,y’,y’’)=0$ , substitute $\begin{aligned}p=y’=\frac{\mathrm{d}y}{\mathrm{d}x},\quad y’’=\frac{\mathrm{d}p}{\mathrm{d}x}\end{aligned}$ ,results in the first-order equation $F(x,p,p’)=0$ , if we can solve this equation for a general solution $p(x,C_1)$ involving an arbitrary constant $C_1$ , then $\begin{aligned}y(x)=\int y’(x)\mathrm{d}x=\int p(x,C_1)\mathrm{d}x+C_2\end{aligned}$<br>    <strong>2.</strong> If $x$ is missing, then $F(y,y’,y’’)=0$ , substitute $\begin{aligned}p=y’=\frac{\mathrm{d}y}{\mathrm{d}x},\quad y’’=\frac{\mathrm{d}p}{\mathrm{d}x}=\frac{\mathrm{d}p}{\mathrm{d}y}\frac{\mathrm{d}y}{\mathrm{d}x}=p\frac{\mathrm{d}p}{\mathrm{d}y}\end{aligned}$ , results  in the first order equation $\begin{aligned}F(y,p,p\frac{\mathrm{d}p}{\mathrm{d}y})=0\end{aligned}$ , if we can solve this equation for a general solution $p(y,C_1)$ involving an arbitrary constant $C_1$ , then $\begin{aligned}x(y)=\int\frac{\mathrm{d}x}{\mathrm{d}y}\mathrm{d}y=\int\frac{1}{\mathrm{d}y/\mathrm{d}x}\mathrm{d}y=\int\frac{1}{p}\mathrm{d}y=\int\frac{\mathrm{d}y}{p(y,C_1)}+C_2\end{aligned}$</p>
+<h3 id="Singular-solutions"><a href="#Singular-solutions" class="headerlink" title="Singular solutions"></a>Singular solutions</h3><p>There are special solutions thar cannot be obtained from the general solution $y=\varphi(x;C)$ for some value of $C$ ,but are always tangent to one of the $y=\varphi(x,C)$ solution at some point.<br>If there is a singular solution, at each point on the curve has more than 1 solution.<br>if $y=\varphi(x)$ is a singular solution $\Rightarrow$ It’s a p-discriminant  </p>
+<p>Re-write the ODE as an integral equation.<br>Construct the Picard iterates.<br>Show that the Picard iterates converges uniformly on $|x-x_0|\leq h$<br>Show that the above limit function is a solution.<br>Show that the solution is unique. </p>
+<h3 id="Principle-of-the-p-Discriminant-Method"><a href="#Principle-of-the-p-Discriminant-Method" class="headerlink" title="Principle of the p-Discriminant Method"></a>Principle of the p-Discriminant Method</h3><p>Consider a first-order OED in implicit form</p>
+<script type="math/tex; mode=display">\begin{aligned}F(x,y,p)=0,\quad p=\frac{\mathrm{d}y}{\mathrm{d}x}\end{aligned}</script><p>A singular solution must satisfy two conditions simultaneously</p>
+<ul>
+<li>The original equation $F(x,y,p)=0$</li>
+<li>The partial derivative of $F$ with respect to $\begin{aligned}p:\frac{\partial F}{\partial p}=0\end{aligned}$<br>By eliminating $p$ from these equations, we obtain the p-discriminant curve, which may represent the singular solution.</li>
+</ul>
+<h3 id="Proving-the-Correctness-of-the-p-Discriminant-Method"><a href="#Proving-the-Correctness-of-the-p-Discriminant-Method" class="headerlink" title="Proving the Correctness of the p-Discriminant Method"></a>Proving the Correctness of the p-Discriminant Method</h3><p><strong>Singular Solution:</strong> A solution of a differential equation that is not tangent to any solution in the family of general solutions and cannot be obtained by choosing specific values for the constants in the general solution.<br><strong>Envelop:</strong> A curve that is tangent at each point to some solution in the family of general solutions. A singular solution is typically the envelope of general solution family.<br><strong>p-Discriminant Method:</strong> By solving the system $F(x,y,p)=0$ and $\begin{aligned}\frac{\partial F}{\partial p}=0\end{aligned}$ , the curve obtained after eliminating $p$ may represent a singular solution.</p>
+<p>Assume the family of general solutions is $\varphi(x,y,C)=0$ where $C$ is a constant.<br>The envelope must satisfy: $\varphi(x,y,C)=0\quad\begin{aligned}\frac{\partial\varphi}{\partial C}=0\end{aligned}$<br>Eliminating $C$ gives the envelope’s equation.</p>
+<p>For the differential equation $F(x,y,p)=0$ , the envelope (singular solution) of its general solution family must satisfy:</p>
+<ul>
+<li>Every point $(x,y)$ on the envelope satisfies $F(x,y,p)=0$ (Since it is a solution)</li>
+<li>The slope $p$ of the envelope at that point matches the slope of the corresponding solution in the general family</li>
+<li>The envelope represents a limiting case where distinct solutions “coalesce”, implying the dependence on $C$ vanishes, leading to $\begin{aligned}\frac{\partial F}{\partial p}=0\end{aligned}$</li>
+</ul>
+<h3 id="Homogeneous-Second-Order-Linear-Equations"><a href="#Homogeneous-Second-Order-Linear-Equations" class="headerlink" title="Homogeneous Second-Order Linear Equations"></a>Homogeneous Second-Order Linear Equations</h3><p>Let $y_1$ and $y_2$ be two solutions of the homogeneous linear equation in $y’’+p(x)y’+q(x)y=0$ on the interval $I$.If $c_1$ and $c_2$ are constants, then the linear combination $y=c_1y_1+c_2y_2$ is also a solution on $I$.</p>
+<p>The second-order equation $y’’+p(x)y’+q(x)y=f(x)$ has infinitely many solution curves passing through the point $(a,b_0)$ , namely one for each (real number) value of the initial slope $y’(a)=b_1$ . That is, instead of there being only one line through $(a,b_0)$ tangent to a solution curve, every nonvertical straight line through $(a,b_0)$ is tangent to some solution curve of $y’’+p(x)y’+q(x)y=f(x)$.</p>
+<h3 id="Linear-Independence-of-Two-Functions"><a href="#Linear-Independence-of-Two-Functions" class="headerlink" title="Linear Independence of Two Functions"></a>Linear Independence of Two Functions</h3><p>Two functions defined on an open interval $I$ are said to be linearly independent on $I$ provided that neither is a constant multiple of the other.<br>Given two functions $f$ and $g$ , the Wronskian of $f$ and $g$ is the determinant</p>
+<script type="math/tex; mode=display">W=\begin{vmatrix}f&g\\f'&g'\end{vmatrix}=fg'-f'g</script><p>Suppose that $y_1$ and $y_2$ are solutions of the homogeneous second-order linear equation $y’’+p(x)y’+q(x)y=0$ on an open interval $I$ on which $p$ and $q$ are continuous</p>
+<ul>
+<li>If $y_1$ and $y_2$ are linearly dependent, then $W(y_1,y_2)=0$ on $I$</li>
+<li>If $y_1$ and $y_2$ are linearly independent, then $W(y_1,y_2)\neq0$ at each point of $I$</li>
+</ul>
+<h3 id="Linear-Second-Order-Equations-with-Constant-Coefficients"><a href="#Linear-Second-Order-Equations-with-Constant-Coefficients" class="headerlink" title="Linear Second-Order Equations with Constant Coefficients"></a>Linear Second-Order Equations with Constant Coefficients</h3><p>$ar^2+br+c=0$ this quadratic equation is called the characteristic equation of the homogeneous linear differential equation $ay’’+by’+cy=0$ </p>
+<ul>
+<li>If the roots $r_1$ and $r_2$ of the characteristic equation are real and distinct, then $y(x)=c_1e^{r_1x}+c_2e^{r_2x}$ is a general solution.</li>
+<li>If the characteristic equation has equal roots $r_1=r_2$ , then $y(x)=(c_1+c_2x)e^{r_1x}$ is a general solution.</li>
+</ul>
+<h3 id="General-Solutions-of-Linear-Equations"><a href="#General-Solutions-of-Linear-Equations" class="headerlink" title="General Solutions of Linear Equations"></a>General Solutions of Linear Equations</h3><p>Let $y_1,y_2,\cdots,y_n$ be $n$ solutions of the homogeneous linear equation in $y^{(n)}+p_1(x)y^{(n-1)}+\cdots+p_{n-1}(x)y’+p_n(x)y=0$ on the interval $I$ . If  $c_1,c_2,\cdots,c_n$ are constants, then the linear combination $y=c_1y_2+c_2y_c+\cdots+c_ny_n$ is also a solution.</p>
+<p>The $n$ functions $f_1,f_2,\cdots,f_n$ are said to be linearly dependent on the interval $I$ provided that there exist constants $c_1,c_2,\cdots,c_n$ not all zero such that $c_1f_1+c_2f_2+\cdots+c_nf_n=0$<br>Their Wronskian is the $n\times n$ determinant $W=\begin{vmatrix}f_1&amp;f_2&amp;\cdots&amp;f_n\\f_1’&amp;f_2’&amp;\cdots&amp;f_n’\\\vdots&amp;\vdots&amp;&amp;\vdots\\f^{(n-1)}_1&amp;f^{(n-1)}_2&amp;\cdots&amp;f^{(n-1)}_n\end{vmatrix}$<br>Suppose that $y_1,y_2,\cdots,y_n$ are $n$ solutions of the homogeneous nth-order linear equation $y^{(n)}+p_1(x)y^{(n-1)}+\cdots+p_{n-1}(x)y’+p_n(x)y=0$ on an open interval $I$ where each $p_i$ is continuous. Let $W=W(y_1,y_2,\cdots,y_n)$ </p>
+<ul>
+<li>If $y_1,y_2,\cdots,y_n$ are linearly dependent, then $W=0$ on $I$</li>
+<li>If $y_1,y_2,\cdots,y_n$ are linearly independent, then $W\neq0$ at each point of $I$</li>
+</ul>
+<h3 id="Nonhomogeneous-Equations"><a href="#Nonhomogeneous-Equations" class="headerlink" title="Nonhomogeneous Equations"></a>Nonhomogeneous Equations</h3><p>Let $y_p$ be a particular solution of the nonhomogeneous equation $y^{(n)}+p_1(x)y^{(n-1)}+\cdots+p_{n-1}(x)y’+p_n(x)y=f(x)$ on an open interval $I$ where the functions $p_i$ and $f$ are continuous. Let $y_1,y_2,\cdots,y_n$ be linearly independent solutions of the associated homogeneous equation $y^{(n)}+p_1(x)y^{(n-1)}+\cdots+p_{n-1}(x)y’+p_n(x)y=0$ . If $Y$ is any solution whatsoever of $y^{(n)}+p_1(x)y^{(n-1)}+\cdots+p_{n-1}(x)y’+p_n(x)y=f(x)$ on $I$ ,then there exist number $c_1,c_2,\cdots,c_n$ such that</p>
+<script type="math/tex; mode=display">Y(x)=c_1y_1(x)+c_2y_2(x)+\cdots+c_ny_n(x)+y_p(x)</script><p>for all $x$ in $I$</p>
+<h3 id="Polynomial-Operators"><a href="#Polynomial-Operators" class="headerlink" title="Polynomial Operators"></a>Polynomial Operators</h3><p>$\begin{aligned}L&amp;=a_n\frac{d^n}{dx^n}+a_{n-1}\frac{d^{n-1}}{dx^{n-1}}+\cdots+a_2\frac{d^2}{dx^2}+a_1\frac{d}{dx}+a_0\\&amp;=a_nD^n+a_{n-1}D^{n-1}+\cdots+a_nD^2+a_1D+a_0\end{aligned}$</p>
+<h3 id="Homogeneous-Equations-with-Constant-Coefficients"><a href="#Homogeneous-Equations-with-Constant-Coefficients" class="headerlink" title="Homogeneous Equations with Constant Coefficients"></a>Homogeneous Equations with Constant Coefficients</h3><p>$a_nr^n+a_{n-1}r^{n-1}+\cdots+a_2r^2+a_1r+a_0=0$ is called the characteristic equation or auxiliary equation of the differential equation of $a_ny^{(n)}+a_{n-1}y^{(n-1)}+\cdots+a_1y’+a_0y=0$</p>
+<ul>
+<li>If the roots $r_1,r_2,\cdots,r_n$ of the characteristic equation are real and distinct, then $y(x)=c_1e^{r_1x}+c_2e^{r_2x}+\cdots+c_ne^{r_nx}$ is a general solution.</li>
+<li>If the characteristic equation has repeated roots $r_1$ , the desired solution  of $(D-r_1)^ky=0$ is $y(x)=ue^{r_1x}=(c_1+c_2x+c_3x^2+\cdots+c_kx^{k-1})e^{r_1x}$</li>
+</ul>
+<h3 id="Complex-Valued-Functions-and-Euler’s-Formula"><a href="#Complex-Valued-Functions-and-Euler’s-Formula" class="headerlink" title="Complex-Valued Functions and Euler’s Formula"></a>Complex-Valued Functions and Euler’s Formula</h3><p>$\begin{cases}e^{ix}=\cos{x}+i\sin{x}\\e^{(a+bi)x}=e^{ax}(\cos{bx}+i\sin{bx})\\e^{(a-bi)x}=e^{ax}(\cos{bx}-i\sin{bx})\end{cases}$</p>
+<p>$\begin{aligned}y(x)&amp;=c_1e^{r_1x}+c_2e^{r_2x}=c_1e^{(a+bi)x}+c_2e^{(a-bi)x}\\&amp;=c_1e^{ax}(\cos{bx}+i\sin{bx})+c_2e^{ax}(\cos{bx}-i\sin{bx})\\&amp;=(c_1+c_2)e^{ax}\cos{bx}+i(c_1-c_2)e^{ax}\sin{bx}\\&amp;=e^{ax}(d_1\cos{bx}+d_2\sin{bx})\end{aligned}$</p>
+<h3 id="Reduction-of-Order"><a href="#Reduction-of-Order" class="headerlink" title="Reduction of Order"></a>Reduction of Order</h3><p>Suppose that one solution $y_1(x)$ of the homogeneous second-order linear differential equation $y’’+p(x)y’+q(x)y=0$ is known. The method of reduction of order consists of substituting $y_2(x)=v(x)y_1(x)$ and attempting to determine the function $v(x)$ so that $y_2(x)$ is a second linearly independent solution.</p>
+<h3 id="Method-of-Undetermined-Coefficients"><a href="#Method-of-Undetermined-Coefficients" class="headerlink" title="Method of Undetermined Coefficients"></a>Method of Undetermined Coefficients</h3><p>$f(x)$ can be written as a sum of terms each of the form $P_m(x)e^{rx}\cos{kx}$ or $P_m(x)e^{rx}\sin{kx}$ take the trail solution $y_p(x)=x^s[(A_0+A_1x+\cdots+A_mx^m)e^{rx}\cos{kx}+(B_0+B_1x+\cdots+B_mx^m)e^{rx}\sin{kx}]$<br>where $s$ is the smallest nonnegative integer such that no term in $y_p$ duplicates a term in the complementary function $y_c$  </p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">$f(x)$</th>
+<th style="text-align:center">$y_p$</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">$P_m=b_0+b_1x+\cdots+b_mx^m$</td>
+<td style="text-align:center">$x^s(A_0+A_1x+\cdots+A_mx^m)$</td>
+</tr>
+<tr>
+<td style="text-align:center">$a\cos{kx}+b\sin{kx}$</td>
+<td style="text-align:center">$x^s(A\cos{kx}+B\sin{kx})$</td>
+</tr>
+<tr>
+<td style="text-align:center">$e^{rs}(a\cos{kx}+b\sin{kx})$</td>
+<td style="text-align:center">$x^se^{rx}(A\cos{kx}+B\sin{kx})$</td>
+</tr>
+<tr>
+<td style="text-align:center">$P_m(x)e^{rx}$</td>
+<td style="text-align:center">$x^s(A_0+A_1x+\cdots+A_mx^m)e^{rx}$</td>
+</tr>
+<tr>
+<td style="text-align:center">$P_m(x)(a\cos{kx}+b\sin{kx})$</td>
+<td style="text-align:center">$\begin{aligned}x^s[&amp;(A_0+A_1x+\cdots+A_mx^m)\cos{kx}+\\&amp;(B_0+B_1x+\cdots+B_mx^m)\sin{kx}]\end{aligned}$</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="Variation-of-Parameters"><a href="#Variation-of-Parameters" class="headerlink" title="Variation of Parameters"></a>Variation of Parameters</h3><p>If the nonhomogeneous equation $y’’+P(x)y’+Q(x)y=f(x)$ has complementary function $y_c(x)=c_1y_1(x)+c_2y_2(x)$ , then a particular solution is given by</p>
+<script type="math/tex; mode=display">\begin{cases}u_1'y_1+u_2'y_2=0\\u_1'y_1'+u_2'y_2'=f(x)\end{cases}</script><script type="math/tex; mode=display">\begin{aligned}y_p(x)=-y_1(x)\int\frac{y_2(x)f(x)}{W(x)}dx+y_2\int\frac{y_1(x)f(x)}{W(x)}dx\end{aligned}</script><p>where $W=W(y_1,y_2)$ is the Wronskian of the two independent solutions $y_1$ and $y_2$ of the associated homogeneous equation. </p>
+<h3 id="Endpoint-Problems-and-Eigenvalues"><a href="#Endpoint-Problems-and-Eigenvalues" class="headerlink" title="Endpoint Problems and Eigenvalues"></a>Endpoint Problems and Eigenvalues</h3><script type="math/tex; mode=display">y''+p(x)y'+q(x)y=0,y(a)=0,y(b)=0</script><p>to find a solution of the differential equation on the interval $(a,b)$ that satisfies the condition $y(a)=0$ and $y(b)=0$ at the endpoints of the interval. Such a problem is called an endpoint or boundary value problem.</p>
+<script type="math/tex; mode=display">y''+p(x)y'+\lambda q(x)y=0,y(a)=0,y(b)=0</script><p>An  endpoint problem containing a parameter $\lambda$  is called an eigenvalue problem. If there are values of the parameter $\lambda$ exist a nontrivial solution of the endpoint problem, such a value of $\lambda$ is called an eigenvalue of characteristic value of the problem.<br>Suppose that $\lambda_{<em>}$ is an eigenvalue of the problem and that $y_</em>$ is a nontrivial solution of the problem with this value of $\lambda$ inserted</p>
+<script type="math/tex; mode=display">y_*''+p(x)y_*'+\lambda_*q(x)y_*=0,y_*(a)=0,y_*(b)=0</script><p>Then we call $y_<em>$ an eigenfunction associated with the eigenvalue $\lambda_</em>$ .</p>
+<h3 id="Power-Series"><a href="#Power-Series" class="headerlink" title="Power Series"></a>Power Series</h3><p>$\begin{aligned}\sum_{n=0}^{\infty}c_n(x-a)^n=c_0+c_1(x-a)+\cdots+c_n(x-a)^n\end{aligned}+\cdots$<br>$\begin{aligned}f(x)=\sum_{n=0}^\infty c_nx^n=c_0+c_1x+c_2x^2+\cdots\end{aligned}$<br>$\begin{aligned}f’(x)=\sum_{n=1}^\infty nc_nx^{n-1}=c_1+2c_2x+3c_3x^2+\cdots\end{aligned}$</p>
+<h3 id="Radius-of-Convergence"><a href="#Radius-of-Convergence" class="headerlink" title="Radius of Convergence"></a>Radius of Convergence</h3><p>Given the power series $\sum c_nx^n$ ,suppose that the limit $\begin{aligned}\rho=\lim_{n\rightarrow\infty}|\frac{c_n}{c_{n+1}}|\end{aligned}$<br>exists ($\rho$ is finite) or infinite, Then</p>
+<ul>
+<li>if $\rho=0$ ,then the series diverges for all $x\neq 0$</li>
+<li>if $0&lt;\rho&lt;\infty$ ,then $\sum c_nx^n$ converges if $|x|&lt;\rho$ and diverges if $|x|&gt;\rho$</li>
+<li>if $\rho=\infty$ ,then the series converges for all $x$<br>$A(x)y’’+B(x)y’+C(x)y=0$ the point $x=a$ is called an ordinary point of $y’’+P(x)y’+Q(x)y=0$ provided that the function $P(x)$ and $Q(x)$ are both analytic at $x=a$ ,Otherwise $x=a$ is a singular point</li>
+</ul>
+<h3 id="Solutions-Near-an-Ordinary-Point"><a href="#Solutions-Near-an-Ordinary-Point" class="headerlink" title="Solutions Near an Ordinary Point"></a>Solutions Near an Ordinary Point</h3><p>Suppose thar $a$ is an ordinary point of the equation $A(x)y’’+B(x)y’+C(x)y=0$ that is the functions $P=B/A$ and $Q=C/A$ are analytic at $x=a$ ,then the equation has two linearly independent solutions , each of the form $\begin{aligned}y(x)=\sum_{n=0}^\infty c_n(x-a)^n\end{aligned}$<br>The radius of convergence of any such series solution is at least as large as the distance from $a$ to the nearest (real or complex) singular point of the equation, the coefficients in the series can be determined by its substitution.</p>
+<h3 id="Regular-Singular-Points"><a href="#Regular-Singular-Points" class="headerlink" title="Regular Singular Points"></a>Regular Singular Points</h3><p>A differential equation having a singular point at 0 ordinarily will not have power series solutions of the form $y(x)=\sum c_nx^n$ . To investigate the form that a solution of such an equation might take, assume that analytic coefficient functions and rewrite it in the standard form <script type="math/tex">\begin{aligned}&y''+P(x)y'+Q(x)y=0\\&y''+\frac{p(x)}{x}y'+\frac{q(x)}{x^2}y=0,p(x)=xP(x),q(x)=x^2Q(x)\end{aligned}</script><br>The singular point $x=0$ is a regular singular point if the functions $p(x)=xP(x)$ and $q(x)=x^2Q(x)$ are both analytic at $x=0$. Otherwise it is an irregular singular point.<br>    $\begin{aligned}p_0=p(0)=\lim_{x\rightarrow0}p(x)=\lim_{x\rightarrow0}xP(x)\end{aligned}$<br>    $\begin{aligned}q_0=q(0)=\lim_{x\rightarrow0}q(x)=\lim_{x\rightarrow0}x^2Q(x)\end{aligned}$</p>
+<ul>
+<li>if $p_0=q_0=0$ then $x=0$ may be an ordinary point</li>
+<li>if the limits exist and are finite, then $x=0$ is a regular singular point</li>
+<li>if either limit fails to exist or is infinite, then $x=0$ is an irregular singular point</li>
+</ul>
+<h3 id="The-Method-of-Frobenius"><a href="#The-Method-of-Frobenius" class="headerlink" title="The Method of Frobenius"></a>The Method of Frobenius</h3><p>In general case, $p(x)$ and $q(x)$ are power series rather than constants, it is a reasonable conjecture that out differential equation might have a solution of the form</p>
+<script type="math/tex; mode=display">\begin{aligned}y(x)=x^r\sum_{n=0}^\infty c_nx^n=\sum_{n=0}^\infty c_nx^{n+r}=c_0x^r+c_1x^{r+1}+\cdots\end{aligned}</script><p>such series is called a Frobenius series.<br>To investigate the possible existence of Frobenius series solutions, begin with the equation</p>
+<script type="math/tex; mode=display">x^2y''+xp(x)y'+q(x)y=0</script><p>If $x=0$ is a regular singular point, then $p(x)$ and $q(x)$ are analytic at $x=0$ ,so</p>
+<script type="math/tex; mode=display">
+\begin{align}
+p(x)=p_0+p_1x+p_2x^2+p_3x^3+\cdots \\
+q(x)=q_0+q_1x+q_2x^2+q_3x^3+\cdots
+\end{align}</script><p>Suppose the equation has the Frobenius series solution</p>
+<script type="math/tex; mode=display">\begin{aligned}y=\sum_{n=0}^\infty c_nx^{n+r}\quad y'=\sum_{n=0}^{\infty}c_n(n+r)x^{n+r-1}\quad y''=\sum_{n=0}^\infty c_n(n+r)(n+r-1)x^{n+r-2}\end{aligned}</script><p>the coefficient $r(r-1)c_0+p_0rc_0+q_0c_0$ of $x^r$ must vanish, because $c_0\neq0$ ,it follows that $r$ must satisfy the quadratic equation $r(r-1)+p_0r+q_0=0$  , which is called the indicial equation, and its two roots are the exponents of the differential equation at $x=0$<br>If $r_1\neq r_2$ ,it follows that there are two possible Frobenius series solutions<br>If $r_1=r_2$ ,there is only one possible Frobenius series solution</p>
+<h3 id="Frobenius-Series-Solutions"><a href="#Frobenius-Series-Solutions" class="headerlink" title="Frobenius Series Solutions"></a>Frobenius Series Solutions</h3><p>Suppose that $x=0$ is a regular singular point of the equation $x^2y’’+xp(x)y’+q(x)y=0$<br>Let $\rho&gt;0$ denote the minimum of the radii of convergence of the power series<br>$\begin{aligned}p(x)=\sum_{n=0}^\infty p_nx^n\quad\mathrm{and}\quad q(x)=\sum_{n=0}^\infty q_nx^n\end{aligned}$$<br>Let $r_1$ and $r_2$ be the roots, with $r_1\geq r_2$</p>
+<ul>
+<li>For $x&gt;0$ , there exists a solution of the form $\begin{aligned}y_1(x)=x^{r_1}\sum_{n=0}^\infty a_nx^n\quad(a_0\neq 0)\end{aligned}$</li>
+<li>If $r_1-r_2$ is neither zero nor a positive integer, there exists a second linearly independent solution for $x&gt;0$ of the form $\begin{aligned}y_2(x)=x^{r_2}\sum_{n=0}^\infty b_nx^n\quad(b_0\neq 0)\end{aligned}$</li>
+<li>If $r_1-r_2$ is a positive integer there may or may not exist a second Frobenius series solution of the equation</li>
+</ul>
+<h3 id="The-Nonlogarithmic-Case-with-r-1-r-2-N"><a href="#The-Nonlogarithmic-Case-with-r-1-r-2-N" class="headerlink" title="The Nonlogarithmic Case with $r_1=r_2+N$"></a>The Nonlogarithmic Case with $r_1=r_2+N$</h3><p>Derived the indicial equation by substituting the power series $p(x)=\sum p_nx^n$ and $\sum q_nx^n$ and the Frobenius series $\begin{aligned}y(x)=x\sum_{n=0}^\infty c_nx^{n+r},c_0\neq0\end{aligned}$<br>in the differential equation in the form $x^2y’’+xp(x)y’+q(x)y=0$<br>The result of this substitution, after collection of the coefficients of like powers of $x$ , is an equation of the form $\begin{aligned}\sum_{n=0}^\infty F_n(r)x^{n+r}=0\end{aligned}$<br>$F_0(r)=[r(r-1)+p_0r+q_0]c_0=\phi(r)c_0$<br>$F_n(r)=\phi(r+n)c_n+L_n(r:c_0,c_1,\cdots,c_{n-1})$<br>$\begin{aligned}L_n=\sum_{k=0}^{n-1}[(r+k)p_{n-k}+q_{n-k}]c_k\end{aligned}$<br>$\begin{aligned}y_2=y_1\int\frac{\exp(-\int P(x)dx)}{y_1^2}dx\end{aligned}$</p>
+<ul>
+<li>$N=0$ , $\begin{aligned}y_2(x)=y_1(x)\ln{x}+x^{1+r_1}\sum_{n=0}^{\infty}b_nx^n\end{aligned}$</li>
+<li>$N\neq0$ , $\begin{aligned}y_2(x)=C_Ny_1(x)\ln{x}+x^{r_2}\sum_{n=0}^\infty b_nx^n\end{aligned}$</li>
+</ul>
+<h3 id="First-Order-Systems-and-Applications"><a href="#First-Order-Systems-and-Applications" class="headerlink" title="First-Order Systems and Applications"></a>First-Order Systems and Applications</h3><p>Consider the system consisting of the single nth-order equation</p>
+<script type="math/tex; mode=display">x^{(n)}=f(t,x,x',\cdots,x^{(n-1)})</script><p>Introduce the dependent variables $x_1,x_2,\cdots,x_n$ defined as follows:</p>
+<script type="math/tex; mode=display">x_1=x,\quad x_2=x',\quad x_3=x'',\quad\cdots,\quad x_n=x^{(n-1)}</script><p>The substitution yields the system</p>
+<script type="math/tex; mode=display">x_n'=f(t,x_1,x_2,\cdots,x_n)</script><h3 id="Linear-systems"><a href="#Linear-systems" class="headerlink" title="Linear systems"></a>Linear systems</h3><p>Consider a linear first-order system of the form</p>
+<script type="math/tex; mode=display">
+\begin{align}
+x_1'&=p_{11}(t)x_1+p_{12}(t)x_2+\cdots+p_{1n}(t)x_n+f_1(t)\\
+x_2'&=p_{21}(t)x_1+p_{22}(t)x_2+\cdots+p_{2n}(t)x_n+f_2(t)\\
+&\quad\quad\quad\quad\quad\quad\quad\quad\quad\vdots\\
+x_n'&=p_{n1}(t)x_1+p_{n2}(t)x_2+\cdots+p_{nn}(t)x_n+f_n(t)
+\end{align}</script><p>We say that this system is homogeneous if the functions $f_1,f_2,\cdots,f_n$ are all identically zero, Otherwise, it is nonhomogeneous</p>
+<p>Any system of two linear differential equations with constant coefficients can be written in the form $L_1x+L_2y=f_1(t),L_3x+L_4y=f_2(t)$<br>$\begin{cases}L_1x+L_2y=f_1(t)\Rightarrow L_3L_1x+L_3L_2y=L_3f_1(t)\\L_3x+L_4y=f_2(t)\Rightarrow L_1L_3x+L_1L_4y=L_1f_2(t)\end{cases}\Rightarrow(L_1L_4-L_2L_3)y=L_1f_2(t)-L_3f_1(t)$<br>define the operational determinant</p>
+<script type="math/tex; mode=display">\begin{vmatrix}L_1&L_2\\L_3&L_4\end{vmatrix}=L_1L_4-L_2L_3</script><p>Then the equation related to $x$ and $y$ can be rewritten as</p>
+<script type="math/tex; mode=display">\begin{vmatrix}L_1&L_2\\L_3&L_4\end{vmatrix}x=\begin{vmatrix}f_1(t)&L_2\\f_2(t)&L_4\end{vmatrix},\quad\begin{vmatrix}L_1&L_2\\L_3&L_4\end{vmatrix}y=\begin{vmatrix}L_1&f_1(t)\\L_3&f_2(t)\end{vmatrix}</script><p>Similarly, for the system of three linear equations, $x$ satisfies the single linear equation</p>
+<script type="math/tex; mode=display">\begin{vmatrix}L_{11}&L_{12}&L_{13}\\L_{21}&L_{22}&L_{23}\\L_{31}&L_{32}&L_{33}\end{vmatrix}x=\begin{vmatrix}f_1(t)&L_{12}&L_{13}\\f_2(t)&L_{22}&L_{23}\\f_3(t)&L_{32}&L_{33}\end{vmatrix}</script><p>Suppose that $x_1,x_2,\cdots x_n$ are $n$ solutions of the homogeneous linear equation $x’=P(t)x$ on an open interval $I$ ,suppose that $P(t)$ is continuous on $I$ ,let $W=W(x_1,x_2,\cdots,x_n)$</p>
+<ul>
+<li>If $x_1,x_2,\cdots,x_n$ are linearly dependent on $I$ ,then $W=0$ at every point of $I$</li>
+<li>If $x_1,x_2,\cdots,x_n$ are linearly independent  on $I$ ,then $W\neq0$ at every point of $I$</li>
+</ul>
+<h3 id="The-Eigenvalue-Method-for-Homogeneous-Systems"><a href="#The-Eigenvalue-Method-for-Homogeneous-Systems" class="headerlink" title="The Eigenvalue Method for Homogeneous Systems"></a>The Eigenvalue Method for Homogeneous Systems</h3><p>Write the system in the matrix form $x’=Ax$ where $A=[a_{ij}]$ , When substitute the trial solution $x=ve^{\lambda t}$ with derivative $x’=\lambda ve^{\lambda t}$ , the result is $\lambda ve^{\lambda t}=Ave^{\lambda t}\Rightarrow Av=\lambda v$<br>The number $\lambda$ is called an eigenvalue of the $n\times n$ matrix $A$ provided that $|A-\lambda I|=0$<br>The vector $v$ is called an eigenvector of $\lambda$</p>
+<h3 id="Chains-of-Generalized-Eigenvalues"><a href="#Chains-of-Generalized-Eigenvalues" class="headerlink" title="Chains of Generalized Eigenvalues"></a>Chains of Generalized Eigenvalues</h3><p>Begin with a nonzero solution of $(A-\lambda I)^{d+1}u=0$ and successively multiply by the matrix $A-\lambda I$ until the zero vector is obtained, If</p>
+<script type="math/tex; mode=display">\begin{aligned}&(A-\lambda I)u_1=u_2\neq 0\\&\quad\quad\quad\quad\vdots\\&(A-\lambda I)u_{k-1}=u_k\neq0\end{aligned}</script><p>but  $(A-\lambda I)u_k=0$ ,then the vectors $\{v_1,v_2,\cdots,v_k\}=\{u_k,u_{k_1}\cdots,u_2,u_1\}$ form a length $k$ chain of generalized eigenvectors based on the eigenvector $v_1$</p>
+<h3 id="Fundamental-Matrix-Solutions"><a href="#Fundamental-Matrix-Solutions" class="headerlink" title="Fundamental Matrix Solutions"></a>Fundamental Matrix Solutions</h3><p>Let $\Phi(t)$ be a fundamental matrix for the homogeneous linear system $x’=Ax$<br>Then the unique solution of the initial value problem $x’=Ax,x(0)=x_0$<br>is given by $x(t)=\Phi(t)\Phi(0)^{-1}x_0=e^{At}x_0$</p>
+<script type="math/tex; mode=display">\begin{aligned}x(t)=e^{At}x_0+e^{At}\int_0^te^{-As}f(s)ds\end{aligned}</script><script type="math/tex; mode=display">\begin{aligned}x(t)=\Phi(t)\Phi(a)^{-1}x_a+\Phi(t)\int_a^t\Phi(s)^{-1}f(s)ds\end{aligned}</script><h2 id="Some-words"><a href="#Some-words" class="headerlink" title="Some words"></a>Some words</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>术语</th>
+<th>翻译</th>
+<th>术语</th>
+<th>翻译</th>
+<th>术语</th>
+<th>翻译</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>homogeneous</td>
+<td>齐次</td>
+<td>constant</td>
+<td>常数</td>
+<td>derivative</td>
+<td>导数</td>
+</tr>
+<tr>
+<td>superposition</td>
+<td>叠加</td>
+<td>multiplication</td>
+<td>乘法</td>
+<td>subtitute</td>
+<td>代替</td>
+</tr>
+<tr>
+<td>partial derivative</td>
+<td>偏导数</td>
+<td>arbitrary</td>
+<td>任意</td>
+<td>reducible</td>
+<td>可简化</td>
+</tr>
+<tr>
+<td>autonomous</td>
+<td>自治</td>
+<td>algebra</td>
+<td>代数</td>
+<td>interval</td>
+<td>区间</td>
+</tr>
+<tr>
+<td>infinite family</td>
+<td>无穷集</td>
+<td>proportional</td>
+<td>比例</td>
+<td>explicit</td>
+<td>特解</td>
+</tr>
+<tr>
+<td>assertion</td>
+<td>断言</td>
+<td>intersect</td>
+<td>相交</td>
+<td>parameter</td>
+<td>参数</td>
+</tr>
+<tr>
+<td>antiderivative</td>
+<td>不定积分</td>
+<td>branch</td>
+<td>分支</td>
+<td>domain</td>
+<td>范围</td>
+</tr>
+<tr>
+<td>independent variable</td>
+<td>自变量</td>
+<td>verify</td>
+<td>验证</td>
+<td>coefficient</td>
+<td>系数</td>
+</tr>
+<tr>
+<td>identity equation</td>
+<td>恒等式</td>
+<td>curve</td>
+<td>曲线</td>
+<td>equation</td>
+<td>方程</td>
+</tr>
+<tr>
+<td>dependent variable</td>
+<td>因变量</td>
+<td>integration</td>
+<td>积分</td>
+<td>slope</td>
+<td>斜率</td>
+</tr>
+<tr>
+<td>necessary condition</td>
+<td>必要条件</td>
+<td>exponential</td>
+<td>指数的</td>
+<td>static</td>
+<td>静态</td>
+</tr>
+<tr>
+<td>asymptote</td>
+<td>渐近线</td>
+<td>denote</td>
+<td>表示</td>
+<td>indeed</td>
+<td>的确</td>
+</tr>
+<tr>
+<td>hypothesis</td>
+<td>假设</td>
+<td>error function</td>
+<td>误差方程</td>
+<td>emcompass</td>
+<td>包含</td>
+</tr>
+<tr>
+<td>equilibrium</td>
+<td>平衡</td>
+<td>vibration</td>
+<td>振动</td>
+<td>duplication</td>
+<td>重复</td>
+</tr>
+</tbody>
+</table>
+</div>
+]]></content>
+      <tags>
+        <tag>课程笔记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>微积分甲II</title>
     <url>/2025/%E5%BE%AE%E7%A7%AF%E5%88%86%E7%94%B2II/</url>
     <content><![CDATA[<h2 id="Chapter-7-空间曲面方程"><a href="#Chapter-7-空间曲面方程" class="headerlink" title="Chapter-7 空间曲面方程"></a>Chapter-7 空间曲面方程</h2><h3 id="矢量的矢量积"><a href="#矢量的矢量积" class="headerlink" title="矢量的矢量积"></a>矢量的矢量积</h3><p>$a\times b=\begin{vmatrix}a_2&amp;a_3\\b_2&amp;b_3\end{vmatrix}i-\begin{vmatrix}a_1&amp;a_3\\b_1&amp;b_3\end{vmatrix}j+\begin{vmatrix}a_1&amp;a_2\\b_1&amp;b_2\end{vmatrix}k=\begin{vmatrix}i&amp;j&amp;k\\a_1&amp;a_2&amp;a_3\\b_1&amp;b_2&amp;b_2\end{vmatrix}$<br>矢量积所得的矢量垂直于 $a,b$ 构成的平面<br><span id="more"></span></p>

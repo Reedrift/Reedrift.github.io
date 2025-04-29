@@ -6,7 +6,7 @@
   <link href="https://reedrift.github.io/atom.xml" rel="self"/>
   
   <link href="https://reedrift.github.io/"/>
-  <updated>2025-04-29T07:03:57.254Z</updated>
+  <updated>2025-04-29T07:21:53.708Z</updated>
   <id>https://reedrift.github.io/</id>
   
   <author>
@@ -15,6 +15,23 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>常微分方程</title>
+    <link href="https://reedrift.github.io/2025/%E5%B8%B8%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/"/>
+    <id>https://reedrift.github.io/2025/%E5%B8%B8%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/</id>
+    <published>2025-04-29T07:12:47.000Z</published>
+    <updated>2025-04-29T07:21:53.708Z</updated>
+    
+    
+    <summary type="html">&lt;h3 id=&quot;nth-order-Differential-Equation&quot;&gt;&lt;a href=&quot;#nth-order-Differential-Equation&quot; class=&quot;headerlink&quot; title=&quot;nth-order Differential Equation&quot;&gt;&lt;/a&gt;nth-order Differential Equation&lt;/h3&gt;&lt;p&gt;The most general form of an nth-order differential equation with independent $x$ and unknown function or dependent variable $y=y(x)$ is $F(x,y,y’,y’’,&#92;cdots,y^{(n)})$&lt;br&gt;An nth-order differential equation ordinarily has an n-parameter family of solutions-one involving n different arbitrary constants or parameters.&lt;br&gt;</summary>
+    
+    
+    
+    
+    <category term="课程笔记" scheme="https://reedrift.github.io/tags/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>微积分甲II</title>
