@@ -38,7 +38,7 @@
     <link href="https://reedrift.github.io/2025/%E5%BE%AE%E7%A7%AF%E5%88%86%E7%94%B2II/"/>
     <id>https://reedrift.github.io/2025/%E5%BE%AE%E7%A7%AF%E5%88%86%E7%94%B2II/</id>
     <published>2025-04-29T06:59:55.000Z</published>
-    <updated>2025-05-08T03:32:56.289Z</updated>
+    <updated>2025-05-12T13:32:42.935Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;Chapter-7-空间曲面方程&quot;&gt;&lt;a href=&quot;#Chapter-7-空间曲面方程&quot; class=&quot;headerlink&quot; title=&quot;Chapter-7 空间曲面方程&quot;&gt;&lt;/a&gt;Chapter-7 空间曲面方程&lt;/h2&gt;&lt;h3 id=&quot;矢量的矢量积&quot;&gt;&lt;a href=&quot;#矢量的矢量积&quot; class=&quot;headerlink&quot; title=&quot;矢量的矢量积&quot;&gt;&lt;/a&gt;矢量的矢量积&lt;/h3&gt;&lt;p&gt;$a&#92;times b=&#92;begin{vmatrix}a_2&amp;amp;a_3&#92;&#92;b_2&amp;amp;b_3&#92;end{vmatrix}i-&#92;begin{vmatrix}a_1&amp;amp;a_3&#92;&#92;b_1&amp;amp;b_3&#92;end{vmatrix}j+&#92;begin{vmatrix}a_1&amp;amp;a_2&#92;&#92;b_1&amp;amp;b_2&#92;end{vmatrix}k=&#92;begin{vmatrix}i&amp;amp;j&amp;amp;k&#92;&#92;a_1&amp;amp;a_2&amp;amp;a_3&#92;&#92;b_1&amp;amp;b_2&amp;amp;b_2&#92;end{vmatrix}$&lt;br&gt;矢量积所得的矢量垂直于 $a,b$ 构成的平面&lt;br&gt;</summary>
