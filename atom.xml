@@ -78,7 +78,7 @@ A=&#92;sqrt{x_0^2+(&#92;frac{v_0}{&#92;omega})^2},
     <link href="https://reedrift.github.io/2025/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/"/>
     <id>https://reedrift.github.io/2025/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/</id>
     <published>2025-04-26T11:03:04.000Z</published>
-    <updated>2025-04-28T14:45:50.364Z</updated>
+    <updated>2025-05-14T01:01:13.079Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;几何解释&quot;&gt;&lt;a href=&quot;#几何解释&quot; class=&quot;headerlink&quot; title=&quot;几何解释&quot;&gt;&lt;/a&gt;几何解释&lt;/h2&gt;&lt;h3 id=&quot;方阵乘法的意义&quot;&gt;&lt;a href=&quot;#方阵乘法的意义&quot; class=&quot;headerlink&quot; title=&quot;方阵乘法的意义&quot;&gt;&lt;/a&gt;方阵乘法的意义&lt;/h3&gt;&lt;p&gt;对于方阵 $A,B$ ，表达式 $B(AX)$ 表示在新基 $B$ 下坐标为在新基 $A$ 下坐标为 $X$ 的坐标的坐标&lt;/p&gt;
