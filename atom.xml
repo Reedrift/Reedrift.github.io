@@ -6,7 +6,7 @@
   <link href="https://reedrift.github.io/atom.xml" rel="self"/>
   
   <link href="https://reedrift.github.io/"/>
-  <updated>2025-05-14T02:05:04.175Z</updated>
+  <updated>2025-05-14T07:28:47.334Z</updated>
   <id>https://reedrift.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>离散数学</title>
+    <link href="https://reedrift.github.io/2025/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/"/>
+    <id>https://reedrift.github.io/2025/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/</id>
+    <published>2025-05-15T05:26:33.000Z</published>
+    <updated>2025-05-14T07:28:47.334Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;Chapter-8&quot;&gt;&lt;a href=&quot;#Chapter-8&quot; class=&quot;headerlink&quot; title=&quot;Chapter-8&quot;&gt;&lt;/a&gt;Chapter-8&lt;/h2&gt;&lt;h3 id=&quot;Inclusion-Exclusion&quot;&gt;&lt;a href=&quot;#Inclusion-Exclusion&quot; class=&quot;headerlink&quot; title=&quot;Inclusion-Exclusion&quot;&gt;&lt;/a&gt;Inclusion-Exclusion&lt;/h3&gt;&lt;p&gt;Let $A_1,A_2,&#92;cdots A_n$ be finite sets, then&lt;/p&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;
+&#92;begin{align}
+|A_1&#92;cup A_2&#92;cup&#92;cdots&#92;cup A_n|
+&amp;=&#92;sum_{1&#92;leq i&#92;leq n}|A_i|
+-&#92;sum_{1&#92;leq i&lt; j&#92;leq n}|A_i&#92;cap A_j|&#92;&#92;
+&amp;+&#92;sum_{1&#92;leq i&lt;j&lt;k&#92;leq n}|A_i&#92;cap A_j&#92;cap A_k|-&#92;cdots+(-1)^{n+1}|A_1&#92;cap A_2&#92;cap&#92;cdots&#92;cap A_n|
+&#92;end{align}&lt;/script&gt;</summary>
+    
+    
+    
+    
+    <category term="课程笔记" scheme="https://reedrift.github.io/tags/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>常微分方程</title>
@@ -55,16 +79,16 @@
     <link href="https://reedrift.github.io/2025/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E7%94%B2I/"/>
     <id>https://reedrift.github.io/2025/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E7%94%B2I/</id>
     <published>2025-04-28T15:00:19.000Z</published>
-    <updated>2025-05-12T12:35:23.177Z</updated>
+    <updated>2025-05-14T07:28:35.757Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;Chapter-5-机械振动&quot;&gt;&lt;a href=&quot;#Chapter-5-机械振动&quot; class=&quot;headerlink&quot; title=&quot;Chapter-5 机械振动&quot;&gt;&lt;/a&gt;Chapter-5 机械振动&lt;/h2&gt;&lt;h3 id=&quot;简谐振动方程&quot;&gt;&lt;a href=&quot;#简谐振动方程&quot; class=&quot;headerlink&quot; title=&quot;简谐振动方程&quot;&gt;&lt;/a&gt;简谐振动方程&lt;/h3&gt;&lt;p&gt;简谐振动的微分方程及其解的一般形式为（可以通过常微分方程知识求解）&lt;/p&gt;
+    <summary type="html">&lt;h2 id=&quot;Chapter-1-质点运动学&quot;&gt;&lt;a href=&quot;#Chapter-1-质点运动学&quot; class=&quot;headerlink&quot; title=&quot;Chapter-1 质点运动学&quot;&gt;&lt;/a&gt;Chapter-1 质点运动学&lt;/h2&gt;&lt;p&gt;【注】与中学内容基本一致，略&lt;/p&gt;
+&lt;h2 id=&quot;Chapter-2-质点动力学&quot;&gt;&lt;a href=&quot;#Chapter-2-质点动力学&quot; class=&quot;headerlink&quot; title=&quot;Chapter-2 质点动力学&quot;&gt;&lt;/a&gt;Chapter-2 质点动力学&lt;/h2&gt;&lt;h3 id=&quot;碰撞&quot;&gt;&lt;a href=&quot;#碰撞&quot; class=&quot;headerlink&quot; title=&quot;碰撞&quot;&gt;&lt;/a&gt;碰撞&lt;/h3&gt;&lt;p&gt;对于一般碰撞，恢复系数 $&#92;begin{align}e=&#92;frac{v_2’-v_1’}{v_1-v_2}&#92;end{align}$ 与两球的质量和速度无关&lt;/p&gt;
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;
-&#92;frac{d^2x}{dt^2}+&#92;omega^2x=0&#92;quad&#92;Rightarrow&#92;quad x=A&#92;cos(&#92;omega t+&#92;varphi)&lt;/script&gt;&lt;p&gt;已知简谐振动的初始状态 $x_0=A&#92;cos&#92;varphi,&#92;quad v_0=-&#92;omega A&#92;sin&#92;varphi$ 可以求得&lt;/p&gt;
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;
-A=&#92;sqrt{x_0^2+(&#92;frac{v_0}{&#92;omega})^2},
-&#92;quad
-&#92;varphi=&#92;arctan&#92;frac{-v_0}{&#92;omega x_0}&lt;/script&gt;</summary>
+&#92;begin{align}
+v_1&#39;=&#92;frac{m_1v_1+m_2v_2}{m_1+m_2}-e&#92;frac{m_2(v_1-v_2)}{m_1+m_2}&#92;&#92;
+v_2&#39;=&#92;frac{m_1v_1+m_2v_2}{m_1+m_2}-e&#92;frac{m_1(v_2-v_1)}{m_1+m_2}
+&#92;end{align}&lt;/script&gt;</summary>
     
     
     

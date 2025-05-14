@@ -1,6 +1,156 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>离散数学</title>
+    <url>/2025/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Chapter-8"><a href="#Chapter-8" class="headerlink" title="Chapter-8"></a>Chapter-8</h2><h3 id="Inclusion-Exclusion"><a href="#Inclusion-Exclusion" class="headerlink" title="Inclusion-Exclusion"></a>Inclusion-Exclusion</h3><p>Let $A_1,A_2,\cdots A_n$ be finite sets, then</p>
+<script type="math/tex; mode=display">
+\begin{align}
+|A_1\cup A_2\cup\cdots\cup A_n|
+&=\sum_{1\leq i\leq n}|A_i|
+-\sum_{1\leq i< j\leq n}|A_i\cap A_j|\\
+&+\sum_{1\leq i<j<k\leq n}|A_i\cap A_j\cap A_k|-\cdots+(-1)^{n+1}|A_1\cap A_2\cap\cdots\cap A_n|
+\end{align}</script><span id="more"></span>
+<h2 id="Chapter-9-Relations"><a href="#Chapter-9-Relations" class="headerlink" title="Chapter-9 Relations"></a>Chapter-9 Relations</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>专有名词</th>
+<th>翻译</th>
+<th>专有名词</th>
+<th>翻译</th>
+<th>专有名词</th>
+<th>翻译</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>binary relation</td>
+<td>二元关系</td>
+<td>reflexive</td>
+<td>自反的</td>
+<td>symmetric</td>
+<td>对称的</td>
+</tr>
+<tr>
+<td>antisymmetric</td>
+<td>反对称的</td>
+<td>vertex</td>
+<td>顶点</td>
+<td>diagonal</td>
+<td>对角线的</td>
+</tr>
+<tr>
+<td>irreflexive</td>
+<td>非自反的</td>
+<td>congruence</td>
+<td>一致</td>
+<td>lexicographic order</td>
+<td>字典序</td>
+</tr>
+<tr>
+<td>hasse diagram</td>
+<td>哈塞图</td>
+<td>maximal</td>
+<td>最大元</td>
+<td>minimal</td>
+<td>最小元</td>
+</tr>
+<tr>
+<td>dual</td>
+<td>对偶</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>A binary relation from $A$ to $B$ is a subset of $A\times B$<br>A relation on a set $A$ is a relation from $A$ to $A$ </p>
+<p><strong>Reflexive</strong> $\forall a\in A,(a,a)\in R$<br><strong>symmetric</strong> $\forall a,b\in A,(a,b)\in R\rightarrow (b,a)\in R$<br><strong>antisymmetric</strong> $\forall a,b\in A,((a,b)\in R\land (b,a)\in R)\rightarrow a=b$<br><strong>transitive</strong> $\forall a,b,c\in A,((a,b)\in R\land(b,c)\in R)\rightarrow (a,c)\in R$<br><strong>composite</strong> $(\exists b\in B((a,b)\in R\land(b,c)\in S))\rightarrow (a,c)\in S\circ R$</p>
+<p>The relation $R$ on a set $A$ is transitive if and only if $R^n\subseteq R$ for $n=1,2,3\cdots$</p>
+<p>An n-ary relation is a subset of $A_1\times A_2\times\cdots\times A_n$<br>The sets $A_1,A_2,\cdots,A_n$ are called the domains of the relation<br>$n$ is called its degree<br>A domain is a primary key when no two n-tuples in the relation have the same value</p>
+<p>$R$ is symmetric if and only if $M_R=(M_R)^t$<br>$M_{R_1\cup R_2}=M_{R_1}\lor M_{R_2}$<br>$M_{R_1\cap R_2}=M_{R_1}\land M_{R_2}$<br>$M_{S\circ R}=M_R\odot M_S$ </p>
+<p>an edge of the form $(a,a)$ is called a loop</p>
+<p>the closure of $R$ with respect to $P$ is the relation $S$ on $A$ with property $P$ that contains $R$  and is a subset of every subset containing $R$ with property $P$</p>
+<p>There is a path of length $n$ from $a$ to $b$ if and only if $(a,b)\in R^n$</p>
+<p>The connectivity relation $R^<em>$ consists of the pairs $(a,b)$ such that there is a path of length at least one from $a$ to $b$ in $R$ , $\begin{align}R^</em>=\bigcup_{n=1}^\infty R^n\end{align}$</p>
+<p>$M_{R^*}=M_R\lor M_R^{[2]}\lor M_R^{[3]}\lor\cdots\lor M_R^{[n]}$</p>
+<p>$W_k=[w_{ij}^{[k]}],\quad w_{ij}^{[k]}=w_{ij}^{[k-1]}\lor(w_{ik}^{[k-1]}\land w_{kj}^{[k-1]})$</p>
+<p>Equivalence relation is reflexive, symmetric and transitive</p>
+<p>Two elements $a$ and $b$ that are related by an equivalence relation are called equivalent. $a\sim b$ denote that $a$ and $b$ are equivalent elements with respect to a particular equivalence relation</p>
+<p>Let $R$ be a equivalence relation on a set $A$ . The set of all elements that are related to an element $a$ of $A$ is called the equivalence class of $a$<br>$[a]_R=\{s|(a,s)\in R\}$<br>If $b\in[a]_R$ , then $b$ is called a representative of this equivalence class</p>
+<p>Let $R$ be an equivalence relation on a set $A$. these statements for elements $a$ and $b$ of $A$ are equivalent: $aRb,\quad [a]=[b],\quad [a]\cap[b]\neq\emptyset$ </p>
+<p>Let $R$ be an equivalence relation on a set $S$ , Then the equivalence classes of $R$ form a partition of $S$ . Conversely , given a partition $\{A)i|i\in I\}$ of the set $S$ , there is an equivalence relation $R$ that has the sets $A_i,i\in I$ as its equivalence classes.</p>
+<p>A relation $R$ on $S$ is called a partial ordering if it is reflexive, antisymmetric and transitive. A set $S$ together with a partial ordering $R$ is called a partially ordered set, and is denoted by $(S,R)$ . Members of $S$ are called elements of the poset. </p>
+<p>The elements $a$ and $b$ of a poset $(S,\preceq)$ are called comparable if either $a\preceq b$ or $b\preceq a$ . When $a$ and $b$ are elements of $S$ such that neither $a\preceq b$ nor $b\preceq a$ , $a$ and $b$ are called incomparable.</p>
+<p>If $(S,\preceq)$ is a poset and every two elements of $S$ are comparable , $S$ is called a totally ordered or linearly ordered set, and $\preceq$ is called a total order or a linear order. A totally ordered set is also called a chain.</p>
+<p>$(S,\preceq)$ is a well-ordered set if it is a poset such that $\preceq$ is a total ordering and every nonempty subset of $S$ has a least element.</p>
+<p>Suppose that $S$ is a well-ordered set. Then $P(x)$ is true for all $x\in S$<br>For every $y\in S$, if $P(x)$ is true for all $x\in S$ with $x\prec y$ , then $P(y)$ is true</p>
+<p>An element of a poset is called maximal if it is not less than any element of the poset<br>An element of a poset is called minimal if it is not greater than any element of the poset</p>
+<p>greatest element is an element in a poset that is greater than every other element<br>least element is an element in a poset that is less than every other element</p>
+<p>upper bound /lower bound /least upper bound /greatest lower bound</p>
+<p>A partially ordered set in which every pair of elements has both a least upper bound and a greatest lower bound is called a lattice</p>
+<p>Every finite nonempty poset $(S,\preceq)$ has at least one minimal element</p>
+<h2 id="Chapter-10-Graphs"><a href="#Chapter-10-Graphs" class="headerlink" title="Chapter-10 Graphs"></a>Chapter-10 Graphs</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>专有名词</th>
+<th>翻译</th>
+<th>专有名词</th>
+<th>翻译</th>
+<th>专有名词</th>
+<th>翻译</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>isolated</td>
+<td>孤立的</td>
+<td>pendant</td>
+<td>悬挂的</td>
+<td>in-degree</td>
+<td>入度</td>
+</tr>
+<tr>
+<td>out-degree</td>
+<td>出度</td>
+<td>Bipartite Graphs</td>
+<td>二分图</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>A graph $G=(V,E)$ consists of $V$ ,a nonempty set of vertices (or nodes) and $E$ ,a set of edges. Each edge has either $1$ or $2$ vertices associated with it , called its endpoints.</p>
+<ul>
+<li>A graph in which each edge connects two different vertices and where no two edges connect the same pair of vertices if called a simple graph.</li>
+<li>Graphs that may have multiple edges connecting the same vertices are called multigraphs.</li>
+<li>Graphs that may include loops, and possibly multiple edges connecting the same pair of vertices or a vertex to itself, are called pseudographs.</li>
+</ul>
+<p>A digraph $(V, E)$ consists of a nonempty set of vertices $V$ and a set of directed edges $E$. Each directed edge is associated with an ordered pair of vertices. The directed edge $(u, v)$ is said to start at $u$ and end at $v$.</p>
+<p>The set of all neighbors of a vertex $v$ of $G=(V,E)$ , denoted by $N(v)$ , is called the neighborhood of $v$ . If $A$ is a subset of $V$ , we denote by $N(A)$ the set of all vertices in $G$ that are adjacent to at least one vertex in $A$ , $N(A)=\bigcup_{c\in A}N(v)$</p>
+<p>The degree of a vertex in an undirected graph is the number of edges incident with it, except that a loop at a vertex contributes twice to the degree of that vertex. The degree of the vertex v is denoted by $\deg(v)$</p>
+<p>Let $G=(V,E)$ be an undirected graph with $m$ edges, then</p>
+<script type="math/tex; mode=display">
+2m=\sum_{v\in V}\deg(v)</script><p>An undirected graph has an even number of vertices of odd degree.</p>
+<p>In a graph with directed edges the in-degree of a vertex $v$, denoted by $\deg^−(v)$, is the number of edges with $v$ as their terminal vertex. The out-degree of $v$, denoted by $deg^+(v)$, is the number of edges with $v$ as their initial vertex.</p>
+<p>Let $G=(V,E)$ be a graph with directed edges, then</p>
+<script type="math/tex; mode=display">
+\sum_{v\in V}\deg^-(v)=\sum_{v\in V}\deg^+(v)=|E|</script><h3 id="Bipartite-Graphs"><a href="#Bipartite-Graphs" class="headerlink" title="Bipartite Graphs"></a>Bipartite Graphs</h3><p>A simple graph $G$ is called bipartite if its vertex set $V$ can be partitioned into two disjoint set $V_1$ and $V_2$ such that every edge in the graph connects a vertex in $V_1$ and a vertex in $V_2$ , the pair $(V_1,V_2)$ is a bipartition of the vertex set $V$ of $G$ </p>
+<p>A simple graph is bipartite if and only if it is possible to assign one of two different colors to each vertex of the graph so that no two adjacent vertices are assigned the same color.</p>
+<p>A matching $M$ in a simple graph $G=(V,E)$ is a subset of the set $E$ of edges of the graph such that no two edges are incident with the same vertex.</p>
+<p>A matching $M$ in a bipartite graph $G=(V,E)$ with bipartition $(V_1,V_2)$ is a complete matching from $V_1$ to $V_2$ if every vertex in $V_1$ is the endpoint of an edge in the matching, equivalently $|M|=|V_1|$</p>
+<p>The bipartite graph $G=(V,E)$ with bipartition $(V_1,V_2)$ has complete matching from $V_1$ to $V_2$ if and only if $|N(A)|\geq|A|$ for all subsets $A$ of $V_1$</p>
+<p>A subgraph of a graph $G=(V,E)$ is a graph $H=(W,F)$ ,where $W\subseteq V$ and $F\subseteq E$<br>A subgraph $H$ of $G$ is a proper subgraph of $G$ if $H\neq G$</p>
+<p>Let $G=(V,E)$ be a simple graph, the subgraph induce by a subset $W$ of the vertex set $V$ is the graph $(W,F)$ , where the edges set $F$ contains an edge in $E$ if and only if both endpoints of this edge are in $W$ </p>
+]]></content>
+      <tags>
+        <tag>课程笔记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>常微分方程</title>
     <url>/2025/%E5%B8%B8%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="nth-order-Differential-Equation"><a href="#nth-order-Differential-Equation" class="headerlink" title="nth-order Differential Equation"></a>nth-order Differential Equation</h3><p>The most general form of an nth-order differential equation with independent $x$ and unknown function or dependent variable $y=y(x)$ is $F(x,y,y’,y’’,\cdots,y^{(n)})$<br>An nth-order differential equation ordinarily has an n-parameter family of solutions-one involving n different arbitrary constants or parameters.<br><span id="more"></span></p>
@@ -698,13 +848,95 @@ $$\begin{aligned}1,\quad\cos\frac{\pi x}{l},\quad\sin\frac{\pi x}{l},\quad\cos\f
   <entry>
     <title>大学物理甲I</title>
     <url>/2025/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E7%94%B2I/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Chapter-5-机械振动"><a href="#Chapter-5-机械振动" class="headerlink" title="Chapter-5 机械振动"></a>Chapter-5 机械振动</h2><h3 id="简谐振动方程"><a href="#简谐振动方程" class="headerlink" title="简谐振动方程"></a>简谐振动方程</h3><p>简谐振动的微分方程及其解的一般形式为（可以通过常微分方程知识求解）</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Chapter-1-质点运动学"><a href="#Chapter-1-质点运动学" class="headerlink" title="Chapter-1 质点运动学"></a>Chapter-1 质点运动学</h2><p>【注】与中学内容基本一致，略</p>
+<h2 id="Chapter-2-质点动力学"><a href="#Chapter-2-质点动力学" class="headerlink" title="Chapter-2 质点动力学"></a>Chapter-2 质点动力学</h2><h3 id="碰撞"><a href="#碰撞" class="headerlink" title="碰撞"></a>碰撞</h3><p>对于一般碰撞，恢复系数 $\begin{align}e=\frac{v_2’-v_1’}{v_1-v_2}\end{align}$ 与两球的质量和速度无关</p>
+<script type="math/tex; mode=display">
+\begin{align}
+v_1'=\frac{m_1v_1+m_2v_2}{m_1+m_2}-e\frac{m_2(v_1-v_2)}{m_1+m_2}\\
+v_2'=\frac{m_1v_1+m_2v_2}{m_1+m_2}-e\frac{m_1(v_2-v_1)}{m_1+m_2}
+\end{align}</script><span id="more"></span>
+<p>【注】其余与中学内容基本一致，略</p>
+<h2 id="Chapter-3-刚体力学与流体力学"><a href="#Chapter-3-刚体力学与流体力学" class="headerlink" title="Chapter-3 刚体力学与流体力学"></a>Chapter-3 刚体力学与流体力学</h2><h3 id="平动和转动"><a href="#平动和转动" class="headerlink" title="平动和转动"></a>平动和转动</h3><ul>
+<li>平动：刚体上任意两点的连线始终保持平行</li>
+<li>定轴转动：刚体中各个顶点都绕某一直线作圆周运动，转轴完全固定</li>
+<li>定点转定：刚体中各个顶点都绕某一直线作圆周运动，转轴一点固定<h3 id="定轴转动定律"><a href="#定轴转动定律" class="headerlink" title="定轴转动定律"></a>定轴转动定律</h3></li>
+</ul>
+<p>力的大小与力臂的乘积称为力对转轴的力矩，用符号 $M$ 来表示</p>
+<script type="math/tex; mode=display">
+M=Fd</script><p>如果力不在垂直于转轴的平面内，可将力分解为与转轴垂直、平行的分力</p>
+<p>刚体定轴转动时，角加速度 $\beta$ 与外力矩之和 $M$ ，与转动惯量 $J$ 成反比</p>
+<script type="math/tex; mode=display">
+M=J\beta</script><h3 id="转动惯量"><a href="#转动惯量" class="headerlink" title="转动惯量"></a>转动惯量</h3><p>刚体对转轴的转动惯量 $J$ 等于刚体上各质点的质量 $m_i$ 与各质点到转轴垂直距离二次方 $r_i^2$ 乘积之和 </p>
+<script type="math/tex; mode=display">
+J=\sum m_ir_i^2=\int r^2dm</script><p>细杆中心转动惯量：$\begin{align}\frac{1}{12}ml^2\end{align}$<br>细杆一端转动惯量：$\begin{align}\frac{1}{3}ml^2\end{align}$<br>圆柱体几何轴转动惯量：$\begin{align}\frac{1}{2}mR^2\end{align}$<br>球体沿直径转动惯量：$\begin{align}\frac{2}{5}mR^2\end{align}$</p>
+<p>若刚体对转轴的转动惯量为 $J$ ，则定义刚体对该轴的回转半径为 $R_G$ 为</p>
+<script type="math/tex; mode=display">
+R_G=\sqrt{\frac{J}{m}}</script><h3 id="平行轴定理"><a href="#平行轴定理" class="headerlink" title="平行轴定理"></a>平行轴定理</h3><p>刚体对任一转轴的转动惯量 $J$ 等于对通过质心的平行轴的转动惯量 $J_c$ 加上刚体质量 $m$ 与两平行轴间距离二次方 $h^2$ 的乘积，即</p>
+<script type="math/tex; mode=display">
+J=J_c+mh^2</script><h3 id="垂直轴定理"><a href="#垂直轴定理" class="headerlink" title="垂直轴定理"></a>垂直轴定理</h3><p>若刚体薄板在 $xy$ 平面内，对 $x$ 轴和 $y$ 轴的转动惯量分别为 $J_x,J_y$ ，则对 $J_z$ 有</p>
+<script type="math/tex; mode=display">
+J_z=J_x+J_y</script><h3 id="定轴转动动能"><a href="#定轴转动动能" class="headerlink" title="定轴转动动能"></a>定轴转动动能</h3><p>刚体绕定轴转动的动能等于刚体的转动惯量与角速度二次方乘积的一半</p>
+<script type="math/tex; mode=display">
+\begin{align}
+E_k&=\sum\frac{1}{2}m_iv_i^2=\sum\frac{1}{2}m_i(\omega r_i)^2\\
+&=\frac{1}{2}(\sum m_ir_i^2)\omega^2\\
+&=\frac{1}{2}J\omega^2
+\end{align}</script><h3 id="角动量定理"><a href="#角动量定理" class="headerlink" title="角动量定理"></a>角动量定理</h3><p>刚体对轴的角动量 $L$ 等于转动惯量 $J$ 与角速度 $\omega$ 的乘积</p>
+<script type="math/tex; mode=display">
+L=J\omega</script><p>刚体定轴转动时，对轴的外力矩之和等于对该轴的角动量随时间的变化率</p>
+<script type="math/tex; mode=display">
+M=\frac{dL}{dt}=\frac{d(J\omega)}{dt}</script><p>定轴转动的质点系外力矩之和对转轴的冲量矩等于质点系对该转轴角动量的增量</p>
+<h3 id="角动量守恒定律"><a href="#角动量守恒定律" class="headerlink" title="角动量守恒定律"></a>角动量守恒定律</h3><p>若定轴转动质点系所受对转轴的外力矩之和为零，则质点系对该转轴角动量守恒</p>
+<h3 id="刚体的平面运动"><a href="#刚体的平面运动" class="headerlink" title="刚体的平面运动"></a>刚体的平面运动</h3><p>刚体平面运动的平动速度、加速度与基点的选择有关，而转动角速度、角加速度与基点选择无关</p>
+<script type="math/tex; mode=display">
+E_k=\frac{1}{2}mv_c^2+\frac{1}{2}J_c\omega^2</script><h3 id="陀螺仪回转效应"><a href="#陀螺仪回转效应" class="headerlink" title="陀螺仪回转效应"></a>陀螺仪回转效应</h3><p>旋进的快慢用旋进角速度 $\Omega$ 描述，旋进角速度大小为</p>
+<script type="math/tex; mode=display">
+\Omega=\frac{M}{L\sin\varphi}=\frac{mgr}{J\omega}</script><h3 id="伯努利方程"><a href="#伯努利方程" class="headerlink" title="伯努利方程"></a>伯努利方程</h3><p>理想流体定常流动过程中，在管道的任一截面处，流体的压力能、动能和势能之和是一个常量，称为伯努利方程</p>
+<script type="math/tex; mode=display">
+\begin{align}
+&pV+\frac{1}{2}mv^2+mgh=常量\\
+&p+\frac{1}{2}\rho v^2+\rho gh=常量
+\end{align}</script><p>理想流体在平面管道内定常流动时，截面积小处流速较大，压强较小</p>
+<h2 id="Chapter-4-狭义相对论基础"><a href="#Chapter-4-狭义相对论基础" class="headerlink" title="Chapter-4 狭义相对论基础"></a>Chapter-4 狭义相对论基础</h2><h3 id="狭义相对论基本原理"><a href="#狭义相对论基本原理" class="headerlink" title="狭义相对论基本原理"></a>狭义相对论基本原理</h3><ul>
+<li>物理定律的表达形式在所有惯性系中都相同</li>
+<li>在所有惯性系中真空中的光速都相等<h3 id="洛伦兹变换"><a href="#洛伦兹变换" class="headerlink" title="洛伦兹变换"></a>洛伦兹变换</h3></li>
+</ul>
+<p>若惯性系 $K’$ 相对于 $K$ 系以速度 $u$ 沿 $x$ 轴的正方向作匀速直线运动，若事件在 $k$ 系中为 $(x,y,z,t)$ ，在 $k’$ 系中为 $(x’,y’,z’,t’)$ ，则有变换关系</p>
+<script type="math/tex; mode=display">
+\begin{aligned}
+&x'=\frac{x-ut}{\sqrt{1-u^2/c^2}}\\
+&y'=y\\
+&z'=z\\
+&t'=\frac{t-ux/c^2}{\sqrt{1-u^2/c^2}}
+\end{aligned}</script><h3 id="爱因斯坦速度变换"><a href="#爱因斯坦速度变换" class="headerlink" title="爱因斯坦速度变换"></a>爱因斯坦速度变换</h3><p>物体在 $K$ 系中的速度分量为 $(v_x,v_y,v_z)$ ，在 $K’$ 系中的速度分量为 $(v_x’,v_y’,v_z’)$ ，则</p>
+<script type="math/tex; mode=display">
+\begin{align}
+&v_x'=\frac{v_x-u}{1-uv_x/c^2}\\
+&v_y'=\frac{v_y\sqrt{1-u^2/c^2}}{1-uv_x/c^2}\\
+&v_z'=\frac{v_z\sqrt{1-u^2/c^2}}{1-uv_x/c^2}
+\end{align}</script><p>对洛伦兹变换两边求微分后求微商记得上式</p>
+<h3 id="长度收缩与时间膨胀"><a href="#长度收缩与时间膨胀" class="headerlink" title="长度收缩与时间膨胀"></a>长度收缩与时间膨胀</h3><p>在相对杆静止的惯性系中，杆的长度最大，等于杆的固有长度 $l_0$ ，在相对杆运动的惯性系中，杆沿运动方向的长度必小于固有长度，记相对运动速度为 $u$ ，有</p>
+<script type="math/tex; mode=display">
+l=l_0\sqrt{1-u^2/c^2}</script><p>在某惯性系中，两个事件发生在同一地点，则在这个惯性系中测得这两个事件的时间间隔最短，为固有时间 $\Delta t_0$ ，在其他惯性系中，这两个事件发生在不同地点，测得这两个事件的时间间隔大于固有时间，记相对运动速度为 $u$ ，有</p>
+<script type="math/tex; mode=display">
+\Delta t=\frac{\Delta t_0}{\sqrt{1-u^2/c^2}}</script><h3 id="质量与速度的关系"><a href="#质量与速度的关系" class="headerlink" title="质量与速度的关系"></a>质量与速度的关系</h3><p>物体的质量与自身的速度有关，质量与速度的关系为</p>
+<script type="math/tex; mode=display">
+m=\frac{m_0}{\sqrt{1-u^2/c^2}}</script><p>其中 $m_0$ 为静止质量，$m$ 为物体以速度 $v$ 运动时的质量</p>
+<h3 id="狭义相对论动力学方程"><a href="#狭义相对论动力学方程" class="headerlink" title="狭义相对论动力学方程"></a>狭义相对论动力学方程</h3><script type="math/tex; mode=display">
+\begin{align}
+p&=mv=\frac{m_0v}{\sqrt{1-v^2/c^2}}\\
+F&=\frac{dp}{dt}=\frac{d}{dt}(mv)=\frac{d}{dt}(\frac{m_0v}{\sqrt{1-v^2/c^2}})
+\end{align}</script><h3 id="相对论中的动能"><a href="#相对论中的动能" class="headerlink" title="相对论中的动能"></a>相对论中的动能</h3><p>物体的动能等于因运动而增加的质量 $\Delta m=m-m_0$ 与光速二次方的乘积</p>
+<script type="math/tex; mode=display">
+E_k=mc^2-m_0c^2=m_0c^2(\frac{1}{\sqrt{1-v^2/c^2}}-1)</script><h3 id="能动关系"><a href="#能动关系" class="headerlink" title="能动关系"></a>能动关系</h3><p>在狭义相对论中能量与动量的关系为</p>
+<script type="math/tex; mode=display">
+E^2=p^2c^2+m_0^2c^4=(mc^2)^2</script><h2 id="Chapter-5-机械振动"><a href="#Chapter-5-机械振动" class="headerlink" title="Chapter-5 机械振动"></a>Chapter-5 机械振动</h2><h3 id="简谐振动方程"><a href="#简谐振动方程" class="headerlink" title="简谐振动方程"></a>简谐振动方程</h3><p>简谐振动的微分方程及其解的一般形式为（可以通过常微分方程知识求解）</p>
 <script type="math/tex; mode=display">
 \frac{d^2x}{dt^2}+\omega^2x=0\quad\Rightarrow\quad x=A\cos(\omega t+\varphi)</script><p>已知简谐振动的初始状态 $x_0=A\cos\varphi,\quad v_0=-\omega A\sin\varphi$ 可以求得</p>
 <script type="math/tex; mode=display">
 A=\sqrt{x_0^2+(\frac{v_0}{\omega})^2},
 \quad
-\varphi=\arctan\frac{-v_0}{\omega x_0}</script><span id="more"></span>
+\varphi=\arctan\frac{-v_0}{\omega x_0}</script><!--more-->
 <h3 id="谐振动的能量"><a href="#谐振动的能量" class="headerlink" title="谐振动的能量"></a>谐振动的能量</h3><p>设物体的位移为 $x$ ，速度为 $v$ 时，系统的弹性势能与动能分别为</p>
 <script type="math/tex; mode=display">
 \begin{align}
