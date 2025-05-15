@@ -92,7 +92,7 @@
 <p>upper bound /lower bound /least upper bound /greatest lower bound</p>
 <p>A partially ordered set in which every pair of elements has both a least upper bound and a greatest lower bound is called a lattice</p>
 <p>Every finite nonempty poset $(S,\preceq)$ has at least one minimal element</p>
-<h2 id="Chapter-10-Graphs"><a href="#Chapter-10-Graphs" class="headerlink" title="Chapter-10 Graphs"></a>Chapter-10 Graphs</h2><div class="table-container">
+<h2 id="Chapter-10-Graphs"><a href="#Chapter-10-Graphs" class="headerlink" title="Chapter-10 Graphs"></a>Chapter-10 Graphs</h2><h3 id="Graphs-and-Graph-Models"><a href="#Graphs-and-Graph-Models" class="headerlink" title="Graphs and Graph Models"></a>Graphs and Graph Models</h3><div class="table-container">
 <table>
 <thead>
 <tr>
@@ -124,12 +124,57 @@
 </table>
 </div>
 <p>A graph $G=(V,E)$ consists of $V$ ,a nonempty set of vertices (or nodes) and $E$ ,a set of edges. Each edge has either $1$ or $2$ vertices associated with it , called its endpoints.</p>
-<ul>
-<li>A graph in which each edge connects two different vertices and where no two edges connect the same pair of vertices if called a simple graph.</li>
-<li>Graphs that may have multiple edges connecting the same vertices are called multigraphs.</li>
-<li>Graphs that may include loops, and possibly multiple edges connecting the same pair of vertices or a vertex to itself, are called pseudographs.</li>
-</ul>
 <p>A digraph $(V, E)$ consists of a nonempty set of vertices $V$ and a set of directed edges $E$. Each directed edge is associated with an ordered pair of vertices. The directed edge $(u, v)$ is said to start at $u$ and end at $v$.</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Edges</th>
+<th>Multiple Edges</th>
+<th>Loops</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Simple graph</td>
+<td>Undirected</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Multigraph</td>
+<td>Undirected</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Pseudograph</td>
+<td>Undirected</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Simple directed graph</td>
+<td>Directed</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Directed multigraph</td>
+<td>Directed</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Mixed graph</td>
+<td>Directed and undirected</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
 <p>The set of all neighbors of a vertex $v$ of $G=(V,E)$ , denoted by $N(v)$ , is called the neighborhood of $v$ . If $A$ is a subset of $V$ , we denote by $N(A)$ the set of all vertices in $G$ that are adjacent to at least one vertex in $A$ , $N(A)=\bigcup_{c\in A}N(v)$</p>
 <p>The degree of a vertex in an undirected graph is the number of edges incident with it, except that a loop at a vertex contributes twice to the degree of that vertex. The degree of the vertex v is denoted by $\deg(v)$</p>
 <p>Let $G=(V,E)$ be an undirected graph with $m$ edges, then</p>
@@ -145,7 +190,7 @@
 <p>The bipartite graph $G=(V,E)$ with bipartition $(V_1,V_2)$ has complete matching from $V_1$ to $V_2$ if and only if $|N(A)|\geq|A|$ for all subsets $A$ of $V_1$</p>
 <p>A subgraph of a graph $G=(V,E)$ is a graph $H=(W,F)$ ,where $W\subseteq V$ and $F\subseteq E$<br>A subgraph $H$ of $G$ is a proper subgraph of $G$ if $H\neq G$</p>
 <p>Let $G=(V,E)$ be a simple graph, the subgraph induce by a subset $W$ of the vertex set $V$ is the graph $(W,F)$ , where the edges set $F$ contains an edge in $E$ if and only if both endpoints of this edge are in $W$ </p>
-]]></content>
+<h3 id="Representing-Graphs"><a href="#Representing-Graphs" class="headerlink" title="Representing Graphs"></a>Representing Graphs</h3>]]></content>
       <tags>
         <tag>课程笔记</tag>
       </tags>
@@ -642,198 +687,170 @@ y=\rho\sin\varphi\sin\theta\\
 z=\rho\cos\varphi
 \end{cases}</script><script type="math/tex; mode=display">
 \iiint_Vf(x,y,z)dV=\iiint_Vf(\rho\sin\varphi\cos\theta,\rho\sin\varphi\sin\theta,\rho\cos\varphi)\rho^2\sin\varphi d\rho d\varphi d\theta</script><p>广义球坐标有 $dV=abc\rho^2\sin\varphi d\rho d\varphi d\theta$ </p>
-<h3 id="三重积分的一般曲面坐标变换"><a href="#三重积分的一般曲面坐标变换" class="headerlink" title="三重积分的一般曲面坐标变换"></a>三重积分的一般曲面坐标变换</h3><p>求 $\begin{align}\iiint_Vf(x,y,z)dV\end{align}$ ，其中 $f(x,y,z)$ 连续，设变换 $$<br>x=x(u,v,w),y=y(u,v,w),z=z(u,v,w)</p>
-<script type="math/tex; mode=display">均具有连续的偏导数，且有</script><p>|J|=<br>\begin{vmatrix}<br>\begin{align}<br>\frac{\partial(x,y,z)}{\partial(u,v,w)}<br>\end{align}<br>\end{vmatrix}<br>\neq 0</p>
+<h3 id="三重积分的一般曲面坐标变换"><a href="#三重积分的一般曲面坐标变换" class="headerlink" title="三重积分的一般曲面坐标变换"></a>三重积分的一般曲面坐标变换</h3><p>求 $\begin{align}\iiint_Vf(x,y,z)dV\end{align}$ ，其中 $f(x,y,z)$ 连续，设变换：</p>
 <script type="math/tex; mode=display">
-则对应该一般的曲面坐标变换，有</script><p>\iiint_Vf(x,y,z)dV=<br>\iiint_Vf(x(u,v,w),y(u,v,w),z(u,v,w))<br>\begin{vmatrix}<br>\begin{align}<br>\frac{\partial(x,y,z)}{\partial(u,v,w)}<br>\end{align}<br>\end{vmatrix}<br>dudvdw</p>
+\begin{cases}
+x=x(u,v,w)\\
+y=y(u,v,w)\\
+z=z(u,v,w)
+\end{cases}</script><p>均具有连续的偏导数，且有：</p>
 <script type="math/tex; mode=display">
-### 第一类曲线积分
-
-设函数 $f(P)$ 是定义 $A,B$ 为端点的光滑曲线 $\Gamma$ 上的有界函数，在 $\Gamma$ 上任取点</script><p>A=M_0,M_1,M_2,\cdots,M_n=B</p>
+|J|=
+\begin{vmatrix}
+\begin{align}
+\frac{\partial(x,y,z)}{\partial(u,v,w)}
+\end{align}
+\end{vmatrix}
+\neq 0</script><p>则对应该一般的曲面坐标变换，有：</p>
 <script type="math/tex; mode=display">
-将曲线分成 $n$ 个部分，记弧 $\overparen{M_{i-1}M_i}$ 的长度为 $\Delta s_i$ ，并取点 $P_i(\xi_i,\eta_i,\zeta_i)$</script><p>\sum_{i=1}^nf(P_i)\Delta s_i</p>
+\iiint_Vf(x,y,z)dV=
+\iiint_Vf(x(u,v,w),y(u,v,w),z(u,v,w))
+\begin{vmatrix}\begin{align}
+\frac{\partial(x,y,z)}{\partial(u,v,w)}
+\end{align}\end{vmatrix}
+dudvdw</script><h3 id="第一类曲线积分"><a href="#第一类曲线积分" class="headerlink" title="第一类曲线积分"></a>第一类曲线积分</h3><p>设函数 $f(P)$ 是定义 $A,B$ 为端点的光滑曲线 $\Gamma$ 上的有界函数，在 $\Gamma$ 上任取点</p>
 <script type="math/tex; mode=display">
-记 $\lambda=\max\{\Delta s_i:1\leq i\leq n\}$ 当 $\lambda\rightarrow0$ 时，此极限的值与曲线分法和取点无关，则称此极限值为函数 $f(P)$ 沿曲线 $\Gamma$ 的第一类积分曲线</script><p>\int_\Gamma f(P)ds=\lim_{\lambda\rightarrow 0}\sum_{i=1}^nf(P_i)\Delta s_i</p>
+A=M_0,M_1,M_2,\cdots,M_n=B</script><p>将曲线分成 $n$ 个部分，记弧 $\overparen{M_{i-1}M_i}$ 的长度为 $\Delta s_i$ ，并取点 $P_i(\xi_i,\eta_i,\zeta_i)$ </p>
 <script type="math/tex; mode=display">
-</script><p>\int_{\Gamma}f(x,y,z)ds=\int_\alpha^\beta f(x(t),y(t),z(t))<br>\sqrt{x’^2(t)+y’^2(t)+z’^2(t)}dt</p>
+\sum_{i=1}^nf(P_i)\Delta s_i</script><p>记 $\lambda=\max\{\Delta s_i:1\leq i\leq n\}$ 当 $\lambda\rightarrow0$ 时，此极限的值与曲线分法和取点无关，则称此极限值为函数 $f(P)$ 沿曲线 $\Gamma$ 的第一类积分曲线</p>
 <script type="math/tex; mode=display">
-</script><p>\begin{align}<br>\int_\Gamma f(x,y)ds<br>&amp;=\int_\alpha^\beta f(x(t),y(t))\sqrt{x’^2(t)+y’^2(t)}dt\\<br>&amp;=\int_a^bf(x,\varphi(x))\sqrt{1+\varphi’^2(x)}dx\\<br>&amp;=\int_c^df(\phi(y),y)\sqrt{1+\phi’^2(y)}dy\\<br>&amp;=\int_\alpha^\beta f(r\cos\theta,r\sin\theta)\sqrt{r^2(\theta)+r’^2(\theta)}d\theta<br>\end{align}</p>
+\int_\Gamma f(P)ds=\lim_{\lambda\rightarrow 0}\sum_{i=1}^nf(P_i)\Delta s_i</script><script type="math/tex; mode=display">
+\int_{\Gamma}f(x,y,z)ds=\int_\alpha^\beta f(x(t),y(t),z(t))
+\sqrt{x'^2(t)+y'^2(t)+z'^2(t)}dt</script><script type="math/tex; mode=display">
+\begin{align}
+\int_\Gamma f(x,y)ds
+&=\int_\alpha^\beta f(x(t),y(t))\sqrt{x'^2(t)+y'^2(t)}dt\\
+&=\int_a^bf(x,\varphi(x))\sqrt{1+\varphi'^2(x)}dx\\
+&=\int_c^df(\phi(y),y)\sqrt{1+\phi'^2(y)}dy\\
+&=\int_\alpha^\beta f(r\cos\theta,r\sin\theta)\sqrt{r^2(\theta)+r'^2(\theta)}d\theta
+\end{align}</script><h3 id="第一类曲面积分"><a href="#第一类曲面积分" class="headerlink" title="第一类曲面积分"></a>第一类曲面积分</h3><p>设 $f(P)=f(x,y,z)$ 是定义在有界光滑曲面 $S$ 上的有界函数，用曲线网将 $S$ 任意分成 $n$ 部分 $\Delta S_1,\Delta S_2,\cdots,\Delta S_n$ ，仍用其表示面积，在 $\Delta S_i$ 上取点 $P_i(\xi_i,\eta_i,\zeta_i)$ </p>
 <script type="math/tex; mode=display">
-### 第一类曲面积分
-
-设 $f(P)=f(x,y,z)$ 是定义在有界光滑曲面 $S$ 上的有界函数，用曲线网将 $S$ 任意分成 $n$ 部分 $\Delta S_1,\Delta S_2,\cdots,\Delta S_n$ ，仍用其表示面积，在 $\Delta S_i$ 上取点 $P_i(\xi_i,\eta_i,\zeta_i)$</script><p>\sum_{i=1}^nf(P_i)\Delta S_i</p>
+\sum_{i=1}^nf(P_i)\Delta S_i</script><p>以 $\lambda$ 表示 $\Delta S_i$ 直径中的最大者，当 $\lambda\rightarrow 0$ 时，若和式极限存在，且此极限值与曲面的分法以及 $P_i$ 的取法无关，则称其为函数 $f(P)$ 沿曲面 $S$ 的第一类曲面积分</p>
 <script type="math/tex; mode=display">
-以 $\lambda$ 表示 $\Delta S_i$ 直径中的最大者，当 $\lambda\rightarrow 0$ 时，若和式极限存在，且此极限值与曲面的分法以及 $P_i$ 的取法无关，则称其为函数 $f(P)$ 沿曲面 $S$ 的第一类曲面积分</script><p>\iint_Sf(P)dS=\lim_{\lambda\rightarrow0}\sum_{i=1}^nf(P_i)\Delta S_i</p>
+\iint_Sf(P)dS=\lim_{\lambda\rightarrow0}\sum_{i=1}^nf(P_i)\Delta S_i</script><script type="math/tex; mode=display">
+\begin{align}
+\iint_Sf(x,y,z)dS=\iint_{\sigma_{yz}}f(x(y,z),y,z)
+\sqrt{1+(\frac{\partial x}{\partial y})^2+
+(\frac{\partial x}{\partial z})^2}d\sigma\\
+
+\iint_Sf(x,y,z)dS=\iint_{\sigma_{zx}}f(x,y(x,z),z)
+\sqrt{1+(\frac{\partial y}{\partial x})^2+
+(\frac{\partial y}{\partial z})^2}d\sigma\\
+
+\iint_Sf(x,y,z)dS=\iint_{\sigma_{xy}}f(x,y,z(x,y))
+\sqrt{1+(\frac{\partial z}{\partial x})^2+
+(\frac{\partial z}{\partial y})^2}d\sigma
+\end{align}</script><p>若曲面 $S$ 由方程 $F(x,y,z)=0$ 给出，且确定隐函数 $z=z(x,y),(x,y)\in\sigma_{xy}$ ，并且有 $\begin{align}\frac{\partial z}{\partial x}=-\frac{F_x’}{F_z’},\frac{\partial z}{\partial y}=-\frac{F_y’}{F_z’}\end{align}$ 连续，则有</p>
 <script type="math/tex; mode=display">
-</script><p>\begin{align}<br>\iint_Sf(x,y,z)dS=\iint_{\sigma_{yz}}f(x(y,z),y,z)<br>\sqrt{1+(\frac{\partial x}{\partial y})^2+<br>(\frac{\partial x}{\partial z})^2}d\sigma\\</p>
-<p>\iint_Sf(x,y,z)dS=\iint_{\sigma_{zx}}f(x,y(x,z),z)<br>\sqrt{1+(\frac{\partial y}{\partial x})^2+<br>(\frac{\partial y}{\partial z})^2}d\sigma\\</p>
-<p>\iint_Sf(x,y,z)dS=\iint_{\sigma_{xy}}f(x,y,z(x,y))<br>\sqrt{1+(\frac{\partial z}{\partial x})^2+<br>(\frac{\partial z}{\partial y})^2}d\sigma<br>\end{align}</p>
-<script type="math/tex; mode=display">
-若曲面 $S$ 由方程 $F(x,y,z)=0$ 给出，且确定隐函数 $z=z(x,y),(x,y)\in\sigma_{xy}$ ，并且有 $\begin{align}\frac{\partial z}{\partial x}=-\frac{F_x'}{F_z'},\frac{\partial z}{\partial y}=-\frac{F_y'}{F_z'}\end{align}$ 连续，则有</script><p>\iint_sf(x,y,z)dS=\iint_{\sigma_{xy}}f(x,y,z(x,y))\frac{\sqrt{F_x’^2+F_y’^2+F_z’^2}}{|F_z’|}d\sigma</p>
-<script type="math/tex; mode=display">
-
-
-## Chapter-11 级数
-
-### 数项级数的定义
-设 $u_1,u_2,\cdots,u_n,\cdots$ 是给定的数列，称  $\begin{aligned}\sum_{n=1}^\infty u_n=u_1+u_2+\cdots+u_n+\cdots\end{aligned}$ 为数项级数，称 $\begin{aligned}S_n=\sum_{i=1}^nu_i\end{aligned}$ 为部分和，则有 $\begin{aligned}\sum_{n=1}^\infty u_n=\lim_{n\rightarrow\infty}S_n\end{aligned}$
-### 几何级数的敛散性
-几何级数 $\begin{aligned}a+aq+aq^2+\cdots+aq^{n-1}+\cdots=\sum_{n=1}^{\infty}aq^{n-1}\quad(a\neq0)\end{aligned}$ 的敛散性满足：
-* 当 $|q|<1$ 时，几何级数收敛，且 $\begin{aligned}\sum_{n=1}^{\infty}aq^{n-1}=\frac{a}{1-q}\end{aligned}$
-* 当 $|q|\geq1$ 时，几何级数发散，即 $\begin{aligned}\sum_{n=1}^{\infty}aq^{n-1}\mathrm{DNE}\end{aligned}$
-### $p$ 级数的敛散性
-
-$p$ 级数 $\begin{aligned}1+\frac{1}{2^p}+\frac{1}{3^p}+\cdots+\frac{1}{n^p}+\cdots=\sum_{n=1}^{\infty}\frac{1}{n^p}\end{aligned}$  的敛散性满足：
-* 当 $p>1$ 时，级数  $\begin{aligned}\sum_{n=1}^{\infty}\frac{1}{n^p}\end{aligned}$ 收敛
-* 当 $p\leq1$ 时，级数  $\begin{aligned}\sum_{n=1}^{\infty}\frac{1}{n^p}\end{aligned}$ 发散
-### 数项级数的基本性质
-**性质 1** 
-若级数 $\begin{aligned}\sum_{n=1}^{\infty}u_n,\sum_{n=1}^{\infty}v_n\end{aligned}$ 均收敛，且 $\begin{aligned}\sum_{n=1}^{\infty}u_n=A,\sum_{n=1}^{\infty}v_n=B\end{aligned}$ ，则对任何常数 $\alpha,\beta$ ，$\begin{aligned}\sum_{n=1}^\infty(\alpha u_n+\beta v_n)\end{aligned}$ 收敛，且有 $\begin{aligned}\sum_{n=1}^\infty(\alpha u_n+\beta v_n)=\alpha\sum_{n=1}^\infty u_n+\beta\sum_{n=1}^\infty v_n=\alpha A+\beta B\end{aligned}$
-
-**性质 2**
-改变级数的有限项，或去掉前面有限项，或在级数前面加上有限项，都不影响级数的敛散性
-
-**性质 3** 
-若级数 $\begin{aligned}\sum_{n=1}^\infty u_n\end{aligned}$ 收敛，则在级数中任意添加括号得到的新级数也收敛，且其和不变
-
-**性质 4** 
-若级数 $\begin{aligned}\sum_{n=1}^\infty u_n\end{aligned}$ 收敛，则 $\begin{aligned}\lim_{n\rightarrow\infty}u_n=0\end{aligned}$，逆命题不一定成立
-
-**性质 5** 
-若 $\begin{aligned}\lim_{n\rightarrow\infty}u_n\mathrm{DNE}\end{aligned}$  或 $\begin{aligned}\lim_{n\rightarrow\infty}u_n=A\neq0\end{aligned}$ 则级数 $\begin{aligned}\sum_{n=1}^\infty u_n\end{aligned}$ 发散
-
-**性质 6** 
-柯西收敛准则：级数 $\begin{aligned}\sum_{n=1}^\infty u_n\end{aligned}$ 收敛的充要条件是 $\forall \varepsilon>0 \exists$ 正整数 $N$ ，当 $n>N$ 时，对一切正整数 $p$ ，都有 $|u_{n+1}+u_{n+2}+\cdots+u_{n+p}|<\varepsilon$ 
-### 正项级数的收敛性
-正项级数 $\begin{aligned}\sum_{n=1}^\infty u_n\end{aligned}$ 收敛的充要条件是：正项级数的部分和数列 $\{S_n\}$ 有上界
-### 正项级数的比较判别法
-设 $\begin{aligned}\sum_{n=1}^\infty u_n,\sum_{n=1}^\infty v_n\end{aligned}$ 均为正项级数，且 $u_n\leq v_n(n=1,2,3,\cdots)$
-* 若 $\begin{aligned}\sum_{n=1}^\infty v_n\end{aligned}$ 收敛，则 $\begin{aligned}\sum_{n=1}^\infty u_n\end{aligned}$ 收敛
-* 若 $\begin{aligned}\sum_{n=1}^\infty u_n\end{aligned}$ 发散，则 $\begin{aligned}\sum_{n=1}^\infty v_n\end{aligned}$ 发散
-定理条件可弱化为 $u_n\leq Cv_n(C>0)(n=k,k+1,\cdots)$
-
-### 比较判别法的极限形式
-设 $\begin{aligned}\sum_{n=1}^\infty u_n,\sum_{n=1}^\infty v_n\end{aligned}$ 均为正项级数，且 $\begin{aligned}\lim_{n\rightarrow\infty}\frac{u_n}{v_n}=l\end{aligned}$
-* 当 $0<l<+\infty$ 时，两个级数同敛散性
-* 当 $l=0$ 时，若 $\begin{aligned}\sum_{n=1}^\infty v_n\end{aligned}$ 收敛，则 $\begin{aligned}\sum_{n=1}^\infty u_n\end{aligned}$ 收敛
-* 当 $l=+\infty$ 时，若 $\begin{aligned}\sum_{n=1}^\infty v_n\end{aligned}$ 发散，则 $\begin{aligned}\sum_{n=1}^\infty u_n\end{aligned}$ 发散
-### 比值判别法
-设 $\begin{aligned}\sum_{n=1}^\infty u_n\end{aligned}$ 是正项级数，并且 $\begin{aligned}\lim_{n\rightarrow\infty}\frac{u_{n+1}}{u_n}=\gamma\quad(或 +\infty)\end{aligned}$
-* 当 $\gamma<1$ 时，级数收敛
-* 当 $\gamma>1(或 \gamma=+\infty)$ 时，级数发散
-* 当 $\gamma=1$ 时，本判别法失效
-本判别法适合 $u_{n+1}$ 与 $u_n$ 有公因式且 $\begin{aligned}\lim_{n\rightarrow\infty}\frac{u_{n+1}}{u_n}\end{aligned}$ 存在或等于 $\infty$ 的情形
-### 根值判别法
-设 $\begin{aligned}\sum_{n=1}^\infty u_n\end{aligned}$ 是正项级数，且 $\begin{aligned}\lim_{n\rightarrow\infty}\sqrt[n]{u_n}=\gamma\quad(或+\infty)\end{aligned}$ 
-* 当 $\gamma<1$ 时，级数收敛
-* 当 $\gamma>1(或 \gamma=+\infty)$ 时，级数发散
-* 当 $\gamma=1$ 时，本判别法失效
-本判别法适合 $u_n$ 中含有表达式的 $n$ 次方，且 $\begin{aligned}\lim_{n\rightarrow\infty}\sqrt[n]{u_n}\end{aligned}$  存在或等于 $\infty$ 的情形
-
-### 积分判别法
-设 $f(x)$ 在 $[1,+\infty)$ 上是非负且递减的连续函数，记 $u_n=f(n),n=1,2,3,\cdots$ ,则级数 $\begin{aligned}\sum_{n=1}^\infty u_n\end{aligned}$ 与反常积分 $\begin{aligned}\int_1^{+\infty}f(x)\mathrm{d}x\end{aligned}$ 的敛散性相同
-
-### 莱布尼茨定理
-若交错级数 $\begin{aligned}\sum_{n=1}^\infty(-1)^{n-1}u_n\end{aligned}$ 满足条件 $u_1\geq u_2\geq u_3\geq\cdots$ 且 $\begin{aligned}\lim_{n\rightarrow\infty}u_n=0\end{aligned}$ 
-则 $\begin{aligned}\sum_{n=1}^\infty(-1)^{n-1}u_n\end{aligned}$ 收敛，并且它的和 $S\leq u_1$
-若交错级数满足莱布尼茨定理的条件，则以 $S_n$ 作为级数和近似值时，误差 $R_n$ 不超过 $u_{n+1}$ 
-
-### 绝对收敛级数与条件收敛级数
-如果 $\begin{aligned}\sum_{n=1}^\infty|u_n|\end{aligned}$ 收敛，则 $\begin{aligned}\sum_{n=1}^\infty u_n \end{aligned}$ 也收敛
-设 $\begin{aligned}\sum_{n=1}^\infty u_n\end{aligned}$ 为一般级数，则
-* 如果 $\begin{aligned}\sum_{n=1}^\infty|u_n|\end{aligned}$ 收敛，则称 $\begin{aligned}\sum_{n=1}^\infty u_n\end{aligned}$ 绝对收敛
-* 如果 $\begin{aligned}\sum_{n=1}^\infty|u_n|\end{aligned}$ 发散，但 $\begin{aligned}\sum_{n=1}^\infty u_n\end{aligned}$ 收敛，则称 $\begin{aligned}\sum_{n=1}^\infty u_n\end{aligned}$ 条件收敛
-如果是用比值判别法或根值判别法判定 $\begin{aligned}\sum_{n=1}^\infty|u_n|\end{aligned}$ 发散，则 $\begin{aligned}\sum_{n=1}^\infty u_n\end{aligned}$ 发散
-### 绝对值的比值判别法
-设 $\begin{aligned}\sum_{n=1}^\infty u_n\end{aligned}$ 为一般级数，若 $\begin{aligned}\lim_{n\rightarrow}|\frac{u_{n+1}}{u_n}|=\gamma\quad(或+\infty)\end{aligned}$ 
-* 当 $\gamma<1$ 时，级数绝对收敛
-* 当 $\gamma>1(或\gamma=+\infty)$ 时，级数发散
-* 当 $\gamma=1$ 时，本判别方法失效
-
-### 绝对值的根值判别法
-设 $\begin{aligned}\sum_{n=1}^\infty u_n \end{aligned}$ 为一般级数，若 $\begin{aligned}\lim_{n\rightarrow\infty}\sqrt[n]{|u_n|}=\gamma\quad(或\infty)\end{aligned}$ 
-* 当 $\gamma<1$ 时，级数绝对收敛
-* 当 $\gamma>1(或\gamma=+\infty)$ 时，级数发散
-* 当 $\gamma=1$ 时，本判别方法失效
-
-### 函数项级数
-设 $\{u_n(x)\}$ 是定义在数集 $E$ 的一个函数列，表达式 $u_1(x)+u_2(x)+\cdots+u_n(x)+\cdots,x\in E$
-称为定义在 $E$ 上的函数项级数，记为 $\begin{aligned}\sum_{n=1}^\infty u_n(x)\end{aligned}$
-$\begin{aligned}S_n(x)=u_1(x)+u_2(x)+\cdots+u_n(x)=\sum_{k=1}^n u_k(x),x\in E,n=1,2,\cdots\end{aligned}$ 称为部分和函数列
-* 若即 $\begin{aligned}\lim_{n\rightarrow\infty}S_n(x_0)\end{aligned}$ 存在，则称函数项级数在点 $x_0$ 收敛，$x_0$ 称为函数项级数的收敛点
-* 若 $\begin{aligned}\lim_{n\rightarrow\infty}S_n(x_0)\end{aligned}$ 不存在，则称函数项级数在点 $x_0$ 发散
-函数项级数全体收敛点的集合称为函数项级数的收敛域，记为 $D$
-函数项级数在 $D$ 上的每一点 $x$，$\begin{aligned}\lim_{n\rightarrow\infty}S_n(x)\end{aligned}$ 存在，记为 $S(x)$ ，称为函数项级数的和函数
-称 $R_n(x)=S(x)-S_n(x)=u_{n+1}(x)+u_{n+2}(x)+\cdots$ 为函数项级数的余项 $\begin{aligned}\lim_{n\rightarrow\infty}R_n(x)=0\end{aligned}$
-
-### 幂级数
-$\begin{aligned}\sum_{n=0}^\infty a_n(x-x_0)^n\end{aligned}$ 为关于 $x-x_0$ 的幂级数，$\begin{aligned}\sum_{n=0}^\infty a_nx^n\end{aligned}$ 为关于 $x$ 的幂级数
-
-### 阿贝尔定理
-* 如果 $\begin{aligned}\sum_{n=0}^\infty a_nx^n\end{aligned}$ 当 $x=x_0(x_0\neq0)$ 时收敛，则 $|x|<|x_0|$ 的一切 $x$ 使该幂级数绝对收敛
-* 如果 $\begin{aligned}\sum_{n=0}^\infty a_nx^n\end{aligned}$ 当 $x=x_0$ 时发散，则 $|x|>|x_0|$ 的一切 $x$ 使该幂级数发散
-幂级数的收敛域是以原点为中心的区间，若以 $2R$ 表示区间长度，$R$ 为收敛半径
-
-### 柯西-阿达马公式
-若幂级数 $\begin{aligned}\sum_{n=0}^\infty a_nx^n\end{aligned}$ ,若 $\begin{aligned}\lim_{n\rightarrow\infty}\frac{|a_n|}{|a_{n+1}|}=R\end{aligned}$ （$\begin{aligned}\lim_{n\rightarrow\infty}\frac{1}{\sqrt[n]{|a_n|}}=R\end{aligned}$）
-* 当 $0<R<+\infty$ 时，级数$\begin{aligned}\sum_{n=0}^\infty a_nx^n\end{aligned}$ 在 $(-R,+R)$ 绝对收敛，$|x|>R$ 发散
-* 当 $R=0$ 时，级数$\begin{aligned}\sum_{n=0}^\infty a_nx^n\end{aligned}$ 仅在 $x=0$ 处收敛，$x\neq0$ 时发散
-* 当 $R=+\infty$ 时，级数$\begin{aligned}\sum_{n=0}^\infty a_nx^n\end{aligned}$ 在 $(-\infty,+\infty)$ 内绝对收敛
-在 $x=\pm R$ 时，幂级数可能发散也可能收敛，需要具体验证
-称 $R$ 为幂级数的收敛半径， $(-R,R)$ 为幂级的收敛区间
-对于求不是标准形式幂级数的收敛半径，可以直接利用绝对值的比值判别法或作变量替换
-
-### 幂级数的性质
-若幂级数 $\begin{aligned}\sum_{n=0}^\infty a_nx^n\end{aligned}$ 的收敛半径为 $R(>0)$ ，则有：
-* 级数在收敛域上的和函数 $S(x)$ 是连续函数，$S(x)$ 在 $(-R,R)$ 内也连续
-* 幂级数在 $(-R,R)$ 内逐项可微，微分后所得到的幂级数与原级数有相同的收敛半径
-* 幂级数在 $(-R,R)$ 内逐项可积，积分后所得到的幂级数与原级数有相同的收敛半径
-
-即设 $S(x)=a_0+a_1x+a_2x^2+\cdots+a_nx^n+\cdots,|x|<R$ ，则
-* $S(x)$ 在 $|x|<R$ 上连续
-* $\begin{aligned}S'(x)&=\frac{\mathrm{d}}{\mathrm{d}x}(a_0+a_1x+a_2x^2+\cdots+a_nx^n+\cdots)\\&=a_1+2a_2x+\cdots+na_nx^{n-1}+\cdots,\quad|x|<R\end{aligned}$
-* $\begin{aligned}\int_0^xS(x)\mathrm{d}x&=\int_0^x(a_0+a_1x+\cdots+a_nx^n+\cdots)\mathrm{d}x\\&=a_0x+\frac{a_1}{2}x^2+\cdots+\frac{a_n}{n+1}x^{n+1}+\cdots,\quad|x|<R\end{aligned}$
-
-设 $S(x)$ 为幂级数在收敛区间 $(-R,R)$ 内的和函数，则在 $(-R,R)$ 内 $S(x)$ 具有$任何阶导数且可逐项求导，收敛半径仍为 $R$
-
-**唯一性定理**：设 $S(x)$ 为幂级数在某邻域内的和函数，则幂级数的系数在 $x=0$ 处的各阶导数具有关系：$\begin{aligned}a_0=S(0),\quad a_n=\frac{S^{(n)}(0)}{n!},\quad n=1,2,\cdots\end{aligned}$
-
-* 若幂级数 $\begin{aligned}\sum_{n=0}^\infty a_nx^n\end{aligned}$ 在收敛区间的端点 $x=R$ 处收敛，则 $S(x)=\begin{aligned}\sum_{n=0}^\infty a_nx^n\end{aligned}$ 在 $x=R$ 处左连续，即 $\begin{aligned}\lim_{x\rightarrow R^-}\sum_{n=0}^\infty a_nx^n\end{aligned}=\begin{aligned}\sum_{n=0}^\infty a_nR^n\end{aligned}$ 或 $\begin{aligned}\lim_{x\rightarrow R^-}S(x)=S(R)\end{aligned}$
-* 若幂级数 $\begin{aligned}\sum_{n=0}^\infty a_nx^n\end{aligned}$ 在收敛区间的端点 $x=-R$ 处收敛，则 $S(x)=\begin{aligned}\sum_{n=0}^\infty a_nx^n\end{aligned}$ 在 $x=-R$ 处右连续，即 $\begin{aligned}\lim_{x\rightarrow -R^+}\sum_{n=0}^\infty a_nx^n\end{aligned}=\begin{aligned}\sum_{n=0}^\infty a_n(-R)^n\end{aligned}$ 或 $\begin{aligned}\lim_{x\rightarrow -R^+}S(x)=S(-R)\end{aligned}$
-### 幂级数的运算
-若级数 $\begin{aligned}\sum_{n=0}^\infty a_nx^n\end{aligned}$ 与 $\begin{aligned}\sum_{n=0}^\infty b_nx^n\end{aligned}$ 在 $x=0$ 的某邻域相等，则它们的同次幂项的系数相等
-设 $\begin{aligned}\sum_{n=0}^\infty a_nx^n\end{aligned}$ 和 $\begin{aligned}\sum_{n=0}^\infty b_nx^n\end{aligned}$ 的收敛半径分别为 $R_a$ 和 $R_b$ ，则有
-* $\begin{aligned}\lambda\sum_{n=0}^\infty a_nx^n=\sum_{n=0}^\infty \lambda a_nx^n,\quad|x|<R_a\end{aligned}$
-* $\begin{aligned}\sum_{n=0}^\infty a_nx^n\pm\sum_{n=0}^\infty b_nx^n=\sum_{n=0}^\infty (a_n\pm b_n)x^n,\quad|x|<R\end{aligned}$
-* $\begin{aligned}(\sum_{n=0}^\infty a_nx^n)(\sum_{n=0}^\infty b_nx^n)=\sum_{n=0}^\infty c_nx^n,\quad|x|<R\end{aligned}$
-* $\begin{aligned}\frac{\sum_{n=0}^\infty a_nx^n}{\sum_{n=0}^\infty b_nx^n}=\sum_{n=0}^\infty c_nx^n\Rightarrow(\sum_{n=0}^\infty b_nx^n)(\sum_{n=0}^\infty c_nx^n)=\sum_{n=0}^\infty a_nx^n\end{aligned}$
-其中 $\lambda$ 为常数，$\begin{aligned}R=\min\{R_a,R_b\},\quad c_n=\sum_{k=0}^na_kb_{n-k}\end{aligned}$
-
-### 求幂级数的和函数常用方法
-* 利用幂级数的线性运算法则
-* 利用变量代换
-* 通过逐项求导，再利用 $\begin{aligned}S(x)=S(0)+\int_0^xS'(x)\mathrm{d}x\end{aligned}$
-* 通过逐项积分，再利用 $S(x)=\begin{pmatrix}\begin{aligned}\int_0^xS(x)\mathrm{d}x\end{aligned}\end{pmatrix}'$ 
-
-### 函数展成幂级数
-当 $f(x)$ 在区间 $|x-x_0|<R$ 内存在任意阶的导数，幂级数 $\begin{aligned}\sum_{n=0}^\infty\frac{f^{(n)}(x_0)}{n!}(x-x_0)^n\end{aligned}$ 的收敛条件为 $|x-x_0|<R$ ，则在 $|x-x_0|<R$ 内 $f(x)=\begin{aligned}\sum_{n=0}^\infty\frac{f^{(n)}(x_0)}{n!}(x-x_0)^n\end{aligned}$ 成立的充要条件是：在该区间内 $\begin{aligned}\lim_{n\rightarrow\infty}R_n(x)=\lim_{n\rightarrow\infty}\frac{f^{(n+1)}(\xi)}{(n+1)!}(x-x_0)^{n+1}=0\end{aligned}$
-$\begin{aligned}f(0)+\frac{f'(0)}{1!}+\frac{f''(0)}{2!}+\cdots+\frac{f^{(n)}(0)}{n!}x^n+\cdots=\sum_{n=0}^{\infty}\frac{f^{(n)}(0)}{n!}x^n\end{aligned}$ 称为 $f(x)$ 的麦克劳林级数
-* $\begin{aligned}\frac{1}{1-x}=\sum_{n=0}^\infty x^n,\quad|x|<1\end{aligned}$
-* $\begin{aligned}\frac{1}{1+x}=\sum_{n=0}^\infty(-1)^nx^n,\quad|x|<1\end{aligned}$
-* $f^{(n)}(x_0)=n!a_n,\quad n=0,1,2,\cdots$ 
-
-### 欧拉公式
-当 $x$ 为实数时，有 $\begin{aligned}e^x=\sum_{n=0}^\infty\frac{x^n}{n!}\end{aligned}$ ,推广到虚数，有
-$\begin{aligned}e^{\mathrm{i}x}&=\sum_{n=0}^\infty\frac{(\mathrm{i}x)^n}{n!}=1+\mathrm{i}x+\frac{(\mathrm{i}x)^2}{2!}+\frac{(\mathrm{i}x)^3}{3!}+\frac{(\mathrm{i}x)^4}{4!}+\cdots\\&=(1-\frac{x^2}{2!}+\frac{x^4}{4!}-\cdots)+\mathrm{i}(x-\frac{x^3}{3!}+\frac{x^5}{5!}-\cdots)\end{aligned}$
-* $\mathrm{e}^{\mathrm{i}x}=\cos x+\mathrm{i}\sin x$
-* $\mathrm{e}^{-\mathrm{i}x}=\cos x-\mathrm{i}\sin x$
-* $\begin{aligned}\sin x=\frac{1}{2\mathrm{i}}(\mathrm{e}^{\mathrm{i}x}-\mathrm{e}^{-\mathrm{i}x})\end{aligned}$
-* $\begin{aligned}\cos x=\frac{1}{2}(\mathrm{e}^{\mathrm{i}x}+\mathrm{e}^{-\mathrm{i}x})\end{aligned}$
-
-### 函数的傅里叶展开
-周期 $T=2l$ 的函数 $f(x)$ 可以表示成 $\begin{aligned}\frac{a_0}{2}+\sum_{n=1}^\infty(a_n\cos\frac{n\pi x}{l}+b_n\sin\frac{n\pi x}{l})\end{aligned}$
-在标准区间 $[-l,l]$ 上的三角解函数系：
-$$\begin{aligned}1,\quad\cos\frac{\pi x}{l},\quad\sin\frac{\pi x}{l},\quad\cos\frac{2\pi x}{l},\quad\sin\frac{2\pi x}{l},\quad\cdots,\quad\cos\frac{n\pi x}{l},\quad\sin\frac{n\pi x}{l},\quad\dots\end{aligned}</script><script type="math/tex; mode=display">\begin{cases}\begin{aligned}a_n=\frac{1}{l}\int_{-l}^lf(x)\cos\frac{n\pi x}{l}\mathrm{d}x\end{aligned},\quad n=0,1,2,\cdots\\\begin{aligned}b_n=\frac{1}{l}\int_{-l}^lf(x)\sin\frac{n\pi x}{l}\mathrm{d}x\end{aligned},\quad n=1,2,3,\cdots\end{cases}</script><p>当 $f(x)$ 为奇函数，则 $a_n=0$ ,  称为傅里叶正弦级数<br>当 $f(x)$ 为偶函数，则 $b_n=0$ ，称为傅里叶余弦级数</p>
+\iint_sf(x,y,z)dS=\iint_{\sigma_{xy}}f(x,y,z(x,y))\frac{\sqrt{F_x'^2+F_y'^2+F_z'^2}}{|F_z'|}d\sigma</script><h2 id="Chapter-10-第二类曲线-面积分"><a href="#Chapter-10-第二类曲线-面积分" class="headerlink" title="Chapter-10 第二类曲线/面积分"></a>Chapter-10 第二类曲线/面积分</h2><h2 id="Chapter-11-级数"><a href="#Chapter-11-级数" class="headerlink" title="Chapter-11 级数"></a>Chapter-11 级数</h2><h3 id="数项级数的定义"><a href="#数项级数的定义" class="headerlink" title="数项级数的定义"></a>数项级数的定义</h3><p>设 $u_1,u_2,\cdots,u_n,\cdots$ 是给定的数列，称  $\begin{aligned}\sum_{n=1}^\infty u_n=u_1+u_2+\cdots+u_n+\cdots\end{aligned}$ 为数项级数，称 $\begin{aligned}S_n=\sum_{i=1}^nu_i\end{aligned}$ 为部分和，则有 $\begin{aligned}\sum_{n=1}^\infty u_n=\lim_{n\rightarrow\infty}S_n\end{aligned}$</p>
+<h3 id="几何级数的敛散性"><a href="#几何级数的敛散性" class="headerlink" title="几何级数的敛散性"></a>几何级数的敛散性</h3><p>几何级数 $\begin{aligned}a+aq+aq^2+\cdots+aq^{n-1}+\cdots=\sum_{n=1}^{\infty}aq^{n-1}\quad(a\neq0)\end{aligned}$ 的敛散性满足：</p>
+<ul>
+<li>当 $|q|&lt;1$ 时，几何级数收敛，且 $\begin{aligned}\sum_{n=1}^{\infty}aq^{n-1}=\frac{a}{1-q}\end{aligned}$</li>
+<li>当 $|q|\geq1$ 时，几何级数发散，即 $\begin{aligned}\sum_{n=1}^{\infty}aq^{n-1}\mathrm{DNE}\end{aligned}$<h3 id="p-级数的敛散性"><a href="#p-级数的敛散性" class="headerlink" title="$p$ 级数的敛散性"></a>$p$ 级数的敛散性</h3></li>
+</ul>
+<p>$p$ 级数 $\begin{aligned}1+\frac{1}{2^p}+\frac{1}{3^p}+\cdots+\frac{1}{n^p}+\cdots=\sum_{n=1}^{\infty}\frac{1}{n^p}\end{aligned}$  的敛散性满足：</p>
+<ul>
+<li>当 $p&gt;1$ 时，级数  $\begin{aligned}\sum_{n=1}^{\infty}\frac{1}{n^p}\end{aligned}$ 收敛</li>
+<li>当 $p\leq1$ 时，级数  $\begin{aligned}\sum_{n=1}^{\infty}\frac{1}{n^p}\end{aligned}$ 发散<h3 id="数项级数的基本性质"><a href="#数项级数的基本性质" class="headerlink" title="数项级数的基本性质"></a>数项级数的基本性质</h3><strong>性质 1</strong><br>若级数 $\begin{aligned}\sum_{n=1}^{\infty}u_n,\sum_{n=1}^{\infty}v_n\end{aligned}$ 均收敛，且 $\begin{aligned}\sum_{n=1}^{\infty}u_n=A,\sum_{n=1}^{\infty}v_n=B\end{aligned}$ ，则对任何常数 $\alpha,\beta$ ，$\begin{aligned}\sum_{n=1}^\infty(\alpha u_n+\beta v_n)\end{aligned}$ 收敛，且有 $\begin{aligned}\sum_{n=1}^\infty(\alpha u_n+\beta v_n)=\alpha\sum_{n=1}^\infty u_n+\beta\sum_{n=1}^\infty v_n=\alpha A+\beta B\end{aligned}$</li>
+</ul>
+<p><strong>性质 2</strong><br>改变级数的有限项，或去掉前面有限项，或在级数前面加上有限项，都不影响级数的敛散性</p>
+<p><strong>性质 3</strong><br>若级数 $\begin{aligned}\sum_{n=1}^\infty u_n\end{aligned}$ 收敛，则在级数中任意添加括号得到的新级数也收敛，且其和不变</p>
+<p><strong>性质 4</strong><br>若级数 $\begin{aligned}\sum_{n=1}^\infty u_n\end{aligned}$ 收敛，则 $\begin{aligned}\lim_{n\rightarrow\infty}u_n=0\end{aligned}$，逆命题不一定成立</p>
+<p><strong>性质 5</strong><br>若 $\begin{aligned}\lim_{n\rightarrow\infty}u_n\mathrm{DNE}\end{aligned}$  或 $\begin{aligned}\lim_{n\rightarrow\infty}u_n=A\neq0\end{aligned}$ 则级数 $\begin{aligned}\sum_{n=1}^\infty u_n\end{aligned}$ 发散</p>
+<p><strong>性质 6</strong><br>柯西收敛准则：级数 $\begin{aligned}\sum_{n=1}^\infty u_n\end{aligned}$ 收敛的充要条件是 $\forall \varepsilon&gt;0 \exists$ 正整数 $N$ ，当 $n&gt;N$ 时，对一切正整数 $p$ ，都有 $|u_{n+1}+u_{n+2}+\cdots+u_{n+p}|&lt;\varepsilon$ </p>
+<h3 id="正项级数的收敛性"><a href="#正项级数的收敛性" class="headerlink" title="正项级数的收敛性"></a>正项级数的收敛性</h3><p>正项级数 $\begin{aligned}\sum_{n=1}^\infty u_n\end{aligned}$ 收敛的充要条件是：正项级数的部分和数列 $\{S_n\}$ 有上界</p>
+<h3 id="正项级数的比较判别法"><a href="#正项级数的比较判别法" class="headerlink" title="正项级数的比较判别法"></a>正项级数的比较判别法</h3><p>设 $\begin{aligned}\sum_{n=1}^\infty u_n,\sum_{n=1}^\infty v_n\end{aligned}$ 均为正项级数，且 $u_n\leq v_n(n=1,2,3,\cdots)$</p>
+<ul>
+<li>若 $\begin{aligned}\sum_{n=1}^\infty v_n\end{aligned}$ 收敛，则 $\begin{aligned}\sum_{n=1}^\infty u_n\end{aligned}$ 收敛</li>
+<li>若 $\begin{aligned}\sum_{n=1}^\infty u_n\end{aligned}$ 发散，则 $\begin{aligned}\sum_{n=1}^\infty v_n\end{aligned}$ 发散<br>定理条件可弱化为 $u_n\leq Cv_n(C&gt;0)(n=k,k+1,\cdots)$</li>
+</ul>
+<h3 id="比较判别法的极限形式"><a href="#比较判别法的极限形式" class="headerlink" title="比较判别法的极限形式"></a>比较判别法的极限形式</h3><p>设 $\begin{aligned}\sum_{n=1}^\infty u_n,\sum_{n=1}^\infty v_n\end{aligned}$ 均为正项级数，且 $\begin{aligned}\lim_{n\rightarrow\infty}\frac{u_n}{v_n}=l\end{aligned}$</p>
+<ul>
+<li>当 $0&lt;l&lt;+\infty$ 时，两个级数同敛散性</li>
+<li>当 $l=0$ 时，若 $\begin{aligned}\sum_{n=1}^\infty v_n\end{aligned}$ 收敛，则 $\begin{aligned}\sum_{n=1}^\infty u_n\end{aligned}$ 收敛</li>
+<li>当 $l=+\infty$ 时，若 $\begin{aligned}\sum_{n=1}^\infty v_n\end{aligned}$ 发散，则 $\begin{aligned}\sum_{n=1}^\infty u_n\end{aligned}$ 发散<h3 id="比值判别法"><a href="#比值判别法" class="headerlink" title="比值判别法"></a>比值判别法</h3>设 $\begin{aligned}\sum_{n=1}^\infty u_n\end{aligned}$ 是正项级数，并且 $\begin{aligned}\lim_{n\rightarrow\infty}\frac{u_{n+1}}{u_n}=\gamma\quad(或 +\infty)\end{aligned}$</li>
+<li>当 $\gamma&lt;1$ 时，级数收敛</li>
+<li>当 $\gamma&gt;1(或 \gamma=+\infty)$ 时，级数发散</li>
+<li>当 $\gamma=1$ 时，本判别法失效<br>本判别法适合 $u_{n+1}$ 与 $u_n$ 有公因式且 $\begin{aligned}\lim_{n\rightarrow\infty}\frac{u_{n+1}}{u_n}\end{aligned}$ 存在或等于 $\infty$ 的情形<h3 id="根值判别法"><a href="#根值判别法" class="headerlink" title="根值判别法"></a>根值判别法</h3>设 $\begin{aligned}\sum_{n=1}^\infty u_n\end{aligned}$ 是正项级数，且 $\begin{aligned}\lim_{n\rightarrow\infty}\sqrt[n]{u_n}=\gamma\quad(或+\infty)\end{aligned}$ </li>
+<li>当 $\gamma&lt;1$ 时，级数收敛</li>
+<li>当 $\gamma&gt;1(或 \gamma=+\infty)$ 时，级数发散</li>
+<li>当 $\gamma=1$ 时，本判别法失效<br>本判别法适合 $u_n$ 中含有表达式的 $n$ 次方，且 $\begin{aligned}\lim_{n\rightarrow\infty}\sqrt[n]{u_n}\end{aligned}$  存在或等于 $\infty$ 的情形</li>
+</ul>
+<h3 id="积分判别法"><a href="#积分判别法" class="headerlink" title="积分判别法"></a>积分判别法</h3><p>设 $f(x)$ 在 $[1,+\infty)$ 上是非负且递减的连续函数，记 $u_n=f(n),n=1,2,3,\cdots$ ,则级数 $\begin{aligned}\sum_{n=1}^\infty u_n\end{aligned}$ 与反常积分 $\begin{aligned}\int_1^{+\infty}f(x)\mathrm{d}x\end{aligned}$ 的敛散性相同</p>
+<h3 id="莱布尼茨定理"><a href="#莱布尼茨定理" class="headerlink" title="莱布尼茨定理"></a>莱布尼茨定理</h3><p>若交错级数 $\begin{aligned}\sum_{n=1}^\infty(-1)^{n-1}u_n\end{aligned}$ 满足条件 $u_1\geq u_2\geq u_3\geq\cdots$ 且 $\begin{aligned}\lim_{n\rightarrow\infty}u_n=0\end{aligned}$<br>则 $\begin{aligned}\sum_{n=1}^\infty(-1)^{n-1}u_n\end{aligned}$ 收敛，并且它的和 $S\leq u_1$<br>若交错级数满足莱布尼茨定理的条件，则以 $S_n$ 作为级数和近似值时，误差 $R_n$ 不超过 $u_{n+1}$ </p>
+<h3 id="绝对收敛级数与条件收敛级数"><a href="#绝对收敛级数与条件收敛级数" class="headerlink" title="绝对收敛级数与条件收敛级数"></a>绝对收敛级数与条件收敛级数</h3><p>如果 $\begin{aligned}\sum_{n=1}^\infty|u_n|\end{aligned}$ 收敛，则 $\begin{aligned}\sum_{n=1}^\infty u_n \end{aligned}$ 也收敛<br>设 $\begin{aligned}\sum_{n=1}^\infty u_n\end{aligned}$ 为一般级数，则</p>
+<ul>
+<li>如果 $\begin{aligned}\sum_{n=1}^\infty|u_n|\end{aligned}$ 收敛，则称 $\begin{aligned}\sum_{n=1}^\infty u_n\end{aligned}$ 绝对收敛</li>
+<li>如果 $\begin{aligned}\sum_{n=1}^\infty|u_n|\end{aligned}$ 发散，但 $\begin{aligned}\sum_{n=1}^\infty u_n\end{aligned}$ 收敛，则称 $\begin{aligned}\sum_{n=1}^\infty u_n\end{aligned}$ 条件收敛<br>如果是用比值判别法或根值判别法判定 $\begin{aligned}\sum_{n=1}^\infty|u_n|\end{aligned}$ 发散，则 $\begin{aligned}\sum_{n=1}^\infty u_n\end{aligned}$ 发散<h3 id="绝对值的比值判别法"><a href="#绝对值的比值判别法" class="headerlink" title="绝对值的比值判别法"></a>绝对值的比值判别法</h3>设 $\begin{aligned}\sum_{n=1}^\infty u_n\end{aligned}$ 为一般级数，若 $\begin{aligned}\lim_{n\rightarrow}|\frac{u_{n+1}}{u_n}|=\gamma\quad(或+\infty)\end{aligned}$ </li>
+<li>当 $\gamma&lt;1$ 时，级数绝对收敛</li>
+<li>当 $\gamma&gt;1(或\gamma=+\infty)$ 时，级数发散</li>
+<li>当 $\gamma=1$ 时，本判别方法失效</li>
+</ul>
+<h3 id="绝对值的根值判别法"><a href="#绝对值的根值判别法" class="headerlink" title="绝对值的根值判别法"></a>绝对值的根值判别法</h3><p>设 $\begin{aligned}\sum_{n=1}^\infty u_n \end{aligned}$ 为一般级数，若 $\begin{aligned}\lim_{n\rightarrow\infty}\sqrt[n]{|u_n|}=\gamma\quad(或\infty)\end{aligned}$ </p>
+<ul>
+<li>当 $\gamma&lt;1$ 时，级数绝对收敛</li>
+<li>当 $\gamma&gt;1(或\gamma=+\infty)$ 时，级数发散</li>
+<li>当 $\gamma=1$ 时，本判别方法失效</li>
+</ul>
+<h3 id="函数项级数"><a href="#函数项级数" class="headerlink" title="函数项级数"></a>函数项级数</h3><p>设 $\{u_n(x)\}$ 是定义在数集 $E$ 的一个函数列，表达式 $u_1(x)+u_2(x)+\cdots+u_n(x)+\cdots,x\in E$<br>称为定义在 $E$ 上的函数项级数，记为 $\begin{aligned}\sum_{n=1}^\infty u_n(x)\end{aligned}$<br>$\begin{aligned}S_n(x)=u_1(x)+u_2(x)+\cdots+u_n(x)=\sum_{k=1}^n u_k(x),x\in E,n=1,2,\cdots\end{aligned}$ 称为部分和函数列</p>
+<ul>
+<li>若即 $\begin{aligned}\lim_{n\rightarrow\infty}S_n(x_0)\end{aligned}$ 存在，则称函数项级数在点 $x_0$ 收敛，$x_0$ 称为函数项级数的收敛点</li>
+<li>若 $\begin{aligned}\lim_{n\rightarrow\infty}S_n(x_0)\end{aligned}$ 不存在，则称函数项级数在点 $x_0$ 发散<br>函数项级数全体收敛点的集合称为函数项级数的收敛域，记为 $D$<br>函数项级数在 $D$ 上的每一点 $x$，$\begin{aligned}\lim_{n\rightarrow\infty}S_n(x)\end{aligned}$ 存在，记为 $S(x)$ ，称为函数项级数的和函数<br>称 $R_n(x)=S(x)-S_n(x)=u_{n+1}(x)+u_{n+2}(x)+\cdots$ 为函数项级数的余项 $\begin{aligned}\lim_{n\rightarrow\infty}R_n(x)=0\end{aligned}$</li>
+</ul>
+<h3 id="幂级数"><a href="#幂级数" class="headerlink" title="幂级数"></a>幂级数</h3><p>$\begin{aligned}\sum_{n=0}^\infty a_n(x-x_0)^n\end{aligned}$ 为关于 $x-x_0$ 的幂级数，$\begin{aligned}\sum_{n=0}^\infty a_nx^n\end{aligned}$ 为关于 $x$ 的幂级数</p>
+<h3 id="阿贝尔定理"><a href="#阿贝尔定理" class="headerlink" title="阿贝尔定理"></a>阿贝尔定理</h3><ul>
+<li>如果 $\begin{aligned}\sum_{n=0}^\infty a_nx^n\end{aligned}$ 当 $x=x_0(x_0\neq0)$ 时收敛，则 $|x|&lt;|x_0|$ 的一切 $x$ 使该幂级数绝对收敛</li>
+<li>如果 $\begin{aligned}\sum_{n=0}^\infty a_nx^n\end{aligned}$ 当 $x=x_0$ 时发散，则 $|x|&gt;|x_0|$ 的一切 $x$ 使该幂级数发散<br>幂级数的收敛域是以原点为中心的区间，若以 $2R$ 表示区间长度，$R$ 为收敛半径</li>
+</ul>
+<h3 id="柯西-阿达马公式"><a href="#柯西-阿达马公式" class="headerlink" title="柯西-阿达马公式"></a>柯西-阿达马公式</h3><p>若幂级数 $\begin{aligned}\sum_{n=0}^\infty a_nx^n\end{aligned}$ ,若 $\begin{aligned}\lim_{n\rightarrow\infty}\frac{|a_n|}{|a_{n+1}|}=R\end{aligned}$ （$\begin{aligned}\lim_{n\rightarrow\infty}\frac{1}{\sqrt[n]{|a_n|}}=R\end{aligned}$）</p>
+<ul>
+<li>当 $0<R<+\infty$ 时，级数$\begin{aligned}\sum_{n=0}^\infty a_nx^n\end{aligned}$ 在 $(-R,+R)$ 绝对收敛，$|x|>R$ 发散</li>
+<li>当 $R=0$ 时，级数$\begin{aligned}\sum_{n=0}^\infty a_nx^n\end{aligned}$ 仅在 $x=0$ 处收敛，$x\neq0$ 时发散</li>
+<li>当 $R=+\infty$ 时，级数$\begin{aligned}\sum_{n=0}^\infty a_nx^n\end{aligned}$ 在 $(-\infty,+\infty)$ 内绝对收敛<br>在 $x=\pm R$ 时，幂级数可能发散也可能收敛，需要具体验证<br>称 $R$ 为幂级数的收敛半径， $(-R,R)$ 为幂级的收敛区间<br>对于求不是标准形式幂级数的收敛半径，可以直接利用绝对值的比值判别法或作变量替换</li>
+</ul>
+<h3 id="幂级数的性质"><a href="#幂级数的性质" class="headerlink" title="幂级数的性质"></a>幂级数的性质</h3><p>若幂级数 $\begin{aligned}\sum_{n=0}^\infty a_nx^n\end{aligned}$ 的收敛半径为 $R(&gt;0)$ ，则有：</p>
+<ul>
+<li>级数在收敛域上的和函数 $S(x)$ 是连续函数，$S(x)$ 在 $(-R,R)$ 内也连续</li>
+<li>幂级数在 $(-R,R)$ 内逐项可微，微分后所得到的幂级数与原级数有相同的收敛半径</li>
+<li>幂级数在 $(-R,R)$ 内逐项可积，积分后所得到的幂级数与原级数有相同的收敛半径</li>
+</ul>
+<p>即设 $S(x)=a_0+a_1x+a_2x^2+\cdots+a_nx^n+\cdots,|x|&lt;R$ ，则</p>
+<ul>
+<li>$S(x)$ 在 $|x|&lt;R$ 上连续</li>
+<li>$\begin{aligned}S’(x)&amp;=\frac{\mathrm{d}}{\mathrm{d}x}(a_0+a_1x+a_2x^2+\cdots+a_nx^n+\cdots)\\&amp;=a_1+2a_2x+\cdots+na_nx^{n-1}+\cdots,\quad|x|&lt;R\end{aligned}$</li>
+<li>$\begin{aligned}\int_0^xS(x)\mathrm{d}x&amp;=\int_0^x(a_0+a_1x+\cdots+a_nx^n+\cdots)\mathrm{d}x\\&amp;=a_0x+\frac{a_1}{2}x^2+\cdots+\frac{a_n}{n+1}x^{n+1}+\cdots,\quad|x|&lt;R\end{aligned}$</li>
+</ul>
+<p>设 $S(x)$ 为幂级数在收敛区间 $(-R,R)$ 内的和函数，则在 $(-R,R)$ 内 $S(x)$ 具有$任何阶导数且可逐项求导，收敛半径仍为 $R$</p>
+<p><strong>唯一性定理</strong>：设 $S(x)$ 为幂级数在某邻域内的和函数，则幂级数的系数在 $x=0$ 处的各阶导数具有关系：$\begin{aligned}a_0=S(0),\quad a_n=\frac{S^{(n)}(0)}{n!},\quad n=1,2,\cdots\end{aligned}$</p>
+<ul>
+<li>若幂级数 $\begin{aligned}\sum_{n=0}^\infty a_nx^n\end{aligned}$ 在收敛区间的端点 $x=R$ 处收敛，则 $S(x)=\begin{aligned}\sum_{n=0}^\infty a_nx^n\end{aligned}$ 在 $x=R$ 处左连续，即 $\begin{aligned}\lim_{x\rightarrow R^-}\sum_{n=0}^\infty a_nx^n\end{aligned}=\begin{aligned}\sum_{n=0}^\infty a_nR^n\end{aligned}$ 或 $\begin{aligned}\lim_{x\rightarrow R^-}S(x)=S(R)\end{aligned}$</li>
+<li>若幂级数 $\begin{aligned}\sum_{n=0}^\infty a_nx^n\end{aligned}$ 在收敛区间的端点 $x=-R$ 处收敛，则 $S(x)=\begin{aligned}\sum_{n=0}^\infty a_nx^n\end{aligned}$ 在 $x=-R$ 处右连续，即 $\begin{aligned}\lim_{x\rightarrow -R^+}\sum_{n=0}^\infty a_nx^n\end{aligned}=\begin{aligned}\sum_{n=0}^\infty a_n(-R)^n\end{aligned}$ 或 $\begin{aligned}\lim_{x\rightarrow -R^+}S(x)=S(-R)\end{aligned}$<h3 id="幂级数的运算"><a href="#幂级数的运算" class="headerlink" title="幂级数的运算"></a>幂级数的运算</h3>若级数 $\begin{aligned}\sum_{n=0}^\infty a_nx^n\end{aligned}$ 与 $\begin{aligned}\sum_{n=0}^\infty b_nx^n\end{aligned}$ 在 $x=0$ 的某邻域相等，则它们的同次幂项的系数相等<br>设 $\begin{aligned}\sum_{n=0}^\infty a_nx^n\end{aligned}$ 和 $\begin{aligned}\sum_{n=0}^\infty b_nx^n\end{aligned}$ 的收敛半径分别为 $R_a$ 和 $R_b$ ，则有</li>
+<li>$\begin{aligned}\lambda\sum_{n=0}^\infty a_nx^n=\sum_{n=0}^\infty \lambda a_nx^n,\quad|x|&lt;R_a\end{aligned}$</li>
+<li>$\begin{aligned}\sum_{n=0}^\infty a_nx^n\pm\sum_{n=0}^\infty b_nx^n=\sum_{n=0}^\infty (a_n\pm b_n)x^n,\quad|x|&lt;R\end{aligned}$</li>
+<li>$\begin{aligned}(\sum_{n=0}^\infty a_nx^n)(\sum_{n=0}^\infty b_nx^n)=\sum_{n=0}^\infty c_nx^n,\quad|x|&lt;R\end{aligned}$</li>
+<li>$\begin{aligned}\frac{\sum_{n=0}^\infty a_nx^n}{\sum_{n=0}^\infty b_nx^n}=\sum_{n=0}^\infty c_nx^n\Rightarrow(\sum_{n=0}^\infty b_nx^n)(\sum_{n=0}^\infty c_nx^n)=\sum_{n=0}^\infty a_nx^n\end{aligned}$<br>其中 $\lambda$ 为常数，$\begin{aligned}R=\min\{R_a,R_b\},\quad c_n=\sum_{k=0}^na_kb_{n-k}\end{aligned}$</li>
+</ul>
+<h3 id="求幂级数的和函数常用方法"><a href="#求幂级数的和函数常用方法" class="headerlink" title="求幂级数的和函数常用方法"></a>求幂级数的和函数常用方法</h3><ul>
+<li>利用幂级数的线性运算法则</li>
+<li>利用变量代换</li>
+<li>通过逐项求导，再利用 $\begin{aligned}S(x)=S(0)+\int_0^xS’(x)\mathrm{d}x\end{aligned}$</li>
+<li>通过逐项积分，再利用 $S(x)=\begin{pmatrix}\begin{aligned}\int_0^xS(x)\mathrm{d}x\end{aligned}\end{pmatrix}’$ </li>
+</ul>
+<h3 id="函数展成幂级数"><a href="#函数展成幂级数" class="headerlink" title="函数展成幂级数"></a>函数展成幂级数</h3><p>当 $f(x)$ 在区间 $|x-x_0|&lt;R$ 内存在任意阶的导数，幂级数 $\begin{aligned}\sum_{n=0}^\infty\frac{f^{(n)}(x_0)}{n!}(x-x_0)^n\end{aligned}$ 的收敛条件为 $|x-x_0|&lt;R$ ，则在 $|x-x_0|&lt;R$ 内 $f(x)=\begin{aligned}\sum_{n=0}^\infty\frac{f^{(n)}(x_0)}{n!}(x-x_0)^n\end{aligned}$ 成立的充要条件是：在该区间内 $\begin{aligned}\lim_{n\rightarrow\infty}R_n(x)=\lim_{n\rightarrow\infty}\frac{f^{(n+1)}(\xi)}{(n+1)!}(x-x_0)^{n+1}=0\end{aligned}$<br>$\begin{aligned}f(0)+\frac{f’(0)}{1!}+\frac{f’’(0)}{2!}+\cdots+\frac{f^{(n)}(0)}{n!}x^n+\cdots=\sum_{n=0}^{\infty}\frac{f^{(n)}(0)}{n!}x^n\end{aligned}$ 称为 $f(x)$ 的麦克劳林级数</p>
+<ul>
+<li>$\begin{aligned}\frac{1}{1-x}=\sum_{n=0}^\infty x^n,\quad|x|&lt;1\end{aligned}$</li>
+<li>$\begin{aligned}\frac{1}{1+x}=\sum_{n=0}^\infty(-1)^nx^n,\quad|x|&lt;1\end{aligned}$</li>
+<li>$f^{(n)}(x_0)=n!a_n,\quad n=0,1,2,\cdots$ </li>
+</ul>
+<h3 id="欧拉公式"><a href="#欧拉公式" class="headerlink" title="欧拉公式"></a>欧拉公式</h3><p>当 $x$ 为实数时，有 $\begin{aligned}e^x=\sum_{n=0}^\infty\frac{x^n}{n!}\end{aligned}$ ,推广到虚数，有<br>$\begin{aligned}e^{\mathrm{i}x}&amp;=\sum_{n=0}^\infty\frac{(\mathrm{i}x)^n}{n!}=1+\mathrm{i}x+\frac{(\mathrm{i}x)^2}{2!}+\frac{(\mathrm{i}x)^3}{3!}+\frac{(\mathrm{i}x)^4}{4!}+\cdots\\&amp;=(1-\frac{x^2}{2!}+\frac{x^4}{4!}-\cdots)+\mathrm{i}(x-\frac{x^3}{3!}+\frac{x^5}{5!}-\cdots)\end{aligned}$</p>
+<ul>
+<li>$\mathrm{e}^{\mathrm{i}x}=\cos x+\mathrm{i}\sin x$</li>
+<li>$\mathrm{e}^{-\mathrm{i}x}=\cos x-\mathrm{i}\sin x$</li>
+<li>$\begin{aligned}\sin x=\frac{1}{2\mathrm{i}}(\mathrm{e}^{\mathrm{i}x}-\mathrm{e}^{-\mathrm{i}x})\end{aligned}$</li>
+<li>$\begin{aligned}\cos x=\frac{1}{2}(\mathrm{e}^{\mathrm{i}x}+\mathrm{e}^{-\mathrm{i}x})\end{aligned}$</li>
+</ul>
+<h3 id="函数的傅里叶展开"><a href="#函数的傅里叶展开" class="headerlink" title="函数的傅里叶展开"></a>函数的傅里叶展开</h3><p>周期 $T=2l$ 的函数 $f(x)$ 可以表示成 $\begin{aligned}\frac{a_0}{2}+\sum_{n=1}^\infty(a_n\cos\frac{n\pi x}{l}+b_n\sin\frac{n\pi x}{l})\end{aligned}$<br>在标准区间 $[-l,l]$ 上的三角解函数系：</p>
+<script type="math/tex; mode=display">\begin{aligned}1,\quad\cos\frac{\pi x}{l},\quad\sin\frac{\pi x}{l},\quad\cos\frac{2\pi x}{l},\quad\sin\frac{2\pi x}{l},\quad\cdots,\quad\cos\frac{n\pi x}{l},\quad\sin\frac{n\pi x}{l},\quad\dots\end{aligned}</script><script type="math/tex; mode=display">\begin{cases}\begin{aligned}a_n=\frac{1}{l}\int_{-l}^lf(x)\cos\frac{n\pi x}{l}\mathrm{d}x\end{aligned},\quad n=0,1,2,\cdots\\\begin{aligned}b_n=\frac{1}{l}\int_{-l}^lf(x)\sin\frac{n\pi x}{l}\mathrm{d}x\end{aligned},\quad n=1,2,3,\cdots\end{cases}</script><p>当 $f(x)$ 为奇函数，则 $a_n=0$ ,  称为傅里叶正弦级数<br>当 $f(x)$ 为偶函数，则 $b_n=0$ ，称为傅里叶余弦级数</p>
 <h3 id="狄利克雷定理"><a href="#狄利克雷定理" class="headerlink" title="狄利克雷定理"></a>狄利克雷定理</h3><p>如果 $f(x)$ 是以 $T=2l$ 为周期的周期函数，且 $f(x)$ 在 $[-l,l]$ 上逐段光滑，那么 $f(x)$ 的傅里叶级数在任意点 $x$ 处都收敛，并且收敛于 $f(x)$ 在该点左右极限的平均值，即</p>
 <script type="math/tex; mode=display">\begin{aligned}\frac{a_0}{2}+\sum_{n=1}^\infty(a_n\cos\frac{n\pi x}{l}+b_n\sin\frac{n\pi x}{l})&=S(x)\\&=\frac{f(x-0)+f(x+0)}{2},x\in(-\infty,+\infty)\end{aligned}</script><script type="math/tex; mode=display">\begin{aligned}S(x)=\begin{cases}f(x)&当 x 是 f(x) 的连续点时;\\\begin{aligned}\frac{f(x-0)+f(x+0)}{2}\end{aligned}&当 x 是 f(x) 的第一类间断点时;\\\begin{aligned}\frac{f(-l+0)+f(l-0)}{2}\end{aligned}&当 x=\pm l\end{cases}\end{aligned}</script><p>对函数作周期延拓补充为一个周期函数</p>
 <h3 id="对函数延拓"><a href="#对函数延拓" class="headerlink" title="对函数延拓"></a>对函数延拓</h3><ul>

@@ -227,7 +227,7 @@ var _hmt = _hmt || [];
 <p>upper bound /lower bound /least upper bound /greatest lower bound</p>
 <p>A partially ordered set in which every pair of elements has both a least upper bound and a greatest lower bound is called a lattice</p>
 <p>Every finite nonempty poset $(S,\preceq)$ has at least one minimal element</p>
-<h2 id="Chapter-10-Graphs"><a href="#Chapter-10-Graphs" class="headerlink" title="Chapter-10 Graphs"></a>Chapter-10 Graphs</h2><div class="table-container">
+<h2 id="Chapter-10-Graphs"><a href="#Chapter-10-Graphs" class="headerlink" title="Chapter-10 Graphs"></a>Chapter-10 Graphs</h2><h3 id="Graphs-and-Graph-Models"><a href="#Graphs-and-Graph-Models" class="headerlink" title="Graphs and Graph Models"></a>Graphs and Graph Models</h3><div class="table-container">
 <table>
 <thead>
 <tr>
@@ -259,12 +259,57 @@ var _hmt = _hmt || [];
 </table>
 </div>
 <p>A graph $G=(V,E)$ consists of $V$ ,a nonempty set of vertices (or nodes) and $E$ ,a set of edges. Each edge has either $1$ or $2$ vertices associated with it , called its endpoints.</p>
-<ul>
-<li>A graph in which each edge connects two different vertices and where no two edges connect the same pair of vertices if called a simple graph.</li>
-<li>Graphs that may have multiple edges connecting the same vertices are called multigraphs.</li>
-<li>Graphs that may include loops, and possibly multiple edges connecting the same pair of vertices or a vertex to itself, are called pseudographs.</li>
-</ul>
 <p>A digraph $(V, E)$ consists of a nonempty set of vertices $V$ and a set of directed edges $E$. Each directed edge is associated with an ordered pair of vertices. The directed edge $(u, v)$ is said to start at $u$ and end at $v$.</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Edges</th>
+<th>Multiple Edges</th>
+<th>Loops</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Simple graph</td>
+<td>Undirected</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Multigraph</td>
+<td>Undirected</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Pseudograph</td>
+<td>Undirected</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Simple directed graph</td>
+<td>Directed</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Directed multigraph</td>
+<td>Directed</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Mixed graph</td>
+<td>Directed and undirected</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
 <p>The set of all neighbors of a vertex $v$ of $G=(V,E)$ , denoted by $N(v)$ , is called the neighborhood of $v$ . If $A$ is a subset of $V$ , we denote by $N(A)$ the set of all vertices in $G$ that are adjacent to at least one vertex in $A$ , $N(A)=\bigcup_{c\in A}N(v)$</p>
 <p>The degree of a vertex in an undirected graph is the number of edges incident with it, except that a loop at a vertex contributes twice to the degree of that vertex. The degree of the vertex v is denoted by $\deg(v)$</p>
 <p>Let $G=(V,E)$ be an undirected graph with $m$ edges, then</p>
@@ -280,7 +325,7 @@ var _hmt = _hmt || [];
 <p>The bipartite graph $G=(V,E)$ with bipartition $(V_1,V_2)$ has complete matching from $V_1$ to $V_2$ if and only if $|N(A)|\geq|A|$ for all subsets $A$ of $V_1$</p>
 <p>A subgraph of a graph $G=(V,E)$ is a graph $H=(W,F)$ ,where $W\subseteq V$ and $F\subseteq E$<br>A subgraph $H$ of $G$ is a proper subgraph of $G$ if $H\neq G$</p>
 <p>Let $G=(V,E)$ be a simple graph, the subgraph induce by a subset $W$ of the vertex set $V$ is the graph $(W,F)$ , where the edges set $F$ contains an edge in $E$ if and only if both endpoints of this edge are in $W$ </p>
- 
+<h3 id="Representing-Graphs"><a href="#Representing-Graphs" class="headerlink" title="Representing Graphs"></a>Representing Graphs</h3> 
       <!-- reward -->
       
     </div>
