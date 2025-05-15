@@ -742,7 +742,40 @@ A=M_0,M_1,M_2,\cdots,M_n=B</script><p>将曲线分成 $n$ 个部分，记弧 $\o
 (\frac{\partial z}{\partial y})^2}d\sigma
 \end{align}</script><p>若曲面 $S$ 由方程 $F(x,y,z)=0$ 给出，且确定隐函数 $z=z(x,y),(x,y)\in\sigma_{xy}$ ，并且有 $\begin{align}\frac{\partial z}{\partial x}=-\frac{F_x’}{F_z’},\frac{\partial z}{\partial y}=-\frac{F_y’}{F_z’}\end{align}$ 连续，则有</p>
 <script type="math/tex; mode=display">
-\iint_sf(x,y,z)dS=\iint_{\sigma_{xy}}f(x,y,z(x,y))\frac{\sqrt{F_x'^2+F_y'^2+F_z'^2}}{|F_z'|}d\sigma</script><h2 id="Chapter-10-第二类曲线-面积分"><a href="#Chapter-10-第二类曲线-面积分" class="headerlink" title="Chapter-10 第二类曲线/面积分"></a>Chapter-10 第二类曲线/面积分</h2><h2 id="Chapter-11-级数"><a href="#Chapter-11-级数" class="headerlink" title="Chapter-11 级数"></a>Chapter-11 级数</h2><h3 id="数项级数的定义"><a href="#数项级数的定义" class="headerlink" title="数项级数的定义"></a>数项级数的定义</h3><p>设 $u_1,u_2,\cdots,u_n,\cdots$ 是给定的数列，称  $\begin{aligned}\sum_{n=1}^\infty u_n=u_1+u_2+\cdots+u_n+\cdots\end{aligned}$ 为数项级数，称 $\begin{aligned}S_n=\sum_{i=1}^nu_i\end{aligned}$ 为部分和，则有 $\begin{aligned}\sum_{n=1}^\infty u_n=\lim_{n\rightarrow\infty}S_n\end{aligned}$</p>
+\iint_sf(x,y,z)dS=\iint_{\sigma_{xy}}f(x,y,z(x,y))\frac{\sqrt{F_x'^2+F_y'^2+F_z'^2}}{|F_z'|}d\sigma</script><h2 id="Chapter-10-第二类曲线-面积分"><a href="#Chapter-10-第二类曲线-面积分" class="headerlink" title="Chapter-10 第二类曲线/面积分"></a>Chapter-10 第二类曲线/面积分</h2><h3 id="第二类曲线积分"><a href="#第二类曲线积分" class="headerlink" title="第二类曲线积分"></a>第二类曲线积分</h3><p>设 $\Gamma$ 是以 $A,B$ 为端点的光滑曲线，并指定从 $A$ 到 $b$ 的方向为曲线方向，在 $\Gamma$ 上每一点 $M$ 处作曲线的单位切矢量</p>
+<script type="math/tex; mode=display">
+e_{T}(M)=\cos\alpha\cdot i+\cos\beta\cdot j+\cos\gamma\cdot k</script><p>设 $A(M)=A(x,y,z)=P(x,y,z)i+Q(x,y,z)j+R(x,y,z)k$ 其中 $P,Q,R$ 是定义在曲线 $\Gamma$ 上的有界函数，则函数</p>
+<script type="math/tex; mode=display">
+A\cdot e_T=P\cos\alpha+Q\cos\beta+R\cos\gamma</script><p>在曲线 $\Gamma$ 上的第一类曲线积分</p>
+<script type="math/tex; mode=display">
+\int_\Gamma A\cdot e_Tds=\int_\Gamma(P\cos\alpha+Q\cos\beta+R\cos\gamma)ds</script><p>称为函数 $A(P)=A(x,y,z)$ 沿曲线 $\Gamma$ 从 $A$ 到 $B$ 的第二类曲线积分</p>
+<p><strong>性质1</strong></p>
+<script type="math/tex; mode=display">
+\int_{\Gamma_{AB}}(A\cdot e_T)ds=-\int_{\Gamma_{BA}}(A\cdot e_T)ds</script><p><strong>性质2</strong><br>若有向曲线 $\Gamma$ 是由有向曲线 $\Gamma_1,\Gamma_2$ 首尾衔接而成，则</p>
+<script type="math/tex; mode=display">
+\int_{\Gamma}(A\cdot e_T)ds=\int_{\Gamma_1}(A\cdot e_T)ds+\int_{\Gamma_2}(A\cdot e_T)ds</script><h3 id="第二类曲线积分计算"><a href="#第二类曲线积分计算" class="headerlink" title="第二类曲线积分计算"></a>第二类曲线积分计算</h3><p>设光滑曲线 $\Gamma_{AB}$ 方程为 $\begin{cases}x=x(t)\\y=y(t)\\z=z(t)\end{cases}$ ，点 $A$ 对应的参数为 $t_A$ ，点 $B$ 对应的参数为 $t_B$ 且函数 $A(x,y,z)=(P(x,y,z),Q(x,y,z),R(x,y,z))$ 的分量 $P,Q,R$ 在 $\Gamma$ 上连续</p>
+<script type="math/tex; mode=display">
+\begin{align}
+\int_{\Gamma_{AB}}A\cdot e_T ds
+&=\int_{\Gamma_{AB}}A\cdot ds\\
+&=\int_{\Gamma_{AB}}(P\cos\alpha+Q\cos\beta+R\cos\gamma)ds\\
+&=\int_{\Gamma_{AB}}Pdx+Qdy+Rdz\\
+&=\int_{t_A}^{t_B}P(x(t),y(t),z(t))x'(t)dt+
+\int_{t_A}^{t_B}Q(x(t),y(t),z(t))y'(t)dt+\\
+&\quad\int_{t_A}^{t_B}R(x(t),y(t),z(t))z'(t)dt\\
+&=\int_{t_A}^{t_B}[P(x(t),y(t),z(t))x'(t)+
+Q(x(t),y(t),z(t))y'(t)+\\
+&\quad R(x(t),y(t),z(t))z'(t)]dt
+\end{align}</script><h3 id="格林公式"><a href="#格林公式" class="headerlink" title="格林公式"></a>格林公式</h3><p>被积函数相同，奇点和终点也相同，虽然路径不同，积分仍然相同</p>
+<p>边界曲线 $\Gamma$ 的正向规定为当人沿边界行走时，区域总在左侧<br>若函数 $P,Q$ 在有界闭区域 $D\subset R^2$ 上连续且具有一阶连续偏导数，则</p>
+<script type="math/tex; mode=display">
+\iint_D(\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y})dxdy
+=\oint_{\Gamma}Pdx+Qdy
+=\iint_{D}
+\begin{vmatrix}
+\frac{\partial}{\partial x}&\frac{\partial}{\partial y}\\P&Q
+\end{vmatrix}dxdy</script><p>这里的 $\Gamma$ 为区域 $D$ 的边界区域，并取正向</p>
+<h2 id="Chapter-11-级数"><a href="#Chapter-11-级数" class="headerlink" title="Chapter-11 级数"></a>Chapter-11 级数</h2><h3 id="数项级数的定义"><a href="#数项级数的定义" class="headerlink" title="数项级数的定义"></a>数项级数的定义</h3><p>设 $u_1,u_2,\cdots,u_n,\cdots$ 是给定的数列，称  $\begin{aligned}\sum_{n=1}^\infty u_n=u_1+u_2+\cdots+u_n+\cdots\end{aligned}$ 为数项级数，称 $\begin{aligned}S_n=\sum_{i=1}^nu_i\end{aligned}$ 为部分和，则有 $\begin{aligned}\sum_{n=1}^\infty u_n=\lim_{n\rightarrow\infty}S_n\end{aligned}$</p>
 <h3 id="几何级数的敛散性"><a href="#几何级数的敛散性" class="headerlink" title="几何级数的敛散性"></a>几何级数的敛散性</h3><p>几何级数 $\begin{aligned}a+aq+aq^2+\cdots+aq^{n-1}+\cdots=\sum_{n=1}^{\infty}aq^{n-1}\quad(a\neq0)\end{aligned}$ 的敛散性满足：</p>
 <ul>
 <li>当 $|q|&lt;1$ 时，几何级数收敛，且 $\begin{aligned}\sum_{n=1}^{\infty}aq^{n-1}=\frac{a}{1-q}\end{aligned}$</li>
