@@ -116,8 +116,24 @@
 <tr>
 <td>out-degree</td>
 <td>出度</td>
-<td>Bipartite Graphs</td>
+<td>bipartite graphs</td>
 <td>二分图</td>
+<td>sparse</td>
+<td>稀疏的</td>
+</tr>
+<tr>
+<td>isomorphism</td>
+<td>同构</td>
+<td>incidence matrix</td>
+<td>关联矩阵</td>
+<td>invariant</td>
+<td>不变量</td>
+</tr>
+<tr>
+<td>cut vertices</td>
+<td>割点</td>
+<td>cut edge</td>
+<td>割边</td>
 <td></td>
 </tr>
 </tbody>
@@ -190,7 +206,24 @@
 <p>The bipartite graph $G=(V,E)$ with bipartition $(V_1,V_2)$ has complete matching from $V_1$ to $V_2$ if and only if $|N(A)|\geq|A|$ for all subsets $A$ of $V_1$</p>
 <p>A subgraph of a graph $G=(V,E)$ is a graph $H=(W,F)$ ,where $W\subseteq V$ and $F\subseteq E$<br>A subgraph $H$ of $G$ is a proper subgraph of $G$ if $H\neq G$</p>
 <p>Let $G=(V,E)$ be a simple graph, the subgraph induce by a subset $W$ of the vertex set $V$ is the graph $(W,F)$ , where the edges set $F$ contains an edge in $E$ if and only if both endpoints of this edge are in $W$ </p>
-<h3 id="Representing-Graphs"><a href="#Representing-Graphs" class="headerlink" title="Representing Graphs"></a>Representing Graphs</h3>]]></content>
+<h3 id="Graph-Isomorphism"><a href="#Graph-Isomorphism" class="headerlink" title="Graph Isomorphism"></a>Graph Isomorphism</h3><p>The simple graphs $G_1=(V_1,E_1)$ and $G_2=(V_2,E_2)$ are isomorphic if there exists a one-to-one and onto function $f$ from $V_1$ to $V_2$ with the property that $a$ and $b$ are adjacent in $G_1$ if and only if $f(a)$ and $f(b)$ are adjacent in $G_2$ ,for all $a$ and $b$ in $V_1$ </p>
+<h3 id="Connectivity"><a href="#Connectivity" class="headerlink" title="Connectivity"></a>Connectivity</h3><p>A path is a sequence of edges that begins at a vertex of a graph and travels from vertex to vertex along edges of the graph.</p>
+<p>A path or circuit is simple if it does not contain the same edge more than once.</p>
+<p>An undirected graph is called connected if there is a path between every pair of distinct vertices of the graph. We say that we disconnect a graph when we remove vertices or edges, or both, to produce a disconnected subgraph.</p>
+<p>There is a simple path between every pair of distinct vertices of a connected undirected graph.</p>
+<p>A connected component of a graph G is a connected subgraph of G that is not a proper subgraph of another connected subgraph of G.</p>
+<p>Sometimes the removal from a graph of a vertex and all incident edges produces a subgraph with more connected components. Such vertices are called cut vertices(or articulation points).</p>
+<p>Connected graphs without cut vertices are called nonseparable graphs</p>
+<p>The vertex connectivity of a noncomplete graph $G$ , denoted by $\kappa(G)$ the minimum number of vertices that can be removed to disconnect a graph.</p>
+<p>A graph is k-connected (or k-vertex-connected), if $\kappa(G)\geq k$ </p>
+<p>The edge connectivity of a graph $G$ , denoted by $\lambda(G)$ is the minimum number of edges in an edge cut of $G$</p>
+<p>An inequality for vertex connectivity and edge connectivity $\kappa(G)\leq\lambda(G)\leq\min_{v\in V}\deg(v)$</p>
+<p>A directed graph is strongly connected if there is a path from $a$ to $b$ and from $b$ to $a$ whenever $a$ and $b$ are vertices in the graph.</p>
+<p>A directed graph is weakly connected if there is a path between every two vertices in the underlying undirected graph.</p>
+<p>The strongly connected components of $G$ is the subgraphs that are strongly connected but not contained in larger strongly connected subgraphs.</p>
+<p>A Euler circuit in a graph $G$ is a simple circuit containing every edge of $G$ . An Euler path in $G$ is a simple path containing every edge of $G$</p>
+<p>A connected multigraph with at least two vertices has an Euler circuit if and only if each of its vertices has even degree</p>
+]]></content>
       <tags>
         <tag>课程笔记</tag>
       </tags>
