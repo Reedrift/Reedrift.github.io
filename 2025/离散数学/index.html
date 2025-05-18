@@ -114,7 +114,7 @@ var _hmt = _hmt || [];
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">40</span>
+            <span class="post-count">104</span>
         </span>
     </span>
 
@@ -138,7 +138,12 @@ var _hmt = _hmt || [];
   
     <div class="article-entry" itemprop="articleBody">
        
-  <h3 id="Inclusion-Exclusion"><a href="#Inclusion-Exclusion" class="headerlink" title="Inclusion-Exclusion"></a>Inclusion-Exclusion</h3><p>Let $A_1,A_2,\cdots A_n$ be finite sets, then</p>
+  <h3 id="Inclusion-Exclusion"><a href="#Inclusion-Exclusion" class="headerlink" title="Inclusion-Exclusion"></a>Inclusion-Exclusion</h3><div class="admonition note"><p class="admonition-title">Hexo-admonition 插件使用示例
+</p><p>这是基于 hexo-admonition 插件渲染的一条提示信息。类型为 note，并设置了自定义标题。</p>
+<p>提示内容开头留 4 个空格，可以有多行，最后用空行结束此标记。</p>
+</div>
+
+<p>Let $A_1,A_2,\cdots A_n$ be finite sets, then</p>
 <script type="math/tex; mode=display">
 \begin{align}
 |A_1\cup A_2\cup\cdots\cup A_n|
@@ -209,8 +214,8 @@ var _hmt = _hmt || [];
 <p>an edge of the form $(a,a)$ is called a loop</p>
 <p>the closure of $R$ with respect to $P$ is the relation $S$ on $A$ with property $P$ that contains $R$  and is a subset of every subset containing $R$ with property $P$</p>
 <p>There is a path of length $n$ from $a$ to $b$ if and only if $(a,b)\in R^n$</p>
-<p>The connectivity relation $R^<em>$ consists of the pairs $(a,b)$ such that there is a path of length at least one from $a$ to $b$ in $R$ , $\begin{align}R^</em>=\bigcup_{n=1}^\infty R^n\end{align}$</p>
-<p>$M_{R^*}=M_R\lor M_R^{[2]}\lor M_R^{[3]}\lor\cdots\lor M_R^{[n]}$</p>
+<p>The connectivity relation $R^\ast$ consists of the pairs $(a,b)$ such that there is a path of length at least one from $a$ to $b$ in $R$ , $\begin{align}R^\ast=\bigcup_{n=1}^\infty R^n\end{align}$</p>
+<p>$M_{R^\ast}=M_R\lor M_R^{[2]}\lor M_R^{[3]}\lor\cdots\lor M_R^{[n]}$</p>
 <p>$W_k=[w_{ij}^{[k]}],\quad w_{ij}^{[k]}=w_{ij}^{[k-1]}\lor(w_{ik}^{[k-1]}\land w_{kj}^{[k-1]})$</p>
 <p>Equivalence relation is reflexive, symmetric and transitive</p>
 <p>Two elements $a$ and $b$ that are related by an equivalence relation are called equivalent. $a\sim b$ denote that $a$ and $b$ are equivalent elements with respect to a particular equivalence relation</p>
@@ -443,55 +448,7 @@ var _hmt = _hmt || [];
     
   </nav>
 
-   
-<!-- valine评论 -->
-<div id="vcomments-box">
-  <div id="vcomments"></div>
-</div>
-<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-<script src="https://cdn.staticfile.org/valine/1.4.16/Valine.min.js"></script>
-<script>
-  new Valine({
-    el: "#vcomments",
-    app_id: "4xGlq8XSx3LeY3UnQdUTKPV5-gzGzoHsz",
-    app_key: "Pv5aoLdBvgd2cy18nWkeq7Ai",
-    path: window.location.pathname,
-    avatar: "hide",
-    placeholder: "期待你的精彩评论qwq",
-    recordIP: true,
-  });
-  const infoEle = document.querySelector("#vcomments .info");
-  if (infoEle && infoEle.childNodes && infoEle.childNodes.length > 0) {
-    infoEle.childNodes.forEach(function (item) {
-      item.parentNode.removeChild(item);
-    });
-  }
-</script>
-<style>
-  #vcomments-box {
-    padding: 5px 30px;
-  }
-
-  @media screen and (max-width: 800px) {
-    #vcomments-box {
-      padding: 5px 0px;
-    }
-  }
-
-  #vcomments-box #vcomments {
-    background-color: #fff;
-  }
-
-  .v .vlist .vcard .vh {
-    padding-right: 20px;
-  }
-
-  .v .vlist .vcard {
-    padding-left: 10px;
-  }
-</style>
-
- 
+  
    
   
    
