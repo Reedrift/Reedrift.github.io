@@ -6,7 +6,7 @@
   <link href="https://reedrift.github.io/atom.xml" rel="self"/>
   
   <link href="https://reedrift.github.io/"/>
-  <updated>2025-05-18T06:45:44.040Z</updated>
+  <updated>2025-05-18T10:21:47.225Z</updated>
   <id>https://reedrift.github.io/</id>
   
   <author>
@@ -21,10 +21,10 @@
     <link href="https://reedrift.github.io/2025/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/"/>
     <id>https://reedrift.github.io/2025/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/</id>
     <published>2025-05-15T05:26:33.000Z</published>
-    <updated>2025-05-18T06:45:44.040Z</updated>
+    <updated>2025-05-18T10:21:47.225Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;Chapter-8&quot;&gt;&lt;a href=&quot;#Chapter-8&quot; class=&quot;headerlink&quot; title=&quot;Chapter-8&quot;&gt;&lt;/a&gt;Chapter-8&lt;/h2&gt;&lt;h3 id=&quot;Inclusion-Exclusion&quot;&gt;&lt;a href=&quot;#Inclusion-Exclusion&quot; class=&quot;headerlink&quot; title=&quot;Inclusion-Exclusion&quot;&gt;&lt;/a&gt;Inclusion-Exclusion&lt;/h3&gt;&lt;p&gt;Let $A_1,A_2,&#92;cdots A_n$ be finite sets, then&lt;/p&gt;
+    <summary type="html">&lt;h2 id=&quot;Chapter-8-Inclusion-Exclusion&quot;&gt;&lt;a href=&quot;#Chapter-8-Inclusion-Exclusion&quot; class=&quot;headerlink&quot; title=&quot;Chapter-8 Inclusion-Exclusion&quot;&gt;&lt;/a&gt;Chapter-8 Inclusion-Exclusion&lt;/h2&gt;&lt;h3 id=&quot;Inclusion-Exclusion&quot;&gt;&lt;a href=&quot;#Inclusion-Exclusion&quot; class=&quot;headerlink&quot; title=&quot;Inclusion-Exclusion&quot;&gt;&lt;/a&gt;Inclusion-Exclusion&lt;/h3&gt;&lt;p&gt;Let $A_1,A_2,&#92;cdots A_n$ be finite sets, then&lt;/p&gt;
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;
 &#92;begin{align}
 |A_1&#92;cup A_2&#92;cup&#92;cdots&#92;cup A_n|

@@ -3,7 +3,7 @@
   <entry>
     <title>离散数学</title>
     <url>/2025/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Chapter-8"><a href="#Chapter-8" class="headerlink" title="Chapter-8"></a>Chapter-8</h2><h3 id="Inclusion-Exclusion"><a href="#Inclusion-Exclusion" class="headerlink" title="Inclusion-Exclusion"></a>Inclusion-Exclusion</h3><p>Let $A_1,A_2,\cdots A_n$ be finite sets, then</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Chapter-8-Inclusion-Exclusion"><a href="#Chapter-8-Inclusion-Exclusion" class="headerlink" title="Chapter-8 Inclusion-Exclusion"></a>Chapter-8 Inclusion-Exclusion</h2><h3 id="Inclusion-Exclusion"><a href="#Inclusion-Exclusion" class="headerlink" title="Inclusion-Exclusion"></a>Inclusion-Exclusion</h3><p>Let $A_1,A_2,\cdots A_n$ be finite sets, then</p>
 <script type="math/tex; mode=display">
 \begin{align}
 |A_1\cup A_2\cup\cdots\cup A_n|
