@@ -114,7 +114,7 @@ var _hmt = _hmt || [];
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">743</span>
+            <span class="post-count">738</span>
         </span>
     </span>
 
@@ -184,7 +184,7 @@ C_n&=C_0C_{n-1}+C_1C_{n-2}+\cdots+C_{n-2}C_1+C_{n-1}C_0\\
 &=\sum_{k=0}^{n-1}C_kC_{n-k-1}\\
 &=\frac{C(2n,n)}{n+1} 
 \end{align}</script><span id="more"></span>
-<h3 id="Linear-Recurrence-Relations"><a href="#Linear-Recurrence-Relations" class="headerlink" title="Linear Recurrence Relations"></a>Linear Recurrence Relations</h3><p>Linear homogeneous recurrence relation with constant coefficients refers to a recurrence relation of the form</p>
+<h3 id="LRR"><a href="#LRR" class="headerlink" title="LRR"></a>LRR</h3><p>Linear homogeneous recurrence relation with constant coefficients refers to a recurrence relation of the form</p>
 <script type="math/tex; mode=display">a_n=c_1a_{n-1}+c_2a_{n-2}+\cdots+c_ka_{n-k}</script><p>where $c_1,c_2,\cdots,c_k$ are real numbers, and $c_k\neq0$</p>
 <p>Suppose that the characteristic equation $r^k-c_1r^{k-1}-\cdots-c_k=0$has $k$ distinct roots $r_1,r_2,\cdots,r_k$ Then a sequence $\{a_n\}$ is a solution of the recurrence relation</p>
 <script type="math/tex; mode=display">
@@ -201,7 +201,7 @@ a_n
 a_n=c_1a_{n-1}+c_2a_{n-2}+\cdots+c_ka_{n-k}+F(n)</script><p>then every solution is of the form $\{a_n^{(p)}+a_n^{(h)}\}$ where $\{a_n^{(h)}\}$ is a solution of the associated homogeneous recurrence relation </p>
 <p>Suppose that $F(n)=(b_tn^t+b_{t-1}n^{t-1}+\cdots+b_1n+b_0)s^n$ , the multiplicity of $s$ in the characteristic equation is $m$ ,there is a particular solution of the form</p>
 <script type="math/tex; mode=display">
-n^m(p_tn^t+p_{t-1}n^{t-1}+\cdots+p_1n+p_0)s^n</script><h3 id="Divide-and-Conquer-Algorithm"><a href="#Divide-and-Conquer-Algorithm" class="headerlink" title="Divide-and-Conquer Algorithm"></a>Divide-and-Conquer Algorithm</h3><p>Let $f$ be an increasing function that satisfies the recurrence relation</p>
+n^m(p_tn^t+p_{t-1}n^{t-1}+\cdots+p_1n+p_0)s^n</script><h3 id="Divide-and-Conquer"><a href="#Divide-and-Conquer" class="headerlink" title="Divide-and-Conquer"></a>Divide-and-Conquer</h3><p>Let $f$ be an increasing function that satisfies the recurrence relation</p>
 <script type="math/tex; mode=display">
 f(n)=af(n/b)+c</script><p>whenever $n$ is divisible by $b$ , where $a\geq1$ , $b\in Z^+,b&gt;1,c\in R^+$</p>
 <script type="math/tex; mode=display">
@@ -222,9 +222,9 @@ O(n^d\log n)&a=b^d\\
 O(n^{\log_ba})&a>b^d
 \end{cases}</script><h3 id="Generating-Functions"><a href="#Generating-Functions" class="headerlink" title="Generating Functions"></a>Generating Functions</h3><p>The generating function for the sequence $a_0,a_1,\cdots,a_k,\cdots$ of real numbers is the infinite series</p>
 <script type="math/tex; mode=display">
-G(x)=a_0+a_1x+\cdots+a_kx^k+\cdots=\sum_{k=0}^\infty a_kx^k</script><h3 id="The-Extended-Binomial-Theorem"><a href="#The-Extended-Binomial-Theorem" class="headerlink" title="The Extended Binomial Theorem"></a>The Extended Binomial Theorem</h3><p>Let $x$ be a real number with $|x|&lt;1$ and let $u$ be a real number, then</p>
+G(x)=a_0+a_1x+\cdots+a_kx^k+\cdots=\sum_{k=0}^\infty a_kx^k</script><h3 id="Extended-Binomial-Theorem"><a href="#Extended-Binomial-Theorem" class="headerlink" title="Extended Binomial Theorem"></a>Extended Binomial Theorem</h3><p>Let $x$ be a real number with $|x|&lt;1$ and let $u$ be a real number, then</p>
 <script type="math/tex; mode=display">
-(1+x)^u=\sum_{k=0}^\infty\begin{pmatrix}u\\k\end{pmatrix}x^k</script><h3 id="Useful-Generating-Functions"><a href="#Useful-Generating-Functions" class="headerlink" title="Useful Generating Functions"></a>Useful Generating Functions</h3><div class="table-container">
+(1+x)^u=\sum_{k=0}^\infty\begin{pmatrix}u\\k\end{pmatrix}x^k</script><h3 id="Useful-GFunctions"><a href="#Useful-GFunctions" class="headerlink" title="Useful GFunctions"></a>Useful GFunctions</h3><div class="table-container">
 <table>
 <thead>
 <tr>
@@ -381,7 +381,7 @@ D_n&=n!(1-\frac{1}{1!}+\frac{1}{2!}-\frac{1}{3!}+\cdots+(-1)^n\frac{1}{n!})\\
 </table>
 </div>
 <p>The relation $R$ on a set $A$ is transitive if and only if $R^n\subseteq R$ for $n=1,2,3\cdots$</p>
-<h3 id="n-ary-Relations-and-Applications"><a href="#n-ary-Relations-and-Applications" class="headerlink" title="n-ary Relations and Applications"></a>n-ary Relations and Applications</h3><p>An n-ary relation is a subset of $A_1\times A_2\times\cdots\times A_n$<br>The sets $A_1,A_2,\cdots,A_n$ are called the domains of the relation, $n$ is called its degree<br>A domain is a primary key when no two n-tuples in the relation have the same value</p>
+<h3 id="n-ary-Relations"><a href="#n-ary-Relations" class="headerlink" title="n-ary Relations"></a>n-ary Relations</h3><p>An n-ary relation is a subset of $A_1\times A_2\times\cdots\times A_n$<br>The sets $A_1,A_2,\cdots,A_n$ are called the domains of the relation, $n$ is called its degree<br>A domain is a primary key when no two n-tuples in the relation have the same value</p>
 <h3 id="Matrices-Relations"><a href="#Matrices-Relations" class="headerlink" title="Matrices-Relations"></a>Matrices-Relations</h3><p>$R$ is symmetric if and only if $M_R=(M_R)^t$<br>$\begin{cases}M_{R_1\cup R_2}=M_{R_1}\lor M_{R_2}\\M_{R_1\cap R_2}=M_{R_1}\land M_{R_2}\\M_{S\circ R}=M_R\odot M_S\end{cases}$ </p>
 <h3 id="Closures-of-Relations"><a href="#Closures-of-Relations" class="headerlink" title="Closures of Relations"></a>Closures of Relations</h3><p>the closure of $R$ with respect to $P$ is the relation $S$ on $A$ with property $P$ that contains $R$  and is a subset of every subset containing $R$ with property $P$</p>
 <p>There is a path of length $n$ from $a$ to $b$ if and only if $(a,b)\in R^n$</p>
@@ -540,7 +540,7 @@ D_n&=n!(1-\frac{1}{1!}+\frac{1}{2!}-\frac{1}{3!}+\cdots+(-1)^n\frac{1}{n!})\\
 <p>A graph is k-connected (or k-vertex-connected), if $\kappa(G)\geq k$ </p>
 <p>The edge connectivity of a graph $G$ , denoted by $\lambda(G)$ is the minimum number of edges in an edge cut of $G$</p>
 <p>An inequality for vertex connectivity and edge connectivity $\kappa(G)\leq\lambda(G)\leq\min_{v\in V}\deg(v)$</p>
-<h3 id="Connectedness-in-Directed-Graphs"><a href="#Connectedness-in-Directed-Graphs" class="headerlink" title="Connectedness in Directed Graphs"></a>Connectedness in Directed Graphs</h3><p>A directed graph is strongly connected if there is a path from $a$ to $b$ and from $b$ to $a$ whenever $a$ and $b$ are vertices in the graph.</p>
+<h3 id="Connectedness-in-Digraphs"><a href="#Connectedness-in-Digraphs" class="headerlink" title="Connectedness in Digraphs"></a>Connectedness in Digraphs</h3><p>A directed graph is strongly connected if there is a path from $a$ to $b$ and from $b$ to $a$ whenever $a$ and $b$ are vertices in the graph.</p>
 <p>A directed graph is weakly connected if there is a path between every two vertices in the underlying undirected graph.</p>
 <p>The strongly connected components of $G$ is the subgraphs that are strongly connected but not contained in larger strongly connected subgraphs.</p>
 <h3 id="Euler-Paths-and-Circuits"><a href="#Euler-Paths-and-Circuits" class="headerlink" title="Euler Paths and Circuits"></a>Euler Paths and Circuits</h3><p>A Euler circuit in a graph $G$ is a simple circuit containing every edge of $G$ .<br>An Euler path in $G$ is a simple path containing every edge of $G$</p>
@@ -1023,23 +1023,6 @@ D_n&=n!(1-\frac{1}{1!}+\frac{1}{2!}-\frac{1}{3!}+\cdots+(-1)^n\frac{1}{n!})\\
     
 
   </div>
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        tex2jax: {
-            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
-            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
-            processEscapes: true
-        }
-    });
-    MathJax.Hub.Queue(function() {
-        var all = MathJax.Hub.getAllJax();
-        for (var i = 0; i < all.length; ++i)
-            all[i].SourceElement().parentNode.className += ' has-jax';
-    });
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-<!--script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
 </body>
 
 </html>

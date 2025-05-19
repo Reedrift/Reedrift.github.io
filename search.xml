@@ -1,6 +1,892 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>关于博主</title>
+    <url>/2025/%E5%85%B3%E4%BA%8E%E5%8D%9A%E4%B8%BB/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><ul>
+<li>试图记录大学生活，并活得更多姿多彩的理想主义者</li>
+<li>热爱 JPOP ，喜欢听纯音乐并在咕小提琴的音乐爱好者</li>
+<li>试图让自己变得更加容易接近的小 i 人</li>
+<li>在某些场合下可能表现得有些自恋的帅锅 qwq</li>
+<li>在高中语文老师的启发下正在看书脱离文盲状态<span id="more"></span>
+</li>
+</ul>
+<p><img src="/pictures/个人照片.jpg" alt="你浙什么时候改善宿舍环境" style="display: block; margin: 0 auto; width: 30%;"><br>其它的暂时懒得写了qwq，咕咕咕</p>
+]]></content>
+      <tags>
+        <tag>个人资料</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>微积分甲I</title>
+    <url>/2025/%E5%BE%AE%E7%A7%AF%E5%88%86%E7%94%B2I/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="Chapter-1-数列极限"><a href="#Chapter-1-数列极限" class="headerlink" title="Chapter-1 数列极限"></a>Chapter-1 数列极限</h3><h4 id="数列极限定义"><a href="#数列极限定义" class="headerlink" title="数列极限定义"></a>数列极限定义</h4><p>设 $\{a_n\}$ 是 $\mathrm{R}$ 中的一个数列，如果存在 $a\in\mathrm{R}$ 使得 $\forall \varepsilon&gt;0,\exists N\in\mathrm{N_+}$ ，当 $n\geq N$ 时，都有 $|a_n-a|&lt;\varepsilon$ ，就称数列 $\{a_n\}$ 是收敛于 $a$ 的，记为 $\begin{aligned}\lim_{n\rightarrow\infty}a_n=a\end{aligned}$ ,称 $a$ 是数列 $\{a_n\}$ 的极限<br><span id="more"></span></p>
+<h4 id="数列极限性质"><a href="#数列极限性质" class="headerlink" title="数列极限性质"></a>数列极限性质</h4><p><strong>唯一性</strong>  如果数列 $\{a_n\}$ 收敛，那么其极限是唯一的</p>
+<p><strong>有界性</strong>  如果数列 $\{a_n\}$ 收敛，那么 $\{a_n\}$ 是有界的，即 $\exists M&gt;0,\forall n\in\mathrm{N_+},|a_n|\leq M$</p>
+<p><strong>保号性</strong>  如果 $\begin{aligned}\lim_{n\rightarrow\infty}a_n=a&gt;0\end{aligned}$ 那么 $\forall p\in(0,a),\exists N&gt;0$ 当 $n\geq N$ 时 $a_n&gt;p&gt;0$</p>
+<h4 id="夹逼定理"><a href="#夹逼定理" class="headerlink" title="夹逼定理"></a>夹逼定理</h4><p>设数列 $\{a_n\},\{b_n\},\{c_n\}$ 满足当 $n\geq N_0\in\mathrm{N}_+$ 时，有 $b_n\leq a_n\leq c_n$ 并且 $\begin{aligned}\lim_{n\rightarrow\infty}b_n=\lim_{n\rightarrow\infty}c_n=a\end{aligned}$ ，则数列 $\{a_n\}$ 也是收敛的，且 $\begin{aligned}\lim_{n\rightarrow\infty}a_n=a\end{aligned}$</p>
+<h4 id="波尔查诺-魏尔斯特拉斯定理"><a href="#波尔查诺-魏尔斯特拉斯定理" class="headerlink" title="波尔查诺-魏尔斯特拉斯定理"></a>波尔查诺-魏尔斯特拉斯定理</h4><p>设 $\{a_n\}$ 是 $\mathrm{R}$ 中的一个有界数列，则数列 $\{a_n\}$ 中存在收敛的子列</p>
+<h4 id="柯西准则"><a href="#柯西准则" class="headerlink" title="柯西准则"></a>柯西准则</h4><p>设 $a_n$ 是 $\mathrm{R}$ 中的一个数列，若对于任意 $\varepsilon&gt;0$ ，存在正整数 $N$ ，当 $m,n\geq N$ 时， $|a_m-a_n|&lt;\varepsilon$ 则称 $\{a_n\}$ 是柯西数列，$\{a_n\}$ 收敛当且仅当 $\{a_n\}$ 是柯西数列</p>
+<h4 id="施托尔茨第一公式"><a href="#施托尔茨第一公式" class="headerlink" title="施托尔茨第一公式"></a>施托尔茨第一公式</h4><p>给定数列 $\{x_n\},\{y_n\}$ ，若 $\{x_n\}$ 单调增加，且 $\begin{aligned}\lim_{x\rightarrow+\infty}x_n=+\infty\end{aligned}$ ,</p>
+<p>若 $\begin{aligned}\lim_{n\rightarrow+\infty}\frac{y_n-y_{n-1}}{x_n-x_{n-1}}=a\end{aligned}$ ，那么有 $\begin{aligned}\lim_{n\rightarrow+\infty}\frac{y_n}{x_n}=a\end{aligned}$ ，其中 $a$ 可以是实数也可以是 $\pm\infty$</p>
+<h4 id="施托尔茨第二公式"><a href="#施托尔茨第二公式" class="headerlink" title="施托尔茨第二公式"></a>施托尔茨第二公式</h4><p>给定数列 $\{x_n\},\{y_n\}$ ，若$\{x_n\}$ 单调减少，且 $\begin{aligned}\lim_{n\rightarrow+\infty}x_n=\lim_{n\rightarrow+\infty}y_n=0\end{aligned}$ ，</p>
+<p>若$\begin{aligned}\lim_{n\rightarrow+\infty}\frac{y_n-y_{n-1}}{x_n-x_{n-1}}=a\end{aligned}$ ，那么有 $\begin{aligned}\lim_{n\rightarrow+\infty}\frac{y_n}{x_n}=a\end{aligned}$ ，其中 $a$ 可以是实数也可以是 $\pm\infty$</p>
+<hr>
+<h3 id="Chapter-2-函数的极限与连续性"><a href="#Chapter-2-函数的极限与连续性" class="headerlink" title="Chapter-2 函数的极限与连续性"></a>Chapter-2 函数的极限与连续性</h3><h4 id="函数极限"><a href="#函数极限" class="headerlink" title="函数极限"></a>函数极限</h4><p>设 $f:D\rightarrow\mathrm{R}$ ，$D$ 是 $\mathrm{R}$ 的子集并且包含 $x_0$ 的某去心邻域，如果存在 $A\in\mathrm{R}$ ，使得对于任意的 $\varepsilon&gt;0,\exists \delta&gt;0$ ，当 $x\in \mathring{U}(x_0,\delta)\cap D$ 时，有 $|f(x)-A|&lt;\varepsilon$ ，就称 $x$ 趋于 $x_0$ 时，$f(x)$ 趋于 $A$ ，记为 $\begin{aligned}\lim_{x\rightarrow x_0}f(x)=A\end{aligned}$</p>
+<h4 id="归结原理"><a href="#归结原理" class="headerlink" title="归结原理"></a>归结原理</h4><p>设 $f:D\subset\mathrm{R}\rightarrow\mathrm{R},\exists\mathring{U}(x_0)\subset D$ ，则 $\begin{aligned}\lim_{x\rightarrow x_0}f(x)=A\end{aligned}$ 的充要条件为：对于任意满足 $\begin{aligned}\lim_{n\rightarrow\infty}x_n=x_0,x_n\neq x_0,n=1,2,3,\cdots\end{aligned}$ 的数列 $\{x_n\}$ ，其对应的函数值数列 $\{f(x_n)\}$ 均有 $\begin{aligned}\lim_{n\rightarrow\infty}f(x_n)=A\end{aligned}$</p>
+<h4 id="函数极限性质"><a href="#函数极限性质" class="headerlink" title="函数极限性质"></a>函数极限性质</h4><p><strong>唯一性</strong> 若函数在某点有极限，则极限是唯一的</p>
+<p><strong>局部有界性</strong> 设 $\begin{aligned}f:D\subset\mathrm{R}\rightarrow\mathrm{R},\lim_{x\rightarrow x_0}f(x)\end{aligned}$ 存在，则 $f(x)$ 在 $x_0$ 的某去心邻域内有界，即 $\exists M&gt;0,\delta&gt;0$ 当 $0&lt;|x-x_0|&lt;\delta$ 时， $|f(x)|&lt;M$</p>
+<p><strong>局部保号性</strong> 如果 $\begin{aligned}\lim_{x\rightarrow x_0}f(x)=A&gt;0\end{aligned}$ ，那么 $\forall p\in(0,A),\exists\delta&gt;0,\forall x\in\mathring{U}(x_0,\delta),f(x)&gt;p&gt;0$</p>
+<h4 id="夹逼定理-1"><a href="#夹逼定理-1" class="headerlink" title="夹逼定理"></a>夹逼定理</h4><p>设 $f,g,h:D\subset\mathrm{R}\rightarrow\mathrm{R}$ ，$D$ 包含 $x_0$ 的某去心邻域 $\mathring{U}(x_0,\delta)$ ，如果 $\forall x\in\mathring{U}(x,\delta)$ ，有 $g(x)\leq f(x)\leq h(x)$ ，且满足 $\begin{aligned}\lim_{x\rightarrow x_0}g(x)=\lim_{x\rightarrow x_0}h(x)=A\end{aligned}$  那么有 $\begin{aligned}\lim_{x\rightarrow x_0}f(x)=A\end{aligned}$</p>
+<h4 id="单侧极限"><a href="#单侧极限" class="headerlink" title="单侧极限"></a>单侧极限</h4><p>$\begin{aligned}\lim_{x\rightarrow x_0}f(x)=A\Leftrightarrow\lim_{x\rightarrow x_0^-}f(x)=\lim_{x\rightarrow x_0^+}f(x)=A\end{aligned}$</p>
+<p>$\begin{aligned}\lim_{x\rightarrow \infty}f(x)=A\Leftrightarrow\lim_{x\rightarrow -\infty}f(x)=\lim_{x\rightarrow +\infty}f(x)=A\end{aligned}$</p>
+<h4 id="函数连续"><a href="#函数连续" class="headerlink" title="函数连续"></a>函数连续</h4><p>设 $f:D\subset\mathrm{R}\rightarrow\mathrm{R}$ ，$D$ 包含 $x_0$ 的某个邻域，如果 $\begin{aligned}\lim_{x\rightarrow x_0}f(x)=f(x_0)\end{aligned}$ 则称 $f$ 在 $x_0$ 处连续</p>
+<p><strong>第一类间断点</strong> 左极限 $\begin{aligned}\lim_{x\rightarrow x_0^-}f(x)\end{aligned}$ 和右极限 $\begin{aligned}\lim_{x\rightarrow x_0^+}f(x)\end{aligned}$ 都存在但 $f$ 在 $x_0$ 处不连续</p>
+<p><strong>跳跃间断点</strong> $\begin{aligned}\lim_{x\rightarrow x_0^-}f(x)\neq\lim_{x\rightarrow x_0^+}f(x)\end{aligned}$</p>
+<p><strong>可去间断点</strong> $\begin{aligned}\lim_{x\rightarrow x_0}f(x)\neq f(x_0)\end{aligned}$ 或 $f(x)$ 在 $x_0$ 处没有定义</p>
+<p><strong>第二类间断点</strong> 如果 $f$ 在 $x_0$ 处的左右极限至少有一个不存在</p>
+<h4 id="函数一致连续"><a href="#函数一致连续" class="headerlink" title="函数一致连续"></a>函数一致连续</h4><p>设函数 $f:I\rightarrow\mathrm{R}$ ，如果 $\forall\varepsilon&gt;0,\exists\delta&gt;0$ ，使得 $\forall x_1,x_2\in I$ ，当 $|x_1,x_2|&lt;\delta$ 时，都有 $|f(x_1)-f(x_2)|&lt;\varepsilon$ ，就称函数 $f$ 在区间 $I$ 上一致连续</p>
+<h4 id="康托尔定理"><a href="#康托尔定理" class="headerlink" title="康托尔定理"></a>康托尔定理</h4><p>设函数 $f(x)$ 在有限闭区间 $[a,b]$ 上连续，则 $f(x)$ 在 $[a,b]$ 上一致连续</p>
+<h4 id="无穷小"><a href="#无穷小" class="headerlink" title="无穷小"></a>无穷小</h4><p>设 $f(x),g(x)$ 是当 $x\rightarrow x_0$ 时的无穷小，且 $g(x)\neq0$</p>
+<p>若 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=0\end{aligned}$ ，则称 $f(x)$ 是比 $g(x)$ 高阶的无穷小（更快趋于 $0$ ）记为 $f(x)=o(g(x))$</p>
+<p>若 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=0\end{aligned}$ ，则称 $g(x)$ 是比 $f(x)$ 低阶的无穷小（更慢趋于 $0$ ）记为 $f(x)=o(g(x))$</p>
+<p>若 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=A\neq0\end{aligned}$ ，则称 $f(x)$ 与 $g(x)$ 是同阶无穷小，记为 $f(x)=O(g(x))$</p>
+<p>若 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=0\end{aligned}$ ，则称 $f(x)$ 与 $g(x)$ 是等价无穷小，记为 $f(x)\sim g(x)$</p>
+<h4 id="无穷大"><a href="#无穷大" class="headerlink" title="无穷大"></a>无穷大</h4><p>设 $f(x),g(x)$ 是当 $x\rightarrow x_0$ 时的无穷大</p>
+<p>若 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=0\end{aligned}$ ，则称 $f(x)$ 是比 $g(x)$ 低阶的无穷大（增长更慢 ）</p>
+<p>若 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=0\end{aligned}$ ，则称 $g(x)$ 是比 $f(x)$ 高阶的无穷大（增长更快）</p>
+<p>若 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=A\neq0\end{aligned}$ ，则称 $f(x)$ 与 $g(x)$ 是同阶无穷大</p>
+<p>若 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=0\end{aligned}$ ，则称 $f(x)$ 与 $g(x)$ 是等价无穷大</p>
+<h4 id="等价无穷小替换"><a href="#等价无穷小替换" class="headerlink" title="等价无穷小替换"></a>等价无穷小替换</h4><p>设 $f,g,\alpha,\beta$ 当 $x\rightarrow x_0$ 时是无穷小，且 $f\sim\alpha,g\sim\beta$ ，如果 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{\alpha(x)}{\beta(x)}\end{aligned}$ 存在，</p>
+<p>那么有 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=\lim_{x\rightarrow x_0}\frac{\alpha(x)}{\beta(x)}\end{aligned}$</p>
+<h4 id="有限闭区间上连续函数的性质"><a href="#有限闭区间上连续函数的性质" class="headerlink" title="有限闭区间上连续函数的性质"></a>有限闭区间上连续函数的性质</h4><p>有界性、最大值最小值定理、零点存在定理、介值定理、不动点</p>
+<hr>
+<h3 id="Chapter-3-导数与微分"><a href="#Chapter-3-导数与微分" class="headerlink" title="Chapter-3 导数与微分"></a>Chapter-3 导数与微分</h3><h4 id="导数定义"><a href="#导数定义" class="headerlink" title="导数定义"></a>导数定义</h4><p>设函数 $y=f(x)$ 在 $x_0$ 的某个邻域内有定义，如果极限 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{f(x)-f(x_0)}{x-x_0}\end{aligned}$ 存在，就称 $f$ 在 $x_0$ 处可导，$x_0$ 是 $f$ 的可导点，极限值为 $f$ 在 $x_0$ 处的导数，记为 $f’(x_0)$</p>
+<h4 id="单侧导数"><a href="#单侧导数" class="headerlink" title="单侧导数"></a>单侧导数</h4><p>若函数 $f$ 在 $x_0$ 的某个邻域内有定义，则 $f$ 在 $x_0$ 处可导当且仅当 $f$ 在 $x_0$ 处分别左右导数相等</p>
+<h4 id="反函数求导"><a href="#反函数求导" class="headerlink" title="反函数求导"></a>反函数求导</h4><p>函数 $y=f(x)$ 在 $U(x_0)$ 严格单调，在 $x_0$ 可导且 $f’(x_0)\neq0,y_0=f(x_0),g:U(y_0)\rightarrow U(x_0)$ 为 $y=f(x)$ 的反函数，则函数 $g$ 在 $y_0$ 处可导，且 $g’(y_0)=\dfrac{1}{f’(x_0)}$</p>
+<p>由 $y_0=f(x_0)$ 有 $g’(f(x_0))=\dfrac{1}{f’(x_0)}$ ，即 $g’(x)=\dfrac{1}{f’(g(x))}$</p>
+<h4 id="参数方程的导数"><a href="#参数方程的导数" class="headerlink" title="参数方程的导数"></a>参数方程的导数</h4><p>对于参数方程 $\begin{cases}x=\varphi(t)\\y=\psi(t)\end{cases}$ 有 $\dfrac{\mathrm{d}x}{\mathrm{d}t}=\varphi’(t)，\dfrac{\mathrm{d}y}{\mathrm{d}t}=\psi’(t)$  则 $\dfrac{\mathrm{d}y}{\mathrm{d}x}=\dfrac{\psi’(t)}{\varphi’(t)}$ </p>
+<p>参数方程的导数可以表示为 $\begin{cases}x=\varphi(t)\\y=\dfrac{\psi’(t)}{\varphi’(t)}\end{cases}$  或 $\dfrac{\mathrm{d}y}{\mathrm{d}x}=\dfrac{\psi’(t)}{\varphi’(t)}\bigg|_{t=\varphi^{-1}(x)}$</p>
+<h4 id="莱布尼茨公式"><a href="#莱布尼茨公式" class="headerlink" title="莱布尼茨公式"></a>莱布尼茨公式</h4><p>若函数 $u,v$ 均 $n$ 阶可导，则乘积函数 $uv$ 也 $n$ 阶可导</p>
+<p>$\begin{aligned}(uv)^{(n)}=\sum_{k=0}^n\begin{pmatrix}n\\k\end{pmatrix}u^{(n-k)}v^{(k)}\end{aligned}$</p>
+<h4 id="微分定义"><a href="#微分定义" class="headerlink" title="微分定义"></a>微分定义</h4><p>设 $y=f(x)$ 在 $x_0$ 某个邻域内有定义， $\Delta x$ 是自变量的一个改变量，如果存在不依赖于 $\Delta x$ 的常数 $A$ ，使得当 $|\Delta x|$ 充分小时，函数的增量 </p>
+<p>$\Delta y=f(x_0+\Delta x)-f(x_0)=A\Delta x+o(\Delta x),\Delta x\rightarrow 0$</p>
+<p>那么称 $f$ 在 $x_0$ 处可微，称 $A\Delta x$ 为 $f$ 在 $x_0$ 处的微分，记为 $\mathrm{d}y|_{x=x_0}=A\Delta{x}$</p>
+<h4 id="近似估计与误差分析"><a href="#近似估计与误差分析" class="headerlink" title="近似估计与误差分析"></a>近似估计与误差分析</h4><p>$f(x_0+\Delta{x})\approx f(x_0)+f’(x_0)\Delta x$</p>
+<p>在测量某个值 $x^<em>$ 时得到的 $x$ 是一个近似值，程 $|x-x^</em>|$ 为绝对误差， $\dfrac{|x-x^*|}{|x|}$ 为相对误差 </p>
+<p>如果存在 $\delta_x&gt;0$ 使 $|x-x^*|\leq\delta_x$ ，则称 $\delta_x$ 为绝对误差限，$\dfrac{\delta_x}{|x|}$ 称为相对误差限</p>
+<hr>
+<h3 id="Chapter-4-微分中值定理"><a href="#Chapter-4-微分中值定理" class="headerlink" title="Chapter-4 微分中值定理"></a>Chapter-4 微分中值定理</h3><h4 id="函数极值"><a href="#函数极值" class="headerlink" title="函数极值"></a>函数极值</h4><p>设函数 $f$ 在 $x_0$ 的某个邻域内有定义，如果存在 $\delta&gt;0$ 使得对于任何 $x\in(x_0-\delta,x_0+\delta)$ 恒有 $f(x)\leq f(x_0)$ ,就称 $f(x_0)$ 是函数 $f$ 的一个极大值， $x=x_0$ 为极大值点</p>
+<h4 id="费马定理"><a href="#费马定理" class="headerlink" title="费马定理"></a>费马定理</h4><p>设 $x_0$ 为函数 $f$ 的极值点，如果 $f$ 在 $x_0$ 处可导，则 $f’(x_0)=0$</p>
+<h4 id="罗尔定理"><a href="#罗尔定理" class="headerlink" title="罗尔定理"></a>罗尔定理</h4><p>如果函数 $f$ 满足在闭区间 $[a,b]$ 上连续，在开区间 $(a,b)$ 内可导，$f(a)=f(b)$ </p>
+<p>那么至少存在一点 $\xi\in(a,b)$ 使得 $f’(\xi)=0$</p>
+<h4 id="拉格朗日中值定理"><a href="#拉格朗日中值定理" class="headerlink" title="拉格朗日中值定理"></a>拉格朗日中值定理</h4><p>如果函数 $f$ 满足在闭区间 $[a,b]$ 上连续，在开区间 $(a,b)$ 内可导</p>
+<p>那么至少存在一点 $\xi\in(a,b)$ 使得 $f’(\xi)=\dfrac{f(b)-f(a)}{b-a}$</p>
+<h4 id="柯西中值定理"><a href="#柯西中值定理" class="headerlink" title="柯西中值定理"></a>柯西中值定理</h4><p>设函数 $f,g$ 在 $[a,b]$ 上连续，在 $(a,b)$ 内可导，且 $g’$ 在 $(a,b)$ 内没有零点</p>
+<p>则至少存在一点 $\xi\in(a,b)$ ，使得 $\dfrac{f’(\xi)}{g’(\xi)}=\dfrac{f(b)-f(a)}{g(b)-g(a)}$</p>
+<h4 id="洛必达法则"><a href="#洛必达法则" class="headerlink" title="洛必达法则"></a>洛必达法则</h4><p>如果函数 $f$ 和 $g$ 在 $x_0$ 的某去心邻域 $\mathring{U}(x_0)$ 内可导，且 $g’\neq0$ </p>
+<p>如果 $\begin{aligned}\lim_{x\rightarrow x_0}f(x)=\lim_{x\rightarrow x_0}g(x)=0\end{aligned}$ ，且极限 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{f’(x)}{g’(x)}\end{aligned}=A$ （或 $\infty$ ）</p>
+<p>那么有$\begin{aligned}\lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=\lim_{x\rightarrow x_0}\frac{f’(x)}{g’(x)}\end{aligned}$</p>
+<p>如果函数 $f$ 和 $g$ 在 $x_0$ 的某去心邻域 $\mathring{U}(x_0)$ 内可导，且 $g’\neq0$ </p>
+<p>如果 $\begin{aligned}\lim_{x\rightarrow x_0}g(x)=\infty\end{aligned}$ ，且极限 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{f’(x)}{g’(x)}\end{aligned}=A$ （或 $\infty$ ）</p>
+<p>那么有$\begin{aligned}\lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=\lim_{x\rightarrow x_0}\frac{f’(x)}{g’(x)}\end{aligned}$</p>
+<h4 id="带佩亚诺余项的泰勒公式"><a href="#带佩亚诺余项的泰勒公式" class="headerlink" title="带佩亚诺余项的泰勒公式"></a>带佩亚诺余项的泰勒公式</h4><p>$f(x)=f(x_0)+f’(x_0)(x-x_0)+\cdots+\dfrac{f^{(n)}(x_0)}{n!}(x-x_0)^n+o((x-x_0)^n)$</p>
+<h4 id="带拉格朗日余项的泰勒公式"><a href="#带拉格朗日余项的泰勒公式" class="headerlink" title="带拉格朗日余项的泰勒公式"></a>带拉格朗日余项的泰勒公式</h4><p>$f(x)=f(x_0)+f’(x_0)(x-x_0)+\cdots+\dfrac{f^{(n)}(x_0)}{n!}(x-x_0)^n+\dfrac{f^{(n+1)}(\xi)}{(n+1)!}(x-x_0)^{n+1}$</p>
+<h4 id="极值第一判别法"><a href="#极值第一判别法" class="headerlink" title="极值第一判别法"></a>极值第一判别法</h4><p>如果 $f$ 在 $x_0$ 的某邻域内连续， $f’$ 在 $x_0$ 两侧异号，那么 $x_0$ 必定是 $f$ 的极值点</p>
+<h4 id="极值第二判别法"><a href="#极值第二判别法" class="headerlink" title="极值第二判别法"></a>极值第二判别法</h4><p>假设 $f$ 在 $x_0$ 的某邻域内连续，且在 $x_0$ 处二阶可导，如果 $f’(x_0)=0,f’’(x_0)\neq0$ </p>
+<p>则 $x_0$ 必定是 $f$ 的极值点</p>
+<h4 id="凹凸性判别法"><a href="#凹凸性判别法" class="headerlink" title="凹凸性判别法"></a>凹凸性判别法</h4><p>设 $f$ 在区间 $[a,b]$ 上连续，在 $(a,b)$ 内可导</p>
+<p>曲线 $f$ 在 $[a,b]$ 上是凹的，当且仅当在 $(a,b)$ 内恒有 $f’’\geq0$</p>
+<p>曲线 $f$ 在 $[a,b]$ 上是凸的，当且仅当在 $(a,b)$ 内恒有 $f’’\leq 0$</p>
+<h4 id="渐近线"><a href="#渐近线" class="headerlink" title="渐近线"></a>渐近线</h4><p>当 $x\rightarrow x_0$ 时， $f(x)\rightarrow\infty$ ，则直线 $x=x_0$ 是 $y=f(x)$ 的一条垂直渐近线</p>
+<p>$\begin{aligned}a=\lim_{x\rightarrow+\infty}\frac{f(x)}{x},b=\lim_{x\rightarrow+\infty}[f(x)-ax]\end{aligned}$ </p>
+<p>若 $a\neq0$ 则 $y=ax+b$ 为曲线的斜渐近线，否则 $y=b$ 为曲线的水平渐近线</p>
+<h4 id="曲率与曲率半径"><a href="#曲率与曲率半径" class="headerlink" title="曲率与曲率半径"></a>曲率与曲率半径</h4><p>$\begin{aligned}K=\lim_{l\rightarrow0}\frac{\theta}{l}\end{aligned}$ 定义曲线在 $P$ 点处的弯曲程度，称为曲率， $R=\dfrac{1}{K}$ 为曲率半径</p>
+<p>$K(x)=\dfrac{|f’’(x)|}{[1+(f’(x))^2]^{3/2}}$</p>
+<p>曲率圆和曲线 $y=f(x)$ 在 $P$ 点相切，在切点有相同的凹凸性和曲率</p>
+<p>曲率圆圆心坐标为 $(\xi,\eta),\begin{cases}\xi=x-\dfrac{f’(x)[1+(f’(x))^2]}{f’’(x)}\\\eta=f(x)+\dfrac{1+[f’(x)]^2}{f’’(x)}\end{cases}$ </p>
+<h4 id="达布定理"><a href="#达布定理" class="headerlink" title="达布定理"></a>达布定理</h4><p>设 $f$ 在 $(a,b)$ 内可导， $x_1,x_2\in(a,b)$ ，且 $x_1&lt;x_2$ ，则对于任何介于  $f’(x_1)$ 和 $f’(x_2)$ 的实数 $\eta$ ，必存在 $\xi\in(a,b)$ ，使得 $\eta=f’(\xi)$</p>
+<hr>
+<h3 id="Chapter-5-不定积分"><a href="#Chapter-5-不定积分" class="headerlink" title="Chapter-5 不定积分"></a>Chapter-5 不定积分</h3><h4 id="第一换元积分法"><a href="#第一换元积分法" class="headerlink" title="第一换元积分法"></a>第一换元积分法</h4><p>设 $f(u)$ 存在原函数 $F(u),u=\varphi(x)$ 可导，则函数 $f(\varphi(x))\varphi’(x)$ 也存在原函数</p>
+<p>$\begin{aligned}\int f(\varphi(x))\varphi’(x)\mathrm{d}x=\int f(\varphi(x))\mathrm{d}\varphi(x)=\int f(u)\mathrm{d}u=F(u)+C=F(\varphi(x))+C\end{aligned}$</p>
+<h4 id="第二换元积分法"><a href="#第二换元积分法" class="headerlink" title="第二换元积分法"></a>第二换元积分法</h4><p>设 $f(x)$ 连续，$x=\varphi(t)$ 有连续导数，且 $\varphi’(t)\neq0$ 如果 $\begin{aligned}\int f(\varphi(t))\varphi’(t)\mathrm{d}t=F(t)+C\end{aligned}$</p>
+<p>则 $\begin{aligned}\int f(x)\mathrm{d}x=\int f(\varphi(t))\varphi’(t)\mathrm{d}t=F(t)+C=F(t)+C=F(\varphi^{-1}(t))+C\end{aligned}$</p>
+<h4 id="分部积分法"><a href="#分部积分法" class="headerlink" title="分部积分法"></a>分部积分法</h4><p>$\begin{aligned}\int u(x)v’(x)\mathrm{d}x=u(x)v(x)-\int v(x)u’(x)\mathrm{d}x\end{aligned}$</p>
+<h4 id="有理函数的不定积分"><a href="#有理函数的不定积分" class="headerlink" title="有理函数的不定积分"></a>有理函数的不定积分</h4><p>一切有理函数的原函数可以用有理函数、对数函数和反正切函数表示出来</p>
+<h4 id="三角有理函数的不定积分"><a href="#三角有理函数的不定积分" class="headerlink" title="三角有理函数的不定积分"></a>三角有理函数的不定积分</h4><p>设 $t=\tan\dfrac{x}{2},|x|&lt;\pi$ ，则 $x=2\arctan{t}$ 有以下替换：</p>
+<p>$\begin{cases}\mathrm{d}x=\dfrac{2}{1+t^2}\mathrm{d}t\\\sin x=\dfrac{2\tan\dfrac{x}{2}}{1+\tan^2\dfrac{x}{2}}=\dfrac{2t}{1+t^2}\\\cos x=\dfrac{1-\tan^2\dfrac{x}{2}}{1+\tan^2\dfrac{x}{2}}=\dfrac{1-t^2}{1+t^2}\end{cases}$</p>
+<p>则 $\begin{aligned}\int R(\sin x,\cos x)\mathrm{d}x=\int R(\frac{2t}{1+t^2},\frac{1-t^2}{1+t^2})\cdot\frac{2}{1+t^2}\mathrm{d}t\end{aligned}$</p>
+<h4 id="其它可有理化函数的不定积分"><a href="#其它可有理化函数的不定积分" class="headerlink" title="其它可有理化函数的不定积分"></a>其它可有理化函数的不定积分</h4><p>设 $R$ 为有理函数，则以 $\mathrm{e}^x$ 为变量的有理函数 $R(\mathrm{e}^x)$ 的积分 $\begin{aligned}\int R(\mathrm{e}^x)\mathrm{d}x\end{aligned}$ </p>
+<p>可通过变量替换 $x=\ln t$ 化成有理函数的积分 $\begin{aligned}\int R(t)\frac{1}{t}\mathrm{d}t\end{aligned}$</p>
+<hr>
+<h3 id="Chapter-6-定积分"><a href="#Chapter-6-定积分" class="headerlink" title="Chapter-6 定积分"></a>Chapter-6 定积分</h3><h4 id="定积分中值定理"><a href="#定积分中值定理" class="headerlink" title="定积分中值定理"></a>定积分中值定理</h4><p>若 $f(x)$ 在 $[a,b]$ 上可积，则 $\exists\xi\in(a,b)$ ，使得 $\begin{aligned}\int_a^bf(x)\mathrm{d}x=f(\xi)(b-a)\end{aligned}$</p>
+<h4 id="推广的定积分中值定理"><a href="#推广的定积分中值定理" class="headerlink" title="推广的定积分中值定理"></a>推广的定积分中值定理</h4><p>若 $f(x),g(x)$ 在 $[a,b]$ 上连续，且 $g(x)$ 在 $[a,b]$ 上不变号，则 $\exists\xi\in(a,b)$，使得</p>
+<p>$\begin{aligned}\int_a^bf(x)g(x)\mathrm{d}x=f(\xi)\int_a^bg(x)\mathrm{d}x\end{aligned}$</p>
+<h4 id="柯西不等式"><a href="#柯西不等式" class="headerlink" title="柯西不等式"></a>柯西不等式</h4><p>$\begin{pmatrix}\begin{aligned}\int_a^bf(x)g(x)\mathrm{d}x\end{aligned}\end{pmatrix}^2\leq\begin{aligned}\int_a^bf^2(x)\mathrm{d}x\cdot\int_a^bg^2(x)\mathrm{d}x\end{aligned}$</p>
+<h4 id="重要结果及技巧"><a href="#重要结果及技巧" class="headerlink" title="重要结果及技巧"></a>重要结果及技巧</h4><p>$\begin{aligned}\int\csc{x}\mathrm{d}x=\int\frac{\csc{x}(\csc{x}-\cot{x})}{\csc{x}-\cot{x}}\mathrm{d}x=\int\frac{\mathrm{d}(\csc{x}-\cot{x})}{\csc{x}-\cot{x}}=\ln|\csc{x}-\cot{x}|\end{aligned}$</p>
+<p>$\begin{aligned}\int\sec{x}\mathrm{d}x=\int\frac{\sec{x}(\sec{x}+\tan{x})}{\sec{x}+\tan{x}}\mathrm{d}x=\int\frac{\mathrm{d}(\sec x+\tan x)}{\sec x+\tan x}=\ln|\sec x+\tan x|\end{aligned}$</p>
+<p>$\begin{aligned}\int\cos^nx\mathrm{d}x=\frac{1}{n}\sin x\cos^{n-1}x+\frac{n-1}{n}\int\cos^{n-2}x\mathrm{d}x\end{aligned}$</p>
+<p>$\begin{aligned}\int\sin^nx\mathrm{d}x=-\frac{1}{n}\cos x\sin^{n-1}x+\frac{n-1}{n}\int\sin^{n-2}x\mathrm{d}x\end{aligned}$</p>
+<p>$\begin{aligned}I_n=\int\frac{\mathrm{d}x}{(a^2+x^2)^n},I_n=\frac{x}{2(n-1)a^2(a^2+x^2)^{n-1}}+\frac{2n-3}{2(n-1)a^2}I_{n-1}\end{aligned}$</p>
+<p>$\mathrm{d}(\sin x+\cos x)=\cos x-\sin x,\mathrm{d}(\sin x-\cos x)=\sin x+\cos x$</p>
+<p>$\begin{aligned}\int_0^{\frac{\pi}{2}}\sin^nx\mathrm{d}x=\int_0^{\frac{\pi}{2}}\cos^nx\mathrm{d}x\end{aligned}=\begin{cases}\dfrac{n-1}{n}\cdot\dfrac{n-3}{n-2}\cdot\cdots\cdot\dfrac{2}{3}\cdot1,&amp;n为奇数\\\dfrac{n-1}{n}\cdot\dfrac{n-3}{n-2}\cdot\cdots\cdot\dfrac{3}{4}\cdot\dfrac{1}{2}\cdot\dfrac{\pi}{2},&amp;n为偶数\end{cases}$</p>
+<p>$\begin{aligned}\Gamma(s+1)&amp;=\int_0^{+\infty}x^{s}e^{-x}\mathrm{d}x=-x^se^{-x}\big|_0^{+\infty}+s\int_0^{+\infty}x^{s-1}e^{-x}\mathrm{d}x\\&amp;=s\Gamma(s)=\cdots=n!\Gamma(1)=n!\end{aligned}$</p>
+<p>对于一切 $a&gt;0$ ，极限 $\begin{aligned}\lim_{x\rightarrow0^+}x^a\ln x=0\end{aligned}$ 成立</p>
+<p>$\begin{aligned}\lim_{x\rightarrow0^+}x^a\ln x=\lim_{x\rightarrow0^+}\dfrac{\ln x}{x^{-a}}=-\frac{1}{a}\lim_{x\rightarrow0^+}\frac{x^{-1}}{x^{-a-1}}=-\frac{1}{a}\lim_{x\rightarrow0^+}x^a=0\end{aligned}$</p>
+<p>在区间对称的积分中分离出奇函数的部分</p>
+<h4 id="中值定理构造原函数"><a href="#中值定理构造原函数" class="headerlink" title="中值定理构造原函数"></a>中值定理构造原函数</h4><p>将结果中的未知参数换为 $x$</p>
+<p>如果结果中既有 $f(x)$ 又含有 $f’(x)$ ，则将等式变换为 $\dfrac{f’(x)}{f(x)}+h(x)=0$ 的形式</p>
+<p>假使 $p’(x)=h(x)$ ，则构造 $g(x)=f(x)e^{p(x)}$</p>
+<h4 id="积分上限函数"><a href="#积分上限函数" class="headerlink" title="积分上限函数"></a>积分上限函数</h4><p>$\begin{bmatrix}\begin{aligned}\int_a^{g(x)}f(t)\mathrm{d}t\end{aligned}\end{bmatrix}’=f[g(x)]g’(x)$</p>
+<p>$\begin{bmatrix}\begin{aligned}\int_{h(x)}^{g(x)}f(t)\mathrm{d}t\end{aligned}\end{bmatrix}’=f[g(x)]g’(x)-f[h(x)]h’(x)$</p>
+<hr>
+<h3 id="总结-易错点"><a href="#总结-易错点" class="headerlink" title="总结-易错点"></a>总结-易错点</h3><h4 id="易错点1"><a href="#易错点1" class="headerlink" title="易错点1"></a>易错点1</h4><p>导函数在 $x_0$ 两侧的不同单调性确保了 $f(x_0)$ 取到极值是充分条件而非必要条件</p>
+<p>例如 $f(x)=\begin{cases}x^2(1+\sin^2(\dfrac{1}{x})),&amp;x\neq0\\0,&amp;x=0\end{cases}$</p>
+<h4 id="易错点2"><a href="#易错点2" class="headerlink" title="易错点2"></a>易错点2</h4><p>函数可导一定连续，函数连续不一定可导</p>
+<h4 id="易错点3"><a href="#易错点3" class="headerlink" title="易错点3"></a>易错点3</h4><p>原函数不可能有第一类间断点</p>
+<h4 id="易错点4"><a href="#易错点4" class="headerlink" title="易错点4"></a>易错点4</h4><p>利用导数的定义研究函数在一点的可导性时，要满足以下三个条件：</p>
+<p>$\begin{aligned}\lim_{\Delta x\rightarrow0}\frac{f(x_0+\Delta x)-f(x_0)}{\Delta x}\end{aligned}$ 中 $\Delta x$ 的替换项必须与 $\Delta x$ 是同阶无穷小</p>
+<p>$\Delta x\rightarrow 0$ 必须从左右两侧趋于 $0$</p>
+<p>$\begin{aligned}\lim_{\Delta x\rightarrow0}\frac{f(x_0+\Delta x)-f(x_0)}{\Delta x}\end{aligned}$ 的分子上一定要有 $f(x_0)$ 这个元素  </p>
+<h4 id="易错点5"><a href="#易错点5" class="headerlink" title="易错点5"></a>易错点5</h4><p>若 $f(x)$ 为周期函数，其原函数 $F(x)$ 不一定为周期函数</p>
+<p>若 $f(x)$ 为可导的周期函数，则 $f’(x)$ 一定为周期函数</p>
+<h4 id="易错点6"><a href="#易错点6" class="headerlink" title="易错点6"></a>易错点6</h4><p>$f(x)$ 在 $[a,b]$ 上有界是函数可积的必要条件，无界函数一定不可积</p>
+]]></content>
+      <tags>
+        <tag>课程笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>常微分方程</title>
+    <url>/2025/%E5%B8%B8%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="nth-order-Differential-Equation"><a href="#nth-order-Differential-Equation" class="headerlink" title="nth-order Differential Equation"></a>nth-order Differential Equation</h3><p>The most general form of an nth-order differential equation with independent $x$ and unknown function or dependent variable $y=y(x)$ is $F(x,y,y’,y’’,\cdots,y^{(n)})$<br>An nth-order differential equation ordinarily has an n-parameter family of solutions-one involving n different arbitrary constants or parameters.<br><span id="more"></span></p>
+<h3 id="Integrals-as-General-and-Particular-Solutions"><a href="#Integrals-as-General-and-Particular-Solutions" class="headerlink" title="Integrals as General and Particular Solutions"></a>Integrals as General and Particular Solutions</h3><p>The first-order equation $\begin{aligned}\frac{\mathrm{d}y}{\mathrm{d}x}=f(x,y)\end{aligned}$ takes an especially simple form if the function $f$ is independent of the dependent variable $y$ , $\begin{aligned}\frac{\mathrm{d}y}{\mathrm{d}x}=f(x)\end{aligned}$ , in this special case only need to integrate both sides $\begin{aligned}y(x)=\int f(x)\mathrm{d}x+C\end{aligned}$</p>
+<h3 id="Existence-and-Uniqueness-of-Solutions"><a href="#Existence-and-Uniqueness-of-Solutions" class="headerlink" title="Existence  and Uniqueness of Solutions"></a>Existence  and Uniqueness of Solutions</h3><p>Suppose that both the function $f(x,y)$ and its partial derivative $D_yf(x,y)$ are continuous on some rectangle $R$ in the xy-plane that contains the point $(a,b)$  in its interior.</p>
+<p>Then, for some open interval $I$ containing the point $a$ , the initial value problem $\begin{aligned}\frac{\mathrm{d}y}{\mathrm{d}x}=f(x,y),\quad y(a)=b\end{aligned}$ has one and only one solution that is defined on the interval $I$ .</p>
+<p>if the function $f(x,y)$ and/or its partial derivative $\begin{aligned}\frac{\partial f}{\partial y}\end{aligned}$ fail to satisfy the continuity hypothesis , then the initial value problem may have either no solution or many (even infinitely many) solutions.</p>
+<h3 id="Separable-Equations"><a href="#Separable-Equations" class="headerlink" title="Separable Equations"></a>Separable Equations</h3><p>The first-order differential equation $\begin{aligned}\frac{\mathrm{d}y}{\mathrm{d}x}=H(x,y)\end{aligned}$  is called separable provided that $H(x,y)$ can be written as the product of a function of $x$ and a function of $y$ : $\begin{aligned}\frac{\mathrm{d}y}{\mathrm{d}x}=g(x)h(y)=\frac{g(x)}{f(y)}\end{aligned}$</p>
+<script type="math/tex; mode=display">\begin{aligned}\int f(y)\mathrm{d}y=\int g(x)\mathrm{d}x+C,\quad F(y)=\int f(y)\mathrm{d}y,\quad G(x)=\int g(x)\mathrm{d}x\end{aligned}</script><h3 id="Singular-Solutions"><a href="#Singular-Solutions" class="headerlink" title="Singular Solutions"></a>Singular Solutions</h3><p>It is common for a nonlinear first-order differential equation to have both a general solution involving a n arbitrary constant $C$ and  one or several particular solutions that cannot be obtained by selecting a value for $C$ . These exceptional solutions are frequently called singular solutions.</p>
+<h3 id="Linear-first-order-Equation"><a href="#Linear-first-order-Equation" class="headerlink" title="Linear first-order Equation"></a>Linear first-order Equation</h3><p>Standard form:<br>    $\begin{aligned}\frac{\mathrm{d}y}{\mathrm{d}x}+P(x)y=Q(x)\end{aligned},\quad \rho(x)=\mathrm{e}^{\int P(x)\mathrm{d}x}$<br>Solution:<br>     $\begin{aligned}&amp;\mathrm{e}^{\int P(x)\mathrm{d}x}\frac{\mathrm{d}y}{\mathrm{d}x}+P(x)\mathrm{e}^{\int P(x)\mathrm{d}x}y=Q(x)\mathrm{e}^{\int P(x)\mathrm{d}x}\\&amp;y(x)=\mathrm{e}^{-\int P(x)\mathrm{d}x}\begin{bmatrix}\begin{aligned}\int(Q(x)\mathrm{e}^{\int P(x)\mathrm{d}x})\end{aligned}\mathrm{d}x+C\end{bmatrix}\end{aligned}$<br>    <strong>1.</strong> Begin by calculating the integrating factor $\rho(x)=e^{\int P(x)\mathrm{d}x}$<br>    <strong>2.</strong> Then multiply both sides of the differential equation by $\rho(x)$<br>    <strong>3.</strong> Next , recognize the left-hand side of the resulting equation as the derivative of a product :<br>        $D_x[\rho(x)y(x)]=\rho(x)Q(x)$<br>    <strong>4.</strong> Finally , integrate this equation<br>        $\begin{aligned}\rho(x)y(x)=\int\rho((x)Q(x)\mathrm{d}x+C\end{aligned}$<br>Properties:<br>    <strong>1.</strong> guarantee only a solution on a possibly smaller interval.<br>    <strong>2.</strong> linear first-order differential equation has no singular solutions.</p>
+<h3 id="Exact-Differential-Equation"><a href="#Exact-Differential-Equation" class="headerlink" title="Exact Differential Equation"></a>Exact Differential Equation</h3><p>A general solution $y(x)$ of a first-order differential equation is often defined implicitly by an equation of the form $F(x,y(x))=C$ ,differentiate each side with respect to $x$ </p>
+<script type="math/tex; mode=display">\begin{aligned}&\frac{\partial F}{\partial x}+\frac{\partial F}{\partial y}\frac{\mathrm{d}y}{\mathrm{d}x}=0\\&\Rightarrow M(x,y)+N(x,y)\frac{\mathrm{d}y}{\mathrm{d}x}=0\\&\Rightarrow M(x,y)\mathrm{d}x+N(x,y)\mathrm{d}y=0\end{aligned}</script><p>If there exists a function $F(x,y)$ such that $\begin{aligned}\frac{\partial F}{\partial x}=M, \quad \frac{\partial F}{\partial y}=N\end{aligned}$ ,then the equation $F(x,y)=C$ implicitly defines a general solution of $M(x,y)\mathrm{d}x+N(x,y)\mathrm{d}y=0$ ,then $M(x,y)\mathrm{d}x+N(x,y)\mathrm{d}y=0$ is called an exact differential equation.</p>
+<p>If $M(x,y)\mathrm{d}x+N(x,y)\mathrm{d}y=0$ is exact and $M$ and $N$ have continuous partial derivatives, it then follows that $\begin{aligned}\frac{\partial M}{\partial y}=F_{xy}=F_{yx}=\frac{\partial N}{\partial x}\end{aligned}$ .<br>Thus the equation $\begin{aligned}\frac{\partial M}{\partial y}=\frac{\partial N}{\partial x}\end{aligned}$ is a necessary condition that the differential equation $M\mathrm{d}x+N\mathrm{d}y=0$ to be exact.</p>
+<p>whether a given differential equation is exact or not is related to the precise form $M\mathrm{d}x+N\mathrm{d}y=0$ in which it is written.<br>    $\begin{aligned}F(x,y)=\int M(x,y)\mathrm{d}x+g(y)\end{aligned}$<br>    $\begin{aligned}N=\frac{\partial F}{\partial y}=\begin{pmatrix}\begin{aligned}\frac{\partial}{\partial y}\int M(x,y)\mathrm{d}x\end{aligned}\end{pmatrix}+g’(y)\end{aligned}$<br>    $\begin{aligned}g’(x)=N-\frac{\partial}{\partial y}\int M(x,y)\mathrm{d}x\end{aligned}$<br>    $\begin{aligned}F(x,y)=\int M(x,y)\mathrm{d}x+\int\begin{pmatrix}\begin{aligned}N(x,y)-\frac{\partial}{\partial y}\int M(x,y)\mathrm{d}x\end{aligned}\end{pmatrix}\mathrm{d}y\end{aligned}$</p>
+<h3 id="Integrating-Factor"><a href="#Integrating-Factor" class="headerlink" title="Integrating Factor"></a>Integrating Factor</h3><p>If the original equation $M(x,y)\mathrm{d}x+N(x,y)\mathrm{d}y=0$ is not exact, we can multiply it by an integrating factor $\mu(x,y)M(x,y)\mathrm{d}x+\mu(x,y)N(x,y)\mathrm{d}y=0$</p>
+<ul>
+<li>Assume the integrating factor $\mu$ depends only on $x$ , $\mu=\mu(x)$ , Then:<br>  $\begin{aligned}\frac{\partial(\mu M)}{\partial y}=\frac{\partial(\mu N)}{\partial x}\end{aligned}$<br>  $\begin{aligned}\Rightarrow\mu\frac{\partial M}{\partial y}=\frac{\partial\mu}{\partial x}N+\mu\frac{\partial N}{\partial x}\end{aligned}$<br>  $\begin{aligned}\Rightarrow\mu(\frac{\partial M}{\partial y}-\frac{\partial N}{\partial x})=\frac{\partial\mu}{\partial x}N\end{aligned}$<br>  $\begin{aligned}\Rightarrow\frac{\mathrm{d}\mu}{\mu}=\frac{1}{N}(\frac{\partial M}{\partial y}-\frac{\partial N}{\partial x})\mathrm{d}x\end{aligned}$<br>  $\begin{aligned}\Rightarrow\ln|\mu|=\int\frac{1}{N}(\frac{\partial M}{\partial y}-\frac{\partial N}{\partial x})\mathrm{d}x+C\end{aligned}$<br>  $\Rightarrow\begin{aligned}\mu=\exp[\int\frac{1}{N}(\frac{\partial M}{\partial y}-\frac{\partial N}{\partial x})\mathrm{d}x+C]\end{aligned}$    </li>
+<li>Assume the integrating factor $\mu$ depends only on $y$ , $\mu=\mu(y)$ , Then:<br>  $\begin{aligned}\frac{\partial(\mu M)}{\partial y}=\frac{\partial(\mu N)}{\partial x}\end{aligned}$<br>  $\Rightarrow\begin{aligned}\frac{\partial\mu}{\partial y}M+\mu\frac{\partial M}{\partial y}=\mu\frac{\partial N}{\partial x}\end{aligned}$<br>  $\Rightarrow\begin{aligned}\mu(\frac{\partial N}{\partial x}-\frac{\partial M}{\partial y})=\frac{\partial\mu}{\partial y}M\end{aligned}$<br>  $\begin{aligned}\Rightarrow\frac{\mathrm{d}\mu}{\mu}=\frac{1}{M}(\frac{\partial N}{\partial x}-\frac{\partial M}{\partial y})\mathrm{d}y\end{aligned}$<br>  $\begin{aligned}\Rightarrow\ln|\mu|=\int\frac{1}{M}(\frac{\partial N}{\partial x}-\frac{\partial M}{\partial y})\mathrm{d}y+C\end{aligned}$<br>  $\Rightarrow\begin{aligned}\mu=\exp[\int\frac{1}{M}(\frac{\partial N}{\partial x}-\frac{\partial M}{\partial y})\mathrm{d}y+C]\end{aligned}$    </li>
+</ul>
+<h3 id="Substitution-Methods"><a href="#Substitution-Methods" class="headerlink" title="Substitution Methods"></a>Substitution Methods</h3><p>e.g.1:<br>    $\begin{aligned}\frac{\mathrm{d}y}{\mathrm{d}x}=f(x,y)\end{aligned}$<br>Solution:<br>    Substitute $v=\alpha(x,y),\quad y=\beta(x,v)$<br>    $\begin{aligned}\frac{\mathrm{d}y}{\mathrm{d}x}=\frac{\partial\beta}{\partial x}\frac{\mathrm{d}x}{\mathrm{d}x}+\frac{\partial\beta}{\partial v}\frac{\mathrm{d}v}{\mathrm{d}x}=\beta_x+\beta_v\frac{\mathrm{d}v}{\mathrm{d}x}\end{aligned}$<br>    $\begin{aligned}\frac{\mathrm{d}v}{\mathrm{d}x}=g(x,v)\end{aligned}$ with new dependent variable v.<br>    Then solve this either separable or linear new equation.</p>
+<p>e.g.2: Bernoulli Equation<br>    $\begin{aligned}\frac{\mathrm{d}y}{\mathrm{d}x}+P(x)y=Q(x)y^n,\quad n\neq0,1\end{aligned}$<br>Solution:<br>    Substitute $v=y^{1-n}$ ，$\begin{aligned}\frac{\mathrm{d}v}{\mathrm{d}x}=(1-n)y^{-n}\frac{\mathrm{d}y}{\mathrm{d}x}\end{aligned}$<br>    $\begin{aligned}y^{-n}\frac{\mathrm{d}y}{\mathrm{d}x}+P(x)y^{1-n}=Q(x)\end{aligned}\quad\Rightarrow\quad\begin{aligned}\frac{1}{1-n}\frac{\mathrm{d}v}{\mathrm{d}x}+P(x)v=Q(x)\end{aligned}$<br>    Then solve this Linear first-order equation.</p>
+<p>e.g.3: Homogeneous Equation<br>    $\begin{aligned}\frac{\mathrm{d}y}{\mathrm{d}x}=F(\frac{y}{x})\end{aligned}$<br>Solution:<br>    Substitute $\begin{aligned}v=\frac{y}{x},\quad y=vx,\quad\frac{\mathrm{d}y}{\mathrm{d}x}=v+x\frac{\mathrm{d}v}{\mathrm{d}x}\end{aligned}$ Then $\begin{aligned}x\frac{\mathrm{d}v}{\mathrm{d}x}=F(v)-v\end{aligned}$<br>    Transformed into the separable equation.</p>
+<p>e.g.4: Reducible 2nd-Order Equation<br>    $\begin{aligned}\frac{\mathrm{d}^2y}{\mathrm{d}x^2}=f(x,y,\frac{\mathrm{d}y}{\mathrm{d}x}),\quad F(x,y,y’,y’’)=0\end{aligned}$<br>Solution:<br>    <strong>1.</strong> If $y$ is missing, then $F(x,y’,y’’)=0$ , substitute $\begin{aligned}p=y’=\frac{\mathrm{d}y}{\mathrm{d}x},\quad y’’=\frac{\mathrm{d}p}{\mathrm{d}x}\end{aligned}$ ,results in the first-order equation $F(x,p,p’)=0$ , if we can solve this equation for a general solution $p(x,C_1)$ involving an arbitrary constant $C_1$ , then $\begin{aligned}y(x)=\int y’(x)\mathrm{d}x=\int p(x,C_1)\mathrm{d}x+C_2\end{aligned}$<br>    <strong>2.</strong> If $x$ is missing, then $F(y,y’,y’’)=0$ , substitute $\begin{aligned}p=y’=\frac{\mathrm{d}y}{\mathrm{d}x},\quad y’’=\frac{\mathrm{d}p}{\mathrm{d}x}=\frac{\mathrm{d}p}{\mathrm{d}y}\frac{\mathrm{d}y}{\mathrm{d}x}=p\frac{\mathrm{d}p}{\mathrm{d}y}\end{aligned}$ , results  in the first order equation $\begin{aligned}F(y,p,p\frac{\mathrm{d}p}{\mathrm{d}y})=0\end{aligned}$ , if we can solve this equation for a general solution $p(y,C_1)$ involving an arbitrary constant $C_1$ , then $\begin{aligned}x(y)=\int\frac{\mathrm{d}x}{\mathrm{d}y}\mathrm{d}y=\int\frac{1}{\mathrm{d}y/\mathrm{d}x}\mathrm{d}y=\int\frac{1}{p}\mathrm{d}y=\int\frac{\mathrm{d}y}{p(y,C_1)}+C_2\end{aligned}$</p>
+<h3 id="Singular-solutions"><a href="#Singular-solutions" class="headerlink" title="Singular solutions"></a>Singular solutions</h3><p>There are special solutions thar cannot be obtained from the general solution $y=\varphi(x;C)$ for some value of $C$ ,but are always tangent to one of the $y=\varphi(x,C)$ solution at some point.<br>If there is a singular solution, at each point on the curve has more than 1 solution.<br>if $y=\varphi(x)$ is a singular solution $\Rightarrow$ It’s a p-discriminant  </p>
+<p>Re-write the ODE as an integral equation.<br>Construct the Picard iterates.<br>Show that the Picard iterates converges uniformly on $|x-x_0|\leq h$<br>Show that the above limit function is a solution.<br>Show that the solution is unique. </p>
+<h3 id="Principle-of-the-p-Discriminant-Method"><a href="#Principle-of-the-p-Discriminant-Method" class="headerlink" title="Principle of the p-Discriminant Method"></a>Principle of the p-Discriminant Method</h3><p>Consider a first-order OED in implicit form</p>
+<script type="math/tex; mode=display">\begin{aligned}F(x,y,p)=0,\quad p=\frac{\mathrm{d}y}{\mathrm{d}x}\end{aligned}</script><p>A singular solution must satisfy two conditions simultaneously</p>
+<ul>
+<li>The original equation $F(x,y,p)=0$</li>
+<li>The partial derivative of $F$ with respect to $\begin{aligned}p:\frac{\partial F}{\partial p}=0\end{aligned}$<br>By eliminating $p$ from these equations, we obtain the p-discriminant curve, which may represent the singular solution.</li>
+</ul>
+<h3 id="Proving-the-Correctness-of-the-p-Discriminant-Method"><a href="#Proving-the-Correctness-of-the-p-Discriminant-Method" class="headerlink" title="Proving the Correctness of the p-Discriminant Method"></a>Proving the Correctness of the p-Discriminant Method</h3><p><strong>Singular Solution:</strong> A solution of a differential equation that is not tangent to any solution in the family of general solutions and cannot be obtained by choosing specific values for the constants in the general solution.<br><strong>Envelop:</strong> A curve that is tangent at each point to some solution in the family of general solutions. A singular solution is typically the envelope of general solution family.<br><strong>p-Discriminant Method:</strong> By solving the system $F(x,y,p)=0$ and $\begin{aligned}\frac{\partial F}{\partial p}=0\end{aligned}$ , the curve obtained after eliminating $p$ may represent a singular solution.</p>
+<p>Assume the family of general solutions is $\varphi(x,y,C)=0$ where $C$ is a constant.<br>The envelope must satisfy: $\varphi(x,y,C)=0\quad\begin{aligned}\frac{\partial\varphi}{\partial C}=0\end{aligned}$<br>Eliminating $C$ gives the envelope’s equation.</p>
+<p>For the differential equation $F(x,y,p)=0$ , the envelope (singular solution) of its general solution family must satisfy:</p>
+<ul>
+<li>Every point $(x,y)$ on the envelope satisfies $F(x,y,p)=0$ (Since it is a solution)</li>
+<li>The slope $p$ of the envelope at that point matches the slope of the corresponding solution in the general family</li>
+<li>The envelope represents a limiting case where distinct solutions “coalesce”, implying the dependence on $C$ vanishes, leading to $\begin{aligned}\frac{\partial F}{\partial p}=0\end{aligned}$</li>
+</ul>
+<h3 id="Homogeneous-Second-Order-Linear-Equations"><a href="#Homogeneous-Second-Order-Linear-Equations" class="headerlink" title="Homogeneous Second-Order Linear Equations"></a>Homogeneous Second-Order Linear Equations</h3><p>Let $y_1$ and $y_2$ be two solutions of the homogeneous linear equation in $y’’+p(x)y’+q(x)y=0$ on the interval $I$.If $c_1$ and $c_2$ are constants, then the linear combination $y=c_1y_1+c_2y_2$ is also a solution on $I$.</p>
+<p>The second-order equation $y’’+p(x)y’+q(x)y=f(x)$ has infinitely many solution curves passing through the point $(a,b_0)$ , namely one for each (real number) value of the initial slope $y’(a)=b_1$ . That is, instead of there being only one line through $(a,b_0)$ tangent to a solution curve, every nonvertical straight line through $(a,b_0)$ is tangent to some solution curve of $y’’+p(x)y’+q(x)y=f(x)$.</p>
+<h3 id="Linear-Independence-of-Two-Functions"><a href="#Linear-Independence-of-Two-Functions" class="headerlink" title="Linear Independence of Two Functions"></a>Linear Independence of Two Functions</h3><p>Two functions defined on an open interval $I$ are said to be linearly independent on $I$ provided that neither is a constant multiple of the other.<br>Given two functions $f$ and $g$ , the Wronskian of $f$ and $g$ is the determinant</p>
+<script type="math/tex; mode=display">W=\begin{vmatrix}f&g\\f'&g'\end{vmatrix}=fg'-f'g</script><p>Suppose that $y_1$ and $y_2$ are solutions of the homogeneous second-order linear equation $y’’+p(x)y’+q(x)y=0$ on an open interval $I$ on which $p$ and $q$ are continuous</p>
+<ul>
+<li>If $y_1$ and $y_2$ are linearly dependent, then $W(y_1,y_2)=0$ on $I$</li>
+<li>If $y_1$ and $y_2$ are linearly independent, then $W(y_1,y_2)\neq0$ at each point of $I$</li>
+</ul>
+<h3 id="Linear-Second-Order-Equations-with-Constant-Coefficients"><a href="#Linear-Second-Order-Equations-with-Constant-Coefficients" class="headerlink" title="Linear Second-Order Equations with Constant Coefficients"></a>Linear Second-Order Equations with Constant Coefficients</h3><p>$ar^2+br+c=0$ this quadratic equation is called the characteristic equation of the homogeneous linear differential equation $ay’’+by’+cy=0$ </p>
+<ul>
+<li>If the roots $r_1$ and $r_2$ of the characteristic equation are real and distinct, then $y(x)=c_1e^{r_1x}+c_2e^{r_2x}$ is a general solution.</li>
+<li>If the characteristic equation has equal roots $r_1=r_2$ , then $y(x)=(c_1+c_2x)e^{r_1x}$ is a general solution.</li>
+</ul>
+<h3 id="General-Solutions-of-Linear-Equations"><a href="#General-Solutions-of-Linear-Equations" class="headerlink" title="General Solutions of Linear Equations"></a>General Solutions of Linear Equations</h3><p>Let $y_1,y_2,\cdots,y_n$ be $n$ solutions of the homogeneous linear equation in $y^{(n)}+p_1(x)y^{(n-1)}+\cdots+p_{n-1}(x)y’+p_n(x)y=0$ on the interval $I$ . If  $c_1,c_2,\cdots,c_n$ are constants, then the linear combination $y=c_1y_2+c_2y_c+\cdots+c_ny_n$ is also a solution.</p>
+<p>The $n$ functions $f_1,f_2,\cdots,f_n$ are said to be linearly dependent on the interval $I$ provided that there exist constants $c_1,c_2,\cdots,c_n$ not all zero such that $c_1f_1+c_2f_2+\cdots+c_nf_n=0$<br>Their Wronskian is the $n\times n$ determinant $W=\begin{vmatrix}f_1&amp;f_2&amp;\cdots&amp;f_n\\f_1’&amp;f_2’&amp;\cdots&amp;f_n’\\\vdots&amp;\vdots&amp;&amp;\vdots\\f^{(n-1)}_1&amp;f^{(n-1)}_2&amp;\cdots&amp;f^{(n-1)}_n\end{vmatrix}$<br>Suppose that $y_1,y_2,\cdots,y_n$ are $n$ solutions of the homogeneous nth-order linear equation $y^{(n)}+p_1(x)y^{(n-1)}+\cdots+p_{n-1}(x)y’+p_n(x)y=0$ on an open interval $I$ where each $p_i$ is continuous. Let $W=W(y_1,y_2,\cdots,y_n)$ </p>
+<ul>
+<li>If $y_1,y_2,\cdots,y_n$ are linearly dependent, then $W=0$ on $I$</li>
+<li>If $y_1,y_2,\cdots,y_n$ are linearly independent, then $W\neq0$ at each point of $I$</li>
+</ul>
+<h3 id="Nonhomogeneous-Equations"><a href="#Nonhomogeneous-Equations" class="headerlink" title="Nonhomogeneous Equations"></a>Nonhomogeneous Equations</h3><p>Let $y_p$ be a particular solution of the nonhomogeneous equation $y^{(n)}+p_1(x)y^{(n-1)}+\cdots+p_{n-1}(x)y’+p_n(x)y=f(x)$ on an open interval $I$ where the functions $p_i$ and $f$ are continuous. Let $y_1,y_2,\cdots,y_n$ be linearly independent solutions of the associated homogeneous equation $y^{(n)}+p_1(x)y^{(n-1)}+\cdots+p_{n-1}(x)y’+p_n(x)y=0$ . If $Y$ is any solution whatsoever of $y^{(n)}+p_1(x)y^{(n-1)}+\cdots+p_{n-1}(x)y’+p_n(x)y=f(x)$ on $I$ ,then there exist number $c_1,c_2,\cdots,c_n$ such that</p>
+<script type="math/tex; mode=display">Y(x)=c_1y_1(x)+c_2y_2(x)+\cdots+c_ny_n(x)+y_p(x)</script><p>for all $x$ in $I$</p>
+<h3 id="Polynomial-Operators"><a href="#Polynomial-Operators" class="headerlink" title="Polynomial Operators"></a>Polynomial Operators</h3><p>$\begin{aligned}L&amp;=a_n\frac{d^n}{dx^n}+a_{n-1}\frac{d^{n-1}}{dx^{n-1}}+\cdots+a_2\frac{d^2}{dx^2}+a_1\frac{d}{dx}+a_0\\&amp;=a_nD^n+a_{n-1}D^{n-1}+\cdots+a_nD^2+a_1D+a_0\end{aligned}$</p>
+<h3 id="Homogeneous-Equations-with-Constant-Coefficients"><a href="#Homogeneous-Equations-with-Constant-Coefficients" class="headerlink" title="Homogeneous Equations with Constant Coefficients"></a>Homogeneous Equations with Constant Coefficients</h3><p>$a_nr^n+a_{n-1}r^{n-1}+\cdots+a_2r^2+a_1r+a_0=0$ is called the characteristic equation or auxiliary equation of the differential equation of $a_ny^{(n)}+a_{n-1}y^{(n-1)}+\cdots+a_1y’+a_0y=0$</p>
+<ul>
+<li>If the roots $r_1,r_2,\cdots,r_n$ of the characteristic equation are real and distinct, then $y(x)=c_1e^{r_1x}+c_2e^{r_2x}+\cdots+c_ne^{r_nx}$ is a general solution.</li>
+<li>If the characteristic equation has repeated roots $r_1$ , the desired solution  of $(D-r_1)^ky=0$ is $y(x)=ue^{r_1x}=(c_1+c_2x+c_3x^2+\cdots+c_kx^{k-1})e^{r_1x}$</li>
+</ul>
+<h3 id="Complex-Valued-Functions-and-Euler’s-Formula"><a href="#Complex-Valued-Functions-and-Euler’s-Formula" class="headerlink" title="Complex-Valued Functions and Euler’s Formula"></a>Complex-Valued Functions and Euler’s Formula</h3><p>$\begin{cases}e^{ix}=\cos{x}+i\sin{x}\\e^{(a+bi)x}=e^{ax}(\cos{bx}+i\sin{bx})\\e^{(a-bi)x}=e^{ax}(\cos{bx}-i\sin{bx})\end{cases}$</p>
+<p>$\begin{aligned}y(x)&amp;=c_1e^{r_1x}+c_2e^{r_2x}=c_1e^{(a+bi)x}+c_2e^{(a-bi)x}\\&amp;=c_1e^{ax}(\cos{bx}+i\sin{bx})+c_2e^{ax}(\cos{bx}-i\sin{bx})\\&amp;=(c_1+c_2)e^{ax}\cos{bx}+i(c_1-c_2)e^{ax}\sin{bx}\\&amp;=e^{ax}(d_1\cos{bx}+d_2\sin{bx})\end{aligned}$</p>
+<h3 id="Reduction-of-Order"><a href="#Reduction-of-Order" class="headerlink" title="Reduction of Order"></a>Reduction of Order</h3><p>Suppose that one solution $y_1(x)$ of the homogeneous second-order linear differential equation $y’’+p(x)y’+q(x)y=0$ is known. The method of reduction of order consists of substituting $y_2(x)=v(x)y_1(x)$ and attempting to determine the function $v(x)$ so that $y_2(x)$ is a second linearly independent solution.</p>
+<h3 id="Method-of-Undetermined-Coefficients"><a href="#Method-of-Undetermined-Coefficients" class="headerlink" title="Method of Undetermined Coefficients"></a>Method of Undetermined Coefficients</h3><p>$f(x)$ can be written as a sum of terms each of the form $P_m(x)e^{rx}\cos{kx}$ or $P_m(x)e^{rx}\sin{kx}$ take the trail solution $y_p(x)=x^s[(A_0+A_1x+\cdots+A_mx^m)e^{rx}\cos{kx}+(B_0+B_1x+\cdots+B_mx^m)e^{rx}\sin{kx}]$<br>where $s$ is the smallest nonnegative integer such that no term in $y_p$ duplicates a term in the complementary function $y_c$  </p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">$f(x)$</th>
+<th style="text-align:center">$y_p$</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">$P_m=b_0+b_1x+\cdots+b_mx^m$</td>
+<td style="text-align:center">$x^s(A_0+A_1x+\cdots+A_mx^m)$</td>
+</tr>
+<tr>
+<td style="text-align:center">$a\cos{kx}+b\sin{kx}$</td>
+<td style="text-align:center">$x^s(A\cos{kx}+B\sin{kx})$</td>
+</tr>
+<tr>
+<td style="text-align:center">$e^{rs}(a\cos{kx}+b\sin{kx})$</td>
+<td style="text-align:center">$x^se^{rx}(A\cos{kx}+B\sin{kx})$</td>
+</tr>
+<tr>
+<td style="text-align:center">$P_m(x)e^{rx}$</td>
+<td style="text-align:center">$x^s(A_0+A_1x+\cdots+A_mx^m)e^{rx}$</td>
+</tr>
+<tr>
+<td style="text-align:center">$P_m(x)(a\cos{kx}+b\sin{kx})$</td>
+<td style="text-align:center">$\begin{aligned}x^s[&amp;(A_0+A_1x+\cdots+A_mx^m)\cos{kx}+\\&amp;(B_0+B_1x+\cdots+B_mx^m)\sin{kx}]\end{aligned}$</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="Variation-of-Parameters"><a href="#Variation-of-Parameters" class="headerlink" title="Variation of Parameters"></a>Variation of Parameters</h3><p>If the nonhomogeneous equation $y’’+P(x)y’+Q(x)y=f(x)$ has complementary function $y_c(x)=c_1y_1(x)+c_2y_2(x)$ , then a particular solution is given by</p>
+<script type="math/tex; mode=display">\begin{cases}u_1'y_1+u_2'y_2=0\\u_1'y_1'+u_2'y_2'=f(x)\end{cases}</script><script type="math/tex; mode=display">\begin{aligned}y_p(x)=-y_1(x)\int\frac{y_2(x)f(x)}{W(x)}dx+y_2\int\frac{y_1(x)f(x)}{W(x)}dx\end{aligned}</script><p>where $W=W(y_1,y_2)$ is the Wronskian of the two independent solutions $y_1$ and $y_2$ of the associated homogeneous equation. </p>
+<h3 id="Endpoint-Problems-and-Eigenvalues"><a href="#Endpoint-Problems-and-Eigenvalues" class="headerlink" title="Endpoint Problems and Eigenvalues"></a>Endpoint Problems and Eigenvalues</h3><script type="math/tex; mode=display">y''+p(x)y'+q(x)y=0,y(a)=0,y(b)=0</script><p>to find a solution of the differential equation on the interval $(a,b)$ that satisfies the condition $y(a)=0$ and $y(b)=0$ at the endpoints of the interval. Such a problem is called an endpoint or boundary value problem.</p>
+<script type="math/tex; mode=display">y''+p(x)y'+\lambda q(x)y=0,y(a)=0,y(b)=0</script><p>An  endpoint problem containing a parameter $\lambda$  is called an eigenvalue problem. If there are values of the parameter $\lambda$ exist a nontrivial solution of the endpoint problem, such a value of $\lambda$ is called an eigenvalue of characteristic value of the problem.<br>Suppose that $\lambda_{\ast}$ is an eigenvalue of the problem and that $y_{\ast}$ is a nontrivial solution of the problem with this value of $\lambda$ inserted</p>
+<script type="math/tex; mode=display">
+y_*''+p(x)y_*'+\lambda_*q(x)y_*=0,y_*(a)=0,y_*(b)=0</script><p>Then we call $y_\ast$ an eigenfunction associated with the eigenvalue $\lambda_{\ast}$ .</p>
+<h3 id="Power-Series"><a href="#Power-Series" class="headerlink" title="Power Series"></a>Power Series</h3><p>$\begin{aligned}\sum_{n=0}^{\infty}c_n(x-a)^n=c_0+c_1(x-a)+\cdots+c_n(x-a)^n\end{aligned}+\cdots$<br>$\begin{aligned}f(x)=\sum_{n=0}^\infty c_nx^n=c_0+c_1x+c_2x^2+\cdots\end{aligned}$<br>$\begin{aligned}f’(x)=\sum_{n=1}^\infty nc_nx^{n-1}=c_1+2c_2x+3c_3x^2+\cdots\end{aligned}$</p>
+<h3 id="Radius-of-Convergence"><a href="#Radius-of-Convergence" class="headerlink" title="Radius of Convergence"></a>Radius of Convergence</h3><p>Given the power series $\sum c_nx^n$ ,suppose that the limit $\begin{aligned}\rho=\lim_{n\rightarrow\infty}|\frac{c_n}{c_{n+1}}|\end{aligned}$<br>exists ($\rho$ is finite) or infinite, Then</p>
+<ul>
+<li>if $\rho=0$ ,then the series diverges for all $x\neq 0$</li>
+<li>if $0&lt;\rho&lt;\infty$ ,then $\sum c_nx^n$ converges if $|x|&lt;\rho$ and diverges if $|x|&gt;\rho$</li>
+<li>if $\rho=\infty$ ,then the series converges for all $x$<br>$A(x)y’’+B(x)y’+C(x)y=0$ the point $x=a$ is called an ordinary point of $y’’+P(x)y’+Q(x)y=0$ provided that the function $P(x)$ and $Q(x)$ are both analytic at $x=a$ ,Otherwise $x=a$ is a singular point</li>
+</ul>
+<h3 id="Solutions-Near-an-Ordinary-Point"><a href="#Solutions-Near-an-Ordinary-Point" class="headerlink" title="Solutions Near an Ordinary Point"></a>Solutions Near an Ordinary Point</h3><p>Suppose thar $a$ is an ordinary point of the equation $A(x)y’’+B(x)y’+C(x)y=0$ that is the functions $P=B/A$ and $Q=C/A$ are analytic at $x=a$ ,then the equation has two linearly independent solutions , each of the form $\begin{aligned}y(x)=\sum_{n=0}^\infty c_n(x-a)^n\end{aligned}$<br>The radius of convergence of any such series solution is at least as large as the distance from $a$ to the nearest (real or complex) singular point of the equation, the coefficients in the series can be determined by its substitution.</p>
+<h3 id="Regular-Singular-Points"><a href="#Regular-Singular-Points" class="headerlink" title="Regular Singular Points"></a>Regular Singular Points</h3><p>A differential equation having a singular point at 0 ordinarily will not have power series solutions of the form $y(x)=\sum c_nx^n$ . To investigate the form that a solution of such an equation might take, assume that analytic coefficient functions and rewrite it in the standard form <script type="math/tex">\begin{aligned}&y''+P(x)y'+Q(x)y=0\\&y''+\frac{p(x)}{x}y'+\frac{q(x)}{x^2}y=0,p(x)=xP(x),q(x)=x^2Q(x)\end{aligned}</script><br>The singular point $x=0$ is a regular singular point if the functions $p(x)=xP(x)$ and $q(x)=x^2Q(x)$ are both analytic at $x=0$. Otherwise it is an irregular singular point.<br>    $\begin{aligned}p_0=p(0)=\lim_{x\rightarrow0}p(x)=\lim_{x\rightarrow0}xP(x)\end{aligned}$<br>    $\begin{aligned}q_0=q(0)=\lim_{x\rightarrow0}q(x)=\lim_{x\rightarrow0}x^2Q(x)\end{aligned}$</p>
+<ul>
+<li>if $p_0=q_0=0$ then $x=0$ may be an ordinary point</li>
+<li>if the limits exist and are finite, then $x=0$ is a regular singular point</li>
+<li>if either limit fails to exist or is infinite, then $x=0$ is an irregular singular point</li>
+</ul>
+<h3 id="The-Method-of-Frobenius"><a href="#The-Method-of-Frobenius" class="headerlink" title="The Method of Frobenius"></a>The Method of Frobenius</h3><p>In general case, $p(x)$ and $q(x)$ are power series rather than constants, it is a reasonable conjecture that out differential equation might have a solution of the form</p>
+<script type="math/tex; mode=display">\begin{aligned}y(x)=x^r\sum_{n=0}^\infty c_nx^n=\sum_{n=0}^\infty c_nx^{n+r}=c_0x^r+c_1x^{r+1}+\cdots\end{aligned}</script><p>such series is called a Frobenius series.<br>To investigate the possible existence of Frobenius series solutions, begin with the equation</p>
+<script type="math/tex; mode=display">x^2y''+xp(x)y'+q(x)y=0</script><p>If $x=0$ is a regular singular point, then $p(x)$ and $q(x)$ are analytic at $x=0$ ,so</p>
+<script type="math/tex; mode=display">
+\begin{align}
+p(x)=p_0+p_1x+p_2x^2+p_3x^3+\cdots \\
+q(x)=q_0+q_1x+q_2x^2+q_3x^3+\cdots
+\end{align}</script><p>Suppose the equation has the Frobenius series solution</p>
+<script type="math/tex; mode=display">\begin{aligned}y=\sum_{n=0}^\infty c_nx^{n+r}\quad y'=\sum_{n=0}^{\infty}c_n(n+r)x^{n+r-1}\quad y''=\sum_{n=0}^\infty c_n(n+r)(n+r-1)x^{n+r-2}\end{aligned}</script><p>the coefficient $r(r-1)c_0+p_0rc_0+q_0c_0$ of $x^r$ must vanish, because $c_0\neq0$ ,it follows that $r$ must satisfy the quadratic equation $r(r-1)+p_0r+q_0=0$  , which is called the indicial equation, and its two roots are the exponents of the differential equation at $x=0$<br>If $r_1\neq r_2$ ,it follows that there are two possible Frobenius series solutions<br>If $r_1=r_2$ ,there is only one possible Frobenius series solution</p>
+<h3 id="Frobenius-Series-Solutions"><a href="#Frobenius-Series-Solutions" class="headerlink" title="Frobenius Series Solutions"></a>Frobenius Series Solutions</h3><p>Suppose that $x=0$ is a regular singular point of the equation $x^2y’’+xp(x)y’+q(x)y=0$<br>Let $\rho&gt;0$ denote the minimum of the radii of convergence of the power series</p>
+<script type="math/tex; mode=display">
+\begin{aligned}p(x)=\sum_{n=0}^\infty p_nx^n\quad\mathrm{and}\quad q(x)=\sum_{n=0}^\infty q_nx^n\end{aligned}</script><p>Let $r_1$ and $r_2$ be the roots, with $r_1\geq r_2$</p>
+<ul>
+<li>For $x&gt;0$ , there exists a solution of the form $\begin{aligned}y_1(x)=x^{r_1}\sum_{n=0}^\infty a_nx^n\quad(a_0\neq 0)\end{aligned}$</li>
+<li>If $r_1-r_2$ is neither zero nor a positive integer, there exists a second linearly independent solution for $x&gt;0$ of the form $\begin{aligned}y_2(x)=x^{r_2}\sum_{n=0}^\infty b_nx^n\quad(b_0\neq 0)\end{aligned}$</li>
+<li>If $r_1-r_2$ is a positive integer there may or may not exist a second Frobenius series solution of the equation</li>
+</ul>
+<h3 id="The-Nonlogarithmic-Case-with-r-1-r-2-N"><a href="#The-Nonlogarithmic-Case-with-r-1-r-2-N" class="headerlink" title="The Nonlogarithmic Case with $r_1=r_2+N$"></a>The Nonlogarithmic Case with $r_1=r_2+N$</h3><p>Derived the indicial equation by substituting the power series $p(x)=\sum p_nx^n$ and $\sum q_nx^n$ and the Frobenius series $\begin{aligned}y(x)=x\sum_{n=0}^\infty c_nx^{n+r},c_0\neq0\end{aligned}$<br>in the differential equation in the form $x^2y’’+xp(x)y’+q(x)y=0$<br>The result of this substitution, after collection of the coefficients of like powers of $x$ , is an equation of the form $\begin{aligned}\sum_{n=0}^\infty F_n(r)x^{n+r}=0\end{aligned}$<br>$F_0(r)=[r(r-1)+p_0r+q_0]c_0=\phi(r)c_0$<br>$F_n(r)=\phi(r+n)c_n+L_n(r:c_0,c_1,\cdots,c_{n-1})$<br>$\begin{aligned}L_n=\sum_{k=0}^{n-1}[(r+k)p_{n-k}+q_{n-k}]c_k\end{aligned}$<br>$\begin{aligned}y_2=y_1\int\frac{\exp(-\int P(x)dx)}{y_1^2}dx\end{aligned}$</p>
+<ul>
+<li>$N=0$ , $\begin{aligned}y_2(x)=y_1(x)\ln{x}+x^{1+r_1}\sum_{n=0}^{\infty}b_nx^n\end{aligned}$</li>
+<li>$N\neq0$ , $\begin{aligned}y_2(x)=C_Ny_1(x)\ln{x}+x^{r_2}\sum_{n=0}^\infty b_nx^n\end{aligned}$</li>
+</ul>
+<h3 id="First-Order-Systems-and-Applications"><a href="#First-Order-Systems-and-Applications" class="headerlink" title="First-Order Systems and Applications"></a>First-Order Systems and Applications</h3><p>Consider the system consisting of the single nth-order equation</p>
+<script type="math/tex; mode=display">x^{(n)}=f(t,x,x',\cdots,x^{(n-1)})</script><p>Introduce the dependent variables $x_1,x_2,\cdots,x_n$ defined as follows:</p>
+<script type="math/tex; mode=display">x_1=x,\quad x_2=x',\quad x_3=x'',\quad\cdots,\quad x_n=x^{(n-1)}</script><p>The substitution yields the system</p>
+<script type="math/tex; mode=display">x_n'=f(t,x_1,x_2,\cdots,x_n)</script><h3 id="Linear-systems"><a href="#Linear-systems" class="headerlink" title="Linear systems"></a>Linear systems</h3><p>Consider a linear first-order system of the form</p>
+<script type="math/tex; mode=display">
+\begin{align}
+x_1'&=p_{11}(t)x_1+p_{12}(t)x_2+\cdots+p_{1n}(t)x_n+f_1(t)\\
+x_2'&=p_{21}(t)x_1+p_{22}(t)x_2+\cdots+p_{2n}(t)x_n+f_2(t)\\
+&\quad\quad\quad\quad\quad\quad\quad\quad\quad\vdots\\
+x_n'&=p_{n1}(t)x_1+p_{n2}(t)x_2+\cdots+p_{nn}(t)x_n+f_n(t)
+\end{align}</script><p>We say that this system is homogeneous if the functions $f_1,f_2,\cdots,f_n$ are all identically zero, Otherwise, it is nonhomogeneous</p>
+<p>Any system of two linear differential equations with constant coefficients can be written in the form $L_1x+L_2y=f_1(t),L_3x+L_4y=f_2(t)$<br>$\begin{cases}L_1x+L_2y=f_1(t)\Rightarrow L_3L_1x+L_3L_2y=L_3f_1(t)\\L_3x+L_4y=f_2(t)\Rightarrow L_1L_3x+L_1L_4y=L_1f_2(t)\end{cases}\Rightarrow(L_1L_4-L_2L_3)y=L_1f_2(t)-L_3f_1(t)$<br>define the operational determinant</p>
+<script type="math/tex; mode=display">\begin{vmatrix}L_1&L_2\\L_3&L_4\end{vmatrix}=L_1L_4-L_2L_3</script><p>Then the equation related to $x$ and $y$ can be rewritten as</p>
+<script type="math/tex; mode=display">\begin{vmatrix}L_1&L_2\\L_3&L_4\end{vmatrix}x=\begin{vmatrix}f_1(t)&L_2\\f_2(t)&L_4\end{vmatrix},\quad\begin{vmatrix}L_1&L_2\\L_3&L_4\end{vmatrix}y=\begin{vmatrix}L_1&f_1(t)\\L_3&f_2(t)\end{vmatrix}</script><p>Similarly, for the system of three linear equations, $x$ satisfies the single linear equation</p>
+<script type="math/tex; mode=display">\begin{vmatrix}L_{11}&L_{12}&L_{13}\\L_{21}&L_{22}&L_{23}\\L_{31}&L_{32}&L_{33}\end{vmatrix}x=\begin{vmatrix}f_1(t)&L_{12}&L_{13}\\f_2(t)&L_{22}&L_{23}\\f_3(t)&L_{32}&L_{33}\end{vmatrix}</script><p>Suppose that $x_1,x_2,\cdots x_n$ are $n$ solutions of the homogeneous linear equation $x’=P(t)x$ on an open interval $I$ ,suppose that $P(t)$ is continuous on $I$ ,let $W=W(x_1,x_2,\cdots,x_n)$</p>
+<ul>
+<li>If $x_1,x_2,\cdots,x_n$ are linearly dependent on $I$ ,then $W=0$ at every point of $I$</li>
+<li>If $x_1,x_2,\cdots,x_n$ are linearly independent  on $I$ ,then $W\neq0$ at every point of $I$</li>
+</ul>
+<h3 id="The-Eigenvalue-Method-for-Homogeneous-Systems"><a href="#The-Eigenvalue-Method-for-Homogeneous-Systems" class="headerlink" title="The Eigenvalue Method for Homogeneous Systems"></a>The Eigenvalue Method for Homogeneous Systems</h3><p>Write the system in the matrix form $x’=Ax$ where $A=[a_{ij}]$ , When substitute the trial solution $x=ve^{\lambda t}$ with derivative $x’=\lambda ve^{\lambda t}$ , the result is $\lambda ve^{\lambda t}=Ave^{\lambda t}\Rightarrow Av=\lambda v$<br>The number $\lambda$ is called an eigenvalue of the $n\times n$ matrix $A$ provided that $|A-\lambda I|=0$<br>The vector $v$ is called an eigenvector of $\lambda$</p>
+<h3 id="Chains-of-Generalized-Eigenvalues"><a href="#Chains-of-Generalized-Eigenvalues" class="headerlink" title="Chains of Generalized Eigenvalues"></a>Chains of Generalized Eigenvalues</h3><p>Begin with a nonzero solution of $(A-\lambda I)^{d+1}u=0$ and successively multiply by the matrix $A-\lambda I$ until the zero vector is obtained, If</p>
+<script type="math/tex; mode=display">\begin{aligned}&(A-\lambda I)u_1=u_2\neq 0\\&\quad\quad\quad\quad\vdots\\&(A-\lambda I)u_{k-1}=u_k\neq0\end{aligned}</script><p>but  $(A-\lambda I)u_k=0$ ,then the vectors $\{v_1,v_2,\cdots,v_k\}=\{u_k,u_{k_1}\cdots,u_2,u_1\}$ form a length $k$ chain of generalized eigenvectors based on the eigenvector $v_1$</p>
+<h3 id="Fundamental-Matrix-Solutions"><a href="#Fundamental-Matrix-Solutions" class="headerlink" title="Fundamental Matrix Solutions"></a>Fundamental Matrix Solutions</h3><p>Let $\Phi(t)$ be a fundamental matrix for the homogeneous linear system $x’=Ax$<br>Then the unique solution of the initial value problem $x’=Ax,x(0)=x_0$<br>is given by $x(t)=\Phi(t)\Phi(0)^{-1}x_0=e^{At}x_0$</p>
+<script type="math/tex; mode=display">\begin{aligned}x(t)=e^{At}x_0+e^{At}\int_0^te^{-As}f(s)ds\end{aligned}</script><script type="math/tex; mode=display">\begin{aligned}x(t)=\Phi(t)\Phi(a)^{-1}x_a+\Phi(t)\int_a^t\Phi(s)^{-1}f(s)ds\end{aligned}</script><h2 id="Some-words"><a href="#Some-words" class="headerlink" title="Some words"></a>Some words</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>术语</th>
+<th>翻译</th>
+<th>术语</th>
+<th>翻译</th>
+<th>术语</th>
+<th>翻译</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>homogeneous</td>
+<td>齐次</td>
+<td>constant</td>
+<td>常数</td>
+<td>derivative</td>
+<td>导数</td>
+</tr>
+<tr>
+<td>superposition</td>
+<td>叠加</td>
+<td>multiplication</td>
+<td>乘法</td>
+<td>subtitute</td>
+<td>代替</td>
+</tr>
+<tr>
+<td>partial derivative</td>
+<td>偏导数</td>
+<td>arbitrary</td>
+<td>任意</td>
+<td>reducible</td>
+<td>可简化</td>
+</tr>
+<tr>
+<td>autonomous</td>
+<td>自治</td>
+<td>algebra</td>
+<td>代数</td>
+<td>interval</td>
+<td>区间</td>
+</tr>
+<tr>
+<td>infinite family</td>
+<td>无穷集</td>
+<td>proportional</td>
+<td>比例</td>
+<td>explicit</td>
+<td>特解</td>
+</tr>
+<tr>
+<td>assertion</td>
+<td>断言</td>
+<td>intersect</td>
+<td>相交</td>
+<td>parameter</td>
+<td>参数</td>
+</tr>
+<tr>
+<td>antiderivative</td>
+<td>不定积分</td>
+<td>branch</td>
+<td>分支</td>
+<td>domain</td>
+<td>范围</td>
+</tr>
+<tr>
+<td>independent variable</td>
+<td>自变量</td>
+<td>verify</td>
+<td>验证</td>
+<td>coefficient</td>
+<td>系数</td>
+</tr>
+<tr>
+<td>identity equation</td>
+<td>恒等式</td>
+<td>curve</td>
+<td>曲线</td>
+<td>equation</td>
+<td>方程</td>
+</tr>
+<tr>
+<td>dependent variable</td>
+<td>因变量</td>
+<td>integration</td>
+<td>积分</td>
+<td>slope</td>
+<td>斜率</td>
+</tr>
+<tr>
+<td>necessary condition</td>
+<td>必要条件</td>
+<td>exponential</td>
+<td>指数的</td>
+<td>static</td>
+<td>静态</td>
+</tr>
+<tr>
+<td>asymptote</td>
+<td>渐近线</td>
+<td>denote</td>
+<td>表示</td>
+<td>indeed</td>
+<td>的确</td>
+</tr>
+<tr>
+<td>hypothesis</td>
+<td>假设</td>
+<td>error function</td>
+<td>误差方程</td>
+<td>emcompass</td>
+<td>包含</td>
+</tr>
+<tr>
+<td>equilibrium</td>
+<td>平衡</td>
+<td>vibration</td>
+<td>振动</td>
+<td>duplication</td>
+<td>重复</td>
+</tr>
+</tbody>
+</table>
+</div>
+]]></content>
+      <tags>
+        <tag>课程笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>离散数学</title>
+    <url>/2025/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Chapter-8-Counting"><a href="#Chapter-8-Counting" class="headerlink" title="Chapter-8 Counting"></a>Chapter-8 Counting</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>术语</th>
+<th>翻译</th>
+<th>术语</th>
+<th>翻译</th>
+<th>术语</th>
+<th>翻译</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>recurrence relation</td>
+<td>递推关系</td>
+<td>parenthese</td>
+<td>括号</td>
+<td>degreee</td>
+<td>阶</td>
+</tr>
+<tr>
+<td>divide-and-conquer</td>
+<td>分治</td>
+<td>master theorem</td>
+<td>主定理</td>
+<td>linear</td>
+<td>线性</td>
+</tr>
+<tr>
+<td>binomial theorem</td>
+<td>二项式定理</td>
+<td>homogeneous</td>
+<td>齐次</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="Catalan-Numbers"><a href="#Catalan-Numbers" class="headerlink" title="Catalan Numbers"></a>Catalan Numbers</h3><p> Note That the initial conditions are $C_0=1$ and $C_1=1$</p>
+<script type="math/tex; mode=display">
+\begin{align} 
+C_n&=C_0C_{n-1}+C_1C_{n-2}+\cdots+C_{n-2}C_1+C_{n-1}C_0\\
+&=\sum_{k=0}^{n-1}C_kC_{n-k-1}\\
+&=\frac{C(2n,n)}{n+1} 
+\end{align}</script><span id="more"></span>
+<h3 id="LRR"><a href="#LRR" class="headerlink" title="LRR"></a>LRR</h3><p>Linear homogeneous recurrence relation with constant coefficients refers to a recurrence relation of the form</p>
+<script type="math/tex; mode=display">a_n=c_1a_{n-1}+c_2a_{n-2}+\cdots+c_ka_{n-k}</script><p>where $c_1,c_2,\cdots,c_k$ are real numbers, and $c_k\neq0$</p>
+<p>Suppose that the characteristic equation $r^k-c_1r^{k-1}-\cdots-c_k=0$has $k$ distinct roots $r_1,r_2,\cdots,r_k$ Then a sequence $\{a_n\}$ is a solution of the recurrence relation</p>
+<script type="math/tex; mode=display">
+a_n=c_1a_{n-1}+c_2a_{n-2}+\cdots+c_ka_{n-k}</script><p>if and only if $a_n=\alpha_1r_1^n+\alpha_2r_2^n+\cdots+\alpha_kr_k^n$<br>if the characteristic equation has t distinct roots $r_1,r_2,\cdots,r_t$</p>
+<script type="math/tex; mode=display">
+\begin{align}
+a_n
+=&(\alpha_{1,0}+\alpha_{1,1}n+\cdots+\alpha_{1,m_1-1}n^{m_1-1})r_1^n\\
++&(\alpha_{2,0}+\alpha_{2,1}n+\cdots+\alpha_{2,m_2-1}n^{m_2-1})r_2^n\\
++&\quad\cdots\\
++&(\alpha_{t,0}+\alpha_{t,1}n+\cdots+\alpha_{t,m_t-1}n^{m_t}-1)r_t^n
+\end{align}</script><h3 id="LNRR-with-Constant-Coefficients"><a href="#LNRR-with-Constant-Coefficients" class="headerlink" title="LNRR with Constant Coefficients"></a>LNRR with Constant Coefficients</h3><p>If  $\{a_n^{(p)}\}$ is a particular solution of the nonhomogeneous linear recurrence relation (LNRR) with constant coefficients</p>
+<script type="math/tex; mode=display">
+a_n=c_1a_{n-1}+c_2a_{n-2}+\cdots+c_ka_{n-k}+F(n)</script><p>then every solution is of the form $\{a_n^{(p)}+a_n^{(h)}\}$ where $\{a_n^{(h)}\}$ is a solution of the associated homogeneous recurrence relation </p>
+<p>Suppose that $F(n)=(b_tn^t+b_{t-1}n^{t-1}+\cdots+b_1n+b_0)s^n$ , the multiplicity of $s$ in the characteristic equation is $m$ ,there is a particular solution of the form</p>
+<script type="math/tex; mode=display">
+n^m(p_tn^t+p_{t-1}n^{t-1}+\cdots+p_1n+p_0)s^n</script><h3 id="Divide-and-Conquer"><a href="#Divide-and-Conquer" class="headerlink" title="Divide-and-Conquer"></a>Divide-and-Conquer</h3><p>Let $f$ be an increasing function that satisfies the recurrence relation</p>
+<script type="math/tex; mode=display">
+f(n)=af(n/b)+c</script><p>whenever $n$ is divisible by $b$ , where $a\geq1$ , $b\in Z^+,b&gt;1,c\in R^+$</p>
+<script type="math/tex; mode=display">
+f(n)\text{is}
+\begin{cases}
+O(n^{\log_ba}),&a>1\\
+O(\log n),&a=1
+\end{cases}</script><p>when $n=b^k$ and $a\neq1$ when $k$ is a positive integer,</p>
+<script type="math/tex; mode=display">
+f(n)=C_1n^{\log_ba}+C_2,C_1=f(1)+c/(a-1),C_2=-c/(a-1)</script><h3 id="Master-Theorem"><a href="#Master-Theorem" class="headerlink" title="Master Theorem"></a>Master Theorem</h3><p>Let $f$ be an increasing function that satisfies the recurrence relation</p>
+<script type="math/tex; mode=display">
+f(n)=af(n/b)+cn^d</script><p>whenever $n=b^k$ ,where $k\in Z^+,a\geq1,b&gt;1,b\in Z,c\in R^+,d\in R,d\geq0$</p>
+<script type="math/tex; mode=display">
+f(n)\text{is}
+\begin{cases}
+O(n^d)&a<b^d\\
+O(n^d\log n)&a=b^d\\
+O(n^{\log_ba})&a>b^d
+\end{cases}</script><h3 id="Generating-Functions"><a href="#Generating-Functions" class="headerlink" title="Generating Functions"></a>Generating Functions</h3><p>The generating function for the sequence $a_0,a_1,\cdots,a_k,\cdots$ of real numbers is the infinite series</p>
+<script type="math/tex; mode=display">
+G(x)=a_0+a_1x+\cdots+a_kx^k+\cdots=\sum_{k=0}^\infty a_kx^k</script><h3 id="Extended-Binomial-Theorem"><a href="#Extended-Binomial-Theorem" class="headerlink" title="Extended Binomial Theorem"></a>Extended Binomial Theorem</h3><p>Let $x$ be a real number with $|x|&lt;1$ and let $u$ be a real number, then</p>
+<script type="math/tex; mode=display">
+(1+x)^u=\sum_{k=0}^\infty\begin{pmatrix}u\\k\end{pmatrix}x^k</script><h3 id="Useful-GFunctions"><a href="#Useful-GFunctions" class="headerlink" title="Useful GFunctions"></a>Useful GFunctions</h3><div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Sequence $a_k$</th>
+<th style="text-align:center">Generating Function $G(x)$</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">$C(n,k)$</td>
+<td style="text-align:center">$(1+x)^n$</td>
+</tr>
+<tr>
+<td style="text-align:center">$C(n,k)a^k$</td>
+<td style="text-align:center">$(1+ax)^n$</td>
+</tr>
+<tr>
+<td style="text-align:center">$[k&lt;n]$</td>
+<td style="text-align:center">$\begin{align}\frac{1-x^n}{1-x}\end{align}$</td>
+</tr>
+<tr>
+<td style="text-align:center">$1$</td>
+<td style="text-align:center">$\begin{align}\frac{1}{1-x}\end{align}$</td>
+</tr>
+<tr>
+<td style="text-align:center">$a^k$</td>
+<td style="text-align:center">$\begin{align}\frac{1}{1-ax}\end{align}$</td>
+</tr>
+<tr>
+<td style="text-align:center">$k+1$</td>
+<td style="text-align:center">$\begin{align}\frac{1}{(1-x)^2}\end{align}$</td>
+</tr>
+<tr>
+<td style="text-align:center">$C(n+k-1,k)$</td>
+<td style="text-align:center">$\begin{align}\frac{1}{(1-x)^n}\end{align}$</td>
+</tr>
+<tr>
+<td style="text-align:center">$(-1)^kC(n+k-1,k)$</td>
+<td style="text-align:center">$\begin{align}\frac{1}{(1+x)^n}\end{align}$</td>
+</tr>
+<tr>
+<td style="text-align:center">$C(n+k-1,k)a^k$</td>
+<td style="text-align:center">$\begin{align}\frac{1}{(1-ax)^n}\end{align}$</td>
+</tr>
+<tr>
+<td style="text-align:center">$\begin{align}\frac{1}{k!}\end{align}$</td>
+<td style="text-align:center">$e^x$</td>
+</tr>
+<tr>
+<td style="text-align:center">$\begin{align}\frac{(-1)^{k+1}}{k}\end{align}$</td>
+<td style="text-align:center">$\ln(1+x)$</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="Inclusion-Exclusion"><a href="#Inclusion-Exclusion" class="headerlink" title="Inclusion-Exclusion"></a>Inclusion-Exclusion</h3><p>Let $A_1,A_2,\cdots A_n$ be finite sets, then</p>
+<script type="math/tex; mode=display">
+\begin{align}
+|A_1\cup A_2\cup\cdots\cup A_n|
+&=\sum_{1\leq i\leq n}|A_i|
+-\sum_{1\leq i< j\leq n}|A_i\cap A_j|\\
+&+\sum_{1\leq i<j<k\leq n}|A_i\cap A_j\cap A_k|-\cdots+(-1)^{n+1}|A_1\cap A_2\cap\cdots\cap A_n|
+\end{align}</script><h3 id="Derangement"><a href="#Derangement" class="headerlink" title="Derangement"></a>Derangement</h3><p>Counting the permutations of $n$ objects that leave no objects in their original positions, the number of derangements of a set with $n$ elements is </p>
+<script type="math/tex; mode=display">
+\begin{align}
+D_n&=n!(1-\frac{1}{1!}+\frac{1}{2!}-\frac{1}{3!}+\cdots+(-1)^n\frac{1}{n!})\\
+&=(n-1)(D_{n-1}+D_{n-2})
+\end{align}</script><h2 id="Chapter-9-Relations"><a href="#Chapter-9-Relations" class="headerlink" title="Chapter-9 Relations"></a>Chapter-9 Relations</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>术语</th>
+<th>翻译</th>
+<th>术语</th>
+<th>翻译</th>
+<th>术语</th>
+<th>翻译</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>binary relation</td>
+<td>二元关系</td>
+<td>reflexive</td>
+<td>自反的</td>
+<td>symmetric</td>
+<td>对称的</td>
+</tr>
+<tr>
+<td>antisymmetric</td>
+<td>反对称的</td>
+<td>vertex</td>
+<td>顶点</td>
+<td>diagonal</td>
+<td>对角线的</td>
+</tr>
+<tr>
+<td>irreflexive</td>
+<td>非自反的</td>
+<td>congruence</td>
+<td>一致</td>
+<td>lexicographic order</td>
+<td>字典序</td>
+</tr>
+<tr>
+<td>hasse diagram</td>
+<td>哈塞图</td>
+<td>maximal</td>
+<td>最大元</td>
+<td>minimal</td>
+<td>最小元</td>
+</tr>
+<tr>
+<td>dual</td>
+<td>对偶</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="Relations-and-Properties"><a href="#Relations-and-Properties" class="headerlink" title="Relations and Properties"></a>Relations and Properties</h3><p>A binary relation from $A$ to $B$ is a subset of $A\times B$<br>A relation on a set $A$ is a relation from $A$ to $A$ </p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Requirement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>reflexive</td>
+<td>$\forall a\in A,(a,a)\in R$</td>
+</tr>
+<tr>
+<td>symmetric</td>
+<td>$\forall a,b\in A,(a,b)\in R\rightarrow (b,a)\in R$</td>
+</tr>
+<tr>
+<td>antisymmetric</td>
+<td>$\forall a,b\in A,((a,b)\in R\land (b,a)\in R)\rightarrow a=b$</td>
+</tr>
+<tr>
+<td>transitive</td>
+<td>$\forall a,b,c\in A,((a,b)\in R\land(b,c)\in R)\rightarrow (a,c)\in R$</td>
+</tr>
+<tr>
+<td>composite</td>
+<td>$(\exists b\in B((a,b)\in R\land(b,c)\in S))\rightarrow (a,c)\in S\circ R$</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>The relation $R$ on a set $A$ is transitive if and only if $R^n\subseteq R$ for $n=1,2,3\cdots$</p>
+<h3 id="n-ary-Relations"><a href="#n-ary-Relations" class="headerlink" title="n-ary Relations"></a>n-ary Relations</h3><p>An n-ary relation is a subset of $A_1\times A_2\times\cdots\times A_n$<br>The sets $A_1,A_2,\cdots,A_n$ are called the domains of the relation, $n$ is called its degree<br>A domain is a primary key when no two n-tuples in the relation have the same value</p>
+<h3 id="Matrices-Relations"><a href="#Matrices-Relations" class="headerlink" title="Matrices-Relations"></a>Matrices-Relations</h3><p>$R$ is symmetric if and only if $M_R=(M_R)^t$<br>$\begin{cases}M_{R_1\cup R_2}=M_{R_1}\lor M_{R_2}\\M_{R_1\cap R_2}=M_{R_1}\land M_{R_2}\\M_{S\circ R}=M_R\odot M_S\end{cases}$ </p>
+<h3 id="Closures-of-Relations"><a href="#Closures-of-Relations" class="headerlink" title="Closures of Relations"></a>Closures of Relations</h3><p>the closure of $R$ with respect to $P$ is the relation $S$ on $A$ with property $P$ that contains $R$  and is a subset of every subset containing $R$ with property $P$</p>
+<p>There is a path of length $n$ from $a$ to $b$ if and only if $(a,b)\in R^n$</p>
+<p>The connectivity relation $R^\ast$ consists of the pairs $(a,b)$ such that there is a path of length at least one from $a$ to $b$ in $R$ , $\begin{align}R^\ast=\bigcup_{n=1}^\infty R^n\end{align}$</p>
+<p>$M_{R^\ast}=M_R\lor M_R^{[2]}\lor M_R^{[3]}\lor\cdots\lor M_R^{[n]}$</p>
+<h3 id="Warshall’s-Algorithm"><a href="#Warshall’s-Algorithm" class="headerlink" title="Warshall’s Algorithm"></a>Warshall’s Algorithm</h3><p>$W_k=[w_{ij}^{[k]}],\quad w_{ij}^{[k]}=w_{ij}^{[k-1]}\lor(w_{ik}^{[k-1]}\land w_{kj}^{[k-1]})$</p>
+<h3 id="Equivalence-Relations"><a href="#Equivalence-Relations" class="headerlink" title="Equivalence Relations"></a>Equivalence Relations</h3><p>Equivalence relation is <strong>reflexive, symmetric and transitive</strong>.</p>
+<p>Two elements $a$ and $b$ that are related by an equivalence relation are called equivalent. $a\sim b$ denote that $a$ and $b$ are equivalent elements with respect to a particular equivalence relation</p>
+<h3 id="Equivalence-Classes"><a href="#Equivalence-Classes" class="headerlink" title="Equivalence Classes"></a>Equivalence Classes</h3><p>Let $R$ be a equivalence relation on a set $A$ . The set of all elements that are related to an element $a$ of $A$ is called the equivalence class of $a$</p>
+<script type="math/tex; mode=display">
+[a]_R=\{s|(a,s)\in R\}</script><p>If $b\in[a]_R$ , then $b$ is called a representative of this equivalence class</p>
+<p>Let $R$ be an equivalence relation on a set $A$. these statements for elements $a$ and $b$ of $A$ are equivalent: $aRb,\quad [a]=[b],\quad [a]\cap[b]\neq\emptyset$ </p>
+<p>Let $R$ be an equivalence relation on a set $S$ , Then the equivalence classes of $R$ form a partition of $S$ . Conversely , given a partition $\{A)i|i\in I\}$ of the set $S$ , there is an equivalence relation $R$ that has the sets $A_i,i\in I$ as its equivalence classes.</p>
+<h3 id="Partial-Orderings"><a href="#Partial-Orderings" class="headerlink" title="Partial Orderings"></a>Partial Orderings</h3><p>A relation $R$ on $S$ is called a <strong>partial ordering</strong> if it is <strong>reflexive, antisymmetric and transitive</strong>. A set $S$ together with a partial ordering $R$ is called a partially ordered set, and is denoted by $(S,R)$ . Members of $S$ are called elements of the poset. </p>
+<p>The elements $a$ and $b$ of a poset $(S,\preceq)$ are called <strong>comparable</strong> if either $a\preceq b$ or $b\preceq a$ . When $a$ and $b$ are elements of $S$ such that neither $a\preceq b$ nor $b\preceq a$ , $a$ and $b$ are called incomparable.</p>
+<p>If $(S,\preceq)$ is a poset and every two elements of $S$ are comparable , $S$ is called a totally ordered or linearly ordered set, and $\preceq$ is called a total order or a linear order. A totally ordered set is also called a chain.</p>
+<p>$(S,\preceq)$ is a well-ordered set if it is a poset such that $\preceq$ is a total ordering and every nonempty subset of $S$ has a least element.</p>
+<p>Suppose that $S$ is a well-ordered set. Then $P(x)$ is true for all $x\in S$<br>For every $y\in S$, if $P(x)$ is true for all $x\in S$ with $x\prec y$ , then $P(y)$ is true</p>
+<p>An element of is called <strong>maximal</strong> if it is not <strong>less</strong> than any element of the poset<br>An element of is called <strong>minimal</strong> if it is not <strong>greater</strong> than any element of the poset</p>
+<p><strong>greatest element</strong> is an element in a poset that is <strong>greater</strong> than every other element<br><strong>least element</strong> is an element in a poset that is <strong>less</strong> than every other element</p>
+<p>upper bound /lower bound /least upper bound /greatest lower bound</p>
+<p>A partially ordered set in which every pair of elements has both a least upper bound and a greatest lower bound is called a lattice</p>
+<p>Every finite nonempty poset $(S,\preceq)$ has at least one minimal element</p>
+<h2 id="Chapter-10-Graphs"><a href="#Chapter-10-Graphs" class="headerlink" title="Chapter-10 Graphs"></a>Chapter-10 Graphs</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>术语</th>
+<th>翻译</th>
+<th>术语</th>
+<th>翻译</th>
+<th>术语</th>
+<th>翻译</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>isolated</td>
+<td>孤立的</td>
+<td>pendant</td>
+<td>悬挂的</td>
+<td>in-degree</td>
+<td>入度</td>
+</tr>
+<tr>
+<td>out-degree</td>
+<td>出度</td>
+<td>bipartite graphs</td>
+<td>二分图</td>
+<td>sparse</td>
+<td>稀疏的</td>
+</tr>
+<tr>
+<td>isomorphism</td>
+<td>同构</td>
+<td>incidence matrix</td>
+<td>关联矩阵</td>
+<td>invariant</td>
+<td>不变量</td>
+</tr>
+<tr>
+<td>cut vertices</td>
+<td>割点</td>
+<td>cut edge</td>
+<td>割边</td>
+<td>homeomorphic</td>
+<td>同态</td>
+</tr>
+<tr>
+<td>planar graph</td>
+<td>平面图</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="Graphs-and-Graph-Models"><a href="#Graphs-and-Graph-Models" class="headerlink" title="Graphs and Graph Models"></a>Graphs and Graph Models</h3><p>A graph $G=(V,E)$ consists of $V$ ,a nonempty set of vertices (or nodes) and $E$ ,a set of edges. Each edge has either $1$ or $2$ vertices associated with it , called its endpoints.</p>
+<p>A digraph $(V, E)$ consists of a nonempty set of vertices $V$ and a set of directed edges $E$. Each directed edge is associated with an ordered pair of vertices. The directed edge $(u, v)$ is said to start at $u$ and end at $v$.</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Edges</th>
+<th>Multiple Edges</th>
+<th>Loops</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Simple graph</td>
+<td>Undirected</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Multigraph</td>
+<td>Undirected</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Pseudograph</td>
+<td>Undirected</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Simple directed graph</td>
+<td>Directed</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Directed multigraph</td>
+<td>Directed</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Mixed graph</td>
+<td>Directed and undirected</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="Graph-Terminology"><a href="#Graph-Terminology" class="headerlink" title="Graph Terminology"></a>Graph Terminology</h3><p>The set of all neighbors of a vertex $v$ of $G=(V,E)$ , denoted by $N(v)$ , is called the neighborhood of $v$ . If $A$ is a subset of $V$ , we denote by $N(A)$ the set of all vertices in $G$ that are adjacent to at least one vertex in $A$ , $N(A)=\bigcup_{c\in A}N(v)$</p>
+<p>The degree of a vertex in an undirected graph is the number of edges incident with it, except that a loop at a vertex contributes twice to the degree of that vertex. The degree of the vertex v is denoted by $\deg(v)$</p>
+<h3 id="Graph-Properties"><a href="#Graph-Properties" class="headerlink" title="Graph Properties"></a>Graph Properties</h3><p>Let $G=(V,E)$ be an undirected graph with $m$ edges, then</p>
+<script type="math/tex; mode=display">
+2m=\sum_{v\in V}\deg(v)</script><p>An undirected graph has an even number of vertices of odd degree.</p>
+<p>In a graph with directed edges the in-degree of a vertex $v$, denoted by $\deg^−(v)$, is the number of edges with $v$ as their terminal vertex. The out-degree of $v$, denoted by $deg^+(v)$, is the number of edges with $v$ as their initial vertex.</p>
+<p>Let $G=(V,E)$ be a graph with directed edges, then</p>
+<script type="math/tex; mode=display">
+\sum_{v\in V}\deg^-(v)=\sum_{v\in V}\deg^+(v)=|E|</script><p>$K$-Complete   $C$-Cycle   $W$-Wheels   $Q$-Cube</p>
+<h3 id="Bipartite-Graphs-and-Matchings"><a href="#Bipartite-Graphs-and-Matchings" class="headerlink" title="Bipartite Graphs and Matchings"></a>Bipartite Graphs and Matchings</h3><p>A simple graph $G$ is called bipartite if its vertex set $V$ can be partitioned into two disjoint set $V_1$ and $V_2$ such that every edge in the graph connects a vertex in $V_1$ and a vertex in $V_2$ , the pair $(V_1,V_2)$ is a bipartition of the vertex set $V$ of $G$ </p>
+<p>A simple graph is bipartite if and only if it is possible to assign one of two different colors to each vertex of the graph so that no two adjacent vertices are assigned the same color.</p>
+<p>A matching $M$ in a simple graph $G=(V,E)$ is a subset of the set $E$ of edges of the graph such that no two edges are incident with the same vertex.</p>
+<p>A matching $M$ in a bipartite graph $G=(V,E)$ with bipartition $(V_1,V_2)$ is a complete matching from $V_1$ to $V_2$ if every vertex in $V_1$ is the endpoint of an edge in the matching, equivalently $|M|=|V_1|$</p>
+<h3 id="Hall’s-Marriage-Theorem"><a href="#Hall’s-Marriage-Theorem" class="headerlink" title="Hall’s Marriage Theorem"></a>Hall’s Marriage Theorem</h3><p>The bipartite graph $G=(V,E)$ with bipartition $(V_1,V_2)$ has complete matching from $V_1$ to $V_2$ if and only if $|N(A)|\geq|A|$ for all subsets $A$ of $V_1$</p>
+<h3 id="Subgraphs"><a href="#Subgraphs" class="headerlink" title="Subgraphs"></a>Subgraphs</h3><p>A subgraph of a graph $G=(V,E)$ is a graph $H=(W,F)$ ,where $W\subseteq V$ and $F\subseteq E$<br>A subgraph $H$ of $G$ is a proper subgraph of $G$ if $H\neq G$</p>
+<p>Let $G=(V,E)$ be a simple graph, the subgraph induce by a subset $W$ of the vertex set $V$ is the graph $(W,F)$ , where the edges set $F$ contains an edge in $E$ if and only if both endpoints of this edge are in $W$ </p>
+<h3 id="Graph-Isomorphism"><a href="#Graph-Isomorphism" class="headerlink" title="Graph Isomorphism"></a>Graph Isomorphism</h3><p>The simple graphs $G_1=(V_1,E_1)$ and $G_2=(V_2,E_2)$ are isomorphic if there exists a one-to-one and onto function $f$ from $V_1$ to $V_2$ with the property that $a$ and $b$ are adjacent in $G_1$ if and only if $f(a)$ and $f(b)$ are adjacent in $G_2$ ,for all $a$ and $b$ in $V_1$ </p>
+<h3 id="Connectivity"><a href="#Connectivity" class="headerlink" title="Connectivity"></a>Connectivity</h3><p>A path is a sequence of edges that begins at a vertex of a graph and travels from vertex to vertex along edges of the graph.</p>
+<p>A path or circuit is simple if it does not contain the same edge more than once.</p>
+<p>An undirected graph is called connected if there is a path between every pair of distinct vertices of the graph. We say that we disconnect a graph when we remove vertices or edges, or both, to produce a disconnected subgraph.</p>
+<p>There is a simple path between every pair of distinct vertices of a connected undirected graph.</p>
+<p>A connected component of a graph $G$ is a connected subgraph of G that is not a proper subgraph of another connected subgraph of $G$.</p>
+<h3 id="Cut-Vertices"><a href="#Cut-Vertices" class="headerlink" title="Cut Vertices"></a>Cut Vertices</h3><p>Sometimes the removal from a graph of a vertex and all incident edges produces a subgraph with more connected components. Such vertices are called cut vertices(or articulation points).</p>
+<p>Connected graphs without cut vertices are called nonseparable graphs</p>
+<p>The vertex connectivity of a noncomplete graph $G$ , denoted by $\kappa(G)$ the minimum number of vertices that can be removed to disconnect a graph.</p>
+<p>A graph is k-connected (or k-vertex-connected), if $\kappa(G)\geq k$ </p>
+<p>The edge connectivity of a graph $G$ , denoted by $\lambda(G)$ is the minimum number of edges in an edge cut of $G$</p>
+<p>An inequality for vertex connectivity and edge connectivity $\kappa(G)\leq\lambda(G)\leq\min_{v\in V}\deg(v)$</p>
+<h3 id="Connectedness-in-Digraphs"><a href="#Connectedness-in-Digraphs" class="headerlink" title="Connectedness in Digraphs"></a>Connectedness in Digraphs</h3><p>A directed graph is strongly connected if there is a path from $a$ to $b$ and from $b$ to $a$ whenever $a$ and $b$ are vertices in the graph.</p>
+<p>A directed graph is weakly connected if there is a path between every two vertices in the underlying undirected graph.</p>
+<p>The strongly connected components of $G$ is the subgraphs that are strongly connected but not contained in larger strongly connected subgraphs.</p>
+<h3 id="Euler-Paths-and-Circuits"><a href="#Euler-Paths-and-Circuits" class="headerlink" title="Euler Paths and Circuits"></a>Euler Paths and Circuits</h3><p>A Euler circuit in a graph $G$ is a simple circuit containing every edge of $G$ .<br>An Euler path in $G$ is a simple path containing every edge of $G$</p>
+<p>A connected multigraph with at least two vertices has an Euler circuit if and only if each of its vertices has even degree.</p>
+<p>A connected multigraph has an Euler path but not an Euler circuit if and only if it has exactly two vertices of odd degree.</p>
+<h3 id="Hamilton-Paths-and-Circuits"><a href="#Hamilton-Paths-and-Circuits" class="headerlink" title="Hamilton Paths and Circuits"></a>Hamilton Paths and Circuits</h3><p>A simple path in a graph $G$ that passes through every vertex exactly once is called a Hamilton path, and a simple circuit in a graph $G$ that passes through every vertex exactly once is called a Hamilton circuit.</p>
+<p>If $G$ is a simple graph with n vertices with $n\geq3$ such that the degree of every vertex in $G$ is at least $n/2$, then $G$ has a Hamilton circuit.</p>
+<p>If $G$ is a simple graph with $n$ vertices with $n \geq 3$ such that $\deg(u) + \deg(v) \geq n$ for every pair of nonadjacent vertices $u$ and $v$ in $G$, then $G$ has a Hamilton circuit.</p>
+<h3 id="Shortest-Path-Problems"><a href="#Shortest-Path-Problems" class="headerlink" title="Shortest-Path Problems"></a>Shortest-Path Problems</h3><p>Graphs that have a number assigned to each edge are called weighted graphs.</p>
+<h3 id="Planar-Graphs"><a href="#Planar-Graphs" class="headerlink" title="Planar Graphs"></a>Planar Graphs</h3><p>A graph is called planar if it can be drawn in the plane without any edges crossing.</p>
+<script type="math/tex; mode=display">
+2e=\sum_{\text{all region R}}\deg(R)\geq3r</script><p>If $G$ is a connected planar simple graph with $e$ edges and $v$ vertices, where $v\geq3$, then $e\leq 3v − 6$.</p>
+<p>If a connected planar simple graph has $e$ edges and $v$ vertices with $v\geq3$ and no circuits of length three, then $e\leq 2v − 4$.</p>
+<p>If $G$ is a connected planar simple graph, then $G$ has a vertex of degree not exceeding five.</p>
+<h3 id="Euler’s-Formula"><a href="#Euler’s-Formula" class="headerlink" title="Euler’s Formula"></a>Euler’s Formula</h3><p>Let $G$ be a connected planar simple graph with $e$ edges and $v$ vertices. Let $r$ be the number of regions in a planar representation of $G$. Then $r=e-v+2$</p>
+<h3 id="Kuratowski’s-Theorem"><a href="#Kuratowski’s-Theorem" class="headerlink" title="Kuratowski’s Theorem"></a>Kuratowski’s Theorem</h3><p>A graph is nonplanar iif it contains a subgraph homeomorphic to $K_{3,3}$ or $K_5$</p>
+<h3 id="Dual-Graph"><a href="#Dual-Graph" class="headerlink" title="Dual Graph"></a>Dual Graph</h3><p>Each map in the plane can be represented by a graph, each region of the map is represented by a vertex. Edges connect two vertices if the vertices have a common border. The resulting graph is called the dual graph of the map.</p>
+<p>The chromatic number of a graph is the least number of colors needed for a coloring of this graph. The chromatic number of a graph $G$ is denoted by $\chi(G)$.</p>
+]]></content>
+      <tags>
+        <tag>课程笔记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>大学物理甲I</title>
     <url>/2025/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E7%94%B2I/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Chapter-1-质点运动学"><a href="#Chapter-1-质点运动学" class="headerlink" title="Chapter-1 质点运动学"></a>Chapter-1 质点运动学</h2><p>【注】与中学内容基本一致，略</p>
@@ -524,892 +1410,6 @@ E=\frac{dN}{dS}</script><p>则电场线满足一下三条重要性质</p>
 <h3 id="高斯定理"><a href="#高斯定理" class="headerlink" title="高斯定理"></a>高斯定理</h3><p>通过任意闭合曲面的电通量等于该曲面所包围的所有电量的代数和除以 $\varepsilon_0$</p>
 <script type="math/tex; mode=display">
 \Phi_e=\oint_sE\cdot dS=\frac{1}{\varepsilon_0}\sum_iq_i</script>]]></content>
-      <tags>
-        <tag>课程笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>关于博主</title>
-    <url>/2025/%E5%85%B3%E4%BA%8E%E5%8D%9A%E4%B8%BB/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><ul>
-<li>试图记录大学生活，并活得更多姿多彩的理想主义者</li>
-<li>热爱 JPOP ，喜欢听纯音乐并在咕小提琴的音乐爱好者</li>
-<li>试图让自己变得更加容易接近的小 i 人</li>
-<li>在某些场合下可能表现得有些自恋的帅锅 qwq</li>
-<li>在高中语文老师的启发下正在看书脱离文盲状态<span id="more"></span>
-</li>
-</ul>
-<p><img src="/pictures/个人照片.jpg" alt="你浙什么时候改善宿舍环境" style="display: block; margin: 0 auto; width: 30%;"><br>其它的暂时懒得写了qwq，咕咕咕</p>
-]]></content>
-      <tags>
-        <tag>个人资料</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>常微分方程</title>
-    <url>/2025/%E5%B8%B8%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="nth-order-Differential-Equation"><a href="#nth-order-Differential-Equation" class="headerlink" title="nth-order Differential Equation"></a>nth-order Differential Equation</h3><p>The most general form of an nth-order differential equation with independent $x$ and unknown function or dependent variable $y=y(x)$ is $F(x,y,y’,y’’,\cdots,y^{(n)})$<br>An nth-order differential equation ordinarily has an n-parameter family of solutions-one involving n different arbitrary constants or parameters.<br><span id="more"></span></p>
-<h3 id="Integrals-as-General-and-Particular-Solutions"><a href="#Integrals-as-General-and-Particular-Solutions" class="headerlink" title="Integrals as General and Particular Solutions"></a>Integrals as General and Particular Solutions</h3><p>The first-order equation $\begin{aligned}\frac{\mathrm{d}y}{\mathrm{d}x}=f(x,y)\end{aligned}$ takes an especially simple form if the function $f$ is independent of the dependent variable $y$ , $\begin{aligned}\frac{\mathrm{d}y}{\mathrm{d}x}=f(x)\end{aligned}$ , in this special case only need to integrate both sides $\begin{aligned}y(x)=\int f(x)\mathrm{d}x+C\end{aligned}$</p>
-<h3 id="Existence-and-Uniqueness-of-Solutions"><a href="#Existence-and-Uniqueness-of-Solutions" class="headerlink" title="Existence  and Uniqueness of Solutions"></a>Existence  and Uniqueness of Solutions</h3><p>Suppose that both the function $f(x,y)$ and its partial derivative $D_yf(x,y)$ are continuous on some rectangle $R$ in the xy-plane that contains the point $(a,b)$  in its interior.</p>
-<p>Then, for some open interval $I$ containing the point $a$ , the initial value problem $\begin{aligned}\frac{\mathrm{d}y}{\mathrm{d}x}=f(x,y),\quad y(a)=b\end{aligned}$ has one and only one solution that is defined on the interval $I$ .</p>
-<p>if the function $f(x,y)$ and/or its partial derivative $\begin{aligned}\frac{\partial f}{\partial y}\end{aligned}$ fail to satisfy the continuity hypothesis , then the initial value problem may have either no solution or many (even infinitely many) solutions.</p>
-<h3 id="Separable-Equations"><a href="#Separable-Equations" class="headerlink" title="Separable Equations"></a>Separable Equations</h3><p>The first-order differential equation $\begin{aligned}\frac{\mathrm{d}y}{\mathrm{d}x}=H(x,y)\end{aligned}$  is called separable provided that $H(x,y)$ can be written as the product of a function of $x$ and a function of $y$ : $\begin{aligned}\frac{\mathrm{d}y}{\mathrm{d}x}=g(x)h(y)=\frac{g(x)}{f(y)}\end{aligned}$</p>
-<script type="math/tex; mode=display">\begin{aligned}\int f(y)\mathrm{d}y=\int g(x)\mathrm{d}x+C,\quad F(y)=\int f(y)\mathrm{d}y,\quad G(x)=\int g(x)\mathrm{d}x\end{aligned}</script><h3 id="Singular-Solutions"><a href="#Singular-Solutions" class="headerlink" title="Singular Solutions"></a>Singular Solutions</h3><p>It is common for a nonlinear first-order differential equation to have both a general solution involving a n arbitrary constant $C$ and  one or several particular solutions that cannot be obtained by selecting a value for $C$ . These exceptional solutions are frequently called singular solutions.</p>
-<h3 id="Linear-first-order-Equation"><a href="#Linear-first-order-Equation" class="headerlink" title="Linear first-order Equation"></a>Linear first-order Equation</h3><p>Standard form:<br>    $\begin{aligned}\frac{\mathrm{d}y}{\mathrm{d}x}+P(x)y=Q(x)\end{aligned},\quad \rho(x)=\mathrm{e}^{\int P(x)\mathrm{d}x}$<br>Solution:<br>     $\begin{aligned}&amp;\mathrm{e}^{\int P(x)\mathrm{d}x}\frac{\mathrm{d}y}{\mathrm{d}x}+P(x)\mathrm{e}^{\int P(x)\mathrm{d}x}y=Q(x)\mathrm{e}^{\int P(x)\mathrm{d}x}\\&amp;y(x)=\mathrm{e}^{-\int P(x)\mathrm{d}x}\begin{bmatrix}\begin{aligned}\int(Q(x)\mathrm{e}^{\int P(x)\mathrm{d}x})\end{aligned}\mathrm{d}x+C\end{bmatrix}\end{aligned}$<br>    <strong>1.</strong> Begin by calculating the integrating factor $\rho(x)=e^{\int P(x)\mathrm{d}x}$<br>    <strong>2.</strong> Then multiply both sides of the differential equation by $\rho(x)$<br>    <strong>3.</strong> Next , recognize the left-hand side of the resulting equation as the derivative of a product :<br>        $D_x[\rho(x)y(x)]=\rho(x)Q(x)$<br>    <strong>4.</strong> Finally , integrate this equation<br>        $\begin{aligned}\rho(x)y(x)=\int\rho((x)Q(x)\mathrm{d}x+C\end{aligned}$<br>Properties:<br>    <strong>1.</strong> guarantee only a solution on a possibly smaller interval.<br>    <strong>2.</strong> linear first-order differential equation has no singular solutions.</p>
-<h3 id="Exact-Differential-Equation"><a href="#Exact-Differential-Equation" class="headerlink" title="Exact Differential Equation"></a>Exact Differential Equation</h3><p>A general solution $y(x)$ of a first-order differential equation is often defined implicitly by an equation of the form $F(x,y(x))=C$ ,differentiate each side with respect to $x$ </p>
-<script type="math/tex; mode=display">\begin{aligned}&\frac{\partial F}{\partial x}+\frac{\partial F}{\partial y}\frac{\mathrm{d}y}{\mathrm{d}x}=0\\&\Rightarrow M(x,y)+N(x,y)\frac{\mathrm{d}y}{\mathrm{d}x}=0\\&\Rightarrow M(x,y)\mathrm{d}x+N(x,y)\mathrm{d}y=0\end{aligned}</script><p>If there exists a function $F(x,y)$ such that $\begin{aligned}\frac{\partial F}{\partial x}=M, \quad \frac{\partial F}{\partial y}=N\end{aligned}$ ,then the equation $F(x,y)=C$ implicitly defines a general solution of $M(x,y)\mathrm{d}x+N(x,y)\mathrm{d}y=0$ ,then $M(x,y)\mathrm{d}x+N(x,y)\mathrm{d}y=0$ is called an exact differential equation.</p>
-<p>If $M(x,y)\mathrm{d}x+N(x,y)\mathrm{d}y=0$ is exact and $M$ and $N$ have continuous partial derivatives, it then follows that $\begin{aligned}\frac{\partial M}{\partial y}=F_{xy}=F_{yx}=\frac{\partial N}{\partial x}\end{aligned}$ .<br>Thus the equation $\begin{aligned}\frac{\partial M}{\partial y}=\frac{\partial N}{\partial x}\end{aligned}$ is a necessary condition that the differential equation $M\mathrm{d}x+N\mathrm{d}y=0$ to be exact.</p>
-<p>whether a given differential equation is exact or not is related to the precise form $M\mathrm{d}x+N\mathrm{d}y=0$ in which it is written.<br>    $\begin{aligned}F(x,y)=\int M(x,y)\mathrm{d}x+g(y)\end{aligned}$<br>    $\begin{aligned}N=\frac{\partial F}{\partial y}=\begin{pmatrix}\begin{aligned}\frac{\partial}{\partial y}\int M(x,y)\mathrm{d}x\end{aligned}\end{pmatrix}+g’(y)\end{aligned}$<br>    $\begin{aligned}g’(x)=N-\frac{\partial}{\partial y}\int M(x,y)\mathrm{d}x\end{aligned}$<br>    $\begin{aligned}F(x,y)=\int M(x,y)\mathrm{d}x+\int\begin{pmatrix}\begin{aligned}N(x,y)-\frac{\partial}{\partial y}\int M(x,y)\mathrm{d}x\end{aligned}\end{pmatrix}\mathrm{d}y\end{aligned}$</p>
-<h3 id="Integrating-Factor"><a href="#Integrating-Factor" class="headerlink" title="Integrating Factor"></a>Integrating Factor</h3><p>If the original equation $M(x,y)\mathrm{d}x+N(x,y)\mathrm{d}y=0$ is not exact, we can multiply it by an integrating factor $\mu(x,y)M(x,y)\mathrm{d}x+\mu(x,y)N(x,y)\mathrm{d}y=0$</p>
-<ul>
-<li>Assume the integrating factor $\mu$ depends only on $x$ , $\mu=\mu(x)$ , Then:<br>  $\begin{aligned}\frac{\partial(\mu M)}{\partial y}=\frac{\partial(\mu N)}{\partial x}\end{aligned}$<br>  $\begin{aligned}\Rightarrow\mu\frac{\partial M}{\partial y}=\frac{\partial\mu}{\partial x}N+\mu\frac{\partial N}{\partial x}\end{aligned}$<br>  $\begin{aligned}\Rightarrow\mu(\frac{\partial M}{\partial y}-\frac{\partial N}{\partial x})=\frac{\partial\mu}{\partial x}N\end{aligned}$<br>  $\begin{aligned}\Rightarrow\frac{\mathrm{d}\mu}{\mu}=\frac{1}{N}(\frac{\partial M}{\partial y}-\frac{\partial N}{\partial x})\mathrm{d}x\end{aligned}$<br>  $\begin{aligned}\Rightarrow\ln|\mu|=\int\frac{1}{N}(\frac{\partial M}{\partial y}-\frac{\partial N}{\partial x})\mathrm{d}x+C\end{aligned}$<br>  $\Rightarrow\begin{aligned}\mu=\exp[\int\frac{1}{N}(\frac{\partial M}{\partial y}-\frac{\partial N}{\partial x})\mathrm{d}x+C]\end{aligned}$    </li>
-<li>Assume the integrating factor $\mu$ depends only on $y$ , $\mu=\mu(y)$ , Then:<br>  $\begin{aligned}\frac{\partial(\mu M)}{\partial y}=\frac{\partial(\mu N)}{\partial x}\end{aligned}$<br>  $\Rightarrow\begin{aligned}\frac{\partial\mu}{\partial y}M+\mu\frac{\partial M}{\partial y}=\mu\frac{\partial N}{\partial x}\end{aligned}$<br>  $\Rightarrow\begin{aligned}\mu(\frac{\partial N}{\partial x}-\frac{\partial M}{\partial y})=\frac{\partial\mu}{\partial y}M\end{aligned}$<br>  $\begin{aligned}\Rightarrow\frac{\mathrm{d}\mu}{\mu}=\frac{1}{M}(\frac{\partial N}{\partial x}-\frac{\partial M}{\partial y})\mathrm{d}y\end{aligned}$<br>  $\begin{aligned}\Rightarrow\ln|\mu|=\int\frac{1}{M}(\frac{\partial N}{\partial x}-\frac{\partial M}{\partial y})\mathrm{d}y+C\end{aligned}$<br>  $\Rightarrow\begin{aligned}\mu=\exp[\int\frac{1}{M}(\frac{\partial N}{\partial x}-\frac{\partial M}{\partial y})\mathrm{d}y+C]\end{aligned}$    </li>
-</ul>
-<h3 id="Substitution-Methods"><a href="#Substitution-Methods" class="headerlink" title="Substitution Methods"></a>Substitution Methods</h3><p>e.g.1:<br>    $\begin{aligned}\frac{\mathrm{d}y}{\mathrm{d}x}=f(x,y)\end{aligned}$<br>Solution:<br>    Substitute $v=\alpha(x,y),\quad y=\beta(x,v)$<br>    $\begin{aligned}\frac{\mathrm{d}y}{\mathrm{d}x}=\frac{\partial\beta}{\partial x}\frac{\mathrm{d}x}{\mathrm{d}x}+\frac{\partial\beta}{\partial v}\frac{\mathrm{d}v}{\mathrm{d}x}=\beta_x+\beta_v\frac{\mathrm{d}v}{\mathrm{d}x}\end{aligned}$<br>    $\begin{aligned}\frac{\mathrm{d}v}{\mathrm{d}x}=g(x,v)\end{aligned}$ with new dependent variable v.<br>    Then solve this either separable or linear new equation.</p>
-<p>e.g.2: Bernoulli Equation<br>    $\begin{aligned}\frac{\mathrm{d}y}{\mathrm{d}x}+P(x)y=Q(x)y^n,\quad n\neq0,1\end{aligned}$<br>Solution:<br>    Substitute $v=y^{1-n}$ ，$\begin{aligned}\frac{\mathrm{d}v}{\mathrm{d}x}=(1-n)y^{-n}\frac{\mathrm{d}y}{\mathrm{d}x}\end{aligned}$<br>    $\begin{aligned}y^{-n}\frac{\mathrm{d}y}{\mathrm{d}x}+P(x)y^{1-n}=Q(x)\end{aligned}\quad\Rightarrow\quad\begin{aligned}\frac{1}{1-n}\frac{\mathrm{d}v}{\mathrm{d}x}+P(x)v=Q(x)\end{aligned}$<br>    Then solve this Linear first-order equation.</p>
-<p>e.g.3: Homogeneous Equation<br>    $\begin{aligned}\frac{\mathrm{d}y}{\mathrm{d}x}=F(\frac{y}{x})\end{aligned}$<br>Solution:<br>    Substitute $\begin{aligned}v=\frac{y}{x},\quad y=vx,\quad\frac{\mathrm{d}y}{\mathrm{d}x}=v+x\frac{\mathrm{d}v}{\mathrm{d}x}\end{aligned}$ Then $\begin{aligned}x\frac{\mathrm{d}v}{\mathrm{d}x}=F(v)-v\end{aligned}$<br>    Transformed into the separable equation.</p>
-<p>e.g.4: Reducible 2nd-Order Equation<br>    $\begin{aligned}\frac{\mathrm{d}^2y}{\mathrm{d}x^2}=f(x,y,\frac{\mathrm{d}y}{\mathrm{d}x}),\quad F(x,y,y’,y’’)=0\end{aligned}$<br>Solution:<br>    <strong>1.</strong> If $y$ is missing, then $F(x,y’,y’’)=0$ , substitute $\begin{aligned}p=y’=\frac{\mathrm{d}y}{\mathrm{d}x},\quad y’’=\frac{\mathrm{d}p}{\mathrm{d}x}\end{aligned}$ ,results in the first-order equation $F(x,p,p’)=0$ , if we can solve this equation for a general solution $p(x,C_1)$ involving an arbitrary constant $C_1$ , then $\begin{aligned}y(x)=\int y’(x)\mathrm{d}x=\int p(x,C_1)\mathrm{d}x+C_2\end{aligned}$<br>    <strong>2.</strong> If $x$ is missing, then $F(y,y’,y’’)=0$ , substitute $\begin{aligned}p=y’=\frac{\mathrm{d}y}{\mathrm{d}x},\quad y’’=\frac{\mathrm{d}p}{\mathrm{d}x}=\frac{\mathrm{d}p}{\mathrm{d}y}\frac{\mathrm{d}y}{\mathrm{d}x}=p\frac{\mathrm{d}p}{\mathrm{d}y}\end{aligned}$ , results  in the first order equation $\begin{aligned}F(y,p,p\frac{\mathrm{d}p}{\mathrm{d}y})=0\end{aligned}$ , if we can solve this equation for a general solution $p(y,C_1)$ involving an arbitrary constant $C_1$ , then $\begin{aligned}x(y)=\int\frac{\mathrm{d}x}{\mathrm{d}y}\mathrm{d}y=\int\frac{1}{\mathrm{d}y/\mathrm{d}x}\mathrm{d}y=\int\frac{1}{p}\mathrm{d}y=\int\frac{\mathrm{d}y}{p(y,C_1)}+C_2\end{aligned}$</p>
-<h3 id="Singular-solutions"><a href="#Singular-solutions" class="headerlink" title="Singular solutions"></a>Singular solutions</h3><p>There are special solutions thar cannot be obtained from the general solution $y=\varphi(x;C)$ for some value of $C$ ,but are always tangent to one of the $y=\varphi(x,C)$ solution at some point.<br>If there is a singular solution, at each point on the curve has more than 1 solution.<br>if $y=\varphi(x)$ is a singular solution $\Rightarrow$ It’s a p-discriminant  </p>
-<p>Re-write the ODE as an integral equation.<br>Construct the Picard iterates.<br>Show that the Picard iterates converges uniformly on $|x-x_0|\leq h$<br>Show that the above limit function is a solution.<br>Show that the solution is unique. </p>
-<h3 id="Principle-of-the-p-Discriminant-Method"><a href="#Principle-of-the-p-Discriminant-Method" class="headerlink" title="Principle of the p-Discriminant Method"></a>Principle of the p-Discriminant Method</h3><p>Consider a first-order OED in implicit form</p>
-<script type="math/tex; mode=display">\begin{aligned}F(x,y,p)=0,\quad p=\frac{\mathrm{d}y}{\mathrm{d}x}\end{aligned}</script><p>A singular solution must satisfy two conditions simultaneously</p>
-<ul>
-<li>The original equation $F(x,y,p)=0$</li>
-<li>The partial derivative of $F$ with respect to $\begin{aligned}p:\frac{\partial F}{\partial p}=0\end{aligned}$<br>By eliminating $p$ from these equations, we obtain the p-discriminant curve, which may represent the singular solution.</li>
-</ul>
-<h3 id="Proving-the-Correctness-of-the-p-Discriminant-Method"><a href="#Proving-the-Correctness-of-the-p-Discriminant-Method" class="headerlink" title="Proving the Correctness of the p-Discriminant Method"></a>Proving the Correctness of the p-Discriminant Method</h3><p><strong>Singular Solution:</strong> A solution of a differential equation that is not tangent to any solution in the family of general solutions and cannot be obtained by choosing specific values for the constants in the general solution.<br><strong>Envelop:</strong> A curve that is tangent at each point to some solution in the family of general solutions. A singular solution is typically the envelope of general solution family.<br><strong>p-Discriminant Method:</strong> By solving the system $F(x,y,p)=0$ and $\begin{aligned}\frac{\partial F}{\partial p}=0\end{aligned}$ , the curve obtained after eliminating $p$ may represent a singular solution.</p>
-<p>Assume the family of general solutions is $\varphi(x,y,C)=0$ where $C$ is a constant.<br>The envelope must satisfy: $\varphi(x,y,C)=0\quad\begin{aligned}\frac{\partial\varphi}{\partial C}=0\end{aligned}$<br>Eliminating $C$ gives the envelope’s equation.</p>
-<p>For the differential equation $F(x,y,p)=0$ , the envelope (singular solution) of its general solution family must satisfy:</p>
-<ul>
-<li>Every point $(x,y)$ on the envelope satisfies $F(x,y,p)=0$ (Since it is a solution)</li>
-<li>The slope $p$ of the envelope at that point matches the slope of the corresponding solution in the general family</li>
-<li>The envelope represents a limiting case where distinct solutions “coalesce”, implying the dependence on $C$ vanishes, leading to $\begin{aligned}\frac{\partial F}{\partial p}=0\end{aligned}$</li>
-</ul>
-<h3 id="Homogeneous-Second-Order-Linear-Equations"><a href="#Homogeneous-Second-Order-Linear-Equations" class="headerlink" title="Homogeneous Second-Order Linear Equations"></a>Homogeneous Second-Order Linear Equations</h3><p>Let $y_1$ and $y_2$ be two solutions of the homogeneous linear equation in $y’’+p(x)y’+q(x)y=0$ on the interval $I$.If $c_1$ and $c_2$ are constants, then the linear combination $y=c_1y_1+c_2y_2$ is also a solution on $I$.</p>
-<p>The second-order equation $y’’+p(x)y’+q(x)y=f(x)$ has infinitely many solution curves passing through the point $(a,b_0)$ , namely one for each (real number) value of the initial slope $y’(a)=b_1$ . That is, instead of there being only one line through $(a,b_0)$ tangent to a solution curve, every nonvertical straight line through $(a,b_0)$ is tangent to some solution curve of $y’’+p(x)y’+q(x)y=f(x)$.</p>
-<h3 id="Linear-Independence-of-Two-Functions"><a href="#Linear-Independence-of-Two-Functions" class="headerlink" title="Linear Independence of Two Functions"></a>Linear Independence of Two Functions</h3><p>Two functions defined on an open interval $I$ are said to be linearly independent on $I$ provided that neither is a constant multiple of the other.<br>Given two functions $f$ and $g$ , the Wronskian of $f$ and $g$ is the determinant</p>
-<script type="math/tex; mode=display">W=\begin{vmatrix}f&g\\f'&g'\end{vmatrix}=fg'-f'g</script><p>Suppose that $y_1$ and $y_2$ are solutions of the homogeneous second-order linear equation $y’’+p(x)y’+q(x)y=0$ on an open interval $I$ on which $p$ and $q$ are continuous</p>
-<ul>
-<li>If $y_1$ and $y_2$ are linearly dependent, then $W(y_1,y_2)=0$ on $I$</li>
-<li>If $y_1$ and $y_2$ are linearly independent, then $W(y_1,y_2)\neq0$ at each point of $I$</li>
-</ul>
-<h3 id="Linear-Second-Order-Equations-with-Constant-Coefficients"><a href="#Linear-Second-Order-Equations-with-Constant-Coefficients" class="headerlink" title="Linear Second-Order Equations with Constant Coefficients"></a>Linear Second-Order Equations with Constant Coefficients</h3><p>$ar^2+br+c=0$ this quadratic equation is called the characteristic equation of the homogeneous linear differential equation $ay’’+by’+cy=0$ </p>
-<ul>
-<li>If the roots $r_1$ and $r_2$ of the characteristic equation are real and distinct, then $y(x)=c_1e^{r_1x}+c_2e^{r_2x}$ is a general solution.</li>
-<li>If the characteristic equation has equal roots $r_1=r_2$ , then $y(x)=(c_1+c_2x)e^{r_1x}$ is a general solution.</li>
-</ul>
-<h3 id="General-Solutions-of-Linear-Equations"><a href="#General-Solutions-of-Linear-Equations" class="headerlink" title="General Solutions of Linear Equations"></a>General Solutions of Linear Equations</h3><p>Let $y_1,y_2,\cdots,y_n$ be $n$ solutions of the homogeneous linear equation in $y^{(n)}+p_1(x)y^{(n-1)}+\cdots+p_{n-1}(x)y’+p_n(x)y=0$ on the interval $I$ . If  $c_1,c_2,\cdots,c_n$ are constants, then the linear combination $y=c_1y_2+c_2y_c+\cdots+c_ny_n$ is also a solution.</p>
-<p>The $n$ functions $f_1,f_2,\cdots,f_n$ are said to be linearly dependent on the interval $I$ provided that there exist constants $c_1,c_2,\cdots,c_n$ not all zero such that $c_1f_1+c_2f_2+\cdots+c_nf_n=0$<br>Their Wronskian is the $n\times n$ determinant $W=\begin{vmatrix}f_1&amp;f_2&amp;\cdots&amp;f_n\\f_1’&amp;f_2’&amp;\cdots&amp;f_n’\\\vdots&amp;\vdots&amp;&amp;\vdots\\f^{(n-1)}_1&amp;f^{(n-1)}_2&amp;\cdots&amp;f^{(n-1)}_n\end{vmatrix}$<br>Suppose that $y_1,y_2,\cdots,y_n$ are $n$ solutions of the homogeneous nth-order linear equation $y^{(n)}+p_1(x)y^{(n-1)}+\cdots+p_{n-1}(x)y’+p_n(x)y=0$ on an open interval $I$ where each $p_i$ is continuous. Let $W=W(y_1,y_2,\cdots,y_n)$ </p>
-<ul>
-<li>If $y_1,y_2,\cdots,y_n$ are linearly dependent, then $W=0$ on $I$</li>
-<li>If $y_1,y_2,\cdots,y_n$ are linearly independent, then $W\neq0$ at each point of $I$</li>
-</ul>
-<h3 id="Nonhomogeneous-Equations"><a href="#Nonhomogeneous-Equations" class="headerlink" title="Nonhomogeneous Equations"></a>Nonhomogeneous Equations</h3><p>Let $y_p$ be a particular solution of the nonhomogeneous equation $y^{(n)}+p_1(x)y^{(n-1)}+\cdots+p_{n-1}(x)y’+p_n(x)y=f(x)$ on an open interval $I$ where the functions $p_i$ and $f$ are continuous. Let $y_1,y_2,\cdots,y_n$ be linearly independent solutions of the associated homogeneous equation $y^{(n)}+p_1(x)y^{(n-1)}+\cdots+p_{n-1}(x)y’+p_n(x)y=0$ . If $Y$ is any solution whatsoever of $y^{(n)}+p_1(x)y^{(n-1)}+\cdots+p_{n-1}(x)y’+p_n(x)y=f(x)$ on $I$ ,then there exist number $c_1,c_2,\cdots,c_n$ such that</p>
-<script type="math/tex; mode=display">Y(x)=c_1y_1(x)+c_2y_2(x)+\cdots+c_ny_n(x)+y_p(x)</script><p>for all $x$ in $I$</p>
-<h3 id="Polynomial-Operators"><a href="#Polynomial-Operators" class="headerlink" title="Polynomial Operators"></a>Polynomial Operators</h3><p>$\begin{aligned}L&amp;=a_n\frac{d^n}{dx^n}+a_{n-1}\frac{d^{n-1}}{dx^{n-1}}+\cdots+a_2\frac{d^2}{dx^2}+a_1\frac{d}{dx}+a_0\\&amp;=a_nD^n+a_{n-1}D^{n-1}+\cdots+a_nD^2+a_1D+a_0\end{aligned}$</p>
-<h3 id="Homogeneous-Equations-with-Constant-Coefficients"><a href="#Homogeneous-Equations-with-Constant-Coefficients" class="headerlink" title="Homogeneous Equations with Constant Coefficients"></a>Homogeneous Equations with Constant Coefficients</h3><p>$a_nr^n+a_{n-1}r^{n-1}+\cdots+a_2r^2+a_1r+a_0=0$ is called the characteristic equation or auxiliary equation of the differential equation of $a_ny^{(n)}+a_{n-1}y^{(n-1)}+\cdots+a_1y’+a_0y=0$</p>
-<ul>
-<li>If the roots $r_1,r_2,\cdots,r_n$ of the characteristic equation are real and distinct, then $y(x)=c_1e^{r_1x}+c_2e^{r_2x}+\cdots+c_ne^{r_nx}$ is a general solution.</li>
-<li>If the characteristic equation has repeated roots $r_1$ , the desired solution  of $(D-r_1)^ky=0$ is $y(x)=ue^{r_1x}=(c_1+c_2x+c_3x^2+\cdots+c_kx^{k-1})e^{r_1x}$</li>
-</ul>
-<h3 id="Complex-Valued-Functions-and-Euler’s-Formula"><a href="#Complex-Valued-Functions-and-Euler’s-Formula" class="headerlink" title="Complex-Valued Functions and Euler’s Formula"></a>Complex-Valued Functions and Euler’s Formula</h3><p>$\begin{cases}e^{ix}=\cos{x}+i\sin{x}\\e^{(a+bi)x}=e^{ax}(\cos{bx}+i\sin{bx})\\e^{(a-bi)x}=e^{ax}(\cos{bx}-i\sin{bx})\end{cases}$</p>
-<p>$\begin{aligned}y(x)&amp;=c_1e^{r_1x}+c_2e^{r_2x}=c_1e^{(a+bi)x}+c_2e^{(a-bi)x}\\&amp;=c_1e^{ax}(\cos{bx}+i\sin{bx})+c_2e^{ax}(\cos{bx}-i\sin{bx})\\&amp;=(c_1+c_2)e^{ax}\cos{bx}+i(c_1-c_2)e^{ax}\sin{bx}\\&amp;=e^{ax}(d_1\cos{bx}+d_2\sin{bx})\end{aligned}$</p>
-<h3 id="Reduction-of-Order"><a href="#Reduction-of-Order" class="headerlink" title="Reduction of Order"></a>Reduction of Order</h3><p>Suppose that one solution $y_1(x)$ of the homogeneous second-order linear differential equation $y’’+p(x)y’+q(x)y=0$ is known. The method of reduction of order consists of substituting $y_2(x)=v(x)y_1(x)$ and attempting to determine the function $v(x)$ so that $y_2(x)$ is a second linearly independent solution.</p>
-<h3 id="Method-of-Undetermined-Coefficients"><a href="#Method-of-Undetermined-Coefficients" class="headerlink" title="Method of Undetermined Coefficients"></a>Method of Undetermined Coefficients</h3><p>$f(x)$ can be written as a sum of terms each of the form $P_m(x)e^{rx}\cos{kx}$ or $P_m(x)e^{rx}\sin{kx}$ take the trail solution $y_p(x)=x^s[(A_0+A_1x+\cdots+A_mx^m)e^{rx}\cos{kx}+(B_0+B_1x+\cdots+B_mx^m)e^{rx}\sin{kx}]$<br>where $s$ is the smallest nonnegative integer such that no term in $y_p$ duplicates a term in the complementary function $y_c$  </p>
-<div class="table-container">
-<table>
-<thead>
-<tr>
-<th style="text-align:center">$f(x)$</th>
-<th style="text-align:center">$y_p$</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">$P_m=b_0+b_1x+\cdots+b_mx^m$</td>
-<td style="text-align:center">$x^s(A_0+A_1x+\cdots+A_mx^m)$</td>
-</tr>
-<tr>
-<td style="text-align:center">$a\cos{kx}+b\sin{kx}$</td>
-<td style="text-align:center">$x^s(A\cos{kx}+B\sin{kx})$</td>
-</tr>
-<tr>
-<td style="text-align:center">$e^{rs}(a\cos{kx}+b\sin{kx})$</td>
-<td style="text-align:center">$x^se^{rx}(A\cos{kx}+B\sin{kx})$</td>
-</tr>
-<tr>
-<td style="text-align:center">$P_m(x)e^{rx}$</td>
-<td style="text-align:center">$x^s(A_0+A_1x+\cdots+A_mx^m)e^{rx}$</td>
-</tr>
-<tr>
-<td style="text-align:center">$P_m(x)(a\cos{kx}+b\sin{kx})$</td>
-<td style="text-align:center">$\begin{aligned}x^s[&amp;(A_0+A_1x+\cdots+A_mx^m)\cos{kx}+\\&amp;(B_0+B_1x+\cdots+B_mx^m)\sin{kx}]\end{aligned}$</td>
-</tr>
-</tbody>
-</table>
-</div>
-<h3 id="Variation-of-Parameters"><a href="#Variation-of-Parameters" class="headerlink" title="Variation of Parameters"></a>Variation of Parameters</h3><p>If the nonhomogeneous equation $y’’+P(x)y’+Q(x)y=f(x)$ has complementary function $y_c(x)=c_1y_1(x)+c_2y_2(x)$ , then a particular solution is given by</p>
-<script type="math/tex; mode=display">\begin{cases}u_1'y_1+u_2'y_2=0\\u_1'y_1'+u_2'y_2'=f(x)\end{cases}</script><script type="math/tex; mode=display">\begin{aligned}y_p(x)=-y_1(x)\int\frac{y_2(x)f(x)}{W(x)}dx+y_2\int\frac{y_1(x)f(x)}{W(x)}dx\end{aligned}</script><p>where $W=W(y_1,y_2)$ is the Wronskian of the two independent solutions $y_1$ and $y_2$ of the associated homogeneous equation. </p>
-<h3 id="Endpoint-Problems-and-Eigenvalues"><a href="#Endpoint-Problems-and-Eigenvalues" class="headerlink" title="Endpoint Problems and Eigenvalues"></a>Endpoint Problems and Eigenvalues</h3><script type="math/tex; mode=display">y''+p(x)y'+q(x)y=0,y(a)=0,y(b)=0</script><p>to find a solution of the differential equation on the interval $(a,b)$ that satisfies the condition $y(a)=0$ and $y(b)=0$ at the endpoints of the interval. Such a problem is called an endpoint or boundary value problem.</p>
-<script type="math/tex; mode=display">y''+p(x)y'+\lambda q(x)y=0,y(a)=0,y(b)=0</script><p>An  endpoint problem containing a parameter $\lambda$  is called an eigenvalue problem. If there are values of the parameter $\lambda$ exist a nontrivial solution of the endpoint problem, such a value of $\lambda$ is called an eigenvalue of characteristic value of the problem.<br>Suppose that $\lambda_{\ast}$ is an eigenvalue of the problem and that $y_{\ast}$ is a nontrivial solution of the problem with this value of $\lambda$ inserted</p>
-<script type="math/tex; mode=display">
-y_*''+p(x)y_*'+\lambda_*q(x)y_*=0,y_*(a)=0,y_*(b)=0</script><p>Then we call $y_\ast$ an eigenfunction associated with the eigenvalue $\lambda_{\ast}$ .</p>
-<h3 id="Power-Series"><a href="#Power-Series" class="headerlink" title="Power Series"></a>Power Series</h3><p>$\begin{aligned}\sum_{n=0}^{\infty}c_n(x-a)^n=c_0+c_1(x-a)+\cdots+c_n(x-a)^n\end{aligned}+\cdots$<br>$\begin{aligned}f(x)=\sum_{n=0}^\infty c_nx^n=c_0+c_1x+c_2x^2+\cdots\end{aligned}$<br>$\begin{aligned}f’(x)=\sum_{n=1}^\infty nc_nx^{n-1}=c_1+2c_2x+3c_3x^2+\cdots\end{aligned}$</p>
-<h3 id="Radius-of-Convergence"><a href="#Radius-of-Convergence" class="headerlink" title="Radius of Convergence"></a>Radius of Convergence</h3><p>Given the power series $\sum c_nx^n$ ,suppose that the limit $\begin{aligned}\rho=\lim_{n\rightarrow\infty}|\frac{c_n}{c_{n+1}}|\end{aligned}$<br>exists ($\rho$ is finite) or infinite, Then</p>
-<ul>
-<li>if $\rho=0$ ,then the series diverges for all $x\neq 0$</li>
-<li>if $0&lt;\rho&lt;\infty$ ,then $\sum c_nx^n$ converges if $|x|&lt;\rho$ and diverges if $|x|&gt;\rho$</li>
-<li>if $\rho=\infty$ ,then the series converges for all $x$<br>$A(x)y’’+B(x)y’+C(x)y=0$ the point $x=a$ is called an ordinary point of $y’’+P(x)y’+Q(x)y=0$ provided that the function $P(x)$ and $Q(x)$ are both analytic at $x=a$ ,Otherwise $x=a$ is a singular point</li>
-</ul>
-<h3 id="Solutions-Near-an-Ordinary-Point"><a href="#Solutions-Near-an-Ordinary-Point" class="headerlink" title="Solutions Near an Ordinary Point"></a>Solutions Near an Ordinary Point</h3><p>Suppose thar $a$ is an ordinary point of the equation $A(x)y’’+B(x)y’+C(x)y=0$ that is the functions $P=B/A$ and $Q=C/A$ are analytic at $x=a$ ,then the equation has two linearly independent solutions , each of the form $\begin{aligned}y(x)=\sum_{n=0}^\infty c_n(x-a)^n\end{aligned}$<br>The radius of convergence of any such series solution is at least as large as the distance from $a$ to the nearest (real or complex) singular point of the equation, the coefficients in the series can be determined by its substitution.</p>
-<h3 id="Regular-Singular-Points"><a href="#Regular-Singular-Points" class="headerlink" title="Regular Singular Points"></a>Regular Singular Points</h3><p>A differential equation having a singular point at 0 ordinarily will not have power series solutions of the form $y(x)=\sum c_nx^n$ . To investigate the form that a solution of such an equation might take, assume that analytic coefficient functions and rewrite it in the standard form <script type="math/tex">\begin{aligned}&y''+P(x)y'+Q(x)y=0\\&y''+\frac{p(x)}{x}y'+\frac{q(x)}{x^2}y=0,p(x)=xP(x),q(x)=x^2Q(x)\end{aligned}</script><br>The singular point $x=0$ is a regular singular point if the functions $p(x)=xP(x)$ and $q(x)=x^2Q(x)$ are both analytic at $x=0$. Otherwise it is an irregular singular point.<br>    $\begin{aligned}p_0=p(0)=\lim_{x\rightarrow0}p(x)=\lim_{x\rightarrow0}xP(x)\end{aligned}$<br>    $\begin{aligned}q_0=q(0)=\lim_{x\rightarrow0}q(x)=\lim_{x\rightarrow0}x^2Q(x)\end{aligned}$</p>
-<ul>
-<li>if $p_0=q_0=0$ then $x=0$ may be an ordinary point</li>
-<li>if the limits exist and are finite, then $x=0$ is a regular singular point</li>
-<li>if either limit fails to exist or is infinite, then $x=0$ is an irregular singular point</li>
-</ul>
-<h3 id="The-Method-of-Frobenius"><a href="#The-Method-of-Frobenius" class="headerlink" title="The Method of Frobenius"></a>The Method of Frobenius</h3><p>In general case, $p(x)$ and $q(x)$ are power series rather than constants, it is a reasonable conjecture that out differential equation might have a solution of the form</p>
-<script type="math/tex; mode=display">\begin{aligned}y(x)=x^r\sum_{n=0}^\infty c_nx^n=\sum_{n=0}^\infty c_nx^{n+r}=c_0x^r+c_1x^{r+1}+\cdots\end{aligned}</script><p>such series is called a Frobenius series.<br>To investigate the possible existence of Frobenius series solutions, begin with the equation</p>
-<script type="math/tex; mode=display">x^2y''+xp(x)y'+q(x)y=0</script><p>If $x=0$ is a regular singular point, then $p(x)$ and $q(x)$ are analytic at $x=0$ ,so</p>
-<script type="math/tex; mode=display">
-\begin{align}
-p(x)=p_0+p_1x+p_2x^2+p_3x^3+\cdots \\
-q(x)=q_0+q_1x+q_2x^2+q_3x^3+\cdots
-\end{align}</script><p>Suppose the equation has the Frobenius series solution</p>
-<script type="math/tex; mode=display">\begin{aligned}y=\sum_{n=0}^\infty c_nx^{n+r}\quad y'=\sum_{n=0}^{\infty}c_n(n+r)x^{n+r-1}\quad y''=\sum_{n=0}^\infty c_n(n+r)(n+r-1)x^{n+r-2}\end{aligned}</script><p>the coefficient $r(r-1)c_0+p_0rc_0+q_0c_0$ of $x^r$ must vanish, because $c_0\neq0$ ,it follows that $r$ must satisfy the quadratic equation $r(r-1)+p_0r+q_0=0$  , which is called the indicial equation, and its two roots are the exponents of the differential equation at $x=0$<br>If $r_1\neq r_2$ ,it follows that there are two possible Frobenius series solutions<br>If $r_1=r_2$ ,there is only one possible Frobenius series solution</p>
-<h3 id="Frobenius-Series-Solutions"><a href="#Frobenius-Series-Solutions" class="headerlink" title="Frobenius Series Solutions"></a>Frobenius Series Solutions</h3><p>Suppose that $x=0$ is a regular singular point of the equation $x^2y’’+xp(x)y’+q(x)y=0$<br>Let $\rho&gt;0$ denote the minimum of the radii of convergence of the power series</p>
-<script type="math/tex; mode=display">
-\begin{aligned}p(x)=\sum_{n=0}^\infty p_nx^n\quad\mathrm{and}\quad q(x)=\sum_{n=0}^\infty q_nx^n\end{aligned}</script><p>Let $r_1$ and $r_2$ be the roots, with $r_1\geq r_2$</p>
-<ul>
-<li>For $x&gt;0$ , there exists a solution of the form $\begin{aligned}y_1(x)=x^{r_1}\sum_{n=0}^\infty a_nx^n\quad(a_0\neq 0)\end{aligned}$</li>
-<li>If $r_1-r_2$ is neither zero nor a positive integer, there exists a second linearly independent solution for $x&gt;0$ of the form $\begin{aligned}y_2(x)=x^{r_2}\sum_{n=0}^\infty b_nx^n\quad(b_0\neq 0)\end{aligned}$</li>
-<li>If $r_1-r_2$ is a positive integer there may or may not exist a second Frobenius series solution of the equation</li>
-</ul>
-<h3 id="The-Nonlogarithmic-Case-with-r-1-r-2-N"><a href="#The-Nonlogarithmic-Case-with-r-1-r-2-N" class="headerlink" title="The Nonlogarithmic Case with $r_1=r_2+N$"></a>The Nonlogarithmic Case with $r_1=r_2+N$</h3><p>Derived the indicial equation by substituting the power series $p(x)=\sum p_nx^n$ and $\sum q_nx^n$ and the Frobenius series $\begin{aligned}y(x)=x\sum_{n=0}^\infty c_nx^{n+r},c_0\neq0\end{aligned}$<br>in the differential equation in the form $x^2y’’+xp(x)y’+q(x)y=0$<br>The result of this substitution, after collection of the coefficients of like powers of $x$ , is an equation of the form $\begin{aligned}\sum_{n=0}^\infty F_n(r)x^{n+r}=0\end{aligned}$<br>$F_0(r)=[r(r-1)+p_0r+q_0]c_0=\phi(r)c_0$<br>$F_n(r)=\phi(r+n)c_n+L_n(r:c_0,c_1,\cdots,c_{n-1})$<br>$\begin{aligned}L_n=\sum_{k=0}^{n-1}[(r+k)p_{n-k}+q_{n-k}]c_k\end{aligned}$<br>$\begin{aligned}y_2=y_1\int\frac{\exp(-\int P(x)dx)}{y_1^2}dx\end{aligned}$</p>
-<ul>
-<li>$N=0$ , $\begin{aligned}y_2(x)=y_1(x)\ln{x}+x^{1+r_1}\sum_{n=0}^{\infty}b_nx^n\end{aligned}$</li>
-<li>$N\neq0$ , $\begin{aligned}y_2(x)=C_Ny_1(x)\ln{x}+x^{r_2}\sum_{n=0}^\infty b_nx^n\end{aligned}$</li>
-</ul>
-<h3 id="First-Order-Systems-and-Applications"><a href="#First-Order-Systems-and-Applications" class="headerlink" title="First-Order Systems and Applications"></a>First-Order Systems and Applications</h3><p>Consider the system consisting of the single nth-order equation</p>
-<script type="math/tex; mode=display">x^{(n)}=f(t,x,x',\cdots,x^{(n-1)})</script><p>Introduce the dependent variables $x_1,x_2,\cdots,x_n$ defined as follows:</p>
-<script type="math/tex; mode=display">x_1=x,\quad x_2=x',\quad x_3=x'',\quad\cdots,\quad x_n=x^{(n-1)}</script><p>The substitution yields the system</p>
-<script type="math/tex; mode=display">x_n'=f(t,x_1,x_2,\cdots,x_n)</script><h3 id="Linear-systems"><a href="#Linear-systems" class="headerlink" title="Linear systems"></a>Linear systems</h3><p>Consider a linear first-order system of the form</p>
-<script type="math/tex; mode=display">
-\begin{align}
-x_1'&=p_{11}(t)x_1+p_{12}(t)x_2+\cdots+p_{1n}(t)x_n+f_1(t)\\
-x_2'&=p_{21}(t)x_1+p_{22}(t)x_2+\cdots+p_{2n}(t)x_n+f_2(t)\\
-&\quad\quad\quad\quad\quad\quad\quad\quad\quad\vdots\\
-x_n'&=p_{n1}(t)x_1+p_{n2}(t)x_2+\cdots+p_{nn}(t)x_n+f_n(t)
-\end{align}</script><p>We say that this system is homogeneous if the functions $f_1,f_2,\cdots,f_n$ are all identically zero, Otherwise, it is nonhomogeneous</p>
-<p>Any system of two linear differential equations with constant coefficients can be written in the form $L_1x+L_2y=f_1(t),L_3x+L_4y=f_2(t)$<br>$\begin{cases}L_1x+L_2y=f_1(t)\Rightarrow L_3L_1x+L_3L_2y=L_3f_1(t)\\L_3x+L_4y=f_2(t)\Rightarrow L_1L_3x+L_1L_4y=L_1f_2(t)\end{cases}\Rightarrow(L_1L_4-L_2L_3)y=L_1f_2(t)-L_3f_1(t)$<br>define the operational determinant</p>
-<script type="math/tex; mode=display">\begin{vmatrix}L_1&L_2\\L_3&L_4\end{vmatrix}=L_1L_4-L_2L_3</script><p>Then the equation related to $x$ and $y$ can be rewritten as</p>
-<script type="math/tex; mode=display">\begin{vmatrix}L_1&L_2\\L_3&L_4\end{vmatrix}x=\begin{vmatrix}f_1(t)&L_2\\f_2(t)&L_4\end{vmatrix},\quad\begin{vmatrix}L_1&L_2\\L_3&L_4\end{vmatrix}y=\begin{vmatrix}L_1&f_1(t)\\L_3&f_2(t)\end{vmatrix}</script><p>Similarly, for the system of three linear equations, $x$ satisfies the single linear equation</p>
-<script type="math/tex; mode=display">\begin{vmatrix}L_{11}&L_{12}&L_{13}\\L_{21}&L_{22}&L_{23}\\L_{31}&L_{32}&L_{33}\end{vmatrix}x=\begin{vmatrix}f_1(t)&L_{12}&L_{13}\\f_2(t)&L_{22}&L_{23}\\f_3(t)&L_{32}&L_{33}\end{vmatrix}</script><p>Suppose that $x_1,x_2,\cdots x_n$ are $n$ solutions of the homogeneous linear equation $x’=P(t)x$ on an open interval $I$ ,suppose that $P(t)$ is continuous on $I$ ,let $W=W(x_1,x_2,\cdots,x_n)$</p>
-<ul>
-<li>If $x_1,x_2,\cdots,x_n$ are linearly dependent on $I$ ,then $W=0$ at every point of $I$</li>
-<li>If $x_1,x_2,\cdots,x_n$ are linearly independent  on $I$ ,then $W\neq0$ at every point of $I$</li>
-</ul>
-<h3 id="The-Eigenvalue-Method-for-Homogeneous-Systems"><a href="#The-Eigenvalue-Method-for-Homogeneous-Systems" class="headerlink" title="The Eigenvalue Method for Homogeneous Systems"></a>The Eigenvalue Method for Homogeneous Systems</h3><p>Write the system in the matrix form $x’=Ax$ where $A=[a_{ij}]$ , When substitute the trial solution $x=ve^{\lambda t}$ with derivative $x’=\lambda ve^{\lambda t}$ , the result is $\lambda ve^{\lambda t}=Ave^{\lambda t}\Rightarrow Av=\lambda v$<br>The number $\lambda$ is called an eigenvalue of the $n\times n$ matrix $A$ provided that $|A-\lambda I|=0$<br>The vector $v$ is called an eigenvector of $\lambda$</p>
-<h3 id="Chains-of-Generalized-Eigenvalues"><a href="#Chains-of-Generalized-Eigenvalues" class="headerlink" title="Chains of Generalized Eigenvalues"></a>Chains of Generalized Eigenvalues</h3><p>Begin with a nonzero solution of $(A-\lambda I)^{d+1}u=0$ and successively multiply by the matrix $A-\lambda I$ until the zero vector is obtained, If</p>
-<script type="math/tex; mode=display">\begin{aligned}&(A-\lambda I)u_1=u_2\neq 0\\&\quad\quad\quad\quad\vdots\\&(A-\lambda I)u_{k-1}=u_k\neq0\end{aligned}</script><p>but  $(A-\lambda I)u_k=0$ ,then the vectors $\{v_1,v_2,\cdots,v_k\}=\{u_k,u_{k_1}\cdots,u_2,u_1\}$ form a length $k$ chain of generalized eigenvectors based on the eigenvector $v_1$</p>
-<h3 id="Fundamental-Matrix-Solutions"><a href="#Fundamental-Matrix-Solutions" class="headerlink" title="Fundamental Matrix Solutions"></a>Fundamental Matrix Solutions</h3><p>Let $\Phi(t)$ be a fundamental matrix for the homogeneous linear system $x’=Ax$<br>Then the unique solution of the initial value problem $x’=Ax,x(0)=x_0$<br>is given by $x(t)=\Phi(t)\Phi(0)^{-1}x_0=e^{At}x_0$</p>
-<script type="math/tex; mode=display">\begin{aligned}x(t)=e^{At}x_0+e^{At}\int_0^te^{-As}f(s)ds\end{aligned}</script><script type="math/tex; mode=display">\begin{aligned}x(t)=\Phi(t)\Phi(a)^{-1}x_a+\Phi(t)\int_a^t\Phi(s)^{-1}f(s)ds\end{aligned}</script><h2 id="Some-words"><a href="#Some-words" class="headerlink" title="Some words"></a>Some words</h2><div class="table-container">
-<table>
-<thead>
-<tr>
-<th>术语</th>
-<th>翻译</th>
-<th>术语</th>
-<th>翻译</th>
-<th>术语</th>
-<th>翻译</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>homogeneous</td>
-<td>齐次</td>
-<td>constant</td>
-<td>常数</td>
-<td>derivative</td>
-<td>导数</td>
-</tr>
-<tr>
-<td>superposition</td>
-<td>叠加</td>
-<td>multiplication</td>
-<td>乘法</td>
-<td>subtitute</td>
-<td>代替</td>
-</tr>
-<tr>
-<td>partial derivative</td>
-<td>偏导数</td>
-<td>arbitrary</td>
-<td>任意</td>
-<td>reducible</td>
-<td>可简化</td>
-</tr>
-<tr>
-<td>autonomous</td>
-<td>自治</td>
-<td>algebra</td>
-<td>代数</td>
-<td>interval</td>
-<td>区间</td>
-</tr>
-<tr>
-<td>infinite family</td>
-<td>无穷集</td>
-<td>proportional</td>
-<td>比例</td>
-<td>explicit</td>
-<td>特解</td>
-</tr>
-<tr>
-<td>assertion</td>
-<td>断言</td>
-<td>intersect</td>
-<td>相交</td>
-<td>parameter</td>
-<td>参数</td>
-</tr>
-<tr>
-<td>antiderivative</td>
-<td>不定积分</td>
-<td>branch</td>
-<td>分支</td>
-<td>domain</td>
-<td>范围</td>
-</tr>
-<tr>
-<td>independent variable</td>
-<td>自变量</td>
-<td>verify</td>
-<td>验证</td>
-<td>coefficient</td>
-<td>系数</td>
-</tr>
-<tr>
-<td>identity equation</td>
-<td>恒等式</td>
-<td>curve</td>
-<td>曲线</td>
-<td>equation</td>
-<td>方程</td>
-</tr>
-<tr>
-<td>dependent variable</td>
-<td>因变量</td>
-<td>integration</td>
-<td>积分</td>
-<td>slope</td>
-<td>斜率</td>
-</tr>
-<tr>
-<td>necessary condition</td>
-<td>必要条件</td>
-<td>exponential</td>
-<td>指数的</td>
-<td>static</td>
-<td>静态</td>
-</tr>
-<tr>
-<td>asymptote</td>
-<td>渐近线</td>
-<td>denote</td>
-<td>表示</td>
-<td>indeed</td>
-<td>的确</td>
-</tr>
-<tr>
-<td>hypothesis</td>
-<td>假设</td>
-<td>error function</td>
-<td>误差方程</td>
-<td>emcompass</td>
-<td>包含</td>
-</tr>
-<tr>
-<td>equilibrium</td>
-<td>平衡</td>
-<td>vibration</td>
-<td>振动</td>
-<td>duplication</td>
-<td>重复</td>
-</tr>
-</tbody>
-</table>
-</div>
-]]></content>
-      <tags>
-        <tag>课程笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>微积分甲I</title>
-    <url>/2025/%E5%BE%AE%E7%A7%AF%E5%88%86%E7%94%B2I/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="Chapter-1-数列极限"><a href="#Chapter-1-数列极限" class="headerlink" title="Chapter-1 数列极限"></a>Chapter-1 数列极限</h3><h4 id="数列极限定义"><a href="#数列极限定义" class="headerlink" title="数列极限定义"></a>数列极限定义</h4><p>设 $\{a_n\}$ 是 $\mathrm{R}$ 中的一个数列，如果存在 $a\in\mathrm{R}$ 使得 $\forall \varepsilon&gt;0,\exists N\in\mathrm{N_+}$ ，当 $n\geq N$ 时，都有 $|a_n-a|&lt;\varepsilon$ ，就称数列 $\{a_n\}$ 是收敛于 $a$ 的，记为 $\begin{aligned}\lim_{n\rightarrow\infty}a_n=a\end{aligned}$ ,称 $a$ 是数列 $\{a_n\}$ 的极限<br><span id="more"></span></p>
-<h4 id="数列极限性质"><a href="#数列极限性质" class="headerlink" title="数列极限性质"></a>数列极限性质</h4><p><strong>唯一性</strong>  如果数列 $\{a_n\}$ 收敛，那么其极限是唯一的</p>
-<p><strong>有界性</strong>  如果数列 $\{a_n\}$ 收敛，那么 $\{a_n\}$ 是有界的，即 $\exists M&gt;0,\forall n\in\mathrm{N_+},|a_n|\leq M$</p>
-<p><strong>保号性</strong>  如果 $\begin{aligned}\lim_{n\rightarrow\infty}a_n=a&gt;0\end{aligned}$ 那么 $\forall p\in(0,a),\exists N&gt;0$ 当 $n\geq N$ 时 $a_n&gt;p&gt;0$</p>
-<h4 id="夹逼定理"><a href="#夹逼定理" class="headerlink" title="夹逼定理"></a>夹逼定理</h4><p>设数列 $\{a_n\},\{b_n\},\{c_n\}$ 满足当 $n\geq N_0\in\mathrm{N}_+$ 时，有 $b_n\leq a_n\leq c_n$ 并且 $\begin{aligned}\lim_{n\rightarrow\infty}b_n=\lim_{n\rightarrow\infty}c_n=a\end{aligned}$ ，则数列 $\{a_n\}$ 也是收敛的，且 $\begin{aligned}\lim_{n\rightarrow\infty}a_n=a\end{aligned}$</p>
-<h4 id="波尔查诺-魏尔斯特拉斯定理"><a href="#波尔查诺-魏尔斯特拉斯定理" class="headerlink" title="波尔查诺-魏尔斯特拉斯定理"></a>波尔查诺-魏尔斯特拉斯定理</h4><p>设 $\{a_n\}$ 是 $\mathrm{R}$ 中的一个有界数列，则数列 $\{a_n\}$ 中存在收敛的子列</p>
-<h4 id="柯西准则"><a href="#柯西准则" class="headerlink" title="柯西准则"></a>柯西准则</h4><p>设 $a_n$ 是 $\mathrm{R}$ 中的一个数列，若对于任意 $\varepsilon&gt;0$ ，存在正整数 $N$ ，当 $m,n\geq N$ 时， $|a_m-a_n|&lt;\varepsilon$ 则称 $\{a_n\}$ 是柯西数列，$\{a_n\}$ 收敛当且仅当 $\{a_n\}$ 是柯西数列</p>
-<h4 id="施托尔茨第一公式"><a href="#施托尔茨第一公式" class="headerlink" title="施托尔茨第一公式"></a>施托尔茨第一公式</h4><p>给定数列 $\{x_n\},\{y_n\}$ ，若 $\{x_n\}$ 单调增加，且 $\begin{aligned}\lim_{x\rightarrow+\infty}x_n=+\infty\end{aligned}$ ,</p>
-<p>若 $\begin{aligned}\lim_{n\rightarrow+\infty}\frac{y_n-y_{n-1}}{x_n-x_{n-1}}=a\end{aligned}$ ，那么有 $\begin{aligned}\lim_{n\rightarrow+\infty}\frac{y_n}{x_n}=a\end{aligned}$ ，其中 $a$ 可以是实数也可以是 $\pm\infty$</p>
-<h4 id="施托尔茨第二公式"><a href="#施托尔茨第二公式" class="headerlink" title="施托尔茨第二公式"></a>施托尔茨第二公式</h4><p>给定数列 $\{x_n\},\{y_n\}$ ，若$\{x_n\}$ 单调减少，且 $\begin{aligned}\lim_{n\rightarrow+\infty}x_n=\lim_{n\rightarrow+\infty}y_n=0\end{aligned}$ ，</p>
-<p>若$\begin{aligned}\lim_{n\rightarrow+\infty}\frac{y_n-y_{n-1}}{x_n-x_{n-1}}=a\end{aligned}$ ，那么有 $\begin{aligned}\lim_{n\rightarrow+\infty}\frac{y_n}{x_n}=a\end{aligned}$ ，其中 $a$ 可以是实数也可以是 $\pm\infty$</p>
-<hr>
-<h3 id="Chapter-2-函数的极限与连续性"><a href="#Chapter-2-函数的极限与连续性" class="headerlink" title="Chapter-2 函数的极限与连续性"></a>Chapter-2 函数的极限与连续性</h3><h4 id="函数极限"><a href="#函数极限" class="headerlink" title="函数极限"></a>函数极限</h4><p>设 $f:D\rightarrow\mathrm{R}$ ，$D$ 是 $\mathrm{R}$ 的子集并且包含 $x_0$ 的某去心邻域，如果存在 $A\in\mathrm{R}$ ，使得对于任意的 $\varepsilon&gt;0,\exists \delta&gt;0$ ，当 $x\in \mathring{U}(x_0,\delta)\cap D$ 时，有 $|f(x)-A|&lt;\varepsilon$ ，就称 $x$ 趋于 $x_0$ 时，$f(x)$ 趋于 $A$ ，记为 $\begin{aligned}\lim_{x\rightarrow x_0}f(x)=A\end{aligned}$</p>
-<h4 id="归结原理"><a href="#归结原理" class="headerlink" title="归结原理"></a>归结原理</h4><p>设 $f:D\subset\mathrm{R}\rightarrow\mathrm{R},\exists\mathring{U}(x_0)\subset D$ ，则 $\begin{aligned}\lim_{x\rightarrow x_0}f(x)=A\end{aligned}$ 的充要条件为：对于任意满足 $\begin{aligned}\lim_{n\rightarrow\infty}x_n=x_0,x_n\neq x_0,n=1,2,3,\cdots\end{aligned}$ 的数列 $\{x_n\}$ ，其对应的函数值数列 $\{f(x_n)\}$ 均有 $\begin{aligned}\lim_{n\rightarrow\infty}f(x_n)=A\end{aligned}$</p>
-<h4 id="函数极限性质"><a href="#函数极限性质" class="headerlink" title="函数极限性质"></a>函数极限性质</h4><p><strong>唯一性</strong> 若函数在某点有极限，则极限是唯一的</p>
-<p><strong>局部有界性</strong> 设 $\begin{aligned}f:D\subset\mathrm{R}\rightarrow\mathrm{R},\lim_{x\rightarrow x_0}f(x)\end{aligned}$ 存在，则 $f(x)$ 在 $x_0$ 的某去心邻域内有界，即 $\exists M&gt;0,\delta&gt;0$ 当 $0&lt;|x-x_0|&lt;\delta$ 时， $|f(x)|&lt;M$</p>
-<p><strong>局部保号性</strong> 如果 $\begin{aligned}\lim_{x\rightarrow x_0}f(x)=A&gt;0\end{aligned}$ ，那么 $\forall p\in(0,A),\exists\delta&gt;0,\forall x\in\mathring{U}(x_0,\delta),f(x)&gt;p&gt;0$</p>
-<h4 id="夹逼定理-1"><a href="#夹逼定理-1" class="headerlink" title="夹逼定理"></a>夹逼定理</h4><p>设 $f,g,h:D\subset\mathrm{R}\rightarrow\mathrm{R}$ ，$D$ 包含 $x_0$ 的某去心邻域 $\mathring{U}(x_0,\delta)$ ，如果 $\forall x\in\mathring{U}(x,\delta)$ ，有 $g(x)\leq f(x)\leq h(x)$ ，且满足 $\begin{aligned}\lim_{x\rightarrow x_0}g(x)=\lim_{x\rightarrow x_0}h(x)=A\end{aligned}$  那么有 $\begin{aligned}\lim_{x\rightarrow x_0}f(x)=A\end{aligned}$</p>
-<h4 id="单侧极限"><a href="#单侧极限" class="headerlink" title="单侧极限"></a>单侧极限</h4><p>$\begin{aligned}\lim_{x\rightarrow x_0}f(x)=A\Leftrightarrow\lim_{x\rightarrow x_0^-}f(x)=\lim_{x\rightarrow x_0^+}f(x)=A\end{aligned}$</p>
-<p>$\begin{aligned}\lim_{x\rightarrow \infty}f(x)=A\Leftrightarrow\lim_{x\rightarrow -\infty}f(x)=\lim_{x\rightarrow +\infty}f(x)=A\end{aligned}$</p>
-<h4 id="函数连续"><a href="#函数连续" class="headerlink" title="函数连续"></a>函数连续</h4><p>设 $f:D\subset\mathrm{R}\rightarrow\mathrm{R}$ ，$D$ 包含 $x_0$ 的某个邻域，如果 $\begin{aligned}\lim_{x\rightarrow x_0}f(x)=f(x_0)\end{aligned}$ 则称 $f$ 在 $x_0$ 处连续</p>
-<p><strong>第一类间断点</strong> 左极限 $\begin{aligned}\lim_{x\rightarrow x_0^-}f(x)\end{aligned}$ 和右极限 $\begin{aligned}\lim_{x\rightarrow x_0^+}f(x)\end{aligned}$ 都存在但 $f$ 在 $x_0$ 处不连续</p>
-<p><strong>跳跃间断点</strong> $\begin{aligned}\lim_{x\rightarrow x_0^-}f(x)\neq\lim_{x\rightarrow x_0^+}f(x)\end{aligned}$</p>
-<p><strong>可去间断点</strong> $\begin{aligned}\lim_{x\rightarrow x_0}f(x)\neq f(x_0)\end{aligned}$ 或 $f(x)$ 在 $x_0$ 处没有定义</p>
-<p><strong>第二类间断点</strong> 如果 $f$ 在 $x_0$ 处的左右极限至少有一个不存在</p>
-<h4 id="函数一致连续"><a href="#函数一致连续" class="headerlink" title="函数一致连续"></a>函数一致连续</h4><p>设函数 $f:I\rightarrow\mathrm{R}$ ，如果 $\forall\varepsilon&gt;0,\exists\delta&gt;0$ ，使得 $\forall x_1,x_2\in I$ ，当 $|x_1,x_2|&lt;\delta$ 时，都有 $|f(x_1)-f(x_2)|&lt;\varepsilon$ ，就称函数 $f$ 在区间 $I$ 上一致连续</p>
-<h4 id="康托尔定理"><a href="#康托尔定理" class="headerlink" title="康托尔定理"></a>康托尔定理</h4><p>设函数 $f(x)$ 在有限闭区间 $[a,b]$ 上连续，则 $f(x)$ 在 $[a,b]$ 上一致连续</p>
-<h4 id="无穷小"><a href="#无穷小" class="headerlink" title="无穷小"></a>无穷小</h4><p>设 $f(x),g(x)$ 是当 $x\rightarrow x_0$ 时的无穷小，且 $g(x)\neq0$</p>
-<p>若 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=0\end{aligned}$ ，则称 $f(x)$ 是比 $g(x)$ 高阶的无穷小（更快趋于 $0$ ）记为 $f(x)=o(g(x))$</p>
-<p>若 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=0\end{aligned}$ ，则称 $g(x)$ 是比 $f(x)$ 低阶的无穷小（更慢趋于 $0$ ）记为 $f(x)=o(g(x))$</p>
-<p>若 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=A\neq0\end{aligned}$ ，则称 $f(x)$ 与 $g(x)$ 是同阶无穷小，记为 $f(x)=O(g(x))$</p>
-<p>若 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=0\end{aligned}$ ，则称 $f(x)$ 与 $g(x)$ 是等价无穷小，记为 $f(x)\sim g(x)$</p>
-<h4 id="无穷大"><a href="#无穷大" class="headerlink" title="无穷大"></a>无穷大</h4><p>设 $f(x),g(x)$ 是当 $x\rightarrow x_0$ 时的无穷大</p>
-<p>若 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=0\end{aligned}$ ，则称 $f(x)$ 是比 $g(x)$ 低阶的无穷大（增长更慢 ）</p>
-<p>若 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=0\end{aligned}$ ，则称 $g(x)$ 是比 $f(x)$ 高阶的无穷大（增长更快）</p>
-<p>若 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=A\neq0\end{aligned}$ ，则称 $f(x)$ 与 $g(x)$ 是同阶无穷大</p>
-<p>若 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=0\end{aligned}$ ，则称 $f(x)$ 与 $g(x)$ 是等价无穷大</p>
-<h4 id="等价无穷小替换"><a href="#等价无穷小替换" class="headerlink" title="等价无穷小替换"></a>等价无穷小替换</h4><p>设 $f,g,\alpha,\beta$ 当 $x\rightarrow x_0$ 时是无穷小，且 $f\sim\alpha,g\sim\beta$ ，如果 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{\alpha(x)}{\beta(x)}\end{aligned}$ 存在，</p>
-<p>那么有 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=\lim_{x\rightarrow x_0}\frac{\alpha(x)}{\beta(x)}\end{aligned}$</p>
-<h4 id="有限闭区间上连续函数的性质"><a href="#有限闭区间上连续函数的性质" class="headerlink" title="有限闭区间上连续函数的性质"></a>有限闭区间上连续函数的性质</h4><p>有界性、最大值最小值定理、零点存在定理、介值定理、不动点</p>
-<hr>
-<h3 id="Chapter-3-导数与微分"><a href="#Chapter-3-导数与微分" class="headerlink" title="Chapter-3 导数与微分"></a>Chapter-3 导数与微分</h3><h4 id="导数定义"><a href="#导数定义" class="headerlink" title="导数定义"></a>导数定义</h4><p>设函数 $y=f(x)$ 在 $x_0$ 的某个邻域内有定义，如果极限 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{f(x)-f(x_0)}{x-x_0}\end{aligned}$ 存在，就称 $f$ 在 $x_0$ 处可导，$x_0$ 是 $f$ 的可导点，极限值为 $f$ 在 $x_0$ 处的导数，记为 $f’(x_0)$</p>
-<h4 id="单侧导数"><a href="#单侧导数" class="headerlink" title="单侧导数"></a>单侧导数</h4><p>若函数 $f$ 在 $x_0$ 的某个邻域内有定义，则 $f$ 在 $x_0$ 处可导当且仅当 $f$ 在 $x_0$ 处分别左右导数相等</p>
-<h4 id="反函数求导"><a href="#反函数求导" class="headerlink" title="反函数求导"></a>反函数求导</h4><p>函数 $y=f(x)$ 在 $U(x_0)$ 严格单调，在 $x_0$ 可导且 $f’(x_0)\neq0,y_0=f(x_0),g:U(y_0)\rightarrow U(x_0)$ 为 $y=f(x)$ 的反函数，则函数 $g$ 在 $y_0$ 处可导，且 $g’(y_0)=\dfrac{1}{f’(x_0)}$</p>
-<p>由 $y_0=f(x_0)$ 有 $g’(f(x_0))=\dfrac{1}{f’(x_0)}$ ，即 $g’(x)=\dfrac{1}{f’(g(x))}$</p>
-<h4 id="参数方程的导数"><a href="#参数方程的导数" class="headerlink" title="参数方程的导数"></a>参数方程的导数</h4><p>对于参数方程 $\begin{cases}x=\varphi(t)\\y=\psi(t)\end{cases}$ 有 $\dfrac{\mathrm{d}x}{\mathrm{d}t}=\varphi’(t)，\dfrac{\mathrm{d}y}{\mathrm{d}t}=\psi’(t)$  则 $\dfrac{\mathrm{d}y}{\mathrm{d}x}=\dfrac{\psi’(t)}{\varphi’(t)}$ </p>
-<p>参数方程的导数可以表示为 $\begin{cases}x=\varphi(t)\\y=\dfrac{\psi’(t)}{\varphi’(t)}\end{cases}$  或 $\dfrac{\mathrm{d}y}{\mathrm{d}x}=\dfrac{\psi’(t)}{\varphi’(t)}\bigg|_{t=\varphi^{-1}(x)}$</p>
-<h4 id="莱布尼茨公式"><a href="#莱布尼茨公式" class="headerlink" title="莱布尼茨公式"></a>莱布尼茨公式</h4><p>若函数 $u,v$ 均 $n$ 阶可导，则乘积函数 $uv$ 也 $n$ 阶可导</p>
-<p>$\begin{aligned}(uv)^{(n)}=\sum_{k=0}^n\begin{pmatrix}n\\k\end{pmatrix}u^{(n-k)}v^{(k)}\end{aligned}$</p>
-<h4 id="微分定义"><a href="#微分定义" class="headerlink" title="微分定义"></a>微分定义</h4><p>设 $y=f(x)$ 在 $x_0$ 某个邻域内有定义， $\Delta x$ 是自变量的一个改变量，如果存在不依赖于 $\Delta x$ 的常数 $A$ ，使得当 $|\Delta x|$ 充分小时，函数的增量 </p>
-<p>$\Delta y=f(x_0+\Delta x)-f(x_0)=A\Delta x+o(\Delta x),\Delta x\rightarrow 0$</p>
-<p>那么称 $f$ 在 $x_0$ 处可微，称 $A\Delta x$ 为 $f$ 在 $x_0$ 处的微分，记为 $\mathrm{d}y|_{x=x_0}=A\Delta{x}$</p>
-<h4 id="近似估计与误差分析"><a href="#近似估计与误差分析" class="headerlink" title="近似估计与误差分析"></a>近似估计与误差分析</h4><p>$f(x_0+\Delta{x})\approx f(x_0)+f’(x_0)\Delta x$</p>
-<p>在测量某个值 $x^<em>$ 时得到的 $x$ 是一个近似值，程 $|x-x^</em>|$ 为绝对误差， $\dfrac{|x-x^*|}{|x|}$ 为相对误差 </p>
-<p>如果存在 $\delta_x&gt;0$ 使 $|x-x^*|\leq\delta_x$ ，则称 $\delta_x$ 为绝对误差限，$\dfrac{\delta_x}{|x|}$ 称为相对误差限</p>
-<hr>
-<h3 id="Chapter-4-微分中值定理"><a href="#Chapter-4-微分中值定理" class="headerlink" title="Chapter-4 微分中值定理"></a>Chapter-4 微分中值定理</h3><h4 id="函数极值"><a href="#函数极值" class="headerlink" title="函数极值"></a>函数极值</h4><p>设函数 $f$ 在 $x_0$ 的某个邻域内有定义，如果存在 $\delta&gt;0$ 使得对于任何 $x\in(x_0-\delta,x_0+\delta)$ 恒有 $f(x)\leq f(x_0)$ ,就称 $f(x_0)$ 是函数 $f$ 的一个极大值， $x=x_0$ 为极大值点</p>
-<h4 id="费马定理"><a href="#费马定理" class="headerlink" title="费马定理"></a>费马定理</h4><p>设 $x_0$ 为函数 $f$ 的极值点，如果 $f$ 在 $x_0$ 处可导，则 $f’(x_0)=0$</p>
-<h4 id="罗尔定理"><a href="#罗尔定理" class="headerlink" title="罗尔定理"></a>罗尔定理</h4><p>如果函数 $f$ 满足在闭区间 $[a,b]$ 上连续，在开区间 $(a,b)$ 内可导，$f(a)=f(b)$ </p>
-<p>那么至少存在一点 $\xi\in(a,b)$ 使得 $f’(\xi)=0$</p>
-<h4 id="拉格朗日中值定理"><a href="#拉格朗日中值定理" class="headerlink" title="拉格朗日中值定理"></a>拉格朗日中值定理</h4><p>如果函数 $f$ 满足在闭区间 $[a,b]$ 上连续，在开区间 $(a,b)$ 内可导</p>
-<p>那么至少存在一点 $\xi\in(a,b)$ 使得 $f’(\xi)=\dfrac{f(b)-f(a)}{b-a}$</p>
-<h4 id="柯西中值定理"><a href="#柯西中值定理" class="headerlink" title="柯西中值定理"></a>柯西中值定理</h4><p>设函数 $f,g$ 在 $[a,b]$ 上连续，在 $(a,b)$ 内可导，且 $g’$ 在 $(a,b)$ 内没有零点</p>
-<p>则至少存在一点 $\xi\in(a,b)$ ，使得 $\dfrac{f’(\xi)}{g’(\xi)}=\dfrac{f(b)-f(a)}{g(b)-g(a)}$</p>
-<h4 id="洛必达法则"><a href="#洛必达法则" class="headerlink" title="洛必达法则"></a>洛必达法则</h4><p>如果函数 $f$ 和 $g$ 在 $x_0$ 的某去心邻域 $\mathring{U}(x_0)$ 内可导，且 $g’\neq0$ </p>
-<p>如果 $\begin{aligned}\lim_{x\rightarrow x_0}f(x)=\lim_{x\rightarrow x_0}g(x)=0\end{aligned}$ ，且极限 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{f’(x)}{g’(x)}\end{aligned}=A$ （或 $\infty$ ）</p>
-<p>那么有$\begin{aligned}\lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=\lim_{x\rightarrow x_0}\frac{f’(x)}{g’(x)}\end{aligned}$</p>
-<p>如果函数 $f$ 和 $g$ 在 $x_0$ 的某去心邻域 $\mathring{U}(x_0)$ 内可导，且 $g’\neq0$ </p>
-<p>如果 $\begin{aligned}\lim_{x\rightarrow x_0}g(x)=\infty\end{aligned}$ ，且极限 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{f’(x)}{g’(x)}\end{aligned}=A$ （或 $\infty$ ）</p>
-<p>那么有$\begin{aligned}\lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=\lim_{x\rightarrow x_0}\frac{f’(x)}{g’(x)}\end{aligned}$</p>
-<h4 id="带佩亚诺余项的泰勒公式"><a href="#带佩亚诺余项的泰勒公式" class="headerlink" title="带佩亚诺余项的泰勒公式"></a>带佩亚诺余项的泰勒公式</h4><p>$f(x)=f(x_0)+f’(x_0)(x-x_0)+\cdots+\dfrac{f^{(n)}(x_0)}{n!}(x-x_0)^n+o((x-x_0)^n)$</p>
-<h4 id="带拉格朗日余项的泰勒公式"><a href="#带拉格朗日余项的泰勒公式" class="headerlink" title="带拉格朗日余项的泰勒公式"></a>带拉格朗日余项的泰勒公式</h4><p>$f(x)=f(x_0)+f’(x_0)(x-x_0)+\cdots+\dfrac{f^{(n)}(x_0)}{n!}(x-x_0)^n+\dfrac{f^{(n+1)}(\xi)}{(n+1)!}(x-x_0)^{n+1}$</p>
-<h4 id="极值第一判别法"><a href="#极值第一判别法" class="headerlink" title="极值第一判别法"></a>极值第一判别法</h4><p>如果 $f$ 在 $x_0$ 的某邻域内连续， $f’$ 在 $x_0$ 两侧异号，那么 $x_0$ 必定是 $f$ 的极值点</p>
-<h4 id="极值第二判别法"><a href="#极值第二判别法" class="headerlink" title="极值第二判别法"></a>极值第二判别法</h4><p>假设 $f$ 在 $x_0$ 的某邻域内连续，且在 $x_0$ 处二阶可导，如果 $f’(x_0)=0,f’’(x_0)\neq0$ </p>
-<p>则 $x_0$ 必定是 $f$ 的极值点</p>
-<h4 id="凹凸性判别法"><a href="#凹凸性判别法" class="headerlink" title="凹凸性判别法"></a>凹凸性判别法</h4><p>设 $f$ 在区间 $[a,b]$ 上连续，在 $(a,b)$ 内可导</p>
-<p>曲线 $f$ 在 $[a,b]$ 上是凹的，当且仅当在 $(a,b)$ 内恒有 $f’’\geq0$</p>
-<p>曲线 $f$ 在 $[a,b]$ 上是凸的，当且仅当在 $(a,b)$ 内恒有 $f’’\leq 0$</p>
-<h4 id="渐近线"><a href="#渐近线" class="headerlink" title="渐近线"></a>渐近线</h4><p>当 $x\rightarrow x_0$ 时， $f(x)\rightarrow\infty$ ，则直线 $x=x_0$ 是 $y=f(x)$ 的一条垂直渐近线</p>
-<p>$\begin{aligned}a=\lim_{x\rightarrow+\infty}\frac{f(x)}{x},b=\lim_{x\rightarrow+\infty}[f(x)-ax]\end{aligned}$ </p>
-<p>若 $a\neq0$ 则 $y=ax+b$ 为曲线的斜渐近线，否则 $y=b$ 为曲线的水平渐近线</p>
-<h4 id="曲率与曲率半径"><a href="#曲率与曲率半径" class="headerlink" title="曲率与曲率半径"></a>曲率与曲率半径</h4><p>$\begin{aligned}K=\lim_{l\rightarrow0}\frac{\theta}{l}\end{aligned}$ 定义曲线在 $P$ 点处的弯曲程度，称为曲率， $R=\dfrac{1}{K}$ 为曲率半径</p>
-<p>$K(x)=\dfrac{|f’’(x)|}{[1+(f’(x))^2]^{3/2}}$</p>
-<p>曲率圆和曲线 $y=f(x)$ 在 $P$ 点相切，在切点有相同的凹凸性和曲率</p>
-<p>曲率圆圆心坐标为 $(\xi,\eta),\begin{cases}\xi=x-\dfrac{f’(x)[1+(f’(x))^2]}{f’’(x)}\\\eta=f(x)+\dfrac{1+[f’(x)]^2}{f’’(x)}\end{cases}$ </p>
-<h4 id="达布定理"><a href="#达布定理" class="headerlink" title="达布定理"></a>达布定理</h4><p>设 $f$ 在 $(a,b)$ 内可导， $x_1,x_2\in(a,b)$ ，且 $x_1&lt;x_2$ ，则对于任何介于  $f’(x_1)$ 和 $f’(x_2)$ 的实数 $\eta$ ，必存在 $\xi\in(a,b)$ ，使得 $\eta=f’(\xi)$</p>
-<hr>
-<h3 id="Chapter-5-不定积分"><a href="#Chapter-5-不定积分" class="headerlink" title="Chapter-5 不定积分"></a>Chapter-5 不定积分</h3><h4 id="第一换元积分法"><a href="#第一换元积分法" class="headerlink" title="第一换元积分法"></a>第一换元积分法</h4><p>设 $f(u)$ 存在原函数 $F(u),u=\varphi(x)$ 可导，则函数 $f(\varphi(x))\varphi’(x)$ 也存在原函数</p>
-<p>$\begin{aligned}\int f(\varphi(x))\varphi’(x)\mathrm{d}x=\int f(\varphi(x))\mathrm{d}\varphi(x)=\int f(u)\mathrm{d}u=F(u)+C=F(\varphi(x))+C\end{aligned}$</p>
-<h4 id="第二换元积分法"><a href="#第二换元积分法" class="headerlink" title="第二换元积分法"></a>第二换元积分法</h4><p>设 $f(x)$ 连续，$x=\varphi(t)$ 有连续导数，且 $\varphi’(t)\neq0$ 如果 $\begin{aligned}\int f(\varphi(t))\varphi’(t)\mathrm{d}t=F(t)+C\end{aligned}$</p>
-<p>则 $\begin{aligned}\int f(x)\mathrm{d}x=\int f(\varphi(t))\varphi’(t)\mathrm{d}t=F(t)+C=F(t)+C=F(\varphi^{-1}(t))+C\end{aligned}$</p>
-<h4 id="分部积分法"><a href="#分部积分法" class="headerlink" title="分部积分法"></a>分部积分法</h4><p>$\begin{aligned}\int u(x)v’(x)\mathrm{d}x=u(x)v(x)-\int v(x)u’(x)\mathrm{d}x\end{aligned}$</p>
-<h4 id="有理函数的不定积分"><a href="#有理函数的不定积分" class="headerlink" title="有理函数的不定积分"></a>有理函数的不定积分</h4><p>一切有理函数的原函数可以用有理函数、对数函数和反正切函数表示出来</p>
-<h4 id="三角有理函数的不定积分"><a href="#三角有理函数的不定积分" class="headerlink" title="三角有理函数的不定积分"></a>三角有理函数的不定积分</h4><p>设 $t=\tan\dfrac{x}{2},|x|&lt;\pi$ ，则 $x=2\arctan{t}$ 有以下替换：</p>
-<p>$\begin{cases}\mathrm{d}x=\dfrac{2}{1+t^2}\mathrm{d}t\\\sin x=\dfrac{2\tan\dfrac{x}{2}}{1+\tan^2\dfrac{x}{2}}=\dfrac{2t}{1+t^2}\\\cos x=\dfrac{1-\tan^2\dfrac{x}{2}}{1+\tan^2\dfrac{x}{2}}=\dfrac{1-t^2}{1+t^2}\end{cases}$</p>
-<p>则 $\begin{aligned}\int R(\sin x,\cos x)\mathrm{d}x=\int R(\frac{2t}{1+t^2},\frac{1-t^2}{1+t^2})\cdot\frac{2}{1+t^2}\mathrm{d}t\end{aligned}$</p>
-<h4 id="其它可有理化函数的不定积分"><a href="#其它可有理化函数的不定积分" class="headerlink" title="其它可有理化函数的不定积分"></a>其它可有理化函数的不定积分</h4><p>设 $R$ 为有理函数，则以 $\mathrm{e}^x$ 为变量的有理函数 $R(\mathrm{e}^x)$ 的积分 $\begin{aligned}\int R(\mathrm{e}^x)\mathrm{d}x\end{aligned}$ </p>
-<p>可通过变量替换 $x=\ln t$ 化成有理函数的积分 $\begin{aligned}\int R(t)\frac{1}{t}\mathrm{d}t\end{aligned}$</p>
-<hr>
-<h3 id="Chapter-6-定积分"><a href="#Chapter-6-定积分" class="headerlink" title="Chapter-6 定积分"></a>Chapter-6 定积分</h3><h4 id="定积分中值定理"><a href="#定积分中值定理" class="headerlink" title="定积分中值定理"></a>定积分中值定理</h4><p>若 $f(x)$ 在 $[a,b]$ 上可积，则 $\exists\xi\in(a,b)$ ，使得 $\begin{aligned}\int_a^bf(x)\mathrm{d}x=f(\xi)(b-a)\end{aligned}$</p>
-<h4 id="推广的定积分中值定理"><a href="#推广的定积分中值定理" class="headerlink" title="推广的定积分中值定理"></a>推广的定积分中值定理</h4><p>若 $f(x),g(x)$ 在 $[a,b]$ 上连续，且 $g(x)$ 在 $[a,b]$ 上不变号，则 $\exists\xi\in(a,b)$，使得</p>
-<p>$\begin{aligned}\int_a^bf(x)g(x)\mathrm{d}x=f(\xi)\int_a^bg(x)\mathrm{d}x\end{aligned}$</p>
-<h4 id="柯西不等式"><a href="#柯西不等式" class="headerlink" title="柯西不等式"></a>柯西不等式</h4><p>$\begin{pmatrix}\begin{aligned}\int_a^bf(x)g(x)\mathrm{d}x\end{aligned}\end{pmatrix}^2\leq\begin{aligned}\int_a^bf^2(x)\mathrm{d}x\cdot\int_a^bg^2(x)\mathrm{d}x\end{aligned}$</p>
-<h4 id="重要结果及技巧"><a href="#重要结果及技巧" class="headerlink" title="重要结果及技巧"></a>重要结果及技巧</h4><p>$\begin{aligned}\int\csc{x}\mathrm{d}x=\int\frac{\csc{x}(\csc{x}-\cot{x})}{\csc{x}-\cot{x}}\mathrm{d}x=\int\frac{\mathrm{d}(\csc{x}-\cot{x})}{\csc{x}-\cot{x}}=\ln|\csc{x}-\cot{x}|\end{aligned}$</p>
-<p>$\begin{aligned}\int\sec{x}\mathrm{d}x=\int\frac{\sec{x}(\sec{x}+\tan{x})}{\sec{x}+\tan{x}}\mathrm{d}x=\int\frac{\mathrm{d}(\sec x+\tan x)}{\sec x+\tan x}=\ln|\sec x+\tan x|\end{aligned}$</p>
-<p>$\begin{aligned}\int\cos^nx\mathrm{d}x=\frac{1}{n}\sin x\cos^{n-1}x+\frac{n-1}{n}\int\cos^{n-2}x\mathrm{d}x\end{aligned}$</p>
-<p>$\begin{aligned}\int\sin^nx\mathrm{d}x=-\frac{1}{n}\cos x\sin^{n-1}x+\frac{n-1}{n}\int\sin^{n-2}x\mathrm{d}x\end{aligned}$</p>
-<p>$\begin{aligned}I_n=\int\frac{\mathrm{d}x}{(a^2+x^2)^n},I_n=\frac{x}{2(n-1)a^2(a^2+x^2)^{n-1}}+\frac{2n-3}{2(n-1)a^2}I_{n-1}\end{aligned}$</p>
-<p>$\mathrm{d}(\sin x+\cos x)=\cos x-\sin x,\mathrm{d}(\sin x-\cos x)=\sin x+\cos x$</p>
-<p>$\begin{aligned}\int_0^{\frac{\pi}{2}}\sin^nx\mathrm{d}x=\int_0^{\frac{\pi}{2}}\cos^nx\mathrm{d}x\end{aligned}=\begin{cases}\dfrac{n-1}{n}\cdot\dfrac{n-3}{n-2}\cdot\cdots\cdot\dfrac{2}{3}\cdot1,&amp;n为奇数\\\dfrac{n-1}{n}\cdot\dfrac{n-3}{n-2}\cdot\cdots\cdot\dfrac{3}{4}\cdot\dfrac{1}{2}\cdot\dfrac{\pi}{2},&amp;n为偶数\end{cases}$</p>
-<p>$\begin{aligned}\Gamma(s+1)&amp;=\int_0^{+\infty}x^{s}e^{-x}\mathrm{d}x=-x^se^{-x}\big|_0^{+\infty}+s\int_0^{+\infty}x^{s-1}e^{-x}\mathrm{d}x\\&amp;=s\Gamma(s)=\cdots=n!\Gamma(1)=n!\end{aligned}$</p>
-<p>对于一切 $a&gt;0$ ，极限 $\begin{aligned}\lim_{x\rightarrow0^+}x^a\ln x=0\end{aligned}$ 成立</p>
-<p>$\begin{aligned}\lim_{x\rightarrow0^+}x^a\ln x=\lim_{x\rightarrow0^+}\dfrac{\ln x}{x^{-a}}=-\frac{1}{a}\lim_{x\rightarrow0^+}\frac{x^{-1}}{x^{-a-1}}=-\frac{1}{a}\lim_{x\rightarrow0^+}x^a=0\end{aligned}$</p>
-<p>在区间对称的积分中分离出奇函数的部分</p>
-<h4 id="中值定理构造原函数"><a href="#中值定理构造原函数" class="headerlink" title="中值定理构造原函数"></a>中值定理构造原函数</h4><p>将结果中的未知参数换为 $x$</p>
-<p>如果结果中既有 $f(x)$ 又含有 $f’(x)$ ，则将等式变换为 $\dfrac{f’(x)}{f(x)}+h(x)=0$ 的形式</p>
-<p>假使 $p’(x)=h(x)$ ，则构造 $g(x)=f(x)e^{p(x)}$</p>
-<h4 id="积分上限函数"><a href="#积分上限函数" class="headerlink" title="积分上限函数"></a>积分上限函数</h4><p>$\begin{bmatrix}\begin{aligned}\int_a^{g(x)}f(t)\mathrm{d}t\end{aligned}\end{bmatrix}’=f[g(x)]g’(x)$</p>
-<p>$\begin{bmatrix}\begin{aligned}\int_{h(x)}^{g(x)}f(t)\mathrm{d}t\end{aligned}\end{bmatrix}’=f[g(x)]g’(x)-f[h(x)]h’(x)$</p>
-<hr>
-<h3 id="总结-易错点"><a href="#总结-易错点" class="headerlink" title="总结-易错点"></a>总结-易错点</h3><h4 id="易错点1"><a href="#易错点1" class="headerlink" title="易错点1"></a>易错点1</h4><p>导函数在 $x_0$ 两侧的不同单调性确保了 $f(x_0)$ 取到极值是充分条件而非必要条件</p>
-<p>例如 $f(x)=\begin{cases}x^2(1+\sin^2(\dfrac{1}{x})),&amp;x\neq0\\0,&amp;x=0\end{cases}$</p>
-<h4 id="易错点2"><a href="#易错点2" class="headerlink" title="易错点2"></a>易错点2</h4><p>函数可导一定连续，函数连续不一定可导</p>
-<h4 id="易错点3"><a href="#易错点3" class="headerlink" title="易错点3"></a>易错点3</h4><p>原函数不可能有第一类间断点</p>
-<h4 id="易错点4"><a href="#易错点4" class="headerlink" title="易错点4"></a>易错点4</h4><p>利用导数的定义研究函数在一点的可导性时，要满足以下三个条件：</p>
-<p>$\begin{aligned}\lim_{\Delta x\rightarrow0}\frac{f(x_0+\Delta x)-f(x_0)}{\Delta x}\end{aligned}$ 中 $\Delta x$ 的替换项必须与 $\Delta x$ 是同阶无穷小</p>
-<p>$\Delta x\rightarrow 0$ 必须从左右两侧趋于 $0$</p>
-<p>$\begin{aligned}\lim_{\Delta x\rightarrow0}\frac{f(x_0+\Delta x)-f(x_0)}{\Delta x}\end{aligned}$ 的分子上一定要有 $f(x_0)$ 这个元素  </p>
-<h4 id="易错点5"><a href="#易错点5" class="headerlink" title="易错点5"></a>易错点5</h4><p>若 $f(x)$ 为周期函数，其原函数 $F(x)$ 不一定为周期函数</p>
-<p>若 $f(x)$ 为可导的周期函数，则 $f’(x)$ 一定为周期函数</p>
-<h4 id="易错点6"><a href="#易错点6" class="headerlink" title="易错点6"></a>易错点6</h4><p>$f(x)$ 在 $[a,b]$ 上有界是函数可积的必要条件，无界函数一定不可积</p>
-]]></content>
-      <tags>
-        <tag>课程笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>离散数学</title>
-    <url>/2025/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Chapter-8-Counting"><a href="#Chapter-8-Counting" class="headerlink" title="Chapter-8 Counting"></a>Chapter-8 Counting</h2><div class="table-container">
-<table>
-<thead>
-<tr>
-<th>术语</th>
-<th>翻译</th>
-<th>术语</th>
-<th>翻译</th>
-<th>术语</th>
-<th>翻译</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>recurrence relation</td>
-<td>递推关系</td>
-<td>parenthese</td>
-<td>括号</td>
-<td>degreee</td>
-<td>阶</td>
-</tr>
-<tr>
-<td>divide-and-conquer</td>
-<td>分治</td>
-<td>master theorem</td>
-<td>主定理</td>
-<td>linear</td>
-<td>线性</td>
-</tr>
-<tr>
-<td>binomial theorem</td>
-<td>二项式定理</td>
-<td>homogeneous</td>
-<td>齐次</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-</div>
-<h3 id="Catalan-Numbers"><a href="#Catalan-Numbers" class="headerlink" title="Catalan Numbers"></a>Catalan Numbers</h3><p> Note That the initial conditions are $C_0=1$ and $C_1=1$</p>
-<script type="math/tex; mode=display">
-\begin{align} 
-C_n&=C_0C_{n-1}+C_1C_{n-2}+\cdots+C_{n-2}C_1+C_{n-1}C_0\\
-&=\sum_{k=0}^{n-1}C_kC_{n-k-1}\\
-&=\frac{C(2n,n)}{n+1} 
-\end{align}</script><span id="more"></span>
-<h3 id="Linear-Recurrence-Relations"><a href="#Linear-Recurrence-Relations" class="headerlink" title="Linear Recurrence Relations"></a>Linear Recurrence Relations</h3><p>Linear homogeneous recurrence relation with constant coefficients refers to a recurrence relation of the form</p>
-<script type="math/tex; mode=display">a_n=c_1a_{n-1}+c_2a_{n-2}+\cdots+c_ka_{n-k}</script><p>where $c_1,c_2,\cdots,c_k$ are real numbers, and $c_k\neq0$</p>
-<p>Suppose that the characteristic equation $r^k-c_1r^{k-1}-\cdots-c_k=0$has $k$ distinct roots $r_1,r_2,\cdots,r_k$ Then a sequence $\{a_n\}$ is a solution of the recurrence relation</p>
-<script type="math/tex; mode=display">
-a_n=c_1a_{n-1}+c_2a_{n-2}+\cdots+c_ka_{n-k}</script><p>if and only if $a_n=\alpha_1r_1^n+\alpha_2r_2^n+\cdots+\alpha_kr_k^n$<br>if the characteristic equation has t distinct roots $r_1,r_2,\cdots,r_t$</p>
-<script type="math/tex; mode=display">
-\begin{align}
-a_n
-=&(\alpha_{1,0}+\alpha_{1,1}n+\cdots+\alpha_{1,m_1-1}n^{m_1-1})r_1^n\\
-+&(\alpha_{2,0}+\alpha_{2,1}n+\cdots+\alpha_{2,m_2-1}n^{m_2-1})r_2^n\\
-+&\quad\cdots\\
-+&(\alpha_{t,0}+\alpha_{t,1}n+\cdots+\alpha_{t,m_t-1}n^{m_t}-1)r_t^n
-\end{align}</script><h3 id="LNRR-with-Constant-Coefficients"><a href="#LNRR-with-Constant-Coefficients" class="headerlink" title="LNRR with Constant Coefficients"></a>LNRR with Constant Coefficients</h3><p>If  $\{a_n^{(p)}\}$ is a particular solution of the nonhomogeneous linear recurrence relation (LNRR) with constant coefficients</p>
-<script type="math/tex; mode=display">
-a_n=c_1a_{n-1}+c_2a_{n-2}+\cdots+c_ka_{n-k}+F(n)</script><p>then every solution is of the form $\{a_n^{(p)}+a_n^{(h)}\}$ where $\{a_n^{(h)}\}$ is a solution of the associated homogeneous recurrence relation </p>
-<p>Suppose that $F(n)=(b_tn^t+b_{t-1}n^{t-1}+\cdots+b_1n+b_0)s^n$ , the multiplicity of $s$ in the characteristic equation is $m$ ,there is a particular solution of the form</p>
-<script type="math/tex; mode=display">
-n^m(p_tn^t+p_{t-1}n^{t-1}+\cdots+p_1n+p_0)s^n</script><h3 id="Divide-and-Conquer-Algorithm"><a href="#Divide-and-Conquer-Algorithm" class="headerlink" title="Divide-and-Conquer Algorithm"></a>Divide-and-Conquer Algorithm</h3><p>Let $f$ be an increasing function that satisfies the recurrence relation</p>
-<script type="math/tex; mode=display">
-f(n)=af(n/b)+c</script><p>whenever $n$ is divisible by $b$ , where $a\geq1$ , $b\in Z^+,b&gt;1,c\in R^+$</p>
-<script type="math/tex; mode=display">
-f(n)\text{is}
-\begin{cases}
-O(n^{\log_ba}),&a>1\\
-O(\log n),&a=1
-\end{cases}</script><p>when $n=b^k$ and $a\neq1$ when $k$ is a positive integer,</p>
-<script type="math/tex; mode=display">
-f(n)=C_1n^{\log_ba}+C_2,C_1=f(1)+c/(a-1),C_2=-c/(a-1)</script><h3 id="Master-Theorem"><a href="#Master-Theorem" class="headerlink" title="Master Theorem"></a>Master Theorem</h3><p>Let $f$ be an increasing function that satisfies the recurrence relation</p>
-<script type="math/tex; mode=display">
-f(n)=af(n/b)+cn^d</script><p>whenever $n=b^k$ ,where $k\in Z^+,a\geq1,b&gt;1,b\in Z,c\in R^+,d\in R,d\geq0$</p>
-<script type="math/tex; mode=display">
-f(n)\text{is}
-\begin{cases}
-O(n^d)&a<b^d\\
-O(n^d\log n)&a=b^d\\
-O(n^{\log_ba})&a>b^d
-\end{cases}</script><h3 id="Generating-Functions"><a href="#Generating-Functions" class="headerlink" title="Generating Functions"></a>Generating Functions</h3><p>The generating function for the sequence $a_0,a_1,\cdots,a_k,\cdots$ of real numbers is the infinite series</p>
-<script type="math/tex; mode=display">
-G(x)=a_0+a_1x+\cdots+a_kx^k+\cdots=\sum_{k=0}^\infty a_kx^k</script><h3 id="The-Extended-Binomial-Theorem"><a href="#The-Extended-Binomial-Theorem" class="headerlink" title="The Extended Binomial Theorem"></a>The Extended Binomial Theorem</h3><p>Let $x$ be a real number with $|x|&lt;1$ and let $u$ be a real number, then</p>
-<script type="math/tex; mode=display">
-(1+x)^u=\sum_{k=0}^\infty\begin{pmatrix}u\\k\end{pmatrix}x^k</script><h3 id="Useful-Generating-Functions"><a href="#Useful-Generating-Functions" class="headerlink" title="Useful Generating Functions"></a>Useful Generating Functions</h3><div class="table-container">
-<table>
-<thead>
-<tr>
-<th style="text-align:center">Sequence $a_k$</th>
-<th style="text-align:center">Generating Function $G(x)$</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">$C(n,k)$</td>
-<td style="text-align:center">$(1+x)^n$</td>
-</tr>
-<tr>
-<td style="text-align:center">$C(n,k)a^k$</td>
-<td style="text-align:center">$(1+ax)^n$</td>
-</tr>
-<tr>
-<td style="text-align:center">$[k&lt;n]$</td>
-<td style="text-align:center">$\begin{align}\frac{1-x^n}{1-x}\end{align}$</td>
-</tr>
-<tr>
-<td style="text-align:center">$1$</td>
-<td style="text-align:center">$\begin{align}\frac{1}{1-x}\end{align}$</td>
-</tr>
-<tr>
-<td style="text-align:center">$a^k$</td>
-<td style="text-align:center">$\begin{align}\frac{1}{1-ax}\end{align}$</td>
-</tr>
-<tr>
-<td style="text-align:center">$k+1$</td>
-<td style="text-align:center">$\begin{align}\frac{1}{(1-x)^2}\end{align}$</td>
-</tr>
-<tr>
-<td style="text-align:center">$C(n+k-1,k)$</td>
-<td style="text-align:center">$\begin{align}\frac{1}{(1-x)^n}\end{align}$</td>
-</tr>
-<tr>
-<td style="text-align:center">$(-1)^kC(n+k-1,k)$</td>
-<td style="text-align:center">$\begin{align}\frac{1}{(1+x)^n}\end{align}$</td>
-</tr>
-<tr>
-<td style="text-align:center">$C(n+k-1,k)a^k$</td>
-<td style="text-align:center">$\begin{align}\frac{1}{(1-ax)^n}\end{align}$</td>
-</tr>
-<tr>
-<td style="text-align:center">$\begin{align}\frac{1}{k!}\end{align}$</td>
-<td style="text-align:center">$e^x$</td>
-</tr>
-<tr>
-<td style="text-align:center">$\begin{align}\frac{(-1)^{k+1}}{k}\end{align}$</td>
-<td style="text-align:center">$\ln(1+x)$</td>
-</tr>
-</tbody>
-</table>
-</div>
-<h3 id="Inclusion-Exclusion"><a href="#Inclusion-Exclusion" class="headerlink" title="Inclusion-Exclusion"></a>Inclusion-Exclusion</h3><p>Let $A_1,A_2,\cdots A_n$ be finite sets, then</p>
-<script type="math/tex; mode=display">
-\begin{align}
-|A_1\cup A_2\cup\cdots\cup A_n|
-&=\sum_{1\leq i\leq n}|A_i|
--\sum_{1\leq i< j\leq n}|A_i\cap A_j|\\
-&+\sum_{1\leq i<j<k\leq n}|A_i\cap A_j\cap A_k|-\cdots+(-1)^{n+1}|A_1\cap A_2\cap\cdots\cap A_n|
-\end{align}</script><h3 id="Derangement"><a href="#Derangement" class="headerlink" title="Derangement"></a>Derangement</h3><p>Counting the permutations of $n$ objects that leave no objects in their original positions, the number of derangements of a set with $n$ elements is </p>
-<script type="math/tex; mode=display">
-\begin{align}
-D_n&=n!(1-\frac{1}{1!}+\frac{1}{2!}-\frac{1}{3!}+\cdots+(-1)^n\frac{1}{n!})\\
-&=(n-1)(D_{n-1}+D_{n-2})
-\end{align}</script><h2 id="Chapter-9-Relations"><a href="#Chapter-9-Relations" class="headerlink" title="Chapter-9 Relations"></a>Chapter-9 Relations</h2><div class="table-container">
-<table>
-<thead>
-<tr>
-<th>术语</th>
-<th>翻译</th>
-<th>术语</th>
-<th>翻译</th>
-<th>术语</th>
-<th>翻译</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>binary relation</td>
-<td>二元关系</td>
-<td>reflexive</td>
-<td>自反的</td>
-<td>symmetric</td>
-<td>对称的</td>
-</tr>
-<tr>
-<td>antisymmetric</td>
-<td>反对称的</td>
-<td>vertex</td>
-<td>顶点</td>
-<td>diagonal</td>
-<td>对角线的</td>
-</tr>
-<tr>
-<td>irreflexive</td>
-<td>非自反的</td>
-<td>congruence</td>
-<td>一致</td>
-<td>lexicographic order</td>
-<td>字典序</td>
-</tr>
-<tr>
-<td>hasse diagram</td>
-<td>哈塞图</td>
-<td>maximal</td>
-<td>最大元</td>
-<td>minimal</td>
-<td>最小元</td>
-</tr>
-<tr>
-<td>dual</td>
-<td>对偶</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-</div>
-<h3 id="Relations-and-Properties"><a href="#Relations-and-Properties" class="headerlink" title="Relations and Properties"></a>Relations and Properties</h3><p>A binary relation from $A$ to $B$ is a subset of $A\times B$<br>A relation on a set $A$ is a relation from $A$ to $A$ </p>
-<div class="table-container">
-<table>
-<thead>
-<tr>
-<th>Property</th>
-<th>Requirement</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>reflexive</td>
-<td>$\forall a\in A,(a,a)\in R$</td>
-</tr>
-<tr>
-<td>symmetric</td>
-<td>$\forall a,b\in A,(a,b)\in R\rightarrow (b,a)\in R$</td>
-</tr>
-<tr>
-<td>antisymmetric</td>
-<td>$\forall a,b\in A,((a,b)\in R\land (b,a)\in R)\rightarrow a=b$</td>
-</tr>
-<tr>
-<td>transitive</td>
-<td>$\forall a,b,c\in A,((a,b)\in R\land(b,c)\in R)\rightarrow (a,c)\in R$</td>
-</tr>
-<tr>
-<td>composite</td>
-<td>$(\exists b\in B((a,b)\in R\land(b,c)\in S))\rightarrow (a,c)\in S\circ R$</td>
-</tr>
-</tbody>
-</table>
-</div>
-<p>The relation $R$ on a set $A$ is transitive if and only if $R^n\subseteq R$ for $n=1,2,3\cdots$</p>
-<h3 id="n-ary-Relations-and-Applications"><a href="#n-ary-Relations-and-Applications" class="headerlink" title="n-ary Relations and Applications"></a>n-ary Relations and Applications</h3><p>An n-ary relation is a subset of $A_1\times A_2\times\cdots\times A_n$<br>The sets $A_1,A_2,\cdots,A_n$ are called the domains of the relation, $n$ is called its degree<br>A domain is a primary key when no two n-tuples in the relation have the same value</p>
-<h3 id="Matrices-Relations"><a href="#Matrices-Relations" class="headerlink" title="Matrices-Relations"></a>Matrices-Relations</h3><p>$R$ is symmetric if and only if $M_R=(M_R)^t$<br>$\begin{cases}M_{R_1\cup R_2}=M_{R_1}\lor M_{R_2}\\M_{R_1\cap R_2}=M_{R_1}\land M_{R_2}\\M_{S\circ R}=M_R\odot M_S\end{cases}$ </p>
-<h3 id="Closures-of-Relations"><a href="#Closures-of-Relations" class="headerlink" title="Closures of Relations"></a>Closures of Relations</h3><p>the closure of $R$ with respect to $P$ is the relation $S$ on $A$ with property $P$ that contains $R$  and is a subset of every subset containing $R$ with property $P$</p>
-<p>There is a path of length $n$ from $a$ to $b$ if and only if $(a,b)\in R^n$</p>
-<p>The connectivity relation $R^\ast$ consists of the pairs $(a,b)$ such that there is a path of length at least one from $a$ to $b$ in $R$ , $\begin{align}R^\ast=\bigcup_{n=1}^\infty R^n\end{align}$</p>
-<p>$M_{R^\ast}=M_R\lor M_R^{[2]}\lor M_R^{[3]}\lor\cdots\lor M_R^{[n]}$</p>
-<h3 id="Warshall’s-Algorithm"><a href="#Warshall’s-Algorithm" class="headerlink" title="Warshall’s Algorithm"></a>Warshall’s Algorithm</h3><p>$W_k=[w_{ij}^{[k]}],\quad w_{ij}^{[k]}=w_{ij}^{[k-1]}\lor(w_{ik}^{[k-1]}\land w_{kj}^{[k-1]})$</p>
-<h3 id="Equivalence-Relations"><a href="#Equivalence-Relations" class="headerlink" title="Equivalence Relations"></a>Equivalence Relations</h3><p>Equivalence relation is <strong>reflexive, symmetric and transitive</strong>.</p>
-<p>Two elements $a$ and $b$ that are related by an equivalence relation are called equivalent. $a\sim b$ denote that $a$ and $b$ are equivalent elements with respect to a particular equivalence relation</p>
-<h3 id="Equivalence-Classes"><a href="#Equivalence-Classes" class="headerlink" title="Equivalence Classes"></a>Equivalence Classes</h3><p>Let $R$ be a equivalence relation on a set $A$ . The set of all elements that are related to an element $a$ of $A$ is called the equivalence class of $a$</p>
-<script type="math/tex; mode=display">
-[a]_R=\{s|(a,s)\in R\}</script><p>If $b\in[a]_R$ , then $b$ is called a representative of this equivalence class</p>
-<p>Let $R$ be an equivalence relation on a set $A$. these statements for elements $a$ and $b$ of $A$ are equivalent: $aRb,\quad [a]=[b],\quad [a]\cap[b]\neq\emptyset$ </p>
-<p>Let $R$ be an equivalence relation on a set $S$ , Then the equivalence classes of $R$ form a partition of $S$ . Conversely , given a partition $\{A)i|i\in I\}$ of the set $S$ , there is an equivalence relation $R$ that has the sets $A_i,i\in I$ as its equivalence classes.</p>
-<h3 id="Partial-Orderings"><a href="#Partial-Orderings" class="headerlink" title="Partial Orderings"></a>Partial Orderings</h3><p>A relation $R$ on $S$ is called a <strong>partial ordering</strong> if it is <strong>reflexive, antisymmetric and transitive</strong>. A set $S$ together with a partial ordering $R$ is called a partially ordered set, and is denoted by $(S,R)$ . Members of $S$ are called elements of the poset. </p>
-<p>The elements $a$ and $b$ of a poset $(S,\preceq)$ are called <strong>comparable</strong> if either $a\preceq b$ or $b\preceq a$ . When $a$ and $b$ are elements of $S$ such that neither $a\preceq b$ nor $b\preceq a$ , $a$ and $b$ are called incomparable.</p>
-<p>If $(S,\preceq)$ is a poset and every two elements of $S$ are comparable , $S$ is called a totally ordered or linearly ordered set, and $\preceq$ is called a total order or a linear order. A totally ordered set is also called a chain.</p>
-<p>$(S,\preceq)$ is a well-ordered set if it is a poset such that $\preceq$ is a total ordering and every nonempty subset of $S$ has a least element.</p>
-<p>Suppose that $S$ is a well-ordered set. Then $P(x)$ is true for all $x\in S$<br>For every $y\in S$, if $P(x)$ is true for all $x\in S$ with $x\prec y$ , then $P(y)$ is true</p>
-<p>An element of is called <strong>maximal</strong> if it is not <strong>less</strong> than any element of the poset<br>An element of is called <strong>minimal</strong> if it is not <strong>greater</strong> than any element of the poset</p>
-<p><strong>greatest element</strong> is an element in a poset that is <strong>greater</strong> than every other element<br><strong>least element</strong> is an element in a poset that is <strong>less</strong> than every other element</p>
-<p>upper bound /lower bound /least upper bound /greatest lower bound</p>
-<p>A partially ordered set in which every pair of elements has both a least upper bound and a greatest lower bound is called a lattice</p>
-<p>Every finite nonempty poset $(S,\preceq)$ has at least one minimal element</p>
-<h2 id="Chapter-10-Graphs"><a href="#Chapter-10-Graphs" class="headerlink" title="Chapter-10 Graphs"></a>Chapter-10 Graphs</h2><div class="table-container">
-<table>
-<thead>
-<tr>
-<th>术语</th>
-<th>翻译</th>
-<th>术语</th>
-<th>翻译</th>
-<th>术语</th>
-<th>翻译</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>isolated</td>
-<td>孤立的</td>
-<td>pendant</td>
-<td>悬挂的</td>
-<td>in-degree</td>
-<td>入度</td>
-</tr>
-<tr>
-<td>out-degree</td>
-<td>出度</td>
-<td>bipartite graphs</td>
-<td>二分图</td>
-<td>sparse</td>
-<td>稀疏的</td>
-</tr>
-<tr>
-<td>isomorphism</td>
-<td>同构</td>
-<td>incidence matrix</td>
-<td>关联矩阵</td>
-<td>invariant</td>
-<td>不变量</td>
-</tr>
-<tr>
-<td>cut vertices</td>
-<td>割点</td>
-<td>cut edge</td>
-<td>割边</td>
-<td>homeomorphic</td>
-<td>同态</td>
-</tr>
-<tr>
-<td>planar graph</td>
-<td>平面图</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-</div>
-<h3 id="Graphs-and-Graph-Models"><a href="#Graphs-and-Graph-Models" class="headerlink" title="Graphs and Graph Models"></a>Graphs and Graph Models</h3><p>A graph $G=(V,E)$ consists of $V$ ,a nonempty set of vertices (or nodes) and $E$ ,a set of edges. Each edge has either $1$ or $2$ vertices associated with it , called its endpoints.</p>
-<p>A digraph $(V, E)$ consists of a nonempty set of vertices $V$ and a set of directed edges $E$. Each directed edge is associated with an ordered pair of vertices. The directed edge $(u, v)$ is said to start at $u$ and end at $v$.</p>
-<div class="table-container">
-<table>
-<thead>
-<tr>
-<th>Type</th>
-<th>Edges</th>
-<th>Multiple Edges</th>
-<th>Loops</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Simple graph</td>
-<td>Undirected</td>
-<td>No</td>
-<td>No</td>
-</tr>
-<tr>
-<td>Multigraph</td>
-<td>Undirected</td>
-<td>Yes</td>
-<td>No</td>
-</tr>
-<tr>
-<td>Pseudograph</td>
-<td>Undirected</td>
-<td>Yes</td>
-<td>Yes</td>
-</tr>
-<tr>
-<td>Simple directed graph</td>
-<td>Directed</td>
-<td>No</td>
-<td>No</td>
-</tr>
-<tr>
-<td>Directed multigraph</td>
-<td>Directed</td>
-<td>Yes</td>
-<td>Yes</td>
-</tr>
-<tr>
-<td>Mixed graph</td>
-<td>Directed and undirected</td>
-<td>Yes</td>
-<td>Yes</td>
-</tr>
-</tbody>
-</table>
-</div>
-<h3 id="Graph-Terminology"><a href="#Graph-Terminology" class="headerlink" title="Graph Terminology"></a>Graph Terminology</h3><p>The set of all neighbors of a vertex $v$ of $G=(V,E)$ , denoted by $N(v)$ , is called the neighborhood of $v$ . If $A$ is a subset of $V$ , we denote by $N(A)$ the set of all vertices in $G$ that are adjacent to at least one vertex in $A$ , $N(A)=\bigcup_{c\in A}N(v)$</p>
-<p>The degree of a vertex in an undirected graph is the number of edges incident with it, except that a loop at a vertex contributes twice to the degree of that vertex. The degree of the vertex v is denoted by $\deg(v)$</p>
-<h3 id="Graph-Properties"><a href="#Graph-Properties" class="headerlink" title="Graph Properties"></a>Graph Properties</h3><p>Let $G=(V,E)$ be an undirected graph with $m$ edges, then</p>
-<script type="math/tex; mode=display">
-2m=\sum_{v\in V}\deg(v)</script><p>An undirected graph has an even number of vertices of odd degree.</p>
-<p>In a graph with directed edges the in-degree of a vertex $v$, denoted by $\deg^−(v)$, is the number of edges with $v$ as their terminal vertex. The out-degree of $v$, denoted by $deg^+(v)$, is the number of edges with $v$ as their initial vertex.</p>
-<p>Let $G=(V,E)$ be a graph with directed edges, then</p>
-<script type="math/tex; mode=display">
-\sum_{v\in V}\deg^-(v)=\sum_{v\in V}\deg^+(v)=|E|</script><p>$K$-Complete   $C$-Cycle   $W$-Wheels   $Q$-Cube</p>
-<h3 id="Bipartite-Graphs-and-Matchings"><a href="#Bipartite-Graphs-and-Matchings" class="headerlink" title="Bipartite Graphs and Matchings"></a>Bipartite Graphs and Matchings</h3><p>A simple graph $G$ is called bipartite if its vertex set $V$ can be partitioned into two disjoint set $V_1$ and $V_2$ such that every edge in the graph connects a vertex in $V_1$ and a vertex in $V_2$ , the pair $(V_1,V_2)$ is a bipartition of the vertex set $V$ of $G$ </p>
-<p>A simple graph is bipartite if and only if it is possible to assign one of two different colors to each vertex of the graph so that no two adjacent vertices are assigned the same color.</p>
-<p>A matching $M$ in a simple graph $G=(V,E)$ is a subset of the set $E$ of edges of the graph such that no two edges are incident with the same vertex.</p>
-<p>A matching $M$ in a bipartite graph $G=(V,E)$ with bipartition $(V_1,V_2)$ is a complete matching from $V_1$ to $V_2$ if every vertex in $V_1$ is the endpoint of an edge in the matching, equivalently $|M|=|V_1|$</p>
-<h3 id="Hall’s-Marriage-Theorem"><a href="#Hall’s-Marriage-Theorem" class="headerlink" title="Hall’s Marriage Theorem"></a>Hall’s Marriage Theorem</h3><p>The bipartite graph $G=(V,E)$ with bipartition $(V_1,V_2)$ has complete matching from $V_1$ to $V_2$ if and only if $|N(A)|\geq|A|$ for all subsets $A$ of $V_1$</p>
-<h3 id="Subgraphs"><a href="#Subgraphs" class="headerlink" title="Subgraphs"></a>Subgraphs</h3><p>A subgraph of a graph $G=(V,E)$ is a graph $H=(W,F)$ ,where $W\subseteq V$ and $F\subseteq E$<br>A subgraph $H$ of $G$ is a proper subgraph of $G$ if $H\neq G$</p>
-<p>Let $G=(V,E)$ be a simple graph, the subgraph induce by a subset $W$ of the vertex set $V$ is the graph $(W,F)$ , where the edges set $F$ contains an edge in $E$ if and only if both endpoints of this edge are in $W$ </p>
-<h3 id="Graph-Isomorphism"><a href="#Graph-Isomorphism" class="headerlink" title="Graph Isomorphism"></a>Graph Isomorphism</h3><p>The simple graphs $G_1=(V_1,E_1)$ and $G_2=(V_2,E_2)$ are isomorphic if there exists a one-to-one and onto function $f$ from $V_1$ to $V_2$ with the property that $a$ and $b$ are adjacent in $G_1$ if and only if $f(a)$ and $f(b)$ are adjacent in $G_2$ ,for all $a$ and $b$ in $V_1$ </p>
-<h3 id="Connectivity"><a href="#Connectivity" class="headerlink" title="Connectivity"></a>Connectivity</h3><p>A path is a sequence of edges that begins at a vertex of a graph and travels from vertex to vertex along edges of the graph.</p>
-<p>A path or circuit is simple if it does not contain the same edge more than once.</p>
-<p>An undirected graph is called connected if there is a path between every pair of distinct vertices of the graph. We say that we disconnect a graph when we remove vertices or edges, or both, to produce a disconnected subgraph.</p>
-<p>There is a simple path between every pair of distinct vertices of a connected undirected graph.</p>
-<p>A connected component of a graph $G$ is a connected subgraph of G that is not a proper subgraph of another connected subgraph of $G$.</p>
-<h3 id="Cut-Vertices"><a href="#Cut-Vertices" class="headerlink" title="Cut Vertices"></a>Cut Vertices</h3><p>Sometimes the removal from a graph of a vertex and all incident edges produces a subgraph with more connected components. Such vertices are called cut vertices(or articulation points).</p>
-<p>Connected graphs without cut vertices are called nonseparable graphs</p>
-<p>The vertex connectivity of a noncomplete graph $G$ , denoted by $\kappa(G)$ the minimum number of vertices that can be removed to disconnect a graph.</p>
-<p>A graph is k-connected (or k-vertex-connected), if $\kappa(G)\geq k$ </p>
-<p>The edge connectivity of a graph $G$ , denoted by $\lambda(G)$ is the minimum number of edges in an edge cut of $G$</p>
-<p>An inequality for vertex connectivity and edge connectivity $\kappa(G)\leq\lambda(G)\leq\min_{v\in V}\deg(v)$</p>
-<h3 id="Connectedness-in-Directed-Graphs"><a href="#Connectedness-in-Directed-Graphs" class="headerlink" title="Connectedness in Directed Graphs"></a>Connectedness in Directed Graphs</h3><p>A directed graph is strongly connected if there is a path from $a$ to $b$ and from $b$ to $a$ whenever $a$ and $b$ are vertices in the graph.</p>
-<p>A directed graph is weakly connected if there is a path between every two vertices in the underlying undirected graph.</p>
-<p>The strongly connected components of $G$ is the subgraphs that are strongly connected but not contained in larger strongly connected subgraphs.</p>
-<h3 id="Euler-Paths-and-Circuits"><a href="#Euler-Paths-and-Circuits" class="headerlink" title="Euler Paths and Circuits"></a>Euler Paths and Circuits</h3><p>A Euler circuit in a graph $G$ is a simple circuit containing every edge of $G$ .<br>An Euler path in $G$ is a simple path containing every edge of $G$</p>
-<p>A connected multigraph with at least two vertices has an Euler circuit if and only if each of its vertices has even degree.</p>
-<p>A connected multigraph has an Euler path but not an Euler circuit if and only if it has exactly two vertices of odd degree.</p>
-<h3 id="Hamilton-Paths-and-Circuits"><a href="#Hamilton-Paths-and-Circuits" class="headerlink" title="Hamilton Paths and Circuits"></a>Hamilton Paths and Circuits</h3><p>A simple path in a graph $G$ that passes through every vertex exactly once is called a Hamilton path, and a simple circuit in a graph $G$ that passes through every vertex exactly once is called a Hamilton circuit.</p>
-<p>If $G$ is a simple graph with n vertices with $n\geq3$ such that the degree of every vertex in $G$ is at least $n/2$, then $G$ has a Hamilton circuit.</p>
-<p>If $G$ is a simple graph with $n$ vertices with $n \geq 3$ such that $\deg(u) + \deg(v) \geq n$ for every pair of nonadjacent vertices $u$ and $v$ in $G$, then $G$ has a Hamilton circuit.</p>
-<h3 id="Shortest-Path-Problems"><a href="#Shortest-Path-Problems" class="headerlink" title="Shortest-Path Problems"></a>Shortest-Path Problems</h3><p>Graphs that have a number assigned to each edge are called weighted graphs.</p>
-<h3 id="Planar-Graphs"><a href="#Planar-Graphs" class="headerlink" title="Planar Graphs"></a>Planar Graphs</h3><p>A graph is called planar if it can be drawn in the plane without any edges crossing.</p>
-<script type="math/tex; mode=display">
-2e=\sum_{\text{all region R}}\deg(R)\geq3r</script><p>If $G$ is a connected planar simple graph with $e$ edges and $v$ vertices, where $v\geq3$, then $e\leq 3v − 6$.</p>
-<p>If a connected planar simple graph has $e$ edges and $v$ vertices with $v\geq3$ and no circuits of length three, then $e\leq 2v − 4$.</p>
-<p>If $G$ is a connected planar simple graph, then $G$ has a vertex of degree not exceeding five.</p>
-<h3 id="Euler’s-Formula"><a href="#Euler’s-Formula" class="headerlink" title="Euler’s Formula"></a>Euler’s Formula</h3><p>Let $G$ be a connected planar simple graph with $e$ edges and $v$ vertices. Let $r$ be the number of regions in a planar representation of $G$. Then $r=e-v+2$</p>
-<h3 id="Kuratowski’s-Theorem"><a href="#Kuratowski’s-Theorem" class="headerlink" title="Kuratowski’s Theorem"></a>Kuratowski’s Theorem</h3><p>A graph is nonplanar iif it contains a subgraph homeomorphic to $K_{3,3}$ or $K_5$</p>
-<h3 id="Dual-Graph"><a href="#Dual-Graph" class="headerlink" title="Dual Graph"></a>Dual Graph</h3><p>Each map in the plane can be represented by a graph, each region of the map is represented by a vertex. Edges connect two vertices if the vertices have a common border. The resulting graph is called the dual graph of the map.</p>
-<p>The chromatic number of a graph is the least number of colors needed for a coloring of this graph. The chromatic number of a graph $G$ is denoted by $\chi(G)$.</p>
-]]></content>
       <tags>
         <tag>课程笔记</tag>
       </tags>
