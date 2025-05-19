@@ -3,26 +3,166 @@
   <entry>
     <title>离散数学</title>
     <url>/2025/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="Inclusion-Exclusion"><a href="#Inclusion-Exclusion" class="headerlink" title="Inclusion-Exclusion"></a>Inclusion-Exclusion</h3><blockquote>
-<h4 id="block"><a href="#block" class="headerlink" title="block"></a>block</h4><p>This is content</p>
-</blockquote>
-<p>Let $A_1,A_2,\cdots A_n$ be finite sets, then</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Chapter-8-Counting"><a href="#Chapter-8-Counting" class="headerlink" title="Chapter-8 Counting"></a>Chapter-8 Counting</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>术语</th>
+<th>翻译</th>
+<th>术语</th>
+<th>翻译</th>
+<th>术语</th>
+<th>翻译</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>recurrence relation</td>
+<td>递推关系</td>
+<td>parenthese</td>
+<td>括号</td>
+<td>degreee</td>
+<td>阶</td>
+</tr>
+<tr>
+<td>divide-and-conquer</td>
+<td>分治</td>
+<td>master theorem</td>
+<td>主定理</td>
+<td>linear</td>
+<td>线性</td>
+</tr>
+<tr>
+<td>binomial theorem</td>
+<td>二项式定理</td>
+<td>homogeneous</td>
+<td>齐次</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="Catalan-Numbers"><a href="#Catalan-Numbers" class="headerlink" title="Catalan Numbers"></a>Catalan Numbers</h3><p> Note That the initial conditions are $C_0=1$ and $C_1=1$</p>
+<script type="math/tex; mode=display">
+\begin{align} 
+C_n&=C_0C_{n-1}+C_1C_{n-2}+\cdots+C_{n-2}C_1+C_{n-1}C_0\\
+&=\sum_{k=0}^{n-1}C_kC_{n-k-1}\\
+&=\frac{C(2n,n)}{n+1} 
+\end{align}</script><span id="more"></span>
+<h3 id="Linear-Recurrence-Relations"><a href="#Linear-Recurrence-Relations" class="headerlink" title="Linear Recurrence Relations"></a>Linear Recurrence Relations</h3><p>Linear homogeneous recurrence relation with constant coefficients refers to a recurrence relation of the form</p>
+<script type="math/tex; mode=display">a_n=c_1a_{n-1}+c_2a_{n-2}+\cdots+c_ka_{n-k}</script><p>where $c_1,c_2,\cdots,c_k$ are real numbers, and $c_k\neq0$</p>
+<p>Suppose that the characteristic equation $r^k-c_1r^{k-1}-\cdots-c_k=0$has $k$ distinct roots $r_1,r_2,\cdots,r_k$ Then a sequence $\{a_n\}$ is a solution of the recurrence relation</p>
+<script type="math/tex; mode=display">
+a_n=c_1a_{n-1}+c_2a_{n-2}+\cdots+c_ka_{n-k}</script><p>if and only if $a_n=\alpha_1r_1^n+\alpha_2r_2^n+\cdots+\alpha_kr_k^n$<br>if the characteristic equation has t distinct roots $r_1,r_2,\cdots,r_t$</p>
+<script type="math/tex; mode=display">
+\begin{align}
+a_n
+=&(\alpha_{1,0}+\alpha_{1,1}n+\cdots+\alpha_{1,m_1-1}n^{m_1-1})r_1^n\\
++&(\alpha_{2,0}+\alpha_{2,1}n+\cdots+\alpha_{2,m_2-1}n^{m_2-1})r_2^n\\
++&\quad\cdots\\
++&(\alpha_{t,0}+\alpha_{t,1}n+\cdots+\alpha_{t,m_t-1}n^{m_t}-1)r_t^n
+\end{align}</script><h3 id="LNRR-with-Constant-Coefficients"><a href="#LNRR-with-Constant-Coefficients" class="headerlink" title="LNRR with Constant Coefficients"></a>LNRR with Constant Coefficients</h3><p>If  $\{a_n^{(p)}\}$ is a particular solution of the nonhomogeneous linear recurrence relation (LNRR) with constant coefficients</p>
+<script type="math/tex; mode=display">
+a_n=c_1a_{n-1}+c_2a_{n-2}+\cdots+c_ka_{n-k}+F(n)</script><p>then every solution is of the form $\{a_n^{(p)}+a_n^{(h)}\}$ where $\{a_n^{(h)}\}$ is a solution of the associated homogeneous recurrence relation </p>
+<p>Suppose that $F(n)=(b_tn^t+b_{t-1}n^{t-1}+\cdots+b_1n+b_0)s^n$ , the multiplicity of $s$ in the characteristic equation is $m$ ,there is a particular solution of the form</p>
+<script type="math/tex; mode=display">
+n^m(p_tn^t+p_{t-1}n^{t-1}+\cdots+p_1n+p_0)s^n</script><h3 id="Divide-and-Conquer-Algorithm"><a href="#Divide-and-Conquer-Algorithm" class="headerlink" title="Divide-and-Conquer Algorithm"></a>Divide-and-Conquer Algorithm</h3><p>Let $f$ be an increasing function that satisfies the recurrence relation</p>
+<script type="math/tex; mode=display">
+f(n)=af(n/b)+c</script><p>whenever $n$ is divisible by $b$ , where $a\geq1$ , $b\in Z^+,b&gt;1,c\in R^+$</p>
+<script type="math/tex; mode=display">
+f(n)\text{is}
+\begin{cases}
+O(n^{\log_ba}),&a>1\\
+O(\log n),&a=1
+\end{cases}</script><p>when $n=b^k$ and $a\neq1$ when $k$ is a positive integer,</p>
+<script type="math/tex; mode=display">
+f(n)=C_1n^{\log_ba}+C_2,C_1=f(1)+c/(a-1),C_2=-c/(a-1)</script><h3 id="Master-Theorem"><a href="#Master-Theorem" class="headerlink" title="Master Theorem"></a>Master Theorem</h3><p>Let $f$ be an increasing function that satisfies the recurrence relation</p>
+<script type="math/tex; mode=display">
+f(n)=af(n/b)+cn^d</script><p>whenever $n=b^k$ ,where $k\in Z^+,a\geq1,b&gt;1,b\in Z,c\in R^+,d\in R,d\geq0$</p>
+<script type="math/tex; mode=display">
+f(n)\text{is}
+\begin{cases}
+O(n^d)&a<b^d\\
+O(n^d\log n)&a=b^d\\
+O(n^{\log_ba})&a>b^d
+\end{cases}</script><h3 id="Generating-Functions"><a href="#Generating-Functions" class="headerlink" title="Generating Functions"></a>Generating Functions</h3><p>The generating function for the sequence $a_0,a_1,\cdots,a_k,\cdots$ of real numbers is the infinite series</p>
+<script type="math/tex; mode=display">
+G(x)=a_0+a_1x+\cdots+a_kx^k+\cdots=\sum_{k=0}^\infty a_kx^k</script><h3 id="The-Extended-Binomial-Theorem"><a href="#The-Extended-Binomial-Theorem" class="headerlink" title="The Extended Binomial Theorem"></a>The Extended Binomial Theorem</h3><p>Let $x$ be a real number with $|x|&lt;1$ and let $u$ be a real number, then</p>
+<script type="math/tex; mode=display">
+(1+x)^u=\sum_{k=0}^\infty\begin{pmatrix}u\\k\end{pmatrix}x^k</script><h3 id="Useful-Generating-Functions"><a href="#Useful-Generating-Functions" class="headerlink" title="Useful Generating Functions"></a>Useful Generating Functions</h3><div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Sequence $a_k$</th>
+<th style="text-align:center">Generating Function $G(x)$</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">$C(n,k)$</td>
+<td style="text-align:center">$(1+x)^n$</td>
+</tr>
+<tr>
+<td style="text-align:center">$C(n,k)a^k$</td>
+<td style="text-align:center">$(1+ax)^n$</td>
+</tr>
+<tr>
+<td style="text-align:center">$[k&lt;n]$</td>
+<td style="text-align:center">$\begin{align}\frac{1-x^n}{1-x}\end{align}$</td>
+</tr>
+<tr>
+<td style="text-align:center">$1$</td>
+<td style="text-align:center">$\begin{align}\frac{1}{1-x}\end{align}$</td>
+</tr>
+<tr>
+<td style="text-align:center">$a^k$</td>
+<td style="text-align:center">$\begin{align}\frac{1}{1-ax}\end{align}$</td>
+</tr>
+<tr>
+<td style="text-align:center">$k+1$</td>
+<td style="text-align:center">$\begin{align}\frac{1}{(1-x)^2}\end{align}$</td>
+</tr>
+<tr>
+<td style="text-align:center">$C(n+k-1,k)$</td>
+<td style="text-align:center">$\begin{align}\frac{1}{(1-x)^n}\end{align}$</td>
+</tr>
+<tr>
+<td style="text-align:center">$(-1)^kC(n+k-1,k)$</td>
+<td style="text-align:center">$\begin{align}\frac{1}{(1+x)^n}\end{align}$</td>
+</tr>
+<tr>
+<td style="text-align:center">$C(n+k-1,k)a^k$</td>
+<td style="text-align:center">$\begin{align}\frac{1}{(1-ax)^n}\end{align}$</td>
+</tr>
+<tr>
+<td style="text-align:center">$\begin{align}\frac{1}{k!}\end{align}$</td>
+<td style="text-align:center">$e^x$</td>
+</tr>
+<tr>
+<td style="text-align:center">$\begin{align}\frac{(-1)^{k+1}}{k}\end{align}$</td>
+<td style="text-align:center">$\ln(1+x)$</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="Inclusion-Exclusion"><a href="#Inclusion-Exclusion" class="headerlink" title="Inclusion-Exclusion"></a>Inclusion-Exclusion</h3><p>Let $A_1,A_2,\cdots A_n$ be finite sets, then</p>
 <script type="math/tex; mode=display">
 \begin{align}
 |A_1\cup A_2\cup\cdots\cup A_n|
 &=\sum_{1\leq i\leq n}|A_i|
 -\sum_{1\leq i< j\leq n}|A_i\cap A_j|\\
 &+\sum_{1\leq i<j<k\leq n}|A_i\cap A_j\cap A_k|-\cdots+(-1)^{n+1}|A_1\cap A_2\cap\cdots\cap A_n|
-\end{align}</script><span id="more"></span>
-<h2 id="Chapter-9-Relations"><a href="#Chapter-9-Relations" class="headerlink" title="Chapter-9 Relations"></a>Chapter-9 Relations</h2><div class="table-container">
+\end{align}</script><h3 id="Derangement"><a href="#Derangement" class="headerlink" title="Derangement"></a>Derangement</h3><p>Counting the permutations of $n$ objects that leave no objects in their original positions, the number of derangements of a set with $n$ elements is </p>
+<script type="math/tex; mode=display">
+D_n=n!(1-\frac{1}{1!}+\frac{1}{2!}-\frac{1}{3!}+\cdots+(-1)^n\frac{1}{n!})</script><h2 id="Chapter-9-Relations"><a href="#Chapter-9-Relations" class="headerlink" title="Chapter-9 Relations"></a>Chapter-9 Relations</h2><div class="table-container">
 <table>
 <thead>
 <tr>
-<th>专有名词</th>
+<th>术语</th>
 <th>翻译</th>
-<th>专有名词</th>
+<th>术语</th>
 <th>翻译</th>
-<th>专有名词</th>
+<th>术语</th>
 <th>翻译</th>
 </tr>
 </thead>
@@ -99,11 +239,11 @@
 <table>
 <thead>
 <tr>
-<th>专有名词</th>
+<th>术语</th>
 <th>翻译</th>
-<th>专有名词</th>
+<th>术语</th>
 <th>翻译</th>
-<th>专有名词</th>
+<th>术语</th>
 <th>翻译</th>
 </tr>
 </thead>

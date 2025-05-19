@@ -6,7 +6,7 @@
   <link href="https://reedrift.github.io/atom.xml" rel="self"/>
   
   <link href="https://reedrift.github.io/"/>
-  <updated>2025-05-19T00:45:33.343Z</updated>
+  <updated>2025-05-19T03:17:19.679Z</updated>
   <id>https://reedrift.github.io/</id>
   
   <author>
@@ -21,19 +21,54 @@
     <link href="https://reedrift.github.io/2025/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/"/>
     <id>https://reedrift.github.io/2025/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/</id>
     <published>2025-05-15T05:26:33.000Z</published>
-    <updated>2025-05-19T00:45:33.343Z</updated>
+    <updated>2025-05-19T03:17:19.679Z</updated>
     
     
-    <summary type="html">&lt;h3 id=&quot;Inclusion-Exclusion&quot;&gt;&lt;a href=&quot;#Inclusion-Exclusion&quot; class=&quot;headerlink&quot; title=&quot;Inclusion-Exclusion&quot;&gt;&lt;/a&gt;Inclusion-Exclusion&lt;/h3&gt;&lt;blockquote&gt;
-&lt;h4 id=&quot;block&quot;&gt;&lt;a href=&quot;#block&quot; class=&quot;headerlink&quot; title=&quot;block&quot;&gt;&lt;/a&gt;block&lt;/h4&gt;&lt;p&gt;This is content&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Let $A_1,A_2,&#92;cdots A_n$ be finite sets, then&lt;/p&gt;
+    <summary type="html">&lt;h2 id=&quot;Chapter-8-Counting&quot;&gt;&lt;a href=&quot;#Chapter-8-Counting&quot; class=&quot;headerlink&quot; title=&quot;Chapter-8 Counting&quot;&gt;&lt;/a&gt;Chapter-8 Counting&lt;/h2&gt;&lt;div class=&quot;table-container&quot;&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;术语&lt;/th&gt;
+&lt;th&gt;翻译&lt;/th&gt;
+&lt;th&gt;术语&lt;/th&gt;
+&lt;th&gt;翻译&lt;/th&gt;
+&lt;th&gt;术语&lt;/th&gt;
+&lt;th&gt;翻译&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;recurrence relation&lt;/td&gt;
+&lt;td&gt;递推关系&lt;/td&gt;
+&lt;td&gt;parenthese&lt;/td&gt;
+&lt;td&gt;括号&lt;/td&gt;
+&lt;td&gt;degreee&lt;/td&gt;
+&lt;td&gt;阶&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;divide-and-conquer&lt;/td&gt;
+&lt;td&gt;分治&lt;/td&gt;
+&lt;td&gt;master theorem&lt;/td&gt;
+&lt;td&gt;主定理&lt;/td&gt;
+&lt;td&gt;linear&lt;/td&gt;
+&lt;td&gt;线性&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;binomial theorem&lt;/td&gt;
+&lt;td&gt;二项式定理&lt;/td&gt;
+&lt;td&gt;homogeneous&lt;/td&gt;
+&lt;td&gt;齐次&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;h3 id=&quot;Catalan-Numbers&quot;&gt;&lt;a href=&quot;#Catalan-Numbers&quot; class=&quot;headerlink&quot; title=&quot;Catalan Numbers&quot;&gt;&lt;/a&gt;Catalan Numbers&lt;/h3&gt;&lt;p&gt; Note That the initial conditions are $C_0=1$ and $C_1=1$&lt;/p&gt;
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;
-&#92;begin{align}
-|A_1&#92;cup A_2&#92;cup&#92;cdots&#92;cup A_n|
-&amp;=&#92;sum_{1&#92;leq i&#92;leq n}|A_i|
--&#92;sum_{1&#92;leq i&lt; j&#92;leq n}|A_i&#92;cap A_j|&#92;&#92;
-&amp;+&#92;sum_{1&#92;leq i&lt;j&lt;k&#92;leq n}|A_i&#92;cap A_j&#92;cap A_k|-&#92;cdots+(-1)^{n+1}|A_1&#92;cap A_2&#92;cap&#92;cdots&#92;cap A_n|
+&#92;begin{align} 
+C_n&amp;=C_0C_{n-1}+C_1C_{n-2}+&#92;cdots+C_{n-2}C_1+C_{n-1}C_0&#92;&#92;
+&amp;=&#92;sum_{k=0}^{n-1}C_kC_{n-k-1}&#92;&#92;
+&amp;=&#92;frac{C(2n,n)}{n+1} 
 &#92;end{align}&lt;/script&gt;</summary>
     
     
@@ -82,7 +117,7 @@
     <link href="https://reedrift.github.io/2025/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E7%94%B2I/"/>
     <id>https://reedrift.github.io/2025/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E7%94%B2I/</id>
     <published>2025-04-28T15:00:19.000Z</published>
-    <updated>2025-05-14T07:28:35.757Z</updated>
+    <updated>2025-05-19T01:53:24.830Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;Chapter-1-质点运动学&quot;&gt;&lt;a href=&quot;#Chapter-1-质点运动学&quot; class=&quot;headerlink&quot; title=&quot;Chapter-1 质点运动学&quot;&gt;&lt;/a&gt;Chapter-1 质点运动学&lt;/h2&gt;&lt;p&gt;【注】与中学内容基本一致，略&lt;/p&gt;
