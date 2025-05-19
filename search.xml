@@ -235,7 +235,7 @@ D_n=n!(1-\frac{1}{1!}+\frac{1}{2!}-\frac{1}{3!}+\cdots+(-1)^n\frac{1}{n!})</scri
 <p>upper bound /lower bound /least upper bound /greatest lower bound</p>
 <p>A partially ordered set in which every pair of elements has both a least upper bound and a greatest lower bound is called a lattice</p>
 <p>Every finite nonempty poset $(S,\preceq)$ has at least one minimal element</p>
-<h2 id="Chapter-10-Graphs"><a href="#Chapter-10-Graphs" class="headerlink" title="Chapter-10 Graphs"></a>Chapter-10 Graphs</h2><h3 id="Graphs-and-Graph-Models"><a href="#Graphs-and-Graph-Models" class="headerlink" title="Graphs and Graph Models"></a>Graphs and Graph Models</h3><div class="table-container">
+<h2 id="Chapter-10-Graphs"><a href="#Chapter-10-Graphs" class="headerlink" title="Chapter-10 Graphs"></a>Chapter-10 Graphs</h2><div class="table-container">
 <table>
 <thead>
 <tr>
@@ -277,12 +277,20 @@ D_n=n!(1-\frac{1}{1!}+\frac{1}{2!}-\frac{1}{3!}+\cdots+(-1)^n\frac{1}{n!})</scri
 <td>割点</td>
 <td>cut edge</td>
 <td>割边</td>
+<td>homeomorphic</td>
+<td>同态</td>
+</tr>
+<tr>
+<td>planar graph</td>
+<td>平面图</td>
+<td></td>
+<td></td>
 <td></td>
 </tr>
 </tbody>
 </table>
 </div>
-<p>A graph $G=(V,E)$ consists of $V$ ,a nonempty set of vertices (or nodes) and $E$ ,a set of edges. Each edge has either $1$ or $2$ vertices associated with it , called its endpoints.</p>
+<h3 id="Graphs-and-Graph-Models"><a href="#Graphs-and-Graph-Models" class="headerlink" title="Graphs and Graph Models"></a>Graphs and Graph Models</h3><p>A graph $G=(V,E)$ consists of $V$ ,a nonempty set of vertices (or nodes) and $E$ ,a set of edges. Each edge has either $1$ or $2$ vertices associated with it , called its endpoints.</p>
 <p>A digraph $(V, E)$ consists of a nonempty set of vertices $V$ and a set of directed edges $E$. Each directed edge is associated with an ordered pair of vertices. The directed edge $(u, v)$ is said to start at $u$ and end at $v$.</p>
 <div class="table-container">
 <table>
@@ -361,11 +369,23 @@ D_n=n!(1-\frac{1}{1!}+\frac{1}{2!}-\frac{1}{3!}+\cdots+(-1)^n\frac{1}{n!})</scri
 <p>A graph is k-connected (or k-vertex-connected), if $\kappa(G)\geq k$ </p>
 <p>The edge connectivity of a graph $G$ , denoted by $\lambda(G)$ is the minimum number of edges in an edge cut of $G$</p>
 <p>An inequality for vertex connectivity and edge connectivity $\kappa(G)\leq\lambda(G)\leq\min_{v\in V}\deg(v)$</p>
-<p>A directed graph is strongly connected if there is a path from $a$ to $b$ and from $b$ to $a$ whenever $a$ and $b$ are vertices in the graph.</p>
+<h3 id="Connectedness-in-Directed-Graphs"><a href="#Connectedness-in-Directed-Graphs" class="headerlink" title="Connectedness in Directed Graphs"></a>Connectedness in Directed Graphs</h3><p>A directed graph is strongly connected if there is a path from $a$ to $b$ and from $b$ to $a$ whenever $a$ and $b$ are vertices in the graph.</p>
 <p>A directed graph is weakly connected if there is a path between every two vertices in the underlying undirected graph.</p>
 <p>The strongly connected components of $G$ is the subgraphs that are strongly connected but not contained in larger strongly connected subgraphs.</p>
-<p>A Euler circuit in a graph $G$ is a simple circuit containing every edge of $G$ . An Euler path in $G$ is a simple path containing every edge of $G$</p>
-<p>A connected multigraph with at least two vertices has an Euler circuit if and only if each of its vertices has even degree</p>
+<h3 id="Euler-Paths-and-Circuits"><a href="#Euler-Paths-and-Circuits" class="headerlink" title="Euler Paths and Circuits"></a>Euler Paths and Circuits</h3><p>A Euler circuit in a graph $G$ is a simple circuit containing every edge of $G$ .<br>An Euler path in $G$ is a simple path containing every edge of $G$</p>
+<p>A connected multigraph with at least two vertices has an Euler circuit if and only if each of its vertices has even degree.</p>
+<p>A connected multigraph has an Euler path but not an Euler circuit if and only if it has exactly two vertices of odd degree.</p>
+<h3 id="Hamilton-Paths-and-Circuits"><a href="#Hamilton-Paths-and-Circuits" class="headerlink" title="Hamilton Paths and Circuits"></a>Hamilton Paths and Circuits</h3><p>A simple path in a graph $G$ that passes through every vertex exactly once is called a Hamilton path, and a simple circuit in a graph $G$ that passes through every vertex exactly once is called a Hamilton circuit.</p>
+<p>If $G$ is a simple graph with n vertices with $n\geq3$ such that the degree of every vertex in $G$ is at least $n/2$, then $G$ has a Hamilton circuit.</p>
+<p>If $G$ is a simple graph with $n$ vertices with $n \geq 3$ such that $\deg(u) + \deg(v) \geq n$ for every pair of nonadjacent vertices $u$ and $v$ in $G$, then $G$ has a Hamilton circuit.</p>
+<h3 id="Shortest-Path-Problems"><a href="#Shortest-Path-Problems" class="headerlink" title="Shortest-Path Problems"></a>Shortest-Path Problems</h3><p>Graphs that have a number assigned to each edge are called weighted graphs.</p>
+<h3 id="Planar-Graphs"><a href="#Planar-Graphs" class="headerlink" title="Planar Graphs"></a>Planar Graphs</h3><p>A graph is called planar if it can be drawn in the plane without any edges crossing.</p>
+<script type="math/tex; mode=display">
+2e=\sum_{\text{all region R}}\deg(R)\geq3r</script><p>If $G$ is a connected planar simple graph with $e$ edges and $v$ vertices, where $v\geq3$, then $e\leq 3v − 6$.</p>
+<p>If a connected planar simple graph has $e$ edges and $v$ vertices with $v\geq3$ and no circuits of length three, then $e\leq 2v − 4$.</p>
+<p>If $G$ is a connected planar simple graph, then $G$ has a vertex of degree not exceeding five.</p>
+<h3 id="Euler’s-Formula"><a href="#Euler’s-Formula" class="headerlink" title="Euler’s Formula"></a>Euler’s Formula</h3><p>Let $G$ be a connected planar simple graph with $e$ edges and $v$ vertices. Let $r$ be the number of regions in a planar representation of $G$. Then $r=e-v+2$</p>
+<h3 id="Kuratowski’s-Theorem"><a href="#Kuratowski’s-Theorem" class="headerlink" title="Kuratowski’s Theorem"></a>Kuratowski’s Theorem</h3><p>A graph is nonplanar iif it contains a subgraph homeomorphic to $K_{3,3}$ or $K_5$</p>
 ]]></content>
       <tags>
         <tag>课程笔记</tag>
