@@ -6,7 +6,7 @@
   <link href="https://reedrift.github.io/atom.xml" rel="self"/>
   
   <link href="https://reedrift.github.io/"/>
-  <updated>2025-05-19T06:48:36.639Z</updated>
+  <updated>2025-05-19T06:59:27.381Z</updated>
   <id>https://reedrift.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://reedrift.github.io/2025/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/"/>
     <id>https://reedrift.github.io/2025/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/</id>
     <published>2025-05-15T05:26:33.000Z</published>
-    <updated>2025-05-19T06:48:36.639Z</updated>
+    <updated>2025-05-19T06:59:27.381Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;Chapter-8-Counting&quot;&gt;&lt;a href=&quot;#Chapter-8-Counting&quot; class=&quot;headerlink&quot; title=&quot;Chapter-8 Counting&quot;&gt;&lt;/a&gt;Chapter-8 Counting&lt;/h2&gt;&lt;div class=&quot;table-container&quot;&gt;
@@ -117,10 +117,11 @@ C_n&amp;=C_0C_{n-1}+C_1C_{n-2}+&#92;cdots+C_{n-2}C_1+C_{n-1}C_0&#92;&#92;
     <link href="https://reedrift.github.io/2025/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E7%94%B2I/"/>
     <id>https://reedrift.github.io/2025/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E7%94%B2I/</id>
     <published>2025-04-28T15:00:19.000Z</published>
-    <updated>2025-05-19T01:53:24.830Z</updated>
+    <updated>2025-05-19T10:50:26.554Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;Chapter-1-质点运动学&quot;&gt;&lt;a href=&quot;#Chapter-1-质点运动学&quot; class=&quot;headerlink&quot; title=&quot;Chapter-1 质点运动学&quot;&gt;&lt;/a&gt;Chapter-1 质点运动学&lt;/h2&gt;&lt;p&gt;【注】与中学内容基本一致，略&lt;/p&gt;
+&lt;hr&gt;
 &lt;h2 id=&quot;Chapter-2-质点动力学&quot;&gt;&lt;a href=&quot;#Chapter-2-质点动力学&quot; class=&quot;headerlink&quot; title=&quot;Chapter-2 质点动力学&quot;&gt;&lt;/a&gt;Chapter-2 质点动力学&lt;/h2&gt;&lt;h3 id=&quot;碰撞&quot;&gt;&lt;a href=&quot;#碰撞&quot; class=&quot;headerlink&quot; title=&quot;碰撞&quot;&gt;&lt;/a&gt;碰撞&lt;/h3&gt;&lt;p&gt;对于一般碰撞，恢复系数 $&#92;begin{align}e=&#92;frac{v_2’-v_1’}{v_1-v_2}&#92;end{align}$ 与两球的质量和速度无关&lt;/p&gt;
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;
 &#92;begin{align}
