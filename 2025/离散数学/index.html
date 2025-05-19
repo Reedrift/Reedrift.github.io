@@ -289,7 +289,10 @@ G(x)=a_0+a_1x+\cdots+a_kx^k+\cdots=\sum_{k=0}^\infty a_kx^k</script><h3 id="The-
 &+\sum_{1\leq i<j<k\leq n}|A_i\cap A_j\cap A_k|-\cdots+(-1)^{n+1}|A_1\cap A_2\cap\cdots\cap A_n|
 \end{align}</script><h3 id="Derangement"><a href="#Derangement" class="headerlink" title="Derangement"></a>Derangement</h3><p>Counting the permutations of $n$ objects that leave no objects in their original positions, the number of derangements of a set with $n$ elements is </p>
 <script type="math/tex; mode=display">
-D_n=n!(1-\frac{1}{1!}+\frac{1}{2!}-\frac{1}{3!}+\cdots+(-1)^n\frac{1}{n!})</script><h2 id="Chapter-9-Relations"><a href="#Chapter-9-Relations" class="headerlink" title="Chapter-9 Relations"></a>Chapter-9 Relations</h2><div class="table-container">
+\begin{align}
+D_n&=n!(1-\frac{1}{1!}+\frac{1}{2!}-\frac{1}{3!}+\cdots+(-1)^n\frac{1}{n!})\\
+&=(n-1)(D_{n-1}+D_{n-2})
+\end{align}</script><h2 id="Chapter-9-Relations"><a href="#Chapter-9-Relations" class="headerlink" title="Chapter-9 Relations"></a>Chapter-9 Relations</h2><div class="table-container">
 <table>
 <thead>
 <tr>
@@ -344,29 +347,61 @@ D_n=n!(1-\frac{1}{1!}+\frac{1}{2!}-\frac{1}{3!}+\cdots+(-1)^n\frac{1}{n!})</scri
 </tbody>
 </table>
 </div>
-<p>A binary relation from $A$ to $B$ is a subset of $A\times B$<br>A relation on a set $A$ is a relation from $A$ to $A$ </p>
-<p><strong>Reflexive</strong> $\forall a\in A,(a,a)\in R$<br><strong>symmetric</strong> $\forall a,b\in A,(a,b)\in R\rightarrow (b,a)\in R$<br><strong>antisymmetric</strong> $\forall a,b\in A,((a,b)\in R\land (b,a)\in R)\rightarrow a=b$<br><strong>transitive</strong> $\forall a,b,c\in A,((a,b)\in R\land(b,c)\in R)\rightarrow (a,c)\in R$<br><strong>composite</strong> $(\exists b\in B((a,b)\in R\land(b,c)\in S))\rightarrow (a,c)\in S\circ R$</p>
+<h3 id="Relations-and-Properties"><a href="#Relations-and-Properties" class="headerlink" title="Relations and Properties"></a>Relations and Properties</h3><p>A binary relation from $A$ to $B$ is a subset of $A\times B$<br>A relation on a set $A$ is a relation from $A$ to $A$ </p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Requirement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>reflexive</td>
+<td>$\forall a\in A,(a,a)\in R$</td>
+</tr>
+<tr>
+<td>symmetric</td>
+<td>$\forall a,b\in A,(a,b)\in R\rightarrow (b,a)\in R$</td>
+</tr>
+<tr>
+<td>antisymmetric</td>
+<td>$\forall a,b\in A,((a,b)\in R\land (b,a)\in R)\rightarrow a=b$</td>
+</tr>
+<tr>
+<td>transitive</td>
+<td>$\forall a,b,c\in A,((a,b)\in R\land(b,c)\in R)\rightarrow (a,c)\in R$</td>
+</tr>
+<tr>
+<td>composite</td>
+<td>$(\exists b\in B((a,b)\in R\land(b,c)\in S))\rightarrow (a,c)\in S\circ R$</td>
+</tr>
+</tbody>
+</table>
+</div>
 <p>The relation $R$ on a set $A$ is transitive if and only if $R^n\subseteq R$ for $n=1,2,3\cdots$</p>
-<p>An n-ary relation is a subset of $A_1\times A_2\times\cdots\times A_n$<br>The sets $A_1,A_2,\cdots,A_n$ are called the domains of the relation<br>$n$ is called its degree<br>A domain is a primary key when no two n-tuples in the relation have the same value</p>
-<p>$R$ is symmetric if and only if $M_R=(M_R)^t$<br>$M_{R_1\cup R_2}=M_{R_1}\lor M_{R_2}$<br>$M_{R_1\cap R_2}=M_{R_1}\land M_{R_2}$<br>$M_{S\circ R}=M_R\odot M_S$ </p>
-<p>an edge of the form $(a,a)$ is called a loop</p>
-<p>the closure of $R$ with respect to $P$ is the relation $S$ on $A$ with property $P$ that contains $R$  and is a subset of every subset containing $R$ with property $P$</p>
+<h3 id="n-ary-Relations-and-Applications"><a href="#n-ary-Relations-and-Applications" class="headerlink" title="n-ary Relations and Applications"></a>n-ary Relations and Applications</h3><p>An n-ary relation is a subset of $A_1\times A_2\times\cdots\times A_n$<br>The sets $A_1,A_2,\cdots,A_n$ are called the domains of the relation, $n$ is called its degree<br>A domain is a primary key when no two n-tuples in the relation have the same value</p>
+<h3 id="Matrices-Relations"><a href="#Matrices-Relations" class="headerlink" title="Matrices-Relations"></a>Matrices-Relations</h3><p>$R$ is symmetric if and only if $M_R=(M_R)^t$<br>$\begin{cases}M_{R_1\cup R_2}=M_{R_1}\lor M_{R_2}\\M_{R_1\cap R_2}=M_{R_1}\land M_{R_2}\\M_{S\circ R}=M_R\odot M_S\end{cases}$ </p>
+<h3 id="Closures-of-Relations"><a href="#Closures-of-Relations" class="headerlink" title="Closures of Relations"></a>Closures of Relations</h3><p>the closure of $R$ with respect to $P$ is the relation $S$ on $A$ with property $P$ that contains $R$  and is a subset of every subset containing $R$ with property $P$</p>
 <p>There is a path of length $n$ from $a$ to $b$ if and only if $(a,b)\in R^n$</p>
 <p>The connectivity relation $R^\ast$ consists of the pairs $(a,b)$ such that there is a path of length at least one from $a$ to $b$ in $R$ , $\begin{align}R^\ast=\bigcup_{n=1}^\infty R^n\end{align}$</p>
 <p>$M_{R^\ast}=M_R\lor M_R^{[2]}\lor M_R^{[3]}\lor\cdots\lor M_R^{[n]}$</p>
-<p>$W_k=[w_{ij}^{[k]}],\quad w_{ij}^{[k]}=w_{ij}^{[k-1]}\lor(w_{ik}^{[k-1]}\land w_{kj}^{[k-1]})$</p>
-<p>Equivalence relation is reflexive, symmetric and transitive</p>
+<h3 id="Warshall’s-Algorithm"><a href="#Warshall’s-Algorithm" class="headerlink" title="Warshall’s Algorithm"></a>Warshall’s Algorithm</h3><p>$W_k=[w_{ij}^{[k]}],\quad w_{ij}^{[k]}=w_{ij}^{[k-1]}\lor(w_{ik}^{[k-1]}\land w_{kj}^{[k-1]})$</p>
+<h3 id="Equivalence-Relations"><a href="#Equivalence-Relations" class="headerlink" title="Equivalence Relations"></a>Equivalence Relations</h3><p>Equivalence relation is <strong>reflexive, symmetric and transitive</strong>.</p>
 <p>Two elements $a$ and $b$ that are related by an equivalence relation are called equivalent. $a\sim b$ denote that $a$ and $b$ are equivalent elements with respect to a particular equivalence relation</p>
-<p>Let $R$ be a equivalence relation on a set $A$ . The set of all elements that are related to an element $a$ of $A$ is called the equivalence class of $a$<br>$[a]_R=\{s|(a,s)\in R\}$<br>If $b\in[a]_R$ , then $b$ is called a representative of this equivalence class</p>
+<h3 id="Equivalence-Classes"><a href="#Equivalence-Classes" class="headerlink" title="Equivalence Classes"></a>Equivalence Classes</h3><p>Let $R$ be a equivalence relation on a set $A$ . The set of all elements that are related to an element $a$ of $A$ is called the equivalence class of $a$</p>
+<script type="math/tex; mode=display">
+[a]_R=\{s|(a,s)\in R\}</script><p>If $b\in[a]_R$ , then $b$ is called a representative of this equivalence class</p>
 <p>Let $R$ be an equivalence relation on a set $A$. these statements for elements $a$ and $b$ of $A$ are equivalent: $aRb,\quad [a]=[b],\quad [a]\cap[b]\neq\emptyset$ </p>
 <p>Let $R$ be an equivalence relation on a set $S$ , Then the equivalence classes of $R$ form a partition of $S$ . Conversely , given a partition $\{A)i|i\in I\}$ of the set $S$ , there is an equivalence relation $R$ that has the sets $A_i,i\in I$ as its equivalence classes.</p>
-<p>A relation $R$ on $S$ is called a partial ordering if it is reflexive, antisymmetric and transitive. A set $S$ together with a partial ordering $R$ is called a partially ordered set, and is denoted by $(S,R)$ . Members of $S$ are called elements of the poset. </p>
-<p>The elements $a$ and $b$ of a poset $(S,\preceq)$ are called comparable if either $a\preceq b$ or $b\preceq a$ . When $a$ and $b$ are elements of $S$ such that neither $a\preceq b$ nor $b\preceq a$ , $a$ and $b$ are called incomparable.</p>
+<h3 id="Partial-Orderings"><a href="#Partial-Orderings" class="headerlink" title="Partial Orderings"></a>Partial Orderings</h3><p>A relation $R$ on $S$ is called a <strong>partial ordering</strong> if it is <strong>reflexive, antisymmetric and transitive</strong>. A set $S$ together with a partial ordering $R$ is called a partially ordered set, and is denoted by $(S,R)$ . Members of $S$ are called elements of the poset. </p>
+<p>The elements $a$ and $b$ of a poset $(S,\preceq)$ are called <strong>comparable</strong> if either $a\preceq b$ or $b\preceq a$ . When $a$ and $b$ are elements of $S$ such that neither $a\preceq b$ nor $b\preceq a$ , $a$ and $b$ are called incomparable.</p>
 <p>If $(S,\preceq)$ is a poset and every two elements of $S$ are comparable , $S$ is called a totally ordered or linearly ordered set, and $\preceq$ is called a total order or a linear order. A totally ordered set is also called a chain.</p>
 <p>$(S,\preceq)$ is a well-ordered set if it is a poset such that $\preceq$ is a total ordering and every nonempty subset of $S$ has a least element.</p>
 <p>Suppose that $S$ is a well-ordered set. Then $P(x)$ is true for all $x\in S$<br>For every $y\in S$, if $P(x)$ is true for all $x\in S$ with $x\prec y$ , then $P(y)$ is true</p>
-<p>An element of a poset is called maximal if it is not less than any element of the poset<br>An element of a poset is called minimal if it is not greater than any element of the poset</p>
-<p>greatest element is an element in a poset that is greater than every other element<br>least element is an element in a poset that is less than every other element</p>
+<p>An element of is called <strong>maximal</strong> if it is not <strong>less</strong> than any element of the poset<br>An element of is called <strong>minimal</strong> if it is not <strong>greater</strong> than any element of the poset</p>
+<p><strong>greatest element</strong> is an element in a poset that is <strong>greater</strong> than every other element<br><strong>least element</strong> is an element in a poset that is <strong>less</strong> than every other element</p>
 <p>upper bound /lower bound /least upper bound /greatest lower bound</p>
 <p>A partially ordered set in which every pair of elements has both a least upper bound and a greatest lower bound is called a lattice</p>
 <p>Every finite nonempty poset $(S,\preceq)$ has at least one minimal element</p>
@@ -477,28 +512,29 @@ D_n=n!(1-\frac{1}{1!}+\frac{1}{2!}-\frac{1}{3!}+\cdots+(-1)^n\frac{1}{n!})</scri
 </tbody>
 </table>
 </div>
-<p>The set of all neighbors of a vertex $v$ of $G=(V,E)$ , denoted by $N(v)$ , is called the neighborhood of $v$ . If $A$ is a subset of $V$ , we denote by $N(A)$ the set of all vertices in $G$ that are adjacent to at least one vertex in $A$ , $N(A)=\bigcup_{c\in A}N(v)$</p>
+<h3 id="Graph-Terminology"><a href="#Graph-Terminology" class="headerlink" title="Graph Terminology"></a>Graph Terminology</h3><p>The set of all neighbors of a vertex $v$ of $G=(V,E)$ , denoted by $N(v)$ , is called the neighborhood of $v$ . If $A$ is a subset of $V$ , we denote by $N(A)$ the set of all vertices in $G$ that are adjacent to at least one vertex in $A$ , $N(A)=\bigcup_{c\in A}N(v)$</p>
 <p>The degree of a vertex in an undirected graph is the number of edges incident with it, except that a loop at a vertex contributes twice to the degree of that vertex. The degree of the vertex v is denoted by $\deg(v)$</p>
-<p>Let $G=(V,E)$ be an undirected graph with $m$ edges, then</p>
+<h3 id="Graph-Properties"><a href="#Graph-Properties" class="headerlink" title="Graph Properties"></a>Graph Properties</h3><p>Let $G=(V,E)$ be an undirected graph with $m$ edges, then</p>
 <script type="math/tex; mode=display">
 2m=\sum_{v\in V}\deg(v)</script><p>An undirected graph has an even number of vertices of odd degree.</p>
 <p>In a graph with directed edges the in-degree of a vertex $v$, denoted by $\deg^−(v)$, is the number of edges with $v$ as their terminal vertex. The out-degree of $v$, denoted by $deg^+(v)$, is the number of edges with $v$ as their initial vertex.</p>
 <p>Let $G=(V,E)$ be a graph with directed edges, then</p>
 <script type="math/tex; mode=display">
-\sum_{v\in V}\deg^-(v)=\sum_{v\in V}\deg^+(v)=|E|</script><h3 id="Bipartite-Graphs"><a href="#Bipartite-Graphs" class="headerlink" title="Bipartite Graphs"></a>Bipartite Graphs</h3><p>A simple graph $G$ is called bipartite if its vertex set $V$ can be partitioned into two disjoint set $V_1$ and $V_2$ such that every edge in the graph connects a vertex in $V_1$ and a vertex in $V_2$ , the pair $(V_1,V_2)$ is a bipartition of the vertex set $V$ of $G$ </p>
+\sum_{v\in V}\deg^-(v)=\sum_{v\in V}\deg^+(v)=|E|</script><p>$K$-Complete   $C$-Cycle   $W$-Wheels   $Q$-Cube</p>
+<h3 id="Bipartite-Graphs-and-Matchings"><a href="#Bipartite-Graphs-and-Matchings" class="headerlink" title="Bipartite Graphs and Matchings"></a>Bipartite Graphs and Matchings</h3><p>A simple graph $G$ is called bipartite if its vertex set $V$ can be partitioned into two disjoint set $V_1$ and $V_2$ such that every edge in the graph connects a vertex in $V_1$ and a vertex in $V_2$ , the pair $(V_1,V_2)$ is a bipartition of the vertex set $V$ of $G$ </p>
 <p>A simple graph is bipartite if and only if it is possible to assign one of two different colors to each vertex of the graph so that no two adjacent vertices are assigned the same color.</p>
 <p>A matching $M$ in a simple graph $G=(V,E)$ is a subset of the set $E$ of edges of the graph such that no two edges are incident with the same vertex.</p>
 <p>A matching $M$ in a bipartite graph $G=(V,E)$ with bipartition $(V_1,V_2)$ is a complete matching from $V_1$ to $V_2$ if every vertex in $V_1$ is the endpoint of an edge in the matching, equivalently $|M|=|V_1|$</p>
-<p>The bipartite graph $G=(V,E)$ with bipartition $(V_1,V_2)$ has complete matching from $V_1$ to $V_2$ if and only if $|N(A)|\geq|A|$ for all subsets $A$ of $V_1$</p>
-<p>A subgraph of a graph $G=(V,E)$ is a graph $H=(W,F)$ ,where $W\subseteq V$ and $F\subseteq E$<br>A subgraph $H$ of $G$ is a proper subgraph of $G$ if $H\neq G$</p>
+<h3 id="Hall’s-Marriage-Theorem"><a href="#Hall’s-Marriage-Theorem" class="headerlink" title="Hall’s Marriage Theorem"></a>Hall’s Marriage Theorem</h3><p>The bipartite graph $G=(V,E)$ with bipartition $(V_1,V_2)$ has complete matching from $V_1$ to $V_2$ if and only if $|N(A)|\geq|A|$ for all subsets $A$ of $V_1$</p>
+<h3 id="Subgraphs"><a href="#Subgraphs" class="headerlink" title="Subgraphs"></a>Subgraphs</h3><p>A subgraph of a graph $G=(V,E)$ is a graph $H=(W,F)$ ,where $W\subseteq V$ and $F\subseteq E$<br>A subgraph $H$ of $G$ is a proper subgraph of $G$ if $H\neq G$</p>
 <p>Let $G=(V,E)$ be a simple graph, the subgraph induce by a subset $W$ of the vertex set $V$ is the graph $(W,F)$ , where the edges set $F$ contains an edge in $E$ if and only if both endpoints of this edge are in $W$ </p>
 <h3 id="Graph-Isomorphism"><a href="#Graph-Isomorphism" class="headerlink" title="Graph Isomorphism"></a>Graph Isomorphism</h3><p>The simple graphs $G_1=(V_1,E_1)$ and $G_2=(V_2,E_2)$ are isomorphic if there exists a one-to-one and onto function $f$ from $V_1$ to $V_2$ with the property that $a$ and $b$ are adjacent in $G_1$ if and only if $f(a)$ and $f(b)$ are adjacent in $G_2$ ,for all $a$ and $b$ in $V_1$ </p>
 <h3 id="Connectivity"><a href="#Connectivity" class="headerlink" title="Connectivity"></a>Connectivity</h3><p>A path is a sequence of edges that begins at a vertex of a graph and travels from vertex to vertex along edges of the graph.</p>
 <p>A path or circuit is simple if it does not contain the same edge more than once.</p>
 <p>An undirected graph is called connected if there is a path between every pair of distinct vertices of the graph. We say that we disconnect a graph when we remove vertices or edges, or both, to produce a disconnected subgraph.</p>
 <p>There is a simple path between every pair of distinct vertices of a connected undirected graph.</p>
-<p>A connected component of a graph G is a connected subgraph of G that is not a proper subgraph of another connected subgraph of G.</p>
-<p>Sometimes the removal from a graph of a vertex and all incident edges produces a subgraph with more connected components. Such vertices are called cut vertices(or articulation points).</p>
+<p>A connected component of a graph $G$ is a connected subgraph of G that is not a proper subgraph of another connected subgraph of $G$.</p>
+<h3 id="Cut-Vertices"><a href="#Cut-Vertices" class="headerlink" title="Cut Vertices"></a>Cut Vertices</h3><p>Sometimes the removal from a graph of a vertex and all incident edges produces a subgraph with more connected components. Such vertices are called cut vertices(or articulation points).</p>
 <p>Connected graphs without cut vertices are called nonseparable graphs</p>
 <p>The vertex connectivity of a noncomplete graph $G$ , denoted by $\kappa(G)$ the minimum number of vertices that can be removed to disconnect a graph.</p>
 <p>A graph is k-connected (or k-vertex-connected), if $\kappa(G)\geq k$ </p>

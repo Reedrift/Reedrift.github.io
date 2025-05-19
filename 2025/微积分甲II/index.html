@@ -526,7 +526,7 @@ Q(x(t),y(t),z(t))y'(t)+\\
 <h3 id="狄利克雷定理"><a href="#狄利克雷定理" class="headerlink" title="狄利克雷定理"></a>狄利克雷定理</h3><p>如果 $f(x)$ 是以 $T=2l$ 为周期的周期函数，且 $f(x)$ 在 $[-l,l]$ 上逐段光滑，那么 $f(x)$ 的傅里叶级数在任意点 $x$ 处都收敛，并且收敛于 $f(x)$ 在该点左右极限的平均值，即</p>
 <script type="math/tex; mode=display">\begin{aligned}\frac{a_0}{2}+\sum_{n=1}^\infty(a_n\cos\frac{n\pi x}{l}+b_n\sin\frac{n\pi x}{l})&=S(x)\\&=\frac{f(x-0)+f(x+0)}{2},x\in(-\infty,+\infty)\end{aligned}</script><script type="math/tex; mode=display">\begin{aligned}S(x)=\begin{cases}f(x)&当 x 是 f(x) 的连续点时;\\\begin{aligned}\frac{f(x-0)+f(x+0)}{2}\end{aligned}&当 x 是 f(x) 的第一类间断点时;\\\begin{aligned}\frac{f(-l+0)+f(l-0)}{2}\end{aligned}&当 x=\pm l\end{cases}\end{aligned}</script><p>对函数作周期延拓补充为一个周期函数</p>
 <h3 id="对函数延拓"><a href="#对函数延拓" class="headerlink" title="对函数延拓"></a>对函数延拓</h3><ul>
-<li>奇延拓 $F(x)=\begin{cases}f(x),&amp;x\in(0,l]\\0,&amp;x=0\-f(-x),&amp;x\in[-l,0)\end{cases}$</li>
+<li>奇延拓 $F(x)=\begin{cases}f(x),&amp;x\in(0,l]\\0,&amp;x=0\\{-f(-x)},&amp;x\in[-l,0)\end{cases}$</li>
 <li>偶延拓 $F(x)=\begin{cases}f(x),&amp;x\in[0,l]\\f(-x),&amp;x\in[-l,0)\end{cases}$</li>
 </ul>
  
