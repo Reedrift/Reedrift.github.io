@@ -780,7 +780,7 @@ x_n'&=p_{n1}(t)x_1+p_{n2}(t)x_2+\cdots+p_{nn}(t)x_n+f_n(t)
 <h3 id="偏导数"><a href="#偏导数" class="headerlink" title="偏导数"></a>偏导数</h3><p>设函数 $z=f(x,y)$ 在点 $P_0(x_0,y_0)$ 的某邻域内有定义，若极限 </p>
 <script type="math/tex; mode=display">
 \begin{aligned}\lim_{\Delta x\rightarrow 0}\frac{\Delta_x z}{\Delta x}=\lim_{\Delta x\rightarrow 0}\frac{f(x_0+\Delta x,y_0)-f(x_0,y_0)}{\Delta x}=\lim_{x\rightarrow x_0}\frac{f(x,y_0)-f(x_0,y_0)}{x-x_0}\end{aligned}</script><p>存在，则称该极限为函数 $z=f(x,y)$ 在 $P_0(x_0,y_0)$ 处关于 $x$ 的偏导数，记为</p>
-<script type="math/tex; mode=display">\begin{aligned}f'_x(x_0,y_0)=\frac{d}{dx}f(x,y)\quad或\quad\frac{\partial z}{\partial x}\Big{|}_{\begin{aligned}x=x_0\\y=y_0\end{aligned}}\quad或\quad z'_x\Big{|}_{\begin{aligned}x=x_0\\y=y_0\end{aligned}}\quad或\quad\frac{\partial}{\partial x}f(x,y)\Big{|}_{\begin{aligned}x=x_0\\y=y_0\end{aligned}}\end{aligned}</script><p>求解 $f’_x(x_0,y_0)$ 有三种方法：定义、求偏导再带入、带入已知量再求导</p>
+<script type="math/tex; mode=display">\begin{aligned}f'_x(x_0,y_0)=\frac{d}{dx}f(x_0,y_0)\quad或\quad\frac{\partial z}{\partial x}\Big{|}_{\begin{aligned}x=x_0\\y=y_0\end{aligned}}\quad或\quad z'_x\Big{|}_{\begin{aligned}x=x_0\\y=y_0\end{aligned}}\quad或\quad\frac{\partial}{\partial x}f(x,y)\Big{|}_{\begin{aligned}x=x_0\\y=y_0\end{aligned}}\end{aligned}</script><p>求解 $f’_x(x_0,y_0)$ 有三种方法：定义、求偏导再带入、带入已知量再求导</p>
 <p>若函数 $z=f(x,y)$ 的二阶偏导数 $f’’_{xy}(x,y),f’’_{yx}(x,y)$ 都在点 $P_0(x_0,y_0)$ 处连续，则二者相等<br>对在一点存在直到 $m$ 阶连续偏导数的 $n$ 元函数，在该点的 $k(\leq m)$ 阶混合偏导数与求偏导数的顺序无关</p>
 <h3 id="全微分"><a href="#全微分" class="headerlink" title="全微分"></a>全微分</h3><p>若二元函数 $z=f(x,y)$ 在点 $(x,y)$ 处的全增量 $\Delta z=f(x+\Delta x,y+\Delta y)-f(x,y)$ 可以表示为 $\Delta z=A\Delta x+B\Delta y+o(\rho)(\rho=\sqrt{(\Delta x)^2+(\Delta y)^2}\rightarrow 0)$ 其中 $A,B$ 与变量 $x,y$ 的增量 $\Delta x,\Delta y$ 无关，而仅与 $x,y$ 有关，则称函数 $f(x,y)$ 在点 $(x,y)$ 处可微，其中 $A\Delta x+B\Delta y$ 称为函数 $f(x,y)$ 在点 $(x,y)$ 处的全微分，记作 $\mathrm{d}z$ ，即 $\mathrm{d}z=A\Delta x+B\Delta y$</p>
 <p>若 $z=f(x,y)$ 在点 $(x,y)$ 处可微，则 $f(x,y)$ 在点 $(x,y)$ 处连续，由 $z=f(x,y)$ 在点 $(x,y)$ 处可微，有 $\Delta z=A\Delta x+B\Delta y+o(\rho)(\rho\rightarrow 0)$ 其中 $A,B$ 是与 $\Delta x,\Delta y$ 无关的常数， $\begin{aligned}\lim_{\begin{aligned}\Delta x\rightarrow 0\\\Delta y\rightarrow 0\end{aligned}}\Delta z=\lim_{\begin{aligned}\Delta x\rightarrow 0\\\Delta y\rightarrow 0\end{aligned}}(A\Delta x+B\Delta y+o(\rho))=0\end{aligned}$ 所以 $z=f(x,y)$ 在点 $(x,y)$ 处连续</p>
@@ -1673,7 +1673,53 @@ E=\frac{dN}{dS}</script><p>则电场线满足一下三条重要性质</p>
 \Phi_e=\oint_sE\cos\theta dS=\oint E\cdot dS</script><p>如果通过闭合曲面的电通量为零，并不意味着一定没有电场线通过该曲面，更非曲面上的场强处处为零</p>
 <h3 id="高斯定理"><a href="#高斯定理" class="headerlink" title="高斯定理"></a>高斯定理</h3><p>通过任意闭合曲面的电通量等于该曲面所包围的所有电量的代数和除以 $\varepsilon_0$</p>
 <script type="math/tex; mode=display">
-\Phi_e=\oint_sE\cdot dS=\frac{1}{\varepsilon_0}\sum_iq_i</script>]]></content>
+\Phi_e=\oint_sE\cdot dS=\frac{1}{\varepsilon_0}\sum_iq_i</script><ul>
+<li>高斯定理说明了静电场是有源场，如果某处有电场线穿过而不中断，则通过该处闭合面的通量为零，说明此处无电荷</li>
+<li>高斯定理是从库仑定律和叠加原理推导出来的，对随时间变化的电场也成立</li>
+</ul>
+<p>球对称分布的电荷在球外产生的电场，与将全部电荷集中在球心时的场强分布相同<br>均匀带电圆柱面外的电场，与将圆柱面上的电量集中在其中心轴线上的电场等效<br>无限大均匀带电平面的电场是匀强电场</p>
+<h3 id="静电场力的功"><a href="#静电场力的功" class="headerlink" title="静电场力的功"></a>静电场力的功</h3><p>当试验电荷在静止点电荷电场中移动时，电场力所做的功仅与试验电荷电量的大小及其起点和终点的位置有关，而与电荷移动的路径无关</p>
+<script type="math/tex; mode=display">
+\begin{align}
+A_{ab}&=\int_a^bq_0E\cdot dl=q_0\int_a^b(E_1+E_2+\cdots+E_n)\cdot dl\\
+&=A_{1ab}+A_{2ab}+\cdots+A_{nab}=\sum_{i=1}^n
+\frac{q_0q_i}{4\pi\varepsilon_0}(\frac{1}{r_{ia}}-\frac{1}{r_{ib}})
+\end{align}</script><p>静电场力是保守力，静电场是保守场</p>
+<h3 id="静电场的环路定理"><a href="#静电场的环路定理" class="headerlink" title="静电场的环路定理"></a>静电场的环路定理</h3><p>在静电场中，电场强度沿任意闭合回路的线积分恒等于零</p>
+<script type="math/tex; mode=display">
+\oint_LE\cdot dl=0</script><p>等式的左侧积分称为静电场的环流</p>
+<h3 id="电势能"><a href="#电势能" class="headerlink" title="电势能"></a>电势能</h3><p>取离场源电荷无限远处电势能为零，则试验电荷 $q_0$ 在电场中任一点 $P$ 处的电势能为</p>
+<script type="math/tex; mode=display">
+W_P=A_{P\infty}=\int^{\infty}_P q_0E\cdot dl</script><p>试验电荷 $q_0$ 在电场中 $P$ 电的电势能 $W_P$ 在数值上等于将 $q_0$ 从 $P$ 点移至无限远处电场力所做的功</p>
+<h3 id="电势"><a href="#电势" class="headerlink" title="电势"></a>电势</h3><p>电势仅与进电场中给定点的位置有关，与电荷 $q_0$ 无关</p>
+<script type="math/tex; mode=display">
+U_P=\frac{W_P}{q_0}=\int^{\infty}_PE\cdot dl</script><p>静电场中某点的电势在数值上等于单位正电荷在该处所具有的电势能，也等于单位正电荷从该点经过任意路径迁移到无限远处电场力对它所作的功</p>
+<script type="math/tex; mode=display">
+U_{ab}=U_a-U_b=\int_a^\infty E\cdot dl=\int_b^\infty E\cdot dl
+=\int_a^bE\cdot dl</script><p>静电场中 $a,b$ 两点的电势差，在数值上等于将单位正电荷从电场中 $a$ 点移到 $b$ 点时电场力所做的功</p>
+<h3 id="电势叠加原理"><a href="#电势叠加原理" class="headerlink" title="电势叠加原理"></a>电势叠加原理</h3><p>点电荷电场中的电势</p>
+<script type="math/tex; mode=display">
+U_P=\int^{\infty}_PE\cdot dl
+=\int^{\infty}_r\frac{q}{4\pi\varepsilon_0r^2}dr=\frac{q}{4\pi\varepsilon_0r}=\frac{kq}{r}</script><p>点电荷系电场中的电势</p>
+<script type="math/tex; mode=display">
+\begin{align}
+U_P&=\int^{\infty}_P E\cdot dl
+=\int^{\infty}_P(E_1+E_2+\cdots+E_n)\cdot dl\\
+&=U_{P1}+U_{P2}+\cdots+U_{Pn}\\
+&=\sum_{i=1}^nU_{Pi}=\sum_{i=1}^n\frac{q_i}{4\pi\varepsilon_0 r_i}
+\end{align}</script><p>在点电荷系电场中某点的电势，等于每个点电荷单独存在时在该点所产生的电势的代数和，称为静电场中的电势叠加原理</p>
+<h3 id="等势面"><a href="#等势面" class="headerlink" title="等势面"></a>等势面</h3><p>在静电场中，一般来说电势值是逐点变化的，但总存在许多电势值相等的点，这些点可以连成曲面，称这些曲面为等势面，等势面和电场线有以下关系</p>
+<ul>
+<li>等势面与电场线处处正交</li>
+<li>等势面密的地方场强大，稀疏的地方场强小<h3 id="电势梯度"><a href="#电势梯度" class="headerlink" title="电势梯度"></a>电势梯度</h3></li>
+</ul>
+<p>电场中某点场强在任一方向上的分量等于电势在此方向上变化率的负值，符号表示场强方向指向电势降低的方向</p>
+<script type="math/tex; mode=display">
+E_l=-\frac{dU}{dl}</script><p>设 $n$ 为法线方向，定义一个矢量大小等于 $\begin{align}\frac{dU}{dn}\end{align}$ 方向指向电势升高的方向，这个矢量称为电势梯度，用 $\nabla U$ 或 $\text{grad} U$ 表示 </p>
+<script type="math/tex; mode=display">
+\nabla U=\frac{dU}{dn}e_n,\quad E=-\frac{dU}{dn}e_n=-\nabla U=-\text{grad} U</script><p>在电场中任一点的电场强度矢量，等于该点电势梯度矢量的负值，符号表示场强与电势梯度方向相反，正交分解可得</p>
+<script type="math/tex; mode=display">
+E=-(\frac{\partial U}{\partial x}i+\frac{\partial U}{\partial y}j+\frac{\partial U}{\partial z}k)</script>]]></content>
       <tags>
         <tag>课程笔记</tag>
       </tags>
