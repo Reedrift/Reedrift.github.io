@@ -1,6 +1,162 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>关于博主</title>
+    <url>/2025/%E5%85%B3%E4%BA%8E%E5%8D%9A%E4%B8%BB/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><ul>
+<li>试图记录大学生活，并活得更多姿多彩的理想主义者</li>
+<li>热爱 JPOP ，喜欢听纯音乐并在咕小提琴的音乐爱好者</li>
+<li>试图让自己变得更加容易接近的小 i 人</li>
+<li>在某些场合下可能表现得有些自恋的帅锅 qwq</li>
+<li>在高中语文老师的启发下正在看书脱离文盲状态<span id="more"></span>
+</li>
+</ul>
+<p><img src="/pictures/个人照片.jpg" alt="你浙什么时候改善宿舍环境" style="display: block; margin: 0 auto; width: 30%;"><br>其它的暂时懒得写了qwq，咕咕咕</p>
+]]></content>
+      <tags>
+        <tag>个人资料</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>微积分甲I</title>
+    <url>/2025/%E5%BE%AE%E7%A7%AF%E5%88%86%E7%94%B2I/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="Chapter-1-数列极限"><a href="#Chapter-1-数列极限" class="headerlink" title="Chapter-1 数列极限"></a>Chapter-1 数列极限</h3><h4 id="数列极限定义"><a href="#数列极限定义" class="headerlink" title="数列极限定义"></a>数列极限定义</h4><p>设 $\{a_n\}$ 是 $\mathrm{R}$ 中的一个数列，如果存在 $a\in\mathrm{R}$ 使得 $\forall \varepsilon&gt;0,\exists N\in\mathrm{N_+}$ ，当 $n\geq N$ 时，都有 $|a_n-a|&lt;\varepsilon$ ，就称数列 $\{a_n\}$ 是收敛于 $a$ 的，记为 $\begin{aligned}\lim_{n\rightarrow\infty}a_n=a\end{aligned}$ ,称 $a$ 是数列 $\{a_n\}$ 的极限<br><span id="more"></span></p>
+<h4 id="数列极限性质"><a href="#数列极限性质" class="headerlink" title="数列极限性质"></a>数列极限性质</h4><p><strong>唯一性</strong>  如果数列 $\{a_n\}$ 收敛，那么其极限是唯一的</p>
+<p><strong>有界性</strong>  如果数列 $\{a_n\}$ 收敛，那么 $\{a_n\}$ 是有界的，即 $\exists M&gt;0,\forall n\in\mathrm{N_+},|a_n|\leq M$</p>
+<p><strong>保号性</strong>  如果 $\begin{aligned}\lim_{n\rightarrow\infty}a_n=a&gt;0\end{aligned}$ 那么 $\forall p\in(0,a),\exists N&gt;0$ 当 $n\geq N$ 时 $a_n&gt;p&gt;0$</p>
+<h4 id="夹逼定理"><a href="#夹逼定理" class="headerlink" title="夹逼定理"></a>夹逼定理</h4><p>设数列 $\{a_n\},\{b_n\},\{c_n\}$ 满足当 $n\geq N_0\in\mathrm{N}_+$ 时，有 $b_n\leq a_n\leq c_n$ 并且 $\begin{aligned}\lim_{n\rightarrow\infty}b_n=\lim_{n\rightarrow\infty}c_n=a\end{aligned}$ ，则数列 $\{a_n\}$ 也是收敛的，且 $\begin{aligned}\lim_{n\rightarrow\infty}a_n=a\end{aligned}$</p>
+<h4 id="波尔查诺-魏尔斯特拉斯定理"><a href="#波尔查诺-魏尔斯特拉斯定理" class="headerlink" title="波尔查诺-魏尔斯特拉斯定理"></a>波尔查诺-魏尔斯特拉斯定理</h4><p>设 $\{a_n\}$ 是 $\mathrm{R}$ 中的一个有界数列，则数列 $\{a_n\}$ 中存在收敛的子列</p>
+<h4 id="柯西准则"><a href="#柯西准则" class="headerlink" title="柯西准则"></a>柯西准则</h4><p>设 $a_n$ 是 $\mathrm{R}$ 中的一个数列，若对于任意 $\varepsilon&gt;0$ ，存在正整数 $N$ ，当 $m,n\geq N$ 时， $|a_m-a_n|&lt;\varepsilon$ 则称 $\{a_n\}$ 是柯西数列，$\{a_n\}$ 收敛当且仅当 $\{a_n\}$ 是柯西数列</p>
+<h4 id="施托尔茨第一公式"><a href="#施托尔茨第一公式" class="headerlink" title="施托尔茨第一公式"></a>施托尔茨第一公式</h4><p>给定数列 $\{x_n\},\{y_n\}$ ，若 $\{x_n\}$ 单调增加，且 $\begin{aligned}\lim_{x\rightarrow+\infty}x_n=+\infty\end{aligned}$ ,</p>
+<p>若 $\begin{aligned}\lim_{n\rightarrow+\infty}\frac{y_n-y_{n-1}}{x_n-x_{n-1}}=a\end{aligned}$ ，那么有 $\begin{aligned}\lim_{n\rightarrow+\infty}\frac{y_n}{x_n}=a\end{aligned}$ ，其中 $a$ 可以是实数也可以是 $\pm\infty$</p>
+<h4 id="施托尔茨第二公式"><a href="#施托尔茨第二公式" class="headerlink" title="施托尔茨第二公式"></a>施托尔茨第二公式</h4><p>给定数列 $\{x_n\},\{y_n\}$ ，若$\{x_n\}$ 单调减少，且 $\begin{aligned}\lim_{n\rightarrow+\infty}x_n=\lim_{n\rightarrow+\infty}y_n=0\end{aligned}$ ，</p>
+<p>若$\begin{aligned}\lim_{n\rightarrow+\infty}\frac{y_n-y_{n-1}}{x_n-x_{n-1}}=a\end{aligned}$ ，那么有 $\begin{aligned}\lim_{n\rightarrow+\infty}\frac{y_n}{x_n}=a\end{aligned}$ ，其中 $a$ 可以是实数也可以是 $\pm\infty$</p>
+<hr>
+<h3 id="Chapter-2-函数的极限与连续性"><a href="#Chapter-2-函数的极限与连续性" class="headerlink" title="Chapter-2 函数的极限与连续性"></a>Chapter-2 函数的极限与连续性</h3><h4 id="函数极限"><a href="#函数极限" class="headerlink" title="函数极限"></a>函数极限</h4><p>设 $f:D\rightarrow\mathrm{R}$ ，$D$ 是 $\mathrm{R}$ 的子集并且包含 $x_0$ 的某去心邻域，如果存在 $A\in\mathrm{R}$ ，使得对于任意的 $\varepsilon&gt;0,\exists \delta&gt;0$ ，当 $x\in \mathring{U}(x_0,\delta)\cap D$ 时，有 $|f(x)-A|&lt;\varepsilon$ ，就称 $x$ 趋于 $x_0$ 时，$f(x)$ 趋于 $A$ ，记为 $\begin{aligned}\lim_{x\rightarrow x_0}f(x)=A\end{aligned}$</p>
+<h4 id="归结原理"><a href="#归结原理" class="headerlink" title="归结原理"></a>归结原理</h4><p>设 $f:D\subset\mathrm{R}\rightarrow\mathrm{R},\exists\mathring{U}(x_0)\subset D$ ，则 $\begin{aligned}\lim_{x\rightarrow x_0}f(x)=A\end{aligned}$ 的充要条件为：对于任意满足 $\begin{aligned}\lim_{n\rightarrow\infty}x_n=x_0,x_n\neq x_0,n=1,2,3,\cdots\end{aligned}$ 的数列 $\{x_n\}$ ，其对应的函数值数列 $\{f(x_n)\}$ 均有 $\begin{aligned}\lim_{n\rightarrow\infty}f(x_n)=A\end{aligned}$</p>
+<h4 id="函数极限性质"><a href="#函数极限性质" class="headerlink" title="函数极限性质"></a>函数极限性质</h4><p><strong>唯一性</strong> 若函数在某点有极限，则极限是唯一的</p>
+<p><strong>局部有界性</strong> 设 $\begin{aligned}f:D\subset\mathrm{R}\rightarrow\mathrm{R},\lim_{x\rightarrow x_0}f(x)\end{aligned}$ 存在，则 $f(x)$ 在 $x_0$ 的某去心邻域内有界，即 $\exists M&gt;0,\delta&gt;0$ 当 $0&lt;|x-x_0|&lt;\delta$ 时， $|f(x)|&lt;M$</p>
+<p><strong>局部保号性</strong> 如果 $\begin{aligned}\lim_{x\rightarrow x_0}f(x)=A&gt;0\end{aligned}$ ，那么 $\forall p\in(0,A),\exists\delta&gt;0,\forall x\in\mathring{U}(x_0,\delta),f(x)&gt;p&gt;0$</p>
+<h4 id="夹逼定理-1"><a href="#夹逼定理-1" class="headerlink" title="夹逼定理"></a>夹逼定理</h4><p>设 $f,g,h:D\subset\mathrm{R}\rightarrow\mathrm{R}$ ，$D$ 包含 $x_0$ 的某去心邻域 $\mathring{U}(x_0,\delta)$ ，如果 $\forall x\in\mathring{U}(x,\delta)$ ，有 $g(x)\leq f(x)\leq h(x)$ ，且满足 $\begin{aligned}\lim_{x\rightarrow x_0}g(x)=\lim_{x\rightarrow x_0}h(x)=A\end{aligned}$  那么有 $\begin{aligned}\lim_{x\rightarrow x_0}f(x)=A\end{aligned}$</p>
+<h4 id="单侧极限"><a href="#单侧极限" class="headerlink" title="单侧极限"></a>单侧极限</h4><p>$\begin{aligned}\lim_{x\rightarrow x_0}f(x)=A\Leftrightarrow\lim_{x\rightarrow x_0^-}f(x)=\lim_{x\rightarrow x_0^+}f(x)=A\end{aligned}$</p>
+<p>$\begin{aligned}\lim_{x\rightarrow \infty}f(x)=A\Leftrightarrow\lim_{x\rightarrow -\infty}f(x)=\lim_{x\rightarrow +\infty}f(x)=A\end{aligned}$</p>
+<h4 id="函数连续"><a href="#函数连续" class="headerlink" title="函数连续"></a>函数连续</h4><p>设 $f:D\subset\mathrm{R}\rightarrow\mathrm{R}$ ，$D$ 包含 $x_0$ 的某个邻域，如果 $\begin{aligned}\lim_{x\rightarrow x_0}f(x)=f(x_0)\end{aligned}$ 则称 $f$ 在 $x_0$ 处连续</p>
+<p><strong>第一类间断点</strong> 左极限 $\begin{aligned}\lim_{x\rightarrow x_0^-}f(x)\end{aligned}$ 和右极限 $\begin{aligned}\lim_{x\rightarrow x_0^+}f(x)\end{aligned}$ 都存在但 $f$ 在 $x_0$ 处不连续</p>
+<p><strong>跳跃间断点</strong> $\begin{aligned}\lim_{x\rightarrow x_0^-}f(x)\neq\lim_{x\rightarrow x_0^+}f(x)\end{aligned}$</p>
+<p><strong>可去间断点</strong> $\begin{aligned}\lim_{x\rightarrow x_0}f(x)\neq f(x_0)\end{aligned}$ 或 $f(x)$ 在 $x_0$ 处没有定义</p>
+<p><strong>第二类间断点</strong> 如果 $f$ 在 $x_0$ 处的左右极限至少有一个不存在</p>
+<h4 id="函数一致连续"><a href="#函数一致连续" class="headerlink" title="函数一致连续"></a>函数一致连续</h4><p>设函数 $f:I\rightarrow\mathrm{R}$ ，如果 $\forall\varepsilon&gt;0,\exists\delta&gt;0$ ，使得 $\forall x_1,x_2\in I$ ，当 $|x_1,x_2|&lt;\delta$ 时，都有 $|f(x_1)-f(x_2)|&lt;\varepsilon$ ，就称函数 $f$ 在区间 $I$ 上一致连续</p>
+<h4 id="康托尔定理"><a href="#康托尔定理" class="headerlink" title="康托尔定理"></a>康托尔定理</h4><p>设函数 $f(x)$ 在有限闭区间 $[a,b]$ 上连续，则 $f(x)$ 在 $[a,b]$ 上一致连续</p>
+<h4 id="无穷小"><a href="#无穷小" class="headerlink" title="无穷小"></a>无穷小</h4><p>设 $f(x),g(x)$ 是当 $x\rightarrow x_0$ 时的无穷小，且 $g(x)\neq0$</p>
+<p>若 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=0\end{aligned}$ ，则称 $f(x)$ 是比 $g(x)$ 高阶的无穷小（更快趋于 $0$ ）记为 $f(x)=o(g(x))$</p>
+<p>若 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=0\end{aligned}$ ，则称 $g(x)$ 是比 $f(x)$ 低阶的无穷小（更慢趋于 $0$ ）记为 $f(x)=o(g(x))$</p>
+<p>若 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=A\neq0\end{aligned}$ ，则称 $f(x)$ 与 $g(x)$ 是同阶无穷小，记为 $f(x)=O(g(x))$</p>
+<p>若 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=0\end{aligned}$ ，则称 $f(x)$ 与 $g(x)$ 是等价无穷小，记为 $f(x)\sim g(x)$</p>
+<h4 id="无穷大"><a href="#无穷大" class="headerlink" title="无穷大"></a>无穷大</h4><p>设 $f(x),g(x)$ 是当 $x\rightarrow x_0$ 时的无穷大</p>
+<p>若 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=0\end{aligned}$ ，则称 $f(x)$ 是比 $g(x)$ 低阶的无穷大（增长更慢 ）</p>
+<p>若 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=0\end{aligned}$ ，则称 $g(x)$ 是比 $f(x)$ 高阶的无穷大（增长更快）</p>
+<p>若 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=A\neq0\end{aligned}$ ，则称 $f(x)$ 与 $g(x)$ 是同阶无穷大</p>
+<p>若 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=0\end{aligned}$ ，则称 $f(x)$ 与 $g(x)$ 是等价无穷大</p>
+<h4 id="等价无穷小替换"><a href="#等价无穷小替换" class="headerlink" title="等价无穷小替换"></a>等价无穷小替换</h4><p>设 $f,g,\alpha,\beta$ 当 $x\rightarrow x_0$ 时是无穷小，且 $f\sim\alpha,g\sim\beta$ ，如果 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{\alpha(x)}{\beta(x)}\end{aligned}$ 存在，</p>
+<p>那么有 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=\lim_{x\rightarrow x_0}\frac{\alpha(x)}{\beta(x)}\end{aligned}$</p>
+<h4 id="有限闭区间上连续函数的性质"><a href="#有限闭区间上连续函数的性质" class="headerlink" title="有限闭区间上连续函数的性质"></a>有限闭区间上连续函数的性质</h4><p>有界性、最大值最小值定理、零点存在定理、介值定理、不动点</p>
+<hr>
+<h3 id="Chapter-3-导数与微分"><a href="#Chapter-3-导数与微分" class="headerlink" title="Chapter-3 导数与微分"></a>Chapter-3 导数与微分</h3><h4 id="导数定义"><a href="#导数定义" class="headerlink" title="导数定义"></a>导数定义</h4><p>设函数 $y=f(x)$ 在 $x_0$ 的某个邻域内有定义，如果极限 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{f(x)-f(x_0)}{x-x_0}\end{aligned}$ 存在，就称 $f$ 在 $x_0$ 处可导，$x_0$ 是 $f$ 的可导点，极限值为 $f$ 在 $x_0$ 处的导数，记为 $f’(x_0)$</p>
+<h4 id="单侧导数"><a href="#单侧导数" class="headerlink" title="单侧导数"></a>单侧导数</h4><p>若函数 $f$ 在 $x_0$ 的某个邻域内有定义，则 $f$ 在 $x_0$ 处可导当且仅当 $f$ 在 $x_0$ 处分别左右导数相等</p>
+<h4 id="反函数求导"><a href="#反函数求导" class="headerlink" title="反函数求导"></a>反函数求导</h4><p>函数 $y=f(x)$ 在 $U(x_0)$ 严格单调，在 $x_0$ 可导且 $f’(x_0)\neq0,y_0=f(x_0),g:U(y_0)\rightarrow U(x_0)$ 为 $y=f(x)$ 的反函数，则函数 $g$ 在 $y_0$ 处可导，且 $g’(y_0)=\dfrac{1}{f’(x_0)}$</p>
+<p>由 $y_0=f(x_0)$ 有 $g’(f(x_0))=\dfrac{1}{f’(x_0)}$ ，即 $g’(x)=\dfrac{1}{f’(g(x))}$</p>
+<h4 id="参数方程的导数"><a href="#参数方程的导数" class="headerlink" title="参数方程的导数"></a>参数方程的导数</h4><p>对于参数方程 $\begin{cases}x=\varphi(t)\\y=\psi(t)\end{cases}$ 有 $\dfrac{\mathrm{d}x}{\mathrm{d}t}=\varphi’(t)，\dfrac{\mathrm{d}y}{\mathrm{d}t}=\psi’(t)$  则 $\dfrac{\mathrm{d}y}{\mathrm{d}x}=\dfrac{\psi’(t)}{\varphi’(t)}$ </p>
+<p>参数方程的导数可以表示为 $\begin{cases}x=\varphi(t)\\y=\dfrac{\psi’(t)}{\varphi’(t)}\end{cases}$  或 $\dfrac{\mathrm{d}y}{\mathrm{d}x}=\dfrac{\psi’(t)}{\varphi’(t)}\bigg|_{t=\varphi^{-1}(x)}$</p>
+<h4 id="莱布尼茨公式"><a href="#莱布尼茨公式" class="headerlink" title="莱布尼茨公式"></a>莱布尼茨公式</h4><p>若函数 $u,v$ 均 $n$ 阶可导，则乘积函数 $uv$ 也 $n$ 阶可导</p>
+<p>$\begin{aligned}(uv)^{(n)}=\sum_{k=0}^n\begin{pmatrix}n\\k\end{pmatrix}u^{(n-k)}v^{(k)}\end{aligned}$</p>
+<h4 id="微分定义"><a href="#微分定义" class="headerlink" title="微分定义"></a>微分定义</h4><p>设 $y=f(x)$ 在 $x_0$ 某个邻域内有定义， $\Delta x$ 是自变量的一个改变量，如果存在不依赖于 $\Delta x$ 的常数 $A$ ，使得当 $|\Delta x|$ 充分小时，函数的增量 </p>
+<p>$\Delta y=f(x_0+\Delta x)-f(x_0)=A\Delta x+o(\Delta x),\Delta x\rightarrow 0$</p>
+<p>那么称 $f$ 在 $x_0$ 处可微，称 $A\Delta x$ 为 $f$ 在 $x_0$ 处的微分，记为 $\mathrm{d}y|_{x=x_0}=A\Delta{x}$</p>
+<h4 id="近似估计与误差分析"><a href="#近似估计与误差分析" class="headerlink" title="近似估计与误差分析"></a>近似估计与误差分析</h4><p>$f(x_0+\Delta{x})\approx f(x_0)+f’(x_0)\Delta x$</p>
+<p>在测量某个值 $x^<em>$ 时得到的 $x$ 是一个近似值，程 $|x-x^</em>|$ 为绝对误差， $\dfrac{|x-x^*|}{|x|}$ 为相对误差 </p>
+<p>如果存在 $\delta_x&gt;0$ 使 $|x-x^*|\leq\delta_x$ ，则称 $\delta_x$ 为绝对误差限，$\dfrac{\delta_x}{|x|}$ 称为相对误差限</p>
+<hr>
+<h3 id="Chapter-4-微分中值定理"><a href="#Chapter-4-微分中值定理" class="headerlink" title="Chapter-4 微分中值定理"></a>Chapter-4 微分中值定理</h3><h4 id="函数极值"><a href="#函数极值" class="headerlink" title="函数极值"></a>函数极值</h4><p>设函数 $f$ 在 $x_0$ 的某个邻域内有定义，如果存在 $\delta&gt;0$ 使得对于任何 $x\in(x_0-\delta,x_0+\delta)$ 恒有 $f(x)\leq f(x_0)$ ,就称 $f(x_0)$ 是函数 $f$ 的一个极大值， $x=x_0$ 为极大值点</p>
+<h4 id="费马定理"><a href="#费马定理" class="headerlink" title="费马定理"></a>费马定理</h4><p>设 $x_0$ 为函数 $f$ 的极值点，如果 $f$ 在 $x_0$ 处可导，则 $f’(x_0)=0$</p>
+<h4 id="罗尔定理"><a href="#罗尔定理" class="headerlink" title="罗尔定理"></a>罗尔定理</h4><p>如果函数 $f$ 满足在闭区间 $[a,b]$ 上连续，在开区间 $(a,b)$ 内可导，$f(a)=f(b)$ </p>
+<p>那么至少存在一点 $\xi\in(a,b)$ 使得 $f’(\xi)=0$</p>
+<h4 id="拉格朗日中值定理"><a href="#拉格朗日中值定理" class="headerlink" title="拉格朗日中值定理"></a>拉格朗日中值定理</h4><p>如果函数 $f$ 满足在闭区间 $[a,b]$ 上连续，在开区间 $(a,b)$ 内可导</p>
+<p>那么至少存在一点 $\xi\in(a,b)$ 使得 $f’(\xi)=\dfrac{f(b)-f(a)}{b-a}$</p>
+<h4 id="柯西中值定理"><a href="#柯西中值定理" class="headerlink" title="柯西中值定理"></a>柯西中值定理</h4><p>设函数 $f,g$ 在 $[a,b]$ 上连续，在 $(a,b)$ 内可导，且 $g’$ 在 $(a,b)$ 内没有零点</p>
+<p>则至少存在一点 $\xi\in(a,b)$ ，使得 $\dfrac{f’(\xi)}{g’(\xi)}=\dfrac{f(b)-f(a)}{g(b)-g(a)}$</p>
+<h4 id="洛必达法则"><a href="#洛必达法则" class="headerlink" title="洛必达法则"></a>洛必达法则</h4><p>如果函数 $f$ 和 $g$ 在 $x_0$ 的某去心邻域 $\mathring{U}(x_0)$ 内可导，且 $g’\neq0$ </p>
+<p>如果 $\begin{aligned}\lim_{x\rightarrow x_0}f(x)=\lim_{x\rightarrow x_0}g(x)=0\end{aligned}$ ，且极限 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{f’(x)}{g’(x)}\end{aligned}=A$ （或 $\infty$ ）</p>
+<p>那么有$\begin{aligned}\lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=\lim_{x\rightarrow x_0}\frac{f’(x)}{g’(x)}\end{aligned}$</p>
+<p>如果函数 $f$ 和 $g$ 在 $x_0$ 的某去心邻域 $\mathring{U}(x_0)$ 内可导，且 $g’\neq0$ </p>
+<p>如果 $\begin{aligned}\lim_{x\rightarrow x_0}g(x)=\infty\end{aligned}$ ，且极限 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{f’(x)}{g’(x)}\end{aligned}=A$ （或 $\infty$ ）</p>
+<p>那么有$\begin{aligned}\lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=\lim_{x\rightarrow x_0}\frac{f’(x)}{g’(x)}\end{aligned}$</p>
+<h4 id="带佩亚诺余项的泰勒公式"><a href="#带佩亚诺余项的泰勒公式" class="headerlink" title="带佩亚诺余项的泰勒公式"></a>带佩亚诺余项的泰勒公式</h4><p>$f(x)=f(x_0)+f’(x_0)(x-x_0)+\cdots+\dfrac{f^{(n)}(x_0)}{n!}(x-x_0)^n+o((x-x_0)^n)$</p>
+<h4 id="带拉格朗日余项的泰勒公式"><a href="#带拉格朗日余项的泰勒公式" class="headerlink" title="带拉格朗日余项的泰勒公式"></a>带拉格朗日余项的泰勒公式</h4><p>$f(x)=f(x_0)+f’(x_0)(x-x_0)+\cdots+\dfrac{f^{(n)}(x_0)}{n!}(x-x_0)^n+\dfrac{f^{(n+1)}(\xi)}{(n+1)!}(x-x_0)^{n+1}$</p>
+<h4 id="极值第一判别法"><a href="#极值第一判别法" class="headerlink" title="极值第一判别法"></a>极值第一判别法</h4><p>如果 $f$ 在 $x_0$ 的某邻域内连续， $f’$ 在 $x_0$ 两侧异号，那么 $x_0$ 必定是 $f$ 的极值点</p>
+<h4 id="极值第二判别法"><a href="#极值第二判别法" class="headerlink" title="极值第二判别法"></a>极值第二判别法</h4><p>假设 $f$ 在 $x_0$ 的某邻域内连续，且在 $x_0$ 处二阶可导，如果 $f’(x_0)=0,f’’(x_0)\neq0$ </p>
+<p>则 $x_0$ 必定是 $f$ 的极值点</p>
+<h4 id="凹凸性判别法"><a href="#凹凸性判别法" class="headerlink" title="凹凸性判别法"></a>凹凸性判别法</h4><p>设 $f$ 在区间 $[a,b]$ 上连续，在 $(a,b)$ 内可导</p>
+<p>曲线 $f$ 在 $[a,b]$ 上是凹的，当且仅当在 $(a,b)$ 内恒有 $f’’\geq0$</p>
+<p>曲线 $f$ 在 $[a,b]$ 上是凸的，当且仅当在 $(a,b)$ 内恒有 $f’’\leq 0$</p>
+<h4 id="渐近线"><a href="#渐近线" class="headerlink" title="渐近线"></a>渐近线</h4><p>当 $x\rightarrow x_0$ 时， $f(x)\rightarrow\infty$ ，则直线 $x=x_0$ 是 $y=f(x)$ 的一条垂直渐近线</p>
+<p>$\begin{aligned}a=\lim_{x\rightarrow+\infty}\frac{f(x)}{x},b=\lim_{x\rightarrow+\infty}[f(x)-ax]\end{aligned}$ </p>
+<p>若 $a\neq0$ 则 $y=ax+b$ 为曲线的斜渐近线，否则 $y=b$ 为曲线的水平渐近线</p>
+<h4 id="曲率与曲率半径"><a href="#曲率与曲率半径" class="headerlink" title="曲率与曲率半径"></a>曲率与曲率半径</h4><p>$\begin{aligned}K=\lim_{l\rightarrow0}\frac{\theta}{l}\end{aligned}$ 定义曲线在 $P$ 点处的弯曲程度，称为曲率， $R=\dfrac{1}{K}$ 为曲率半径</p>
+<p>$K(x)=\dfrac{|f’’(x)|}{[1+(f’(x))^2]^{3/2}}$</p>
+<p>曲率圆和曲线 $y=f(x)$ 在 $P$ 点相切，在切点有相同的凹凸性和曲率</p>
+<p>曲率圆圆心坐标为 $(\xi,\eta),\begin{cases}\xi=x-\dfrac{f’(x)[1+(f’(x))^2]}{f’’(x)}\\\eta=f(x)+\dfrac{1+[f’(x)]^2}{f’’(x)}\end{cases}$ </p>
+<h4 id="达布定理"><a href="#达布定理" class="headerlink" title="达布定理"></a>达布定理</h4><p>设 $f$ 在 $(a,b)$ 内可导， $x_1,x_2\in(a,b)$ ，且 $x_1&lt;x_2$ ，则对于任何介于  $f’(x_1)$ 和 $f’(x_2)$ 的实数 $\eta$ ，必存在 $\xi\in(a,b)$ ，使得 $\eta=f’(\xi)$</p>
+<hr>
+<h3 id="Chapter-5-不定积分"><a href="#Chapter-5-不定积分" class="headerlink" title="Chapter-5 不定积分"></a>Chapter-5 不定积分</h3><h4 id="第一换元积分法"><a href="#第一换元积分法" class="headerlink" title="第一换元积分法"></a>第一换元积分法</h4><p>设 $f(u)$ 存在原函数 $F(u),u=\varphi(x)$ 可导，则函数 $f(\varphi(x))\varphi’(x)$ 也存在原函数</p>
+<p>$\begin{aligned}\int f(\varphi(x))\varphi’(x)\mathrm{d}x=\int f(\varphi(x))\mathrm{d}\varphi(x)=\int f(u)\mathrm{d}u=F(u)+C=F(\varphi(x))+C\end{aligned}$</p>
+<h4 id="第二换元积分法"><a href="#第二换元积分法" class="headerlink" title="第二换元积分法"></a>第二换元积分法</h4><p>设 $f(x)$ 连续，$x=\varphi(t)$ 有连续导数，且 $\varphi’(t)\neq0$ 如果 $\begin{aligned}\int f(\varphi(t))\varphi’(t)\mathrm{d}t=F(t)+C\end{aligned}$</p>
+<p>则 $\begin{aligned}\int f(x)\mathrm{d}x=\int f(\varphi(t))\varphi’(t)\mathrm{d}t=F(t)+C=F(t)+C=F(\varphi^{-1}(t))+C\end{aligned}$</p>
+<h4 id="分部积分法"><a href="#分部积分法" class="headerlink" title="分部积分法"></a>分部积分法</h4><p>$\begin{aligned}\int u(x)v’(x)\mathrm{d}x=u(x)v(x)-\int v(x)u’(x)\mathrm{d}x\end{aligned}$</p>
+<h4 id="有理函数的不定积分"><a href="#有理函数的不定积分" class="headerlink" title="有理函数的不定积分"></a>有理函数的不定积分</h4><p>一切有理函数的原函数可以用有理函数、对数函数和反正切函数表示出来</p>
+<h4 id="三角有理函数的不定积分"><a href="#三角有理函数的不定积分" class="headerlink" title="三角有理函数的不定积分"></a>三角有理函数的不定积分</h4><p>设 $t=\tan\dfrac{x}{2},|x|&lt;\pi$ ，则 $x=2\arctan{t}$ 有以下替换：</p>
+<p>$\begin{cases}\mathrm{d}x=\dfrac{2}{1+t^2}\mathrm{d}t\\\sin x=\dfrac{2\tan\dfrac{x}{2}}{1+\tan^2\dfrac{x}{2}}=\dfrac{2t}{1+t^2}\\\cos x=\dfrac{1-\tan^2\dfrac{x}{2}}{1+\tan^2\dfrac{x}{2}}=\dfrac{1-t^2}{1+t^2}\end{cases}$</p>
+<p>则 $\begin{aligned}\int R(\sin x,\cos x)\mathrm{d}x=\int R(\frac{2t}{1+t^2},\frac{1-t^2}{1+t^2})\cdot\frac{2}{1+t^2}\mathrm{d}t\end{aligned}$</p>
+<h4 id="其它可有理化函数的不定积分"><a href="#其它可有理化函数的不定积分" class="headerlink" title="其它可有理化函数的不定积分"></a>其它可有理化函数的不定积分</h4><p>设 $R$ 为有理函数，则以 $\mathrm{e}^x$ 为变量的有理函数 $R(\mathrm{e}^x)$ 的积分 $\begin{aligned}\int R(\mathrm{e}^x)\mathrm{d}x\end{aligned}$ </p>
+<p>可通过变量替换 $x=\ln t$ 化成有理函数的积分 $\begin{aligned}\int R(t)\frac{1}{t}\mathrm{d}t\end{aligned}$</p>
+<hr>
+<h3 id="Chapter-6-定积分"><a href="#Chapter-6-定积分" class="headerlink" title="Chapter-6 定积分"></a>Chapter-6 定积分</h3><h4 id="定积分中值定理"><a href="#定积分中值定理" class="headerlink" title="定积分中值定理"></a>定积分中值定理</h4><p>若 $f(x)$ 在 $[a,b]$ 上可积，则 $\exists\xi\in(a,b)$ ，使得 $\begin{aligned}\int_a^bf(x)\mathrm{d}x=f(\xi)(b-a)\end{aligned}$</p>
+<h4 id="推广的定积分中值定理"><a href="#推广的定积分中值定理" class="headerlink" title="推广的定积分中值定理"></a>推广的定积分中值定理</h4><p>若 $f(x),g(x)$ 在 $[a,b]$ 上连续，且 $g(x)$ 在 $[a,b]$ 上不变号，则 $\exists\xi\in(a,b)$，使得</p>
+<p>$\begin{aligned}\int_a^bf(x)g(x)\mathrm{d}x=f(\xi)\int_a^bg(x)\mathrm{d}x\end{aligned}$</p>
+<h4 id="柯西不等式"><a href="#柯西不等式" class="headerlink" title="柯西不等式"></a>柯西不等式</h4><p>$\begin{pmatrix}\begin{aligned}\int_a^bf(x)g(x)\mathrm{d}x\end{aligned}\end{pmatrix}^2\leq\begin{aligned}\int_a^bf^2(x)\mathrm{d}x\cdot\int_a^bg^2(x)\mathrm{d}x\end{aligned}$</p>
+<h4 id="重要结果及技巧"><a href="#重要结果及技巧" class="headerlink" title="重要结果及技巧"></a>重要结果及技巧</h4><p>$\begin{aligned}\int\csc{x}\mathrm{d}x=\int\frac{\csc{x}(\csc{x}-\cot{x})}{\csc{x}-\cot{x}}\mathrm{d}x=\int\frac{\mathrm{d}(\csc{x}-\cot{x})}{\csc{x}-\cot{x}}=\ln|\csc{x}-\cot{x}|\end{aligned}$</p>
+<p>$\begin{aligned}\int\sec{x}\mathrm{d}x=\int\frac{\sec{x}(\sec{x}+\tan{x})}{\sec{x}+\tan{x}}\mathrm{d}x=\int\frac{\mathrm{d}(\sec x+\tan x)}{\sec x+\tan x}=\ln|\sec x+\tan x|\end{aligned}$</p>
+<p>$\begin{aligned}\int\cos^nx\mathrm{d}x=\frac{1}{n}\sin x\cos^{n-1}x+\frac{n-1}{n}\int\cos^{n-2}x\mathrm{d}x\end{aligned}$</p>
+<p>$\begin{aligned}\int\sin^nx\mathrm{d}x=-\frac{1}{n}\cos x\sin^{n-1}x+\frac{n-1}{n}\int\sin^{n-2}x\mathrm{d}x\end{aligned}$</p>
+<p>$\begin{aligned}I_n=\int\frac{\mathrm{d}x}{(a^2+x^2)^n},I_n=\frac{x}{2(n-1)a^2(a^2+x^2)^{n-1}}+\frac{2n-3}{2(n-1)a^2}I_{n-1}\end{aligned}$</p>
+<p>$\mathrm{d}(\sin x+\cos x)=\cos x-\sin x,\mathrm{d}(\sin x-\cos x)=\sin x+\cos x$</p>
+<p>$\begin{aligned}\int_0^{\frac{\pi}{2}}\sin^nx\mathrm{d}x=\int_0^{\frac{\pi}{2}}\cos^nx\mathrm{d}x\end{aligned}=\begin{cases}\dfrac{n-1}{n}\cdot\dfrac{n-3}{n-2}\cdot\cdots\cdot\dfrac{2}{3}\cdot1,&amp;n为奇数\\\dfrac{n-1}{n}\cdot\dfrac{n-3}{n-2}\cdot\cdots\cdot\dfrac{3}{4}\cdot\dfrac{1}{2}\cdot\dfrac{\pi}{2},&amp;n为偶数\end{cases}$</p>
+<p>$\begin{aligned}\Gamma(s+1)&amp;=\int_0^{+\infty}x^{s}e^{-x}\mathrm{d}x=-x^se^{-x}\big|_0^{+\infty}+s\int_0^{+\infty}x^{s-1}e^{-x}\mathrm{d}x\\&amp;=s\Gamma(s)=\cdots=n!\Gamma(1)=n!\end{aligned}$</p>
+<p>对于一切 $a&gt;0$ ，极限 $\begin{aligned}\lim_{x\rightarrow0^+}x^a\ln x=0\end{aligned}$ 成立</p>
+<p>$\begin{aligned}\lim_{x\rightarrow0^+}x^a\ln x=\lim_{x\rightarrow0^+}\dfrac{\ln x}{x^{-a}}=-\frac{1}{a}\lim_{x\rightarrow0^+}\frac{x^{-1}}{x^{-a-1}}=-\frac{1}{a}\lim_{x\rightarrow0^+}x^a=0\end{aligned}$</p>
+<p>在区间对称的积分中分离出奇函数的部分</p>
+<h4 id="中值定理构造原函数"><a href="#中值定理构造原函数" class="headerlink" title="中值定理构造原函数"></a>中值定理构造原函数</h4><p>将结果中的未知参数换为 $x$</p>
+<p>如果结果中既有 $f(x)$ 又含有 $f’(x)$ ，则将等式变换为 $\dfrac{f’(x)}{f(x)}+h(x)=0$ 的形式</p>
+<p>假使 $p’(x)=h(x)$ ，则构造 $g(x)=f(x)e^{p(x)}$</p>
+<h4 id="积分上限函数"><a href="#积分上限函数" class="headerlink" title="积分上限函数"></a>积分上限函数</h4><p>$\begin{bmatrix}\begin{aligned}\int_a^{g(x)}f(t)\mathrm{d}t\end{aligned}\end{bmatrix}’=f[g(x)]g’(x)$</p>
+<p>$\begin{bmatrix}\begin{aligned}\int_{h(x)}^{g(x)}f(t)\mathrm{d}t\end{aligned}\end{bmatrix}’=f[g(x)]g’(x)-f[h(x)]h’(x)$</p>
+<hr>
+<h3 id="总结-易错点"><a href="#总结-易错点" class="headerlink" title="总结-易错点"></a>总结-易错点</h3><h4 id="易错点1"><a href="#易错点1" class="headerlink" title="易错点1"></a>易错点1</h4><p>导函数在 $x_0$ 两侧的不同单调性确保了 $f(x_0)$ 取到极值是充分条件而非必要条件</p>
+<p>例如 $f(x)=\begin{cases}x^2(1+\sin^2(\dfrac{1}{x})),&amp;x\neq0\\0,&amp;x=0\end{cases}$</p>
+<h4 id="易错点2"><a href="#易错点2" class="headerlink" title="易错点2"></a>易错点2</h4><p>函数可导一定连续，函数连续不一定可导</p>
+<h4 id="易错点3"><a href="#易错点3" class="headerlink" title="易错点3"></a>易错点3</h4><p>原函数不可能有第一类间断点</p>
+<h4 id="易错点4"><a href="#易错点4" class="headerlink" title="易错点4"></a>易错点4</h4><p>利用导数的定义研究函数在一点的可导性时，要满足以下三个条件：</p>
+<p>$\begin{aligned}\lim_{\Delta x\rightarrow0}\frac{f(x_0+\Delta x)-f(x_0)}{\Delta x}\end{aligned}$ 中 $\Delta x$ 的替换项必须与 $\Delta x$ 是同阶无穷小</p>
+<p>$\Delta x\rightarrow 0$ 必须从左右两侧趋于 $0$</p>
+<p>$\begin{aligned}\lim_{\Delta x\rightarrow0}\frac{f(x_0+\Delta x)-f(x_0)}{\Delta x}\end{aligned}$ 的分子上一定要有 $f(x_0)$ 这个元素  </p>
+<h4 id="易错点5"><a href="#易错点5" class="headerlink" title="易错点5"></a>易错点5</h4><p>若 $f(x)$ 为周期函数，其原函数 $F(x)$ 不一定为周期函数</p>
+<p>若 $f(x)$ 为可导的周期函数，则 $f’(x)$ 一定为周期函数</p>
+<h4 id="易错点6"><a href="#易错点6" class="headerlink" title="易错点6"></a>易错点6</h4><p>$f(x)$ 在 $[a,b]$ 上有界是函数可积的必要条件，无界函数一定不可积</p>
+]]></content>
+      <tags>
+        <tag>课程笔记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>离散数学</title>
     <url>/2025/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Chapter-8-Counting"><a href="#Chapter-8-Counting" class="headerlink" title="Chapter-8 Counting"></a>Chapter-8 Counting</h2><div class="table-container">
@@ -483,6 +639,598 @@ D_n&=n!(1-\frac{1}{1!}+\frac{1}{2!}-\frac{1}{3!}+\cdots+(-1)^n\frac{1}{n!})\\
 <p>The level of a vertex $v$ is the length of the unique path from the root to this vertex.<br>The level of the root is defined to be zero.<br>The height of a rooted tree is the maximum of the levels of vertices.<br>A rooted m-ary tree of height $h$ is balanced if all leave are at level $h$ or $h-1$<br>There are at most $m^h$ leaves in an m-ary tree of height $h$ </p>
 <p>If an m-ary tree of height $h$ has $l$ leaves, then $h\geq\lceil \log_ml\rceil$<br>If the m-ary tree if full and balanced, then $h=\lceil\log_ml\rceil$</p>
 ]]></content>
+      <tags>
+        <tag>课程笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>大学物理甲I</title>
+    <url>/2025/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E7%94%B2I/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Chapter-1-质点运动学"><a href="#Chapter-1-质点运动学" class="headerlink" title="Chapter-1 质点运动学"></a>Chapter-1 质点运动学</h2><p>【注】与中学内容基本一致，略</p>
+<hr>
+<h2 id="Chapter-2-质点动力学"><a href="#Chapter-2-质点动力学" class="headerlink" title="Chapter-2 质点动力学"></a>Chapter-2 质点动力学</h2><h3 id="碰撞"><a href="#碰撞" class="headerlink" title="碰撞"></a>碰撞</h3><p>对于一般碰撞，恢复系数 $\begin{align}e=\frac{v_2’-v_1’}{v_1-v_2}\end{align}$ 与两球的质量和速度无关</p>
+<script type="math/tex; mode=display">
+\begin{align}
+v_1'=\frac{m_1v_1+m_2v_2}{m_1+m_2}-e\frac{m_2(v_1-v_2)}{m_1+m_2}\\
+v_2'=\frac{m_1v_1+m_2v_2}{m_1+m_2}-e\frac{m_1(v_2-v_1)}{m_1+m_2}
+\end{align}</script><span id="more"></span>
+<p>【注】其余与中学内容基本一致，略</p>
+<hr>
+<h2 id="Chapter-3-刚体力学与流体力学"><a href="#Chapter-3-刚体力学与流体力学" class="headerlink" title="Chapter-3 刚体力学与流体力学"></a>Chapter-3 刚体力学与流体力学</h2><h3 id="平动和转动"><a href="#平动和转动" class="headerlink" title="平动和转动"></a>平动和转动</h3><ul>
+<li>平动：刚体上任意两点的连线始终保持平行</li>
+<li>定轴转动：刚体中各个顶点都绕某一直线作圆周运动，转轴完全固定</li>
+<li>定点转定：刚体中各个顶点都绕某一直线作圆周运动，转轴一点固定<h3 id="定轴转动定律"><a href="#定轴转动定律" class="headerlink" title="定轴转动定律"></a>定轴转动定律</h3></li>
+</ul>
+<p>力的大小与力臂的乘积称为力对转轴的力矩，用符号 $M$ 来表示</p>
+<script type="math/tex; mode=display">
+M=Fd</script><p>如果力不在垂直于转轴的平面内，可将力分解为与转轴垂直、平行的分力</p>
+<p>刚体定轴转动时，角加速度 $\beta$ 与外力矩之和 $M$ ，与转动惯量 $J$ 成反比</p>
+<script type="math/tex; mode=display">
+M=J\beta</script><h3 id="转动惯量"><a href="#转动惯量" class="headerlink" title="转动惯量"></a>转动惯量</h3><p>刚体对转轴的转动惯量 $J$ 等于刚体上各质点的质量 $m_i$ 与各质点到转轴垂直距离二次方 $r_i^2$ 乘积之和 </p>
+<script type="math/tex; mode=display">
+J=\sum m_ir_i^2=\int r^2dm</script><p>细杆中心转动惯量：$\begin{align}\frac{1}{12}ml^2\end{align}$<br>细杆一端转动惯量：$\begin{align}\frac{1}{3}ml^2\end{align}$<br>圆柱体几何轴转动惯量：$\begin{align}\frac{1}{2}mR^2\end{align}$<br>球体沿直径转动惯量：$\begin{align}\frac{2}{5}mR^2\end{align}$</p>
+<p>若刚体对转轴的转动惯量为 $J$ ，则定义刚体对该轴的回转半径为 $R_G$ 为</p>
+<script type="math/tex; mode=display">
+R_G=\sqrt{\frac{J}{m}}</script><h3 id="平行轴定理"><a href="#平行轴定理" class="headerlink" title="平行轴定理"></a>平行轴定理</h3><p>刚体对任一转轴的转动惯量 $J$ 等于对通过质心的平行轴的转动惯量 $J_c$ 加上刚体质量 $m$ 与两平行轴间距离二次方 $h^2$ 的乘积，即</p>
+<script type="math/tex; mode=display">
+J=J_c+mh^2</script><h3 id="垂直轴定理"><a href="#垂直轴定理" class="headerlink" title="垂直轴定理"></a>垂直轴定理</h3><p>若刚体薄板在 $xy$ 平面内，对 $x$ 轴和 $y$ 轴的转动惯量分别为 $J_x,J_y$ ，则对 $J_z$ 有</p>
+<script type="math/tex; mode=display">
+J_z=J_x+J_y</script><h3 id="定轴转动动能"><a href="#定轴转动动能" class="headerlink" title="定轴转动动能"></a>定轴转动动能</h3><p>刚体绕定轴转动的动能等于刚体的转动惯量与角速度二次方乘积的一半</p>
+<script type="math/tex; mode=display">
+\begin{align}
+E_k&=\sum\frac{1}{2}m_iv_i^2=\sum\frac{1}{2}m_i(\omega r_i)^2\\
+&=\frac{1}{2}(\sum m_ir_i^2)\omega^2\\
+&=\frac{1}{2}J\omega^2
+\end{align}</script><h3 id="角动量定理"><a href="#角动量定理" class="headerlink" title="角动量定理"></a>角动量定理</h3><p>刚体对轴的角动量 $L$ 等于转动惯量 $J$ 与角速度 $\omega$ 的乘积</p>
+<script type="math/tex; mode=display">
+L=J\omega</script><p>刚体定轴转动时，对轴的外力矩之和等于对该轴的角动量随时间的变化率</p>
+<script type="math/tex; mode=display">
+M=\frac{dL}{dt}=\frac{d(J\omega)}{dt}</script><p>定轴转动的质点系外力矩之和对转轴的冲量矩等于质点系对该转轴角动量的增量</p>
+<h3 id="角动量守恒定律"><a href="#角动量守恒定律" class="headerlink" title="角动量守恒定律"></a>角动量守恒定律</h3><p>若定轴转动质点系所受对转轴的外力矩之和为零，则质点系对该转轴角动量守恒</p>
+<h3 id="刚体的平面运动"><a href="#刚体的平面运动" class="headerlink" title="刚体的平面运动"></a>刚体的平面运动</h3><p>刚体平面运动的平动速度、加速度与基点的选择有关，而转动角速度、角加速度与基点选择无关</p>
+<script type="math/tex; mode=display">
+E_k=\frac{1}{2}mv_c^2+\frac{1}{2}J_c\omega^2</script><h3 id="陀螺仪回转效应"><a href="#陀螺仪回转效应" class="headerlink" title="陀螺仪回转效应"></a>陀螺仪回转效应</h3><p>旋进的快慢用旋进角速度 $\Omega$ 描述，旋进角速度大小为</p>
+<script type="math/tex; mode=display">
+\Omega=\frac{M}{L\sin\varphi}=\frac{mgr}{J\omega}</script><h3 id="伯努利方程"><a href="#伯努利方程" class="headerlink" title="伯努利方程"></a>伯努利方程</h3><p>理想流体定常流动过程中，在管道的任一截面处，流体的压力能、动能和势能之和是一个常量，称为伯努利方程</p>
+<script type="math/tex; mode=display">
+\begin{align}
+&pV+\frac{1}{2}mv^2+mgh=常量\\
+&p+\frac{1}{2}\rho v^2+\rho gh=常量
+\end{align}</script><p>理想流体在平面管道内定常流动时，截面积小处流速较大，压强较小</p>
+<hr>
+<h2 id="Chapter-4-狭义相对论基础"><a href="#Chapter-4-狭义相对论基础" class="headerlink" title="Chapter-4 狭义相对论基础"></a>Chapter-4 狭义相对论基础</h2><h3 id="狭义相对论基本原理"><a href="#狭义相对论基本原理" class="headerlink" title="狭义相对论基本原理"></a>狭义相对论基本原理</h3><ul>
+<li>物理定律的表达形式在所有惯性系中都相同</li>
+<li>在所有惯性系中真空中的光速都相等<h3 id="洛伦兹变换"><a href="#洛伦兹变换" class="headerlink" title="洛伦兹变换"></a>洛伦兹变换</h3></li>
+</ul>
+<p>若惯性系 $K’$ 相对于 $K$ 系以速度 $u$ 沿 $x$ 轴的正方向作匀速直线运动，若事件在 $k$ 系中为 $(x,y,z,t)$ ，在 $k’$ 系中为 $(x’,y’,z’,t’)$ ，则有变换关系</p>
+<script type="math/tex; mode=display">
+\begin{aligned}
+&x'=\frac{x-ut}{\sqrt{1-u^2/c^2}}\\
+&y'=y\\
+&z'=z\\
+&t'=\frac{t-ux/c^2}{\sqrt{1-u^2/c^2}}
+\end{aligned}</script><h3 id="爱因斯坦速度变换"><a href="#爱因斯坦速度变换" class="headerlink" title="爱因斯坦速度变换"></a>爱因斯坦速度变换</h3><p>物体在 $K$ 系中的速度分量为 $(v_x,v_y,v_z)$ ，在 $K’$ 系中的速度分量为 $(v_x’,v_y’,v_z’)$ ，则</p>
+<script type="math/tex; mode=display">
+\begin{align}
+&v_x'=\frac{v_x-u}{1-uv_x/c^2}\\
+&v_y'=\frac{v_y\sqrt{1-u^2/c^2}}{1-uv_x/c^2}\\
+&v_z'=\frac{v_z\sqrt{1-u^2/c^2}}{1-uv_x/c^2}
+\end{align}</script><p>对洛伦兹变换两边求微分后求微商记得上式</p>
+<h3 id="长度收缩与时间膨胀"><a href="#长度收缩与时间膨胀" class="headerlink" title="长度收缩与时间膨胀"></a>长度收缩与时间膨胀</h3><p>在相对杆静止的惯性系中，杆的长度最大，等于杆的固有长度 $l_0$ ，在相对杆运动的惯性系中，杆沿运动方向的长度必小于固有长度，记相对运动速度为 $u$ ，有</p>
+<script type="math/tex; mode=display">
+l=l_0\sqrt{1-u^2/c^2}</script><p>在某惯性系中，两个事件发生在同一地点，则在这个惯性系中测得这两个事件的时间间隔最短，为固有时间 $\Delta t_0$ ，在其他惯性系中，这两个事件发生在不同地点，测得这两个事件的时间间隔大于固有时间，记相对运动速度为 $u$ ，有</p>
+<script type="math/tex; mode=display">
+\Delta t=\frac{\Delta t_0}{\sqrt{1-u^2/c^2}}</script><h3 id="质量与速度的关系"><a href="#质量与速度的关系" class="headerlink" title="质量与速度的关系"></a>质量与速度的关系</h3><p>物体的质量与自身的速度有关，质量与速度的关系为</p>
+<script type="math/tex; mode=display">
+m=\frac{m_0}{\sqrt{1-u^2/c^2}}</script><p>其中 $m_0$ 为静止质量，$m$ 为物体以速度 $v$ 运动时的质量</p>
+<h3 id="狭义相对论动力学方程"><a href="#狭义相对论动力学方程" class="headerlink" title="狭义相对论动力学方程"></a>狭义相对论动力学方程</h3><script type="math/tex; mode=display">
+\begin{align}
+p&=mv=\frac{m_0v}{\sqrt{1-v^2/c^2}}\\
+F&=\frac{dp}{dt}=\frac{d}{dt}(mv)=\frac{d}{dt}(\frac{m_0v}{\sqrt{1-v^2/c^2}})
+\end{align}</script><h3 id="相对论中的动能"><a href="#相对论中的动能" class="headerlink" title="相对论中的动能"></a>相对论中的动能</h3><p>物体的动能等于因运动而增加的质量 $\Delta m=m-m_0$ 与光速二次方的乘积</p>
+<script type="math/tex; mode=display">
+E_k=mc^2-m_0c^2=m_0c^2(\frac{1}{\sqrt{1-v^2/c^2}}-1)</script><h3 id="能动关系"><a href="#能动关系" class="headerlink" title="能动关系"></a>能动关系</h3><p>在狭义相对论中能量与动量的关系为</p>
+<script type="math/tex; mode=display">
+E^2=p^2c^2+m_0^2c^4=(mc^2)^2</script><hr>
+<h2 id="Chapter-5-机械振动"><a href="#Chapter-5-机械振动" class="headerlink" title="Chapter-5 机械振动"></a>Chapter-5 机械振动</h2><h3 id="简谐振动方程"><a href="#简谐振动方程" class="headerlink" title="简谐振动方程"></a>简谐振动方程</h3><p>简谐振动的微分方程及其解的一般形式为（可以通过常微分方程知识求解）</p>
+<script type="math/tex; mode=display">
+\frac{d^2x}{dt^2}+\omega^2x=0\quad\Rightarrow\quad x=A\cos(\omega t+\varphi)</script><p>已知简谐振动的初始状态 $x_0=A\cos\varphi,\quad v_0=-\omega A\sin\varphi$ 可以求得</p>
+<script type="math/tex; mode=display">
+A=\sqrt{x_0^2+(\frac{v_0}{\omega})^2},
+\quad
+\varphi=\arctan\frac{-v_0}{\omega x_0}</script><!--more-->
+<h3 id="谐振动的能量"><a href="#谐振动的能量" class="headerlink" title="谐振动的能量"></a>谐振动的能量</h3><p>设物体的位移为 $x$ ，速度为 $v$ 时，系统的弹性势能与动能分别为</p>
+<script type="math/tex; mode=display">
+\begin{align}
+&E_p=\frac{1}{2}kx^2=\frac{1}{2}kA^2\cos^2(\omega t+\varphi)
+\quad \omega^2=\frac{k}{m}
+\\
+&E_k=\frac{1}{2}mv^2=\frac{1}{2}m\omega^2A^2\sin^2(\omega t+\varphi)=\frac{1}{2}kA^2\sin^2(\omega t+\varphi)\\
+&E=\frac{1}{2}kx^2+\frac{1}{2}mv^2=\frac{1}{2}kA^2
+\end{align}</script><p>则系统的势能和动能总量守恒，总能量与振幅平方成正比</p>
+<h3 id="稳定平衡位置附近的运动"><a href="#稳定平衡位置附近的运动" class="headerlink" title="稳定平衡位置附近的运动"></a>稳定平衡位置附近的运动</h3><p><strong>单摆的简谐振动</strong></p>
+<script type="math/tex; mode=display">
+m\frac{d^2x}{dt^2}=m\frac{d^2(l\theta)}{dt^2}=-\frac{mg}{l}(l\theta)=-\frac{mg}{l}x=F_t\quad\Rightarrow\quad\frac{d^2\theta}{dt^2}=-\frac{g}{l}\theta</script><p>则当 $\theta$ 角很小时，单摆的运动可以看作谐振动</p>
+<p><strong>复摆的简谐振动</strong></p>
+<script type="math/tex; mode=display">
+-mgl\sin\theta=J\frac{d^2\theta}{dt^2}
+\quad(\sin\theta\approx\theta)
+\quad\Rightarrow\quad
+\frac{d^2\theta}{dt^2}=-\frac{mgl}{J}\theta</script><p>则复摆的振动角频率为 $\begin{align}\omega=\sqrt{\frac{mgl}{J}}\end{align}$ ，单摆可以视为复摆的特例</p>
+<h3 id="阻尼振动"><a href="#阻尼振动" class="headerlink" title="阻尼振动"></a>阻尼振动</h3><p>振动系统收到弹性力和阻力两个力的作用，应用牛顿方程，得到</p>
+<script type="math/tex; mode=display">
+\begin{align}m\frac{d^2x}{dt^2}=-kx-b\frac{dx}{dt}\Rightarrow\frac{d^2x}{dt^2}+\frac{b}{m}\frac{dx}{dt}+\frac{k}{m}x=0\end{align}</script><p>应用常微分方程中的特征方程，得到</p>
+<script type="math/tex; mode=display">
+\begin{align}r^2+\frac{b}{m}r+\frac{k}{m}=0\end{align}</script><p>由于是弱阻尼运动，该方程的解应当反应振幅减弱的情况，则 $\Delta&lt;0$<br>该方程的复数解为</p>
+<script type="math/tex; mode=display">
+\begin{align}
+r=\frac{-\frac{b}{m}\pm\sqrt{\frac{b^2}{m^2}-4\frac{k}{m}}}{2}
+=-\frac{b}{2m}\pm\sqrt{(\frac{b}{2m})^2-\frac{k}{m}}
+=-\frac{b}{2m}\pm\sqrt{\frac{k}{m}-(\frac{b}{2m})^2}\cdot\mathrm{i}
+\end{align}</script><p>根据常微分方程的知识可以得到方程的一个解为</p>
+<script type="math/tex; mode=display">
+\begin{align}
+Ae^{-\frac{b}{2m}t}\cos(\sqrt{\frac{k}{m}-(\frac{b}{2m})^2}\cdot t+\varphi)
+\end{align}</script><p>由无阻尼振动中的 $\begin{align}\omega_0=\sqrt{\frac{k}{m}}\end{align}$ ，令 $\gamma=\frac{b}{2m}$ ，则新的振动方程为</p>
+<script type="math/tex; mode=display">
+\begin{align}Ae^{-\gamma t}\cos(\sqrt{\omega_0^2-\gamma^2}\cdot t+\varphi)\end{align}</script><p><strong>振动能量</strong> $\begin{align}E=E_\theta e^{-2\gamma t}\end{align}$ 振动的能量也随时间作指数衰减</p>
+<p><strong>时间常数</strong> $\begin{align}\tau=\frac{1}{2\gamma}=\frac{m}{b}\end{align}$ 表示能量衰减为原来的 $\begin{align}\frac{1}{e}\end{align}$ 的时间</p>
+<p><strong>品质因数</strong> $\begin{align}Q=2\pi\frac{1}{2\gamma T}=\frac{\omega}{2\gamma}=\omega\tau\end{align}$ 表示阻尼振动在一个时间常数振动对应的相位变化</p>
+<h3 id="受迫振动与共振"><a href="#受迫振动与共振" class="headerlink" title="受迫振动与共振"></a>受迫振动与共振</h3><p>假设驱动力按照余弦规律变化，即 $F=F_0\cos(\omega t)$<br>则物体受弹性力、阻力和驱动力得到牛顿运动方程</p>
+<script type="math/tex; mode=display">
+m\frac{d^2x}{dt^2}=-kx-b\frac{dx}{dt}+F_0\cos\omega t</script><p>在稳态等幅受迫振动中，上述方程的解为 $x=A\cos(\omega t+\varphi)$ ，其中</p>
+<script type="math/tex; mode=display">
+\begin{align}
+&A=\frac{\begin{align}\frac{F_0}{m}\end{align}}{\sqrt{(\omega_0^2-\omega^2)^2+4\gamma^2\omega^2}},\quad\varphi=\arctan\frac{-2\gamma\omega}{\omega_0^2-\omega^2}\\
+&\omega_0^2=\frac{k}{m},\quad\gamma=\frac{b}{2m}
+\end{align}</script><p>当阻尼为 $0$ 时 $\omega_{共振}=\omega_0$ ，当阻尼不为 $0$ 时 $\omega_{共振}=\sqrt{\omega_0^2-2\gamma^2}$</p>
+<h3 id="振动的合成"><a href="#振动的合成" class="headerlink" title="振动的合成"></a>振动的合成</h3><p><strong>同方向同频率谐振动的合成</strong></p>
+<p>设物体沿 $x$ 轴同时参与两个独立振动，分别以 $x_1,x_2$ 表示其位移</p>
+<script type="math/tex; mode=display">
+x_1=A_1\cos(\omega t+\varphi_1),\quad x_2=A_2\cos(\omega t+\varphi_2)</script><p>合振动仍然是谐振动，即 $x=A\cos(\omega t+\varphi)$</p>
+<script type="math/tex; mode=display">
+\begin{align}
+&A=\sqrt{A_1^2+A_2^2+2A_1A_2\cos(\varphi_2-\varphi_1)}\\
+&\varphi=\arctan\frac{A_1\sin\varphi_1+A_2\sin\varphi_2}{A_1\cos\varphi_1+A_2\cos\varphi_2}
+\end{align}</script><p><strong>同方向不同频率谐振动的合成</strong></p>
+<p>设物体沿 $x$ 轴同时参与两个独立振动，简便起见设分振动的初相均为零</p>
+<p>合振幅的大小为 $\begin{aligned}A=\sqrt{A_1^2+A_2^2+2A_1A_2\cos(\omega_2-\omega_1)t}\end{aligned}$</p>
+<p>当 $A_1=A_2$ 时，$\begin{align}x=2A_1\cos(\frac{\omega_2-\omega_1}{2})t\cos(\frac{\omega_1+\omega_2}{2})t\end{align}$<br>在 $\omega_2-\omega_1\ll\omega_1+\omega_2$ 的条件下，振幅随时间周期变化<br>合振动强弱交替变化的现象称为拍，单位时间内振动忽强（或忽弱）的次数称为拍频</p>
+<script type="math/tex; mode=display">
+\begin{align}\nu_{拍}=\frac{\omega_2}{2\pi}-\frac{\omega_1}{2\pi}=\nu_2-\nu_1\end{align}</script><p>拍频是 $\begin{align}\cos(\frac{\omega_2-\omega_1}{2})t\end{align}$ 的振动频率的两倍</p>
+<hr>
+<h2 id="Chapter-6-机械波"><a href="#Chapter-6-机械波" class="headerlink" title="Chapter-6 机械波"></a>Chapter-6 机械波</h2><h3 id="纵波与横波"><a href="#纵波与横波" class="headerlink" title="纵波与横波"></a>纵波与横波</h3><p>当机械波在某媒质中进行传播时，媒质中各质点只在平衡位置附近作振动<br>质点振动方向与波的传播方向垂直的波称为 <strong>横波</strong><br>质点振动方向与波的传播方向平行的波称为 <strong>纵波</strong></p>
+<h3 id="一维波的一般表达式"><a href="#一维波的一般表达式" class="headerlink" title="一维波的一般表达式"></a>一维波的一般表达式</h3><p>假设函数 $f$ 描述波的形状，波的传播速度为 $u$ ，在坐标 $x$ 处的波形可以表示为</p>
+<script type="math/tex; mode=display">
+y(x,0)=f(x),\quad y(x,t)=f(x-ut)</script><h3 id="平面简谐波的波函数"><a href="#平面简谐波的波函数" class="headerlink" title="平面简谐波的波函数"></a>平面简谐波的波函数</h3><script type="math/tex; mode=display">
+\begin{align}
+&y(x,t)=A\cos\omega(t-\frac{x}{u})\\
+&v=-A\omega\sin\omega(t-\frac{x}{u})\\
+
+\end{align}</script><h3 id="一维波的波动微分方程"><a href="#一维波的波动微分方程" class="headerlink" title="一维波的波动微分方程"></a>一维波的波动微分方程</h3><p>讨论平面简谐波满足的微分方程，令 $\begin{align}y(x,t)=A\cos\omega(t-\frac{x}{u})\end{align}$ ，则有</p>
+<script type="math/tex; mode=display">
+\begin{cases}
+\begin{align}
+&\frac{\partial^2y}{\partial x^2}=
+-(\frac{\omega}{u})^2A\cos\omega(t-\frac{x}{u})\\
+&\frac{\partial^2y}{\partial t^2}=
+-\omega^2A\cos\omega(t-\frac{x}{u})
+\end{align}
+\end{cases}
+\Rightarrow
+\frac{\partial^2y}{\partial x^2}=
+\frac{1}{u^2}\frac{\partial^2y}{\partial t^2}</script><p>假设绳上张力为 $F$ ，绳的线密度为 $\mu$ ，在一小段绳上分析，有</p>
+<script type="math/tex; mode=display">
+\begin{align}
+\sum F_y
+&=F(\sin\theta_2-\sin\theta_1)\\
+&=F(\tan\theta_2-\tan\theta_1)\\
+&=F[(\frac{\partial y}{\partial x})_2-(\frac{\partial y}{\partial x})_1]\\
+&\approx F\frac{\partial^2 y}{\partial x^2}\Delta x\\
+\end{align}</script><script type="math/tex; mode=display">
+\begin{align}
+&\sum F_y=ma_y
+\Rightarrow
+F\frac{\partial^2 y}{\partial x^2}\Delta x
+=\mu\Delta x\frac{\partial^2y}{\partial t^2}\\
+&\Rightarrow\frac{\partial^2y}{\partial x^2}=\frac{\mu}{F}\frac{\partial^2 y}{\partial t^2}
+\end{align}</script><p>由此可以得到绳上横波的传播速度为 $\begin{align}u=\sqrt{\frac{F}{\mu}}\end{align}$<br>在棒中纵波的传播速度为 $\begin{align}u=\sqrt{\frac{Y}{\rho}}\end{align}$ 其中 $Y$ 为杨氏模量，反应棒的弹性<br>杨氏模量的定义为 $\begin{align}Y=\frac{(\frac{F}{s})}{\frac{\Delta l}{l_0}}\end{align}$ ，其中 $\begin{align}\frac{F}{s}\end{align}$ 表示应力， $\begin{align}\frac{\Delta l}{l_0}\end{align}$ 表示应变</p>
+<h3 id="波的能量"><a href="#波的能量" class="headerlink" title="波的能量"></a>波的能量</h3><p>线元在 $y$ 方向的振动速度为 $\begin{align}v=\frac{\partial y}{\partial t}\end{align}$ ，其动能为</p>
+<script type="math/tex; mode=display">
+\Delta E_k=\frac{1}{2}\Delta mv^2=\frac{1}{2}\mu\Delta x(\frac{\partial y}{\partial t})^2</script><p>线元的伸长量为 $\delta l=\sqrt{\Delta x^2+\Delta y^2}-\Delta x$ ，在小位移下近似</p>
+<script type="math/tex; mode=display">
+\Delta E_p=F\delta l=F[\sqrt{\Delta x^2+\Delta y^2}-\Delta x]
+\approx F\cdot\frac{1}{2}(\frac{\partial y}{\partial x})^2\Delta x</script><p>将 $y$ 分别对 $t$ 和 $x$ 求一阶偏导，并代入 $F=\mu u^2$</p>
+<script type="math/tex; mode=display">
+E=\mu A^2\omega^2\sin^2\omega(t-\frac{x}{u})\Delta x</script><p>线能量密度的平均值为</p>
+<script type="math/tex; mode=display">
+\overline{(\frac{\Delta E}{\Delta x})}=\mu A^2\omega^2\overline{[\sin\omega(t-\frac{x}{u})]^2}=\frac{1}{2}\mu A^2\omega^2</script><p>如果为三维空间，引入体密度 $\rho$ ，则 $\begin{align}\overline{\omega}=\frac{1}{2}\rho A^2\omega^2\end{align}$</p>
+<h3 id="能流密度"><a href="#能流密度" class="headerlink" title="能流密度"></a>能流密度</h3><p>简谐波所传递的功率为</p>
+<script type="math/tex; mode=display">
+\begin{align}
+&P=u\mu A^2\omega^2\sin^2\omega(t-\frac{x}{u})\\
+&\overline{P}=\frac{1}{2}u\mu A^2\omega^2
+\end{align}</script><p>平均能流密度等于平均能量密度与波速的乘积</p>
+<script type="math/tex; mode=display">
+I=\overline{\omega}u=\frac{1}{2}\rho A^2\omega^2u</script><p>取离波源单位距离处的振幅为 $A_0$ ,则距离波源任一 $r$ 处的振幅为 $\begin{align}A=\frac{A_0}{r}\end{align}$</p>
+<h3 id="叠加原理"><a href="#叠加原理" class="headerlink" title="叠加原理"></a>叠加原理</h3><p>任一处质点的振动是各个波单独在该点产生的振动的合成</p>
+<h3 id="驻波"><a href="#驻波" class="headerlink" title="驻波"></a>驻波</h3><p>当两列振幅相等，沿相反方向传播的相干波叠加时将形成驻波，其表达式为</p>
+<script type="math/tex; mode=display">
+\begin{align}
+&y_1=A\cos(\omega t-\frac{2\pi}{\lambda}x)\\
+&y_2=A\cos(\omega t+\frac{2\pi}{\lambda}x)\\
+&y=y_1+y_2=2A\cos\frac{2\pi}{\lambda}x\cos\omega t
+\end{align}</script><p>其中 $x=k\frac{\lambda}{2}$ 处合振幅最大，这些点称为波腹，$x=(2k+1)\frac{\lambda}{4}$ 处最小，称为波节<br>在相邻波节之间动能和势能的总和保持不变，为 $\frac{1}{2}\mu A^2\omega^2\lambda$</p>
+<p>反射波与入射波叠加的合振动为零，入射波在反射时有 $\pi$ 的突变，称为半波损失</p>
+<p>对于两端固定的绳子，只有特定频率的驻波可以存在，即 $\begin{align}\lambda_n=\frac{4L}{n},n=2,4,6,\cdots\end{align}$<br>对于一端可自由移动的绳子，同理，有 $\begin{align}\lambda_n=\frac{4L}{n},n=1,3,5,\cdots\end{align}$</p>
+<h3 id="多普勒效应"><a href="#多普勒效应" class="headerlink" title="多普勒效应"></a>多普勒效应</h3><p><strong>（1）波源相对媒质静止，观察者以 $v_R$ 向波源运动</strong></p>
+<p>若波长为 $\lambda$ ，波速为 $u$ ，相当于波以速度 $u+v_R$ 向观察者移动<br>则观察者接收到的波的频率为</p>
+<script type="math/tex; mode=display">
+\nu_R=\frac{u+v_R}{\lambda}=(\frac{u+v_R}{u})\nu_s</script><p><strong>（2）观察者相对媒质静止，波源以 $v_s$ 向观察者运动</strong></p>
+<p>波源的运动导致波的波长发生变化，可推导出以下关系</p>
+<script type="math/tex; mode=display">
+\begin{align}
+\lambda'&=\lambda-v_sT_s=(u-v_s)T_s\\
+\nu_R&=\frac{u}{\lambda'}=\frac{u}{(u-v_s)T_s}=\frac{u}{u-v_s}\nu_s
+\end{align}</script><p><strong>（3）波源和观察者在同一直线上同时运动</strong></p>
+<p>综合上述两种情况，可以得到</p>
+<script type="math/tex; mode=display">
+\nu_R=\frac{u+v_R}{u-v_s}\nu_s</script><p><strong>（4）光波的多普勒效应</strong></p>
+<p>光源与接收器的相对运动速度为 $u$ ，在同一条直线上接收器收到的频率为</p>
+<script type="math/tex; mode=display">
+\nu_R=\sqrt{\frac{c+u}{c-u}}\nu_s</script><hr>
+<h2 id="Chapter-7-气体动理论"><a href="#Chapter-7-气体动理论" class="headerlink" title="Chapter-7 气体动理论"></a>Chapter-7 气体动理论</h2><h3 id="热力学系统"><a href="#热力学系统" class="headerlink" title="热力学系统"></a>热力学系统</h3><p><strong>孤立系统</strong> 系统与外界既无物质交换，也无能量交换<br><strong>封闭系统</strong> 系统与外界无物质交换，但有能量交换<br><strong>开放系统</strong> 系统与外界既有物质交换，又有能量交换</p>
+<h3 id="平衡态"><a href="#平衡态" class="headerlink" title="平衡态"></a>平衡态</h3><p>若封闭系统与外界没有能量交换，系统内部也不发生化学反应或核反应等过程，则经过足够长时间后系统可观测的宏观性质达到稳定，不再随时间而变化，系统这种状态称为平衡态</p>
+<p>当系统与外界交换能量时，系统原来的平衡态就被破坏，能量交换后经过足够时间，系统又达到一个新的平衡态，系统的状态随时间的变化，叫作 <strong>热力学过程</strong></p>
+<h3 id="气体动理论的基本假设"><a href="#气体动理论的基本假设" class="headerlink" title="气体动理论的基本假设"></a>气体动理论的基本假设</h3><p><strong>分子及其运动假设</strong></p>
+<ul>
+<li>气体由大量分子组成</li>
+<li>每个分子都在不停地作无规则运动，并相互频繁碰撞</li>
+</ul>
+<p><strong>统计假设</strong></p>
+<ul>
+<li>气体处于平衡态时，分子的空间分布均匀</li>
+<li>气体处于平衡态时，分子沿各个方向运动的概率相等</li>
+</ul>
+<p><strong>理想气体的微观假设</strong></p>
+<ul>
+<li>理想气体分子本身的体积忽略不计，可视为弹性质点</li>
+<li>分子与分子之间，分子与器壁之间的碰撞是完全弹性碰撞</li>
+<li>除碰撞外，分子之间的相互作用力可以忽略<br>只有压强较低，温度较高的气体才遵守该微观假设</li>
+</ul>
+<h3 id="理想气体的压强公式"><a href="#理想气体的压强公式" class="headerlink" title="理想气体的压强公式"></a>理想气体的压强公式</h3><p>设理想气体由质量为 $\mu$ 的分子组成，处于平衡态，单位体积中的总分子数为 $n$ ，则</p>
+<script type="math/tex; mode=display">
+p=\frac{1}{3}n\mu\bar{v^2}=\frac{2}{3}n\bar{\epsilon_t}</script><p> $\begin{aligned}\bar{v^2}=\frac{\begin{aligned}\sum_in_iv_i^2\end{aligned}}{n}\end{aligned}$ 为气体分子速率二次方的统计平均值<br> $\begin{aligned}\bar{\epsilon_t}=\frac{\begin{aligned}\sum_in_i(\frac{1}{2}\mu v_i^2)\end{aligned}}{n}=\frac{\mu\bar{v^2}}{2}\end{aligned}$ 为平均每一个气体分子所具有的平动动能（平均平动动能）<br><strong>注:</strong> 此处的 $n$ 量纲为 $m^{-3}$ ，因此该压强公式的量纲是正确的</p>
+<h3 id="温度与分子平均平动动能"><a href="#温度与分子平均平动动能" class="headerlink" title="温度与分子平均平动动能"></a>温度与分子平均平动动能</h3><p>系统的温度 $T$ 与分子平均平动动能 $\bar{\epsilon_t}$ 之间存在单值函数关系，两者关系为</p>
+<script type="math/tex; mode=display">
+\bar{\epsilon_t}=\frac{3}{2}kT,\quad k=1.38\times10^{-23}\mathrm{J/K}</script><p>说明系统的温度越高，分子的平均平动动能越大，温度是分子平均平动动能的度量<br><strong>注:</strong> 系统整体运动的动能对温度是无影响的</p>
+<h3 id="气体分子的方均根速率"><a href="#气体分子的方均根速率" class="headerlink" title="气体分子的方均根速率"></a>气体分子的方均根速率</h3><p>气体分子速率二次方统计平均值 $\bar{v^2}$ 的二次方根 $\sqrt{\bar{v^2}}$ 称为气体分子的方均根速率</p>
+<script type="math/tex; mode=display">
+\begin{cases}
+\begin{aligned}
+&\bar{\epsilon_t}=\frac{1}{2}\mu\bar{v^2}\\
+&\bar{\epsilon_t}=\frac{3}{2}kT
+\end{aligned}
+\end{cases}
+\Rightarrow
+\sqrt{\bar{v^2}}=\sqrt{\frac{3kT}{\mu}}</script><p>若以 $N_A$ 表示阿伏伽德罗常数，则有</p>
+<script type="math/tex; mode=display">
+\begin{align}
+R&=N_Ak=(6.02\times10^{23}\times1.38\times10^{-23})\mathrm{J/(mol\cdot K)}\\
+&=8.31\mathrm{J/(mol\cdot K)}
+\end{align}</script><p>$R$ 称为摩尔气体常量，若以 $M$ 表示气体的摩尔质量，则公式可表示为</p>
+<script type="math/tex; mode=display">
+\sqrt{\bar{v^2}}=\sqrt{\frac{3kT}{\mu}}=\sqrt{\frac{3RT}{M}}</script><h3 id="理想气体状态方程"><a href="#理想气体状态方程" class="headerlink" title="理想气体状态方程"></a>理想气体状态方程</h3><p>将温度与分子平均平动动能的关系 $\begin{aligned}\bar{\epsilon_t}=\frac{3}{2}kT\end{aligned}$ 代入理想气体压强公式得到</p>
+<script type="math/tex; mode=display">
+p=nkT</script><p>由于 $\begin{aligned}n=\frac{N}{V},R=N_Ak\end{aligned}$ ，则上式还可以表示为</p>
+<script type="math/tex; mode=display">
+pV=\nu RT</script><p>其中 $\nu$ 表示理想气体的物质的量</p>
+<h3 id="自由度"><a href="#自由度" class="headerlink" title="自由度"></a>自由度</h3><p>确定物体的空间位置所必需的独立坐标数目称为该物体的自由度<br>包含平动自由度、转动自由度、振动自由度等</p>
+<h3 id="能量均分原理"><a href="#能量均分原理" class="headerlink" title="能量均分原理"></a>能量均分原理</h3><script type="math/tex; mode=display">
+\bar{\epsilon_t}
+=\frac{1}{2}\mu\bar{v^2}
+=\frac{1}{2}\mu\bar{v_x^2}
++\frac{1}{2}\mu\bar{v_y^2}
++\frac{1}{2}\mu\bar{v_z^2}
+=\frac{3}{2}kT</script><script type="math/tex; mode=display">
+\bar{v_x^2}=\bar{v_y^2}=\bar{v_z^2}</script><script type="math/tex; mode=display">
+\frac{1}{2}\mu\bar{v_x^2}
+=\frac{1}{2}\mu\bar{v_y^2}
+=\frac{1}{2}\mu\bar{v_z^2}
+=\frac{1}{2}kT</script><p>在平衡态下分子每个自由度的平均能量都相等，称为能量均分原理<br>液体和固体的温度较高时能量均分原理也适用</p>
+<p>平均每一个分子所具有的平动、转动和振动能量的总和称为气体分子的平均能量，用符号 $\bar{\epsilon}$ 表示，根据能量均分原理，若分子的自由度为 $i$ ，则分子的平均能量为</p>
+<script type="math/tex; mode=display">
+\bar{\epsilon}=\frac{i}{2}kT</script><p><strong>注:</strong> 热力学自由度中一个振动包含振动动能和振动势能两个自由度</p>
+<h3 id="理想气体的内能"><a href="#理想气体的内能" class="headerlink" title="理想气体的内能"></a>理想气体的内能</h3><p>与气体内部分子无序运动相联系的能量称为系统的内能（热力学能）</p>
+<p>物质的量为 $\nu$ 的理想气体的内能为</p>
+<script type="math/tex; mode=display">
+E=\nu N_A(\frac{i}{2}kT)=\nu\frac{i}{2}RT</script><p>当理想气体的量一定时，其内能仅决定于气体的温度</p>
+<h3 id="速率分布函数"><a href="#速率分布函数" class="headerlink" title="速率分布函数"></a>速率分布函数</h3><p>气体分子的速率分布函数为</p>
+<script type="math/tex; mode=display">
+f(v)=\frac{dN}{Ndv},\quad \int_0^\infty f(v)dv=1</script><p>速率分布函数 $f(v)$ 表示速率在 $v$ 附近单位速率区间内的分子数占总分子数的比率</p>
+<p><strong>（1）最概然速率</strong></p>
+<p>速率分布函数 $f(v)$ 的极大值对应的速率</p>
+<script type="math/tex; mode=display">
+\begin{align}\frac{df(v)}{dv}\Big{|}_{v_p}=0\end{align}</script><p><strong>（2）平均速率</strong></p>
+<p>大量分子速率的算术平均值，称为气体分子的平均速率</p>
+<script type="math/tex; mode=display">
+\overline{v}=\frac{\begin{align}\int vdN\end{align}}{N}=\int_0^\infty vf(v)dv</script><p><strong>（3）方均根速率</strong></p>
+<p>分子速率二次方统计平均值的二次方根</p>
+<script type="math/tex; mode=display">
+\overline{v^2}=\sqrt{\int_0^\infty v^2f(v)dv}</script><h3 id="麦克斯韦速率分布律"><a href="#麦克斯韦速率分布律" class="headerlink" title="麦克斯韦速率分布律"></a>麦克斯韦速率分布律</h3><p>理想气体处于平衡态时，速率在 $v$ 和 $v+dv$ 区间的分子数占总分子数的比率为</p>
+<script type="math/tex; mode=display">
+\begin{align}
+&\frac{dN}{N}=4\pi(\frac{\mu}{2\pi kT})^{\frac{3}{2}}e^{-\frac{\mu v^2}{2kT}}v^2\\
+&f(v)=\frac{4}{\sqrt{\pi}}e^{-\frac{v^2}{v_p^2}}(\frac{v^2}{v_p^3})
+\end{align}</script><script type="math/tex; mode=display">
+\begin{align}
+最概然速率:v_p=\sqrt{\frac{2kT}{\mu}}=\sqrt{\frac{2RT}{M}}\\
+平均速率:\overline{v}=\sqrt{\frac{8kT}{\pi\mu}}=\sqrt{\frac{8RT}{\pi M}}\\
+方均根速率:\sqrt{\overline{v^2}}=\sqrt{\frac{3kT}{\mu}}=\sqrt{\frac{3RT}{M}}\\
+v_p:\overline{v}:\sqrt{\overline{v^2}}=\sqrt{2}:\frac{8}{\pi}:\sqrt{3}
+\end{align}</script><h3 id="等温气压公式"><a href="#等温气压公式" class="headerlink" title="等温气压公式"></a>等温气压公式</h3><p>对于理想气体，有</p>
+<script type="math/tex; mode=display">
+\begin{cases}
+dp=-\rho gdh\\
+\begin{align}
+\rho=\frac{pM}{RT}
+\end{align}
+\end{cases}
+\Rightarrow
+\frac{dp}{p}=-\frac{Mg}{RT}dh
+\Rightarrow
+p=p_0e^{-\frac{Mgh}{RT}}</script><p>气体分子数密度按高度的分布</p>
+<script type="math/tex; mode=display">
+n=\frac{p_0}{kT}e^{-\frac{Mgh}{RT}}
+=n_0e^{-\frac{\mu gh}{kT}}
+=n_0e^{-\frac{\epsilon_p}{kT}}</script><h3 id="玻尔兹曼分布律"><a href="#玻尔兹曼分布律" class="headerlink" title="玻尔兹曼分布律"></a>玻尔兹曼分布律</h3><script type="math/tex; mode=display">
+dN_{v,r}=n_0(\frac{\mu}{2\pi kT})^{3/2}e^{-\frac{\epsilon}{kT}}
+\cdot dv_x
+\cdot dv_y
+\cdot dv_z
+\cdot dx
+\cdot dy
+\cdot dz</script><p>式中 $\epsilon=\epsilon_p+\epsilon_k$ ，即分子的平动动能和外力场的势能之和<br>$n_0$ 表示势能 $\epsilon_p=0$ 处的分子数密度</p>
+<h3 id="平均碰撞频率"><a href="#平均碰撞频率" class="headerlink" title="平均碰撞频率"></a>平均碰撞频率</h3><p>单位时间内一个分子与其他分子碰撞次数的统计平均值称为分子的平均碰撞频率 </p>
+<script type="math/tex; mode=display">
+\overline{Z}=\sqrt{2}\pi d^2n\overline{v}</script><p>其中 $d$ 为气体分子的有效直径，$n$ 为气体分子的数密度</p>
+<h3 id="平均自由程"><a href="#平均自由程" class="headerlink" title="平均自由程"></a>平均自由程</h3><script type="math/tex; mode=display">
+\overline{\lambda}=\frac{\overline{v}}{\overline{Z}}=\frac{1}{\sqrt{2}\pi d^2n}</script><h3 id="热传导现象"><a href="#热传导现象" class="headerlink" title="热传导现象"></a>热传导现象</h3><p>假设气体温度仅与坐标 $z$ 有关， $dQ$ 表示 $dt$ 内沿 $z$ 轴正方向通过 $dS$ 传递的热量， $\begin{align}\frac{dT}{dz}\end{align}$ 表示 $dS$ 处温度的梯度，则有热传导定律</p>
+<script type="math/tex; mode=display">
+\begin{align}
+dQ&=-\kappa\frac{dT}{dz}dSdt\\
+\kappa&=\frac{1}{6}ikn\overline{v}\overline{\lambda}\\
+\kappa&=\frac{ik}{3\pi d^2}\sqrt{\frac{kT}{\pi\mu}}
+\end{align}</script><p> $\kappa$ 与气体分子的自由度 $i$ 、分子数密度 $n$ 、分子的平均速率 $\overline{v}$ 和平均自由程 $\overline{\lambda}$ 成正比<br>热传导是分子热运动能量的迁移过程</p>
+<h3 id="黏滞现象"><a href="#黏滞现象" class="headerlink" title="黏滞现象"></a>黏滞现象</h3><p>气体各部分流速不同时，各部分气体相互作用使流速趋于一致，这一现象称为粘滞现象</p>
+<script type="math/tex; mode=display">
+f=-\eta\frac{du}{dz}dS</script><p>式中 $\eta$ 表示气体的黏度，上述定理称为黏滞定律</p>
+<script type="math/tex; mode=display">
+dP=-\eta\frac{du}{dz}dSdt</script><p>黏滞现象是气体内部分子定向动量迁移的结果</p>
+<script type="math/tex; mode=display">
+\eta=\frac{1}{3}n\mu\overline{v}\overline{\lambda}
+=\frac{1}{3}\rho\overline{v}\overline{\lambda}</script><h3 id="扩散现象"><a href="#扩散现象" class="headerlink" title="扩散现象"></a>扩散现象</h3><p>考虑纯扩散过程，两种气体的分子量、温度、压强均相等</p>
+<script type="math/tex; mode=display">
+dm=-D\frac{d\rho}{dz}dSdt</script><p>式中 $D$ 表示气体的扩散率，上述定理称为扩散定律</p>
+<script type="math/tex; mode=display">
+D=\frac{1}{3}\overline{v}\overline{\lambda}</script><script type="math/tex; mode=display">
+D=\frac{2}{3\sqrt{\mu}pd^2}(\frac{kT}{\pi})^{3/2}</script><p>扩散是分子质量的迁移过程</p>
+<h3 id="范德瓦尔斯方程"><a href="#范德瓦尔斯方程" class="headerlink" title="范德瓦尔斯方程"></a>范德瓦尔斯方程</h3><script type="math/tex; mode=display">
+\frac{pV}{\nu RT}=\zeta\neq1</script><p>其中 $\zeta$ 称为压缩因子，与气体的性质、压强和温度有关</p>
+<p>范德瓦尔斯理想气体与理想气体的差别主要为以下两点：</p>
+<ul>
+<li>实际气体分子本身的体积不能忽略</li>
+<li>实际气体分子之间的相互作用力不能忽略</li>
+</ul>
+<p><strong>（1）体积的修正</strong></p>
+<p>一个分子的不可压缩体积相当于分子自身体积的 $4$ 倍，$1\mathrm{mol}$ 分子的不可压缩体积为</p>
+<script type="math/tex; mode=display">
+\begin{align}
+&b=N_A\{4[\frac{4}{3}\pi(\frac{d}{2})^3\}=\frac{2}{3}N_A\pi d^3\\
+&修正后的体积=V-\nu b
+\end{align}</script><p><strong>（2）压强的修正</strong></p>
+<script type="math/tex; mode=display">
+\begin{align}
+&p_i\varpropto器壁附近受力的分子数密度\varpropto\frac{\nu}{V}\\
+&p_i\varpropto对器壁附近分子施力的其他分子数密度\frac{\nu}{V}\\
+&p_i=a(\frac{\nu}{V})^2\\
+&修正后的压强=(p+p_i)=[p+a(\frac{\nu}{V})^2]
+\end{align}</script><p>将修正后的压强、体积代入理想气体状态方程，得到范德瓦尔斯方程</p>
+<script type="math/tex; mode=display">
+\begin{bmatrix}
+\begin{align}
+p+a(\frac{\nu}{V})^2
+\end{align}
+\end{bmatrix}
+(V-\nu b)=\nu RT</script><p>当气体压强很低时 $\begin{align}V\gg \nu b,p\gg a(\frac{\nu}{V})^2\end{align}$ ，范德瓦尔斯方程退化为理想气体方程</p>
+<p><strong>临界温度 $T_K$</strong> 无论怎样恒温加压也不能使气体液化<br><strong>临界等温线</strong> 临界温度对应的等温线<br><strong>临界点</strong> 临界等温线上的拐点 $K$<br><strong>临界压强 $p_K$</strong> 临界点对应的压强<br><strong>临界摩尔体积 $V_K$</strong> 临界点对应的摩尔体积</p>
+<h3 id="实际气体的内能"><a href="#实际气体的内能" class="headerlink" title="实际气体的内能"></a>实际气体的内能</h3><p>实际气体的内能应等于所有分子热运动能量之和与相互作用力势能之和</p>
+<script type="math/tex; mode=display">
+\begin{align}
+&\Delta E_k=\nu C_{V,m}(T_2-T_1)\\
+&\Delta E_p=\int_{V_1}^{V_2}p_idV=\int_{V_1}^{V_2}a(\frac{\nu}{V})^2dV=\nu^2a(\frac{1}{V_1}-\frac{1}{V_2})\\
+&\Delta E=\Delta E_k+\Delta E_p=Q+A
+\end{align}</script><hr>
+<h2 id="Chapter-8-热力学基础"><a href="#Chapter-8-热力学基础" class="headerlink" title="Chapter-8 热力学基础"></a>Chapter-8 热力学基础</h2><h3 id="准静态过程"><a href="#准静态过程" class="headerlink" title="准静态过程"></a>准静态过程</h3><p>系统状态随时间的变化，称为热力学过程<br>从平衡态被某一干扰破坏到建立新的平衡态所需的时间称为弛豫时间<br>假设干扰非常微小，任意时刻系统偏离平衡态都非常微小，极限情形下，过程任意时刻系统都无限接近平衡态，这样的过程称为准静态过程<br>准静态过程还分为等温、绝热、等压、等体等准静态过程</p>
+<h3 id="热力学第一定律"><a href="#热力学第一定律" class="headerlink" title="热力学第一定律"></a>热力学第一定律</h3><p>若系统的初始内能为 $E_1$ ，从外界吸收的热量 $Q$ ，外界对系统所做的功 $A$ ，变到内能 $E_2$ 的终态，则根据能量守恒定律</p>
+<script type="math/tex; mode=display">
+\Delta E=E_2-E_1=Q+A</script><p>在微小的变化过程中，热力学第一定律还可以表示为</p>
+<script type="math/tex; mode=display">
+dE=dQ+dA</script><h3 id="理想气体的等体过程"><a href="#理想气体的等体过程" class="headerlink" title="理想气体的等体过程"></a>理想气体的等体过程</h3><p>等体过程中气体对外界不做功，内能变化与热量交换相等</p>
+<script type="math/tex; mode=display">
+\begin{align}
+&Q_V=\Delta E=\nu\frac{i}{2}R\Delta T=\nu\frac{i}{2}R(T_b-T_a)\\
+&C_{V,m}=\frac{dQ_V}{\nu dT}=\frac{i}{2}R\\
+&Q_V=\Delta E=\nu C_{V,m}\Delta T
+\end{align}</script><h3 id="理想气体的等压过程"><a href="#理想气体的等压过程" class="headerlink" title="理想气体的等压过程"></a>理想气体的等压过程</h3><p>等压过程中气体对外做功</p>
+<script type="math/tex; mode=display">
+(-A)=\int_{V_a}^{V_b}pdV=p(V_b-V_a)=p\Delta V=\nu R\Delta T</script><p>根据热力学第一定律，有</p>
+<script type="math/tex; mode=display">
+\begin{align}
+&Q_p=\Delta E-A=\nu(C_{V,m}+R)\Delta T\\
+&C_{p,m}=C_{V,m}+R\\
+&Q_p=\nu C_{p,m}\Delta T\\
+&\gamma=\frac{C_{p,m}}{C_{V,m}}=1+\frac{2}{i}
+\end{align}</script><h3 id="理想气体的等温过程"><a href="#理想气体的等温过程" class="headerlink" title="理想气体的等温过程"></a>理想气体的等温过程</h3><p>等温过程中理想气体吸收的热量全部转变为对外做功</p>
+<script type="math/tex; mode=display">
+Q_T=(-A)=\int_{V_a}^{V_b}pdV=\int_{V_a}^{V_b}\frac{\nu RT}{V}dV=\nu RT\ln\frac{V_b}{V_a}</script><h3 id="理想气体的绝热过程"><a href="#理想气体的绝热过程" class="headerlink" title="理想气体的绝热过程"></a>理想气体的绝热过程</h3><p>在理想气体的绝热准静态过程中 $p,V,T$ 之间的关系为</p>
+<script type="math/tex; mode=display">
+\begin{align}
+pV^{\gamma}&=常量\\
+V^{\gamma-1}T&=常量\\
+P^{\gamma-1}T^{-\gamma}&=常量
+\end{align}</script><h3 id="多方方程"><a href="#多方方程" class="headerlink" title="多方方程"></a>多方方程</h3><p>如果理想气体的过程方程为</p>
+<script type="math/tex; mode=display">
+pV^n=常量</script><p>那么这个过程称为多方过程，$n$ 称为多方指数</p>
+<script type="math/tex; mode=display">
+\begin{align}
+(-A)&=\int_{V_a}^{V_b}pdV=\int_{V_a}^{V_b}\frac{p_aV_a^n}{V^n}dV\\
+&=\frac{p_bV_b-p_aV_a}{1-n}=\frac{\Delta(pV)}{1-n}
+\end{align}</script><script type="math/tex; mode=display">
+C_m=\frac{n-\gamma}{n-1}C_{V,m}=\frac{(n-\gamma)R}{(n-1)(\gamma-1)}</script><h3 id="循环过程"><a href="#循环过程" class="headerlink" title="循环过程"></a>循环过程</h3><p>系统由初态出发，经过一系列状态变化回到初态的过程称为循环过程<br>在 $p-V$ 图像中准静态循环过程是一条闭合曲线，沿顺时针方向进行称为正循环</p>
+<p>热机指利用工作物质的正循环把系统吸收的热量不断转变为对外做功的机器</p>
+<script type="math/tex; mode=display">
+\eta=\frac{-A}{Q_{吸}}=\frac{Q_{吸}-Q_{放}}{Q_{吸}}</script><p>致冷机是外界对工作物质做功，利用逆循环低温向高温传递热量的机器</p>
+<script type="math/tex; mode=display">
+e=\frac{Q_{吸}}{A}=\frac{Q_{吸}}{Q_{放}-Q_{吸}}</script><h3 id="卡诺循环"><a href="#卡诺循环" class="headerlink" title="卡诺循环"></a>卡诺循环</h3><p>卡诺机只与温度为 $T_1$ 的高温热源和温度为 $T_2$ 的低温热源交换热量，整个循环由两个等温准静态过程和两个绝热准静态过程组成，称为卡诺循环</p>
+<script type="math/tex; mode=display">
+\eta_C=\frac{-A}{Q_{吸}}=\frac{Q_{吸}-Q_{放}}{Q_{吸}}=\frac{T_1-T_2}{T_1}</script><script type="math/tex; mode=display">
+e_c=\frac{Q_吸}{A}=\frac{Q_吸}{Q_放-Q_吸}=\frac{T_2}{T_1-T_2}</script><h3 id="热力学第二定律"><a href="#热力学第二定律" class="headerlink" title="热力学第二定律"></a>热力学第二定律</h3><p><strong>开尔文表述</strong><br>不可能从单一热源吸取热量，使之完全变为功，而不产生其它变化</p>
+<p><strong>克劳修斯表述</strong><br>热量不可能从低温物体传向高温物体，而不产生其它变化</p>
+<h3 id="可逆过程与不可逆过程"><a href="#可逆过程与不可逆过程" class="headerlink" title="可逆过程与不可逆过程"></a>可逆过程与不可逆过程</h3><p><strong>可逆过程</strong><br>如果一个过程可以逆向进行，系统和外界都回到原来的状态，而不发生其他任何变化</p>
+<p><strong>不可逆过程</strong><br>如果经历一个过程后，任何方法均不能使系统和外界都完全复原</p>
+<h3 id="卡诺定理"><a href="#卡诺定理" class="headerlink" title="卡诺定理"></a>卡诺定理</h3><p>在两个温度一定的热源之间，一切卡诺循环的效率都相等，与工作物质无关<br>在两个温度一定的热源之间，一切不可逆循环的效率必小于卡诺循环的效率</p>
+<p>提高热机效率的方向：提高高温热源温度、降低低温热源温度、尽可能接近可逆循环</p>
+<h3 id="熵"><a href="#熵" class="headerlink" title="熵"></a>熵</h3><p>对于任意可逆循环可以分解为许多小卡诺循环，对于每个小卡诺循环，有：</p>
+<script type="math/tex; mode=display">
+\frac{dQ_1}{T_1}+\frac{dQ_2}{T_2}=0,\quad 
+\frac{dQ_3}{T_3}+\frac{dQ_4}{T_4}=0,\quad
+\cdots</script><p>将各式相加得到</p>
+<script type="math/tex; mode=display">
+\sum\frac{dQ_i}{T_i}=0,\quad\oint\frac{dQ}{T}=0(可逆循环)</script><p>定义熵为</p>
+<script type="math/tex; mode=display">
+dS=\frac{dQ}{T}(可逆过程)\quad\Delta S=S_b-S_a=\int_a^b\frac{dQ}{T}(任意可逆过程)</script><h3 id="理想气体的熵变"><a href="#理想气体的熵变" class="headerlink" title="理想气体的熵变"></a>理想气体的熵变</h3><p><strong>绝热可逆过程</strong> $\begin{align}\Delta S=\int_a^b\frac{dQ}{T}=0\end{align}$</p>
+<p><strong>等体可逆过程</strong> $\begin{align}\Delta S=\int_{T_a}^{T_b}\frac{\nu C_{V,m}dT}{T}=\nu C_{V,m}\ln\frac{T_b}{T_a}\end{align}$</p>
+<p><strong>等压可逆过程</strong> $\begin{align}\Delta S=\int_{T_a}^{T_b}\frac{\nu C_{p,m}dT}{T}=\nu C_{p,m}\ln\frac{T_b}{T_a}\end{align}$</p>
+<p><strong>等温可逆过程</strong> $\begin{align}\Delta S=\int_a^b\frac{dQ_t}{T}=\nu R\ln\frac{V_b}{V_a}\end{align}$</p>
+<p><strong>可逆相变化</strong> $\begin{align}\Delta S=\frac{Q}{T}\end{align}$ 其中 $Q$ 为相平衡状态下的相变热</p>
+<h3 id="熵增原理"><a href="#熵增原理" class="headerlink" title="熵增原理"></a>熵增原理</h3><p>孤立系统的自发过程总是向着熵增大的方向进行，当熵达到最大时孤立系统达到平衡态</p>
+<script type="math/tex; mode=display">
+\Delta S\geq 0\quad(孤立系统)</script><p>熵增原理是热力学第二定律的另一种表述</p>
+<p>孤立系统内，一切自发过程总是朝分子运动无序性增强，微观态数目增多，出现概率大的宏观态方向进行</p>
+<h3 id="玻尔兹曼熵公式"><a href="#玻尔兹曼熵公式" class="headerlink" title="玻尔兹曼熵公式"></a>玻尔兹曼熵公式</h3><p>$S$ 为系统处于某宏观状态下的熵，$\omega$ 为宏观态的热力学概率，$k$ 为玻尔兹曼常量</p>
+<script type="math/tex; mode=display">
+S=k\ln\omega</script><p>为玻尔兹曼熵公式，熵是无序性的量度</p>
+<hr>
+<h2 id="Chapter-9-真空中的静电场"><a href="#Chapter-9-真空中的静电场" class="headerlink" title="Chapter-9 真空中的静电场"></a>Chapter-9 真空中的静电场</h2><h3 id="电荷守恒定律"><a href="#电荷守恒定律" class="headerlink" title="电荷守恒定律"></a>电荷守恒定律</h3><p>一个孤立系统的总电荷数保持不变，电荷既不能被创造，也不能被消灭，它只能从一个物体转移到另一个物体，或者从物体的一部分转移到物体的另一部分</p>
+<h3 id="电荷的量子化"><a href="#电荷的量子化" class="headerlink" title="电荷的量子化"></a>电荷的量子化</h3><p>自然界任何可被观测到的电荷总是以一个基本电荷单元 $e$ 的整数倍出现的，即 $q=ne(n\in Z)$ 这个基本电荷单元 $e$ 称为电荷量子</p>
+<h3 id="电荷的运动不变性"><a href="#电荷的运动不变性" class="headerlink" title="电荷的运动不变性"></a>电荷的运动不变性</h3><p>一个电荷的电量与其运动状态无关，在不同参照系中对电荷进行测量，测得的量值都相同，电荷的这一性质称为电荷的运动不变性</p>
+<h3 id="库仑定律"><a href="#库仑定律" class="headerlink" title="库仑定律"></a>库仑定律</h3><p>真空中两个静止的点电荷 $q_1$ 与 $q_2$ 之间的相互作用力的大小和 $q_1,q_2$ 的乘积成正比，和它们之间距离的平方成反比，作用力的方向沿着两点电荷的连线，同号电荷互斥，异号电荷相吸，库仑定律的数学表达式为 </p>
+<script type="math/tex; mode=display">
+F_{21}=k\frac{q_1q_2}{r_{12}^2}e_{12}
+=\frac{1}{4\pi\varepsilon_0}\frac{q_1q_2}{r_{12}^2}e_{12}</script><p>其中有 $k=8.99\times10^9 \mathrm{N}\cdot\mathrm{m}^2/\mathrm{C}^2,\varepsilon=8.85\times10^{-12}\mathrm{C}^2/(\mathrm{N}\cdot\mathrm{m}^2)$ 该公式只适用于点电荷</p>
+<h3 id="电力叠加原理"><a href="#电力叠加原理" class="headerlink" title="电力叠加原理"></a>电力叠加原理</h3><p>空间中任意两点之间的相互作用力遵循库仑定律，不因其它点电荷存在而改变</p>
+<script type="math/tex; mode=display">
+\begin{align}
+F_1&=F_{12}+F_{13}+\cdots+F_{1n}=\sum_{i=2}^{n}F_{1i}\\
+&=\sum_{i=2}^n\frac{1}{4\pi\varepsilon_0}\frac{q_1q_i}{r_{1i}^2}e_{1i}
+\end{align}</script><p>上述叠加原理并非对任何情况都成立，特别是在极强电力作用时需要实验确定是否适用</p>
+<h3 id="电场"><a href="#电场" class="headerlink" title="电场"></a>电场</h3><p>任何电荷都在其周围空间激发电场，称为场源电荷。电荷相对于观察者是静止时，其周围的电场称为静电场，静电场对于场中的电荷有力的作用，称为静电场力或静电力<br>【注】电场不仅常常伴随电荷存在，且可脱离电荷而独立存在</p>
+<h3 id="电场强度"><a href="#电场强度" class="headerlink" title="电场强度"></a>电场强度</h3><p>试验电荷所受到的作用力 $F$ 与试验电荷的带电量 $q_0$ 的比值定义为电场强度</p>
+<script type="math/tex; mode=display">
+E=\frac{F}{q_0}=\frac{1}{4\pi\varepsilon_0}\frac{q}{r^2}e_r\quad(后式为点电荷)</script><h3 id="电场强度叠加原理"><a href="#电场强度叠加原理" class="headerlink" title="电场强度叠加原理"></a>电场强度叠加原理</h3><p>点电荷系所产生的电场在某点的场强等于各点电荷单独存在时所产生的电场在该点的场强的矢量和，称为电场强度叠加原理</p>
+<script type="math/tex; mode=display">
+E=E_1+E_2+\cdots+E_n=\sum_{i=1}^nE_i
+=\frac{1}{4\pi\varepsilon_0}\sum_{i=1}^n\frac{q_i}{r_i^2}e_i</script><h3 id="连续分布电荷电场的场强"><a href="#连续分布电荷电场的场强" class="headerlink" title="连续分布电荷电场的场强"></a>连续分布电荷电场的场强</h3><p>将带电体分割成许多微小的电荷元 $\mathrm{d}q$ ，根据场强叠加原理，场强为</p>
+<script type="math/tex; mode=display">
+E=\int dE=\frac{1}{4\pi\varepsilon_0}\int_V\frac{dq}{r^2}e_r</script><p>在具体计算中可以进行标准正交分解，求出标量积分后得到合场强</p>
+<script type="math/tex; mode=display">
+\begin{align}
+E_x=\int dE_x,&\quad E_y=\int dE_y,\quad E_z=\int dE_z\\
+&E=E_xi+E_yj+E_zk
+\end{align}</script><h3 id="电偶极子"><a href="#电偶极子" class="headerlink" title="电偶极子"></a>电偶极子</h3><p>等量异号电荷 $+q$ 和 $-q$ ，相距为 $l$ ，当观察点到两电荷连线的距离 $x\gg l$ 时，则这对点电荷称电偶极子，定义电偶极矩 $p_e=ql$ ，则中垂线上一点 $P$ 的场强满足</p>
+<script type="math/tex; mode=display">
+E=\frac{1}{4\pi\varepsilon_0}\frac{ql}{[x^2+(l/2)^2]^{3/2}}
+=\frac{1}{4\pi\varepsilon_0}\frac{p_e}{x^3}</script><p>当距离很大时，电偶极子的场强衰减比点电荷要迅速得多</p>
+<h3 id="电场线"><a href="#电场线" class="headerlink" title="电场线"></a>电场线</h3><p>在任何电场中，每一点的场强 $E$ 都有确定的大小和方向，电场线的切线方向与场强方向一致，规定垂直于电场方向的面积元上通过电场线数量正比于场强大小</p>
+<script type="math/tex; mode=display">
+E=\frac{dN}{dS}</script><p>则电场线满足一下三条重要性质</p>
+<ul>
+<li>电场线起自正电荷，终止于负电荷，不会在无电荷处中断</li>
+<li>任意两条电场线不会相交</li>
+<li>静电场中的电场线不形成闭合曲线<h3 id="电通量"><a href="#电通量" class="headerlink" title="电通量"></a>电通量</h3></li>
+</ul>
+<p>定义 $d\Phi_e=E\cdot dS$ 为通过面积元的电通量，面积元的电通量即通过该面积元的电场线总数，求解曲面 $S$ 的电通量需要先对曲面进行划分，经过叠加后得到电通量</p>
+<script type="math/tex; mode=display">
+\Phi_e=\int d\Phi_e=\int E\cos\theta dS=\int_sE\cdot dS</script><p>通过闭合曲面的通量可以写为</p>
+<script type="math/tex; mode=display">
+\Phi_e=\oint_sE\cos\theta dS=\oint E\cdot dS</script><p>如果通过闭合曲面的电通量为零，并不意味着一定没有电场线通过该曲面，更非曲面上的场强处处为零</p>
+<h3 id="高斯定理"><a href="#高斯定理" class="headerlink" title="高斯定理"></a>高斯定理</h3><p>通过任意闭合曲面的电通量等于该曲面所包围的所有电量的代数和除以 $\varepsilon_0$</p>
+<script type="math/tex; mode=display">
+\Phi_e=\oint_sE\cdot dS=\frac{1}{\varepsilon_0}\sum_iq_i</script><ul>
+<li>高斯定理说明了静电场是有源场，如果某处有电场线穿过而不中断，则通过该处闭合面的通量为零，说明此处无电荷</li>
+<li><p>高斯定理是从库仑定律和叠加原理推导出来的，对随时间变化的电场也成立</p>
+<h3 id="特殊场强分布"><a href="#特殊场强分布" class="headerlink" title="特殊场强分布"></a>特殊场强分布</h3></li>
+<li><p>均匀带电球面的场强分布</p>
+<script type="math/tex; mode=display">
+E=\begin{cases}
+\begin{align}\frac{Q}{4\pi\varepsilon_0 r^2}\end{align},&r>R\\
+0,&r<R
+\end{cases}</script></li>
+<li>均匀带电球体的场强分布<script type="math/tex; mode=display">
+E=\begin{cases}
+\begin{align}\frac{Q}{4\pi\varepsilon_0 r^2},\quad&r>R\\
+\frac{Qr}{4\pi\varepsilon_0 R^3},\quad&r<R\end{align}
+\end{cases}</script></li>
+<li>无限长均匀带电圆柱面场强分布（$\lambda$ 为电荷线密度）<script type="math/tex; mode=display">
+E=\begin{cases}
+\begin{align}\frac{\lambda}{2\pi\varepsilon_0r}\end{align},&r>R\\
+0,&r<R
+\end{cases}</script>球对称分布的电荷在球外产生的电场，与将全部电荷集中在球心时的场强分布相同<br>均匀带电圆柱面外的电场，与将圆柱面上的电量集中在其中心轴线上的电场等效<br>无限大均匀带电平面的电场是匀强电场<h3 id="静电场力的功"><a href="#静电场力的功" class="headerlink" title="静电场力的功"></a>静电场力的功</h3></li>
+</ul>
+<p>当试验电荷在静止点电荷电场中移动时，电场力所做的功仅与试验电荷电量的大小及其起点和终点的位置有关，而与电荷移动的路径无关</p>
+<script type="math/tex; mode=display">
+\begin{align}
+A_{ab}&=\int_a^bq_0E\cdot dl=q_0\int_a^b(E_1+E_2+\cdots+E_n)\cdot dl\\
+&=A_{1ab}+A_{2ab}+\cdots+A_{nab}=\sum_{i=1}^n
+\frac{q_0q_i}{4\pi\varepsilon_0}(\frac{1}{r_{ia}}-\frac{1}{r_{ib}})
+\end{align}</script><p>静电场力是保守力，静电场是保守场</p>
+<h3 id="静电场的环路定理"><a href="#静电场的环路定理" class="headerlink" title="静电场的环路定理"></a>静电场的环路定理</h3><p>在静电场中，电场强度沿任意闭合回路的线积分恒等于零</p>
+<script type="math/tex; mode=display">
+\oint_LE\cdot dl=0</script><p>等式的左侧积分称为静电场的环流</p>
+<h3 id="电势能"><a href="#电势能" class="headerlink" title="电势能"></a>电势能</h3><p>取离场源电荷无限远处电势能为零，则试验电荷 $q_0$ 在电场中任一点 $P$ 处的电势能为</p>
+<script type="math/tex; mode=display">
+W_P=A_{P\infty}=\int^{\infty}_P q_0E\cdot dl</script><p>试验电荷 $q_0$ 在电场中 $P$ 电的电势能 $W_P$ 在数值上等于将 $q_0$ 从 $P$ 点移至无限远处电场力所做的功<br>如果场源电荷延伸到了无限远处，再选取无限远处的电势为零是不合理的</p>
+<h3 id="电势"><a href="#电势" class="headerlink" title="电势"></a>电势</h3><p>电势仅与进电场中给定点的位置有关，与电荷 $q_0$ 无关</p>
+<script type="math/tex; mode=display">
+U_P=\frac{W_P}{q_0}=\int^{\infty}_PE\cdot dl</script><p>静电场中某点的电势在数值上等于单位正电荷在该处所具有的电势能，也等于单位正电荷从该点经过任意路径迁移到无限远处电场力对它所作的功</p>
+<script type="math/tex; mode=display">
+U_{ab}=U_a-U_b=\int_a^\infty E\cdot dl-\int_b^\infty E\cdot dl
+=\int_a^bE\cdot dl</script><p>静电场中 $a,b$ 两点的电势差，在数值上等于将单位正电荷从电场中 $a$ 点移到 $b$ 点时电场力所做的功</p>
+<p>均匀带电球面外任一场点的电势与所有电荷集中球心的点电荷产生的电势相同，球面内任一点的电势都与球面上的电势相等</p>
+<h3 id="电势叠加原理"><a href="#电势叠加原理" class="headerlink" title="电势叠加原理"></a>电势叠加原理</h3><p>点电荷电场中的电势</p>
+<script type="math/tex; mode=display">
+U_P=\int^{\infty}_PE\cdot dl
+=\int^{\infty}_r\frac{q}{4\pi\varepsilon_0r^2}dr=\frac{q}{4\pi\varepsilon_0r}=\frac{kq}{r}</script><p>点电荷系电场中的电势</p>
+<script type="math/tex; mode=display">
+\begin{align}
+U_P&=\int^{\infty}_P E\cdot dl
+=\int^{\infty}_P(E_1+E_2+\cdots+E_n)\cdot dl\\
+&=U_{P1}+U_{P2}+\cdots+U_{Pn}\\
+&=\sum_{i=1}^nU_{Pi}=\sum_{i=1}^n\frac{q_i}{4\pi\varepsilon_0 r_i}
+\end{align}</script><p>在点电荷系电场中某点的电势，等于每个点电荷单独存在时在该点所产生的电势的代数和，称为静电场中的电势叠加原理</p>
+<h3 id="等势面"><a href="#等势面" class="headerlink" title="等势面"></a>等势面</h3><p>在静电场中，一般来说电势值是逐点变化的，但总存在许多电势值相等的点，这些点可以连成曲面，称这些曲面为等势面，等势面和电场线有以下关系</p>
+<ul>
+<li>等势面与电场线处处正交</li>
+<li>等势面密的地方场强大，稀疏的地方场强小<h3 id="电势梯度"><a href="#电势梯度" class="headerlink" title="电势梯度"></a>电势梯度</h3></li>
+</ul>
+<p>电场中某点场强在任一方向上的分量等于电势在此方向上变化率的负值，符号表示场强方向指向电势降低的方向</p>
+<script type="math/tex; mode=display">
+E_l=-\frac{dU}{dl}</script><p>设 $n$ 为法线方向，定义一个矢量大小等于 $\begin{align}\frac{dU}{dn}\end{align}$ 方向指向电势升高的方向，这个矢量称为电势梯度，用 $\nabla U$ 或 $\text{grad} U$ 表示 </p>
+<script type="math/tex; mode=display">
+\nabla U=\frac{dU}{dn}e_n,\quad E=-\frac{dU}{dn}e_n=-\nabla U=-\text{grad} U</script><p>在电场中任一点的电场强度矢量，等于该点电势梯度矢量的负值，符号表示场强与电势梯度方向相反，标准正交分解可得</p>
+<script type="math/tex; mode=display">
+E=-(\frac{\partial U}{\partial x}i+\frac{\partial U}{\partial y}j+\frac{\partial U}{\partial z}k)</script>]]></content>
       <tags>
         <tag>课程笔记</tag>
       </tags>
@@ -1209,580 +1957,6 @@ A\cdot e_n=P\cos\alpha+Q\cos\beta+R\cos\gamma</script><p>在 $S$ 上的第一类
       </tags>
   </entry>
   <entry>
-    <title>大学物理甲I</title>
-    <url>/2025/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E7%94%B2I/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Chapter-1-质点运动学"><a href="#Chapter-1-质点运动学" class="headerlink" title="Chapter-1 质点运动学"></a>Chapter-1 质点运动学</h2><p>【注】与中学内容基本一致，略</p>
-<hr>
-<h2 id="Chapter-2-质点动力学"><a href="#Chapter-2-质点动力学" class="headerlink" title="Chapter-2 质点动力学"></a>Chapter-2 质点动力学</h2><h3 id="碰撞"><a href="#碰撞" class="headerlink" title="碰撞"></a>碰撞</h3><p>对于一般碰撞，恢复系数 $\begin{align}e=\frac{v_2’-v_1’}{v_1-v_2}\end{align}$ 与两球的质量和速度无关</p>
-<script type="math/tex; mode=display">
-\begin{align}
-v_1'=\frac{m_1v_1+m_2v_2}{m_1+m_2}-e\frac{m_2(v_1-v_2)}{m_1+m_2}\\
-v_2'=\frac{m_1v_1+m_2v_2}{m_1+m_2}-e\frac{m_1(v_2-v_1)}{m_1+m_2}
-\end{align}</script><span id="more"></span>
-<p>【注】其余与中学内容基本一致，略</p>
-<hr>
-<h2 id="Chapter-3-刚体力学与流体力学"><a href="#Chapter-3-刚体力学与流体力学" class="headerlink" title="Chapter-3 刚体力学与流体力学"></a>Chapter-3 刚体力学与流体力学</h2><h3 id="平动和转动"><a href="#平动和转动" class="headerlink" title="平动和转动"></a>平动和转动</h3><ul>
-<li>平动：刚体上任意两点的连线始终保持平行</li>
-<li>定轴转动：刚体中各个顶点都绕某一直线作圆周运动，转轴完全固定</li>
-<li>定点转定：刚体中各个顶点都绕某一直线作圆周运动，转轴一点固定<h3 id="定轴转动定律"><a href="#定轴转动定律" class="headerlink" title="定轴转动定律"></a>定轴转动定律</h3></li>
-</ul>
-<p>力的大小与力臂的乘积称为力对转轴的力矩，用符号 $M$ 来表示</p>
-<script type="math/tex; mode=display">
-M=Fd</script><p>如果力不在垂直于转轴的平面内，可将力分解为与转轴垂直、平行的分力</p>
-<p>刚体定轴转动时，角加速度 $\beta$ 与外力矩之和 $M$ ，与转动惯量 $J$ 成反比</p>
-<script type="math/tex; mode=display">
-M=J\beta</script><h3 id="转动惯量"><a href="#转动惯量" class="headerlink" title="转动惯量"></a>转动惯量</h3><p>刚体对转轴的转动惯量 $J$ 等于刚体上各质点的质量 $m_i$ 与各质点到转轴垂直距离二次方 $r_i^2$ 乘积之和 </p>
-<script type="math/tex; mode=display">
-J=\sum m_ir_i^2=\int r^2dm</script><p>细杆中心转动惯量：$\begin{align}\frac{1}{12}ml^2\end{align}$<br>细杆一端转动惯量：$\begin{align}\frac{1}{3}ml^2\end{align}$<br>圆柱体几何轴转动惯量：$\begin{align}\frac{1}{2}mR^2\end{align}$<br>球体沿直径转动惯量：$\begin{align}\frac{2}{5}mR^2\end{align}$</p>
-<p>若刚体对转轴的转动惯量为 $J$ ，则定义刚体对该轴的回转半径为 $R_G$ 为</p>
-<script type="math/tex; mode=display">
-R_G=\sqrt{\frac{J}{m}}</script><h3 id="平行轴定理"><a href="#平行轴定理" class="headerlink" title="平行轴定理"></a>平行轴定理</h3><p>刚体对任一转轴的转动惯量 $J$ 等于对通过质心的平行轴的转动惯量 $J_c$ 加上刚体质量 $m$ 与两平行轴间距离二次方 $h^2$ 的乘积，即</p>
-<script type="math/tex; mode=display">
-J=J_c+mh^2</script><h3 id="垂直轴定理"><a href="#垂直轴定理" class="headerlink" title="垂直轴定理"></a>垂直轴定理</h3><p>若刚体薄板在 $xy$ 平面内，对 $x$ 轴和 $y$ 轴的转动惯量分别为 $J_x,J_y$ ，则对 $J_z$ 有</p>
-<script type="math/tex; mode=display">
-J_z=J_x+J_y</script><h3 id="定轴转动动能"><a href="#定轴转动动能" class="headerlink" title="定轴转动动能"></a>定轴转动动能</h3><p>刚体绕定轴转动的动能等于刚体的转动惯量与角速度二次方乘积的一半</p>
-<script type="math/tex; mode=display">
-\begin{align}
-E_k&=\sum\frac{1}{2}m_iv_i^2=\sum\frac{1}{2}m_i(\omega r_i)^2\\
-&=\frac{1}{2}(\sum m_ir_i^2)\omega^2\\
-&=\frac{1}{2}J\omega^2
-\end{align}</script><h3 id="角动量定理"><a href="#角动量定理" class="headerlink" title="角动量定理"></a>角动量定理</h3><p>刚体对轴的角动量 $L$ 等于转动惯量 $J$ 与角速度 $\omega$ 的乘积</p>
-<script type="math/tex; mode=display">
-L=J\omega</script><p>刚体定轴转动时，对轴的外力矩之和等于对该轴的角动量随时间的变化率</p>
-<script type="math/tex; mode=display">
-M=\frac{dL}{dt}=\frac{d(J\omega)}{dt}</script><p>定轴转动的质点系外力矩之和对转轴的冲量矩等于质点系对该转轴角动量的增量</p>
-<h3 id="角动量守恒定律"><a href="#角动量守恒定律" class="headerlink" title="角动量守恒定律"></a>角动量守恒定律</h3><p>若定轴转动质点系所受对转轴的外力矩之和为零，则质点系对该转轴角动量守恒</p>
-<h3 id="刚体的平面运动"><a href="#刚体的平面运动" class="headerlink" title="刚体的平面运动"></a>刚体的平面运动</h3><p>刚体平面运动的平动速度、加速度与基点的选择有关，而转动角速度、角加速度与基点选择无关</p>
-<script type="math/tex; mode=display">
-E_k=\frac{1}{2}mv_c^2+\frac{1}{2}J_c\omega^2</script><h3 id="陀螺仪回转效应"><a href="#陀螺仪回转效应" class="headerlink" title="陀螺仪回转效应"></a>陀螺仪回转效应</h3><p>旋进的快慢用旋进角速度 $\Omega$ 描述，旋进角速度大小为</p>
-<script type="math/tex; mode=display">
-\Omega=\frac{M}{L\sin\varphi}=\frac{mgr}{J\omega}</script><h3 id="伯努利方程"><a href="#伯努利方程" class="headerlink" title="伯努利方程"></a>伯努利方程</h3><p>理想流体定常流动过程中，在管道的任一截面处，流体的压力能、动能和势能之和是一个常量，称为伯努利方程</p>
-<script type="math/tex; mode=display">
-\begin{align}
-&pV+\frac{1}{2}mv^2+mgh=常量\\
-&p+\frac{1}{2}\rho v^2+\rho gh=常量
-\end{align}</script><p>理想流体在平面管道内定常流动时，截面积小处流速较大，压强较小</p>
-<hr>
-<h2 id="Chapter-4-狭义相对论基础"><a href="#Chapter-4-狭义相对论基础" class="headerlink" title="Chapter-4 狭义相对论基础"></a>Chapter-4 狭义相对论基础</h2><h3 id="狭义相对论基本原理"><a href="#狭义相对论基本原理" class="headerlink" title="狭义相对论基本原理"></a>狭义相对论基本原理</h3><ul>
-<li>物理定律的表达形式在所有惯性系中都相同</li>
-<li>在所有惯性系中真空中的光速都相等<h3 id="洛伦兹变换"><a href="#洛伦兹变换" class="headerlink" title="洛伦兹变换"></a>洛伦兹变换</h3></li>
-</ul>
-<p>若惯性系 $K’$ 相对于 $K$ 系以速度 $u$ 沿 $x$ 轴的正方向作匀速直线运动，若事件在 $k$ 系中为 $(x,y,z,t)$ ，在 $k’$ 系中为 $(x’,y’,z’,t’)$ ，则有变换关系</p>
-<script type="math/tex; mode=display">
-\begin{aligned}
-&x'=\frac{x-ut}{\sqrt{1-u^2/c^2}}\\
-&y'=y\\
-&z'=z\\
-&t'=\frac{t-ux/c^2}{\sqrt{1-u^2/c^2}}
-\end{aligned}</script><h3 id="爱因斯坦速度变换"><a href="#爱因斯坦速度变换" class="headerlink" title="爱因斯坦速度变换"></a>爱因斯坦速度变换</h3><p>物体在 $K$ 系中的速度分量为 $(v_x,v_y,v_z)$ ，在 $K’$ 系中的速度分量为 $(v_x’,v_y’,v_z’)$ ，则</p>
-<script type="math/tex; mode=display">
-\begin{align}
-&v_x'=\frac{v_x-u}{1-uv_x/c^2}\\
-&v_y'=\frac{v_y\sqrt{1-u^2/c^2}}{1-uv_x/c^2}\\
-&v_z'=\frac{v_z\sqrt{1-u^2/c^2}}{1-uv_x/c^2}
-\end{align}</script><p>对洛伦兹变换两边求微分后求微商记得上式</p>
-<h3 id="长度收缩与时间膨胀"><a href="#长度收缩与时间膨胀" class="headerlink" title="长度收缩与时间膨胀"></a>长度收缩与时间膨胀</h3><p>在相对杆静止的惯性系中，杆的长度最大，等于杆的固有长度 $l_0$ ，在相对杆运动的惯性系中，杆沿运动方向的长度必小于固有长度，记相对运动速度为 $u$ ，有</p>
-<script type="math/tex; mode=display">
-l=l_0\sqrt{1-u^2/c^2}</script><p>在某惯性系中，两个事件发生在同一地点，则在这个惯性系中测得这两个事件的时间间隔最短，为固有时间 $\Delta t_0$ ，在其他惯性系中，这两个事件发生在不同地点，测得这两个事件的时间间隔大于固有时间，记相对运动速度为 $u$ ，有</p>
-<script type="math/tex; mode=display">
-\Delta t=\frac{\Delta t_0}{\sqrt{1-u^2/c^2}}</script><h3 id="质量与速度的关系"><a href="#质量与速度的关系" class="headerlink" title="质量与速度的关系"></a>质量与速度的关系</h3><p>物体的质量与自身的速度有关，质量与速度的关系为</p>
-<script type="math/tex; mode=display">
-m=\frac{m_0}{\sqrt{1-u^2/c^2}}</script><p>其中 $m_0$ 为静止质量，$m$ 为物体以速度 $v$ 运动时的质量</p>
-<h3 id="狭义相对论动力学方程"><a href="#狭义相对论动力学方程" class="headerlink" title="狭义相对论动力学方程"></a>狭义相对论动力学方程</h3><script type="math/tex; mode=display">
-\begin{align}
-p&=mv=\frac{m_0v}{\sqrt{1-v^2/c^2}}\\
-F&=\frac{dp}{dt}=\frac{d}{dt}(mv)=\frac{d}{dt}(\frac{m_0v}{\sqrt{1-v^2/c^2}})
-\end{align}</script><h3 id="相对论中的动能"><a href="#相对论中的动能" class="headerlink" title="相对论中的动能"></a>相对论中的动能</h3><p>物体的动能等于因运动而增加的质量 $\Delta m=m-m_0$ 与光速二次方的乘积</p>
-<script type="math/tex; mode=display">
-E_k=mc^2-m_0c^2=m_0c^2(\frac{1}{\sqrt{1-v^2/c^2}}-1)</script><h3 id="能动关系"><a href="#能动关系" class="headerlink" title="能动关系"></a>能动关系</h3><p>在狭义相对论中能量与动量的关系为</p>
-<script type="math/tex; mode=display">
-E^2=p^2c^2+m_0^2c^4=(mc^2)^2</script><hr>
-<h2 id="Chapter-5-机械振动"><a href="#Chapter-5-机械振动" class="headerlink" title="Chapter-5 机械振动"></a>Chapter-5 机械振动</h2><h3 id="简谐振动方程"><a href="#简谐振动方程" class="headerlink" title="简谐振动方程"></a>简谐振动方程</h3><p>简谐振动的微分方程及其解的一般形式为（可以通过常微分方程知识求解）</p>
-<script type="math/tex; mode=display">
-\frac{d^2x}{dt^2}+\omega^2x=0\quad\Rightarrow\quad x=A\cos(\omega t+\varphi)</script><p>已知简谐振动的初始状态 $x_0=A\cos\varphi,\quad v_0=-\omega A\sin\varphi$ 可以求得</p>
-<script type="math/tex; mode=display">
-A=\sqrt{x_0^2+(\frac{v_0}{\omega})^2},
-\quad
-\varphi=\arctan\frac{-v_0}{\omega x_0}</script><!--more-->
-<h3 id="谐振动的能量"><a href="#谐振动的能量" class="headerlink" title="谐振动的能量"></a>谐振动的能量</h3><p>设物体的位移为 $x$ ，速度为 $v$ 时，系统的弹性势能与动能分别为</p>
-<script type="math/tex; mode=display">
-\begin{align}
-&E_p=\frac{1}{2}kx^2=\frac{1}{2}kA^2\cos^2(\omega t+\varphi)
-\quad \omega^2=\frac{k}{m}
-\\
-&E_k=\frac{1}{2}mv^2=\frac{1}{2}m\omega^2A^2\sin^2(\omega t+\varphi)=\frac{1}{2}kA^2\sin^2(\omega t+\varphi)\\
-&E=\frac{1}{2}kx^2+\frac{1}{2}mv^2=\frac{1}{2}kA^2
-\end{align}</script><p>则系统的势能和动能总量守恒，总能量与振幅平方成正比</p>
-<h3 id="稳定平衡位置附近的运动"><a href="#稳定平衡位置附近的运动" class="headerlink" title="稳定平衡位置附近的运动"></a>稳定平衡位置附近的运动</h3><p><strong>单摆的简谐振动</strong></p>
-<script type="math/tex; mode=display">
-m\frac{d^2x}{dt^2}=m\frac{d^2(l\theta)}{dt^2}=-\frac{mg}{l}(l\theta)=-\frac{mg}{l}x=F_t\quad\Rightarrow\quad\frac{d^2\theta}{dt^2}=-\frac{g}{l}\theta</script><p>则当 $\theta$ 角很小时，单摆的运动可以看作谐振动</p>
-<p><strong>复摆的简谐振动</strong></p>
-<script type="math/tex; mode=display">
--mgl\sin\theta=J\frac{d^2\theta}{dt^2}
-\quad(\sin\theta\approx\theta)
-\quad\Rightarrow\quad
-\frac{d^2\theta}{dt^2}=-\frac{mgl}{J}\theta</script><p>则复摆的振动角频率为 $\begin{align}\omega=\sqrt{\frac{mgl}{J}}\end{align}$ ，单摆可以视为复摆的特例</p>
-<h3 id="阻尼振动"><a href="#阻尼振动" class="headerlink" title="阻尼振动"></a>阻尼振动</h3><p>振动系统收到弹性力和阻力两个力的作用，应用牛顿方程，得到</p>
-<script type="math/tex; mode=display">
-\begin{align}m\frac{d^2x}{dt^2}=-kx-b\frac{dx}{dt}\Rightarrow\frac{d^2x}{dt^2}+\frac{b}{m}\frac{dx}{dt}+\frac{k}{m}x=0\end{align}</script><p>应用常微分方程中的特征方程，得到</p>
-<script type="math/tex; mode=display">
-\begin{align}r^2+\frac{b}{m}r+\frac{k}{m}=0\end{align}</script><p>由于是弱阻尼运动，该方程的解应当反应振幅减弱的情况，则 $\Delta&lt;0$<br>该方程的复数解为</p>
-<script type="math/tex; mode=display">
-\begin{align}
-r=\frac{-\frac{b}{m}\pm\sqrt{\frac{b^2}{m^2}-4\frac{k}{m}}}{2}
-=-\frac{b}{2m}\pm\sqrt{(\frac{b}{2m})^2-\frac{k}{m}}
-=-\frac{b}{2m}\pm\sqrt{\frac{k}{m}-(\frac{b}{2m})^2}\cdot\mathrm{i}
-\end{align}</script><p>根据常微分方程的知识可以得到方程的一个解为</p>
-<script type="math/tex; mode=display">
-\begin{align}
-Ae^{-\frac{b}{2m}t}\cos(\sqrt{\frac{k}{m}-(\frac{b}{2m})^2}\cdot t+\varphi)
-\end{align}</script><p>由无阻尼振动中的 $\begin{align}\omega_0=\sqrt{\frac{k}{m}}\end{align}$ ，令 $\gamma=\frac{b}{2m}$ ，则新的振动方程为</p>
-<script type="math/tex; mode=display">
-\begin{align}Ae^{-\gamma t}\cos(\sqrt{\omega_0^2-\gamma^2}\cdot t+\varphi)\end{align}</script><p><strong>振动能量</strong> $\begin{align}E=E_\theta e^{-2\gamma t}\end{align}$ 振动的能量也随时间作指数衰减</p>
-<p><strong>时间常数</strong> $\begin{align}\tau=\frac{1}{2\gamma}=\frac{m}{b}\end{align}$ 表示能量衰减为原来的 $\begin{align}\frac{1}{e}\end{align}$ 的时间</p>
-<p><strong>品质因数</strong> $\begin{align}Q=2\pi\frac{1}{2\gamma T}=\frac{\omega}{2\gamma}=\omega\tau\end{align}$ 表示阻尼振动在一个时间常数振动对应的相位变化</p>
-<h3 id="受迫振动与共振"><a href="#受迫振动与共振" class="headerlink" title="受迫振动与共振"></a>受迫振动与共振</h3><p>假设驱动力按照余弦规律变化，即 $F=F_0\cos(\omega t)$<br>则物体受弹性力、阻力和驱动力得到牛顿运动方程</p>
-<script type="math/tex; mode=display">
-m\frac{d^2x}{dt^2}=-kx-b\frac{dx}{dt}+F_0\cos\omega t</script><p>在稳态等幅受迫振动中，上述方程的解为 $x=A\cos(\omega t+\varphi)$ ，其中</p>
-<script type="math/tex; mode=display">
-\begin{align}
-&A=\frac{\begin{align}\frac{F_0}{m}\end{align}}{\sqrt{(\omega_0^2-\omega^2)^2+4\gamma^2\omega^2}},\quad\varphi=\arctan\frac{-2\gamma\omega}{\omega_0^2-\omega^2}\\
-&\omega_0^2=\frac{k}{m},\quad\gamma=\frac{b}{2m}
-\end{align}</script><p>当阻尼为 $0$ 时 $\omega_{共振}=\omega_0$ ，当阻尼不为 $0$ 时 $\omega_{共振}=\sqrt{\omega_0^2-2\gamma^2}$</p>
-<h3 id="振动的合成"><a href="#振动的合成" class="headerlink" title="振动的合成"></a>振动的合成</h3><p><strong>同方向同频率谐振动的合成</strong></p>
-<p>设物体沿 $x$ 轴同时参与两个独立振动，分别以 $x_1,x_2$ 表示其位移</p>
-<script type="math/tex; mode=display">
-x_1=A_1\cos(\omega t+\varphi_1),\quad x_2=A_2\cos(\omega t+\varphi_2)</script><p>合振动仍然是谐振动，即 $x=A\cos(\omega t+\varphi)$</p>
-<script type="math/tex; mode=display">
-\begin{align}
-&A=\sqrt{A_1^2+A_2^2+2A_1A_2\cos(\varphi_2-\varphi_1)}\\
-&\varphi=\arctan\frac{A_1\sin\varphi_1+A_2\sin\varphi_2}{A_1\cos\varphi_1+A_2\cos\varphi_2}
-\end{align}</script><p><strong>同方向不同频率谐振动的合成</strong></p>
-<p>设物体沿 $x$ 轴同时参与两个独立振动，简便起见设分振动的初相均为零</p>
-<p>合振幅的大小为 $\begin{aligned}A=\sqrt{A_1^2+A_2^2+2A_1A_2\cos(\omega_2-\omega_1)t}\end{aligned}$</p>
-<p>当 $A_1=A_2$ 时，$\begin{align}x=2A_1\cos(\frac{\omega_2-\omega_1}{2})t\cos(\frac{\omega_1+\omega_2}{2})t\end{align}$<br>在 $\omega_2-\omega_1\ll\omega_1+\omega_2$ 的条件下，振幅随时间周期变化<br>合振动强弱交替变化的现象称为拍，单位时间内振动忽强（或忽弱）的次数称为拍频</p>
-<script type="math/tex; mode=display">
-\begin{align}\nu_{拍}=\frac{\omega_2}{2\pi}-\frac{\omega_1}{2\pi}=\nu_2-\nu_1\end{align}</script><p>拍频是 $\begin{align}\cos(\frac{\omega_2-\omega_1}{2})t\end{align}$ 的振动频率的两倍</p>
-<hr>
-<h2 id="Chapter-6-机械波"><a href="#Chapter-6-机械波" class="headerlink" title="Chapter-6 机械波"></a>Chapter-6 机械波</h2><h3 id="纵波与横波"><a href="#纵波与横波" class="headerlink" title="纵波与横波"></a>纵波与横波</h3><p>当机械波在某媒质中进行传播时，媒质中各质点只在平衡位置附近作振动<br>质点振动方向与波的传播方向垂直的波称为 <strong>横波</strong><br>质点振动方向与波的传播方向平行的波称为 <strong>纵波</strong></p>
-<h3 id="一维波的一般表达式"><a href="#一维波的一般表达式" class="headerlink" title="一维波的一般表达式"></a>一维波的一般表达式</h3><p>假设函数 $f$ 描述波的形状，波的传播速度为 $u$ ，在坐标 $x$ 处的波形可以表示为</p>
-<script type="math/tex; mode=display">
-y(x,0)=f(x),\quad y(x,t)=f(x-ut)</script><h3 id="平面简谐波的波函数"><a href="#平面简谐波的波函数" class="headerlink" title="平面简谐波的波函数"></a>平面简谐波的波函数</h3><script type="math/tex; mode=display">
-\begin{align}
-&y(x,t)=A\cos\omega(t-\frac{x}{u})\\
-&v=-A\omega\sin\omega(t-\frac{x}{u})\\
-
-\end{align}</script><h3 id="一维波的波动微分方程"><a href="#一维波的波动微分方程" class="headerlink" title="一维波的波动微分方程"></a>一维波的波动微分方程</h3><p>讨论平面简谐波满足的微分方程，令 $\begin{align}y(x,t)=A\cos\omega(t-\frac{x}{u})\end{align}$ ，则有</p>
-<script type="math/tex; mode=display">
-\begin{cases}
-\begin{align}
-&\frac{\partial^2y}{\partial x^2}=
--(\frac{\omega}{u})^2A\cos\omega(t-\frac{x}{u})\\
-&\frac{\partial^2y}{\partial t^2}=
--\omega^2A\cos\omega(t-\frac{x}{u})
-\end{align}
-\end{cases}
-\Rightarrow
-\frac{\partial^2y}{\partial x^2}=
-\frac{1}{u^2}\frac{\partial^2y}{\partial t^2}</script><p>假设绳上张力为 $F$ ，绳的线密度为 $\mu$ ，在一小段绳上分析，有</p>
-<script type="math/tex; mode=display">
-\begin{align}
-\sum F_y
-&=F(\sin\theta_2-\sin\theta_1)\\
-&=F(\tan\theta_2-\tan\theta_1)\\
-&=F[(\frac{\partial y}{\partial x})_2-(\frac{\partial y}{\partial x})_1]\\
-&\approx F\frac{\partial^2 y}{\partial x^2}\Delta x\\
-\end{align}</script><script type="math/tex; mode=display">
-\begin{align}
-&\sum F_y=ma_y
-\Rightarrow
-F\frac{\partial^2 y}{\partial x^2}\Delta x
-=\mu\Delta x\frac{\partial^2y}{\partial t^2}\\
-&\Rightarrow\frac{\partial^2y}{\partial x^2}=\frac{\mu}{F}\frac{\partial^2 y}{\partial t^2}
-\end{align}</script><p>由此可以得到绳上横波的传播速度为 $\begin{align}u=\sqrt{\frac{F}{\mu}}\end{align}$<br>在棒中纵波的传播速度为 $\begin{align}u=\sqrt{\frac{Y}{\rho}}\end{align}$ 其中 $Y$ 为杨氏模量，反应棒的弹性<br>杨氏模量的定义为 $\begin{align}Y=\frac{(\frac{F}{s})}{\frac{\Delta l}{l_0}}\end{align}$ ，其中 $\begin{align}\frac{F}{s}\end{align}$ 表示应力， $\begin{align}\frac{\Delta l}{l_0}\end{align}$ 表示应变</p>
-<h3 id="波的能量"><a href="#波的能量" class="headerlink" title="波的能量"></a>波的能量</h3><p>线元在 $y$ 方向的振动速度为 $\begin{align}v=\frac{\partial y}{\partial t}\end{align}$ ，其动能为</p>
-<script type="math/tex; mode=display">
-\Delta E_k=\frac{1}{2}\Delta mv^2=\frac{1}{2}\mu\Delta x(\frac{\partial y}{\partial t})^2</script><p>线元的伸长量为 $\delta l=\sqrt{\Delta x^2+\Delta y^2}-\Delta x$ ，在小位移下近似</p>
-<script type="math/tex; mode=display">
-\Delta E_p=F\delta l=F[\sqrt{\Delta x^2+\Delta y^2}-\Delta x]
-\approx F\cdot\frac{1}{2}(\frac{\partial y}{\partial x})^2\Delta x</script><p>将 $y$ 分别对 $t$ 和 $x$ 求一阶偏导，并代入 $F=\mu u^2$</p>
-<script type="math/tex; mode=display">
-E=\mu A^2\omega^2\sin^2\omega(t-\frac{x}{u})\Delta x</script><p>线能量密度的平均值为</p>
-<script type="math/tex; mode=display">
-\overline{(\frac{\Delta E}{\Delta x})}=\mu A^2\omega^2\overline{[\sin\omega(t-\frac{x}{u})]^2}=\frac{1}{2}\mu A^2\omega^2</script><p>如果为三维空间，引入体密度 $\rho$ ，则 $\begin{align}\overline{\omega}=\frac{1}{2}\rho A^2\omega^2\end{align}$</p>
-<h3 id="能流密度"><a href="#能流密度" class="headerlink" title="能流密度"></a>能流密度</h3><p>简谐波所传递的功率为</p>
-<script type="math/tex; mode=display">
-\begin{align}
-&P=u\mu A^2\omega^2\sin^2\omega(t-\frac{x}{u})\\
-&\overline{P}=\frac{1}{2}u\mu A^2\omega^2
-\end{align}</script><p>平均能流密度等于平均能量密度与波速的乘积</p>
-<script type="math/tex; mode=display">
-I=\overline{\omega}u=\frac{1}{2}\rho A^2\omega^2u</script><p>取离波源单位距离处的振幅为 $A_0$ ,则距离波源任一 $r$ 处的振幅为 $\begin{align}A=\frac{A_0}{r}\end{align}$</p>
-<h3 id="叠加原理"><a href="#叠加原理" class="headerlink" title="叠加原理"></a>叠加原理</h3><p>任一处质点的振动是各个波单独在该点产生的振动的合成</p>
-<h3 id="驻波"><a href="#驻波" class="headerlink" title="驻波"></a>驻波</h3><p>当两列振幅相等，沿相反方向传播的相干波叠加时将形成驻波，其表达式为</p>
-<script type="math/tex; mode=display">
-\begin{align}
-&y_1=A\cos(\omega t-\frac{2\pi}{\lambda}x)\\
-&y_2=A\cos(\omega t+\frac{2\pi}{\lambda}x)\\
-&y=y_1+y_2=2A\cos\frac{2\pi}{\lambda}x\cos\omega t
-\end{align}</script><p>其中 $x=k\frac{\lambda}{2}$ 处合振幅最大，这些点称为波腹，$x=(2k+1)\frac{\lambda}{4}$ 处最小，称为波节<br>在相邻波节之间动能和势能的总和保持不变，为 $\frac{1}{2}\mu A^2\omega^2\lambda$</p>
-<p>反射波与入射波叠加的合振动为零，入射波在反射时有 $\pi$ 的突变，称为半波损失</p>
-<p>对于两端固定的绳子，只有特定频率的驻波可以存在，即 $\begin{align}\lambda_n=\frac{4L}{n},n=2,4,6,\cdots\end{align}$<br>对于一端可自由移动的绳子，同理，有 $\begin{align}\lambda_n=\frac{4L}{n},n=1,3,5,\cdots\end{align}$</p>
-<h3 id="多普勒效应"><a href="#多普勒效应" class="headerlink" title="多普勒效应"></a>多普勒效应</h3><p><strong>（1）波源相对媒质静止，观察者以 $v_R$ 向波源运动</strong></p>
-<p>若波长为 $\lambda$ ，波速为 $u$ ，相当于波以速度 $u+v_R$ 向观察者移动<br>则观察者接收到的波的频率为</p>
-<script type="math/tex; mode=display">
-\nu_R=\frac{u+v_R}{\lambda}=(\frac{u+v_R}{u})\nu_s</script><p><strong>（2）观察者相对媒质静止，波源以 $v_s$ 向观察者运动</strong></p>
-<p>波源的运动导致波的波长发生变化，可推导出以下关系</p>
-<script type="math/tex; mode=display">
-\begin{align}
-\lambda'&=\lambda-v_sT_s=(u-v_s)T_s\\
-\nu_R&=\frac{u}{\lambda'}=\frac{u}{(u-v_s)T_s}=\frac{u}{u-v_s}\nu_s
-\end{align}</script><p><strong>（3）波源和观察者在同一直线上同时运动</strong></p>
-<p>综合上述两种情况，可以得到</p>
-<script type="math/tex; mode=display">
-\nu_R=\frac{u+v_R}{u-v_s}\nu_s</script><p><strong>（4）光波的多普勒效应</strong></p>
-<p>光源与接收器的相对运动速度为 $u$ ，在同一条直线上接收器收到的频率为</p>
-<script type="math/tex; mode=display">
-\nu_R=\sqrt{\frac{c+u}{c-u}}\nu_s</script><hr>
-<h2 id="Chapter-7-气体动理论"><a href="#Chapter-7-气体动理论" class="headerlink" title="Chapter-7 气体动理论"></a>Chapter-7 气体动理论</h2><h3 id="热力学系统"><a href="#热力学系统" class="headerlink" title="热力学系统"></a>热力学系统</h3><p><strong>孤立系统</strong> 系统与外界既无物质交换，也无能量交换<br><strong>封闭系统</strong> 系统与外界无物质交换，但有能量交换<br><strong>开放系统</strong> 系统与外界既有物质交换，又有能量交换</p>
-<h3 id="平衡态"><a href="#平衡态" class="headerlink" title="平衡态"></a>平衡态</h3><p>若封闭系统与外界没有能量交换，系统内部也不发生化学反应或核反应等过程，则经过足够长时间后系统可观测的宏观性质达到稳定，不再随时间而变化，系统这种状态称为平衡态</p>
-<p>当系统与外界交换能量时，系统原来的平衡态就被破坏，能量交换后经过足够时间，系统又达到一个新的平衡态，系统的状态随时间的变化，叫作 <strong>热力学过程</strong></p>
-<h3 id="气体动理论的基本假设"><a href="#气体动理论的基本假设" class="headerlink" title="气体动理论的基本假设"></a>气体动理论的基本假设</h3><p><strong>分子及其运动假设</strong></p>
-<ul>
-<li>气体由大量分子组成</li>
-<li>每个分子都在不停地作无规则运动，并相互频繁碰撞</li>
-</ul>
-<p><strong>统计假设</strong></p>
-<ul>
-<li>气体处于平衡态时，分子的空间分布均匀</li>
-<li>气体处于平衡态时，分子沿各个方向运动的概率相等</li>
-</ul>
-<p><strong>理想气体的微观假设</strong></p>
-<ul>
-<li>理想气体分子本身的体积忽略不计，可视为弹性质点</li>
-<li>分子与分子之间，分子与器壁之间的碰撞是完全弹性碰撞</li>
-<li>除碰撞外，分子之间的相互作用力可以忽略<br>只有压强较低，温度较高的气体才遵守该微观假设</li>
-</ul>
-<h3 id="理想气体的压强公式"><a href="#理想气体的压强公式" class="headerlink" title="理想气体的压强公式"></a>理想气体的压强公式</h3><p>设理想气体由质量为 $\mu$ 的分子组成，处于平衡态，单位体积中的总分子数为 $n$ ，则</p>
-<script type="math/tex; mode=display">
-p=\frac{1}{3}n\mu\bar{v^2}=\frac{2}{3}n\bar{\epsilon_t}</script><p> $\begin{aligned}\bar{v^2}=\frac{\begin{aligned}\sum_in_iv_i^2\end{aligned}}{n}\end{aligned}$ 为气体分子速率二次方的统计平均值<br> $\begin{aligned}\bar{\epsilon_t}=\frac{\begin{aligned}\sum_in_i(\frac{1}{2}\mu v_i^2)\end{aligned}}{n}=\frac{\mu\bar{v^2}}{2}\end{aligned}$ 为平均每一个气体分子所具有的平动动能（平均平动动能）<br><strong>注:</strong> 此处的 $n$ 量纲为 $m^{-3}$ ，因此该压强公式的量纲是正确的</p>
-<h3 id="温度与分子平均平动动能"><a href="#温度与分子平均平动动能" class="headerlink" title="温度与分子平均平动动能"></a>温度与分子平均平动动能</h3><p>系统的温度 $T$ 与分子平均平动动能 $\bar{\epsilon_t}$ 之间存在单值函数关系，两者关系为</p>
-<script type="math/tex; mode=display">
-\bar{\epsilon_t}=\frac{3}{2}kT,\quad k=1.38\times10^{-23}\mathrm{J/K}</script><p>说明系统的温度越高，分子的平均平动动能越大，温度是分子平均平动动能的度量<br><strong>注:</strong> 系统整体运动的动能对温度是无影响的</p>
-<h3 id="气体分子的方均根速率"><a href="#气体分子的方均根速率" class="headerlink" title="气体分子的方均根速率"></a>气体分子的方均根速率</h3><p>气体分子速率二次方统计平均值 $\bar{v^2}$ 的二次方根 $\sqrt{\bar{v^2}}$ 称为气体分子的方均根速率</p>
-<script type="math/tex; mode=display">
-\begin{cases}
-\begin{aligned}
-&\bar{\epsilon_t}=\frac{1}{2}\mu\bar{v^2}\\
-&\bar{\epsilon_t}=\frac{3}{2}kT
-\end{aligned}
-\end{cases}
-\Rightarrow
-\sqrt{\bar{v^2}}=\sqrt{\frac{3kT}{\mu}}</script><p>若以 $N_A$ 表示阿伏伽德罗常数，则有</p>
-<script type="math/tex; mode=display">
-\begin{align}
-R&=N_Ak=(6.02\times10^{23}\times1.38\times10^{-23})\mathrm{J/(mol\cdot K)}\\
-&=8.31\mathrm{J/(mol\cdot K)}
-\end{align}</script><p>$R$ 称为摩尔气体常量，若以 $M$ 表示气体的摩尔质量，则公式可表示为</p>
-<script type="math/tex; mode=display">
-\sqrt{\bar{v^2}}=\sqrt{\frac{3kT}{\mu}}=\sqrt{\frac{3RT}{M}}</script><h3 id="理想气体状态方程"><a href="#理想气体状态方程" class="headerlink" title="理想气体状态方程"></a>理想气体状态方程</h3><p>将温度与分子平均平动动能的关系 $\begin{aligned}\bar{\epsilon_t}=\frac{3}{2}kT\end{aligned}$ 代入理想气体压强公式得到</p>
-<script type="math/tex; mode=display">
-p=nkT</script><p>由于 $\begin{aligned}n=\frac{N}{V},R=N_Ak\end{aligned}$ ，则上式还可以表示为</p>
-<script type="math/tex; mode=display">
-pV=\nu RT</script><p>其中 $\nu$ 表示理想气体的物质的量</p>
-<h3 id="自由度"><a href="#自由度" class="headerlink" title="自由度"></a>自由度</h3><p>确定物体的空间位置所必需的独立坐标数目称为该物体的自由度<br>包含平动自由度、转动自由度、振动自由度等</p>
-<h3 id="能量均分原理"><a href="#能量均分原理" class="headerlink" title="能量均分原理"></a>能量均分原理</h3><script type="math/tex; mode=display">
-\bar{\epsilon_t}
-=\frac{1}{2}\mu\bar{v^2}
-=\frac{1}{2}\mu\bar{v_x^2}
-+\frac{1}{2}\mu\bar{v_y^2}
-+\frac{1}{2}\mu\bar{v_z^2}
-=\frac{3}{2}kT</script><script type="math/tex; mode=display">
-\bar{v_x^2}=\bar{v_y^2}=\bar{v_z^2}</script><script type="math/tex; mode=display">
-\frac{1}{2}\mu\bar{v_x^2}
-=\frac{1}{2}\mu\bar{v_y^2}
-=\frac{1}{2}\mu\bar{v_z^2}
-=\frac{1}{2}kT</script><p>在平衡态下分子每个自由度的平均能量都相等，称为能量均分原理<br>液体和固体的温度较高时能量均分原理也适用</p>
-<p>平均每一个分子所具有的平动、转动和振动能量的总和称为气体分子的平均能量，用符号 $\bar{\epsilon}$ 表示，根据能量均分原理，若分子的自由度为 $i$ ，则分子的平均能量为</p>
-<script type="math/tex; mode=display">
-\bar{\epsilon}=\frac{i}{2}kT</script><p><strong>注:</strong> 热力学自由度中一个振动包含振动动能和振动势能两个自由度</p>
-<h3 id="理想气体的内能"><a href="#理想气体的内能" class="headerlink" title="理想气体的内能"></a>理想气体的内能</h3><p>与气体内部分子无序运动相联系的能量称为系统的内能（热力学能）</p>
-<p>物质的量为 $\nu$ 的理想气体的内能为</p>
-<script type="math/tex; mode=display">
-E=\nu N_A(\frac{i}{2}kT)=\nu\frac{i}{2}RT</script><p>当理想气体的量一定时，其内能仅决定于气体的温度</p>
-<h3 id="速率分布函数"><a href="#速率分布函数" class="headerlink" title="速率分布函数"></a>速率分布函数</h3><p>气体分子的速率分布函数为</p>
-<script type="math/tex; mode=display">
-f(v)=\frac{dN}{Ndv},\quad \int_0^\infty f(v)dv=1</script><p>速率分布函数 $f(v)$ 表示速率在 $v$ 附近单位速率区间内的分子数占总分子数的比率</p>
-<p><strong>（1）最概然速率</strong></p>
-<p>速率分布函数 $f(v)$ 的极大值对应的速率</p>
-<script type="math/tex; mode=display">
-\begin{align}\frac{df(v)}{dv}\Big{|}_{v_p}=0\end{align}</script><p><strong>（2）平均速率</strong></p>
-<p>大量分子速率的算术平均值，称为气体分子的平均速率</p>
-<script type="math/tex; mode=display">
-\overline{v}=\frac{\begin{align}\int vdN\end{align}}{N}=\int_0^\infty vf(v)dv</script><p><strong>（3）方均根速率</strong></p>
-<p>分子速率二次方统计平均值的二次方根</p>
-<script type="math/tex; mode=display">
-\overline{v^2}=\sqrt{\int_0^\infty v^2f(v)dv}</script><h3 id="麦克斯韦速率分布律"><a href="#麦克斯韦速率分布律" class="headerlink" title="麦克斯韦速率分布律"></a>麦克斯韦速率分布律</h3><p>理想气体处于平衡态时，速率在 $v$ 和 $v+dv$ 区间的分子数占总分子数的比率为</p>
-<script type="math/tex; mode=display">
-\begin{align}
-&\frac{dN}{N}=4\pi(\frac{\mu}{2\pi kT})^{\frac{3}{2}}e^{-\frac{\mu v^2}{2kT}}v^2\\
-&f(v)=\frac{4}{\sqrt{\pi}}e^{-\frac{v^2}{v_p^2}}(\frac{v^2}{v_p^3})
-\end{align}</script><script type="math/tex; mode=display">
-\begin{align}
-最概然速率:v_p=\sqrt{\frac{2kT}{\mu}}=\sqrt{\frac{2RT}{M}}\\
-平均速率:\overline{v}=\sqrt{\frac{8kT}{\pi\mu}}=\sqrt{\frac{8RT}{\pi M}}\\
-方均根速率:\sqrt{\overline{v^2}}=\sqrt{\frac{3kT}{\mu}}=\sqrt{\frac{3RT}{M}}\\
-v_p:\overline{v}:\sqrt{\overline{v^2}}=\sqrt{2}:\frac{8}{\pi}:\sqrt{3}
-\end{align}</script><h3 id="等温气压公式"><a href="#等温气压公式" class="headerlink" title="等温气压公式"></a>等温气压公式</h3><p>对于理想气体，有</p>
-<script type="math/tex; mode=display">
-\begin{cases}
-dp=-\rho gdh\\
-\begin{align}
-\rho=\frac{pM}{RT}
-\end{align}
-\end{cases}
-\Rightarrow
-\frac{dp}{p}=-\frac{Mg}{RT}dh
-\Rightarrow
-p=p_0e^{-\frac{Mgh}{RT}}</script><p>气体分子数密度按高度的分布</p>
-<script type="math/tex; mode=display">
-n=\frac{p_0}{kT}e^{-\frac{Mgh}{RT}}
-=n_0e^{-\frac{\mu gh}{kT}}
-=n_0e^{-\frac{\epsilon_p}{kT}}</script><h3 id="玻尔兹曼分布律"><a href="#玻尔兹曼分布律" class="headerlink" title="玻尔兹曼分布律"></a>玻尔兹曼分布律</h3><script type="math/tex; mode=display">
-dN_{v,r}=n_0(\frac{\mu}{2\pi kT})^{3/2}e^{-\frac{\epsilon}{kT}}
-\cdot dv_x
-\cdot dv_y
-\cdot dv_z
-\cdot dx
-\cdot dy
-\cdot dz</script><p>式中 $\epsilon=\epsilon_p+\epsilon_k$ ，即分子的平动动能和外力场的势能之和<br>$n_0$ 表示势能 $\epsilon_p=0$ 处的分子数密度</p>
-<h3 id="平均碰撞频率"><a href="#平均碰撞频率" class="headerlink" title="平均碰撞频率"></a>平均碰撞频率</h3><p>单位时间内一个分子与其他分子碰撞次数的统计平均值称为分子的平均碰撞频率 </p>
-<script type="math/tex; mode=display">
-\overline{Z}=\sqrt{2}\pi d^2n\overline{v}</script><p>其中 $d$ 为气体分子的有效直径，$n$ 为气体分子的数密度</p>
-<h3 id="平均自由程"><a href="#平均自由程" class="headerlink" title="平均自由程"></a>平均自由程</h3><script type="math/tex; mode=display">
-\overline{\lambda}=\frac{\overline{v}}{\overline{Z}}=\frac{1}{\sqrt{2}\pi d^2n}</script><h3 id="热传导现象"><a href="#热传导现象" class="headerlink" title="热传导现象"></a>热传导现象</h3><p>假设气体温度仅与坐标 $z$ 有关， $dQ$ 表示 $dt$ 内沿 $z$ 轴正方向通过 $dS$ 传递的热量， $\begin{align}\frac{dT}{dz}\end{align}$ 表示 $dS$ 处温度的梯度，则有热传导定律</p>
-<script type="math/tex; mode=display">
-\begin{align}
-dQ&=-\kappa\frac{dT}{dz}dSdt\\
-\kappa&=\frac{1}{6}ikn\overline{v}\overline{\lambda}\\
-\kappa&=\frac{ik}{3\pi d^2}\sqrt{\frac{kT}{\pi\mu}}
-\end{align}</script><p> $\kappa$ 与气体分子的自由度 $i$ 、分子数密度 $n$ 、分子的平均速率 $\overline{v}$ 和平均自由程 $\overline{\lambda}$ 成正比<br>热传导是分子热运动能量的迁移过程</p>
-<h3 id="黏滞现象"><a href="#黏滞现象" class="headerlink" title="黏滞现象"></a>黏滞现象</h3><p>气体各部分流速不同时，各部分气体相互作用使流速趋于一致，这一现象称为粘滞现象</p>
-<script type="math/tex; mode=display">
-f=-\eta\frac{du}{dz}dS</script><p>式中 $\eta$ 表示气体的黏度，上述定理称为黏滞定律</p>
-<script type="math/tex; mode=display">
-dP=-\eta\frac{du}{dz}dSdt</script><p>黏滞现象是气体内部分子定向动量迁移的结果</p>
-<script type="math/tex; mode=display">
-\eta=\frac{1}{3}n\mu\overline{v}\overline{\lambda}
-=\frac{1}{3}\rho\overline{v}\overline{\lambda}</script><h3 id="扩散现象"><a href="#扩散现象" class="headerlink" title="扩散现象"></a>扩散现象</h3><p>考虑纯扩散过程，两种气体的分子量、温度、压强均相等</p>
-<script type="math/tex; mode=display">
-dm=-D\frac{d\rho}{dz}dSdt</script><p>式中 $D$ 表示气体的扩散率，上述定理称为扩散定律</p>
-<script type="math/tex; mode=display">
-D=\frac{1}{3}\overline{v}\overline{\lambda}</script><script type="math/tex; mode=display">
-D=\frac{2}{3\sqrt{\mu}pd^2}(\frac{kT}{\pi})^{3/2}</script><p>扩散是分子质量的迁移过程</p>
-<h3 id="范德瓦尔斯方程"><a href="#范德瓦尔斯方程" class="headerlink" title="范德瓦尔斯方程"></a>范德瓦尔斯方程</h3><script type="math/tex; mode=display">
-\frac{pV}{\nu RT}=\zeta\neq1</script><p>其中 $\zeta$ 称为压缩因子，与气体的性质、压强和温度有关</p>
-<p>范德瓦尔斯理想气体与理想气体的差别主要为以下两点：</p>
-<ul>
-<li>实际气体分子本身的体积不能忽略</li>
-<li>实际气体分子之间的相互作用力不能忽略</li>
-</ul>
-<p><strong>（1）体积的修正</strong></p>
-<p>一个分子的不可压缩体积相当于分子自身体积的 $4$ 倍，$1\mathrm{mol}$ 分子的不可压缩体积为</p>
-<script type="math/tex; mode=display">
-\begin{align}
-&b=N_A\{4[\frac{4}{3}\pi(\frac{d}{2})^3\}=\frac{2}{3}N_A\pi d^3\\
-&修正后的体积=V-\nu b
-\end{align}</script><p><strong>（2）压强的修正</strong></p>
-<script type="math/tex; mode=display">
-\begin{align}
-&p_i\varpropto器壁附近受力的分子数密度\varpropto\frac{\nu}{V}\\
-&p_i\varpropto对器壁附近分子施力的其他分子数密度\frac{\nu}{V}\\
-&p_i=a(\frac{\nu}{V})^2\\
-&修正后的压强=(p+p_i)=[p+a(\frac{\nu}{V})^2]
-\end{align}</script><p>将修正后的压强、体积代入理想气体状态方程，得到范德瓦尔斯方程</p>
-<script type="math/tex; mode=display">
-\begin{bmatrix}
-\begin{align}
-p+a(\frac{\nu}{V})^2
-\end{align}
-\end{bmatrix}
-(V-\nu b)=\nu RT</script><p>当气体压强很低时 $\begin{align}V\gg \nu b,p\gg a(\frac{\nu}{V})^2\end{align}$ ，范德瓦尔斯方程退化为理想气体方程</p>
-<p><strong>临界温度 $T_K$</strong> 无论怎样恒温加压也不能使气体液化<br><strong>临界等温线</strong> 临界温度对应的等温线<br><strong>临界点</strong> 临界等温线上的拐点 $K$<br><strong>临界压强 $p_K$</strong> 临界点对应的压强<br><strong>临界摩尔体积 $V_K$</strong> 临界点对应的摩尔体积</p>
-<h3 id="实际气体的内能"><a href="#实际气体的内能" class="headerlink" title="实际气体的内能"></a>实际气体的内能</h3><p>实际气体的内能应等于所有分子热运动能量之和与相互作用力势能之和</p>
-<script type="math/tex; mode=display">
-\begin{align}
-&\Delta E_k=\nu C_{V,m}(T_2-T_1)\\
-&\Delta E_p=\int_{V_1}^{V_2}p_idV=\int_{V_1}^{V_2}a(\frac{\nu}{V})^2dV=\nu^2a(\frac{1}{V_1}-\frac{1}{V_2})\\
-&\Delta E=\Delta E_k+\Delta E_p=Q+A
-\end{align}</script><hr>
-<h2 id="Chapter-8-热力学基础"><a href="#Chapter-8-热力学基础" class="headerlink" title="Chapter-8 热力学基础"></a>Chapter-8 热力学基础</h2><h3 id="准静态过程"><a href="#准静态过程" class="headerlink" title="准静态过程"></a>准静态过程</h3><p>系统状态随时间的变化，称为热力学过程<br>从平衡态被某一干扰破坏到建立新的平衡态所需的时间称为弛豫时间<br>假设干扰非常微小，任意时刻系统偏离平衡态都非常微小，极限情形下，过程任意时刻系统都无限接近平衡态，这样的过程称为准静态过程<br>准静态过程还分为等温、绝热、等压、等体等准静态过程</p>
-<h3 id="热力学第一定律"><a href="#热力学第一定律" class="headerlink" title="热力学第一定律"></a>热力学第一定律</h3><p>若系统的初始内能为 $E_1$ ，从外界吸收的热量 $Q$ ，外界对系统所做的功 $A$ ，变到内能 $E_2$ 的终态，则根据能量守恒定律</p>
-<script type="math/tex; mode=display">
-\Delta E=E_2-E_1=Q+A</script><p>在微小的变化过程中，热力学第一定律还可以表示为</p>
-<script type="math/tex; mode=display">
-dE=dQ+dA</script><h3 id="理想气体的等体过程"><a href="#理想气体的等体过程" class="headerlink" title="理想气体的等体过程"></a>理想气体的等体过程</h3><p>等体过程中气体对外界不做功，内能变化与热量交换相等</p>
-<script type="math/tex; mode=display">
-\begin{align}
-&Q_V=\Delta E=\nu\frac{i}{2}R\Delta T=\nu\frac{i}{2}R(T_b-T_a)\\
-&C_{V,m}=\frac{dQ_V}{\nu dT}=\frac{i}{2}R\\
-&Q_V=\Delta E=\nu C_{V,m}\Delta T
-\end{align}</script><h3 id="理想气体的等压过程"><a href="#理想气体的等压过程" class="headerlink" title="理想气体的等压过程"></a>理想气体的等压过程</h3><p>等压过程中气体对外做功</p>
-<script type="math/tex; mode=display">
-(-A)=\int_{V_a}^{V_b}pdV=p(V_b-V_a)=p\Delta V=\nu R\Delta T</script><p>根据热力学第一定律，有</p>
-<script type="math/tex; mode=display">
-\begin{align}
-&Q_p=\Delta E-A=\nu(C_{V,m}+R)\Delta T\\
-&C_{p,m}=C_{V,m}+R\\
-&Q_p=\nu C_{p,m}\Delta T\\
-&\gamma=\frac{C_{p,m}}{C_{V,m}}=1+\frac{2}{i}
-\end{align}</script><h3 id="理想气体的等温过程"><a href="#理想气体的等温过程" class="headerlink" title="理想气体的等温过程"></a>理想气体的等温过程</h3><p>等温过程中理想气体吸收的热量全部转变为对外做功</p>
-<script type="math/tex; mode=display">
-Q_T=(-A)=\int_{V_a}^{V_b}pdV=\int_{V_a}^{V_b}\frac{\nu RT}{V}dV=\nu RT\ln\frac{V_b}{V_a}</script><h3 id="理想气体的绝热过程"><a href="#理想气体的绝热过程" class="headerlink" title="理想气体的绝热过程"></a>理想气体的绝热过程</h3><p>在理想气体的绝热准静态过程中 $p,V,T$ 之间的关系为</p>
-<script type="math/tex; mode=display">
-\begin{align}
-pV^{\gamma}&=常量\\
-V^{\gamma-1}T&=常量\\
-P^{\gamma-1}T^{-\gamma}&=常量
-\end{align}</script><h3 id="多方方程"><a href="#多方方程" class="headerlink" title="多方方程"></a>多方方程</h3><p>如果理想气体的过程方程为</p>
-<script type="math/tex; mode=display">
-pV^n=常量</script><p>那么这个过程称为多方过程，$n$ 称为多方指数</p>
-<script type="math/tex; mode=display">
-\begin{align}
-(-A)&=\int_{V_a}^{V_b}pdV=\int_{V_a}^{V_b}\frac{p_aV_a^n}{V^n}dV\\
-&=\frac{p_bV_b-p_aV_a}{1-n}=\frac{\Delta(pV)}{1-n}
-\end{align}</script><script type="math/tex; mode=display">
-C_m=\frac{n-\gamma}{n-1}C_{V,m}=\frac{(n-\gamma)R}{(n-1)(\gamma-1)}</script><h3 id="循环过程"><a href="#循环过程" class="headerlink" title="循环过程"></a>循环过程</h3><p>系统由初态出发，经过一系列状态变化回到初态的过程称为循环过程<br>在 $p-V$ 图像中准静态循环过程是一条闭合曲线，沿顺时针方向进行称为正循环</p>
-<p>热机指利用工作物质的正循环把系统吸收的热量不断转变为对外做功的机器</p>
-<script type="math/tex; mode=display">
-\eta=\frac{-A}{Q_{吸}}=\frac{Q_{吸}-Q_{放}}{Q_{吸}}</script><p>致冷机是外界对工作物质做功，利用逆循环低温向高温传递热量的机器</p>
-<script type="math/tex; mode=display">
-e=\frac{Q_{吸}}{A}=\frac{Q_{吸}}{Q_{放}-Q_{吸}}</script><h3 id="卡诺循环"><a href="#卡诺循环" class="headerlink" title="卡诺循环"></a>卡诺循环</h3><p>卡诺机只与温度为 $T_1$ 的高温热源和温度为 $T_2$ 的低温热源交换热量，整个循环由两个等温准静态过程和两个绝热准静态过程组成，称为卡诺循环</p>
-<script type="math/tex; mode=display">
-\eta_C=\frac{-A}{Q_{吸}}=\frac{Q_{吸}-Q_{放}}{Q_{吸}}=\frac{T_1-T_2}{T_1}</script><script type="math/tex; mode=display">
-e_c=\frac{Q_吸}{A}=\frac{Q_吸}{Q_放-Q_吸}=\frac{T_2}{T_1-T_2}</script><h3 id="热力学第二定律"><a href="#热力学第二定律" class="headerlink" title="热力学第二定律"></a>热力学第二定律</h3><p><strong>开尔文表述</strong><br>不可能从单一热源吸取热量，使之完全变为功，而不产生其它变化</p>
-<p><strong>克劳修斯表述</strong><br>热量不可能从低温物体传向高温物体，而不产生其它变化</p>
-<h3 id="可逆过程与不可逆过程"><a href="#可逆过程与不可逆过程" class="headerlink" title="可逆过程与不可逆过程"></a>可逆过程与不可逆过程</h3><p><strong>可逆过程</strong><br>如果一个过程可以逆向进行，系统和外界都回到原来的状态，而不发生其他任何变化</p>
-<p><strong>不可逆过程</strong><br>如果经历一个过程后，任何方法均不能使系统和外界都完全复原</p>
-<h3 id="卡诺定理"><a href="#卡诺定理" class="headerlink" title="卡诺定理"></a>卡诺定理</h3><p>在两个温度一定的热源之间，一切卡诺循环的效率都相等，与工作物质无关<br>在两个温度一定的热源之间，一切不可逆循环的效率必小于卡诺循环的效率</p>
-<p>提高热机效率的方向：提高高温热源温度、降低低温热源温度、尽可能接近可逆循环</p>
-<h3 id="熵"><a href="#熵" class="headerlink" title="熵"></a>熵</h3><p>对于任意可逆循环可以分解为许多小卡诺循环，对于每个小卡诺循环，有：</p>
-<script type="math/tex; mode=display">
-\frac{dQ_1}{T_1}+\frac{dQ_2}{T_2}=0,\quad 
-\frac{dQ_3}{T_3}+\frac{dQ_4}{T_4}=0,\quad
-\cdots</script><p>将各式相加得到</p>
-<script type="math/tex; mode=display">
-\sum\frac{dQ_i}{T_i}=0,\quad\oint\frac{dQ}{T}=0(可逆循环)</script><p>定义熵为</p>
-<script type="math/tex; mode=display">
-dS=\frac{dQ}{T}(可逆过程)\quad\Delta S=S_b-S_a=\int_a^b\frac{dQ}{T}(任意可逆过程)</script><h3 id="理想气体的熵变"><a href="#理想气体的熵变" class="headerlink" title="理想气体的熵变"></a>理想气体的熵变</h3><p><strong>绝热可逆过程</strong> $\begin{align}\Delta S=\int_a^b\frac{dQ}{T}=0\end{align}$</p>
-<p><strong>等体可逆过程</strong> $\begin{align}\Delta S=\int_{T_a}^{T_b}\frac{\nu C_{V,m}dT}{T}=\nu C_{V,m}\ln\frac{T_b}{T_a}\end{align}$</p>
-<p><strong>等压可逆过程</strong> $\begin{align}\Delta S=\int_{T_a}^{T_b}\frac{\nu C_{p,m}dT}{T}=\nu C_{p,m}\ln\frac{T_b}{T_a}\end{align}$</p>
-<p><strong>等温可逆过程</strong> $\begin{align}\Delta S=\int_a^b\frac{dQ_t}{T}=\nu R\ln\frac{V_b}{V_a}\end{align}$</p>
-<p><strong>可逆相变化</strong> $\begin{align}\Delta S=\frac{Q}{T}\end{align}$ 其中 $Q$ 为相平衡状态下的相变热</p>
-<h3 id="熵增原理"><a href="#熵增原理" class="headerlink" title="熵增原理"></a>熵增原理</h3><p>孤立系统的自发过程总是向着熵增大的方向进行，当熵达到最大时孤立系统达到平衡态</p>
-<script type="math/tex; mode=display">
-\Delta S\geq 0\quad(孤立系统)</script><p>熵增原理是热力学第二定律的另一种表述</p>
-<p>孤立系统内，一切自发过程总是朝分子运动无序性增强，微观态数目增多，出现概率大的宏观态方向进行</p>
-<h3 id="玻尔兹曼熵公式"><a href="#玻尔兹曼熵公式" class="headerlink" title="玻尔兹曼熵公式"></a>玻尔兹曼熵公式</h3><p>$S$ 为系统处于某宏观状态下的熵，$\omega$ 为宏观态的热力学概率，$k$ 为玻尔兹曼常量</p>
-<script type="math/tex; mode=display">
-S=k\ln\omega</script><p>为玻尔兹曼熵公式，熵是无序性的量度</p>
-<hr>
-<h2 id="Chapter-9-真空中的静电场"><a href="#Chapter-9-真空中的静电场" class="headerlink" title="Chapter-9 真空中的静电场"></a>Chapter-9 真空中的静电场</h2><h3 id="电荷守恒定律"><a href="#电荷守恒定律" class="headerlink" title="电荷守恒定律"></a>电荷守恒定律</h3><p>一个孤立系统的总电荷数保持不变，电荷既不能被创造，也不能被消灭，它只能从一个物体转移到另一个物体，或者从物体的一部分转移到物体的另一部分</p>
-<h3 id="电荷的量子化"><a href="#电荷的量子化" class="headerlink" title="电荷的量子化"></a>电荷的量子化</h3><p>自然界任何可被观测到的电荷总是以一个基本电荷单元 $e$ 的整数倍出现的，即 $q=ne(n\in Z)$ 这个基本电荷单元 $e$ 称为电荷量子</p>
-<h3 id="电荷的运动不变性"><a href="#电荷的运动不变性" class="headerlink" title="电荷的运动不变性"></a>电荷的运动不变性</h3><p>一个电荷的电量与其运动状态无关，在不同参照系中对电荷进行测量，测得的量值都相同，电荷的这一性质称为电荷的运动不变性</p>
-<h3 id="库仑定律"><a href="#库仑定律" class="headerlink" title="库仑定律"></a>库仑定律</h3><p>真空中两个静止的点电荷 $q_1$ 与 $q_2$ 之间的相互作用力的大小和 $q_1,q_2$ 的乘积成正比，和它们之间距离的平方成反比，作用力的方向沿着两点电荷的连线，同号电荷互斥，异号电荷相吸，库仑定律的数学表达式为 </p>
-<script type="math/tex; mode=display">
-F_{21}=k\frac{q_1q_2}{r_{12}^2}e_{12}
-=\frac{1}{4\pi\varepsilon_0}\frac{q_1q_2}{r_{12}^2}e_{12}</script><p>其中有 $k=8.99\times10^9 \mathrm{N}\cdot\mathrm{m}^2/\mathrm{C}^2,\varepsilon=8.85\times10^{-12}\mathrm{C}^2/(\mathrm{N}\cdot\mathrm{m}^2)$ </p>
-<h3 id="电力叠加原理"><a href="#电力叠加原理" class="headerlink" title="电力叠加原理"></a>电力叠加原理</h3><p>空间中任意两点之间的相互作用力遵循库仑定律，不因其它点电荷存在而改变</p>
-<script type="math/tex; mode=display">
-\begin{align}
-F_1&=F_{12}+F_{13}+\cdots+F_{1n}=\sum_{i=2}^{n}F_{1i}\\
-&=\sum_{i=2}^n\frac{1}{4\pi\varepsilon_0}\frac{q_1q_i}{r_{1i}^2}e_{1i}
-\end{align}</script><h3 id="电场"><a href="#电场" class="headerlink" title="电场"></a>电场</h3><p>任何电荷都在其周围空间激发电场，称为场源电荷。电荷相对于观察者是静止时，其周围的电场称为静电场，静电场对于场中的电荷有力的作用，称为静电场力或静电力<br>【注】电场不仅常常伴随电荷存在，且可脱离电荷而独立存在</p>
-<h3 id="电场强度"><a href="#电场强度" class="headerlink" title="电场强度"></a>电场强度</h3><p>试验电荷所受到的作用力 $F$ 与试验电荷的带电量 $q_0$ 的比值定义为电场强度</p>
-<script type="math/tex; mode=display">
-E=\frac{F}{q_0}=\frac{1}{4\pi\varepsilon_0}\frac{q}{r^2}e_r\quad(后式为点电荷)</script><h3 id="电场强度叠加原理"><a href="#电场强度叠加原理" class="headerlink" title="电场强度叠加原理"></a>电场强度叠加原理</h3><p>点电荷系所产生的电场在某点的场强等于各点电荷单独存在时所产生的电场在该点的场强的矢量和，称为电场强度叠加原理</p>
-<script type="math/tex; mode=display">
-E=E_1+E_2+\cdots+E_n=\sum_{i=1}^nE_i
-=\frac{1}{4\pi\varepsilon_0}\sum_{i=1}^n\frac{q_i}{r_i^2}e_i</script><h3 id="连续分布电荷电场的场强"><a href="#连续分布电荷电场的场强" class="headerlink" title="连续分布电荷电场的场强"></a>连续分布电荷电场的场强</h3><p>将带电体分割成许多微小的电荷元 $\mathrm{d}q$ ，根据场强叠加原理，场强为</p>
-<script type="math/tex; mode=display">
-E=\int dE=\frac{1}{4\pi\varepsilon_0}\int_V\frac{dq}{r^2}e_r</script><p>在具体计算中可以进行标准正交分解，求出标量积分后得到合场强</p>
-<script type="math/tex; mode=display">
-\begin{align}
-E_x=\int dE_x,&\quad E_y=\int dE_y,\quad E_z=\int dE_z\\
-&E=E_xi+E_yj+E_zk
-\end{align}</script><h3 id="电偶极子"><a href="#电偶极子" class="headerlink" title="电偶极子"></a>电偶极子</h3><p>等量异号电荷 $+q$ 和 $-q$ ，相距为 $l$ ，当观察点到两电荷连线的距离 $x\gg l$ 时，则这对点电荷称电偶极子，定义电偶极矩 $p_e=ql$ ，则中垂线上一点 $P$ 的场强满足</p>
-<script type="math/tex; mode=display">
-E=\frac{1}{4\pi\varepsilon_0}\frac{ql}{[x^2+(l/2)^2]^{3/2}}
-=\frac{1}{4\pi\varepsilon_0}\frac{p_e}{x^3}</script><p>当距离很大时，电偶极子的场强衰减比点电荷要迅速得多</p>
-<h3 id="电场线"><a href="#电场线" class="headerlink" title="电场线"></a>电场线</h3><p>在任何电场中，每一点的场强 $E$ 都有确定的大小和方向，电场线的切线方向与场强方向一致，规定垂直于电场方向的面积元上通过电场线数量正比于场强大小</p>
-<script type="math/tex; mode=display">
-E=\frac{dN}{dS}</script><p>则电场线满足一下三条重要性质</p>
-<ul>
-<li>电场线起自正电荷，终止于负电荷，不会在无电荷处中断</li>
-<li>任意两条电场线不会相交</li>
-<li>静电场中的电场线不形成闭合曲线<h3 id="电通量"><a href="#电通量" class="headerlink" title="电通量"></a>电通量</h3></li>
-</ul>
-<p>定义 $d\Phi_e=E\cdot dS$ 为通过面积元的电通量，面积元的电通量即通过该面积元的电场线总数，求解曲面 $S$ 的电通量需要先对曲面进行划分，经过叠加后得到电通量</p>
-<script type="math/tex; mode=display">
-\Phi_e=\int d\Phi_e=\int E\cos\theta dS=\int_sE\cdot dS</script><p>通过闭合曲面的通量可以写为</p>
-<script type="math/tex; mode=display">
-\Phi_e=\oint_sE\cos\theta dS=\oint E\cdot dS</script><p>如果通过闭合曲面的电通量为零，并不意味着一定没有电场线通过该曲面，更非曲面上的场强处处为零</p>
-<h3 id="高斯定理"><a href="#高斯定理" class="headerlink" title="高斯定理"></a>高斯定理</h3><p>通过任意闭合曲面的电通量等于该曲面所包围的所有电量的代数和除以 $\varepsilon_0$</p>
-<script type="math/tex; mode=display">
-\Phi_e=\oint_sE\cdot dS=\frac{1}{\varepsilon_0}\sum_iq_i</script><ul>
-<li>高斯定理说明了静电场是有源场，如果某处有电场线穿过而不中断，则通过该处闭合面的通量为零，说明此处无电荷</li>
-<li>高斯定理是从库仑定律和叠加原理推导出来的，对随时间变化的电场也成立</li>
-</ul>
-<p>球对称分布的电荷在球外产生的电场，与将全部电荷集中在球心时的场强分布相同<br>均匀带电圆柱面外的电场，与将圆柱面上的电量集中在其中心轴线上的电场等效<br>无限大均匀带电平面的电场是匀强电场</p>
-<h3 id="静电场力的功"><a href="#静电场力的功" class="headerlink" title="静电场力的功"></a>静电场力的功</h3><p>当试验电荷在静止点电荷电场中移动时，电场力所做的功仅与试验电荷电量的大小及其起点和终点的位置有关，而与电荷移动的路径无关</p>
-<script type="math/tex; mode=display">
-\begin{align}
-A_{ab}&=\int_a^bq_0E\cdot dl=q_0\int_a^b(E_1+E_2+\cdots+E_n)\cdot dl\\
-&=A_{1ab}+A_{2ab}+\cdots+A_{nab}=\sum_{i=1}^n
-\frac{q_0q_i}{4\pi\varepsilon_0}(\frac{1}{r_{ia}}-\frac{1}{r_{ib}})
-\end{align}</script><p>静电场力是保守力，静电场是保守场</p>
-<h3 id="静电场的环路定理"><a href="#静电场的环路定理" class="headerlink" title="静电场的环路定理"></a>静电场的环路定理</h3><p>在静电场中，电场强度沿任意闭合回路的线积分恒等于零</p>
-<script type="math/tex; mode=display">
-\oint_LE\cdot dl=0</script><p>等式的左侧积分称为静电场的环流</p>
-<h3 id="电势能"><a href="#电势能" class="headerlink" title="电势能"></a>电势能</h3><p>取离场源电荷无限远处电势能为零，则试验电荷 $q_0$ 在电场中任一点 $P$ 处的电势能为</p>
-<script type="math/tex; mode=display">
-W_P=A_{P\infty}=\int^{\infty}_P q_0E\cdot dl</script><p>试验电荷 $q_0$ 在电场中 $P$ 电的电势能 $W_P$ 在数值上等于将 $q_0$ 从 $P$ 点移至无限远处电场力所做的功</p>
-<h3 id="电势"><a href="#电势" class="headerlink" title="电势"></a>电势</h3><p>电势仅与进电场中给定点的位置有关，与电荷 $q_0$ 无关</p>
-<script type="math/tex; mode=display">
-U_P=\frac{W_P}{q_0}=\int^{\infty}_PE\cdot dl</script><p>静电场中某点的电势在数值上等于单位正电荷在该处所具有的电势能，也等于单位正电荷从该点经过任意路径迁移到无限远处电场力对它所作的功</p>
-<script type="math/tex; mode=display">
-U_{ab}=U_a-U_b=\int_a^\infty E\cdot dl=\int_b^\infty E\cdot dl
-=\int_a^bE\cdot dl</script><p>静电场中 $a,b$ 两点的电势差，在数值上等于将单位正电荷从电场中 $a$ 点移到 $b$ 点时电场力所做的功</p>
-<h3 id="电势叠加原理"><a href="#电势叠加原理" class="headerlink" title="电势叠加原理"></a>电势叠加原理</h3><p>点电荷电场中的电势</p>
-<script type="math/tex; mode=display">
-U_P=\int^{\infty}_PE\cdot dl
-=\int^{\infty}_r\frac{q}{4\pi\varepsilon_0r^2}dr=\frac{q}{4\pi\varepsilon_0r}=\frac{kq}{r}</script><p>点电荷系电场中的电势</p>
-<script type="math/tex; mode=display">
-\begin{align}
-U_P&=\int^{\infty}_P E\cdot dl
-=\int^{\infty}_P(E_1+E_2+\cdots+E_n)\cdot dl\\
-&=U_{P1}+U_{P2}+\cdots+U_{Pn}\\
-&=\sum_{i=1}^nU_{Pi}=\sum_{i=1}^n\frac{q_i}{4\pi\varepsilon_0 r_i}
-\end{align}</script><p>在点电荷系电场中某点的电势，等于每个点电荷单独存在时在该点所产生的电势的代数和，称为静电场中的电势叠加原理</p>
-<h3 id="等势面"><a href="#等势面" class="headerlink" title="等势面"></a>等势面</h3><p>在静电场中，一般来说电势值是逐点变化的，但总存在许多电势值相等的点，这些点可以连成曲面，称这些曲面为等势面，等势面和电场线有以下关系</p>
-<ul>
-<li>等势面与电场线处处正交</li>
-<li>等势面密的地方场强大，稀疏的地方场强小<h3 id="电势梯度"><a href="#电势梯度" class="headerlink" title="电势梯度"></a>电势梯度</h3></li>
-</ul>
-<p>电场中某点场强在任一方向上的分量等于电势在此方向上变化率的负值，符号表示场强方向指向电势降低的方向</p>
-<script type="math/tex; mode=display">
-E_l=-\frac{dU}{dl}</script><p>设 $n$ 为法线方向，定义一个矢量大小等于 $\begin{align}\frac{dU}{dn}\end{align}$ 方向指向电势升高的方向，这个矢量称为电势梯度，用 $\nabla U$ 或 $\text{grad} U$ 表示 </p>
-<script type="math/tex; mode=display">
-\nabla U=\frac{dU}{dn}e_n,\quad E=-\frac{dU}{dn}e_n=-\nabla U=-\text{grad} U</script><p>在电场中任一点的电场强度矢量，等于该点电势梯度矢量的负值，符号表示场强与电势梯度方向相反，正交分解可得</p>
-<script type="math/tex; mode=display">
-E=-(\frac{\partial U}{\partial x}i+\frac{\partial U}{\partial y}j+\frac{\partial U}{\partial z}k)</script>]]></content>
-      <tags>
-        <tag>课程笔记</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>线性代数</title>
     <url>/2025/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="几何解释"><a href="#几何解释" class="headerlink" title="几何解释"></a>几何解释</h2><h3 id="方阵乘法的意义"><a href="#方阵乘法的意义" class="headerlink" title="方阵乘法的意义"></a>方阵乘法的意义</h3><p>对于方阵 $A,B$ ，表达式 $B(AX)$ 表示在新基 $B$ 下坐标为在新基 $A$ 下坐标为 $X$ 的坐标的坐标</p>
@@ -2045,162 +2219,6 @@ f(\lambda)&=|
 <p>已知 $A,B$ 正定，$AB=BA$ ，则 $AB$ 也正定 $AB\xi=\lambda\xi\Rightarrow\xi^{\mathrm{T}}B\xi=\lambda\xi^\mathrm{T}A^{-1}\xi$</p>
 <h3 id="验证特征值的一致性"><a href="#验证特征值的一致性" class="headerlink" title="验证特征值的一致性"></a>验证特征值的一致性</h3><p>若题设要求验证两矩阵特征根某性质的一致性，可以验证两矩阵相似</p>
 <h3 id="维度公式"><a href="#维度公式" class="headerlink" title="维度公式"></a>维度公式</h3><p>对于矩阵 $A\in\mathrm{R}^{m\times n}$ 有 $r(A)+\dim(\ker(A))=n$ ，其中 $\ker(A)$ 表示零空间</p>
-]]></content>
-      <tags>
-        <tag>课程笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>关于博主</title>
-    <url>/2025/%E5%85%B3%E4%BA%8E%E5%8D%9A%E4%B8%BB/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><ul>
-<li>试图记录大学生活，并活得更多姿多彩的理想主义者</li>
-<li>热爱 JPOP ，喜欢听纯音乐并在咕小提琴的音乐爱好者</li>
-<li>试图让自己变得更加容易接近的小 i 人</li>
-<li>在某些场合下可能表现得有些自恋的帅锅 qwq</li>
-<li>在高中语文老师的启发下正在看书脱离文盲状态<span id="more"></span>
-</li>
-</ul>
-<p><img src="/pictures/个人照片.jpg" alt="你浙什么时候改善宿舍环境" style="display: block; margin: 0 auto; width: 30%;"><br>其它的暂时懒得写了qwq，咕咕咕</p>
-]]></content>
-      <tags>
-        <tag>个人资料</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>微积分甲I</title>
-    <url>/2025/%E5%BE%AE%E7%A7%AF%E5%88%86%E7%94%B2I/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="Chapter-1-数列极限"><a href="#Chapter-1-数列极限" class="headerlink" title="Chapter-1 数列极限"></a>Chapter-1 数列极限</h3><h4 id="数列极限定义"><a href="#数列极限定义" class="headerlink" title="数列极限定义"></a>数列极限定义</h4><p>设 $\{a_n\}$ 是 $\mathrm{R}$ 中的一个数列，如果存在 $a\in\mathrm{R}$ 使得 $\forall \varepsilon&gt;0,\exists N\in\mathrm{N_+}$ ，当 $n\geq N$ 时，都有 $|a_n-a|&lt;\varepsilon$ ，就称数列 $\{a_n\}$ 是收敛于 $a$ 的，记为 $\begin{aligned}\lim_{n\rightarrow\infty}a_n=a\end{aligned}$ ,称 $a$ 是数列 $\{a_n\}$ 的极限<br><span id="more"></span></p>
-<h4 id="数列极限性质"><a href="#数列极限性质" class="headerlink" title="数列极限性质"></a>数列极限性质</h4><p><strong>唯一性</strong>  如果数列 $\{a_n\}$ 收敛，那么其极限是唯一的</p>
-<p><strong>有界性</strong>  如果数列 $\{a_n\}$ 收敛，那么 $\{a_n\}$ 是有界的，即 $\exists M&gt;0,\forall n\in\mathrm{N_+},|a_n|\leq M$</p>
-<p><strong>保号性</strong>  如果 $\begin{aligned}\lim_{n\rightarrow\infty}a_n=a&gt;0\end{aligned}$ 那么 $\forall p\in(0,a),\exists N&gt;0$ 当 $n\geq N$ 时 $a_n&gt;p&gt;0$</p>
-<h4 id="夹逼定理"><a href="#夹逼定理" class="headerlink" title="夹逼定理"></a>夹逼定理</h4><p>设数列 $\{a_n\},\{b_n\},\{c_n\}$ 满足当 $n\geq N_0\in\mathrm{N}_+$ 时，有 $b_n\leq a_n\leq c_n$ 并且 $\begin{aligned}\lim_{n\rightarrow\infty}b_n=\lim_{n\rightarrow\infty}c_n=a\end{aligned}$ ，则数列 $\{a_n\}$ 也是收敛的，且 $\begin{aligned}\lim_{n\rightarrow\infty}a_n=a\end{aligned}$</p>
-<h4 id="波尔查诺-魏尔斯特拉斯定理"><a href="#波尔查诺-魏尔斯特拉斯定理" class="headerlink" title="波尔查诺-魏尔斯特拉斯定理"></a>波尔查诺-魏尔斯特拉斯定理</h4><p>设 $\{a_n\}$ 是 $\mathrm{R}$ 中的一个有界数列，则数列 $\{a_n\}$ 中存在收敛的子列</p>
-<h4 id="柯西准则"><a href="#柯西准则" class="headerlink" title="柯西准则"></a>柯西准则</h4><p>设 $a_n$ 是 $\mathrm{R}$ 中的一个数列，若对于任意 $\varepsilon&gt;0$ ，存在正整数 $N$ ，当 $m,n\geq N$ 时， $|a_m-a_n|&lt;\varepsilon$ 则称 $\{a_n\}$ 是柯西数列，$\{a_n\}$ 收敛当且仅当 $\{a_n\}$ 是柯西数列</p>
-<h4 id="施托尔茨第一公式"><a href="#施托尔茨第一公式" class="headerlink" title="施托尔茨第一公式"></a>施托尔茨第一公式</h4><p>给定数列 $\{x_n\},\{y_n\}$ ，若 $\{x_n\}$ 单调增加，且 $\begin{aligned}\lim_{x\rightarrow+\infty}x_n=+\infty\end{aligned}$ ,</p>
-<p>若 $\begin{aligned}\lim_{n\rightarrow+\infty}\frac{y_n-y_{n-1}}{x_n-x_{n-1}}=a\end{aligned}$ ，那么有 $\begin{aligned}\lim_{n\rightarrow+\infty}\frac{y_n}{x_n}=a\end{aligned}$ ，其中 $a$ 可以是实数也可以是 $\pm\infty$</p>
-<h4 id="施托尔茨第二公式"><a href="#施托尔茨第二公式" class="headerlink" title="施托尔茨第二公式"></a>施托尔茨第二公式</h4><p>给定数列 $\{x_n\},\{y_n\}$ ，若$\{x_n\}$ 单调减少，且 $\begin{aligned}\lim_{n\rightarrow+\infty}x_n=\lim_{n\rightarrow+\infty}y_n=0\end{aligned}$ ，</p>
-<p>若$\begin{aligned}\lim_{n\rightarrow+\infty}\frac{y_n-y_{n-1}}{x_n-x_{n-1}}=a\end{aligned}$ ，那么有 $\begin{aligned}\lim_{n\rightarrow+\infty}\frac{y_n}{x_n}=a\end{aligned}$ ，其中 $a$ 可以是实数也可以是 $\pm\infty$</p>
-<hr>
-<h3 id="Chapter-2-函数的极限与连续性"><a href="#Chapter-2-函数的极限与连续性" class="headerlink" title="Chapter-2 函数的极限与连续性"></a>Chapter-2 函数的极限与连续性</h3><h4 id="函数极限"><a href="#函数极限" class="headerlink" title="函数极限"></a>函数极限</h4><p>设 $f:D\rightarrow\mathrm{R}$ ，$D$ 是 $\mathrm{R}$ 的子集并且包含 $x_0$ 的某去心邻域，如果存在 $A\in\mathrm{R}$ ，使得对于任意的 $\varepsilon&gt;0,\exists \delta&gt;0$ ，当 $x\in \mathring{U}(x_0,\delta)\cap D$ 时，有 $|f(x)-A|&lt;\varepsilon$ ，就称 $x$ 趋于 $x_0$ 时，$f(x)$ 趋于 $A$ ，记为 $\begin{aligned}\lim_{x\rightarrow x_0}f(x)=A\end{aligned}$</p>
-<h4 id="归结原理"><a href="#归结原理" class="headerlink" title="归结原理"></a>归结原理</h4><p>设 $f:D\subset\mathrm{R}\rightarrow\mathrm{R},\exists\mathring{U}(x_0)\subset D$ ，则 $\begin{aligned}\lim_{x\rightarrow x_0}f(x)=A\end{aligned}$ 的充要条件为：对于任意满足 $\begin{aligned}\lim_{n\rightarrow\infty}x_n=x_0,x_n\neq x_0,n=1,2,3,\cdots\end{aligned}$ 的数列 $\{x_n\}$ ，其对应的函数值数列 $\{f(x_n)\}$ 均有 $\begin{aligned}\lim_{n\rightarrow\infty}f(x_n)=A\end{aligned}$</p>
-<h4 id="函数极限性质"><a href="#函数极限性质" class="headerlink" title="函数极限性质"></a>函数极限性质</h4><p><strong>唯一性</strong> 若函数在某点有极限，则极限是唯一的</p>
-<p><strong>局部有界性</strong> 设 $\begin{aligned}f:D\subset\mathrm{R}\rightarrow\mathrm{R},\lim_{x\rightarrow x_0}f(x)\end{aligned}$ 存在，则 $f(x)$ 在 $x_0$ 的某去心邻域内有界，即 $\exists M&gt;0,\delta&gt;0$ 当 $0&lt;|x-x_0|&lt;\delta$ 时， $|f(x)|&lt;M$</p>
-<p><strong>局部保号性</strong> 如果 $\begin{aligned}\lim_{x\rightarrow x_0}f(x)=A&gt;0\end{aligned}$ ，那么 $\forall p\in(0,A),\exists\delta&gt;0,\forall x\in\mathring{U}(x_0,\delta),f(x)&gt;p&gt;0$</p>
-<h4 id="夹逼定理-1"><a href="#夹逼定理-1" class="headerlink" title="夹逼定理"></a>夹逼定理</h4><p>设 $f,g,h:D\subset\mathrm{R}\rightarrow\mathrm{R}$ ，$D$ 包含 $x_0$ 的某去心邻域 $\mathring{U}(x_0,\delta)$ ，如果 $\forall x\in\mathring{U}(x,\delta)$ ，有 $g(x)\leq f(x)\leq h(x)$ ，且满足 $\begin{aligned}\lim_{x\rightarrow x_0}g(x)=\lim_{x\rightarrow x_0}h(x)=A\end{aligned}$  那么有 $\begin{aligned}\lim_{x\rightarrow x_0}f(x)=A\end{aligned}$</p>
-<h4 id="单侧极限"><a href="#单侧极限" class="headerlink" title="单侧极限"></a>单侧极限</h4><p>$\begin{aligned}\lim_{x\rightarrow x_0}f(x)=A\Leftrightarrow\lim_{x\rightarrow x_0^-}f(x)=\lim_{x\rightarrow x_0^+}f(x)=A\end{aligned}$</p>
-<p>$\begin{aligned}\lim_{x\rightarrow \infty}f(x)=A\Leftrightarrow\lim_{x\rightarrow -\infty}f(x)=\lim_{x\rightarrow +\infty}f(x)=A\end{aligned}$</p>
-<h4 id="函数连续"><a href="#函数连续" class="headerlink" title="函数连续"></a>函数连续</h4><p>设 $f:D\subset\mathrm{R}\rightarrow\mathrm{R}$ ，$D$ 包含 $x_0$ 的某个邻域，如果 $\begin{aligned}\lim_{x\rightarrow x_0}f(x)=f(x_0)\end{aligned}$ 则称 $f$ 在 $x_0$ 处连续</p>
-<p><strong>第一类间断点</strong> 左极限 $\begin{aligned}\lim_{x\rightarrow x_0^-}f(x)\end{aligned}$ 和右极限 $\begin{aligned}\lim_{x\rightarrow x_0^+}f(x)\end{aligned}$ 都存在但 $f$ 在 $x_0$ 处不连续</p>
-<p><strong>跳跃间断点</strong> $\begin{aligned}\lim_{x\rightarrow x_0^-}f(x)\neq\lim_{x\rightarrow x_0^+}f(x)\end{aligned}$</p>
-<p><strong>可去间断点</strong> $\begin{aligned}\lim_{x\rightarrow x_0}f(x)\neq f(x_0)\end{aligned}$ 或 $f(x)$ 在 $x_0$ 处没有定义</p>
-<p><strong>第二类间断点</strong> 如果 $f$ 在 $x_0$ 处的左右极限至少有一个不存在</p>
-<h4 id="函数一致连续"><a href="#函数一致连续" class="headerlink" title="函数一致连续"></a>函数一致连续</h4><p>设函数 $f:I\rightarrow\mathrm{R}$ ，如果 $\forall\varepsilon&gt;0,\exists\delta&gt;0$ ，使得 $\forall x_1,x_2\in I$ ，当 $|x_1,x_2|&lt;\delta$ 时，都有 $|f(x_1)-f(x_2)|&lt;\varepsilon$ ，就称函数 $f$ 在区间 $I$ 上一致连续</p>
-<h4 id="康托尔定理"><a href="#康托尔定理" class="headerlink" title="康托尔定理"></a>康托尔定理</h4><p>设函数 $f(x)$ 在有限闭区间 $[a,b]$ 上连续，则 $f(x)$ 在 $[a,b]$ 上一致连续</p>
-<h4 id="无穷小"><a href="#无穷小" class="headerlink" title="无穷小"></a>无穷小</h4><p>设 $f(x),g(x)$ 是当 $x\rightarrow x_0$ 时的无穷小，且 $g(x)\neq0$</p>
-<p>若 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=0\end{aligned}$ ，则称 $f(x)$ 是比 $g(x)$ 高阶的无穷小（更快趋于 $0$ ）记为 $f(x)=o(g(x))$</p>
-<p>若 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=0\end{aligned}$ ，则称 $g(x)$ 是比 $f(x)$ 低阶的无穷小（更慢趋于 $0$ ）记为 $f(x)=o(g(x))$</p>
-<p>若 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=A\neq0\end{aligned}$ ，则称 $f(x)$ 与 $g(x)$ 是同阶无穷小，记为 $f(x)=O(g(x))$</p>
-<p>若 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=0\end{aligned}$ ，则称 $f(x)$ 与 $g(x)$ 是等价无穷小，记为 $f(x)\sim g(x)$</p>
-<h4 id="无穷大"><a href="#无穷大" class="headerlink" title="无穷大"></a>无穷大</h4><p>设 $f(x),g(x)$ 是当 $x\rightarrow x_0$ 时的无穷大</p>
-<p>若 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=0\end{aligned}$ ，则称 $f(x)$ 是比 $g(x)$ 低阶的无穷大（增长更慢 ）</p>
-<p>若 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=0\end{aligned}$ ，则称 $g(x)$ 是比 $f(x)$ 高阶的无穷大（增长更快）</p>
-<p>若 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=A\neq0\end{aligned}$ ，则称 $f(x)$ 与 $g(x)$ 是同阶无穷大</p>
-<p>若 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=0\end{aligned}$ ，则称 $f(x)$ 与 $g(x)$ 是等价无穷大</p>
-<h4 id="等价无穷小替换"><a href="#等价无穷小替换" class="headerlink" title="等价无穷小替换"></a>等价无穷小替换</h4><p>设 $f,g,\alpha,\beta$ 当 $x\rightarrow x_0$ 时是无穷小，且 $f\sim\alpha,g\sim\beta$ ，如果 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{\alpha(x)}{\beta(x)}\end{aligned}$ 存在，</p>
-<p>那么有 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=\lim_{x\rightarrow x_0}\frac{\alpha(x)}{\beta(x)}\end{aligned}$</p>
-<h4 id="有限闭区间上连续函数的性质"><a href="#有限闭区间上连续函数的性质" class="headerlink" title="有限闭区间上连续函数的性质"></a>有限闭区间上连续函数的性质</h4><p>有界性、最大值最小值定理、零点存在定理、介值定理、不动点</p>
-<hr>
-<h3 id="Chapter-3-导数与微分"><a href="#Chapter-3-导数与微分" class="headerlink" title="Chapter-3 导数与微分"></a>Chapter-3 导数与微分</h3><h4 id="导数定义"><a href="#导数定义" class="headerlink" title="导数定义"></a>导数定义</h4><p>设函数 $y=f(x)$ 在 $x_0$ 的某个邻域内有定义，如果极限 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{f(x)-f(x_0)}{x-x_0}\end{aligned}$ 存在，就称 $f$ 在 $x_0$ 处可导，$x_0$ 是 $f$ 的可导点，极限值为 $f$ 在 $x_0$ 处的导数，记为 $f’(x_0)$</p>
-<h4 id="单侧导数"><a href="#单侧导数" class="headerlink" title="单侧导数"></a>单侧导数</h4><p>若函数 $f$ 在 $x_0$ 的某个邻域内有定义，则 $f$ 在 $x_0$ 处可导当且仅当 $f$ 在 $x_0$ 处分别左右导数相等</p>
-<h4 id="反函数求导"><a href="#反函数求导" class="headerlink" title="反函数求导"></a>反函数求导</h4><p>函数 $y=f(x)$ 在 $U(x_0)$ 严格单调，在 $x_0$ 可导且 $f’(x_0)\neq0,y_0=f(x_0),g:U(y_0)\rightarrow U(x_0)$ 为 $y=f(x)$ 的反函数，则函数 $g$ 在 $y_0$ 处可导，且 $g’(y_0)=\dfrac{1}{f’(x_0)}$</p>
-<p>由 $y_0=f(x_0)$ 有 $g’(f(x_0))=\dfrac{1}{f’(x_0)}$ ，即 $g’(x)=\dfrac{1}{f’(g(x))}$</p>
-<h4 id="参数方程的导数"><a href="#参数方程的导数" class="headerlink" title="参数方程的导数"></a>参数方程的导数</h4><p>对于参数方程 $\begin{cases}x=\varphi(t)\\y=\psi(t)\end{cases}$ 有 $\dfrac{\mathrm{d}x}{\mathrm{d}t}=\varphi’(t)，\dfrac{\mathrm{d}y}{\mathrm{d}t}=\psi’(t)$  则 $\dfrac{\mathrm{d}y}{\mathrm{d}x}=\dfrac{\psi’(t)}{\varphi’(t)}$ </p>
-<p>参数方程的导数可以表示为 $\begin{cases}x=\varphi(t)\\y=\dfrac{\psi’(t)}{\varphi’(t)}\end{cases}$  或 $\dfrac{\mathrm{d}y}{\mathrm{d}x}=\dfrac{\psi’(t)}{\varphi’(t)}\bigg|_{t=\varphi^{-1}(x)}$</p>
-<h4 id="莱布尼茨公式"><a href="#莱布尼茨公式" class="headerlink" title="莱布尼茨公式"></a>莱布尼茨公式</h4><p>若函数 $u,v$ 均 $n$ 阶可导，则乘积函数 $uv$ 也 $n$ 阶可导</p>
-<p>$\begin{aligned}(uv)^{(n)}=\sum_{k=0}^n\begin{pmatrix}n\\k\end{pmatrix}u^{(n-k)}v^{(k)}\end{aligned}$</p>
-<h4 id="微分定义"><a href="#微分定义" class="headerlink" title="微分定义"></a>微分定义</h4><p>设 $y=f(x)$ 在 $x_0$ 某个邻域内有定义， $\Delta x$ 是自变量的一个改变量，如果存在不依赖于 $\Delta x$ 的常数 $A$ ，使得当 $|\Delta x|$ 充分小时，函数的增量 </p>
-<p>$\Delta y=f(x_0+\Delta x)-f(x_0)=A\Delta x+o(\Delta x),\Delta x\rightarrow 0$</p>
-<p>那么称 $f$ 在 $x_0$ 处可微，称 $A\Delta x$ 为 $f$ 在 $x_0$ 处的微分，记为 $\mathrm{d}y|_{x=x_0}=A\Delta{x}$</p>
-<h4 id="近似估计与误差分析"><a href="#近似估计与误差分析" class="headerlink" title="近似估计与误差分析"></a>近似估计与误差分析</h4><p>$f(x_0+\Delta{x})\approx f(x_0)+f’(x_0)\Delta x$</p>
-<p>在测量某个值 $x^<em>$ 时得到的 $x$ 是一个近似值，程 $|x-x^</em>|$ 为绝对误差， $\dfrac{|x-x^*|}{|x|}$ 为相对误差 </p>
-<p>如果存在 $\delta_x&gt;0$ 使 $|x-x^*|\leq\delta_x$ ，则称 $\delta_x$ 为绝对误差限，$\dfrac{\delta_x}{|x|}$ 称为相对误差限</p>
-<hr>
-<h3 id="Chapter-4-微分中值定理"><a href="#Chapter-4-微分中值定理" class="headerlink" title="Chapter-4 微分中值定理"></a>Chapter-4 微分中值定理</h3><h4 id="函数极值"><a href="#函数极值" class="headerlink" title="函数极值"></a>函数极值</h4><p>设函数 $f$ 在 $x_0$ 的某个邻域内有定义，如果存在 $\delta&gt;0$ 使得对于任何 $x\in(x_0-\delta,x_0+\delta)$ 恒有 $f(x)\leq f(x_0)$ ,就称 $f(x_0)$ 是函数 $f$ 的一个极大值， $x=x_0$ 为极大值点</p>
-<h4 id="费马定理"><a href="#费马定理" class="headerlink" title="费马定理"></a>费马定理</h4><p>设 $x_0$ 为函数 $f$ 的极值点，如果 $f$ 在 $x_0$ 处可导，则 $f’(x_0)=0$</p>
-<h4 id="罗尔定理"><a href="#罗尔定理" class="headerlink" title="罗尔定理"></a>罗尔定理</h4><p>如果函数 $f$ 满足在闭区间 $[a,b]$ 上连续，在开区间 $(a,b)$ 内可导，$f(a)=f(b)$ </p>
-<p>那么至少存在一点 $\xi\in(a,b)$ 使得 $f’(\xi)=0$</p>
-<h4 id="拉格朗日中值定理"><a href="#拉格朗日中值定理" class="headerlink" title="拉格朗日中值定理"></a>拉格朗日中值定理</h4><p>如果函数 $f$ 满足在闭区间 $[a,b]$ 上连续，在开区间 $(a,b)$ 内可导</p>
-<p>那么至少存在一点 $\xi\in(a,b)$ 使得 $f’(\xi)=\dfrac{f(b)-f(a)}{b-a}$</p>
-<h4 id="柯西中值定理"><a href="#柯西中值定理" class="headerlink" title="柯西中值定理"></a>柯西中值定理</h4><p>设函数 $f,g$ 在 $[a,b]$ 上连续，在 $(a,b)$ 内可导，且 $g’$ 在 $(a,b)$ 内没有零点</p>
-<p>则至少存在一点 $\xi\in(a,b)$ ，使得 $\dfrac{f’(\xi)}{g’(\xi)}=\dfrac{f(b)-f(a)}{g(b)-g(a)}$</p>
-<h4 id="洛必达法则"><a href="#洛必达法则" class="headerlink" title="洛必达法则"></a>洛必达法则</h4><p>如果函数 $f$ 和 $g$ 在 $x_0$ 的某去心邻域 $\mathring{U}(x_0)$ 内可导，且 $g’\neq0$ </p>
-<p>如果 $\begin{aligned}\lim_{x\rightarrow x_0}f(x)=\lim_{x\rightarrow x_0}g(x)=0\end{aligned}$ ，且极限 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{f’(x)}{g’(x)}\end{aligned}=A$ （或 $\infty$ ）</p>
-<p>那么有$\begin{aligned}\lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=\lim_{x\rightarrow x_0}\frac{f’(x)}{g’(x)}\end{aligned}$</p>
-<p>如果函数 $f$ 和 $g$ 在 $x_0$ 的某去心邻域 $\mathring{U}(x_0)$ 内可导，且 $g’\neq0$ </p>
-<p>如果 $\begin{aligned}\lim_{x\rightarrow x_0}g(x)=\infty\end{aligned}$ ，且极限 $\begin{aligned}\lim_{x\rightarrow x_0}\frac{f’(x)}{g’(x)}\end{aligned}=A$ （或 $\infty$ ）</p>
-<p>那么有$\begin{aligned}\lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=\lim_{x\rightarrow x_0}\frac{f’(x)}{g’(x)}\end{aligned}$</p>
-<h4 id="带佩亚诺余项的泰勒公式"><a href="#带佩亚诺余项的泰勒公式" class="headerlink" title="带佩亚诺余项的泰勒公式"></a>带佩亚诺余项的泰勒公式</h4><p>$f(x)=f(x_0)+f’(x_0)(x-x_0)+\cdots+\dfrac{f^{(n)}(x_0)}{n!}(x-x_0)^n+o((x-x_0)^n)$</p>
-<h4 id="带拉格朗日余项的泰勒公式"><a href="#带拉格朗日余项的泰勒公式" class="headerlink" title="带拉格朗日余项的泰勒公式"></a>带拉格朗日余项的泰勒公式</h4><p>$f(x)=f(x_0)+f’(x_0)(x-x_0)+\cdots+\dfrac{f^{(n)}(x_0)}{n!}(x-x_0)^n+\dfrac{f^{(n+1)}(\xi)}{(n+1)!}(x-x_0)^{n+1}$</p>
-<h4 id="极值第一判别法"><a href="#极值第一判别法" class="headerlink" title="极值第一判别法"></a>极值第一判别法</h4><p>如果 $f$ 在 $x_0$ 的某邻域内连续， $f’$ 在 $x_0$ 两侧异号，那么 $x_0$ 必定是 $f$ 的极值点</p>
-<h4 id="极值第二判别法"><a href="#极值第二判别法" class="headerlink" title="极值第二判别法"></a>极值第二判别法</h4><p>假设 $f$ 在 $x_0$ 的某邻域内连续，且在 $x_0$ 处二阶可导，如果 $f’(x_0)=0,f’’(x_0)\neq0$ </p>
-<p>则 $x_0$ 必定是 $f$ 的极值点</p>
-<h4 id="凹凸性判别法"><a href="#凹凸性判别法" class="headerlink" title="凹凸性判别法"></a>凹凸性判别法</h4><p>设 $f$ 在区间 $[a,b]$ 上连续，在 $(a,b)$ 内可导</p>
-<p>曲线 $f$ 在 $[a,b]$ 上是凹的，当且仅当在 $(a,b)$ 内恒有 $f’’\geq0$</p>
-<p>曲线 $f$ 在 $[a,b]$ 上是凸的，当且仅当在 $(a,b)$ 内恒有 $f’’\leq 0$</p>
-<h4 id="渐近线"><a href="#渐近线" class="headerlink" title="渐近线"></a>渐近线</h4><p>当 $x\rightarrow x_0$ 时， $f(x)\rightarrow\infty$ ，则直线 $x=x_0$ 是 $y=f(x)$ 的一条垂直渐近线</p>
-<p>$\begin{aligned}a=\lim_{x\rightarrow+\infty}\frac{f(x)}{x},b=\lim_{x\rightarrow+\infty}[f(x)-ax]\end{aligned}$ </p>
-<p>若 $a\neq0$ 则 $y=ax+b$ 为曲线的斜渐近线，否则 $y=b$ 为曲线的水平渐近线</p>
-<h4 id="曲率与曲率半径"><a href="#曲率与曲率半径" class="headerlink" title="曲率与曲率半径"></a>曲率与曲率半径</h4><p>$\begin{aligned}K=\lim_{l\rightarrow0}\frac{\theta}{l}\end{aligned}$ 定义曲线在 $P$ 点处的弯曲程度，称为曲率， $R=\dfrac{1}{K}$ 为曲率半径</p>
-<p>$K(x)=\dfrac{|f’’(x)|}{[1+(f’(x))^2]^{3/2}}$</p>
-<p>曲率圆和曲线 $y=f(x)$ 在 $P$ 点相切，在切点有相同的凹凸性和曲率</p>
-<p>曲率圆圆心坐标为 $(\xi,\eta),\begin{cases}\xi=x-\dfrac{f’(x)[1+(f’(x))^2]}{f’’(x)}\\\eta=f(x)+\dfrac{1+[f’(x)]^2}{f’’(x)}\end{cases}$ </p>
-<h4 id="达布定理"><a href="#达布定理" class="headerlink" title="达布定理"></a>达布定理</h4><p>设 $f$ 在 $(a,b)$ 内可导， $x_1,x_2\in(a,b)$ ，且 $x_1&lt;x_2$ ，则对于任何介于  $f’(x_1)$ 和 $f’(x_2)$ 的实数 $\eta$ ，必存在 $\xi\in(a,b)$ ，使得 $\eta=f’(\xi)$</p>
-<hr>
-<h3 id="Chapter-5-不定积分"><a href="#Chapter-5-不定积分" class="headerlink" title="Chapter-5 不定积分"></a>Chapter-5 不定积分</h3><h4 id="第一换元积分法"><a href="#第一换元积分法" class="headerlink" title="第一换元积分法"></a>第一换元积分法</h4><p>设 $f(u)$ 存在原函数 $F(u),u=\varphi(x)$ 可导，则函数 $f(\varphi(x))\varphi’(x)$ 也存在原函数</p>
-<p>$\begin{aligned}\int f(\varphi(x))\varphi’(x)\mathrm{d}x=\int f(\varphi(x))\mathrm{d}\varphi(x)=\int f(u)\mathrm{d}u=F(u)+C=F(\varphi(x))+C\end{aligned}$</p>
-<h4 id="第二换元积分法"><a href="#第二换元积分法" class="headerlink" title="第二换元积分法"></a>第二换元积分法</h4><p>设 $f(x)$ 连续，$x=\varphi(t)$ 有连续导数，且 $\varphi’(t)\neq0$ 如果 $\begin{aligned}\int f(\varphi(t))\varphi’(t)\mathrm{d}t=F(t)+C\end{aligned}$</p>
-<p>则 $\begin{aligned}\int f(x)\mathrm{d}x=\int f(\varphi(t))\varphi’(t)\mathrm{d}t=F(t)+C=F(t)+C=F(\varphi^{-1}(t))+C\end{aligned}$</p>
-<h4 id="分部积分法"><a href="#分部积分法" class="headerlink" title="分部积分法"></a>分部积分法</h4><p>$\begin{aligned}\int u(x)v’(x)\mathrm{d}x=u(x)v(x)-\int v(x)u’(x)\mathrm{d}x\end{aligned}$</p>
-<h4 id="有理函数的不定积分"><a href="#有理函数的不定积分" class="headerlink" title="有理函数的不定积分"></a>有理函数的不定积分</h4><p>一切有理函数的原函数可以用有理函数、对数函数和反正切函数表示出来</p>
-<h4 id="三角有理函数的不定积分"><a href="#三角有理函数的不定积分" class="headerlink" title="三角有理函数的不定积分"></a>三角有理函数的不定积分</h4><p>设 $t=\tan\dfrac{x}{2},|x|&lt;\pi$ ，则 $x=2\arctan{t}$ 有以下替换：</p>
-<p>$\begin{cases}\mathrm{d}x=\dfrac{2}{1+t^2}\mathrm{d}t\\\sin x=\dfrac{2\tan\dfrac{x}{2}}{1+\tan^2\dfrac{x}{2}}=\dfrac{2t}{1+t^2}\\\cos x=\dfrac{1-\tan^2\dfrac{x}{2}}{1+\tan^2\dfrac{x}{2}}=\dfrac{1-t^2}{1+t^2}\end{cases}$</p>
-<p>则 $\begin{aligned}\int R(\sin x,\cos x)\mathrm{d}x=\int R(\frac{2t}{1+t^2},\frac{1-t^2}{1+t^2})\cdot\frac{2}{1+t^2}\mathrm{d}t\end{aligned}$</p>
-<h4 id="其它可有理化函数的不定积分"><a href="#其它可有理化函数的不定积分" class="headerlink" title="其它可有理化函数的不定积分"></a>其它可有理化函数的不定积分</h4><p>设 $R$ 为有理函数，则以 $\mathrm{e}^x$ 为变量的有理函数 $R(\mathrm{e}^x)$ 的积分 $\begin{aligned}\int R(\mathrm{e}^x)\mathrm{d}x\end{aligned}$ </p>
-<p>可通过变量替换 $x=\ln t$ 化成有理函数的积分 $\begin{aligned}\int R(t)\frac{1}{t}\mathrm{d}t\end{aligned}$</p>
-<hr>
-<h3 id="Chapter-6-定积分"><a href="#Chapter-6-定积分" class="headerlink" title="Chapter-6 定积分"></a>Chapter-6 定积分</h3><h4 id="定积分中值定理"><a href="#定积分中值定理" class="headerlink" title="定积分中值定理"></a>定积分中值定理</h4><p>若 $f(x)$ 在 $[a,b]$ 上可积，则 $\exists\xi\in(a,b)$ ，使得 $\begin{aligned}\int_a^bf(x)\mathrm{d}x=f(\xi)(b-a)\end{aligned}$</p>
-<h4 id="推广的定积分中值定理"><a href="#推广的定积分中值定理" class="headerlink" title="推广的定积分中值定理"></a>推广的定积分中值定理</h4><p>若 $f(x),g(x)$ 在 $[a,b]$ 上连续，且 $g(x)$ 在 $[a,b]$ 上不变号，则 $\exists\xi\in(a,b)$，使得</p>
-<p>$\begin{aligned}\int_a^bf(x)g(x)\mathrm{d}x=f(\xi)\int_a^bg(x)\mathrm{d}x\end{aligned}$</p>
-<h4 id="柯西不等式"><a href="#柯西不等式" class="headerlink" title="柯西不等式"></a>柯西不等式</h4><p>$\begin{pmatrix}\begin{aligned}\int_a^bf(x)g(x)\mathrm{d}x\end{aligned}\end{pmatrix}^2\leq\begin{aligned}\int_a^bf^2(x)\mathrm{d}x\cdot\int_a^bg^2(x)\mathrm{d}x\end{aligned}$</p>
-<h4 id="重要结果及技巧"><a href="#重要结果及技巧" class="headerlink" title="重要结果及技巧"></a>重要结果及技巧</h4><p>$\begin{aligned}\int\csc{x}\mathrm{d}x=\int\frac{\csc{x}(\csc{x}-\cot{x})}{\csc{x}-\cot{x}}\mathrm{d}x=\int\frac{\mathrm{d}(\csc{x}-\cot{x})}{\csc{x}-\cot{x}}=\ln|\csc{x}-\cot{x}|\end{aligned}$</p>
-<p>$\begin{aligned}\int\sec{x}\mathrm{d}x=\int\frac{\sec{x}(\sec{x}+\tan{x})}{\sec{x}+\tan{x}}\mathrm{d}x=\int\frac{\mathrm{d}(\sec x+\tan x)}{\sec x+\tan x}=\ln|\sec x+\tan x|\end{aligned}$</p>
-<p>$\begin{aligned}\int\cos^nx\mathrm{d}x=\frac{1}{n}\sin x\cos^{n-1}x+\frac{n-1}{n}\int\cos^{n-2}x\mathrm{d}x\end{aligned}$</p>
-<p>$\begin{aligned}\int\sin^nx\mathrm{d}x=-\frac{1}{n}\cos x\sin^{n-1}x+\frac{n-1}{n}\int\sin^{n-2}x\mathrm{d}x\end{aligned}$</p>
-<p>$\begin{aligned}I_n=\int\frac{\mathrm{d}x}{(a^2+x^2)^n},I_n=\frac{x}{2(n-1)a^2(a^2+x^2)^{n-1}}+\frac{2n-3}{2(n-1)a^2}I_{n-1}\end{aligned}$</p>
-<p>$\mathrm{d}(\sin x+\cos x)=\cos x-\sin x,\mathrm{d}(\sin x-\cos x)=\sin x+\cos x$</p>
-<p>$\begin{aligned}\int_0^{\frac{\pi}{2}}\sin^nx\mathrm{d}x=\int_0^{\frac{\pi}{2}}\cos^nx\mathrm{d}x\end{aligned}=\begin{cases}\dfrac{n-1}{n}\cdot\dfrac{n-3}{n-2}\cdot\cdots\cdot\dfrac{2}{3}\cdot1,&amp;n为奇数\\\dfrac{n-1}{n}\cdot\dfrac{n-3}{n-2}\cdot\cdots\cdot\dfrac{3}{4}\cdot\dfrac{1}{2}\cdot\dfrac{\pi}{2},&amp;n为偶数\end{cases}$</p>
-<p>$\begin{aligned}\Gamma(s+1)&amp;=\int_0^{+\infty}x^{s}e^{-x}\mathrm{d}x=-x^se^{-x}\big|_0^{+\infty}+s\int_0^{+\infty}x^{s-1}e^{-x}\mathrm{d}x\\&amp;=s\Gamma(s)=\cdots=n!\Gamma(1)=n!\end{aligned}$</p>
-<p>对于一切 $a&gt;0$ ，极限 $\begin{aligned}\lim_{x\rightarrow0^+}x^a\ln x=0\end{aligned}$ 成立</p>
-<p>$\begin{aligned}\lim_{x\rightarrow0^+}x^a\ln x=\lim_{x\rightarrow0^+}\dfrac{\ln x}{x^{-a}}=-\frac{1}{a}\lim_{x\rightarrow0^+}\frac{x^{-1}}{x^{-a-1}}=-\frac{1}{a}\lim_{x\rightarrow0^+}x^a=0\end{aligned}$</p>
-<p>在区间对称的积分中分离出奇函数的部分</p>
-<h4 id="中值定理构造原函数"><a href="#中值定理构造原函数" class="headerlink" title="中值定理构造原函数"></a>中值定理构造原函数</h4><p>将结果中的未知参数换为 $x$</p>
-<p>如果结果中既有 $f(x)$ 又含有 $f’(x)$ ，则将等式变换为 $\dfrac{f’(x)}{f(x)}+h(x)=0$ 的形式</p>
-<p>假使 $p’(x)=h(x)$ ，则构造 $g(x)=f(x)e^{p(x)}$</p>
-<h4 id="积分上限函数"><a href="#积分上限函数" class="headerlink" title="积分上限函数"></a>积分上限函数</h4><p>$\begin{bmatrix}\begin{aligned}\int_a^{g(x)}f(t)\mathrm{d}t\end{aligned}\end{bmatrix}’=f[g(x)]g’(x)$</p>
-<p>$\begin{bmatrix}\begin{aligned}\int_{h(x)}^{g(x)}f(t)\mathrm{d}t\end{aligned}\end{bmatrix}’=f[g(x)]g’(x)-f[h(x)]h’(x)$</p>
-<hr>
-<h3 id="总结-易错点"><a href="#总结-易错点" class="headerlink" title="总结-易错点"></a>总结-易错点</h3><h4 id="易错点1"><a href="#易错点1" class="headerlink" title="易错点1"></a>易错点1</h4><p>导函数在 $x_0$ 两侧的不同单调性确保了 $f(x_0)$ 取到极值是充分条件而非必要条件</p>
-<p>例如 $f(x)=\begin{cases}x^2(1+\sin^2(\dfrac{1}{x})),&amp;x\neq0\\0,&amp;x=0\end{cases}$</p>
-<h4 id="易错点2"><a href="#易错点2" class="headerlink" title="易错点2"></a>易错点2</h4><p>函数可导一定连续，函数连续不一定可导</p>
-<h4 id="易错点3"><a href="#易错点3" class="headerlink" title="易错点3"></a>易错点3</h4><p>原函数不可能有第一类间断点</p>
-<h4 id="易错点4"><a href="#易错点4" class="headerlink" title="易错点4"></a>易错点4</h4><p>利用导数的定义研究函数在一点的可导性时，要满足以下三个条件：</p>
-<p>$\begin{aligned}\lim_{\Delta x\rightarrow0}\frac{f(x_0+\Delta x)-f(x_0)}{\Delta x}\end{aligned}$ 中 $\Delta x$ 的替换项必须与 $\Delta x$ 是同阶无穷小</p>
-<p>$\Delta x\rightarrow 0$ 必须从左右两侧趋于 $0$</p>
-<p>$\begin{aligned}\lim_{\Delta x\rightarrow0}\frac{f(x_0+\Delta x)-f(x_0)}{\Delta x}\end{aligned}$ 的分子上一定要有 $f(x_0)$ 这个元素  </p>
-<h4 id="易错点5"><a href="#易错点5" class="headerlink" title="易错点5"></a>易错点5</h4><p>若 $f(x)$ 为周期函数，其原函数 $F(x)$ 不一定为周期函数</p>
-<p>若 $f(x)$ 为可导的周期函数，则 $f’(x)$ 一定为周期函数</p>
-<h4 id="易错点6"><a href="#易错点6" class="headerlink" title="易错点6"></a>易错点6</h4><p>$f(x)$ 在 $[a,b]$ 上有界是函数可积的必要条件，无界函数一定不可积</p>
 ]]></content>
       <tags>
         <tag>课程笔记</tag>

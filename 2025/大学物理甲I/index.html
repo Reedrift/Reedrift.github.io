@@ -114,7 +114,7 @@ var _hmt = _hmt || [];
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">10.3k</span>
+            <span class="post-count">9.5k</span>
         </span>
     </span>
 
@@ -123,7 +123,7 @@ var _hmt = _hmt || [];
         <span class="post-meta-item-icon">
             <i class="ri-book-open-line"></i>
             <span class="post-meta-item-text"> 阅读时长≈</span>
-            <span class="post-count">43 分钟</span>
+            <span class="post-count">40 分钟</span>
         </span>
     </span>
 </div>
@@ -620,13 +620,14 @@ S=k\ln\omega</script><p>为玻尔兹曼熵公式，熵是无序性的量度</p>
 <h3 id="库仑定律"><a href="#库仑定律" class="headerlink" title="库仑定律"></a>库仑定律</h3><p>真空中两个静止的点电荷 $q_1$ 与 $q_2$ 之间的相互作用力的大小和 $q_1,q_2$ 的乘积成正比，和它们之间距离的平方成反比，作用力的方向沿着两点电荷的连线，同号电荷互斥，异号电荷相吸，库仑定律的数学表达式为 </p>
 <script type="math/tex; mode=display">
 F_{21}=k\frac{q_1q_2}{r_{12}^2}e_{12}
-=\frac{1}{4\pi\varepsilon_0}\frac{q_1q_2}{r_{12}^2}e_{12}</script><p>其中有 $k=8.99\times10^9 \mathrm{N}\cdot\mathrm{m}^2/\mathrm{C}^2,\varepsilon=8.85\times10^{-12}\mathrm{C}^2/(\mathrm{N}\cdot\mathrm{m}^2)$ </p>
+=\frac{1}{4\pi\varepsilon_0}\frac{q_1q_2}{r_{12}^2}e_{12}</script><p>其中有 $k=8.99\times10^9 \mathrm{N}\cdot\mathrm{m}^2/\mathrm{C}^2,\varepsilon=8.85\times10^{-12}\mathrm{C}^2/(\mathrm{N}\cdot\mathrm{m}^2)$ 该公式只适用于点电荷</p>
 <h3 id="电力叠加原理"><a href="#电力叠加原理" class="headerlink" title="电力叠加原理"></a>电力叠加原理</h3><p>空间中任意两点之间的相互作用力遵循库仑定律，不因其它点电荷存在而改变</p>
 <script type="math/tex; mode=display">
 \begin{align}
 F_1&=F_{12}+F_{13}+\cdots+F_{1n}=\sum_{i=2}^{n}F_{1i}\\
 &=\sum_{i=2}^n\frac{1}{4\pi\varepsilon_0}\frac{q_1q_i}{r_{1i}^2}e_{1i}
-\end{align}</script><h3 id="电场"><a href="#电场" class="headerlink" title="电场"></a>电场</h3><p>任何电荷都在其周围空间激发电场，称为场源电荷。电荷相对于观察者是静止时，其周围的电场称为静电场，静电场对于场中的电荷有力的作用，称为静电场力或静电力<br>【注】电场不仅常常伴随电荷存在，且可脱离电荷而独立存在</p>
+\end{align}</script><p>上述叠加原理并非对任何情况都成立，特别是在极强电力作用时需要实验确定是否适用</p>
+<h3 id="电场"><a href="#电场" class="headerlink" title="电场"></a>电场</h3><p>任何电荷都在其周围空间激发电场，称为场源电荷。电荷相对于观察者是静止时，其周围的电场称为静电场，静电场对于场中的电荷有力的作用，称为静电场力或静电力<br>【注】电场不仅常常伴随电荷存在，且可脱离电荷而独立存在</p>
 <h3 id="电场强度"><a href="#电场强度" class="headerlink" title="电场强度"></a>电场强度</h3><p>试验电荷所受到的作用力 $F$ 与试验电荷的带电量 $q_0$ 的比值定义为电场强度</p>
 <script type="math/tex; mode=display">
 E=\frac{F}{q_0}=\frac{1}{4\pi\varepsilon_0}\frac{q}{r^2}e_r\quad(后式为点电荷)</script><h3 id="电场强度叠加原理"><a href="#电场强度叠加原理" class="headerlink" title="电场强度叠加原理"></a>电场强度叠加原理</h3><p>点电荷系所产生的电场在某点的场强等于各点电荷单独存在时所产生的电场在该点的场强的矢量和，称为电场强度叠加原理</p>
@@ -660,10 +661,26 @@ E=\frac{dN}{dS}</script><p>则电场线满足一下三条重要性质</p>
 <script type="math/tex; mode=display">
 \Phi_e=\oint_sE\cdot dS=\frac{1}{\varepsilon_0}\sum_iq_i</script><ul>
 <li>高斯定理说明了静电场是有源场，如果某处有电场线穿过而不中断，则通过该处闭合面的通量为零，说明此处无电荷</li>
-<li>高斯定理是从库仑定律和叠加原理推导出来的，对随时间变化的电场也成立</li>
+<li><p>高斯定理是从库仑定律和叠加原理推导出来的，对随时间变化的电场也成立</p>
+<h3 id="特殊场强分布"><a href="#特殊场强分布" class="headerlink" title="特殊场强分布"></a>特殊场强分布</h3></li>
+<li><p>均匀带电球面的场强分布</p>
+<script type="math/tex; mode=display">
+E=\begin{cases}
+\begin{align}\frac{Q}{4\pi\varepsilon_0 r^2}\end{align},&r>R\\
+0,&r<R
+\end{cases}</script></li>
+<li>均匀带电球体的场强分布<script type="math/tex; mode=display">
+E=\begin{cases}
+\begin{align}\frac{Q}{4\pi\varepsilon_0 r^2},\quad&r>R\\
+\frac{Qr}{4\pi\varepsilon_0 R^3},\quad&r<R\end{align}
+\end{cases}</script></li>
+<li>无限长均匀带电圆柱面场强分布（$\lambda$ 为电荷线密度）<script type="math/tex; mode=display">
+E=\begin{cases}
+\begin{align}\frac{\lambda}{2\pi\varepsilon_0r}\end{align},&r>R\\
+0,&r<R
+\end{cases}</script>球对称分布的电荷在球外产生的电场，与将全部电荷集中在球心时的场强分布相同<br>均匀带电圆柱面外的电场，与将圆柱面上的电量集中在其中心轴线上的电场等效<br>无限大均匀带电平面的电场是匀强电场<h3 id="静电场力的功"><a href="#静电场力的功" class="headerlink" title="静电场力的功"></a>静电场力的功</h3></li>
 </ul>
-<p>球对称分布的电荷在球外产生的电场，与将全部电荷集中在球心时的场强分布相同<br>均匀带电圆柱面外的电场，与将圆柱面上的电量集中在其中心轴线上的电场等效<br>无限大均匀带电平面的电场是匀强电场</p>
-<h3 id="静电场力的功"><a href="#静电场力的功" class="headerlink" title="静电场力的功"></a>静电场力的功</h3><p>当试验电荷在静止点电荷电场中移动时，电场力所做的功仅与试验电荷电量的大小及其起点和终点的位置有关，而与电荷移动的路径无关</p>
+<p>当试验电荷在静止点电荷电场中移动时，电场力所做的功仅与试验电荷电量的大小及其起点和终点的位置有关，而与电荷移动的路径无关</p>
 <script type="math/tex; mode=display">
 \begin{align}
 A_{ab}&=\int_a^bq_0E\cdot dl=q_0\int_a^b(E_1+E_2+\cdots+E_n)\cdot dl\\
@@ -675,13 +692,14 @@ A_{ab}&=\int_a^bq_0E\cdot dl=q_0\int_a^b(E_1+E_2+\cdots+E_n)\cdot dl\\
 \oint_LE\cdot dl=0</script><p>等式的左侧积分称为静电场的环流</p>
 <h3 id="电势能"><a href="#电势能" class="headerlink" title="电势能"></a>电势能</h3><p>取离场源电荷无限远处电势能为零，则试验电荷 $q_0$ 在电场中任一点 $P$ 处的电势能为</p>
 <script type="math/tex; mode=display">
-W_P=A_{P\infty}=\int^{\infty}_P q_0E\cdot dl</script><p>试验电荷 $q_0$ 在电场中 $P$ 电的电势能 $W_P$ 在数值上等于将 $q_0$ 从 $P$ 点移至无限远处电场力所做的功</p>
+W_P=A_{P\infty}=\int^{\infty}_P q_0E\cdot dl</script><p>试验电荷 $q_0$ 在电场中 $P$ 电的电势能 $W_P$ 在数值上等于将 $q_0$ 从 $P$ 点移至无限远处电场力所做的功<br>如果场源电荷延伸到了无限远处，再选取无限远处的电势为零是不合理的</p>
 <h3 id="电势"><a href="#电势" class="headerlink" title="电势"></a>电势</h3><p>电势仅与进电场中给定点的位置有关，与电荷 $q_0$ 无关</p>
 <script type="math/tex; mode=display">
 U_P=\frac{W_P}{q_0}=\int^{\infty}_PE\cdot dl</script><p>静电场中某点的电势在数值上等于单位正电荷在该处所具有的电势能，也等于单位正电荷从该点经过任意路径迁移到无限远处电场力对它所作的功</p>
 <script type="math/tex; mode=display">
-U_{ab}=U_a-U_b=\int_a^\infty E\cdot dl=\int_b^\infty E\cdot dl
+U_{ab}=U_a-U_b=\int_a^\infty E\cdot dl-\int_b^\infty E\cdot dl
 =\int_a^bE\cdot dl</script><p>静电场中 $a,b$ 两点的电势差，在数值上等于将单位正电荷从电场中 $a$ 点移到 $b$ 点时电场力所做的功</p>
+<p>均匀带电球面外任一场点的电势与所有电荷集中球心的点电荷产生的电势相同，球面内任一点的电势都与球面上的电势相等</p>
 <h3 id="电势叠加原理"><a href="#电势叠加原理" class="headerlink" title="电势叠加原理"></a>电势叠加原理</h3><p>点电荷电场中的电势</p>
 <script type="math/tex; mode=display">
 U_P=\int^{\infty}_PE\cdot dl
@@ -702,7 +720,7 @@ U_P&=\int^{\infty}_P E\cdot dl
 <script type="math/tex; mode=display">
 E_l=-\frac{dU}{dl}</script><p>设 $n$ 为法线方向，定义一个矢量大小等于 $\begin{align}\frac{dU}{dn}\end{align}$ 方向指向电势升高的方向，这个矢量称为电势梯度，用 $\nabla U$ 或 $\text{grad} U$ 表示 </p>
 <script type="math/tex; mode=display">
-\nabla U=\frac{dU}{dn}e_n,\quad E=-\frac{dU}{dn}e_n=-\nabla U=-\text{grad} U</script><p>在电场中任一点的电场强度矢量，等于该点电势梯度矢量的负值，符号表示场强与电势梯度方向相反，正交分解可得</p>
+\nabla U=\frac{dU}{dn}e_n,\quad E=-\frac{dU}{dn}e_n=-\nabla U=-\text{grad} U</script><p>在电场中任一点的电场强度矢量，等于该点电势梯度矢量的负值，符号表示场强与电势梯度方向相反，标准正交分解可得</p>
 <script type="math/tex; mode=display">
 E=-(\frac{\partial U}{\partial x}i+\frac{\partial U}{\partial y}j+\frac{\partial U}{\partial z}k)</script> 
       <!-- reward -->
