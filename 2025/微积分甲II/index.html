@@ -114,7 +114,7 @@ var _hmt = _hmt || [];
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">9.5k</span>
+            <span class="post-count">9.8k</span>
         </span>
     </span>
 
@@ -123,7 +123,7 @@ var _hmt = _hmt || [];
         <span class="post-meta-item-icon">
             <i class="ri-book-open-line"></i>
             <span class="post-meta-item-text"> 阅读时长≈</span>
-            <span class="post-count">46 分钟</span>
+            <span class="post-count">47 分钟</span>
         </span>
     </span>
 </div>
@@ -408,7 +408,7 @@ A\cdot e_T=P\cos\alpha+Q\cos\beta+R\cos\gamma</script><p>在曲线 $\Gamma$ 上�
 &=\int_{t_A}^{t_B}[P(x(t),y(t),z(t))x'(t)+
 Q(x(t),y(t),z(t))y'(t)+\\
 &\quad R(x(t),y(t),z(t))z'(t)]dt
-\end{align}</script><h3 id="格林公式"><a href="#格林公式" class="headerlink" title="格林公式"></a>格林公式</h3><p>被积函数相同，奇点和终点也相同，虽然路径不同，积分仍然相同</p>
+\end{align}</script><h3 id="格林公式"><a href="#格林公式" class="headerlink" title="格林公式"></a>格林公式</h3><p>被积函数相同，起点和终点也相同，虽然路径不同，积分仍然相同</p>
 <p>边界曲线 $\Gamma$ 的正向规定为当人沿边界行走时，区域总在左侧<br>若函数 $P,Q$ 在有界闭区域 $D\subset R^2$ 上连续且具有一阶连续偏导数，则</p>
 <script type="math/tex; mode=display">
 \iint_D(\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y})dxdy
@@ -416,15 +416,31 @@ Q(x(t),y(t),z(t))y'(t)+\\
 =\iint_{D}
 \begin{vmatrix}
 \frac{\partial}{\partial x}&\frac{\partial}{\partial y}\\P&Q
-\end{vmatrix}dxdy</script><h3 id="单连通区域"><a href="#单连通区域" class="headerlink" title="单连通区域"></a>单连通区域</h3><p>若平面区域 $D$ 内任一封闭曲线，皆可不经过 $D$ 以外的点而连续收敛于 $D$ 中的一个点，即若 $D$ 内任一封闭曲线所包围的区域均包含于 $D$ 内，则这个”没有洞“的区域称为平面单连通区域，否则称为平面副连通区域</p>
-<p>设 $D\subset R^2$ 是平面单连通区域，若函数 $P,Q$ 在区域 $D$ 上连续，且有一阶连续偏导数，则以下四个条件等价</p>
+\end{vmatrix}dxdy</script><p>令 $P=-y,Q=x$ 可以得到计算平面区域 $S$ 的公式，若 $\Gamma$ 是区域 $D$ 边界曲线正向</p>
+<script type="math/tex; mode=display">
+\oint_\Gamma-ydx+xdy=\iint_D[1-(-1)]dxdy=2S</script><h3 id="单连通区域"><a href="#单连通区域" class="headerlink" title="单连通区域"></a>单连通区域</h3><p>若平面区域 $D$ 内任一封闭曲线，皆可不经过 $D$ 以外的点而连续收敛于 $D$ 中的一个点，即若 $D$ 内任一封闭曲线所包围的区域均包含于 $D$ 内，则这个”没有洞“的区域称为平面单连通区域，否则称为平面副连通区域</p>
+<p>第二类曲线积分在满足一定的条件下，即满足 $\begin{align}\frac{\partial Q}{\partial x}\equiv\frac{\partial P}{\partial y}\end{align}$ 时，第二类曲线积分与积分路径无关</p>
+<p>设 $D\subset R^2$ 是平面单连通区域，若 $P,Q$ 在 $D$ 上连续，且有一阶连续偏导数，以下四个条件等价</p>
 <ul>
 <li>沿 $D$ 中任一按段光滑的闭曲线 $L$ ，有 $\begin{align}\oint_L Pdx+Qdy=0\end{align}$</li>
 <li>对 $D$ 中任一按段光滑曲线 $L$ ，曲线积分 $\begin{align}\int_L Pdx+Qdy\end{align}$ 与路径无关，只与 $L$ 的起点和终点有关</li>
 <li>$Pdx+Qdy$ 是 $D$ 内某一函数 $u$ 的全微分，即在 $D$ 内存在一个二元函数 $u(x,y)$ 使 $du=Pdx+Qdy$ ，即 $\begin{align}\frac{\partial u}{\partial x}=P,\frac{\partial u}{\partial y}=Q\end{align}$</li>
-<li>在 $D$ 内每一点处，有 $\begin{align}\frac{\partial P}{\partial y}=\frac{\partial Q}{\partial x}\end{align}$<h3 id="复连通区域"><a href="#复连通区域" class="headerlink" title="复连通区域"></a>复连通区域</h3></li>
+<li>在 $D$ 内每一点处，有 $\begin{align}\frac{\partial P}{\partial y}=\frac{\partial Q}{\partial x}\end{align}$<h3 id="牛顿-莱布尼茨公式"><a href="#牛顿-莱布尼茨公式" class="headerlink" title="牛顿-莱布尼茨公式"></a>牛顿-莱布尼茨公式</h3></li>
 </ul>
-<p>设在复连通区域 $D$  内，$P,Q$ 具有连续的偏导数且 $\begin{align}\frac{dP}{dy}=\frac{dQ}{dx}\end{align}$ ，则环绕同一些洞的任何两条闭曲线（取同方向）上的曲线积分都相等</p>
+<p>若第二类曲线积分 $\begin{align}\int_{A(x_0,y_0)}^{B(x_0,y_0)}P(x,y)dx+Q(x,y)dy\end{align}$ 与路径无关，可以用一元函数定积分表示</p>
+<script type="math/tex; mode=display">
+\int_{A(x_0,y_0)}^{B(x_1,y_1)}P(x,y)dx+Q(x,y)dy
+=\int_{x_0}^{x_1}P(x,y_0)dx
++\int_{y_0}^{y_1}Q(x_1,y)dy</script><p>则 $Pdx+Qdy$ 的全体原函数为</p>
+<script type="math/tex; mode=display">
+u(x,y)=\int_{x_0}^xP(x,y_0)dx+\int_{y_0}^yQ(x,y)dy+C</script><p>若 $(0,0)\in D$ 则可以把 $Pdx+Qdy$ 的全体原函数写成</p>
+<script type="math/tex; mode=display">
+\int_0^x P(x,0)dx+\int_0^yQ(x,y)dy+C</script><p>可以证明，若 $du(x,y)=Pdx+Qdy$ 其中 $P,Q$ 具有连续偏导数，则有</p>
+<script type="math/tex; mode=display">
+\int_{A(x_0,y_0)}^{B(x_1,y_1)}Pdx+Qdy
+=u(x,y)\Big|_{A(x_0,y_0)}^{B(x_1,y_1)}
+=u(x_1,y_1)-u(x_0,y_0)</script><p>该公式称为曲面积分的牛顿-莱布尼茨公式</p>
+<h3 id="复连通区域"><a href="#复连通区域" class="headerlink" title="复连通区域"></a>复连通区域</h3><p>设在复连通区域 $D$  内，$P,Q$ 具有连续的偏导数且 $\begin{align}\frac{dP}{dy}\equiv\frac{dQ}{dx}\end{align}$ ，则环绕同一些洞的任何两条闭曲线（取同方向）上的曲线积分都相等，叫做环绕这个洞的循环常数</p>
 <h3 id="第二类曲面积分"><a href="#第二类曲面积分" class="headerlink" title="第二类曲面积分"></a>第二类曲面积分</h3><p>设 $S$ 是光滑有界的定侧曲面，记 $S$ 上每一点 $M(x,y,z)$ 处沿曲面定侧的单位法矢量为</p>
 <script type="math/tex; mode=display">
 e_n(M)=\cos\alpha i+\cos\beta j+\cos\gamma k</script><p>又设</p>
