@@ -1114,7 +1114,7 @@ A\cdot e_n=P\cos\alpha+Q\cos\beta+R\cos\gamma</script><p>在 $S$ 上的第一类
 \iint_SA\cdot e_ndS=\iint_S(P\cos\alpha+Q\cos\beta+R\cos\gamma)dS</script><p>称为函数 $A(P)=A(x,y,z)$ 沿定侧曲面 $S$ 的第二类曲面积分<br>其中 $e_ndS$ 称为有向面积元素，将它的三个投影分别记为</p>
 <script type="math/tex; mode=display">
 \begin{cases}
-\cos\alpha dS=dydx\\
+\cos\alpha dS=dydz\\
 \cos\beta dS=dzdx\\
 \cos\gamma dS=dxdy
 \end{cases}</script><p>则第二类曲面积分可以写成如下形式</p>
@@ -1148,7 +1148,31 @@ dxdy&=\cos\gamma dS=\mathrm{sgn}(\frac{\pi}{2}-\gamma)|\cos\gamma|dS\\
 <script type="math/tex; mode=display">
 \unicode{8751}A\cdot dS=0</script><p>如果仅在区域 $V$ 中某些点 $\mathrm{div}A\neq 0$ 或 $\mathrm{div}A$ 不存在，其他的点都有 $\mathrm{div}A=0$ ，则通过包围这些点或子区域的 $V$ 内任一封闭曲面积分都是相等的，即是一个常数，有 </p>
 <script type="math/tex; mode=display">
-\unicode{8751}_{S_1}A\cdot e_n dS=\unicode{8751}_{S_2}A\cdot e_ndS</script><p>  其中 $S_1,S_2$ 是包围散度不为 $0$ ，或不存在的点的任意两个封闭曲面，发现单位矢量向外</p>
+\unicode{8751}_{S_1}A\cdot e_n dS=\unicode{8751}_{S_2}A\cdot e_ndS</script><p>其中 $S_1,S_2$ 是包围散度不为 $0$ ，或不存在的点的任意两个封闭曲面，发现单位矢量向外</p>
+<h3 id="斯托克斯公式"><a href="#斯托克斯公式" class="headerlink" title="斯托克斯公式"></a>斯托克斯公式</h3><p>设光滑曲面 $S$ 的边界 $L$ 是按段光滑的连续曲线，若函数 $P,Q,R$ 在 $S$（连同 $L$ ）上连续，且有一阶连续偏导数，则有</p>
+<script type="math/tex; mode=display">
+\begin{align}
+&\iint_S(\frac{\partial R}{\partial y}-\frac{\partial Q}{\partial z})dydz
++(\frac{\partial P}{\partial z}-\frac{\partial R}{\partial x})dzdx
++(\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y})dxdy\\
+=&\oint Pdx+Qdy+Rdz
+\end{align}</script><p>其中 $S$ 得侧面与 $L$ 的方向按右手法则确定，称为斯托克斯公式，也可以写作</p>
+<script type="math/tex; mode=display">
+\iint_S
+\begin{vmatrix}
+dydx&dzdx&dxdy\\
+\frac{\partial}{\partial x}&
+\frac{\partial}{\partial y}&
+\frac{\partial}{\partial z}\\
+P&Q&R
+\end{vmatrix}
+=\oint_L Pdx+Qdy+Rdz</script><h3 id="空间曲线积分与路径无关性"><a href="#空间曲线积分与路径无关性" class="headerlink" title="空间曲线积分与路径无关性"></a>空间曲线积分与路径无关性</h3><p>设 $\Omega\subset R^3$ 为空间单连通区域，若函数 $P,Q,R$ 在 $\Omega$ 上连续且有一阶连续偏导数，以下等价</p>
+<ul>
+<li>对于 $\Omega$ 内任一按段光滑的封闭曲线 $L$ ，有 $\begin{align}\oint_L Pdx+Qdy+Rdz=0\end{align}$</li>
+<li>对于 $\Omega$ 内任一按段光滑的曲线 $\Gamma$ ，曲线积分 $\begin{align}\int_\Gamma Ldx+Qdy+Rdz\end{align}$ 与路线无关</li>
+<li>$\begin{align}Pdx+Qdy+Rdz\end{align}$ 是 $\Omega$ 内某一函数 $u(x,y,z)$ 的全微分，$du=Pdx+Qdy+Rdz$</li>
+<li>$\begin{align}\frac{\partial P}{\partial y}=\frac{\partial Q}{\partial x},\frac{\partial Q}{\partial z}=\frac{\partial R}{\partial y},\frac{\partial R}{\partial x}=\frac{\partial P}{\partial z}\end{align}$ 在 $\Omega$ 内处处成立<br>$\begin{align}u(x,y,z)=\int_{x_0}^xP(x,y_0,z_0)dx+\int_{y_0}^yQ(x,y,z_0)dy+\int_{z_0}^{z}R(x,y,z)dz+C\end{align}$</li>
+</ul>
 <hr>
 <h2 id="Chapter-11-级数"><a href="#Chapter-11-级数" class="headerlink" title="Chapter-11 级数"></a>Chapter-11 级数</h2><h3 id="数项级数的定义"><a href="#数项级数的定义" class="headerlink" title="数项级数的定义"></a>数项级数的定义</h3><p>设 $u_1,u_2,\cdots,u_n,\cdots$ 是给定的数列，称  $\begin{aligned}\sum_{n=1}^\infty u_n=u_1+u_2+\cdots+u_n+\cdots\end{aligned}$ 为数项级数，称 $\begin{aligned}S_n=\sum_{i=1}^nu_i\end{aligned}$ 为部分和，则有 $\begin{aligned}\sum_{n=1}^\infty u_n=\lim_{n\rightarrow\infty}S_n\end{aligned}$</p>
 <h3 id="几何级数的敛散性"><a href="#几何级数的敛散性" class="headerlink" title="几何级数的敛散性"></a>几何级数的敛散性</h3><p>几何级数 $\begin{aligned}a+aq+aq^2+\cdots+aq^{n-1}+\cdots=\sum_{n=1}^{\infty}aq^{n-1}\quad(a\neq0)\end{aligned}$ 的敛散性满足：</p>
