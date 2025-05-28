@@ -501,6 +501,13 @@ D_n&=n!(1-\frac{1}{1!}+\frac{1}{2!}-\frac{1}{3!}+\cdots+(-1)^n\frac{1}{n!})\\
 <td>postorder</td>
 <td>后序</td>
 </tr>
+<tr>
+<td>spanning trees</td>
+<td>生成树</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -518,7 +525,13 @@ D_n&=n!(1-\frac{1}{1!}+\frac{1}{2!}-\frac{1}{3!}+\cdots+(-1)^n\frac{1}{n!})\\
 </ul>
 <p>The level of a vertex $v$ is the length of the unique path from the root to this vertex.<br>The level of the root is defined to be zero.<br>The height of a rooted tree is the maximum of the levels of vertices.<br>A rooted m-ary tree of height $h$ is balanced if all leave are at level $h$ or $h-1$<br>There are at most $m^h$ leaves in an m-ary tree of height $h$ </p>
 <p>If an m-ary tree of height $h$ has $l$ leaves, then $h\geq\lceil \log_ml\rceil$<br>If the m-ary tree if full and balanced, then $h=\lceil\log_ml\rceil$</p>
-<h3 id="Expression-Notations"><a href="#Expression-Notations" class="headerlink" title="Expression Notations"></a>Expression Notations</h3>]]></content>
+<h3 id="Expression-Notations"><a href="#Expression-Notations" class="headerlink" title="Expression Notations"></a>Expression Notations</h3><p>We obtain the prefix form of an expression when we traverse its rooted tree in <strong>preorder</strong><br>Expressions written in prefix form are said to be in <strong>Polish notation</strong></p>
+<p>We obtain the postfix form of an expression by traversing its binary tree in <strong>postorder</strong><br>Expressions written in postfix form are said to be in reverse <strong>Polish notation</strong></p>
+<h3 id="Spanning-Trees"><a href="#Spanning-Trees" class="headerlink" title="Spanning Trees"></a>Spanning Trees</h3><p>Let $G$ be a simple graph. A spanning tree of $G$ is a subgraph of $G$ that is a tree obtaining every vertex of $G$</p>
+<p>A simple graph is connected if and only if it has a spanning tree</p>
+<h3 id="Minimum-Spanning-Trees"><a href="#Minimum-Spanning-Trees" class="headerlink" title="Minimum Spanning Trees"></a>Minimum Spanning Trees</h3><p>A minimum spanning tree in a connected weighted graph is a spanning tree that has the smallest possible sum of weights of its edges.</p>
+<p><img src="/pictures/离散数学/Prim.png" alt="Prim's Algorithm" style="display: block; margin: 0 auto; width: 100%;"><br><img src="/pictures/离散数学/Kruskal.png" alt="Kruskal's Algorithm" style="display: block; margin: 0 auto; width: 100%;"></p>
+]]></content>
       <tags>
         <tag>课程笔记</tag>
       </tags>
@@ -1696,7 +1709,7 @@ f(v)=\frac{dN}{Ndv},\quad \int_0^\infty f(v)dv=1</script><p>速率分布函数 $
 \overline{v^2}=\sqrt{\int_0^\infty v^2f(v)dv}</script><h3 id="麦克斯韦速率分布律"><a href="#麦克斯韦速率分布律" class="headerlink" title="麦克斯韦速率分布律"></a>麦克斯韦速率分布律</h3><p>理想气体处于平衡态时，速率在 $v$ 和 $v+dv$ 区间的分子数占总分子数的比率为</p>
 <script type="math/tex; mode=display">
 \begin{align}
-&\frac{dN}{N}=4\pi(\frac{\mu}{2\pi kT})^{\frac{3}{2}}e^{-\frac{\mu v^2}{2kT}}v^2\\
+&f(v)=\frac{dN}{Ndv}=4\pi(\frac{\mu}{2\pi kT})^{\frac{3}{2}}e^{-\frac{\mu v^2}{2kT}}v^2\\
 &f(v)=\frac{4}{\sqrt{\pi}}e^{-\frac{v^2}{v_p^2}}(\frac{v^2}{v_p^3})
 \end{align}</script><script type="math/tex; mode=display">
 \begin{align}
@@ -1704,7 +1717,8 @@ f(v)=\frac{dN}{Ndv},\quad \int_0^\infty f(v)dv=1</script><p>速率分布函数 $
 平均速率:\overline{v}=\sqrt{\frac{8kT}{\pi\mu}}=\sqrt{\frac{8RT}{\pi M}}\\
 方均根速率:\sqrt{\overline{v^2}}=\sqrt{\frac{3kT}{\mu}}=\sqrt{\frac{3RT}{M}}\\
 v_p:\overline{v}:\sqrt{\overline{v^2}}=\sqrt{2}:\frac{8}{\pi}:\sqrt{3}
-\end{align}</script><h3 id="等温气压公式"><a href="#等温气压公式" class="headerlink" title="等温气压公式"></a>等温气压公式</h3><p>对于理想气体，有</p>
+\end{align}</script><p> 【注】在做题时要先判定是否是理想气体再带入公式计算</p>
+<h3 id="等温气压公式"><a href="#等温气压公式" class="headerlink" title="等温气压公式"></a>等温气压公式</h3><p>对于理想气体，有</p>
 <script type="math/tex; mode=display">
 \begin{cases}
 dp=-\rho gdh\\
@@ -1719,7 +1733,8 @@ p=p_0e^{-\frac{Mgh}{RT}}</script><p>气体分子数密度按高度的分布</p>
 <script type="math/tex; mode=display">
 n=\frac{p_0}{kT}e^{-\frac{Mgh}{RT}}
 =n_0e^{-\frac{\mu gh}{kT}}
-=n_0e^{-\frac{\epsilon_p}{kT}}</script><h3 id="玻尔兹曼分布律"><a href="#玻尔兹曼分布律" class="headerlink" title="玻尔兹曼分布律"></a>玻尔兹曼分布律</h3><script type="math/tex; mode=display">
+=n_0e^{-\frac{\epsilon_p}{kT}}</script><p>在重力场中，气体的分子数密度 $n$ 随高度 $h$ 的增大而指数级地减少<br>分子质量 $\mu$ 越大，重力作用越强，$n$ 减小地越快<br>温度 $T$ 越高，分子无序运动越剧烈，$n$ 减小地越慢</p>
+<h3 id="玻尔兹曼分布律"><a href="#玻尔兹曼分布律" class="headerlink" title="玻尔兹曼分布律"></a>玻尔兹曼分布律</h3><script type="math/tex; mode=display">
 dN_{v,r}=n_0(\frac{\mu}{2\pi kT})^{3/2}e^{-\frac{\epsilon}{kT}}
 \cdot dv_x
 \cdot dv_y
@@ -1731,7 +1746,8 @@ dN_{v,r}=n_0(\frac{\mu}{2\pi kT})^{3/2}e^{-\frac{\epsilon}{kT}}
 <script type="math/tex; mode=display">
 \overline{Z}=\sqrt{2}\pi d^2n\overline{v}</script><p>其中 $d$ 为气体分子的有效直径，$n$ 为气体分子的数密度</p>
 <h3 id="平均自由程"><a href="#平均自由程" class="headerlink" title="平均自由程"></a>平均自由程</h3><script type="math/tex; mode=display">
-\overline{\lambda}=\frac{\overline{v}}{\overline{Z}}=\frac{1}{\sqrt{2}\pi d^2n}</script><h3 id="热传导现象"><a href="#热传导现象" class="headerlink" title="热传导现象"></a>热传导现象</h3><p>假设气体温度仅与坐标 $z$ 有关， $dQ$ 表示 $dt$ 内沿 $z$ 轴正方向通过 $dS$ 传递的热量， $\begin{align}\frac{dT}{dz}\end{align}$ 表示 $dS$ 处温度的梯度，则有热传导定律</p>
+\overline{\lambda}=\frac{\overline{v}}{\overline{Z}}=\frac{1}{\sqrt{2}\pi d^2n}
+=\frac{kT}{\sqrt{2}\pi d^2p}</script><h3 id="热传导现象"><a href="#热传导现象" class="headerlink" title="热传导现象"></a>热传导现象</h3><p>假设气体温度仅与坐标 $z$ 有关， $dQ$ 表示 $dt$ 内沿 $z$ 轴正方向通过 $dS$ 传递的热量， $\begin{align}\frac{dT}{dz}\end{align}$ 表示 $dS$ 处温度的梯度，则有热传导定律</p>
 <script type="math/tex; mode=display">
 \begin{align}
 dQ&=-\kappa\frac{dT}{dz}dSdt\\

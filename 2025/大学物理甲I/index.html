@@ -114,7 +114,7 @@ var _hmt = _hmt || [];
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">9.7k</span>
+            <span class="post-count">9.8k</span>
         </span>
     </span>
 
@@ -509,7 +509,7 @@ f(v)=\frac{dN}{Ndv},\quad \int_0^\infty f(v)dv=1</script><p>速率分布函数 $
 \overline{v^2}=\sqrt{\int_0^\infty v^2f(v)dv}</script><h3 id="麦克斯韦速率分布律"><a href="#麦克斯韦速率分布律" class="headerlink" title="麦克斯韦速率分布律"></a>麦克斯韦速率分布律</h3><p>理想气体处于平衡态时，速率在 $v$ 和 $v+dv$ 区间的分子数占总分子数的比率为</p>
 <script type="math/tex; mode=display">
 \begin{align}
-&\frac{dN}{N}=4\pi(\frac{\mu}{2\pi kT})^{\frac{3}{2}}e^{-\frac{\mu v^2}{2kT}}v^2\\
+&f(v)=\frac{dN}{Ndv}=4\pi(\frac{\mu}{2\pi kT})^{\frac{3}{2}}e^{-\frac{\mu v^2}{2kT}}v^2\\
 &f(v)=\frac{4}{\sqrt{\pi}}e^{-\frac{v^2}{v_p^2}}(\frac{v^2}{v_p^3})
 \end{align}</script><script type="math/tex; mode=display">
 \begin{align}
@@ -517,7 +517,8 @@ f(v)=\frac{dN}{Ndv},\quad \int_0^\infty f(v)dv=1</script><p>速率分布函数 $
 平均速率:\overline{v}=\sqrt{\frac{8kT}{\pi\mu}}=\sqrt{\frac{8RT}{\pi M}}\\
 方均根速率:\sqrt{\overline{v^2}}=\sqrt{\frac{3kT}{\mu}}=\sqrt{\frac{3RT}{M}}\\
 v_p:\overline{v}:\sqrt{\overline{v^2}}=\sqrt{2}:\frac{8}{\pi}:\sqrt{3}
-\end{align}</script><h3 id="等温气压公式"><a href="#等温气压公式" class="headerlink" title="等温气压公式"></a>等温气压公式</h3><p>对于理想气体，有</p>
+\end{align}</script><p> 【注】在做题时要先判定是否是理想气体再带入公式计算</p>
+<h3 id="等温气压公式"><a href="#等温气压公式" class="headerlink" title="等温气压公式"></a>等温气压公式</h3><p>对于理想气体，有</p>
 <script type="math/tex; mode=display">
 \begin{cases}
 dp=-\rho gdh\\
@@ -532,7 +533,8 @@ p=p_0e^{-\frac{Mgh}{RT}}</script><p>气体分子数密度按高度的分布</p>
 <script type="math/tex; mode=display">
 n=\frac{p_0}{kT}e^{-\frac{Mgh}{RT}}
 =n_0e^{-\frac{\mu gh}{kT}}
-=n_0e^{-\frac{\epsilon_p}{kT}}</script><h3 id="玻尔兹曼分布律"><a href="#玻尔兹曼分布律" class="headerlink" title="玻尔兹曼分布律"></a>玻尔兹曼分布律</h3><script type="math/tex; mode=display">
+=n_0e^{-\frac{\epsilon_p}{kT}}</script><p>在重力场中，气体的分子数密度 $n$ 随高度 $h$ 的增大而指数级地减少<br>分子质量 $\mu$ 越大，重力作用越强，$n$ 减小地越快<br>温度 $T$ 越高，分子无序运动越剧烈，$n$ 减小地越慢</p>
+<h3 id="玻尔兹曼分布律"><a href="#玻尔兹曼分布律" class="headerlink" title="玻尔兹曼分布律"></a>玻尔兹曼分布律</h3><script type="math/tex; mode=display">
 dN_{v,r}=n_0(\frac{\mu}{2\pi kT})^{3/2}e^{-\frac{\epsilon}{kT}}
 \cdot dv_x
 \cdot dv_y
@@ -544,7 +546,8 @@ dN_{v,r}=n_0(\frac{\mu}{2\pi kT})^{3/2}e^{-\frac{\epsilon}{kT}}
 <script type="math/tex; mode=display">
 \overline{Z}=\sqrt{2}\pi d^2n\overline{v}</script><p>其中 $d$ 为气体分子的有效直径，$n$ 为气体分子的数密度</p>
 <h3 id="平均自由程"><a href="#平均自由程" class="headerlink" title="平均自由程"></a>平均自由程</h3><script type="math/tex; mode=display">
-\overline{\lambda}=\frac{\overline{v}}{\overline{Z}}=\frac{1}{\sqrt{2}\pi d^2n}</script><h3 id="热传导现象"><a href="#热传导现象" class="headerlink" title="热传导现象"></a>热传导现象</h3><p>假设气体温度仅与坐标 $z$ 有关， $dQ$ 表示 $dt$ 内沿 $z$ 轴正方向通过 $dS$ 传递的热量， $\begin{align}\frac{dT}{dz}\end{align}$ 表示 $dS$ 处温度的梯度，则有热传导定律</p>
+\overline{\lambda}=\frac{\overline{v}}{\overline{Z}}=\frac{1}{\sqrt{2}\pi d^2n}
+=\frac{kT}{\sqrt{2}\pi d^2p}</script><h3 id="热传导现象"><a href="#热传导现象" class="headerlink" title="热传导现象"></a>热传导现象</h3><p>假设气体温度仅与坐标 $z$ 有关， $dQ$ 表示 $dt$ 内沿 $z$ 轴正方向通过 $dS$ 传递的热量， $\begin{align}\frac{dT}{dz}\end{align}$ 表示 $dS$ 处温度的梯度，则有热传导定律</p>
 <script type="math/tex; mode=display">
 \begin{align}
 dQ&=-\kappa\frac{dT}{dz}dSdt\\
@@ -1252,6 +1255,23 @@ E=-(\frac{\partial U}{\partial x}i+\frac{\partial U}{\partial y}j+\frac{\partial
     
 
   </div>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<!--script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
 </body>
 
 </html>

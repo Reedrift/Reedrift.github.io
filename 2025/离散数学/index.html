@@ -636,6 +636,13 @@ D_n&=n!(1-\frac{1}{1!}+\frac{1}{2!}-\frac{1}{3!}+\cdots+(-1)^n\frac{1}{n!})\\
 <td>postorder</td>
 <td>后序</td>
 </tr>
+<tr>
+<td>spanning trees</td>
+<td>生成树</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -653,7 +660,13 @@ D_n&=n!(1-\frac{1}{1!}+\frac{1}{2!}-\frac{1}{3!}+\cdots+(-1)^n\frac{1}{n!})\\
 </ul>
 <p>The level of a vertex $v$ is the length of the unique path from the root to this vertex.<br>The level of the root is defined to be zero.<br>The height of a rooted tree is the maximum of the levels of vertices.<br>A rooted m-ary tree of height $h$ is balanced if all leave are at level $h$ or $h-1$<br>There are at most $m^h$ leaves in an m-ary tree of height $h$ </p>
 <p>If an m-ary tree of height $h$ has $l$ leaves, then $h\geq\lceil \log_ml\rceil$<br>If the m-ary tree if full and balanced, then $h=\lceil\log_ml\rceil$</p>
-<h3 id="Expression-Notations"><a href="#Expression-Notations" class="headerlink" title="Expression Notations"></a>Expression Notations</h3> 
+<h3 id="Expression-Notations"><a href="#Expression-Notations" class="headerlink" title="Expression Notations"></a>Expression Notations</h3><p>We obtain the prefix form of an expression when we traverse its rooted tree in <strong>preorder</strong><br>Expressions written in prefix form are said to be in <strong>Polish notation</strong></p>
+<p>We obtain the postfix form of an expression by traversing its binary tree in <strong>postorder</strong><br>Expressions written in postfix form are said to be in reverse <strong>Polish notation</strong></p>
+<h3 id="Spanning-Trees"><a href="#Spanning-Trees" class="headerlink" title="Spanning Trees"></a>Spanning Trees</h3><p>Let $G$ be a simple graph. A spanning tree of $G$ is a subgraph of $G$ that is a tree obtaining every vertex of $G$</p>
+<p>A simple graph is connected if and only if it has a spanning tree</p>
+<h3 id="Minimum-Spanning-Trees"><a href="#Minimum-Spanning-Trees" class="headerlink" title="Minimum Spanning Trees"></a>Minimum Spanning Trees</h3><p>A minimum spanning tree in a connected weighted graph is a spanning tree that has the smallest possible sum of weights of its edges.</p>
+<p><img src="/pictures/离散数学/Prim.png" alt="Prim's Algorithm" style="display: block; margin: 0 auto; width: 100%;"><br><img src="/pictures/离散数学/Kruskal.png" alt="Kruskal's Algorithm" style="display: block; margin: 0 auto; width: 100%;"></p>
+ 
       <!-- reward -->
       
     </div>
@@ -1117,6 +1130,23 @@ D_n&=n!(1-\frac{1}{1!}+\frac{1}{2!}-\frac{1}{3!}+\cdots+(-1)^n\frac{1}{n!})\\
     
 
   </div>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<!--script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
 </body>
 
 </html>
