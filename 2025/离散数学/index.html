@@ -114,7 +114,7 @@ var _hmt = _hmt || [];
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">2.2k</span>
+            <span class="post-count">2.6k</span>
         </span>
     </span>
 
@@ -123,7 +123,7 @@ var _hmt = _hmt || [];
         <span class="post-meta-item-icon">
             <i class="ri-book-open-line"></i>
             <span class="post-meta-item-text"> 阅读时长≈</span>
-            <span class="post-count">13 分钟</span>
+            <span class="post-count">15 分钟</span>
         </span>
     </span>
 </div>
@@ -206,6 +206,22 @@ var _hmt = _hmt || [];
 <td>可能式</td>
 <td>predicate</td>
 <td>谓词</td>
+</tr>
+<tr>
+<td>axiom</td>
+<td>公理</td>
+<td>corollary</td>
+<td>推论</td>
+<td>conjecture</td>
+<td>猜想</td>
+</tr>
+<tr>
+<td>lemma</td>
+<td>引理</td>
+<td>vacuous proof</td>
+<td>空证明</td>
+<td>trivial proof</td>
+<td>平凡证明</td>
 </tr>
 </tbody>
 </table>
@@ -313,6 +329,17 @@ var _hmt = _hmt || [];
 \end{cases}
 \end{align}</script><h3 id="Nested-Quantifiers"><a href="#Nested-Quantifiers" class="headerlink" title="Nested Quantifiers"></a>Nested Quantifiers</h3><p>Nest quantifiers are quantifiers that occur within the scope of other quantifiers<br>The order of nested quantifiers matters if quantifiers are of different types</p>
 <h3 id="Prenex-Normal-Form"><a href="#Prenex-Normal-Form" class="headerlink" title="Prenex Normal Form"></a>Prenex Normal Form</h3><p>Any expression can be transformed into a prefix normal form.<br>(1) Eliminate all occurrences of $\rightarrow$ and $\leftrightarrow$ from the formula in question<br>(2) Move all negations inward such that negation only appear as part if literals<br>(3) Standardize the variables a part (when necessary)<br>(4) moving all quantifiers to the front of the formula</p>
+<h3 id="Rules-of-Inference"><a href="#Rules-of-Inference" class="headerlink" title="Rules of Inference"></a>Rules of Inference</h3><p>An <strong>argument</strong> is a sequence of statements that end with a conclusion<br>By <strong>valid</strong> ,we mean the conclusion must follow from the truth of the preceding statements<br>We use <strong>rules of inference</strong> to construct valid arguments</p>
+<h3 id="Direct-Proof"><a href="#Direct-Proof" class="headerlink" title="Direct Proof"></a>Direct Proof</h3><p>A direct proof of a conditional statement $p\rightarrow q$ is constructed when the first step is the assumption that $p$ is true, subsequent steps are constructed using rules of inference, with the final step show that $q$ must also be true</p>
+<h3 id="Vacuous-Proof"><a href="#Vacuous-Proof" class="headerlink" title="Vacuous Proof"></a>Vacuous Proof</h3><p>The conditional statement $p\rightarrow q$ is true when we know that $p$ is false, consequently, if we can show that $p$ is false, then we have a proof called a vacuous proof</p>
+<h3 id="Trivial-Proof"><a href="#Trivial-Proof" class="headerlink" title="Trivial Proof"></a>Trivial Proof</h3><p>We can prove a conditional statement $p\rightarrow q$ if we know that the conclusion $q$ is true</p>
+<h3 id="Proof-by-Contraposition"><a href="#Proof-by-Contraposition" class="headerlink" title="Proof by Contraposition"></a>Proof by Contraposition</h3><p>To proof the conditional statement $p\rightarrow q$ ,we can proof that $\neg q\rightarrow\neg p$ </p>
+<h3 id="Proof-by-Contradiction"><a href="#Proof-by-Contradiction" class="headerlink" title="Proof by Contradiction"></a>Proof by Contradiction</h3><p>Proof $p$ by contradiction:<br>(1) assume $p$ is false<br>(2) deduces that $\neg p\rightarrow(q\land\neg q)$ ,which $q\land\neg q$ is a contradiction<br>(3) $p$ follows from the above<br>Proof $p\rightarrow q$ by contradiction:<br>(1) assume that both $\neg q$ and $p$ are true<br>(2) show that $(p\land\neg q)\rightarrow\mathrm{F}$ </p>
+<h3 id="Proof-by-cases"><a href="#Proof-by-cases" class="headerlink" title="Proof by cases"></a>Proof by cases</h3><p>Convince the reader that the cases are inclusive and establish all implications<br>Without Loss of Generality: WLOG</p>
+<h3 id="Exhaustive-Proof"><a href="#Exhaustive-Proof" class="headerlink" title="Exhaustive Proof"></a>Exhaustive Proof</h3><p>An <strong>exhaustive proof</strong> is a special type of proof by cases where each case involves checking a single example</p>
+<h3 id="Uniqueness-Proof"><a href="#Uniqueness-Proof" class="headerlink" title="Uniqueness Proof"></a>Uniqueness Proof</h3><p>To show that a theorem assert the existence of a unique element with a particular property</p>
+<script type="math/tex; mode=display">
+\exists x(P(x)\land\forall y(y\neq x\rightarrow\neg P(y)))</script><p><strong>existence</strong>: show that an element $x$ with the desired property exists<br><strong>uniqueness</strong>: show that if $y\neq x$ ,then $y$ does not have the desired property. Equivalently, we can also show that if $x$ and $y$ both have the desired property, then $x=y$</p>
 <hr>
 <h2 id="Chapter-5-Induction"><a href="#Chapter-5-Induction" class="headerlink" title="Chapter-5 Induction"></a>Chapter-5 Induction</h2><div class="table-container">
 <table>
@@ -1397,23 +1424,6 @@ D_n&=n!(1-\frac{1}{1!}+\frac{1}{2!}-\frac{1}{3!}+\cdots+(-1)^n\frac{1}{n!})\\
     
 
   </div>
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        tex2jax: {
-            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
-            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
-            processEscapes: true
-        }
-    });
-    MathJax.Hub.Queue(function() {
-        var all = MathJax.Hub.getAllJax();
-        for (var i = 0; i < all.length; ++i)
-            all[i].SourceElement().parentNode.className += ' has-jax';
-    });
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-<!--script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
 </body>
 
 </html>
