@@ -6,7 +6,7 @@
   <link href="https://reedrift.github.io/atom.xml" rel="self"/>
   
   <link href="https://reedrift.github.io/"/>
-  <updated>2025-05-28T06:14:51.134Z</updated>
+  <updated>2025-05-28T07:49:17.838Z</updated>
   <id>https://reedrift.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://reedrift.github.io/2025/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/"/>
     <id>https://reedrift.github.io/2025/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/</id>
     <published>2025-05-15T05:26:33.000Z</published>
-    <updated>2025-05-28T06:14:51.134Z</updated>
+    <updated>2025-05-28T07:49:17.838Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;Chapter-1-Logic-amp-Proofs&quot;&gt;&lt;a href=&quot;#Chapter-1-Logic-amp-Proofs&quot; class=&quot;headerlink&quot; title=&quot;Chapter-1 Logic &amp;amp; Proofs&quot;&gt;&lt;/a&gt;Chapter-1 Logic &amp;amp; Proofs&lt;/h2&gt;&lt;div class=&quot;table-container&quot;&gt;
@@ -50,8 +50,48 @@
 &lt;td&gt;命题&lt;/td&gt;
 &lt;td&gt;paradox&lt;/td&gt;
 &lt;td&gt;悖论&lt;/td&gt;
-&lt;td&gt;sonsistent&lt;/td&gt;
+&lt;td&gt;consistent&lt;/td&gt;
 &lt;td&gt;一致的&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;conjunction&lt;/td&gt;
+&lt;td&gt;和取&lt;/td&gt;
+&lt;td&gt;disjunction&lt;/td&gt;
+&lt;td&gt;析取&lt;/td&gt;
+&lt;td&gt;exclusive or&lt;/td&gt;
+&lt;td&gt;异或&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;hypothesis&lt;/td&gt;
+&lt;td&gt;假设&lt;/td&gt;
+&lt;td&gt;antecedent&lt;/td&gt;
+&lt;td&gt;假设&lt;/td&gt;
+&lt;td&gt;premise&lt;/td&gt;
+&lt;td&gt;假设&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;conclusion&lt;/td&gt;
+&lt;td&gt;结论&lt;/td&gt;
+&lt;td&gt;consequence&lt;/td&gt;
+&lt;td&gt;假设&lt;/td&gt;
+&lt;td&gt;converse&lt;/td&gt;
+&lt;td&gt;逆命题&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;inverse&lt;/td&gt;
+&lt;td&gt;否命题&lt;/td&gt;
+&lt;td&gt;contrapositive&lt;/td&gt;
+&lt;td&gt;逆否命题&lt;/td&gt;
+&lt;td&gt;tautology&lt;/td&gt;
+&lt;td&gt;永真式&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;contradiction&lt;/td&gt;
+&lt;td&gt;永假式&lt;/td&gt;
+&lt;td&gt;contingency&lt;/td&gt;
+&lt;td&gt;可能式&lt;/td&gt;
+&lt;td&gt;predicate&lt;/td&gt;
+&lt;td&gt;谓词&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;

@@ -114,7 +114,7 @@ var _hmt = _hmt || [];
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">1.7k</span>
+            <span class="post-count">2.2k</span>
         </span>
     </span>
 
@@ -123,7 +123,7 @@ var _hmt = _hmt || [];
         <span class="post-meta-item-icon">
             <i class="ri-book-open-line"></i>
             <span class="post-meta-item-text"> 阅读时长≈</span>
-            <span class="post-count">10 分钟</span>
+            <span class="post-count">13 分钟</span>
         </span>
     </span>
 </div>
@@ -164,13 +164,156 @@ var _hmt = _hmt || [];
 <td>命题</td>
 <td>paradox</td>
 <td>悖论</td>
-<td>sonsistent</td>
+<td>consistent</td>
 <td>一致的</td>
+</tr>
+<tr>
+<td>conjunction</td>
+<td>和取</td>
+<td>disjunction</td>
+<td>析取</td>
+<td>exclusive or</td>
+<td>异或</td>
+</tr>
+<tr>
+<td>hypothesis</td>
+<td>假设</td>
+<td>antecedent</td>
+<td>假设</td>
+<td>premise</td>
+<td>假设</td>
+</tr>
+<tr>
+<td>conclusion</td>
+<td>结论</td>
+<td>consequence</td>
+<td>假设</td>
+<td>converse</td>
+<td>逆命题</td>
+</tr>
+<tr>
+<td>inverse</td>
+<td>否命题</td>
+<td>contrapositive</td>
+<td>逆否命题</td>
+<td>tautology</td>
+<td>永真式</td>
+</tr>
+<tr>
+<td>contradiction</td>
+<td>永假式</td>
+<td>contingency</td>
+<td>可能式</td>
+<td>predicate</td>
+<td>谓词</td>
 </tr>
 </tbody>
 </table>
 </div>
 <h3 id="Proposition"><a href="#Proposition" class="headerlink" title="Proposition"></a>Proposition</h3><p><strong>proposition</strong>:  a declarative sentence that is either true or false, but not both<br><strong>propositional variables</strong>: use variables to represent propositions<br><strong>atomic propositions</strong>: Propositions that cannot be expressed in terms of simpler propositions<br><strong>compound propositions</strong>: propositions formed from existing propositions using logical operators<br><span id="more"></span></p>
+<h3 id="Logical-Operators"><a href="#Logical-Operators" class="headerlink" title="Logical Operators"></a>Logical Operators</h3><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>Connectives</th>
+<th>Expression</th>
+<th>Abbreviation</th>
+<th>Translation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>negation</td>
+<td>$\neg p$</td>
+<td>NOT</td>
+<td>非</td>
+</tr>
+<tr>
+<td>conjunction</td>
+<td>$p\land q$</td>
+<td>AND</td>
+<td>和取</td>
+</tr>
+<tr>
+<td>disjunction</td>
+<td>$p\lor q$</td>
+<td>OR</td>
+<td>析取</td>
+</tr>
+<tr>
+<td>exclusive or</td>
+<td>$p\oplus q$</td>
+<td>XOR</td>
+<td>异或</td>
+</tr>
+<tr>
+<td>conditional</td>
+<td>$p\rightarrow q$</td>
+<td>IF-THEN</td>
+<td>条件</td>
+</tr>
+<tr>
+<td>biconditional</td>
+<td>$p\leftrightarrow q$</td>
+<td>IF AND ONLY IF</td>
+<td>双条件</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>The word “or” in English can represent both inclusive and exclusive</p>
+<h3 id="Conditional-Statements"><a href="#Conditional-Statements" class="headerlink" title="Conditional Statements"></a>Conditional Statements</h3><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>Statement</th>
+<th>Expression</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>implication</td>
+<td>$p\rightarrow q$</td>
+</tr>
+<tr>
+<td>converse</td>
+<td>$q\rightarrow p$</td>
+</tr>
+<tr>
+<td>inverse</td>
+<td>$\neg p\rightarrow\neg q$</td>
+</tr>
+<tr>
+<td>contrapositive</td>
+<td>$\neg q\rightarrow\neg p$</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>The contrapositive has <strong>the same truth values</strong> as the original implication</p>
+<h3 id="Propositional-Equivalences"><a href="#Propositional-Equivalences" class="headerlink" title="Propositional Equivalences"></a>Propositional Equivalences</h3><p><strong>tautology</strong>: A proposition which is always true<br><strong>contradiction</strong>: A proposition which is always false<br><strong>contingency</strong>: A proposition which is neither a tautology nor a contradiction </p>
+<p>A compound proposition is satisfiable if there is an assignment of truth values to make it true.<br>A compound proposition is unsatisfiable when it is false for all assignments of truth values to its variables.</p>
+<h3 id="Logical-Laws"><a href="#Logical-Laws" class="headerlink" title="Logical Laws"></a>Logical Laws</h3><p><img src="/pictures/离散数学/Logical laws.png" alt="Kruskal's Algorithm" style="display: block; margin: 0 auto; width: 100%;"></p>
+<h3 id="Normal-Forms"><a href="#Normal-Forms" class="headerlink" title="Normal Forms"></a>Normal Forms</h3><p><strong>Disjunctive Normal Form</strong>: A formula is said to be in disjunctive normal form if it is written as a disjunction, in which all the terms are conjunctions of literals<br><strong>Conjunctive Normal Form</strong>: A formula is said to be in conjunctive normal form if it is written as a conjunction, in which all the terms are disjunctions of literals</p>
+<p><strong>minterm</strong>: a conjunctive of literals in which each variable is represented exactly once<br><strong>maxterm</strong>: a disjunctive of literals in which each variable is represented exactly once</p>
+<p><strong>Full Disjunctive Normal Form</strong>: Each term includes all variables<br><strong>Full Conjunctive Normal Form</strong>: Each term includes all variables</p>
+<h3 id="Equivalence-in-Predicate-Logic"><a href="#Equivalence-in-Predicate-Logic" class="headerlink" title="Equivalence in Predicate Logic"></a>Equivalence in Predicate Logic</h3><script type="math/tex; mode=display">
+\begin{align}
+&\begin{cases}
+\neg\forall xP(x)\equiv\exists x\neg P(x)\\
+\neg\exists xP(x)\equiv\forall x\neg P(x)
+\end{cases}\\
+&\begin{cases}
+\forall x(A(x)\land B(x))\equiv\forall xA(x)\land\forall xB(x)\\
+\exists x(A(x)\lor B(x))\equiv\exists xA(x)\lor\exists xB(x)
+\end{cases}\\
+&\begin{cases}
+\forall xA(x)\lor\forall xB(x)\Rightarrow\forall x(A(x)\lor B(x))\\
+\exists x(A(x)\land B(x))\Rightarrow\exists xA(x)\land\exists xB(x)
+\end{cases}
+\end{align}</script><h3 id="Nested-Quantifiers"><a href="#Nested-Quantifiers" class="headerlink" title="Nested Quantifiers"></a>Nested Quantifiers</h3><p>Nest quantifiers are quantifiers that occur within the scope of other quantifiers<br>The order of nested quantifiers matters if quantifiers are of different types</p>
+<h3 id="Prenex-Normal-Form"><a href="#Prenex-Normal-Form" class="headerlink" title="Prenex Normal Form"></a>Prenex Normal Form</h3><p>Any expression can be transformed into a prefix normal form.<br>(1) Eliminate all occurrences of $\rightarrow$ and $\leftrightarrow$ from the formula in question<br>(2) Move all negations inward such that negation only appear as part if literals<br>(3) Standardize the variables a part (when necessary)<br>(4) moving all quantifiers to the front of the formula</p>
+<hr>
 <h2 id="Chapter-5-Induction"><a href="#Chapter-5-Induction" class="headerlink" title="Chapter-5 Induction"></a>Chapter-5 Induction</h2><div class="table-container">
 <table>
 <thead>
@@ -258,12 +401,8 @@ P(n_0)\land\forall k\geq n_0(P(n_0)\land P(n_0+1)\land\cdots\land P(k)\rightarro
 </tbody>
 </table>
 </div>
-<h3 id="Counting-Principles"><a href="#Counting-Principles" class="headerlink" title="Counting Principles"></a>Counting Principles</h3><ul>
-<li><strong>The Sum Rule</strong><br>If $S$ and $T$ are disjoint finite sets, then $|S\cup T|=|S|+|T|$</li>
-<li><strong>The Product Rule</strong><br>If $S$ and $T$ are finite sets, then $|S\times T|=|S|\times|T|$</li>
-<li><strong>The Inclusion-Exclusion Principle</strong><br>If $S$ and $T$ are finite sets, then $|S\cup T|=|S|+|T|-|S\cap T|$<h3 id="The-Pigeonhole-Principle"><a href="#The-Pigeonhole-Principle" class="headerlink" title="The Pigeonhole Principle"></a>The Pigeonhole Principle</h3></li>
-</ul>
-<p>If $k$ is a positive integer and $k+1$ or more objects are placed into $k$ boxes, then there is at least one box containing two or more of the objects.</p>
+<h3 id="Counting-Principles"><a href="#Counting-Principles" class="headerlink" title="Counting Principles"></a>Counting Principles</h3><p><strong>The Sum Rule</strong><br>If $S$ and $T$ are disjoint finite sets, then $|S\cup T|=|S|+|T|$<br><strong>The Product Rule</strong><br>If $S$ and $T$ are finite sets, then $|S\times T|=|S|\times|T|$<br><strong>The Inclusion-Exclusion Principle</strong><br>If $S$ and $T$ are finite sets, then $|S\cup T|=|S|+|T|-|S\cap T|$</p>
+<h3 id="The-Pigeonhole-Principle"><a href="#The-Pigeonhole-Principle" class="headerlink" title="The Pigeonhole Principle"></a>The Pigeonhole Principle</h3><p>If $k$ is a positive integer and $k+1$ or more objects are placed into $k$ boxes, then there is at least one box containing two or more of the objects.</p>
 <p>If $n$ objects are placed into $k$ boxes, then there is at least one box containing at least $\lceil n/k\rceil$ objects.</p>
 <h3 id="Applications-of-P-amp-C"><a href="#Applications-of-P-amp-C" class="headerlink" title="Applications of P&amp;C"></a>Applications of P&amp;C</h3><p><strong>r-permutation with repetition</strong>: The number of r-permutations of a set of $n$ objects with repetition allowed </p>
 <script type="math/tex; mode=display">
