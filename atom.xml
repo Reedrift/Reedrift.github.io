@@ -6,7 +6,7 @@
   <link href="https://reedrift.github.io/atom.xml" rel="self"/>
   
   <link href="https://reedrift.github.io/"/>
-  <updated>2025-05-28T03:14:47.282Z</updated>
+  <updated>2025-05-28T03:35:53.069Z</updated>
   <id>https://reedrift.github.io/</id>
   
   <author>
@@ -21,10 +21,10 @@
     <link href="https://reedrift.github.io/2025/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/"/>
     <id>https://reedrift.github.io/2025/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/</id>
     <published>2025-05-15T05:26:33.000Z</published>
-    <updated>2025-05-28T03:14:47.282Z</updated>
+    <updated>2025-05-28T03:35:53.069Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;Chapter-6-Counting&quot;&gt;&lt;a href=&quot;#Chapter-6-Counting&quot; class=&quot;headerlink&quot; title=&quot;Chapter-6 Counting&quot;&gt;&lt;/a&gt;Chapter-6 Counting&lt;/h2&gt;&lt;div class=&quot;table-container&quot;&gt;
+    <summary type="html">&lt;h2 id=&quot;Chapter-5-Induction&quot;&gt;&lt;a href=&quot;#Chapter-5-Induction&quot; class=&quot;headerlink&quot; title=&quot;Chapter-5 Induction&quot;&gt;&lt;/a&gt;Chapter-5 Induction&lt;/h2&gt;&lt;div class=&quot;table-container&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -38,20 +38,18 @@
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;disjoint&lt;/td&gt;
-&lt;td&gt;不相交&lt;/td&gt;
-&lt;td&gt;combination&lt;/td&gt;
-&lt;td&gt;组合&lt;/td&gt;
-&lt;td&gt;permutation&lt;/td&gt;
-&lt;td&gt;排列&lt;/td&gt;
+&lt;td&gt;deduce&lt;/td&gt;
+&lt;td&gt;演绎&lt;/td&gt;
+&lt;td&gt;mathematical induction&lt;/td&gt;
+&lt;td&gt;数学归纳法&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;/div&gt;
-&lt;h3 id=&quot;Counting-Principles&quot;&gt;&lt;a href=&quot;#Counting-Principles&quot; class=&quot;headerlink&quot; title=&quot;Counting Principles&quot;&gt;&lt;/a&gt;Counting Principles&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;The Sum Rule&lt;/strong&gt;&lt;br&gt;If $S$ and $T$ are disjoint finite sets, then $|S&#92;cup T|=|S|+|T|$&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;The Product Rule&lt;/strong&gt;&lt;br&gt;If $S$ and $T$ are finite sets, then $|S&#92;times T|=|S|&#92;times|T|$&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;The Inclusion-Exclusion Principle&lt;/strong&gt;&lt;br&gt;If $S$ and $T$ are finite sets, then $|S&#92;cup T|=|S|+|T|-|S&#92;cap T|$</summary>
+&lt;h3 id=&quot;Mathematical-Induction&quot;&gt;&lt;a href=&quot;#Mathematical-Induction&quot; class=&quot;headerlink&quot; title=&quot;Mathematical Induction&quot;&gt;&lt;/a&gt;Mathematical Induction&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;mathematical induction&lt;/strong&gt; is used to prove propositions of form $&#92;forall nP(n)$ where the domain of discourse is the set of positive integers:&lt;/p&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;
+P(n_0)&#92;land&#92;forall k&#92;geq n_0(P(k)&#92;rightarrow P(k+1))&#92;rightarrow&#92;forall n&#92;geq n_0(P(n))&lt;/script&gt;&lt;p&gt;(1) &lt;strong&gt;Basis step&lt;/strong&gt;: Establish $P(1)$&lt;br&gt;(2) &lt;strong&gt;Inductive step&lt;/strong&gt;: Prove that $P(k)&#92;rightarrow P(k+1)$ for $k&#92;geq 1$&lt;br&gt;(3) Conclusion: The basis step and the inductive step together imply $&#92;forall nP(n)$&lt;br&gt;</summary>
     
     
     
