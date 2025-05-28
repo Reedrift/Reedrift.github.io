@@ -3,7 +3,35 @@
   <entry>
     <title>离散数学</title>
     <url>/2025/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Chapter-8-Counting"><a href="#Chapter-8-Counting" class="headerlink" title="Chapter-8 Counting"></a>Chapter-8 Counting</h2><div class="table-container">
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Chapter-6-Counting"><a href="#Chapter-6-Counting" class="headerlink" title="Chapter-6 Counting"></a>Chapter-6 Counting</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>术语</th>
+<th>翻译</th>
+<th>术语</th>
+<th>翻译</th>
+<th>术语</th>
+<th>翻译</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>disjoint</td>
+<td>不相交</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="Counting-Principles"><a href="#Counting-Principles" class="headerlink" title="Counting Principles"></a>Counting Principles</h3><ul>
+<li><strong>The Sum Rule</strong><br>If $S$ and $T$ are disjoint finite sets, then $|S\cup T|=|S|+|T|$</li>
+<li><strong>The Product Rule</strong><br>If $S$ and $T$ are finite sets, then $|S\times T|=|S|\times|T|$</li>
+<li><strong>The Inclusion-Exclusion Principle</strong><br>If $S$ and $T$ are finite sets, then $|S\cup T|=|S|+|T|-|S\cap T|$<h3 id="The-Pigeonhole-Principle"><a href="#The-Pigeonhole-Principle" class="headerlink" title="The Pigeonhole Principle"></a>The Pigeonhole Principle</h3></li>
+</ul>
+<h2 id="Chapter-8-Counting"><a href="#Chapter-8-Counting" class="headerlink" title="Chapter-8 Counting"></a>Chapter-8 Counting</h2><div class="table-container">
 <table>
 <thead>
 <tr>
@@ -1134,7 +1162,7 @@ dxdy&=\cos\gamma dS=\mathrm{sgn}(\frac{\pi}{2}-\gamma)|\cos\gamma|dS\\
 <script type="math/tex; mode=display">
 \iiint_V(\frac{\partial P}{\partial x}+\frac{\partial Q}{\partial y}+\frac{\partial R}{\partial z})dxdydz=\unicode{8751}_S Pdydz+Qdzdx+Rdxdy</script><p>其中 $S$ 取外侧，上式称为高斯公式</p>
 <p>若 $S$ 为封闭的简单曲面， $l$ 为任何固定方向，则 $\unicode{8751}_S\cos(n,l)dS=0$ 其中 $n$ 为法向量</p>
-<h3 id="散度场"><a href="#散度场" class="headerlink" title="散度场"></a>散度场</h3><p>设 $A(x,y,z)=(P(x,y,z),Q(x,y,z),R(x,y,z))$ 为空间区域 $V$ 上的向量函数，对 $V$ 上每一点 $(x,y,z)$ ，称函数 $\begin{align}\frac{\partial P}{\partial x}+\frac{\partial Q}{\partial y}+\frac{\partial R}{\partial z}\end{align}$ 为向量函数 $A$ 在点 $M(x,y,z)$ 处的散度，记作：</p>
+<h3 id="散度场"><a href="#散度场" class="headerlink" title="散度场"></a>散度场</h3><p>设 $A(x,y,z)=(P(x,y,z),Q(x,y,z),R(x,y,z))$ 为空间区域 $V$ 上的向量函数，对于 $V$ 上每一点 $(x,y,z)$ ，称函数 $\begin{align}\frac{\partial P}{\partial x}+\frac{\partial Q}{\partial y}+\frac{\partial R}{\partial z}\end{align}$ 为向量函数 $A$ 在点 $M(x,y,z)$ 处的散度，记作：</p>
 <script type="math/tex; mode=display">
 \mathrm{div} A(x,y,z)=\frac{\partial P}{\partial x}+\frac{\partial Q}{\partial y}+\frac{\partial R}{\partial z}</script><p>设 $e_n=(\cos\alpha,\cos\beta,\cos\gamma)$ 为曲面的单位法向量，则 $dS=e_ndS$ 称为曲面的面积元素，则高斯公式还可以写成如下形式</p>
 <script type="math/tex; mode=display">
@@ -1160,7 +1188,7 @@ dxdy&=\cos\gamma dS=\mathrm{sgn}(\frac{\pi}{2}-\gamma)|\cos\gamma|dS\\
 <script type="math/tex; mode=display">
 \iint_S
 \begin{vmatrix}
-dydx&dzdx&dxdy\\
+dydz&dzdx&dxdy\\
 \frac{\partial}{\partial x}&
 \frac{\partial}{\partial y}&
 \frac{\partial}{\partial z}\\
@@ -1531,7 +1559,7 @@ I=\overline{\omega}u=\frac{1}{2}\rho A^2\omega^2u</script><p>取离波源单位�
 <script type="math/tex; mode=display">
 \nu_R=\sqrt{\frac{c+u}{c-u}}\nu_s</script><hr>
 <h2 id="Chapter-7-气体动理论"><a href="#Chapter-7-气体动理论" class="headerlink" title="Chapter-7 气体动理论"></a>Chapter-7 气体动理论</h2><h3 id="热力学系统"><a href="#热力学系统" class="headerlink" title="热力学系统"></a>热力学系统</h3><p><strong>孤立系统</strong> 系统与外界既无物质交换，也无能量交换<br><strong>封闭系统</strong> 系统与外界无物质交换，但有能量交换<br><strong>开放系统</strong> 系统与外界既有物质交换，又有能量交换</p>
-<h3 id="平衡态"><a href="#平衡态" class="headerlink" title="平衡态"></a>平衡态</h3><p>若封闭系统与外界没有能量交换，系统内部也不发生化学反应或核反应等过程，则经过足够长时间后系统可观测的宏观性质达到稳定，不再随时间而变化，系统这种状态称为平衡态</p>
+<h3 id="平衡态"><a href="#平衡态" class="headerlink" title="平衡态"></a>平衡态</h3><p>若封闭系统与外界没有能量交换，系统内部也不发生化学反应或核反应等过程，则经过足够长时间后系统可观测的宏观性质达到稳定，不再随时间而变化，系统这种状态称为 <strong>平衡态</strong></p>
 <p>当系统与外界交换能量时，系统原来的平衡态就被破坏，能量交换后经过足够时间，系统又达到一个新的平衡态，系统的状态随时间的变化，叫作 <strong>热力学过程</strong></p>
 <h3 id="气体动理论的基本假设"><a href="#气体动理论的基本假设" class="headerlink" title="气体动理论的基本假设"></a>气体动理论的基本假设</h3><p><strong>分子及其运动假设</strong></p>
 <ul>
@@ -1554,7 +1582,7 @@ I=\overline{\omega}u=\frac{1}{2}\rho A^2\omega^2u</script><p>取离波源单位�
 p=\frac{1}{3}n\mu\bar{v^2}=\frac{2}{3}n\bar{\epsilon_t}</script><p> $\begin{aligned}\bar{v^2}=\frac{\begin{aligned}\sum_in_iv_i^2\end{aligned}}{n}\end{aligned}$ 为气体分子速率二次方的统计平均值<br> $\begin{aligned}\bar{\epsilon_t}=\frac{\begin{aligned}\sum_in_i(\frac{1}{2}\mu v_i^2)\end{aligned}}{n}=\frac{\mu\bar{v^2}}{2}\end{aligned}$ 为平均每一个气体分子所具有的平动动能（平均平动动能）<br><strong>注:</strong> 此处的 $n$ 量纲为 $m^{-3}$ ，因此该压强公式的量纲是正确的</p>
 <h3 id="温度与分子平均平动动能"><a href="#温度与分子平均平动动能" class="headerlink" title="温度与分子平均平动动能"></a>温度与分子平均平动动能</h3><p>系统的温度 $T$ 与分子平均平动动能 $\bar{\epsilon_t}$ 之间存在单值函数关系，两者关系为</p>
 <script type="math/tex; mode=display">
-\bar{\epsilon_t}=\frac{3}{2}kT,\quad k=1.38\times10^{-23}\mathrm{J/K}</script><p>说明系统的温度越高，分子的平均平动动能越大，温度是分子平均平动动能的度量<br><strong>注:</strong> 系统整体运动的动能对温度是无影响的</p>
+\bar{\epsilon_t}=\frac{3}{2}kT,\quad k=1.38\times10^{-23}\mathrm{J/K}</script><p>说明系统的温度越高，分子的平均平动动能越大，<strong>温度是分子平均平动动能的度量</strong><br><strong>注:</strong> 系统整体运动的动能对温度是 <strong>无影响</strong> 的</p>
 <h3 id="气体分子的方均根速率"><a href="#气体分子的方均根速率" class="headerlink" title="气体分子的方均根速率"></a>气体分子的方均根速率</h3><p>气体分子速率二次方统计平均值 $\bar{v^2}$ 的二次方根 $\sqrt{\bar{v^2}}$ 称为气体分子的方均根速率</p>
 <script type="math/tex; mode=display">
 \begin{cases}
@@ -1591,7 +1619,64 @@ pV=\nu RT</script><p>其中 $\nu$ 表示理想气体的物质的量</p>
 =\frac{1}{2}kT</script><p>在平衡态下分子每个自由度的平均能量都相等，称为能量均分原理<br>液体和固体的温度较高时能量均分原理也适用</p>
 <p>平均每一个分子所具有的平动、转动和振动能量的总和称为气体分子的平均能量，用符号 $\bar{\epsilon}$ 表示，根据能量均分原理，若分子的自由度为 $i$ ，则分子的平均能量为</p>
 <script type="math/tex; mode=display">
-\bar{\epsilon}=\frac{i}{2}kT</script><p><strong>注:</strong> 热力学自由度中一个振动包含振动动能和振动势能两个自由度</p>
+\bar{\epsilon}=\frac{i}{2}kT</script><p>当温度不太高时，按刚性分子计算与许多气体的实验结果大致相符</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:left">分子类型</th>
+<th style="text-align:left">自由度</th>
+<th>平动自由度</th>
+<th>转动自由度</th>
+<th>振动自由度</th>
+<th style="text-align:left">平均能量</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">单原子分子</td>
+<td style="text-align:left">$3$</td>
+<td>$3$</td>
+<td>$0$</td>
+<td>$0$</td>
+<td style="text-align:left">$\begin{align}\varepsilon_t=\frac{3}{2}kT\end{align}$</td>
+</tr>
+<tr>
+<td style="text-align:left">刚性双原子分子</td>
+<td style="text-align:left">$5$</td>
+<td>$3$</td>
+<td>$2$</td>
+<td>$0$</td>
+<td style="text-align:left">$\begin{align}\varepsilon_t=\frac{5}{2}kT\end{align}$</td>
+</tr>
+<tr>
+<td style="text-align:left">刚性多原子分子</td>
+<td style="text-align:left">$6$</td>
+<td>$3$</td>
+<td>$3$</td>
+<td>$0$</td>
+<td style="text-align:left">$\begin{align}\varepsilon_t=\frac{6}{2}kT\end{align}$</td>
+</tr>
+<tr>
+<td style="text-align:left">弹性双原子分子</td>
+<td style="text-align:left">$7$</td>
+<td>$3$</td>
+<td>$2$</td>
+<td>$2$</td>
+<td style="text-align:left">$\begin{align}\varepsilon_t=\frac{7}{2}kT\end{align}$</td>
+</tr>
+<tr>
+<td style="text-align:left">弹性多原子分子</td>
+<td style="text-align:left">$12$</td>
+<td>$3$</td>
+<td>$3$</td>
+<td>$6$</td>
+<td style="text-align:left">$\begin{align}\varepsilon_t=\frac{12}{2}kT\end{align}$</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>注:</strong> 热力学自由度中一个振动包含振动动能和振动势能两个自由度</p>
 <h3 id="理想气体的内能"><a href="#理想气体的内能" class="headerlink" title="理想气体的内能"></a>理想气体的内能</h3><p>与气体内部分子无序运动相联系的能量称为系统的内能（热力学能）</p>
 <p>物质的量为 $\nu$ 的理想气体的内能为</p>
 <script type="math/tex; mode=display">

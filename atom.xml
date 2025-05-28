@@ -6,7 +6,7 @@
   <link href="https://reedrift.github.io/atom.xml" rel="self"/>
   
   <link href="https://reedrift.github.io/"/>
-  <updated>2025-05-26T06:47:48.746Z</updated>
+  <updated>2025-05-27T12:04:23.283Z</updated>
   <id>https://reedrift.github.io/</id>
   
   <author>
@@ -21,10 +21,38 @@
     <link href="https://reedrift.github.io/2025/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/"/>
     <id>https://reedrift.github.io/2025/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/</id>
     <published>2025-05-15T05:26:33.000Z</published>
-    <updated>2025-05-26T06:47:48.746Z</updated>
+    <updated>2025-05-27T12:04:23.283Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;Chapter-8-Counting&quot;&gt;&lt;a href=&quot;#Chapter-8-Counting&quot; class=&quot;headerlink&quot; title=&quot;Chapter-8 Counting&quot;&gt;&lt;/a&gt;Chapter-8 Counting&lt;/h2&gt;&lt;div class=&quot;table-container&quot;&gt;
+    <summary type="html">&lt;h2 id=&quot;Chapter-6-Counting&quot;&gt;&lt;a href=&quot;#Chapter-6-Counting&quot; class=&quot;headerlink&quot; title=&quot;Chapter-6 Counting&quot;&gt;&lt;/a&gt;Chapter-6 Counting&lt;/h2&gt;&lt;div class=&quot;table-container&quot;&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;术语&lt;/th&gt;
+&lt;th&gt;翻译&lt;/th&gt;
+&lt;th&gt;术语&lt;/th&gt;
+&lt;th&gt;翻译&lt;/th&gt;
+&lt;th&gt;术语&lt;/th&gt;
+&lt;th&gt;翻译&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;disjoint&lt;/td&gt;
+&lt;td&gt;不相交&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;h3 id=&quot;Counting-Principles&quot;&gt;&lt;a href=&quot;#Counting-Principles&quot; class=&quot;headerlink&quot; title=&quot;Counting Principles&quot;&gt;&lt;/a&gt;Counting Principles&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;The Sum Rule&lt;/strong&gt;&lt;br&gt;If $S$ and $T$ are disjoint finite sets, then $|S&#92;cup T|=|S|+|T|$&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The Product Rule&lt;/strong&gt;&lt;br&gt;If $S$ and $T$ are finite sets, then $|S&#92;times T|=|S|&#92;times|T|$&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The Inclusion-Exclusion Principle&lt;/strong&gt;&lt;br&gt;If $S$ and $T$ are finite sets, then $|S&#92;cup T|=|S|+|T|-|S&#92;cap T|$&lt;h3 id=&quot;The-Pigeonhole-Principle&quot;&gt;&lt;a href=&quot;#The-Pigeonhole-Principle&quot; class=&quot;headerlink&quot; title=&quot;The Pigeonhole Principle&quot;&gt;&lt;/a&gt;The Pigeonhole Principle&lt;/h3&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;Chapter-8-Counting&quot;&gt;&lt;a href=&quot;#Chapter-8-Counting&quot; class=&quot;headerlink&quot; title=&quot;Chapter-8 Counting&quot;&gt;&lt;/a&gt;Chapter-8 Counting&lt;/h2&gt;&lt;div class=&quot;table-container&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -100,7 +128,7 @@ C_n&amp;=C_0C_{n-1}+C_1C_{n-2}+&#92;cdots+C_{n-2}C_1+C_{n-1}C_0&#92;&#92;
     <link href="https://reedrift.github.io/2025/%E5%BE%AE%E7%A7%AF%E5%88%86%E7%94%B2II/"/>
     <id>https://reedrift.github.io/2025/%E5%BE%AE%E7%A7%AF%E5%88%86%E7%94%B2II/</id>
     <published>2025-04-29T06:59:55.000Z</published>
-    <updated>2025-05-27T07:29:15.251Z</updated>
+    <updated>2025-05-27T07:49:57.770Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;Chapter-7-空间曲面方程&quot;&gt;&lt;a href=&quot;#Chapter-7-空间曲面方程&quot; class=&quot;headerlink&quot; title=&quot;Chapter-7 空间曲面方程&quot;&gt;&lt;/a&gt;Chapter-7 空间曲面方程&lt;/h2&gt;&lt;h3 id=&quot;矢量的矢量积&quot;&gt;&lt;a href=&quot;#矢量的矢量积&quot; class=&quot;headerlink&quot; title=&quot;矢量的矢量积&quot;&gt;&lt;/a&gt;矢量的矢量积&lt;/h3&gt;&lt;p&gt;$a&#92;times b=&#92;begin{vmatrix}a_2&amp;amp;a_3&#92;&#92;b_2&amp;amp;b_3&#92;end{vmatrix}i-&#92;begin{vmatrix}a_1&amp;amp;a_3&#92;&#92;b_1&amp;amp;b_3&#92;end{vmatrix}j+&#92;begin{vmatrix}a_1&amp;amp;a_2&#92;&#92;b_1&amp;amp;b_2&#92;end{vmatrix}k=&#92;begin{vmatrix}i&amp;amp;j&amp;amp;k&#92;&#92;a_1&amp;amp;a_2&amp;amp;a_3&#92;&#92;b_1&amp;amp;b_2&amp;amp;b_2&#92;end{vmatrix}$&lt;br&gt;矢量积所得的矢量垂直于 $a,b$ 构成的平面&lt;br&gt;</summary>
@@ -117,7 +145,7 @@ C_n&amp;=C_0C_{n-1}+C_1C_{n-2}+&#92;cdots+C_{n-2}C_1+C_{n-1}C_0&#92;&#92;
     <link href="https://reedrift.github.io/2025/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E7%94%B2I/"/>
     <id>https://reedrift.github.io/2025/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E7%94%B2I/</id>
     <published>2025-04-28T15:00:19.000Z</published>
-    <updated>2025-05-23T03:05:25.680Z</updated>
+    <updated>2025-05-28T00:40:27.633Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;Chapter-1-质点运动学&quot;&gt;&lt;a href=&quot;#Chapter-1-质点运动学&quot; class=&quot;headerlink&quot; title=&quot;Chapter-1 质点运动学&quot;&gt;&lt;/a&gt;Chapter-1 质点运动学&lt;/h2&gt;&lt;p&gt;【注】与中学内容基本一致，略&lt;/p&gt;
