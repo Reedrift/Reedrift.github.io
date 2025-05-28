@@ -184,9 +184,10 @@ var _hmt = _hmt || [];
 <tr>
 <td>disjoint</td>
 <td>不相交</td>
-<td></td>
-<td></td>
-<td></td>
+<td>combination</td>
+<td>组合</td>
+<td>permutation</td>
+<td>排列</td>
 </tr>
 </tbody>
 </table>
@@ -194,54 +195,7 @@ var _hmt = _hmt || [];
 <h3 id="Counting-Principles"><a href="#Counting-Principles" class="headerlink" title="Counting Principles"></a>Counting Principles</h3><ul>
 <li><strong>The Sum Rule</strong><br>If $S$ and $T$ are disjoint finite sets, then $|S\cup T|=|S|+|T|$</li>
 <li><strong>The Product Rule</strong><br>If $S$ and $T$ are finite sets, then $|S\times T|=|S|\times|T|$</li>
-<li><strong>The Inclusion-Exclusion Principle</strong><br>If $S$ and $T$ are finite sets, then $|S\cup T|=|S|+|T|-|S\cap T|$<h3 id="The-Pigeonhole-Principle"><a href="#The-Pigeonhole-Principle" class="headerlink" title="The Pigeonhole Principle"></a>The Pigeonhole Principle</h3></li>
-</ul>
-<h2 id="Chapter-8-Counting"><a href="#Chapter-8-Counting" class="headerlink" title="Chapter-8 Counting"></a>Chapter-8 Counting</h2><div class="table-container">
-<table>
-<thead>
-<tr>
-<th>术语</th>
-<th>翻译</th>
-<th>术语</th>
-<th>翻译</th>
-<th>术语</th>
-<th>翻译</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>recurrence relation</td>
-<td>递推关系</td>
-<td>parenthese</td>
-<td>括号</td>
-<td>degreee</td>
-<td>阶</td>
-</tr>
-<tr>
-<td>divide-and-conquer</td>
-<td>分治</td>
-<td>master theorem</td>
-<td>主定理</td>
-<td>linear</td>
-<td>线性</td>
-</tr>
-<tr>
-<td>binomial theorem</td>
-<td>二项式定理</td>
-<td>homogeneous</td>
-<td>齐次</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-</div>
-<h3 id="Catalan-Numbers"><a href="#Catalan-Numbers" class="headerlink" title="Catalan Numbers"></a>Catalan Numbers</h3><p> Note That the initial conditions are $C_0=1$ and $C_1=1$</p>
-<script type="math/tex; mode=display">
-\begin{align} 
-C_n&=C_0C_{n-1}+C_1C_{n-2}+\cdots+C_{n-2}C_1+C_{n-1}C_0\\
-&=\sum_{k=0}^{n-1}C_kC_{n-k-1}\\
-&=\frac{C(2n,n)}{n+1} 
-\end{align}</script> 
+<li><strong>The Inclusion-Exclusion Principle</strong><br>If $S$ and $T$ are finite sets, then $|S\cup T|=|S|+|T|-|S\cap T|$ 
       <a class="article-more-link" href="/2025/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/"
         >阅读更多...</a
       >
@@ -953,23 +907,6 @@ v_2'=\frac{m_1v_1+m_2v_2}{m_1+m_2}-e\frac{m_1(v_2-v_1)}{m_1+m_2}
     
 
   </div>
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        tex2jax: {
-            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
-            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
-            processEscapes: true
-        }
-    });
-    MathJax.Hub.Queue(function() {
-        var all = MathJax.Hub.getAllJax();
-        for (var i = 0; i < all.length; ++i)
-            all[i].SourceElement().parentNode.className += ' has-jax';
-    });
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-<!--script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
 </body>
 
 </html>

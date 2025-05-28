@@ -6,7 +6,7 @@
   <link href="https://reedrift.github.io/atom.xml" rel="self"/>
   
   <link href="https://reedrift.github.io/"/>
-  <updated>2025-05-28T02:27:01.420Z</updated>
+  <updated>2025-05-28T03:14:47.282Z</updated>
   <id>https://reedrift.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://reedrift.github.io/2025/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/"/>
     <id>https://reedrift.github.io/2025/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/</id>
     <published>2025-05-15T05:26:33.000Z</published>
-    <updated>2025-05-28T02:27:01.420Z</updated>
+    <updated>2025-05-28T03:14:47.282Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;Chapter-6-Counting&quot;&gt;&lt;a href=&quot;#Chapter-6-Counting&quot; class=&quot;headerlink&quot; title=&quot;Chapter-6 Counting&quot;&gt;&lt;/a&gt;Chapter-6 Counting&lt;/h2&gt;&lt;div class=&quot;table-container&quot;&gt;
@@ -40,9 +40,10 @@
 &lt;tr&gt;
 &lt;td&gt;disjoint&lt;/td&gt;
 &lt;td&gt;不相交&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;combination&lt;/td&gt;
+&lt;td&gt;组合&lt;/td&gt;
+&lt;td&gt;permutation&lt;/td&gt;
+&lt;td&gt;排列&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -50,54 +51,7 @@
 &lt;h3 id=&quot;Counting-Principles&quot;&gt;&lt;a href=&quot;#Counting-Principles&quot; class=&quot;headerlink&quot; title=&quot;Counting Principles&quot;&gt;&lt;/a&gt;Counting Principles&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;The Sum Rule&lt;/strong&gt;&lt;br&gt;If $S$ and $T$ are disjoint finite sets, then $|S&#92;cup T|=|S|+|T|$&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;The Product Rule&lt;/strong&gt;&lt;br&gt;If $S$ and $T$ are finite sets, then $|S&#92;times T|=|S|&#92;times|T|$&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;The Inclusion-Exclusion Principle&lt;/strong&gt;&lt;br&gt;If $S$ and $T$ are finite sets, then $|S&#92;cup T|=|S|+|T|-|S&#92;cap T|$&lt;h3 id=&quot;The-Pigeonhole-Principle&quot;&gt;&lt;a href=&quot;#The-Pigeonhole-Principle&quot; class=&quot;headerlink&quot; title=&quot;The Pigeonhole Principle&quot;&gt;&lt;/a&gt;The Pigeonhole Principle&lt;/h3&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;Chapter-8-Counting&quot;&gt;&lt;a href=&quot;#Chapter-8-Counting&quot; class=&quot;headerlink&quot; title=&quot;Chapter-8 Counting&quot;&gt;&lt;/a&gt;Chapter-8 Counting&lt;/h2&gt;&lt;div class=&quot;table-container&quot;&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;术语&lt;/th&gt;
-&lt;th&gt;翻译&lt;/th&gt;
-&lt;th&gt;术语&lt;/th&gt;
-&lt;th&gt;翻译&lt;/th&gt;
-&lt;th&gt;术语&lt;/th&gt;
-&lt;th&gt;翻译&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;recurrence relation&lt;/td&gt;
-&lt;td&gt;递推关系&lt;/td&gt;
-&lt;td&gt;parenthese&lt;/td&gt;
-&lt;td&gt;括号&lt;/td&gt;
-&lt;td&gt;degreee&lt;/td&gt;
-&lt;td&gt;阶&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;divide-and-conquer&lt;/td&gt;
-&lt;td&gt;分治&lt;/td&gt;
-&lt;td&gt;master theorem&lt;/td&gt;
-&lt;td&gt;主定理&lt;/td&gt;
-&lt;td&gt;linear&lt;/td&gt;
-&lt;td&gt;线性&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;binomial theorem&lt;/td&gt;
-&lt;td&gt;二项式定理&lt;/td&gt;
-&lt;td&gt;homogeneous&lt;/td&gt;
-&lt;td&gt;齐次&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;h3 id=&quot;Catalan-Numbers&quot;&gt;&lt;a href=&quot;#Catalan-Numbers&quot; class=&quot;headerlink&quot; title=&quot;Catalan Numbers&quot;&gt;&lt;/a&gt;Catalan Numbers&lt;/h3&gt;&lt;p&gt; Note That the initial conditions are $C_0=1$ and $C_1=1$&lt;/p&gt;
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;
-&#92;begin{align} 
-C_n&amp;=C_0C_{n-1}+C_1C_{n-2}+&#92;cdots+C_{n-2}C_1+C_{n-1}C_0&#92;&#92;
-&amp;=&#92;sum_{k=0}^{n-1}C_kC_{n-k-1}&#92;&#92;
-&amp;=&#92;frac{C(2n,n)}{n+1} 
-&#92;end{align}&lt;/script&gt;</summary>
+&lt;li&gt;&lt;strong&gt;The Inclusion-Exclusion Principle&lt;/strong&gt;&lt;br&gt;If $S$ and $T$ are finite sets, then $|S&#92;cup T|=|S|+|T|-|S&#92;cap T|$</summary>
     
     
     
