@@ -224,8 +224,8 @@ var _hmt = _hmt || [];
 P(n_0)\land\forall k\geq n_0(P(k)\rightarrow P(k+1))\rightarrow\forall n\geq n_0(P(n))</script><p>(1) <strong>Basis step</strong>: Establish $P(1)$<br>(2) <strong>Inductive step</strong>: Prove that $P(k)\rightarrow P(k+1)$ for $k\geq 1$<br>(3) <strong>Conclusion</strong>: The basis step and the inductive step together imply $\forall nP(n)$</p>
 <blockquote>
 <p><strong>Proof of Mathematical induction</strong><br>The validity of mathematical induction follows from the well-ordering property for the set of $\mathrm{Z}^+$.<br>(1) Assume that there is at least of positive integer for which $P(n)$ is false<br>(2) $S$ is the set of positive integer for which $P(n)$ is false, then $S$ is nonempty<br>(3) By the well-ordering property, $S$ has a least element, which will be denoted by $m$<br>(4) Then $m\neq1,m-1$ is a positive integer, $m-1$ is not in $S$ ,so $P(m-1)$ is true<br>(5) Since the implication $P(m-1)\rightarrow P(m)$ is also true ,$P(m)$ must be true<br>by contradiction ,$\forall nP(n)$</p>
-<h2 id="Strong-Induction"><a href="#Strong-Induction" class="headerlink" title="Strong Induction"></a>Strong Induction</h2></blockquote>
-<p>strong induction or second principle of mathematical induction.</p>
+</blockquote>
+<h3 id="Strong-Induction"><a href="#Strong-Induction" class="headerlink" title="Strong Induction"></a>Strong Induction</h3><p>strong induction or second principle of mathematical induction.</p>
 <script type="math/tex; mode=display">
 P(n_0)\land\forall k\geq n_0(P(n_0)\land P(n_0+1)\land\cdots\land P(k)\rightarrow P(k+1))\rightarrow \forall n\geq n_0(P(n))</script><p>(1) <strong>Basis step</strong>: Establish $P(n_0)$<br>(2) <strong>Inductive Step</strong>: Prove $P(n_0)\land P(n_0+1)\land\cdots\land P(k)\rightarrow P(k+1)$<br>(3) <strong>Conclusion</strong>: the basis step and the inductive step together imply $\forall n\geq n_0 P(n)$</p>
 <blockquote>
