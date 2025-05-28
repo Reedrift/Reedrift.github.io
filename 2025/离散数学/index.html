@@ -114,7 +114,7 @@ var _hmt = _hmt || [];
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">1.6k</span>
+            <span class="post-count">1.7k</span>
         </span>
     </span>
 
@@ -123,7 +123,7 @@ var _hmt = _hmt || [];
         <span class="post-meta-item-icon">
             <i class="ri-book-open-line"></i>
             <span class="post-meta-item-text"> 阅读时长≈</span>
-            <span class="post-count">9 分钟</span>
+            <span class="post-count">10 分钟</span>
         </span>
     </span>
 </div>
@@ -138,7 +138,40 @@ var _hmt = _hmt || [];
   
     <div class="article-entry" itemprop="articleBody">
        
-  <h2 id="Chapter-5-Induction"><a href="#Chapter-5-Induction" class="headerlink" title="Chapter-5 Induction"></a>Chapter-5 Induction</h2><div class="table-container">
+  <h2 id="Chapter-1-Logic-amp-Proofs"><a href="#Chapter-1-Logic-amp-Proofs" class="headerlink" title="Chapter-1 Logic &amp; Proofs"></a>Chapter-1 Logic &amp; Proofs</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>术语</th>
+<th>翻译</th>
+<th>术语</th>
+<th>翻译</th>
+<th>术语</th>
+<th>翻译</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>rational</td>
+<td>有理数</td>
+<td>counterexample</td>
+<td>反例</td>
+<td>premise</td>
+<td>前提</td>
+</tr>
+<tr>
+<td>proposition</td>
+<td>命题</td>
+<td>paradox</td>
+<td>悖论</td>
+<td>sonsistent</td>
+<td>一致的</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="Proposition"><a href="#Proposition" class="headerlink" title="Proposition"></a>Proposition</h3><p><strong>proposition</strong>:  a declarative sentence that is either true or false, but not both<br><strong>propositional variables</strong>: use variables to represent propositions<br><strong>atomic propositions</strong>: Propositions that cannot be expressed in terms of simpler propositions<br><strong>compound propositions</strong>: propositions formed from existing propositions using logical operators<br><span id="more"></span></p>
+<h2 id="Chapter-5-Induction"><a href="#Chapter-5-Induction" class="headerlink" title="Chapter-5 Induction"></a>Chapter-5 Induction</h2><div class="table-container">
 <table>
 <thead>
 <tr>
@@ -180,14 +213,15 @@ var _hmt = _hmt || [];
 <td>顶点</td>
 <td>triangulation</td>
 <td>三角剖分</td>
-<td></td>
+<td>recursion</td>
+<td>递归</td>
 </tr>
 </tbody>
 </table>
 </div>
 <h3 id="Mathematical-Induction"><a href="#Mathematical-Induction" class="headerlink" title="Mathematical Induction"></a>Mathematical Induction</h3><p><strong>mathematical induction</strong> is used to prove propositions of form $\forall nP(n)$ where the domain of discourse is the set of positive integers:</p>
 <script type="math/tex; mode=display">
-P(n_0)\land\forall k\geq n_0(P(k)\rightarrow P(k+1))\rightarrow\forall n\geq n_0(P(n))</script><p>(1) <strong>Basis step</strong>: Establish $P(1)$<br>(2) <strong>Inductive step</strong>: Prove that $P(k)\rightarrow P(k+1)$ for $k\geq 1$<br>(3) <strong>Conclusion</strong>: The basis step and the inductive step together imply $\forall nP(n)$<br><span id="more"></span></p>
+P(n_0)\land\forall k\geq n_0(P(k)\rightarrow P(k+1))\rightarrow\forall n\geq n_0(P(n))</script><p>(1) <strong>Basis step</strong>: Establish $P(1)$<br>(2) <strong>Inductive step</strong>: Prove that $P(k)\rightarrow P(k+1)$ for $k\geq 1$<br>(3) <strong>Conclusion</strong>: The basis step and the inductive step together imply $\forall nP(n)$</p>
 <blockquote>
 <p><strong>Proof of Mathematical induction</strong><br>The validity of mathematical induction follows from the well-ordering property for the set of $\mathrm{Z}^+$.<br>(1) Assume that there is at least of positive integer for which $P(n)$ is false<br>(2) $S$ is the set of positive integer for which $P(n)$ is false, then $S$ is nonempty<br>(3) By the well-ordering property, $S$ has a least element, which will be denoted by $m$<br>(4) Then $m\neq1,m-1$ is a positive integer, $m-1$ is not in $S$ ,so $P(m-1)$ is true<br>(5) Since the implication $P(m-1)\rightarrow P(m)$ is also true ,$P(m)$ must be true<br>by contradiction ,$\forall nP(n)$</p>
 <h2 id="Strong-Induction"><a href="#Strong-Induction" class="headerlink" title="Strong Induction"></a>Strong Induction</h2></blockquote>
@@ -196,7 +230,9 @@ P(n_0)\land\forall k\geq n_0(P(k)\rightarrow P(k+1))\rightarrow\forall n\geq n_0
 P(n_0)\land\forall k\geq n_0(P(n_0)\land P(n_0+1)\land\cdots\land P(k)\rightarrow P(k+1))\rightarrow \forall n\geq n_0(P(n))</script><p>(1) <strong>Basis step</strong>: Establish $P(n_0)$<br>(2) <strong>Inductive Step</strong>: Prove $P(n_0)\land P(n_0+1)\land\cdots\land P(k)\rightarrow P(k+1)$<br>(3) <strong>Conclusion</strong>: the basis step and the inductive step together imply $\forall n\geq n_0 P(n)$</p>
 <blockquote>
 <p><strong>Note</strong><br>The validities of both mathematical induction and strong induction follow from the well-ordering property. In fact, mathematical induction, strong induction, and well-ordering are all equivalent principles.</p>
-</blockquote>
+<h3 id="Structural-Induction"><a href="#Structural-Induction" class="headerlink" title="Structural Induction"></a>Structural Induction</h3></blockquote>
+<p>recursion is a principle closely related to mathematical induction.<br>In a recursive definition, an object is defined in terms of itself.</p>
+<p>(1) <strong>basis step</strong>: Show that the result holds for all elements specified in the basis step of thee recursive definition to be in the set<br>(2) <strong>Recursive step</strong>: Show that if the statement is true for each of the elements used to construct new elements in the recursive step of the definition, the result holds for these new elements.</p>
 <hr>
 <h2 id="Chapter-6-Counting"><a href="#Chapter-6-Counting" class="headerlink" title="Chapter-6 Counting"></a>Chapter-6 Counting</h2><div class="table-container">
 <table>
