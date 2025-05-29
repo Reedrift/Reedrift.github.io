@@ -178,7 +178,7 @@
 <h3 id="Normal-Forms"><a href="#Normal-Forms" class="headerlink" title="Normal Forms"></a>Normal Forms</h3><p><strong>Disjunctive Normal Form</strong>: A formula is said to be in disjunctive normal form if it is written as a disjunction, in which all the terms are conjunctions of literals<br><strong>Conjunctive Normal Form</strong>: A formula is said to be in conjunctive normal form if it is written as a conjunction, in which all the terms are disjunctions of literals</p>
 <p><strong>minterm</strong>: a conjunctive of literals in which each variable is represented exactly once<br><strong>maxterm</strong>: a disjunctive of literals in which each variable is represented exactly once</p>
 <p><strong>Full Disjunctive Normal Form</strong>: Each term includes all variables<br><strong>Full Conjunctive Normal Form</strong>: Each term includes all variables</p>
-<h3 id="Equivalence-in-Predicate-Logic"><a href="#Equivalence-in-Predicate-Logic" class="headerlink" title="Equivalence in Predicate Logic"></a>Equivalence in Predicate Logic</h3><script type="math/tex; mode=display">
+<h3 id="Predicate-Logic"><a href="#Predicate-Logic" class="headerlink" title="Predicate Logic"></a>Predicate Logic</h3><script type="math/tex; mode=display">
 \begin{align}
 &\begin{cases}
 \neg\forall xP(x)\equiv\exists x\neg P(x)\\
@@ -299,6 +299,125 @@ a,a+d,a+2d\cdots,a+nd</script><h3 id="Cardinality-of-Sets"><a href="#Cardinality
 <h3 id="Cantor’s-Theorem"><a href="#Cantor’s-Theorem" class="headerlink" title="Cantor’s Theorem"></a>Cantor’s Theorem</h3><p>The cardinality of the powerset of an arbitrary set has a greater cardinality than the original arbitrary set.</p>
 <script type="math/tex; mode=display">
 |\mathcal{P}(\aleph_k)|=|\aleph_{k+1}|</script><hr>
+<h2 id="Chapter-3-Algorithm"><a href="#Chapter-3-Algorithm" class="headerlink" title="Chapter-3 Algorithm"></a>Chapter-3 Algorithm</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>术语</th>
+<th>翻译</th>
+<th>术语</th>
+<th>翻译</th>
+<th>术语</th>
+<th>翻译</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>definiteness</td>
+<td>确定性</td>
+<td>correctness</td>
+<td>正确性</td>
+<td>finiteness</td>
+<td>有限性</td>
+</tr>
+<tr>
+<td>generality</td>
+<td>通用性</td>
+<td>notation</td>
+<td>记号</td>
+<td>complexity</td>
+<td>复杂度</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="The-Growth-of-Functions"><a href="#The-Growth-of-Functions" class="headerlink" title="The Growth of Functions"></a>The Growth of Functions</h3><p><strong>asymptotic running time</strong> is the number of operation used by the algorithm as the input size approaches infinity</p>
+<h3 id="Big-O-notation"><a href="#Big-O-notation" class="headerlink" title="Big-O notation"></a>Big-O notation</h3><p>Let $f$ and $g$ be functions from $\mathrm{Z}$ (or $\mathrm{R}$) to $\mathrm{R}$ , we say that $f(x)$ is $O(g(x))$ if there are constants $C$ and $k$ such that $|f(x)|\leq C|g(x)|$ whenever $x&gt;k$</p>
+<h3 id="Big-Omega-notation"><a href="#Big-Omega-notation" class="headerlink" title="Big-Omega notation"></a>Big-Omega notation</h3><p>Let $f$ and $g$ be functions from $\mathrm{Z}$ (or $\mathrm{R}$) to $\mathrm{R}$ ,  we say that $f(x)$ is $\Omega(g(x))$ if there are constants $C$ and $k$ such that $|f(x)|\geq C|g(x)|$ whenever $x&gt;k$</p>
+<h3 id="Big-Theta-notation"><a href="#Big-Theta-notation" class="headerlink" title="Big-Theta notation"></a>Big-Theta notation</h3><p>Let $f$ and $g$ be functions from $\mathrm{Z}$ (or $\mathrm{R}$) to $\mathrm{R}$ , we say that $f(x)$ is $\Theta(g(x))$ if $f(x)$ is $O(g(x))$ and $f(x)$ is $\Omega(g(x))$ ,there are constants $C_1,C_2$ and $k$ such that $0\leq C_1g(x)\leq f(x)\leq C_2g(x)$  whenever $x&gt;k$</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>Complexity</th>
+<th>Terminology</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>$\Theta(1)$</td>
+<td>constant complexity</td>
+</tr>
+<tr>
+<td>$\Theta(\log n)$</td>
+<td>logarithmic complexity</td>
+</tr>
+<tr>
+<td>$\Theta(n)$</td>
+<td>linear complexity</td>
+</tr>
+<tr>
+<td>$\Theta(n\log n)$</td>
+<td></td>
+</tr>
+<tr>
+<td>$\Theta(n^b)$</td>
+<td>polynomial complexity</td>
+</tr>
+<tr>
+<td>$\Theta(b^n),b&gt;1$</td>
+<td>exponential complexity</td>
+</tr>
+<tr>
+<td>$\Theta(n!)$</td>
+<td>factorial complexity</td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id="Chapter-4-Number-Theory"><a href="#Chapter-4-Number-Theory" class="headerlink" title="Chapter-4 Number Theory"></a>Chapter-4 Number Theory</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>术语</th>
+<th>翻译</th>
+<th>术语</th>
+<th>翻译</th>
+<th>术语</th>
+<th>翻译</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>arithmetic</td>
+<td>算数</td>
+<td>congruent</td>
+<td>一致的</td>
+<td>pseudoprime</td>
+<td>伪素数</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="Division"><a href="#Division" class="headerlink" title="Division"></a>Division</h3><p>The notation $a\mid b$ denotes that $a$ divides $b$ ,and $a\not\mid b$ denotes that $a$ does not divide $b$<br>Let $a,b$ and $c$ be integers, where $a\neq0$ ,then<br>(1) if $a\mid b$ and $a\mid c$ ,then $a\mid(b+c)$<br>(2) if $a\mid b$ then $a\mid bc$ for all integers $c$<br>(3) if $a\mid b$ and $b\mid c$ ,then $a\mid c$<br>(4) if $a\mid b$ and $a\mid c$ ,then $a\mid mb+nc$ whenever $m$ and $n$ are integers</p>
+<h3 id="Modular-Arithmetic"><a href="#Modular-Arithmetic" class="headerlink" title="Modular Arithmetic"></a>Modular Arithmetic</h3><p>We use the notation $a\equiv b(\mathrm{mod}\,m)$ to indicate that $a$ is congruent to $b$ modulo $m$ </p>
+<p>(1) Let $a$ and $b$ be integers, and $m$ be a positive integer, then $a\equiv b(\mathrm{mod}\,m)$ if and only if $a\,\mathrm{mod}\,m=b\,\mathrm{mod}\,m$<br>(2) Let $m$ be a positive integer, if $a\equiv b(\mathrm{mod}\,m)$ and $c\equiv d(\mathrm{mod}\,m)$, then $a+c\equiv b+d(\mathrm{mod}\,m)$ and $ac\equiv bd(\mathrm{mod}\,m)$<br>(3) Let $m$ be a positive integer and let $a$ and $b$ be integers, then $(a+b)\,\mathrm{mod}\,m=((a\,\mathrm{mod}\,m)+(b\,\mathrm{mod}\,m))\,\mathrm{mod}\,m$ and $ab\,\mathrm{mod}\,m=((a\,\mathrm{mod}\,m)(b\,\mathrm{mod}\,m))\,\mathrm{mod}\,m$</p>
+<h3 id="Arithmetic-Modulo-m"><a href="#Arithmetic-Modulo-m" class="headerlink" title="Arithmetic Modulo m"></a>Arithmetic Modulo m</h3><p><strong>Closure</strong>: If $a$ and $b$ belong to $\mathrm{Z}_m$ ,then $a+_mb$ and $a\cdot_mb$ belong to $\mathrm{Z}_m$<br><strong>Associativity</strong>:  $(a+_mb)+_mc=a+_m(b+_mc)$ and $(a\cdot_mb)\cdot_mc=a\cdot_m(b\cdot_mc)$<br><strong>Commutativity</strong>:  $a+_mb=b+_ma$ and $a\cdot_mb=b\cdot_ma$<br><strong>Identity elements</strong>: $a+_m0=0+_ma=a$ and $a\cdot_m1=1\cdot_ma=a$<br><strong>Additive inverses</strong>: $a+_m(m-a)=0$ and $0+_m0=0$<br><strong>Distributivity</strong>: $a\cdot_m(b+_mc)=(a\cdot_mb)+(a\cdot_mc)$ and $(a+_mb)\cdot_mc=(a\cdot_mc)+_m(b\cdot_mc)$</p>
+<h3 id="Primes"><a href="#Primes" class="headerlink" title="Primes"></a>Primes</h3><p>An integer $p$ greater than $1$ is called prime if the only positive factors of $p$ are $1$ and $p$<br>A positive integer that is greater than $1$ and is not prime is called composite</p>
+<blockquote>
+<p><strong>the fundamental theorem of arithmetic</strong><br>Every integer greater than $1$ can be written uniquely as a prime or as the product of two or more primes, where the prime factors are written in order of nondecreasing size.</p>
+</blockquote>
+<h3 id="GCD-and-LCM"><a href="#GCD-and-LCM" class="headerlink" title="GCD and LCM"></a>GCD and LCM</h3><p>Let $a$ and $b$ be integers, not both zero. The largest integer $d$ such that $d\mid a$ and $d\mid b$ is called the greatest common divisor of $a$ and $b$, denoted by $\gcd(a, b)$</p>
+<p>The integers $a$ and $b$ are relatively prime if their greatest common divisor is $1$</p>
+<p>The integers $a_1, a_2,\cdots, a_n$ are pairwise relatively prime if $\gcd(a_i , a_j ) = 1$ whenever $1\leq i &lt; j \leq n$</p>
+<p>The least common multiple of the positive integers a and b is the smallest positive integer that is divisible by both $a$ and $b$, denoted by $\mathrm{lcm}(a, b)$</p>
+<p>(1) If $\gcd(a,b)=1$ and $a\mid bc$ ,then $a\mid c$<br>(2) If $p$ is prime and $p\mid a_1a_2\cdots a_n$ where each $a_i$ is an integer, then $p|a_i$ for some $i$<br>(3) If $ac\equiv bc(\mathrm{mod}\,m)$ and $\gcd(c,m)=1$ ,then $a\equiv b(\mathrm{mod}\,m)$</p>
+<h3 id="Bezout’s-Theorem"><a href="#Bezout’s-Theorem" class="headerlink" title="Bezout’s Theorem"></a>Bezout’s Theorem</h3><p>If $a$ and $b$ are positive integers, then there exist integers $s$ and $t$ such that $\gcd(a, b) = sa + tb$</p>
+<h3 id="Fermat’s-Little-Theorem"><a href="#Fermat’s-Little-Theorem" class="headerlink" title="Fermat’s Little Theorem"></a>Fermat’s Little Theorem</h3><p>If $p$ is prime and $a$ is an integer not divisible by $p$ ,then</p>
+<script type="math/tex; mode=display">
+a^{p-1}\equiv 1(\mathrm{mod}\,p)</script><h3 id="Pseudoprimes"><a href="#Pseudoprimes" class="headerlink" title="Pseudoprimes"></a>Pseudoprimes</h3><p>Let $b$ be a positive integer. If $n$ is a composite positive integer, and $b^{n−1} \equiv 1 (\mathrm{mod}\, n)$, then $n$ is called a pseudoprime to the base $b$</p>
+<hr>
 <h2 id="Chapter-5-Induction"><a href="#Chapter-5-Induction" class="headerlink" title="Chapter-5 Induction"></a>Chapter-5 Induction</h2><div class="table-container">
 <table>
 <thead>
