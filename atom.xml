@@ -6,7 +6,7 @@
   <link href="https://reedrift.github.io/atom.xml" rel="self"/>
   
   <link href="https://reedrift.github.io/"/>
-  <updated>2025-05-29T08:56:55.697Z</updated>
+  <updated>2025-06-01T15:36:38.494Z</updated>
   <id>https://reedrift.github.io/</id>
   
   <author>
@@ -15,6 +15,23 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>深海大菠萝计划</title>
+    <link href="https://reedrift.github.io/2025/%E6%B7%B1%E6%B5%B7%E5%A4%A7%E8%8F%A0%E8%90%9D%E8%AE%A1%E5%88%92/"/>
+    <id>https://reedrift.github.io/2025/%E6%B7%B1%E6%B5%B7%E5%A4%A7%E8%8F%A0%E8%90%9D%E8%AE%A1%E5%88%92/</id>
+    <published>2025-06-01T06:57:41.000Z</published>
+    <updated>2025-06-01T15:36:38.494Z</updated>
+    
+    
+    <summary type="html">&lt;h3 id=&quot;2025-05-24&quot;&gt;&lt;a href=&quot;#2025-05-24&quot; class=&quot;headerlink&quot; title=&quot;2025/05/24&quot;&gt;&lt;/a&gt;2025/05/24&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/pictures/海绵宝宝新家计划/20250524.jpg&quot; alt=&quot;&quot; style=&quot;display: block; margin: 0 auto; width: 70%;&quot;&gt;&lt;br&gt;</summary>
+    
+    
+    
+    
+    <category term="重大项目" scheme="https://reedrift.github.io/tags/%E9%87%8D%E5%A4%A7%E9%A1%B9%E7%9B%AE/"/>
+    
+  </entry>
   
   <entry>
     <title>离散数学</title>
@@ -143,7 +160,7 @@
     <link href="https://reedrift.github.io/2025/%E5%BE%AE%E7%A7%AF%E5%88%86%E7%94%B2II/"/>
     <id>https://reedrift.github.io/2025/%E5%BE%AE%E7%A7%AF%E5%88%86%E7%94%B2II/</id>
     <published>2025-04-29T06:59:55.000Z</published>
-    <updated>2025-05-27T07:49:57.770Z</updated>
+    <updated>2025-06-02T10:36:09.351Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;Chapter-7-空间曲面方程&quot;&gt;&lt;a href=&quot;#Chapter-7-空间曲面方程&quot; class=&quot;headerlink&quot; title=&quot;Chapter-7 空间曲面方程&quot;&gt;&lt;/a&gt;Chapter-7 空间曲面方程&lt;/h2&gt;&lt;h3 id=&quot;矢量的矢量积&quot;&gt;&lt;a href=&quot;#矢量的矢量积&quot; class=&quot;headerlink&quot; title=&quot;矢量的矢量积&quot;&gt;&lt;/a&gt;矢量的矢量积&lt;/h3&gt;&lt;p&gt;$a&#92;times b=&#92;begin{vmatrix}a_2&amp;amp;a_3&#92;&#92;b_2&amp;amp;b_3&#92;end{vmatrix}i-&#92;begin{vmatrix}a_1&amp;amp;a_3&#92;&#92;b_1&amp;amp;b_3&#92;end{vmatrix}j+&#92;begin{vmatrix}a_1&amp;amp;a_2&#92;&#92;b_1&amp;amp;b_2&#92;end{vmatrix}k=&#92;begin{vmatrix}i&amp;amp;j&amp;amp;k&#92;&#92;a_1&amp;amp;a_2&amp;amp;a_3&#92;&#92;b_1&amp;amp;b_2&amp;amp;b_2&#92;end{vmatrix}$&lt;br&gt;矢量积所得的矢量垂直于 $a,b$ 构成的平面&lt;br&gt;</summary>

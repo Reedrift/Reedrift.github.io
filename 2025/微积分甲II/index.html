@@ -114,7 +114,7 @@ var _hmt = _hmt || [];
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">10.9k</span>
+            <span class="post-count">11.6k</span>
         </span>
     </span>
 
@@ -123,7 +123,7 @@ var _hmt = _hmt || [];
         <span class="post-meta-item-icon">
             <i class="ri-book-open-line"></i>
             <span class="post-meta-item-text"> 阅读时长≈</span>
-            <span class="post-count">52 分钟</span>
+            <span class="post-count">56 分钟</span>
         </span>
     </span>
 </div>
@@ -196,7 +196,11 @@ var _hmt = _hmt || [];
 <li>若 $f(x,y)$ 在 $(x,y)$ 处至少有一个偏导数不存在，则 $f(x,y)$ 在点 $(x,y)$ 处不可微</li>
 <li>若 $f(x,y)$ 在 $(x,y)$ 处的两个偏导数都存在，但极限 $\begin{aligned}\lim_{\begin{aligned}\Delta x\rightarrow 0\\\Delta y\rightarrow 0\end{aligned}}\frac{\Delta z-(A\Delta x+B\Delta y)}{\rho}\end{aligned}$ 不存在或极限存在但不为零，则 $f(x,y)$ 在 $(x,y)$ 处不可微</li>
 </ul>
-<p>可微的充分条件：若函数 $z=f(x,y)$ 的偏导数 $f’_x(x,y),f’_y(x,y)$ 在点 $(x_0,y_0)$ 处连续，则函数 $z=f(x,y)$ 在点 $(x_0,y_0)$ 处可微<br>全增量公式：$\Delta z=f_x’(x_0,y_0)\Delta x+f_y’(x_0,y_0)\Delta y+\varepsilon_1\Delta x+\varepsilon_2\Delta y$ 其中 $\begin{aligned}\lim_{\begin{aligned}\Delta x\rightarrow 0\\\Delta y\rightarrow 0\end{aligned}}\varepsilon_1=\lim_{\begin{aligned}\Delta x\rightarrow 0\\\Delta y\rightarrow 0\end{aligned}}\varepsilon_2=0\end{aligned}$<br>近似估算：$f(x+\Delta x,y+\Delta y)\approx f(x,y)+f_x’(x,y)\Delta x+f_y’(x,y)\Delta y$</p>
+<p>可微的充分条件：若函数 $z=f(x,y)$ 的偏导数 $f’_x(x,y),f’_y(x,y)$ 在点 $(x_0,y_0)$ 处连续，则函数 $z=f(x,y)$ 在点 $(x_0,y_0)$ 处可微</p>
+<blockquote>
+<p>函数 $z=f(x,y)$ 在点 $(x_0,y_0)$ 处可微而两偏导数在该点不连续的情况<br>例：$\begin{align}(x^2+y^2)\sin\frac{1}{x^2+y^2}\end{align}$ </p>
+</blockquote>
+<p>全增量公式：$\Delta z=f_x’(x_0,y_0)\Delta x+f_y’(x_0,y_0)\Delta y+\varepsilon_1\Delta x+\varepsilon_2\Delta y$ 其中 $\begin{aligned}\lim_{\begin{aligned}\Delta x\rightarrow 0\\\Delta y\rightarrow 0\end{aligned}}\varepsilon_1=\lim_{\begin{aligned}\Delta x\rightarrow 0\\\Delta y\rightarrow 0\end{aligned}}\varepsilon_2=0\end{aligned}$<br>近似估算：$f(x+\Delta x,y+\Delta y)\approx f(x,y)+f_x’(x,y)\Delta x+f_y’(x,y)\Delta y$</p>
 <h3 id="复合函数的偏导数"><a href="#复合函数的偏导数" class="headerlink" title="复合函数的偏导数"></a>复合函数的偏导数</h3><p>若函数 $u=\varphi(x,y),v=\psi(x,y)$ 在点 $(x,y)$ 处的偏导数都存在，$z=f(u,v)$ 在点 $(u,v)=(\varphi(x,y),\psi(x,y))$ 处可微，则复合函数 $z=f[\varphi(x,y),\psi(x,y)]$ 在点 $(x,y)$ 处的偏导数存在，并有求偏导公式：</p>
 <script type="math/tex; mode=display">\begin{aligned}\frac{\partial z}{\partial x}=\frac{\partial z}{\partial u}\cdot\frac{\partial u}{\partial x}+\frac{\partial z}{\partial v}\cdot\frac{\partial v}{\partial x},\quad\frac{\partial z}{\partial y}=\frac{\partial z}{\partial u}\cdot\frac{\partial u}{\partial y}+\frac{\partial z}{\partial v}\cdot\frac{\partial v}{\partial y}\end{aligned}</script><p>特别地，若 $z=f(u,v),u=\varphi(x),v=\psi(x)$ ，即 $z$ 是一个自变量 $x$ 的复合函数，则有 $\begin{aligned}\frac{dz}{dx}=\frac{\partial z}{\partial u}\cdot\frac{du}{dx}+\frac{\partial z}{\partial v}\cdot\frac{dv}{dx}\end{aligned}$ ，这里 $\begin{aligned}\frac{dz}{dx}\end{aligned}$ 称为全导数 </p>
 <h3 id="复合函数的全微分"><a href="#复合函数的全微分" class="headerlink" title="复合函数的全微分"></a>复合函数的全微分</h3><p>设 $z=f(x,y),x,y$ 是自变量，且 $z=f(x,y)$ 可微，则其全微分为 $\begin{aligned}dz=\frac{\partial z}{\partial x}dx+\frac{\partial z}{\partial y}dy\end{aligned}$</p>
@@ -211,7 +215,41 @@ var _hmt = _hmt || [];
 <script type="math/tex; mode=display">J=\begin{aligned}\frac{\partial(F,G)}{\partial(u,v)}\end{aligned}=\begin{vmatrix}\begin{aligned}\frac{\partial F}{\partial u}&\frac{\partial F}{\partial v}\\\frac{\partial G}{\partial u}&\frac{\partial G}{\partial v}\end{aligned}\end{vmatrix}</script><p>在点 $P_0(x_0,y_0,u_0,v_0)$ 不为零，则方程组 $\begin{cases}F(x,y,u,v)=0\\G(x,y,u,v)=0\end{cases}$ 在点 $P_0(x_0,y_0,u_0,v_0)$ 的某一邻域内恒能唯一确定一组连续且具有连续偏导数的函数组 $u=(x,y),v=v(x,y)$ ，它们满足条件 $u_0=u(x_0,y_0),v_0=v(x_0,y_0)$ ，并有</p>
 <script type="math/tex; mode=display">\begin{aligned}\frac{\partial u}{\partial x}=-\frac{1}{J}\frac{\partial(F,G)}{\partial(x,v)}=-\frac{\begin{vmatrix}F_x'&F_v'\\G_x'&G_v'\end{vmatrix}}{\begin{vmatrix}F_u'&F_v'\\G_u'&G_v'\end{vmatrix}}\quad\frac{\partial v}{\partial x}=-\frac{1}{J}\frac{\partial(F,G)}{\partial(u,x)}=-\frac{\begin{vmatrix}F_u'&F_x'\\G_u'&G_x'\end{vmatrix}}{\begin{vmatrix}F_u'&F_v'\\G_u'&G_v'\end{vmatrix}}\\
 \frac{\partial u}{\partial y}=-\frac{1}{J}\frac{\partial(F,G)}{\partial(y,v)}=-\frac{\begin{vmatrix}F_y'&F_v'\\G_y'&G_v'\end{vmatrix}}{\begin{vmatrix}F_u'&F_v'\\G_u'&G_v'\end{vmatrix}}\quad\frac{\partial v}{\partial y}=-\frac{1}{J}\frac{\partial(F,G)}{\partial(u,y)}=-\frac{\begin{vmatrix}F_u'&F_y'\\G_u'&G_y'\end{vmatrix}}{\begin{vmatrix}F_u'&F_v'\\G_u'&G_v'\end{vmatrix}}\end{aligned}</script><h3 id="场的方向导数与梯度"><a href="#场的方向导数与梯度" class="headerlink" title="场的方向导数与梯度"></a>场的方向导数与梯度</h3><p>根据场中的物理量的数量和矢量之分将场分为数量场和矢量场两类<br>格局场中的物理量是否随时间而变化将场分为稳定场和不稳定场<br>数量场可以用点 $P(x,y,z)$ 的数量函数 $u=u(P)$ 或 $u=u(x,y,z),P(x,y,z)\in V$ 表示<br>矢量场可以用电 $P(x,y,z)$ 的矢量函数 $A=A(P)$ 或 $A=A_x(P)i+A_y(P)j+A_z(P)k$ 表示</p>
-<hr>
+<p>若函数 $u$ 在点 $P_0(x_0,y_0,z_0)$ 处可微，则 $u$ 在点 $P_0$ 处沿任一方向 $l$ 的方向导数都存在，且</p>
+<script type="math/tex; mode=display">
+\frac{\partial u}{\partial l}\Big{|}_{P_0}=
+\frac{\partial u}{\partial x}\Big{|}_{P_0}\cos\alpha+
+\frac{\partial u}{\partial y}\Big{|}_{P_0}\cos\beta+
+\frac{\partial u}{\partial z}\Big{|}_{P_0}\cos\gamma</script><p>函数 $u(P)$ 在 $P$ 处的梯度为矢量</p>
+<script type="math/tex; mode=display">
+\mathrm{grad}\,u=
+\frac{\partial u}{\partial x}i+
+\frac{\partial u}{\partial y}j+
+\frac{\partial u}{\partial z}k</script><p>当 $u$ 在点 $P_0$ 处可微时，$u$ 在点 $P_0$ 的梯度方向是 $u$ 值增长最快的方向</p>
+<h3 id="梯度运算的性质"><a href="#梯度运算的性质" class="headerlink" title="梯度运算的性质"></a>梯度运算的性质</h3><p>设 $u,v$ 可微，$\alpha,\beta$ 为常数，则梯度运算具有如下性质<br>（1） $\mathrm{grad}\,(\alpha u+\beta v)=\alpha\mathrm{grad}\, u+\beta\mathrm{grad}\, v$<br>（2） $\mathrm{grad}\,(u\cdot v)=u\mathrm{grad}\, v+v\mathrm{grad}\, u$<br>（3） $\mathrm{grad}\, f(u)=f’(u)\mathrm{grad}\,u$</p>
+<h3 id="多元函数泰勒公式"><a href="#多元函数泰勒公式" class="headerlink" title="多元函数泰勒公式"></a>多元函数泰勒公式</h3><p>若函数 $f$ 在点 $P_0(x_0,y_0)$ 的某邻域 $U(P_0)$ 内有直到 $n+1$ 阶连续偏导数，则对于 $U(P_0)$ 内任一点 $(x_0+h,y_0+k)$，存在 $\theta\in(0,1)$ ，使得</p>
+<script type="math/tex; mode=display">
+\begin{align}
+f(x_0+h,y_0+k)&=f(x_0,y_0)+
+(h\frac{\partial}{\partial x}+k\frac{\partial}{\partial y})f(x_0,y_0)\\
+&+\frac{1}{2!}
+(h\frac{\partial}{\partial x}+k\frac{\partial}{\partial y})^2f(x_0,y_0)\\
+&+\cdots\\
+&+\frac{1}{n!}
+(h\frac{\partial}{\partial x}+k\frac{\partial}{\partial y})^nf(x_0,y_0)\\
+&+\frac{1}{(n+1)!}
+(h\frac{\partial}{\partial x}+k\frac{\partial}{\partial y})^{n+1}
+f(x_0+\theta h,y_0+\theta k)
+\end{align}</script><h3 id="极值的必要条件"><a href="#极值的必要条件" class="headerlink" title="极值的必要条件"></a>极值的必要条件</h3><p>若函数 $f$ 在点 $P_0(x_0,y_0)$ 存在偏导数且在 $P_0$ 处取极值，则有</p>
+<script type="math/tex; mode=display">
+f_x'(x_0,y_0)=0,f_y'(x_0,y_0)=0</script><p>点 $P_0$ 满足上式则称为 $f$ 的稳定点或驻点</p>
+<h3 id="极值的充分条件"><a href="#极值的充分条件" class="headerlink" title="极值的充分条件"></a>极值的充分条件</h3><p>设函数 $z=f(x,y)$ 在点 $P_0(x_0,y_0)$ 的某邻域 $U(P_0)$ 内连续，且有连续偏导数，如果 $f_x’(x_0,y_0)=0,f_y’(x_0,y_0)=0$ ，设 $A=f_{xx}’’(x_0,y_0),B=f_{xy}’’(x_0,y_0),C=f_{yy}’’(x_0,y_0)$ ，则<br>（1）当 $B^2-AC<0$ 时，$f(x_0,y_0)$ 一定为极值，且 $A>0$ 时为极小值，$A<0$ 时为极大值
+（2）当 $B^2-AC>0$ 时，$f(x_0,y_0)$ 不是极值<br>（3）当 $B^2-AC=0$ 时，不能确定 $f(x_0,y_0)$ 是否为极值</p>
+<h3 id="空间曲线的法平面"><a href="#空间曲线的法平面" class="headerlink" title="空间曲线的法平面"></a>空间曲线的法平面</h3><p>过点 $P_0$ 且与该直线垂直的平面称为在 $P_0$ 处的法平面，法平面方程为</p>
+<script type="math/tex; mode=display">
+x'(t_0)(x-x_0)+y'(t_0)(y-y_0)+z'(t_0)(z-z_0)=0</script><h3 id="空间曲面的切平面"><a href="#空间曲面的切平面" class="headerlink" title="空间曲面的切平面"></a>空间曲面的切平面</h3><p>过点 $M_0$ 且与该平面相切的平面称为在 $M_0$ 处的切平面，切平面方程为</p>
+<script type="math/tex; mode=display">
+F_x'(x_0,y_0,z_0)(x-x_0)+F_y'(x_0,y_0,z_0)(y-y_0)+F_z'(x_0,y_0,z_0)(z-z_0)=0</script><hr>
 <h2 id="Chapter-9-多元函数积分学"><a href="#Chapter-9-多元函数积分学" class="headerlink" title="Chapter-9 多元函数积分学"></a>Chapter-9 多元函数积分学</h2><h3 id="二重积分的定义"><a href="#二重积分的定义" class="headerlink" title="二重积分的定义"></a>二重积分的定义</h3><p>设二元函数 $f(P)=f(x,y)$ 在平面有界闭区域 $\sigma$ 上有界，将 $\sigma$ 分成 $n$ 个小闭区域</p>
 <script type="math/tex; mode=display">
 \Delta\sigma_1,\Delta\sigma_2,\cdots,\Delta\sigma_n</script><p>在每个 $\Delta\sigma_i$ 上任意取一点 $(\xi_i,\eta_i)$ ，如果当各个小闭区域的直径中的最大值趋于零时下式右侧极限存在，则称此极限为函数 $f(x,y,z)$ 在 $\sigma$ 上的二重积分</p>
@@ -1101,23 +1139,6 @@ P&Q&R
     
 
   </div>
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        tex2jax: {
-            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
-            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
-            processEscapes: true
-        }
-    });
-    MathJax.Hub.Queue(function() {
-        var all = MathJax.Hub.getAllJax();
-        for (var i = 0; i < all.length; ++i)
-            all[i].SourceElement().parentNode.className += ' has-jax';
-    });
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-<!--script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
 </body>
 
 </html>
