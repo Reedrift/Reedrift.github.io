@@ -729,7 +729,12 @@ P&Q&R
 </ul>
 <h2 id="解题总结与易错点"><a href="#解题总结与易错点" class="headerlink" title="解题总结与易错点"></a>解题总结与易错点</h2><h3 id="重积分计算"><a href="#重积分计算" class="headerlink" title="重积分计算"></a>重积分计算</h3><p>（1） 利用对称性化简计算（部分为零、轮换对称等）<br>（2）交换积分顺序<br>（3） 转化为极坐标系、广义极坐标系、柱坐标系等</p>
 <h3 id="曲面积分"><a href="#曲面积分" class="headerlink" title="曲面积分"></a>曲面积分</h3><p>（1）若曲面积分式为多项，而曲面又不是平面或柱面，就不适宜采用分面投影法<br>（2）将曲面补全后使用高斯公式，或去除为零的部分后使用高斯公式<br>（3）投影至同一个面后一起积分<br>（4）利用法向量转化为第一类曲面积分计算</p>
-<h3 id="级数和函数及求偏导数"><a href="#级数和函数及求偏导数" class="headerlink" title="级数和函数及求偏导数"></a>级数和函数及求偏导数</h3><p>注意定义域，一些和函数需要分类讨论，重点关注最终结果分母是否可能为零</p>
+<h3 id="积分技巧"><a href="#积分技巧" class="headerlink" title="积分技巧"></a>积分技巧</h3><p>对于球积分，如果存在 $\begin{align}\iint x^2dS\end{align}$ 项，可以通过补等值项转化为球坐标系化简运算</p>
+<script type="math/tex; mode=display">
+\iiint x^2dS=\frac{1}{3}\iiint(x^2+y^2+z^2)dS</script><p>同理对于柱面积分，如果存在 $\begin{align}\iint x^2dS\end{align}$ ，可以补项得到</p>
+<script type="math/tex; mode=display">
+\iint x^2dS=\frac{1}{2}\iint(x^2+y^2)dS</script><h3 id="级数和函数及求偏导数"><a href="#级数和函数及求偏导数" class="headerlink" title="级数和函数及求偏导数"></a>级数和函数及求偏导数</h3><p>注意定义域，一些和函数需要分类讨论，重点关注最终结果分母是否可能为零</p>
+<p>反证法：<br>假设对于任意点 $(x’,y’)\in\{(x,y)\in R|x^2+y^2<1\}$ 都有 $[f_1'(x',y')]^2+[f_2'(x',y')]^2>16$<br>则有 $\mathrm{grad}\,(x’,y’)\cdot\mathrm{grad}\,(x’,y’)&gt;16$ 对于任意 $(x’,y’)$ 成立<br>根据几何意义，对于任意一点 $(x’,y’)$ ，其梯度方向的方向导数总大于 $4$<br>而由于 $D$ 内一阶偏导数连续，极值存在的必要条件是两个偏导数均为零<br>由假设开区域内不满足两个偏导数平方和为零，极值只可能在边界上取得<br>构造从圆心出发的一条路径，路径上每一个点的切线方向与梯度方向一致<br>则这条路径一定不可能终止于开区域内，因为开区域内永远有非零梯度<br>而从圆心到边界的最短距离为 $1$ ，从圆心到边界 $f(x,y)$ 的值至少减少 $4$<br>这与 $|f(x,y)|\leq1$ 矛盾，故假设不成立<br>所以 $\exists(x’,y’)\in\{(x,y)\in R|x^2+y^2&lt;1\},[f_1’(x’,y’)]^2+[f_2’(x’,y’)]^2\leq16$ 成立  </p>
  
       <!-- reward -->
       
@@ -867,6 +872,11 @@ P&Q&R
     </ul>
     <ul>
       
+      <li>
+          <img src="/images/beian.png"></img>
+          <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010602013961" target="_black" rel="nofollow">浙公网安备33010602013961号</a>
+      </li>
+        
     </ul>
     <ul>
       <li>
