@@ -139,14 +139,47 @@ var _hmt = _hmt || [];
     <div class="article-entry" itemprop="articleBody">
        
   <h2 id="Chapter-1-概率论的基本概念"><a href="#Chapter-1-概率论的基本概念" class="headerlink" title="Chapter-1 概率论的基本概念"></a>Chapter-1 概率论的基本概念</h2><h3 id="必然事件与不可能事件"><a href="#必然事件与不可能事件" class="headerlink" title="必然事件与不可能事件"></a>必然事件与不可能事件</h3><p><strong>必然事件</strong> $S$ 发生的概率为 $100\%$ ，发生概率为 $100\%$ 的不一定为<strong>必然事件</strong><br><strong>不可能事件</strong> $\emptyset$ 发生的概率为 $0\%$ ，噶生概率为 $0\%$ 的不一定为<strong>不可能事件</strong></p>
-<p>在 $[0,1]$ 中随机取数，取到 $(0,1)$ 的概率为 $100\%$ 但不是必然事件<br>在 $[0,1]$ 中随机取数，取到 $0.5$ 的概率为 $0\%$ 但不是不可能事件<br><span id="more"></span></p>
+<p>在 $[0,1]$ 中随机取数，取到 $(0,1)$ 的概率为 $100\%$ 但<strong>不是</strong>必然事件<br>在 $[0,1]$ 中随机取数，取到 $0.5$ 的概率为 $0\%$ 但<strong>不是</strong>不可能事件<br><span id="more"></span></p>
 <h3 id="容斥原理"><a href="#容斥原理" class="headerlink" title="容斥原理"></a>容斥原理</h3><script type="math/tex; mode=display">
 \begin{align}
 P(\bigcup_{j=1}^nA_j)=&\sum_{j=1}^nP(A_j)-\sum_{i<j}P(A_iA_j)
 +\sum_{i<j<k}P(A_iA_jA_k)-\cdots+\\
 &(-1)^{n-1}P(A_1A_2\cdots A_n),n\geq1.
-\end{align}</script><h3 id="古典概型"><a href="#古典概型" class="headerlink" title="古典概型"></a>古典概型</h3><p>一个随机试验，如果满足以下两个条件：<br>（1） 样本空间中样本点数<strong>有限</strong>（有限性）（2）出现每一个样本点的<strong>概率相等</strong>（等可能性）<br>则称这个试验为<strong>等可能概型</strong>，又称<strong>古典概型</strong></p>
+\end{align}</script><h3 id="古典概型"><a href="#古典概型" class="headerlink" title="古典概型"></a>古典概型</h3><p>对于某一个随机试验，如果满足以下两个条件：<br>（1）样本空间中样本点数<strong>有限</strong>（有限性）<br>（2）出现每一个样本点的<strong>概率相等</strong>（等可能性）<br>则称这个试验为<strong>等可能概型</strong>，又称<strong>古典概型</strong></p>
 <p>在等可能概型中，任一事件 $A$ 的概率为 $\begin{align}P(A)=\frac{A所包含的样本点数}{S中样本点总数}\end{align}$ </p>
+<h3 id="条件概率"><a href="#条件概率" class="headerlink" title="条件概率"></a>条件概率</h3><p>如果 $P(B)&gt;0$ ，那么在 $B$ 发生的条件下 $B$ 发生的<strong>条件概率</strong>为</p>
+<script type="math/tex; mode=display">
+P(A|B)=\frac{P(AB)}{P(B)}</script><p>当 $P(C)\neq 0$ 时，条件概率满足性质：</p>
+<script type="math/tex; mode=display">
+P(A\cup B|C)=P(A|C)+P(B|C)-P(AB|C)</script><h3 id="乘法公式"><a href="#乘法公式" class="headerlink" title="乘法公式"></a>乘法公式</h3><p>由条件概率的定义可知 $P(A)\neq 0,P(B)\neq 0$ 时，有<strong>乘法公式</strong>：</p>
+<script type="math/tex; mode=display">
+P(AB)=P(A)\cdot P(B|A)=P(B)\cdot P(A|B)</script><p>一般地，当 $P(A_1A_2\cdots A_{n-1})\neq 0(n\geq 3)$ 时，有</p>
+<script type="math/tex; mode=display">
+P(A_1A_2\cdots A_n)=P(A_1)P(A_2|A_1)P(A_3|A_1A_2)\cdots P(A_n|A_1A_2\cdots A_{n-1})</script><h3 id="全概率公式"><a href="#全概率公式" class="headerlink" title="全概率公式"></a>全概率公式</h3><p>设 $S$ 为某一随机试验的样本空间， $B_1,B_2,\cdots,B_n$ 为该试验的一组事件，且满足</p>
+<script type="math/tex; mode=display">
+\begin{align}
+&(1) B_iB_j=\emptyset,i,j=1,2,\cdots,n,i\neq j\\
+&(2) B_1\cup B_2\cup\cdots\cup B_n=S
+\end{align}</script><p>则称 $B_1,B_2,\cdots,B_n$ 为 $S$ 的一个<strong>划分</strong>，或称为 $S$ 的一个<strong>完备事件组</strong> </p>
+<p>设 $S$ 为某样本空间，若 $B_1,B_2,\cdots,B_n$ 是 $S$ 的一个划分，且 $P(B_j)&gt;0,j=1,2,\cdots,n$ ，则对任一事件 $A$ ，有<strong>全概率公式</strong></p>
+<script type="math/tex; mode=display">
+P(A)=\sum_{j=1}^nP(B_j)P(A|B_j)</script><p><strong>注</strong>：划分的条件可以弱化为 $P(B_1\cup B_2\cup\dots\cup B_n)=1$</p>
+<h3 id="贝叶斯公式"><a href="#贝叶斯公式" class="headerlink" title="贝叶斯公式"></a>贝叶斯公式</h3><p>设 $S$ 为某样本空间，若 $B_1,B_2,\cdots,B_n$ 是 $S$ 的一个划分，且 $P(B_j)&gt;0,j=1,2,\cdots,n$ ，则对任一事件 $A$ ，$P(A)\neq 0$ ，有<strong>概率的贝叶斯公式</strong>或<strong>逆概公式</strong></p>
+<script type="math/tex; mode=display">
+P(B_k|A)=\frac{P(B_kA)}{P(A)}
+=\frac{P(B_k)P(A|B_k)}{\sum_{j=1}^nP(B_j)P(A|B_j)}</script><p>$P(B_j)$ 的概率往往是已知假设或累积经验等，常称 $P(B_j)$ 为<strong>先验概率</strong>，$A$ 发生后 $B_j$ 发生的概率进行修正，常称 $P(B_j|A)$ 为<strong>后验概率</strong></p>
+<h3 id="事件的独立性"><a href="#事件的独立性" class="headerlink" title="事件的独立性"></a>事件的独立性</h3><p>设 $A,B$ 为两随机事件，当 $P(AB)=P(A)\cdot P(B)$ 时，称 $A,B$  <strong>相互独立</strong><br>等价于条件概率等于无条件概率，即 $P(B|A)=P(B)$</p>
+<p>当事件 $A$ 与 $B$ 相互独立时，$A$ 与 $\overline{B}$ ，$\overline{A}$ 与 $B$ ，$\overline{A}$ 与 $\overline{B}$ 均<strong>相互独立</strong></p>
+<p>设 $A,B,C$ 为三个随机事件，称 $A,B,C$ <strong>两两独立</strong>，当且仅当满足</p>
+<script type="math/tex; mode=display">
+\begin{cases}
+P(AB)=P(A)P(B),\\
+P(AC)=P(A)P(C),\\
+P(BC)=P(B)P(C)
+\end{cases}</script><p>若同时还满足 $P(ABC)=P(A)P(B)P(C)$ 则称 $A,B,C$ <strong>相互独立</strong></p>
+<p>一般地，若 $n$ 个事件 $A_1,A_2,\cdots,A_n(n\geq 2)$ 相互独立，则对于任意 $k$ 个事件，满足</p>
+<script type="math/tex; mode=display">
+P(A_{i_1}A_{i_2}\cdots A_{i_k})=\prod_{j=1}^k P(A_{i_j})</script><p>试验的结果互不影响的一系列试验称为<strong>独立试验</strong>，若各个子试验条件相同，则称为<strong>重复试验</strong></p>
  
       <!-- reward -->
       
@@ -216,7 +249,7 @@ P(\bigcup_{j=1}^nA_j)=&\sum_{j=1}^nP(A_j)-\sum_{i<j}P(A_iA_j)
 </div>
 
 <div id="share-mask"></div>  
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/" rel="tag">课程笔记</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%95%B0%E7%90%86%E5%9F%BA%E7%A1%80/" rel="tag">数理基础</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/" rel="tag">课程笔记</a></li></ul>
 
     </footer>
   </div>
@@ -234,9 +267,9 @@ P(\bigcup_{j=1}^nA_j)=&\sum_{j=1}^nP(A_j)-\sum_{i<j}P(A_iA_j)
       </a>
     
     
-      <a href="/2025/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E7%94%B2II/" class="article-nav-link">
+      <a href="/2025/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E4%B9%99II/" class="article-nav-link">
         <strong class="article-nav-caption">下一篇</strong>
-        <div class="article-nav-title">大学物理甲II</div>
+        <div class="article-nav-title">大学物理乙II</div>
       </a>
     
   </nav>
@@ -625,6 +658,23 @@ P(\bigcup_{j=1}^nA_j)=&\sum_{j=1}^nP(A_j)-\sum_{i<j}P(A_iA_j)
     
 
   </div>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<!--script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
 </body>
 
 </html>

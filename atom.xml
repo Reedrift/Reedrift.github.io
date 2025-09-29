@@ -6,7 +6,7 @@
   <link href="https://reedrift.github.io/atom.xml" rel="self"/>
   
   <link href="https://reedrift.github.io/"/>
-  <updated>2025-09-18T01:23:11.985Z</updated>
+  <updated>2025-09-29T03:03:28.887Z</updated>
   <id>https://reedrift.github.io/</id>
   
   <author>
@@ -17,46 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>复变函数与积分变换</title>
-    <link href="https://reedrift.github.io/2025/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0%E4%B8%8E%E7%A7%AF%E5%88%86%E5%8F%98%E6%8D%A2/"/>
-    <id>https://reedrift.github.io/2025/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0%E4%B8%8E%E7%A7%AF%E5%88%86%E5%8F%98%E6%8D%A2/</id>
-    <published>2025-09-16T05:23:47.000Z</published>
-    <updated>2025-09-18T01:23:11.985Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;Chapter-1-预备知识&quot;&gt;&lt;a href=&quot;#Chapter-1-预备知识&quot; class=&quot;headerlink&quot; title=&quot;Chapter-1 预备知识&quot;&gt;&lt;/a&gt;Chapter-1 预备知识&lt;/h2&gt;&lt;h3 id=&quot;复球面与无穷远点&quot;&gt;&lt;a href=&quot;#复球面与无穷远点&quot; class=&quot;headerlink&quot; title=&quot;复球面与无穷远点&quot;&gt;&lt;/a&gt;复球面与无穷远点&lt;/h3&gt;&lt;p&gt;与一元函数微积分中数轴附加的 $-&#92;infty$ 与 $+&#92;infty$ 不同，扩充复平面上的 $&#92;infty$ 点&lt;strong&gt;只有一点&lt;/strong&gt;&lt;br&gt;</summary>
-    
-    
-    
-    
-    <category term="课程笔记" scheme="https://reedrift.github.io/tags/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>概率论与数理统计</title>
-    <link href="https://reedrift.github.io/2025/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/"/>
-    <id>https://reedrift.github.io/2025/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/</id>
-    <published>2025-09-15T05:25:21.000Z</published>
-    <updated>2025-09-18T01:28:07.875Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;Chapter-1-概率论的基本概念&quot;&gt;&lt;a href=&quot;#Chapter-1-概率论的基本概念&quot; class=&quot;headerlink&quot; title=&quot;Chapter-1 概率论的基本概念&quot;&gt;&lt;/a&gt;Chapter-1 概率论的基本概念&lt;/h2&gt;&lt;h3 id=&quot;必然事件与不可能事件&quot;&gt;&lt;a href=&quot;#必然事件与不可能事件&quot; class=&quot;headerlink&quot; title=&quot;必然事件与不可能事件&quot;&gt;&lt;/a&gt;必然事件与不可能事件&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;必然事件&lt;/strong&gt; $S$ 发生的概率为 $100&#92;%$ ，发生概率为 $100&#92;%$ 的不一定为&lt;strong&gt;必然事件&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;不可能事件&lt;/strong&gt; $&#92;emptyset$ 发生的概率为 $0&#92;%$ ，噶生概率为 $0&#92;%$ 的不一定为&lt;strong&gt;不可能事件&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在 $[0,1]$ 中随机取数，取到 $(0,1)$ 的概率为 $100&#92;%$ 但不是必然事件&lt;br&gt;在 $[0,1]$ 中随机取数，取到 $0.5$ 的概率为 $0&#92;%$ 但不是不可能事件&lt;br&gt;</summary>
-    
-    
-    
-    
-    <category term="课程笔记" scheme="https://reedrift.github.io/tags/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>大学物理甲II</title>
-    <link href="https://reedrift.github.io/2025/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E7%94%B2II/"/>
-    <id>https://reedrift.github.io/2025/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E7%94%B2II/</id>
-    <published>2025-09-15T02:12:03.000Z</published>
-    <updated>2025-09-18T01:23:22.350Z</updated>
+    <title>计算机组成</title>
+    <link href="https://reedrift.github.io/2025/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90/"/>
+    <id>https://reedrift.github.io/2025/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90/</id>
+    <published>2025-09-28T11:55:43.000Z</published>
+    <updated>2025-09-29T03:03:28.887Z</updated>
     
     
       
@@ -72,6 +37,147 @@
     
     <category term="课程笔记" scheme="https://reedrift.github.io/tags/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
     
+    <category term="专业课程" scheme="https://reedrift.github.io/tags/%E4%B8%93%E4%B8%9A%E8%AF%BE%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>高级数据结构与算法分析</title>
+    <link href="https://reedrift.github.io/2025/%E9%AB%98%E7%BA%A7%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90/"/>
+    <id>https://reedrift.github.io/2025/%E9%AB%98%E7%BA%A7%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90/</id>
+    <published>2025-09-28T11:54:22.000Z</published>
+    <updated>2025-09-29T03:03:16.544Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="课程笔记" scheme="https://reedrift.github.io/tags/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="专业课程" scheme="https://reedrift.github.io/tags/%E4%B8%93%E4%B8%9A%E8%AF%BE%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>面向对象程序设计</title>
+    <link href="https://reedrift.github.io/2025/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/"/>
+    <id>https://reedrift.github.io/2025/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/</id>
+    <published>2025-09-28T11:53:21.000Z</published>
+    <updated>2025-09-29T03:03:48.841Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="课程笔记" scheme="https://reedrift.github.io/tags/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="专业课程" scheme="https://reedrift.github.io/tags/%E4%B8%93%E4%B8%9A%E8%AF%BE%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>数学建模</title>
+    <link href="https://reedrift.github.io/2025/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/"/>
+    <id>https://reedrift.github.io/2025/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/</id>
+    <published>2025-09-21T05:23:45.000Z</published>
+    <updated>2025-09-29T03:03:57.496Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="课程笔记" scheme="https://reedrift.github.io/tags/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="工高课程" scheme="https://reedrift.github.io/tags/%E5%B7%A5%E9%AB%98%E8%AF%BE%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>复变函数与积分变换</title>
+    <link href="https://reedrift.github.io/2025/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0%E4%B8%8E%E7%A7%AF%E5%88%86%E5%8F%98%E6%8D%A2/"/>
+    <id>https://reedrift.github.io/2025/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0%E4%B8%8E%E7%A7%AF%E5%88%86%E5%8F%98%E6%8D%A2/</id>
+    <published>2025-09-16T05:23:47.000Z</published>
+    <updated>2025-09-28T11:50:41.928Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;Chapter-1-预备知识&quot;&gt;&lt;a href=&quot;#Chapter-1-预备知识&quot; class=&quot;headerlink&quot; title=&quot;Chapter-1 预备知识&quot;&gt;&lt;/a&gt;Chapter-1 预备知识&lt;/h2&gt;&lt;h3 id=&quot;复球面与无穷远点&quot;&gt;&lt;a href=&quot;#复球面与无穷远点&quot; class=&quot;headerlink&quot; title=&quot;复球面与无穷远点&quot;&gt;&lt;/a&gt;复球面与无穷远点&lt;/h3&gt;&lt;p&gt;与一元函数微积分中数轴附加的 $-&#92;infty$ 与 $+&#92;infty$ 不同，扩充复平面上的 $&#92;infty$ 点&lt;strong&gt;只有一点&lt;/strong&gt;&lt;br&gt;</summary>
+    
+    
+    
+    
+    <category term="课程笔记" scheme="https://reedrift.github.io/tags/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="数理基础" scheme="https://reedrift.github.io/tags/%E6%95%B0%E7%90%86%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>概率论与数理统计</title>
+    <link href="https://reedrift.github.io/2025/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/"/>
+    <id>https://reedrift.github.io/2025/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/</id>
+    <published>2025-09-15T05:25:21.000Z</published>
+    <updated>2025-09-29T02:56:26.693Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;Chapter-1-概率论的基本概念&quot;&gt;&lt;a href=&quot;#Chapter-1-概率论的基本概念&quot; class=&quot;headerlink&quot; title=&quot;Chapter-1 概率论的基本概念&quot;&gt;&lt;/a&gt;Chapter-1 概率论的基本概念&lt;/h2&gt;&lt;h3 id=&quot;必然事件与不可能事件&quot;&gt;&lt;a href=&quot;#必然事件与不可能事件&quot; class=&quot;headerlink&quot; title=&quot;必然事件与不可能事件&quot;&gt;&lt;/a&gt;必然事件与不可能事件&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;必然事件&lt;/strong&gt; $S$ 发生的概率为 $100&#92;%$ ，发生概率为 $100&#92;%$ 的不一定为&lt;strong&gt;必然事件&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;不可能事件&lt;/strong&gt; $&#92;emptyset$ 发生的概率为 $0&#92;%$ ，噶生概率为 $0&#92;%$ 的不一定为&lt;strong&gt;不可能事件&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在 $[0,1]$ 中随机取数，取到 $(0,1)$ 的概率为 $100&#92;%$ 但&lt;strong&gt;不是&lt;/strong&gt;必然事件&lt;br&gt;在 $[0,1]$ 中随机取数，取到 $0.5$ 的概率为 $0&#92;%$ 但&lt;strong&gt;不是&lt;/strong&gt;不可能事件&lt;br&gt;</summary>
+    
+    
+    
+    
+    <category term="课程笔记" scheme="https://reedrift.github.io/tags/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="数理基础" scheme="https://reedrift.github.io/tags/%E6%95%B0%E7%90%86%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>大学物理乙II</title>
+    <link href="https://reedrift.github.io/2025/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E4%B9%99II/"/>
+    <id>https://reedrift.github.io/2025/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E4%B9%99II/</id>
+    <published>2025-09-15T02:12:03.000Z</published>
+    <updated>2025-09-28T11:50:33.722Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="课程笔记" scheme="https://reedrift.github.io/tags/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="数理基础" scheme="https://reedrift.github.io/tags/%E6%95%B0%E7%90%86%E5%9F%BA%E7%A1%80/"/>
+    
   </entry>
   
   <entry>
@@ -79,7 +185,7 @@
     <link href="https://reedrift.github.io/2025/%E8%BF%BD%E4%BA%91%E9%80%90%E9%9C%9E/"/>
     <id>https://reedrift.github.io/2025/%E8%BF%BD%E4%BA%91%E9%80%90%E9%9C%9E/</id>
     <published>2025-07-05T14:31:02.000Z</published>
-    <updated>2025-07-19T13:48:55.517Z</updated>
+    <updated>2025-09-29T03:04:36.396Z</updated>
     
     
     <summary type="html">&lt;h3 id=&quot;2025-07-04&quot;&gt;&lt;a href=&quot;#2025-07-04&quot; class=&quot;headerlink&quot; title=&quot;2025/07/04&quot;&gt;&lt;/a&gt;2025/07/04&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/pictures/追云逐霞/20250704.jpg&quot; alt=&quot;摄于主图书馆北侧草坪&quot; style=&quot;display: block; margin: 0 auto; width: 70%;&quot;&gt;&lt;br&gt;</summary>
@@ -87,7 +193,7 @@
     
     
     
-    <category term="重大项目" scheme="https://reedrift.github.io/tags/%E9%87%8D%E5%A4%A7%E9%A1%B9%E7%9B%AE/"/>
+    <category term="相册" scheme="https://reedrift.github.io/tags/%E7%9B%B8%E5%86%8C/"/>
     
   </entry>
   
@@ -96,7 +202,7 @@
     <link href="https://reedrift.github.io/2025/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/"/>
     <id>https://reedrift.github.io/2025/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/</id>
     <published>2025-05-15T05:26:33.000Z</published>
-    <updated>2025-05-29T08:56:55.697Z</updated>
+    <updated>2025-09-29T03:03:42.725Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;Chapter-1-Logic-amp-Proofs&quot;&gt;&lt;a href=&quot;#Chapter-1-Logic-amp-Proofs&quot; class=&quot;headerlink&quot; title=&quot;Chapter-1 Logic &amp;amp; Proofs&quot;&gt;&lt;/a&gt;Chapter-1 Logic &amp;amp; Proofs&lt;/h2&gt;&lt;div class=&quot;table-container&quot;&gt;
@@ -194,6 +300,10 @@
     
     <category term="课程笔记" scheme="https://reedrift.github.io/tags/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
     
+    <category term="数理基础" scheme="https://reedrift.github.io/tags/%E6%95%B0%E7%90%86%E5%9F%BA%E7%A1%80/"/>
+    
+    <category term="专业课程" scheme="https://reedrift.github.io/tags/%E4%B8%93%E4%B8%9A%E8%AF%BE%E7%A8%8B/"/>
+    
   </entry>
   
   <entry>
@@ -201,7 +311,7 @@
     <link href="https://reedrift.github.io/2025/%E5%B8%B8%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/"/>
     <id>https://reedrift.github.io/2025/%E5%B8%B8%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/</id>
     <published>2025-04-29T07:12:47.000Z</published>
-    <updated>2025-05-14T02:05:04.175Z</updated>
+    <updated>2025-09-28T11:50:08.943Z</updated>
     
     
     <summary type="html">&lt;h3 id=&quot;nth-order-Differential-Equation&quot;&gt;&lt;a href=&quot;#nth-order-Differential-Equation&quot; class=&quot;headerlink&quot; title=&quot;nth-order Differential Equation&quot;&gt;&lt;/a&gt;nth-order Differential Equation&lt;/h3&gt;&lt;p&gt;The most general form of an nth-order differential equation with independent $x$ and unknown function or dependent variable $y=y(x)$ is $F(x,y,y’,y’’,&#92;cdots,y^{(n)})$&lt;br&gt;An nth-order differential equation ordinarily has an n-parameter family of solutions-one involving n different arbitrary constants or parameters.&lt;br&gt;</summary>
@@ -211,6 +321,8 @@
     
     <category term="课程笔记" scheme="https://reedrift.github.io/tags/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
     
+    <category term="数理基础" scheme="https://reedrift.github.io/tags/%E6%95%B0%E7%90%86%E5%9F%BA%E7%A1%80/"/>
+    
   </entry>
   
   <entry>
@@ -218,7 +330,7 @@
     <link href="https://reedrift.github.io/2025/%E5%BE%AE%E7%A7%AF%E5%88%86%E7%94%B2II/"/>
     <id>https://reedrift.github.io/2025/%E5%BE%AE%E7%A7%AF%E5%88%86%E7%94%B2II/</id>
     <published>2025-04-29T06:59:55.000Z</published>
-    <updated>2025-06-11T13:05:40.986Z</updated>
+    <updated>2025-09-28T11:51:02.788Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;Chapter-7-空间曲面方程&quot;&gt;&lt;a href=&quot;#Chapter-7-空间曲面方程&quot; class=&quot;headerlink&quot; title=&quot;Chapter-7 空间曲面方程&quot;&gt;&lt;/a&gt;Chapter-7 空间曲面方程&lt;/h2&gt;&lt;h3 id=&quot;矢量的矢量积&quot;&gt;&lt;a href=&quot;#矢量的矢量积&quot; class=&quot;headerlink&quot; title=&quot;矢量的矢量积&quot;&gt;&lt;/a&gt;矢量的矢量积&lt;/h3&gt;&lt;p&gt;$a&#92;times b=&#92;begin{vmatrix}a_2&amp;amp;a_3&#92;&#92;b_2&amp;amp;b_3&#92;end{vmatrix}i-&#92;begin{vmatrix}a_1&amp;amp;a_3&#92;&#92;b_1&amp;amp;b_3&#92;end{vmatrix}j+&#92;begin{vmatrix}a_1&amp;amp;a_2&#92;&#92;b_1&amp;amp;b_2&#92;end{vmatrix}k=&#92;begin{vmatrix}i&amp;amp;j&amp;amp;k&#92;&#92;a_1&amp;amp;a_2&amp;amp;a_3&#92;&#92;b_1&amp;amp;b_2&amp;amp;b_2&#92;end{vmatrix}$&lt;br&gt;矢量积所得的矢量垂直于 $a,b$ 构成的平面&lt;br&gt;</summary>
@@ -228,6 +340,8 @@
     
     <category term="课程笔记" scheme="https://reedrift.github.io/tags/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
     
+    <category term="数理基础" scheme="https://reedrift.github.io/tags/%E6%95%B0%E7%90%86%E5%9F%BA%E7%A1%80/"/>
+    
   </entry>
   
   <entry>
@@ -235,7 +349,7 @@
     <link href="https://reedrift.github.io/2025/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E7%94%B2I/"/>
     <id>https://reedrift.github.io/2025/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E7%94%B2I/</id>
     <published>2025-04-28T15:00:19.000Z</published>
-    <updated>2025-09-17T02:12:07.319Z</updated>
+    <updated>2025-09-28T11:50:20.272Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;Chapter-1-质点运动学&quot;&gt;&lt;a href=&quot;#Chapter-1-质点运动学&quot; class=&quot;headerlink&quot; title=&quot;Chapter-1 质点运动学&quot;&gt;&lt;/a&gt;Chapter-1 质点运动学&lt;/h2&gt;&lt;p&gt;【注】与中学内容基本一致，略&lt;/p&gt;
@@ -252,6 +366,8 @@ v_2&#39;=&#92;frac{m_1v_1+m_2v_2}{m_1+m_2}-e&#92;frac{m_1(v_2-v_1)}{m_1+m_2}
     
     <category term="课程笔记" scheme="https://reedrift.github.io/tags/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
     
+    <category term="数理基础" scheme="https://reedrift.github.io/tags/%E6%95%B0%E7%90%86%E5%9F%BA%E7%A1%80/"/>
+    
   </entry>
   
   <entry>
@@ -259,7 +375,7 @@ v_2&#39;=&#92;frac{m_1v_1+m_2v_2}{m_1+m_2}-e&#92;frac{m_1(v_2-v_1)}{m_1+m_2}
     <link href="https://reedrift.github.io/2025/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/"/>
     <id>https://reedrift.github.io/2025/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/</id>
     <published>2025-04-26T11:03:04.000Z</published>
-    <updated>2025-05-14T01:01:13.079Z</updated>
+    <updated>2025-09-28T11:51:10.215Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;几何解释&quot;&gt;&lt;a href=&quot;#几何解释&quot; class=&quot;headerlink&quot; title=&quot;几何解释&quot;&gt;&lt;/a&gt;几何解释&lt;/h2&gt;&lt;h3 id=&quot;方阵乘法的意义&quot;&gt;&lt;a href=&quot;#方阵乘法的意义&quot; class=&quot;headerlink&quot; title=&quot;方阵乘法的意义&quot;&gt;&lt;/a&gt;方阵乘法的意义&lt;/h3&gt;&lt;p&gt;对于方阵 $A,B$ ，表达式 $B(AX)$ 表示在新基 $B$ 下坐标为在新基 $A$ 下坐标为 $X$ 的坐标的坐标&lt;/p&gt;
@@ -270,6 +386,8 @@ v_2&#39;=&#92;frac{m_1v_1+m_2v_2}{m_1+m_2}-e&#92;frac{m_1(v_2-v_1)}{m_1+m_2}
     
     
     <category term="课程笔记" scheme="https://reedrift.github.io/tags/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="数理基础" scheme="https://reedrift.github.io/tags/%E6%95%B0%E7%90%86%E5%9F%BA%E7%A1%80/"/>
     
   </entry>
   
@@ -300,7 +418,7 @@ v_2&#39;=&#92;frac{m_1v_1+m_2v_2}{m_1+m_2}-e&#92;frac{m_1(v_2-v_1)}{m_1+m_2}
     <link href="https://reedrift.github.io/2025/%E5%BE%AE%E7%A7%AF%E5%88%86%E7%94%B2I/"/>
     <id>https://reedrift.github.io/2025/%E5%BE%AE%E7%A7%AF%E5%88%86%E7%94%B2I/</id>
     <published>2025-04-25T03:19:42.000Z</published>
-    <updated>2025-07-05T14:30:10.779Z</updated>
+    <updated>2025-09-28T11:50:57.972Z</updated>
     
     
     <summary type="html">&lt;h3 id=&quot;Chapter-1-数列极限&quot;&gt;&lt;a href=&quot;#Chapter-1-数列极限&quot; class=&quot;headerlink&quot; title=&quot;Chapter-1 数列极限&quot;&gt;&lt;/a&gt;Chapter-1 数列极限&lt;/h3&gt;&lt;h4 id=&quot;数列极限定义&quot;&gt;&lt;a href=&quot;#数列极限定义&quot; class=&quot;headerlink&quot; title=&quot;数列极限定义&quot;&gt;&lt;/a&gt;数列极限定义&lt;/h4&gt;&lt;p&gt;设 $&#92;{a_n&#92;}$ 是 $&#92;mathrm{R}$ 中的一个数列，如果存在 $a&#92;in&#92;mathrm{R}$ 使得 $&#92;forall &#92;varepsilon&amp;gt;0,&#92;exists N&#92;in&#92;mathrm{N_+}$ ，当 $n&#92;geq N$ 时，都有 $|a_n-a|&amp;lt;&#92;varepsilon$ ，就称数列 $&#92;{a_n&#92;}$ 是收敛于 $a$ 的，记为 $&#92;begin{aligned}&#92;lim_{n&#92;rightarrow&#92;infty}a_n=a&#92;end{aligned}$ ,称 $a$ 是数列 $&#92;{a_n&#92;}$ 的极限&lt;br&gt;</summary>
@@ -309,6 +427,8 @@ v_2&#39;=&#92;frac{m_1v_1+m_2v_2}{m_1+m_2}-e&#92;frac{m_1(v_2-v_1)}{m_1+m_2}
     
     
     <category term="课程笔记" scheme="https://reedrift.github.io/tags/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="数理基础" scheme="https://reedrift.github.io/tags/%E6%95%B0%E7%90%86%E5%9F%BA%E7%A1%80/"/>
     
   </entry>
   

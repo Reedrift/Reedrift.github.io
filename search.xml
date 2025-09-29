@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>计算机组成</title>
+    <url>/2025/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><span id="more"></span>]]></content>
+      <tags>
+        <tag>课程笔记</tag>
+        <tag>专业课程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>高级数据结构与算法分析</title>
+    <url>/2025/%E9%AB%98%E7%BA%A7%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><span id="more"></span>]]></content>
+      <tags>
+        <tag>课程笔记</tag>
+        <tag>专业课程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>面向对象程序设计</title>
+    <url>/2025/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><span id="more"></span>]]></content>
+      <tags>
+        <tag>课程笔记</tag>
+        <tag>专业课程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数学建模</title>
+    <url>/2025/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+      <tags>
+        <tag>课程笔记</tag>
+        <tag>工高课程</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>复变函数与积分变换</title>
     <url>/2025/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0%E4%B8%8E%E7%A7%AF%E5%88%86%E5%8F%98%E6%8D%A2/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Chapter-1-预备知识"><a href="#Chapter-1-预备知识" class="headerlink" title="Chapter-1 预备知识"></a>Chapter-1 预备知识</h2><h3 id="复球面与无穷远点"><a href="#复球面与无穷远点" class="headerlink" title="复球面与无穷远点"></a>复球面与无穷远点</h3><p>与一元函数微积分中数轴附加的 $-\infty$ 与 $+\infty$ 不同，扩充复平面上的 $\infty$ 点<strong>只有一点</strong><br><span id="more"></span></p>
@@ -12,7 +48,7 @@ w=f(z),(z\in D)
 \begin{cases}
 z=x+iy\\
 w=u(x,y)+iv(x,y)
-\end{cases}</script><p>若对于每一个 $z\in D$ 有且仅有一个 $w\in G$ 与之对应，则称 $w=f(z)(z\in D)$ 为<strong>单值函数</strong>，否则称为<strong>多值函数</strong><br>【注】今后有关函数极限、连续、导数、解析等讨论一般只对<strong>单值函数</strong>而言<br>单值函数的一对一的映射、满射、一一对应的映射概念与实函数相同</p>
+\end{cases}</script><p>若对每一个 $z\in D$ 有且仅有<strong>一个</strong> $w\in G$ 与之对应，则称 $w=f(z)(z\in D)$ 为<strong>单值函数</strong>，否则，若有<strong>多个</strong> $w\in G$ 与之对应，则称为<strong>多值函数</strong><br>【注】今后有关函数极限、连续、导数、解析等讨论一般只对<strong>单值函数</strong>而言<br>单值函数的一对一的映射、满射、一一对应的映射概念与实函数相同</p>
 <h3 id="复变函数的极限与连续"><a href="#复变函数的极限与连续" class="headerlink" title="复变函数的极限与连续"></a>复变函数的极限与连续</h3><p>复变函数的<strong>极限</strong>、<strong>连续</strong>的定义与二元实函数的极限类似<br>可以从函数的实部和虚部是否存在极限、是否连续判断<br>当 $f(z)$ 在有界闭区域 $\bar{D}$ 上连续时， $|f(z)|$ 在 $\bar{D}$ 上也连续、有界且可以取到最大值与最小值</p>
 <h3 id="复变函数的导数"><a href="#复变函数的导数" class="headerlink" title="复变函数的导数"></a>复变函数的导数</h3><p>与一元实函数的导数定义一致，求导基本公式与和差积商复合的求导法则亦可推广</p>
 <h3 id="解析函数的定义"><a href="#解析函数的定义" class="headerlink" title="解析函数的定义"></a>解析函数的定义</h3><p>如果函数 $f(z)$ 在点 $z_0$ 的某个邻域内的每一点可导，则称 $f(z)$ 在 $z_0$ 点<strong>解析</strong>（或正则）<br>如果函数 $f(z)$ 在区域 $D$ 内每一点解析，就称 $f(z)$ 在 $D$ 内<strong>解析</strong>，等价于<strong>处处可导</strong><br>不解析的点，称为函数的<strong>奇点</strong><br>在整个复平面上解析的函数称为<strong>整函数</strong></p>
@@ -25,34 +61,71 @@ w=u(x,y)+iv(x,y)
 &\frac{\partial v}{\partial x}=-\frac{\partial u}{\partial y}
 \end{align}
 \end{cases}</script><p>此时有 $\begin{align}f’(z)=\frac{\partial u}{\partial x}+i\frac{\partial v}{\partial x}\end{align}$ 或 $\begin{align}f’(z)=\frac{\partial v}{\partial y}-i\frac{\partial u}{\partial y}\end{align}$<br>函数 $f(z)=u(x,y)+iv(x,y)$ 在区域$D$ 内解析的<strong>充分必要条件</strong>是 $u,v$ <strong>可微</strong>且满足<strong>柯西-黎曼方程</strong></p>
+<p>转专业成功哩，咕咕咕</p>
 ]]></content>
       <tags>
         <tag>课程笔记</tag>
+        <tag>数理基础</tag>
       </tags>
   </entry>
   <entry>
     <title>概率论与数理统计</title>
     <url>/2025/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Chapter-1-概率论的基本概念"><a href="#Chapter-1-概率论的基本概念" class="headerlink" title="Chapter-1 概率论的基本概念"></a>Chapter-1 概率论的基本概念</h2><h3 id="必然事件与不可能事件"><a href="#必然事件与不可能事件" class="headerlink" title="必然事件与不可能事件"></a>必然事件与不可能事件</h3><p><strong>必然事件</strong> $S$ 发生的概率为 $100\%$ ，发生概率为 $100\%$ 的不一定为<strong>必然事件</strong><br><strong>不可能事件</strong> $\emptyset$ 发生的概率为 $0\%$ ，噶生概率为 $0\%$ 的不一定为<strong>不可能事件</strong></p>
-<p>在 $[0,1]$ 中随机取数，取到 $(0,1)$ 的概率为 $100\%$ 但不是必然事件<br>在 $[0,1]$ 中随机取数，取到 $0.5$ 的概率为 $0\%$ 但不是不可能事件<br><span id="more"></span></p>
+<p>在 $[0,1]$ 中随机取数，取到 $(0,1)$ 的概率为 $100\%$ 但<strong>不是</strong>必然事件<br>在 $[0,1]$ 中随机取数，取到 $0.5$ 的概率为 $0\%$ 但<strong>不是</strong>不可能事件<br><span id="more"></span></p>
 <h3 id="容斥原理"><a href="#容斥原理" class="headerlink" title="容斥原理"></a>容斥原理</h3><script type="math/tex; mode=display">
 \begin{align}
 P(\bigcup_{j=1}^nA_j)=&\sum_{j=1}^nP(A_j)-\sum_{i<j}P(A_iA_j)
 +\sum_{i<j<k}P(A_iA_jA_k)-\cdots+\\
 &(-1)^{n-1}P(A_1A_2\cdots A_n),n\geq1.
-\end{align}</script><h3 id="古典概型"><a href="#古典概型" class="headerlink" title="古典概型"></a>古典概型</h3><p>一个随机试验，如果满足以下两个条件：<br>（1） 样本空间中样本点数<strong>有限</strong>（有限性）（2）出现每一个样本点的<strong>概率相等</strong>（等可能性）<br>则称这个试验为<strong>等可能概型</strong>，又称<strong>古典概型</strong></p>
+\end{align}</script><h3 id="古典概型"><a href="#古典概型" class="headerlink" title="古典概型"></a>古典概型</h3><p>对于某一个随机试验，如果满足以下两个条件：<br>（1）样本空间中样本点数<strong>有限</strong>（有限性）<br>（2）出现每一个样本点的<strong>概率相等</strong>（等可能性）<br>则称这个试验为<strong>等可能概型</strong>，又称<strong>古典概型</strong></p>
 <p>在等可能概型中，任一事件 $A$ 的概率为 $\begin{align}P(A)=\frac{A所包含的样本点数}{S中样本点总数}\end{align}$ </p>
+<h3 id="条件概率"><a href="#条件概率" class="headerlink" title="条件概率"></a>条件概率</h3><p>如果 $P(B)&gt;0$ ，那么在 $B$ 发生的条件下 $B$ 发生的<strong>条件概率</strong>为</p>
+<script type="math/tex; mode=display">
+P(A|B)=\frac{P(AB)}{P(B)}</script><p>当 $P(C)\neq 0$ 时，条件概率满足性质：</p>
+<script type="math/tex; mode=display">
+P(A\cup B|C)=P(A|C)+P(B|C)-P(AB|C)</script><h3 id="乘法公式"><a href="#乘法公式" class="headerlink" title="乘法公式"></a>乘法公式</h3><p>由条件概率的定义可知 $P(A)\neq 0,P(B)\neq 0$ 时，有<strong>乘法公式</strong>：</p>
+<script type="math/tex; mode=display">
+P(AB)=P(A)\cdot P(B|A)=P(B)\cdot P(A|B)</script><p>一般地，当 $P(A_1A_2\cdots A_{n-1})\neq 0(n\geq 3)$ 时，有</p>
+<script type="math/tex; mode=display">
+P(A_1A_2\cdots A_n)=P(A_1)P(A_2|A_1)P(A_3|A_1A_2)\cdots P(A_n|A_1A_2\cdots A_{n-1})</script><h3 id="全概率公式"><a href="#全概率公式" class="headerlink" title="全概率公式"></a>全概率公式</h3><p>设 $S$ 为某一随机试验的样本空间， $B_1,B_2,\cdots,B_n$ 为该试验的一组事件，且满足</p>
+<script type="math/tex; mode=display">
+\begin{align}
+&(1) B_iB_j=\emptyset,i,j=1,2,\cdots,n,i\neq j\\
+&(2) B_1\cup B_2\cup\cdots\cup B_n=S
+\end{align}</script><p>则称 $B_1,B_2,\cdots,B_n$ 为 $S$ 的一个<strong>划分</strong>，或称为 $S$ 的一个<strong>完备事件组</strong> </p>
+<p>设 $S$ 为某样本空间，若 $B_1,B_2,\cdots,B_n$ 是 $S$ 的一个划分，且 $P(B_j)&gt;0,j=1,2,\cdots,n$ ，则对任一事件 $A$ ，有<strong>全概率公式</strong></p>
+<script type="math/tex; mode=display">
+P(A)=\sum_{j=1}^nP(B_j)P(A|B_j)</script><p><strong>注</strong>：划分的条件可以弱化为 $P(B_1\cup B_2\cup\dots\cup B_n)=1$</p>
+<h3 id="贝叶斯公式"><a href="#贝叶斯公式" class="headerlink" title="贝叶斯公式"></a>贝叶斯公式</h3><p>设 $S$ 为某样本空间，若 $B_1,B_2,\cdots,B_n$ 是 $S$ 的一个划分，且 $P(B_j)&gt;0,j=1,2,\cdots,n$ ，则对任一事件 $A$ ，$P(A)\neq 0$ ，有<strong>概率的贝叶斯公式</strong>或<strong>逆概公式</strong></p>
+<script type="math/tex; mode=display">
+P(B_k|A)=\frac{P(B_kA)}{P(A)}
+=\frac{P(B_k)P(A|B_k)}{\sum_{j=1}^nP(B_j)P(A|B_j)}</script><p>$P(B_j)$ 的概率往往是已知假设或累积经验等，常称 $P(B_j)$ 为<strong>先验概率</strong>，$A$ 发生后 $B_j$ 发生的概率进行修正，常称 $P(B_j|A)$ 为<strong>后验概率</strong></p>
+<h3 id="事件的独立性"><a href="#事件的独立性" class="headerlink" title="事件的独立性"></a>事件的独立性</h3><p>设 $A,B$ 为两随机事件，当 $P(AB)=P(A)\cdot P(B)$ 时，称 $A,B$  <strong>相互独立</strong><br>等价于条件概率等于无条件概率，即 $P(B|A)=P(B)$</p>
+<p>当事件 $A$ 与 $B$ 相互独立时，$A$ 与 $\overline{B}$ ，$\overline{A}$ 与 $B$ ，$\overline{A}$ 与 $\overline{B}$ 均<strong>相互独立</strong></p>
+<p>设 $A,B,C$ 为三个随机事件，称 $A,B,C$ <strong>两两独立</strong>，当且仅当满足</p>
+<script type="math/tex; mode=display">
+\begin{cases}
+P(AB)=P(A)P(B),\\
+P(AC)=P(A)P(C),\\
+P(BC)=P(B)P(C)
+\end{cases}</script><p>若同时还满足 $P(ABC)=P(A)P(B)P(C)$ 则称 $A,B,C$ <strong>相互独立</strong></p>
+<p>一般地，若 $n$ 个事件 $A_1,A_2,\cdots,A_n(n\geq 2)$ 相互独立，则对于任意 $k$ 个事件，满足</p>
+<script type="math/tex; mode=display">
+P(A_{i_1}A_{i_2}\cdots A_{i_k})=\prod_{j=1}^k P(A_{i_j})</script><p>试验的结果互不影响的一系列试验称为<strong>独立试验</strong>，若各个子试验条件相同，则称为<strong>重复试验</strong></p>
 ]]></content>
       <tags>
         <tag>课程笔记</tag>
+        <tag>数理基础</tag>
       </tags>
   </entry>
   <entry>
-    <title>大学物理甲II</title>
-    <url>/2025/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E7%94%B2II/</url>
+    <title>大学物理乙II</title>
+    <url>/2025/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E4%B9%99II/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><span id="more"></span>]]></content>
       <tags>
         <tag>课程笔记</tag>
+        <tag>数理基础</tag>
       </tags>
   </entry>
   <entry>
@@ -65,7 +138,7 @@ P(\bigcup_{j=1}^nA_j)=&\sum_{j=1}^nP(A_j)-\sum_{i<j}P(A_iA_j)
 <h3 id="2025-07-19"><a href="#2025-07-19" class="headerlink" title="2025/07/19"></a>2025/07/19</h3><p><img src="/pictures/追云逐霞/20250719-1.jpg" alt="摄于月牙楼" style="display: block; margin: 0 auto; width: 70%;"><br><img src="/pictures/追云逐霞/20250719-2.jpg" alt="摄于阳明桥" style="display: block; margin: 0 auto; width: 70%;"><br><img src="/pictures/追云逐霞/20250719-3.jpg" alt="摄于基础图书馆" style="display: block; margin: 0 auto; width: 70%;"><br><img src="/pictures/追云逐霞/20250719-4.jpg" alt="摄于东教学楼3启真湖畔" style="display: block; margin: 0 auto; width: 70%;"></p>
 ]]></content>
       <tags>
-        <tag>重大项目</tag>
+        <tag>相册</tag>
       </tags>
   </entry>
   <entry>
@@ -1108,6 +1181,8 @@ D_n&=n!(1-\frac{1}{1!}+\frac{1}{2!}-\frac{1}{3!}+\cdots+(-1)^n\frac{1}{n!})\\
 ]]></content>
       <tags>
         <tag>课程笔记</tag>
+        <tag>数理基础</tag>
+        <tag>专业课程</tag>
       </tags>
   </entry>
   <entry>
@@ -1409,6 +1484,7 @@ x_n'&=p_{n1}(t)x_1+p_{n2}(t)x_2+\cdots+p_{nn}(t)x_n+f_n(t)
 ]]></content>
       <tags>
         <tag>课程笔记</tag>
+        <tag>数理基础</tag>
       </tags>
   </entry>
   <entry>
@@ -2014,6 +2090,7 @@ P&Q&R
 ]]></content>
       <tags>
         <tag>课程笔记</tag>
+        <tag>数理基础</tag>
       </tags>
   </entry>
   <entry>
@@ -2667,6 +2744,7 @@ E_l=-\frac{dU}{dl}</script><p>设 $n$ 为法线方向，定义一个矢量大小
 E=-(\frac{\partial U}{\partial x}i+\frac{\partial U}{\partial y}j+\frac{\partial U}{\partial z}k)</script>]]></content>
       <tags>
         <tag>课程笔记</tag>
+        <tag>数理基础</tag>
       </tags>
   </entry>
   <entry>
@@ -2935,6 +3013,7 @@ f(\lambda)&=|
 ]]></content>
       <tags>
         <tag>课程笔记</tag>
+        <tag>数理基础</tag>
       </tags>
   </entry>
   <entry>
@@ -3091,6 +3170,7 @@ f(\lambda)&=|
 ]]></content>
       <tags>
         <tag>课程笔记</tag>
+        <tag>数理基础</tag>
       </tags>
   </entry>
 </search>
