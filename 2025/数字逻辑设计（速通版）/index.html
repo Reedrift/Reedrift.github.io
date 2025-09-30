@@ -23,7 +23,7 @@
         name="viewport"
         content="width=device-width, initial-scale=1, maximum-scale=1"
       />
-      <title>复变函数与积分变换 |  Reedrift</title>
+      <title>数字逻辑设计（速通版） |  Reedrift</title>
   <meta name="generator" content="hexo-theme-ayer">
       
       <link rel="shortcut icon" href="/reedrift.ico" />
@@ -87,7 +87,7 @@ var _hmt = _hmt || [];
     <main class="content on">
       <section class="outer">
   <article
-  id="post-复变函数与积分变换"
+  id="post-数字逻辑设计（速通版）"
   class="article article-type-post"
   itemscope
   itemprop="blogPost"
@@ -98,7 +98,7 @@ var _hmt = _hmt || [];
     <header class="article-header">
        
 <h1 class="article-title sea-center" style="border-left:0" itemprop="name">
-  复变函数与积分变换
+  数字逻辑设计（速通版）
 </h1>
  
 
@@ -106,15 +106,15 @@ var _hmt = _hmt || [];
     </header>
      
     <div class="article-meta">
-      <a href="/2025/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0%E4%B8%8E%E7%A7%AF%E5%88%86%E5%8F%98%E6%8D%A2/" class="article-date">
-  <time datetime="2025-09-16T05:23:47.000Z" itemprop="datePublished">2025-09-16</time>
+      <a href="/2025/%E6%95%B0%E5%AD%97%E9%80%BB%E8%BE%91%E8%AE%BE%E8%AE%A1%EF%BC%88%E9%80%9F%E9%80%9A%E7%89%88%EF%BC%89/" class="article-date">
+  <time datetime="2025-09-30T11:52:23.000Z" itemprop="datePublished">2025-09-30</time>
 </a>   
 <div class="word_count">
     <span class="post-time">
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">712</span>
+            <span class="post-count">591</span>
         </span>
     </span>
 
@@ -138,30 +138,28 @@ var _hmt = _hmt || [];
   
     <div class="article-entry" itemprop="articleBody">
        
-  <h2 id="Chapter-1-预备知识"><a href="#Chapter-1-预备知识" class="headerlink" title="Chapter-1 预备知识"></a>Chapter-1 预备知识</h2><h3 id="复球面与无穷远点"><a href="#复球面与无穷远点" class="headerlink" title="复球面与无穷远点"></a>复球面与无穷远点</h3><p>与一元函数微积分中数轴附加的 $-\infty$ 与 $+\infty$ 不同，扩充复平面上的 $\infty$ 点<strong>只有一点</strong></p>
-<hr>
-<span id="more"></span>
-<h2 id="Chapter-2-解析函数"><a href="#Chapter-2-解析函数" class="headerlink" title="Chapter-2 解析函数"></a>Chapter-2 解析函数</h2><h3 id="复变函数的定义"><a href="#复变函数的定义" class="headerlink" title="复变函数的定义"></a>复变函数的定义</h3><p>设 $D$ 是复变数 $z$ 的一个集合，对于 $D$ 中的每一个 $z$ ，按照一定的规律，有一个或多个复数 $w$ 的值与之对应，则称 $w$ 为定义在 $D$ 上的<strong>复变函数</strong>，记作</p>
+  <h2 id="Chapter-1-数字系统与信息"><a href="#Chapter-1-数字系统与信息" class="headerlink" title="Chapter-1 数字系统与信息"></a>Chapter-1 数字系统与信息</h2><h3 id="十进制编码"><a href="#十进制编码" class="headerlink" title="十进制编码"></a>十进制编码</h3><p>BCD码是 <strong>十进制</strong> 数，不是二进制数，即使它们都采用二进制位的组合来表示，如</p>
 <script type="math/tex; mode=display">
-w=f(z),(z\in D)
-\quad
-\begin{cases}
-z=x+iy\\
-w=u(x,y)+iv(x,y)
-\end{cases}</script><p>若对每一个 $z\in D$ 有且仅有<strong>一个</strong> $w\in G$ 与之对应，则称 $w=f(z)(z\in D)$ 为<strong>单值函数</strong>，否则，若有<strong>多个</strong> $w\in G$ 与之对应，则称为<strong>多值函数</strong><br>【注】今后有关函数极限、连续、导数、解析等讨论一般只对<strong>单值函数</strong>而言<br>单值函数的一对一的映射、满射、一一对应的映射概念与实函数相同</p>
-<h3 id="复变函数的极限与连续"><a href="#复变函数的极限与连续" class="headerlink" title="复变函数的极限与连续"></a>复变函数的极限与连续</h3><p>复变函数的<strong>极限</strong>、<strong>连续</strong>的定义与二元实函数的极限类似<br>可以从函数的实部和虚部是否存在极限、是否连续判断<br>当 $f(z)$ 在有界闭区域 $\bar{D}$ 上连续时， $|f(z)|$ 在 $\bar{D}$ 上也连续、有界且可以取到最大值与最小值</p>
-<h3 id="复变函数的导数"><a href="#复变函数的导数" class="headerlink" title="复变函数的导数"></a>复变函数的导数</h3><p>与一元实函数的导数定义一致，求导基本公式与和差积商复合的求导法则亦可推广</p>
-<h3 id="解析函数的定义"><a href="#解析函数的定义" class="headerlink" title="解析函数的定义"></a>解析函数的定义</h3><p>如果函数 $f(z)$ 在点 $z_0$ 的某个邻域内的每一点可导，则称 $f(z)$ 在 $z_0$ 点<strong>解析</strong>（或正则）<br>如果函数 $f(z)$ 在区域 $D$ 内每一点解析，就称 $f(z)$ 在 $D$ 内<strong>解析</strong>，等价于<strong>处处可导</strong><br>不解析的点，称为函数的<strong>奇点</strong><br>在整个复平面上解析的函数称为<strong>整函数</strong></p>
-<p>任何有理函数 $\begin{align}\frac{a_0+a_1z+\cdots+a_nz^n}{b_0+b_1z+\cdots+b_mz^m}\end{align}$ 在除去分母为零的点之外的复平面上解析</p>
-<h3 id="解析函数的充分必要条件"><a href="#解析函数的充分必要条件" class="headerlink" title="解析函数的充分必要条件"></a>解析函数的充分必要条件</h3><p>设 $D$ 是函数 $f(z)=u(x,y)+iv(x,y)$ 的定义域，$z=x+iy$ 是 $D$ 的内点，则 $f(z)$ 在 $z$ 可导的充分必要条件是 $u(x,y)$ 和 $v(x,y)$ 在点 $(x,y)$ 处<strong>可微</strong>，且满足<strong>柯西-黎曼方程</strong></p>
+(185)_{10}=(0001\space1000\space0101)_{BCD}=(10111001)_2</script><span id="more"></span>
+<h3 id="格雷码"><a href="#格雷码" class="headerlink" title="格雷码"></a>格雷码</h3><p>相邻两个数字的 <strong>格雷码</strong> 只有一个 bit 上的 0/1 不同，数字 $x$ 对应的格雷码为</p>
 <script type="math/tex; mode=display">
-\begin{cases}
+x\space\mathrm{xor}\space(x\space\mathrm{shr}\space1)</script><h2 id="Chapter-2-组合逻辑电路"><a href="#Chapter-2-组合逻辑电路" class="headerlink" title="Chapter-2 组合逻辑电路"></a>Chapter-2 组合逻辑电路</h2><h3 id="对偶式"><a href="#对偶式" class="headerlink" title="对偶式"></a>对偶式</h3><p>一个表达式的 <strong>对偶式</strong> 就是将与变为或，或变为与，同时将 0/1 取反<br><strong>对偶原则</strong> 指出，如果将表达式等号两侧 <strong>同时</strong> 取对偶，表达式仍然成立<br>求解 <strong>反函数</strong> 的方法为，先求此函数的对偶式然后将每一个文字取反</p>
+<h3 id="标准形式"><a href="#标准形式" class="headerlink" title="标准形式"></a>标准形式</h3><p><strong>最小项之和</strong>，对应离散数学中的 <strong>析取范式</strong>，形如：</p>
+<script type="math/tex; mode=display">
 \begin{align}
-&\frac{\partial u}{\partial x}=\frac{\partial v}{\partial y}\\
-&\frac{\partial v}{\partial x}=-\frac{\partial u}{\partial y}
-\end{align}
-\end{cases}</script><p>此时有 $\begin{align}f’(z)=\frac{\partial u}{\partial x}+i\frac{\partial v}{\partial x}\end{align}$ 或 $\begin{align}f’(z)=\frac{\partial v}{\partial y}-i\frac{\partial u}{\partial y}\end{align}$<br>函数 $f(z)=u(x,y)+iv(x,y)$ 在区域$D$ 内解析的<strong>充分必要条件</strong>是 $u,v$ <strong>可微</strong>且满足<strong>柯西-黎曼方程</strong></p>
-<p>转专业成功哩，咕咕咕</p>
+F&=\bar{X}\bar{Y}\bar{Z}+\bar{X}Y\bar{Z}+X\bar{Y}Z+XYZ\\
+&=m_0+m_2+m_5+m_7\\
+&=\sum m(0,2,5,7)
+\end{align}</script><p><strong>最大项之积</strong>，对应离散数学中和 <strong>合取范式</strong>，形如：</p>
+<script type="math/tex; mode=display">
+\begin{align}
+F&=(X+Y+\bar{Z})(X+\bar{Y}+\bar{Z})(\bar{X}+Y+Z)(\bar{X}+\bar{Y}+Z)\\
+&=M_1\cdot M_3\cdot M_4\cdot M_6\quad(\bar{m_j}=M_j)\\
+&=\prod M(1,3,4,6)
+\end{align}</script><p><strong>积之和</strong> 与 <strong>和之积</strong> 的每一个逻辑项可以有 <strong>任意数目</strong> 的 <strong>不同文字</strong>，导致 <strong>二级门电路</strong></p>
+<h3 id="成本标准"><a href="#成本标准" class="headerlink" title="成本标准"></a>成本标准</h3><p>（1）<strong>文字成本</strong> 即与逻辑图一一对应的布尔表达式中文字的个数，记 L<br>（2）<strong>门输入成本</strong> 即与给定等式一一对应的实现中所用门的不计非门输入端的个数，记 G<br>（3）<strong>带非门的门输入成本</strong> 在门输入成本的基础上计入非门且相同文字只记一次，记 GN</p>
+<h3 id="卡诺图的化简"><a href="#卡诺图的化简" class="headerlink" title="卡诺图的化简"></a>卡诺图的化简</h3><p><strong>蕴含项</strong> 即函数对某个乘积项的每一个最小项都取值为 $1$<br><strong>主蕴含项</strong> 即从蕴含项中去除任意一个变量所得乘积项就不是函数的蕴含项<br><strong>质主蕴含项</strong> 即函数的某个最小项 <strong>只包含</strong> 在这个主蕴含项中</p>
+<h3 id="奇函数与偶函数"><a href="#奇函数与偶函数" class="headerlink" title="奇函数与偶函数"></a>奇函数与偶函数</h3><p><strong>多变量异或运算</strong> 值等于 $1$ 的条件是由 <strong>奇数</strong> 个变量的值为 $1$ ，被成为 <strong>奇函数</strong><br>组成奇函数的 <strong>反函数</strong> 被称为 <strong>偶函数</strong> ，可以通过同或门获得</p>
  
       <!-- reward -->
       
@@ -226,12 +224,12 @@ w=u(x,y)+iv(x,y)
     <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://reedrift.github.io/2025/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0%E4%B8%8E%E7%A7%AF%E5%88%86%E5%8F%98%E6%8D%A2/" alt="微信分享二维码">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://reedrift.github.io/2025/%E6%95%B0%E5%AD%97%E9%80%BB%E8%BE%91%E8%AE%BE%E8%AE%A1%EF%BC%88%E9%80%9F%E9%80%9A%E7%89%88%EF%BC%89/" alt="微信分享二维码">
     </div>
 </div>
 
 <div id="share-mask"></div>  
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%95%B0%E7%90%86%E5%9F%BA%E7%A1%80/" rel="tag">数理基础</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/" rel="tag">课程笔记</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E4%B8%93%E4%B8%9A%E8%AF%BE%E7%A8%8B/" rel="tag">专业课程</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/" rel="tag">课程笔记</a></li></ul>
 
     </footer>
   </div>
@@ -239,19 +237,10 @@ w=u(x,y)+iv(x,y)
    
   <nav class="article-nav">
     
-      <a href="/2025/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/" class="article-nav-link">
-        <strong class="article-nav-caption">上一篇</strong>
-        <div class="article-nav-title">
-          
-            数学建模
-          
-        </div>
-      </a>
     
-    
-      <a href="/2025/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/" class="article-nav-link">
+      <a href="/2025/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90/" class="article-nav-link">
         <strong class="article-nav-caption">下一篇</strong>
-        <div class="article-nav-title">概率论与数理统计</div>
+        <div class="article-nav-title">计算机组成</div>
       </a>
     
   </nav>

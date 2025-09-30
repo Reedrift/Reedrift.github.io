@@ -114,7 +114,7 @@ var _hmt = _hmt || [];
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">0</span>
+            <span class="post-count">271</span>
         </span>
     </span>
 
@@ -130,13 +130,20 @@ var _hmt = _hmt || [];
  
     </div>
       
+    <div class="tocbot"></div>
+
 
 
 
   
     <div class="article-entry" itemprop="articleBody">
        
-  <span id="more"></span> 
+  <h2 id="红黑树"><a href="#红黑树" class="headerlink" title="红黑树"></a>红黑树</h2><h3 id="定义与性质"><a href="#定义与性质" class="headerlink" title="定义与性质"></a>定义与性质</h3><p>一棵合法的 <strong>红黑树</strong> 是遵循以下五条性质的二叉搜索树：<br>（1）节点要么为红色要么为黑色<br>（2）NIL 节点为黑色节点<br>（3）红色节点的子节点必然为黑色节点<br>（4）从根节点到所有 NIL 节点的简单路径上的 <strong>黑色节点</strong> 数量 <strong>相同</strong><br>（5）根节点为黑色节点</p>
+<p>一棵包含 $n$ 个 <strong>内部节点</strong> 的红黑树的 <strong>最大高度</strong> 为 $2\ln{(n+1)}$<br><span id="more"></span></p>
+<h3 id="插入操作"><a href="#插入操作" class="headerlink" title="插入操作"></a>插入操作</h3><p><img src="/pictures/ADS/RBT-Insert.png" alt="摄于主图书馆北侧草坪" style="display: block; margin: 0 auto; width: 70%;"></p>
+<h2 id="B-树"><a href="#B-树" class="headerlink" title="B+树"></a>B+树</h2><h3 id="定义与性质-1"><a href="#定义与性质-1" class="headerlink" title="定义与性质"></a>定义与性质</h3><p>一棵阶为 $m$ 的 <strong>B+树</strong> 具有以下性质：<br>（1）<strong>根节点</strong> 要么是一个叶子节点，要么有 $2$ 至 $m$ 个子节点<br>（2）所有的 <strong>非叶子节点</strong>（除了根节点）都有 $\lceil\frac{m}{2}\rceil$ 至 $m$ 个子节点<br>（3）所有的 <strong>叶子节点</strong> 具有 <strong>相同的高度</strong><br>假设所有的 <strong>非根节点</strong> 都有 $\lceil\frac{m}{2}\rceil$ 至 $m$ 个儿子</p>
+<p>所有的数据都保存在 <strong>叶子节点</strong> 中<br>每一个 <strong>内部节点</strong> 包含 $m$ 个指针指向子节点</p>
+ 
       <!-- reward -->
       
     </div>

@@ -6,7 +6,7 @@
   <link href="https://reedrift.github.io/atom.xml" rel="self"/>
   
   <link href="https://reedrift.github.io/"/>
-  <updated>2025-09-29T03:03:28.887Z</updated>
+  <updated>2025-09-30T13:37:20.419Z</updated>
   <id>https://reedrift.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>数字逻辑设计（速通版）</title>
+    <link href="https://reedrift.github.io/2025/%E6%95%B0%E5%AD%97%E9%80%BB%E8%BE%91%E8%AE%BE%E8%AE%A1%EF%BC%88%E9%80%9F%E9%80%9A%E7%89%88%EF%BC%89/"/>
+    <id>https://reedrift.github.io/2025/%E6%95%B0%E5%AD%97%E9%80%BB%E8%BE%91%E8%AE%BE%E8%AE%A1%EF%BC%88%E9%80%9F%E9%80%9A%E7%89%88%EF%BC%89/</id>
+    <published>2025-09-30T11:52:23.000Z</published>
+    <updated>2025-09-30T13:37:20.419Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;Chapter-1-数字系统与信息&quot;&gt;&lt;a href=&quot;#Chapter-1-数字系统与信息&quot; class=&quot;headerlink&quot; title=&quot;Chapter-1 数字系统与信息&quot;&gt;&lt;/a&gt;Chapter-1 数字系统与信息&lt;/h2&gt;&lt;h3 id=&quot;十进制编码&quot;&gt;&lt;a href=&quot;#十进制编码&quot; class=&quot;headerlink&quot; title=&quot;十进制编码&quot;&gt;&lt;/a&gt;十进制编码&lt;/h3&gt;&lt;p&gt;BCD码是 &lt;strong&gt;十进制&lt;/strong&gt; 数，不是二进制数，即使它们都采用二进制位的组合来表示，如&lt;/p&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;
+(185)_{10}=(0001&#92;space1000&#92;space0101)_{BCD}=(10111001)_2&lt;/script&gt;</summary>
+    
+    
+    
+    
+    <category term="课程笔记" scheme="https://reedrift.github.io/tags/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="专业课程" scheme="https://reedrift.github.io/tags/%E4%B8%93%E4%B8%9A%E8%AF%BE%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>计算机组成</title>
@@ -46,16 +67,11 @@
     <link href="https://reedrift.github.io/2025/%E9%AB%98%E7%BA%A7%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90/"/>
     <id>https://reedrift.github.io/2025/%E9%AB%98%E7%BA%A7%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90/</id>
     <published>2025-09-28T11:54:22.000Z</published>
-    <updated>2025-09-29T03:03:16.544Z</updated>
+    <updated>2025-09-30T06:47:34.638Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
-        
-      
+    <summary type="html">&lt;h2 id=&quot;红黑树&quot;&gt;&lt;a href=&quot;#红黑树&quot; class=&quot;headerlink&quot; title=&quot;红黑树&quot;&gt;&lt;/a&gt;红黑树&lt;/h2&gt;&lt;h3 id=&quot;定义与性质&quot;&gt;&lt;a href=&quot;#定义与性质&quot; class=&quot;headerlink&quot; title=&quot;定义与性质&quot;&gt;&lt;/a&gt;定义与性质&lt;/h3&gt;&lt;p&gt;一棵合法的 &lt;strong&gt;红黑树&lt;/strong&gt; 是遵循以下五条性质的二叉搜索树：&lt;br&gt;（1）节点要么为红色要么为黑色&lt;br&gt;（2）NIL 节点为黑色节点&lt;br&gt;（3）红色节点的子节点必然为黑色节点&lt;br&gt;（4）从根节点到所有 NIL 节点的简单路径上的 &lt;strong&gt;黑色节点&lt;/strong&gt; 数量 &lt;strong&gt;相同&lt;/strong&gt;&lt;br&gt;（5）根节点为黑色节点&lt;/p&gt;
+&lt;p&gt;一棵包含 $n$ 个 &lt;strong&gt;内部节点&lt;/strong&gt; 的红黑树的 &lt;strong&gt;最大高度&lt;/strong&gt; 为 $2&#92;ln{(n+1)}$&lt;br&gt;</summary>
     
     
     
@@ -121,10 +137,11 @@
     <link href="https://reedrift.github.io/2025/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0%E4%B8%8E%E7%A7%AF%E5%88%86%E5%8F%98%E6%8D%A2/"/>
     <id>https://reedrift.github.io/2025/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0%E4%B8%8E%E7%A7%AF%E5%88%86%E5%8F%98%E6%8D%A2/</id>
     <published>2025-09-16T05:23:47.000Z</published>
-    <updated>2025-09-28T11:50:41.928Z</updated>
+    <updated>2025-09-30T13:39:14.977Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;Chapter-1-预备知识&quot;&gt;&lt;a href=&quot;#Chapter-1-预备知识&quot; class=&quot;headerlink&quot; title=&quot;Chapter-1 预备知识&quot;&gt;&lt;/a&gt;Chapter-1 预备知识&lt;/h2&gt;&lt;h3 id=&quot;复球面与无穷远点&quot;&gt;&lt;a href=&quot;#复球面与无穷远点&quot; class=&quot;headerlink&quot; title=&quot;复球面与无穷远点&quot;&gt;&lt;/a&gt;复球面与无穷远点&lt;/h3&gt;&lt;p&gt;与一元函数微积分中数轴附加的 $-&#92;infty$ 与 $+&#92;infty$ 不同，扩充复平面上的 $&#92;infty$ 点&lt;strong&gt;只有一点&lt;/strong&gt;&lt;br&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;Chapter-1-预备知识&quot;&gt;&lt;a href=&quot;#Chapter-1-预备知识&quot; class=&quot;headerlink&quot; title=&quot;Chapter-1 预备知识&quot;&gt;&lt;/a&gt;Chapter-1 预备知识&lt;/h2&gt;&lt;h3 id=&quot;复球面与无穷远点&quot;&gt;&lt;a href=&quot;#复球面与无穷远点&quot; class=&quot;headerlink&quot; title=&quot;复球面与无穷远点&quot;&gt;&lt;/a&gt;复球面与无穷远点&lt;/h3&gt;&lt;p&gt;与一元函数微积分中数轴附加的 $-&#92;infty$ 与 $+&#92;infty$ 不同，扩充复平面上的 $&#92;infty$ 点&lt;strong&gt;只有一点&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;</summary>
     
     
     
@@ -160,16 +177,10 @@
     <link href="https://reedrift.github.io/2025/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E4%B9%99II/"/>
     <id>https://reedrift.github.io/2025/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E4%B9%99II/</id>
     <published>2025-09-15T02:12:03.000Z</published>
-    <updated>2025-09-28T11:50:33.722Z</updated>
+    <updated>2025-09-29T13:31:35.224Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
-        
-      
+    <summary type="html">&lt;h2 id=&quot;Chapter-13-静电场中的导体和电介质&quot;&gt;&lt;a href=&quot;#Chapter-13-静电场中的导体和电介质&quot; class=&quot;headerlink&quot; title=&quot;Chapter-13 静电场中的导体和电介质&quot;&gt;&lt;/a&gt;Chapter-13 静电场中的导体和电介质&lt;/h2&gt;</summary>
     
     
     
