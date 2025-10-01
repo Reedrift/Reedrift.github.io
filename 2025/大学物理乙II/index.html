@@ -114,7 +114,7 @@ var _hmt = _hmt || [];
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">13</span>
+            <span class="post-count">1.1k</span>
         </span>
     </span>
 
@@ -123,7 +123,7 @@ var _hmt = _hmt || [];
         <span class="post-meta-item-icon">
             <i class="ri-book-open-line"></i>
             <span class="post-meta-item-text"> 阅读时长≈</span>
-            <span class="post-count">1 分钟</span>
+            <span class="post-count">4 分钟</span>
         </span>
     </span>
 </div>
@@ -138,7 +138,84 @@ var _hmt = _hmt || [];
   
     <div class="article-entry" itemprop="articleBody">
        
-  <h2 id="Chapter-13-静电场中的导体和电介质"><a href="#Chapter-13-静电场中的导体和电介质" class="headerlink" title="Chapter-13 静电场中的导体和电介质"></a>Chapter-13 静电场中的导体和电介质</h2><span id="more"></span> 
+  <h2 id="Chapter-13-导体和电介质"><a href="#Chapter-13-导体和电介质" class="headerlink" title="Chapter-13 导体和电介质"></a>Chapter-13 导体和电介质</h2><h3 id="导体静电平衡"><a href="#导体静电平衡" class="headerlink" title="导体静电平衡"></a>导体静电平衡</h3><p>导体的 <strong>静电平衡</strong> 必须满足以下条件：<br>（1）导体 <strong>内部电场</strong> 处处为零，导体内部电势为 <strong>常量</strong>，导体为 <strong>等势体</strong>，表面为 <strong>等势面</strong><br>（2）导体表面上每一处的电场强度处处与表面 <strong>垂直</strong><br><span id="more"></span></p>
+<h3 id="导体的电荷分布"><a href="#导体的电荷分布" class="headerlink" title="导体的电荷分布"></a>导体的电荷分布</h3><p><strong>空心导体</strong> 上 <strong>净电荷</strong> 的分布完全与实心导体一样，净电荷只能分布在 <strong>外表面</strong> 上<br>导体表面上电荷密度 $\sigma$ 的分布与 <strong>表面附近</strong> 电场强度 $E$ 满足关系：</p>
+<script type="math/tex; mode=display">
+\begin{align}
+\oint_S E\cdot\mathrm{d}S&=E\Delta S=\frac{1}{\varepsilon_0}\sigma\Delta S\\
+\Rightarrow E&=\frac{\sigma}{\varepsilon_0}
+\end{align}</script><p>在 <strong>没有外电场</strong> 的情况下，电荷分布与导体表面的 <strong>曲率</strong> 有关：<br>（1）导体突出的地方曲率较大，电荷面密度较大，该处电场强度较大<br>（2）导体凹陷的地方曲率为负，电荷面密度较小，此处电场强度较小<br><strong>导体空腔</strong> 屏蔽 <strong>外电场</strong>，<strong>接地导体空腔</strong> 使内外电场 <strong>互不影响</strong>，相互独立</p>
+<h3 id="电容器"><a href="#电容器" class="headerlink" title="电容器"></a>电容器</h3><p>（1）<strong>孤立导体</strong> 的电容 （导体周围没有其他 <strong>导体</strong> 和 <strong>带电体</strong> ）</p>
+<script type="math/tex; mode=display">
+C=\frac{q}{V}</script><p>（2）<strong>平行板</strong> 电容器（极板面积线度 <strong>远大于</strong> 两板间距）</p>
+<script type="math/tex; mode=display">
+C=\frac{q}{\Delta V}=\frac{q}{Ed}=\frac{\varepsilon_0 S}{d}</script><p>（3）<strong>同心球形</strong> 电容器（内外半径分别记为 $R_\mathrm{A}$ 和 $R_\mathrm{B}$ ）</p>
+<script type="math/tex; mode=display">
+\begin{align}
+\Delta V&=\int_{\mathrm{A}}^{\mathrm{B}}E\cdot\mathrm{d}l
+=\int_{R_\mathrm{A}}^{R_\mathrm{B}}\frac{1}{4\pi\varepsilon_0}\frac{q}{r^2}\mathrm{d}r
+=\frac{q}{4\pi\varepsilon_0}\frac{R_\mathrm{B}-R_\mathrm{A}}{R_\mathrm{A}R_\mathrm{B}}
+\\
+C&=\frac{q}{\Delta V}
+=4\pi\varepsilon_0\frac{R_\mathrm{A}R_\mathrm{B}}{R_\mathrm{B}-R_\mathrm{A}}
+\end{align}</script><p>（4）<strong>同轴圆柱形</strong> 电容器（内外径分别记为 $R_\mathrm{A}$ 和 $R_\mathrm{B}$ ，长度为 $l$）</p>
+<script type="math/tex; mode=display">
+C=\frac{2\pi\varepsilon_0l}{\ln\frac{R_\mathrm{B}}{R_\mathrm{A}}}</script><p>电容器的原理： <strong>其他导体</strong> 产生的感应电荷使该导体电势 <strong>绝对值减小</strong><br><strong>极限电压</strong> 指可以加于电容器两极板之间而不致其被击穿的 <strong>最高电压</strong></p>
+<h3 id="电容器的串并联"><a href="#电容器的串并联" class="headerlink" title="电容器的串并联"></a>电容器的串并联</h3><p>电容器 <strong>串联</strong> 时，总电容的 <strong>倒数</strong> 等于各个电容器电容的倒数之和</p>
+<script type="math/tex; mode=display">
+\frac{1}{C}=\frac{1}{C_1}+\frac{1}{C_2}+\cdots+\frac{1}{C_N}</script><p>电容器 <strong>并联</strong> 时，总电容等于各个电容器电容之和</p>
+<script type="math/tex; mode=display">
+C=C_1+C_2+\cdots C_N</script><h3 id="电介质"><a href="#电介质" class="headerlink" title="电介质"></a>电介质</h3><p><strong>电介质</strong> 指不导电的物质，电荷被束缚在 <strong>原子范围内</strong> 不能 <strong>宏观移动</strong> ，被称为 <strong>束缚电荷</strong><br><strong>无极电介质</strong> 指没有外电场是正负电荷重心重合，<strong>不具有</strong> 固有电偶极矩的电介质<br><strong>有极电介质</strong> 指正负电荷重心错开，<strong>具有</strong> 固有电偶极矩的电介质，<strong>合电偶极矩</strong> 仍为 <strong>零</strong></p>
+<h3 id="电介质的极化"><a href="#电介质的极化" class="headerlink" title="电介质的极化"></a>电介质的极化</h3><p>在 <strong>外电场</strong> 作用下，<strong>无极分子</strong> 中的正负电荷拉开距离，形成与外电场 <strong>方向相同</strong> 的电偶极矩，这种由外电场产生的电偶极矩称为 <strong>感生电偶极矩</strong> （电偶极矩的方向为负指向正）</p>
+<p>对于均匀电介质 <strong>内部</strong> 仍然显 <strong>中性</strong>，但在电介质和外电场垂直的两个表面会出现正负 <strong>束缚电荷</strong>，这种现象称为 <strong>电介质极化</strong>，无极分子的极化称为 <strong>电子位移极化</strong></p>
+<p>外电场对 <strong>有极分子</strong> 的作用可以归结为电偶极矩转到外电场方向，对分子电偶极矩的数值 <strong>无影响</strong>，外电场越强，排列约整齐，束缚电荷越多，极化程度越高，称为 <strong>转向极化</strong></p>
+<p>采用 <strong>单位体积</strong> 内的电偶极矩 <strong>矢量和</strong> 来表征电介质极化的程度，单位为 $\mathrm{C/m^2}$</p>
+<script type="math/tex; mode=display">
+P=\frac{\sum p_{分子}}{\Delta V}</script><h3 id="束缚电荷密度"><a href="#束缚电荷密度" class="headerlink" title="束缚电荷密度"></a>束缚电荷密度</h3><p>电介质极化时产生的束缚电荷 <strong>面密度</strong> 等于 <strong>电极化强度</strong> 沿相应表面外法线方向的分量</p>
+<script type="math/tex; mode=display">
+\Delta S\sigma l=Pd\Delta S\quad\Rightarrow\quad\sigma=P\cos\theta=P_n</script><p>电极化强度通过闭合曲面的 <strong>通量</strong> 等于该闭合曲面包围的体积内 <strong>净余束缚电荷</strong> 的负值</p>
+<script type="math/tex; mode=display">
+\oint_S P\cdot\mathrm{d}S=-\sum_{S内}q'=-\int_V\rho\space\mathrm{d}V</script><h3 id="束缚电荷产生的电场"><a href="#束缚电荷产生的电场" class="headerlink" title="束缚电荷产生的电场"></a>束缚电荷产生的电场</h3><p>电介质中的场应是外电荷产生的场 $E_0$ 和束缚电荷产生的场 $E’$ 的 <strong>矢量和</strong></p>
+<script type="math/tex; mode=display">
+E=E_0+E'<E_0</script><p>对于任意类型的 <strong>各向同性</strong> 电介质，同一点处的极化强度和电场强度有如下关系</p>
+<script type="math/tex; mode=display">
+P=\chi_\mathrm{e}\varepsilon_0E</script><p>其中 $\chi_\mathrm{e}$ 称为电介质的极化率，仅与 <strong>电介质的种类</strong> 有关，该式只在不太强的电场中正确</p>
+<h3 id="电位移"><a href="#电位移" class="headerlink" title="电位移"></a>电位移</h3><p><strong>高斯定理</strong> 在有电介质存在时可以写作</p>
+<script type="math/tex; mode=display">
+\oint_S E\cdot\mathrm{d}S=\frac{1}{\varepsilon_0}\sum_{S内}(q_0+q')</script><p>其中 $q_0$ 为高斯面内的 <strong>自由电荷</strong>，$q’$ 为高斯面内的 <strong>束缚电荷</strong><br>由 <strong>束缚电荷的体密度</strong> 公式化简可得</p>
+<script type="math/tex; mode=display">
+\oint_S(\varepsilon_0E+P)\cdot\mathrm{d}S=\sum_{S内}q_0</script><p>定义 <strong>电位移</strong> 为 $D=\varepsilon_0E+P$ ，则电介质中的高斯公式可以写作</p>
+<script type="math/tex; mode=display">
+\oint_SD\cdot\mathrm{d}S=\sum_{S内}q_0</script><p>由 $D=\varepsilon_0E+P=\varepsilon_0E+\chi_\mathrm{e}\varepsilon_0E=(1+\chi_\mathrm{e})\varepsilon_0E$ ，定义</p>
+<script type="math/tex; mode=display">
+\varepsilon_{\mathrm{r}}=1+\chi_\mathrm{e}</script><p>为电介质的 <strong>相对介电常量</strong> ，或简称 <strong>介电常量</strong> ，则 $D=\varepsilon_0\varepsilon_{\mathrm{r}}E$</p>
+<h3 id="电介质作用"><a href="#电介质作用" class="headerlink" title="电介质作用"></a>电介质作用</h3><p>充满电介质后，电容器的电容 <strong>增大</strong> 到无电容器时的 $\varepsilon_{\mathrm{r}}$ 倍<br>多数电介质材料的 <strong>击穿电场强度</strong> 大于空气，可以提高电容器的 <strong>耐压能力</strong></p>
+<h3 id="电场的能量"><a href="#电场的能量" class="headerlink" title="电场的能量"></a>电场的能量</h3><div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:left">类型</th>
+<th style="text-align:left">能量</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">带电导体</td>
+<td style="text-align:left">$\begin{align}U_\mathrm{e}=\frac{1}{2}\frac{q^2}{C}=\frac{1}{2}CV^2=\frac{1}{2}qV\end{align}$</td>
+</tr>
+<tr>
+<td style="text-align:left">带电电容器</td>
+<td style="text-align:left">$\begin{align}U_\mathrm{e}=\frac{1}{2}C\Delta V^2=\frac{1}{2}q\Delta V\end{align}$</td>
+</tr>
+<tr>
+<td style="text-align:left">平行板电容器</td>
+<td style="text-align:left">$\begin{align}U_\mathrm{e}=\frac{1}{2}\varepsilon_0\varepsilon_\mathrm{r}E^2Sd\end{align}$</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>电场中单位体积的能量称为 <strong>电场能量密度</strong> $\begin{align}u_\mathrm{e}=\frac{1}{2}\varepsilon_0\varepsilon_\mathrm{r}E^2\end{align}$</p>
+ 
       <!-- reward -->
       
     </div>

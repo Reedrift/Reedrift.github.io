@@ -114,7 +114,7 @@ var _hmt = _hmt || [];
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">591</span>
+            <span class="post-count">701</span>
         </span>
     </span>
 
@@ -140,7 +140,7 @@ var _hmt = _hmt || [];
        
   <h2 id="Chapter-1-数字系统与信息"><a href="#Chapter-1-数字系统与信息" class="headerlink" title="Chapter-1 数字系统与信息"></a>Chapter-1 数字系统与信息</h2><h3 id="十进制编码"><a href="#十进制编码" class="headerlink" title="十进制编码"></a>十进制编码</h3><p>BCD码是 <strong>十进制</strong> 数，不是二进制数，即使它们都采用二进制位的组合来表示，如</p>
 <script type="math/tex; mode=display">
-(185)_{10}=(0001\space1000\space0101)_{BCD}=(10111001)_2</script><span id="more"></span>
+(185)_{10}=(0001\space1000\space0101)_{\mathrm{BCD}}=(10111001)_2</script><span id="more"></span>
 <h3 id="格雷码"><a href="#格雷码" class="headerlink" title="格雷码"></a>格雷码</h3><p>相邻两个数字的 <strong>格雷码</strong> 只有一个 bit 上的 0/1 不同，数字 $x$ 对应的格雷码为</p>
 <script type="math/tex; mode=display">
 x\space\mathrm{xor}\space(x\space\mathrm{shr}\space1)</script><h2 id="Chapter-2-组合逻辑电路"><a href="#Chapter-2-组合逻辑电路" class="headerlink" title="Chapter-2 组合逻辑电路"></a>Chapter-2 组合逻辑电路</h2><h3 id="对偶式"><a href="#对偶式" class="headerlink" title="对偶式"></a>对偶式</h3><p>一个表达式的 <strong>对偶式</strong> 就是将与变为或，或变为与，同时将 0/1 取反<br><strong>对偶原则</strong> 指出，如果将表达式等号两侧 <strong>同时</strong> 取对偶，表达式仍然成立<br>求解 <strong>反函数</strong> 的方法为，先求此函数的对偶式然后将每一个文字取反</p>
@@ -160,6 +160,7 @@ F&=(X+Y+\bar{Z})(X+\bar{Y}+\bar{Z})(\bar{X}+Y+Z)(\bar{X}+\bar{Y}+Z)\\
 <h3 id="成本标准"><a href="#成本标准" class="headerlink" title="成本标准"></a>成本标准</h3><p>（1）<strong>文字成本</strong> 即与逻辑图一一对应的布尔表达式中文字的个数，记 L<br>（2）<strong>门输入成本</strong> 即与给定等式一一对应的实现中所用门的不计非门输入端的个数，记 G<br>（3）<strong>带非门的门输入成本</strong> 在门输入成本的基础上计入非门且相同文字只记一次，记 GN</p>
 <h3 id="卡诺图的化简"><a href="#卡诺图的化简" class="headerlink" title="卡诺图的化简"></a>卡诺图的化简</h3><p><strong>蕴含项</strong> 即函数对某个乘积项的每一个最小项都取值为 $1$<br><strong>主蕴含项</strong> 即从蕴含项中去除任意一个变量所得乘积项就不是函数的蕴含项<br><strong>质主蕴含项</strong> 即函数的某个最小项 <strong>只包含</strong> 在这个主蕴含项中</p>
 <h3 id="奇函数与偶函数"><a href="#奇函数与偶函数" class="headerlink" title="奇函数与偶函数"></a>奇函数与偶函数</h3><p><strong>多变量异或运算</strong> 值等于 $1$ 的条件是由 <strong>奇数</strong> 个变量的值为 $1$ ，被成为 <strong>奇函数</strong><br>组成奇函数的 <strong>反函数</strong> 被称为 <strong>偶函数</strong> ，可以通过同或门获得</p>
+<h3 id="门的传播延迟"><a href="#门的传播延迟" class="headerlink" title="门的传播延迟"></a>门的传播延迟</h3><p><strong>参考电压</strong> 是电压信号最大值与最小值之间的 <strong>中间值</strong>，即 $50\%$ 处<br>$t_{\mathrm{PHL}}$ 是 <strong>输出</strong> 从 <strong>高变低</strong> 时，从输入的参考电压到输出的参考电压间的时间差<br>$t_{\mathrm{PLH}}$ 是 <strong>输出</strong> 从 <strong>低变高</strong> 时，从输入的参考电压到输出的参考电压间的时间差<br>$t_\mathrm{pd}$ 是两个传播时间的 <strong>较大值</strong></p>
  
       <!-- reward -->
       
