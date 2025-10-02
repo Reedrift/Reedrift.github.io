@@ -25,7 +25,58 @@ F&=(X+Y+\bar{Z})(X+\bar{Y}+\bar{Z})(\bar{X}+Y+Z)(\bar{X}+\bar{Y}+Z)\\
 <h3 id="成本标准"><a href="#成本标准" class="headerlink" title="成本标准"></a>成本标准</h3><p>（1）<strong>文字成本</strong> 即与逻辑图一一对应的布尔表达式中文字的个数，记 L<br>（2）<strong>门输入成本</strong> 即与给定等式一一对应的实现中所用门的不计非门输入端的个数，记 G<br>（3）<strong>带非门的门输入成本</strong> 在门输入成本的基础上计入非门且相同文字只记一次，记 GN</p>
 <h3 id="卡诺图的化简"><a href="#卡诺图的化简" class="headerlink" title="卡诺图的化简"></a>卡诺图的化简</h3><p><strong>蕴含项</strong> 即函数对某个乘积项的每一个最小项都取值为 $1$<br><strong>主蕴含项</strong> 即从蕴含项中去除任意一个变量所得乘积项就不是函数的蕴含项<br><strong>质主蕴含项</strong> 即函数的某个最小项 <strong>只包含</strong> 在这个主蕴含项中</p>
 <h3 id="奇函数与偶函数"><a href="#奇函数与偶函数" class="headerlink" title="奇函数与偶函数"></a>奇函数与偶函数</h3><p><strong>多变量异或运算</strong> 值等于 $1$ 的条件是由 <strong>奇数</strong> 个变量的值为 $1$ ，被成为 <strong>奇函数</strong><br>组成奇函数的 <strong>反函数</strong> 被称为 <strong>偶函数</strong> ，可以通过同或门获得</p>
-<h3 id="门的传播延迟"><a href="#门的传播延迟" class="headerlink" title="门的传播延迟"></a>门的传播延迟</h3><p><strong>参考电压</strong> 是电压信号最大值与最小值之间的 <strong>中间值</strong>，即 $50\%$ 处<br>$t_{\mathrm{PHL}}$ 是 <strong>输出</strong> 从 <strong>高变低</strong> 时，从输入的参考电压到输出的参考电压间的时间差<br>$t_{\mathrm{PLH}}$ 是 <strong>输出</strong> 从 <strong>低变高</strong> 时，从输入的参考电压到输出的参考电压间的时间差<br>$t_\mathrm{pd}$ 是两个传播时间的 <strong>较大值</strong></p>
+<h3 id="门的传播延迟"><a href="#门的传播延迟" class="headerlink" title="门的传播延迟"></a>门的传播延迟</h3><p><strong>参考电压</strong> 是电压信号最大值与最小值之间的 <strong>中间值</strong>，即 $50\%$ 处<br>$t_{\mathrm{PHL}}$ 是 <strong>输出</strong> 从 <strong>高变低</strong> 时，从输入的参考电压到输出的参考电压间的时间差<br>$t_{\mathrm{PLH}}$ 是 <strong>输出</strong> 从 <strong>低变高</strong> 时，从输入的参考电压到输出的参考电压间的时间差<br>$t_\mathrm{pd}$ 是两个传播时间的 <strong>较大值</strong> ，称为 <strong>传播延迟</strong></p>
+<p><strong>传输延迟</strong> 是指输出响应输入的变化，认为输入和输出之间的延迟是一个定值<br><strong>惯性延迟</strong> 引入了 <strong>拒绝时间</strong>，只有输出在大于拒绝时间间隔内发生才会实际发生变化<br>惯性延迟可以用于 <strong>过滤噪音</strong> 等</p>
+<h3 id="延迟计算"><a href="#延迟计算" class="headerlink" title="延迟计算"></a>延迟计算</h3><p>门的 <strong>总体延迟</strong> 取决于两部分：电路自身的 <strong>固有延迟</strong> 和 <strong>输出负载延迟</strong>，可以表示为：</p>
+<script type="math/tex; mode=display">
+总体延迟(t_\mathrm{pd})=固有延迟+驱动的标准负载数\times单个标准负载延迟</script><p>在现代高速电路中，由布线电容引起的门延迟部分通常也很可观</p>
+<h3 id="Verilog-1"><a href="#Verilog-1" class="headerlink" title="Verilog-1"></a>Verilog-1</h3><p>输入输出和其它二进制信号类型有 $4$ 个取值：$0/1/x(未知)/z(高阻)$<br>buf <strong>反相器</strong> 是放大电信号的 <strong>放大器</strong>，可以用来 <strong>驱动大的扇出</strong> 或是 <strong>减少延迟</strong><br>Verilog 的描述方法分为 <strong>结构化描述</strong> 和 <strong>数据流描述</strong><br>在根据电路网表确定门的相互连接之前需要对电路中 <strong>所有节点</strong> 命名<br><strong>数据流描述</strong> 中语句 assign 的执行顺序与出现的顺序 <strong>无关</strong>，与右侧信号变化顺序 <strong>有关</strong></p>
+<h2 id="Chapter-3组合逻辑电路设计"><a href="#Chapter-3组合逻辑电路设计" class="headerlink" title="Chapter-3组合逻辑电路设计"></a>Chapter-3组合逻辑电路设计</h2><h3 id="工艺映射"><a href="#工艺映射" class="headerlink" title="工艺映射"></a>工艺映射</h3><p>一个输出端为或门的电路，采用与非门映射后会在输出端得到一个与非门<br>一个输出端为或门的电路，采用或非门映射后会得到被或非门驱动的反相器<br><strong>积之和</strong> 式被认为更适合使用 <strong>与非门</strong>，<strong>和之积</strong> 式更适合使用 <strong>或非门</strong></p>
+<h2 id="Chapter-4-时序电路"><a href="#Chapter-4-时序电路" class="headerlink" title="Chapter-4 时序电路"></a>Chapter-4 时序电路</h2><h3 id="锁存器"><a href="#锁存器" class="headerlink" title="锁存器"></a>锁存器</h3><p>不同类型的锁存器或触发器之间的主要区别在于它们拥有的输入信号的 <strong>个数</strong> 以及输入信号影响其二进制状态的 <strong>方式</strong>，通常情况下，触发器是由 <strong>锁存器</strong> 构成的</p>
+<h3 id="触发器"><a href="#触发器" class="headerlink" title="触发器"></a>触发器</h3><p>在触发器中，输入信号的改变可以控制内部锁存器的状态，把这种现象称为 <strong>触发</strong><br>在触发器中，在输出信号改变之前，<strong>输入信号</strong> 和 <strong>输出信号</strong> 之间的通路被断开</p>
+<p><strong>门控时钟</strong> 技术通过多路复用器使在需要时让时钟脉冲 <strong>失效</strong>，从而使 D 触发器输出无变化，但会导致 <strong>时钟偏移</strong>，因而不常用</p>
+<p>触发器经常带有对其状态进行 <strong>异步置位</strong> 和 <strong>异步复位</strong> 的特殊输入<br>实现触发器 <strong>异步置位</strong> 的输入称为 <strong>直接置位</strong> 或者 <strong>预置</strong><br>实现触发器 <strong>异步复位</strong> 的输入称为 <strong>直接复位</strong> 或者 <strong>清零</strong></p>
+<h3 id="状态表"><a href="#状态表" class="headerlink" title="状态表"></a>状态表</h3><p>输出既依赖于 <strong>当前状态</strong> 也依赖于 <strong>输入</strong> 的时序电路，称为 Mealy 型电路<br>输出只依赖于 <strong>当前状态</strong> 的时序电路，称为 Moore 型电路</p>
+<h3 id="无效状态的设计"><a href="#无效状态的设计" class="headerlink" title="无效状态的设计"></a>无效状态的设计</h3><p>（1）采用一个 <strong>额外的输出</strong> 或一个 <strong>未使用</strong> 的输出代码指明电路进入了无效状态<br>（2）适当 <strong>定义</strong> 无效状态的下一个状态行为<br>（3）按照保证任何由于进入了无效状态和无效状态之间的跳变导致的行为都不会带来危害的原则来定义无效状态的输出</p>
+<h3 id="状态机"><a href="#状态机" class="headerlink" title="状态机"></a>状态机</h3><p><strong>输入条件</strong> 可用输入变量的布尔表达式或方程来表示<br><strong>转移条件</strong> 一个状态转移弧上的输入条件称为转换条件，等于 $1$ 时转移发生<br><strong>输出条件</strong> 值为 $1$ 时会引起输出行为发生的输入条件</p>
+<p>后面跟有一条斜线的 <strong>输出条件</strong>（如有）和相应的 <strong>输出操作</strong> 被放置在从该状态或从一个转移条件 TC 出发的一条直线或曲线的 <strong>末尾</strong>，多个输出条件/输出动作之间用逗号隔开<br><img src="/pictures/ADS/GSDT.png" alt="Logical Laws" style="display: block; margin: 0 auto; width: 60%;"></p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>输出行为</th>
+<th>状态机表示（见上图）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Moore 型输出行为</td>
+<td>——Output</td>
+</tr>
+<tr>
+<td>独立于转换条件的 Mealy 输出行为</td>
+<td>——OC/Output</td>
+</tr>
+<tr>
+<td>依赖于转换条件的 Mealy 输出行为</td>
+<td>TC——Output</td>
+</tr>
+<tr>
+<td>依赖于转换条件和输出条件的 Mealy 输出行为</td>
+<td>TC——OC/Output</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="约束检查"><a href="#约束检查" class="headerlink" title="约束检查"></a>约束检查</h3><p>对于每一个状态，它的 <strong>转换条件</strong> 有两个约束：<br>（1）给定状态 $S_i$ 的转换条件之间必须是 <strong>互斥</strong> 的，记转换弧上所有可能条件对为 $(T_{ij},T_{ik})$</p>
+<script type="math/tex; mode=display">
+T_{ij}\space\cdot\space T_{ik}=0</script><p>（2）一个给定状态的全部转换条件必须覆盖 <strong>全部</strong> 可能的输入变量组合</p>
+<script type="math/tex; mode=display">
+\sum T_{ij}=1</script><p>对于每一个状态，它的 <strong>输出条件</strong> 有两个约束：<br>（1）对于在状态 $S_i$ 里面或者在其转换上的各个输出行为，其输出条件对 <strong>互斥</strong></p>
+<script type="math/tex; mode=display">
+O_{ij}\space\cdot\space O_{ik}=0</script><p>（2）对于每一个输出变量，各输出条件必须覆盖 <strong>全部</strong> 可能的输入变量组合</p>
+<script type="math/tex; mode=display">
+\sum O_{ij}=1</script><p>注：即 <strong>转换条件</strong> 和 <strong>输出条件</strong> 都是全集的 <strong>划分</strong></p>
 ]]></content>
       <tags>
         <tag>课程笔记</tag>
