@@ -3,7 +3,8 @@
   <entry>
     <title>数字逻辑设计（速通版）</title>
     <url>/2025/%E6%95%B0%E5%AD%97%E9%80%BB%E8%BE%91%E8%AE%BE%E8%AE%A1%EF%BC%88%E9%80%9F%E9%80%9A%E7%89%88%EF%BC%89/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Chapter-1-数字系统与信息"><a href="#Chapter-1-数字系统与信息" class="headerlink" title="Chapter-1 数字系统与信息"></a>Chapter-1 数字系统与信息</h2><h3 id="十进制编码"><a href="#十进制编码" class="headerlink" title="十进制编码"></a>十进制编码</h3><p>BCD码是 <strong>十进制</strong> 数，不是二进制数，即使它们都采用二进制位的组合来表示，如</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><a href="https://note.isshikih.top/cour_note/D2QD_DigitalDesign/Chap01/">Isshiki修’s Notebook</a></p>
+<h2 id="Chapter-1-数字系统与信息"><a href="#Chapter-1-数字系统与信息" class="headerlink" title="Chapter-1 数字系统与信息"></a>Chapter-1 数字系统与信息</h2><h3 id="十进制编码"><a href="#十进制编码" class="headerlink" title="十进制编码"></a>十进制编码</h3><p>BCD码是 <strong>十进制</strong> 数，不是二进制数，即使它们都采用二进制位的组合来表示，如</p>
 <script type="math/tex; mode=display">
 (185)_{10}=(0001\space1000\space0101)_{\mathrm{BCD}}=(10111001)_2</script><span id="more"></span>
 <h3 id="格雷码"><a href="#格雷码" class="headerlink" title="格雷码"></a>格雷码</h3><p>相邻两个数字的 <strong>格雷码</strong> 只有一个 bit 上的 0/1 不同，数字 $x$ 对应的格雷码为</p>
@@ -30,7 +31,7 @@ F&=(X+Y+\bar{Z})(X+\bar{Y}+\bar{Z})(\bar{X}+Y+Z)(\bar{X}+\bar{Y}+Z)\\
 <h3 id="延迟计算"><a href="#延迟计算" class="headerlink" title="延迟计算"></a>延迟计算</h3><p>门的 <strong>总体延迟</strong> 取决于两部分：电路自身的 <strong>固有延迟</strong> 和 <strong>输出负载延迟</strong>，可以表示为：</p>
 <script type="math/tex; mode=display">
 总体延迟(t_\mathrm{pd})=固有延迟+驱动的标准负载数\times单个标准负载延迟</script><p>在现代高速电路中，由布线电容引起的门延迟部分通常也很可观</p>
-<h3 id="Verilog-1"><a href="#Verilog-1" class="headerlink" title="Verilog-1"></a>Verilog-1</h3><p>输入输出和其它二进制信号类型有 $4$ 个取值：$0/1/x(未知)/z(高阻)$<br>buf <strong>反相器</strong> 是放大电信号的 <strong>放大器</strong>，可以用来 <strong>驱动大的扇出</strong> 或是 <strong>减少延迟</strong><br>Verilog 的描述方法分为 <strong>结构化描述</strong> 和 <strong>数据流描述</strong><br>在根据电路网表确定门的相互连接之前需要对电路中 <strong>所有节点</strong> 命名<br><strong>数据流描述</strong> 中语句 assign 的执行顺序与出现的顺序 <strong>无关</strong>，与右侧信号变化顺序 <strong>有关</strong></p>
+<h3 id="Verilog-1"><a href="#Verilog-1" class="headerlink" title="Verilog-1"></a>Verilog-1</h3><p>输入输出和其它二进制信号类型有 $4$ 个取值：$0/1/x(未知)/z(高阻)$<br>buf <strong>反相器</strong> 是放大电信号的 <strong>放大器</strong>，可以用来 <strong>驱动大的扇出</strong> 或是 <strong>减少延迟</strong><br>Verilog 的描述方法分为 <strong>结构化描述</strong> 和 <strong>数据流描述</strong><br>在根据电路网表确定门的相互连接之前需要对电路中 <strong>所有节点</strong> 命名<br><strong>数据流描述</strong> 中语句 assign 的执行顺序与出现的顺序 <strong>无关</strong>，与右侧信号变化顺序 <strong>有关</strong><br>assign 语句左侧必须是网线类型 <strong>不能</strong> 是寄存器类型，右侧信号变化会 <strong>立刻</strong> 反应到左侧</p>
 <h2 id="Chapter-3组合逻辑电路设计"><a href="#Chapter-3组合逻辑电路设计" class="headerlink" title="Chapter-3组合逻辑电路设计"></a>Chapter-3组合逻辑电路设计</h2><h3 id="工艺映射"><a href="#工艺映射" class="headerlink" title="工艺映射"></a>工艺映射</h3><p>一个输出端为或门的电路，采用与非门映射后会在输出端得到一个与非门<br>一个输出端为或门的电路，采用或非门映射后会得到被或非门驱动的反相器<br><strong>积之和</strong> 式被认为更适合使用 <strong>与非门</strong>，<strong>和之积</strong> 式更适合使用 <strong>或非门</strong></p>
 <h2 id="Chapter-4-时序电路"><a href="#Chapter-4-时序电路" class="headerlink" title="Chapter-4 时序电路"></a>Chapter-4 时序电路</h2><h3 id="锁存器"><a href="#锁存器" class="headerlink" title="锁存器"></a>锁存器</h3><p>不同类型的锁存器或触发器之间的主要区别在于它们拥有的输入信号的 <strong>个数</strong> 以及输入信号影响其二进制状态的 <strong>方式</strong>，通常情况下，触发器是由 <strong>锁存器</strong> 构成的</p>
 <h3 id="触发器"><a href="#触发器" class="headerlink" title="触发器"></a>触发器</h3><p>在触发器中，输入信号的改变可以控制内部锁存器的状态，把这种现象称为 <strong>触发</strong><br>在触发器中，在输出信号改变之前，<strong>输入信号</strong> 和 <strong>输出信号</strong> 之间的通路被断开</p>
@@ -77,6 +78,25 @@ T_{ij}\space\cdot\space T_{ik}=0</script><p>（2）一个给定状态的全部�
 O_{ij}\space\cdot\space O_{ik}=0</script><p>（2）对于每一个输出变量，各输出条件必须覆盖 <strong>全部</strong> 可能的输入变量组合</p>
 <script type="math/tex; mode=display">
 \sum O_{ij}=1</script><p>注：即 <strong>转换条件</strong> 和 <strong>输出条件</strong> 都是全集的 <strong>划分</strong></p>
+<p><strong>无效输出行为</strong>  对于当前时刻，当前节点的输出和出度的输出不能冲突</p>
+<h3 id="Verilog-2"><a href="#Verilog-2" class="headerlink" title="Verilog-2"></a>Verilog-2</h3><p>initial 进程在 $t=0$ 时刻开始执行并 <strong>只执行一次</strong><br>always 进程在 $t=0$ 时刻开始执行并此后会 <strong>重复执行</strong><br>’#‘ 操作符后跟一个整数，可以用于定义 <strong>延迟</strong><br>’@‘ 操作符后跟一个表达式，描述 <strong>引起进程执行</strong> 的一个或多个事件的表达式</p>
+<p><strong>阻塞赋值语句</strong> 用 ’=‘ 作为赋值操作符，<strong>顺序执行</strong>，类似于过程化语言编写的程序<br><strong>非阻塞赋值语句</strong> 用 ’&lt;=‘ 作为赋值操作符，只有计算完 <strong>所有</strong> 右侧的值才进行赋值</p>
+<p>为了确保所设计的 verilog 模块综合后的行为与模拟一致，应遵守以下原则：<br>（1）生成 <strong>组合逻辑</strong> 时，赋值应使用 <strong>阻塞赋值语句</strong><br>（2）生成 <strong>时序逻辑</strong> 时，赋值应使用 <strong>非阻塞赋值语句</strong><br>（3）阻塞和非阻塞语句 <strong>不要</strong> 在一个 always 块中 <strong>混用</strong><br>（4）一个特定的变量（寄存器类型）赋值，应该只在一个 always 块中使用<br>一般由一个 always 块表示时序逻辑，一到两个 always 块表示组合逻辑</p>
+<p>进程中的 if-else 语句可以在 <strong>进程</strong> 中使用，<strong>不能</strong> 在连续赋值语句中使用<br>在 always 块中如果出现语句 D&lt;=D 语句，会表现为保持当前值的 <strong>触发器</strong><br>在 verilog 中假定对于 if-else 或 case 语句中未指定行为的条件组合等价于 Q&lt;=Q</p>
+<h3 id="触发器定时"><a href="#触发器定时" class="headerlink" title="触发器定时"></a>触发器定时</h3><p><strong>建立时间</strong> 最小时间 $t_\mathrm{s}$ 让输出发生改变的时钟变化前，$S$ 或 $R$ 或 $D$ 必须维持一段时间不变<br><strong>保持时间</strong> 最小时间 $t_\mathrm{h}$ 让输出发生改变的时钟变化后，$S$ 或 $R$ 或 $D$ 必须维持一段时间不变<br><strong>时钟脉冲宽度</strong> 最小 $t_\mathrm{w}$ 保证主锁存器有足够的时间来正确地捕获输入值<br><strong>边沿触发式触发器</strong> 多用在较快速设计，边沿式触发器的建立时间可比时钟脉冲宽度 <strong>小很多</strong><br><strong>传播延迟时间</strong> 时钟触发沿与输出稳定为一个新值之间的时间间隔，最小值应 <strong>长于</strong> 保持时间</p>
+<h3 id="时序电路定时"><a href="#时序电路定时" class="headerlink" title="时序电路定时"></a>时序电路定时</h3><p>路径上信号变化的传播延迟一般由三部分组成：<br>（1）触发器 <strong>传播延迟</strong> $t_{\mathrm{pd,\space FF}}$<br>（2）路径上一系列门产生的 <strong>组合逻辑延迟</strong> $t_\mathrm{pd,\space COMB}$<br>（3）触发器的 <strong>建立时间</strong> $t_\mathrm{s}$<br><img src="/pictures/ADS/FFTP.png" alt="Logical Laws" style="display: block; margin: 0 auto; width: 80%;"><br>即 <strong>松弛时间</strong> 为 $t_\mathrm{slack}$ ，则 $P_{\mathrm{FF,\space FF}}$ 类型路径的时间计算公式为</p>
+<script type="math/tex; mode=display">
+t_\mathrm{p}
+=t_\mathrm{slack}+
+(t_{\mathrm{pd,\space FF}}
++t_{\mathrm{pd,\space COMB}}
++t_\mathrm{s})</script><p>为了保证信号的变化值能够被接收触发器捕获，所有路径的松弛时间必须大于等于 $0$</p>
+<script type="math/tex; mode=display">
+t_\mathrm{p}\geq\max
+(t_{\mathrm{pd,\space FF}}
++t_{\mathrm{pd,\space COMB}}
++t_\mathrm{s})
+=t_{\mathrm{p,\min}}</script><h2 id="Chapter-5-数字硬件实现"><a href="#Chapter-5-数字硬件实现" class="headerlink" title="Chapter-5 数字硬件实现"></a>Chapter-5 数字硬件实现</h2><h3 id="常见的可编程技术"><a href="#常见的可编程技术" class="headerlink" title="常见的可编程技术"></a>常见的可编程技术</h3><p>课程中介绍的 <strong>可编程技术</strong> 主要有如下四种：<br>（1）只读内存 Read only Memory (ROM)<br>（2）可编程阵列逻辑 Programmable Array Logic (PAL)<br>（3）可编程逻辑阵列 Programmable Logic Array (PLA)<br>（4）现场可编程逻辑门阵列 Field-Programmable Gate Array (FPGA)<br>前三者都属于永久编程技术<br><img src="/pictures/ADS/BCT-PLDs.png" alt="Logical Laws" style="display: block; margin: 0 auto; width: 80%;"></p>
 ]]></content>
       <tags>
         <tag>课程笔记</tag>

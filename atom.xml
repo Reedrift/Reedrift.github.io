@@ -6,7 +6,7 @@
   <link href="https://reedrift.github.io/atom.xml" rel="self"/>
   
   <link href="https://reedrift.github.io/"/>
-  <updated>2025-10-02T02:58:40.340Z</updated>
+  <updated>2025-10-02T08:17:52.680Z</updated>
   <id>https://reedrift.github.io/</id>
   
   <author>
@@ -21,10 +21,11 @@
     <link href="https://reedrift.github.io/2025/%E6%95%B0%E5%AD%97%E9%80%BB%E8%BE%91%E8%AE%BE%E8%AE%A1%EF%BC%88%E9%80%9F%E9%80%9A%E7%89%88%EF%BC%89/"/>
     <id>https://reedrift.github.io/2025/%E6%95%B0%E5%AD%97%E9%80%BB%E8%BE%91%E8%AE%BE%E8%AE%A1%EF%BC%88%E9%80%9F%E9%80%9A%E7%89%88%EF%BC%89/</id>
     <published>2025-09-30T11:52:23.000Z</published>
-    <updated>2025-10-02T02:58:40.340Z</updated>
+    <updated>2025-10-02T08:17:52.680Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;Chapter-1-数字系统与信息&quot;&gt;&lt;a href=&quot;#Chapter-1-数字系统与信息&quot; class=&quot;headerlink&quot; title=&quot;Chapter-1 数字系统与信息&quot;&gt;&lt;/a&gt;Chapter-1 数字系统与信息&lt;/h2&gt;&lt;h3 id=&quot;十进制编码&quot;&gt;&lt;a href=&quot;#十进制编码&quot; class=&quot;headerlink&quot; title=&quot;十进制编码&quot;&gt;&lt;/a&gt;十进制编码&lt;/h3&gt;&lt;p&gt;BCD码是 &lt;strong&gt;十进制&lt;/strong&gt; 数，不是二进制数，即使它们都采用二进制位的组合来表示，如&lt;/p&gt;
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://note.isshikih.top/cour_note/D2QD_DigitalDesign/Chap01/&quot;&gt;Isshiki修’s Notebook&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Chapter-1-数字系统与信息&quot;&gt;&lt;a href=&quot;#Chapter-1-数字系统与信息&quot; class=&quot;headerlink&quot; title=&quot;Chapter-1 数字系统与信息&quot;&gt;&lt;/a&gt;Chapter-1 数字系统与信息&lt;/h2&gt;&lt;h3 id=&quot;十进制编码&quot;&gt;&lt;a href=&quot;#十进制编码&quot; class=&quot;headerlink&quot; title=&quot;十进制编码&quot;&gt;&lt;/a&gt;十进制编码&lt;/h3&gt;&lt;p&gt;BCD码是 &lt;strong&gt;十进制&lt;/strong&gt; 数，不是二进制数，即使它们都采用二进制位的组合来表示，如&lt;/p&gt;
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;
 (185)_{10}=(0001&#92;space1000&#92;space0101)_{&#92;mathrm{BCD}}=(10111001)_2&lt;/script&gt;</summary>
     
